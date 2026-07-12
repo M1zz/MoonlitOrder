@@ -182,6 +182,7 @@ struct VotingView: View {
 
     private var iVoted: Bool { state.player(game.playerID)?.hasActed ?? false }
     private var votedCount: Int { state.players.filter { $0.hasActed }.count }
+    @State private var pendingVote: Bool?
 
     var body: some View {
         VStack(spacing: 16) {
@@ -211,7 +212,7 @@ struct VotingView: View {
 
                 HStack(spacing: 14) {
                     Button {
-                        game.vote(approve: true)
+                        pendingVote = true
                     } label: {
                         VStack(spacing: 6) {
                             Image(systemName: "hand.thumbsup.fill").font(.title)
@@ -224,7 +225,7 @@ struct VotingView: View {
                     .foregroundColor(.black)
 
                     Button {
-                        game.vote(approve: false)
+                        pendingVote = false
                     } label: {
                         VStack(spacing: 6) {
                             Image(systemName: "hand.thumbsdown.fill").font(.title)
@@ -241,6 +242,20 @@ struct VotingView: View {
             }
 
             votersProgress
+        }
+        .confirmationDialog(
+            pendingVote == true ? "원정대에 '찬성'으로 투표할까요?" : "원정대에 '반대'로 투표할까요?",
+            isPresented: Binding(get: { pendingVote != nil },
+                                 set: { if !$0 { pendingVote = nil } }),
+            titleVisibility: .visible
+        ) {
+            Button("투표 확정") {
+                if let vote = pendingVote { game.vote(approve: vote) }
+                pendingVote = nil
+            }
+            Button("취소", role: .cancel) { pendingVote = nil }
+        } message: {
+            Text("제출한 표는 바꿀 수 없습니다.")
         }
     }
 

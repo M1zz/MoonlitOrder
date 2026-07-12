@@ -20,10 +20,19 @@ enum NetMessage: Codable {
     case playAgain(playerID: UUID)        // 같은 멤버로 재시작 (호스트 전용)
     case abortToLobby(playerID: UUID)     // 게임을 중단하고 대기실로 (호스트 전용)
 
+    // MARK: 라이어 게임 / 한밤의 늑대인간 (클라이언트 → 호스트)
+
+    case liarAction(playerID: UUID, action: LiarAction)
+    case wolfAction(playerID: UUID, action: WolfAction)
+
     // MARK: 호스트 → 클라이언트
 
     case state(PublicGameState)           // 항상 전체 상태를 전송 → 재접속 시에도 즉시 동기화
     case privateInfo(PrivateInfo)         // 본인 역할 등 비공개 정보 (개별 전송)
+    case liarState(LiarGameState)
+    case liarPrivate(LiarPrivateInfo)
+    case wolfState(WolfGameState)
+    case wolfPrivate(WolfPrivateInfo)
     case rejected(reason: String)         // 참가 거절
     case hostEnded                        // 호스트가 방을 닫음
 }

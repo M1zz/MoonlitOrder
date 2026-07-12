@@ -15,6 +15,10 @@ struct GameView: View {
                     .padding(.horizontal, 16)
             }
 
+            if let guide = demoGuide {
+                demoGuideCard(guide)
+            }
+
             phaseContent
                 .frame(maxHeight: .infinity)
 
@@ -123,11 +127,12 @@ struct GameView: View {
                             .foregroundColor(.white)
                     }
                 }
-                if game.isDemo {
+                // 결과 화면에는 큰 '다음으로' 버튼이 있으므로 '다음'은 행동 단계에서만 보인다
+                if game.isDemo, ![.voteResult, .missionResult].contains(state.phase) {
                     Button {
-                        game.skipDemoPhase()
+                        game.advanceDemo()
                     } label: {
-                        Label("넘어가기", systemImage: "forward.fill")
+                        Label("다음", systemImage: "forward.fill")
                             .font(.subheadline.bold())
                             .padding(.vertical, 10)
                             .padding(.horizontal, 18)
@@ -137,6 +142,47 @@ struct GameView: View {
                 }
             }
         }
+    }
+
+    // MARK: 게임방법(데모) 단계 안내
+
+    private var demoGuide: String? {
+        guard game.isDemo else { return nil }
+        switch state.phase {
+        case .roleReveal:
+            return "각자 자신의 역할을 남몰래 확인하는 단계입니다. 역할을 확인한 뒤 '다음'을 누르면 봇들도 확인을 마칩니다."
+        case .teamProposal:
+            return "리더가 이번 원정을 떠날 원정대를 지명합니다. '다음'을 누르면 리더가 팀을 고릅니다. (내가 리더라면 직접 골라보세요!)"
+        case .teamVoting:
+            return "전원이 원정대 구성에 찬성/반대를 투표합니다. 동수면 부결! 먼저 투표해보고 '다음'으로 봇들의 표를 확인하세요."
+        case .voteResult:
+            return "투표 결과입니다. 원정대가 5회 연속 부결되면 그림자 진영이 승리하니 무작정 반대만 할 수는 없어요."
+        case .mission:
+            return "원정대원만 성공/실패 카드를 냅니다. 달빛 결사는 성공만 낼 수 있고, 그림자만 몰래 실패를 낼 수 있어요. '다음'으로 원정대의 카드 제출을 지켜보세요."
+        case .missionResult:
+            return "실패 카드가 기준 수 이상이면 원정 실패! 어느 진영이든 먼저 3승을 가져가면 게임이 끝납니다."
+        case .assassination:
+            return "미션 3회가 성공해도 마지막 반전이 남아 있습니다 — 암살자가 예언자를 정확히 지목하면 그림자가 역전승합니다."
+        default:
+            return nil
+        }
+    }
+
+    private func demoGuideCard(_ text: String) -> some View {
+        HStack(alignment: .top, spacing: 10) {
+            Image(systemName: "lightbulb.fill")
+                .foregroundColor(Theme.gold)
+            Text(text)
+                .font(.footnote)
+                .foregroundColor(.white.opacity(0.9))
+                .fixedSize(horizontal: false, vertical: true)
+        }
+        .padding(12)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(
+            RoundedRectangle(cornerRadius: 12).fill(Theme.gold.opacity(0.12))
+        )
+        .padding(.horizontal, 16)
     }
 
     // MARK: 연결 끊김 안내

@@ -27,7 +27,13 @@ struct RootView: View {
             case .browsing, .connecting:
                 BrowseView()
             case .hosting, .playing:
-                if let state = game.publicState {
+                if game.showDemoIntro {
+                    DemoIntroView()
+                } else if let liarState = game.liarState {
+                    LiarRootView(state: liarState)
+                } else if let wolfState = game.wolfState {
+                    WolfRootView(state: wolfState)
+                } else if let state = game.publicState {
                     if state.phase == .lobby {
                         LobbyView(state: state)
                     } else {
@@ -52,8 +58,14 @@ struct RootView: View {
         }
         .onAppear {
             // 실행 인자로 게임방법(데모) 판을 바로 연다 (시뮬레이터 시연용)
-            if ProcessInfo.processInfo.arguments.contains("-demo"), game.mode == .idle {
-                game.startDemo()
+            guard game.mode == .idle else { return }
+            let args = ProcessInfo.processInfo.arguments
+            if args.contains("-demoLiar") {
+                game.startDemo(kind: .liar)
+            } else if args.contains("-demoWolf") {
+                game.startDemo(kind: .wolf)
+            } else if args.contains("-demo") {
+                game.startDemo(kind: .moonlit)
             }
         }
     }

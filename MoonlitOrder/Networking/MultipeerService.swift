@@ -18,10 +18,12 @@ final class MultipeerService: NSObject {
     struct DiscoveredHost: Identifiable, Equatable {
         let peer: MCPeerID
         let hostName: String
+        let gameName: String?
         var id: String { peer.displayName }
 
         static func == (lhs: DiscoveredHost, rhs: DiscoveredHost) -> Bool {
             lhs.peer == rhs.peer && lhs.hostName == rhs.hostName
+                && lhs.gameName == rhs.gameName
         }
     }
 
@@ -44,7 +46,7 @@ final class MultipeerService: NSObject {
     private var autoReconnect = false
     private var isInviting = false     // 초대(핸드셰이크) 중복 방지
     private var inviteGeneration = 0   // 이전 초대의 안전 타이머 무효화용
-    private var discovered: [MCPeerID: String] = [:]   // peer → 호스트 표시 이름
+    private var discovered: [MCPeerID: (host: String, game: String?)] = [:]
 
     // 콜백 (모두 메인 스레드에서 호출됨)
     var onMessage: ((NetMessage, MCPeerID) -> Void)?
@@ -88,10 +90,11 @@ final class MultipeerService: NSObject {
 
     // MARK: - 호스트
 
-    func startHosting(hostName: String) {
+    func startHosting(hostName: String, gameName: String = "") {
         _ = makeSession()
         let adv = MCNearbyServiceAdvertiser(peer: myPeerID,
-                                            discoveryInfo: ["host": hostName],
+                                            discoveryInfo: ["host": hostName,
+                                                            "game": gameName],
                                             serviceType: MultipeerService.serviceType)
         adv.delegate = self
         adv.startAdvertisingPeer()
@@ -275,7 +278,9 @@ final class MultipeerService: NSObject {
 
     private func publishHosts() {
         let hosts = discovered
-            .map { DiscoveredHost(peer: $0.key, hostName: $0.value) }
+            .map { DiscoveredHost(peer: $0.key,
+                                  hostName: $0.value.host,
+                                  gameName: $0.value.game) }
             .sorted { $0.hostName < $1.hostName }
         onHostsChanged?(hosts)
     }
@@ -379,7 +384,9 @@ extension MultipeerService: MCNearbyServiceBrowserDelegate {
                  withDiscoveryInfo info: [String: String]?) {
         DispatchQueue.main.async { [weak self] in
             guard let self else { return }
-            self.discovered[peerID] = info?["host"] ?? peerID.displayName
+            let game = (info?["game"]).flatMap { $0.isEmpty ? nil : $0 }
+            self.discovered[peerID] = (host: info?["host"] ?? peerID.displayName,
+                                       game: game)
             self.publishHosts()
 
             // 재접속 대상 호스트가 다시 나타나면 자동으로 초대

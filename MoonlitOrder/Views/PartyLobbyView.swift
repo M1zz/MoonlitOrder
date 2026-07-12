@@ -1,15 +1,19 @@
 import SwiftUI
 
-struct LobbyView: View {
+/// 라이어 게임·한밤의 늑대인간 공용 대기실.
+/// (달빛 결사는 진영 구성 안내가 있는 전용 LobbyView를 쓴다)
+struct PartyLobbyView: View {
     @EnvironmentObject var game: GameViewModel
-    let state: PublicGameState
+    let title: String
+    let subtitle: String
+    let players: [PlayerPublic]
+    let range: ClosedRange<Int>
+    let onStart: () -> Void
 
-    private var countOK: Bool {
-        GameRules.playerRange.contains(state.players.count)
-    }
+    private var countOK: Bool { range.contains(players.count) }
 
     var body: some View {
-        VStack(spacing: 18) {
+        VStack(spacing: 16) {
             HStack {
                 Button {
                     game.leaveGame()
@@ -18,39 +22,29 @@ struct LobbyView: View {
                         .foregroundColor(.white.opacity(0.8))
                 }
                 Spacer()
-                Text(game.isHost ? "내가 만든 방" : "대기실")
-                    .font(.headline)
-                    .foregroundColor(.white)
-                Spacer()
-                // 좌우 균형용 투명 요소
-                Label("나가기", systemImage: "xmark").opacity(0)
             }
             .padding(.horizontal, 20)
             .padding(.top, 8)
 
-            VStack(spacing: 4) {
-                Image(systemName: "moon.stars.fill")
-                    .font(.largeTitle)
-                    .foregroundColor(Theme.gold)
-                Text("달빛 결사")
+            VStack(spacing: 6) {
+                Text(title)
                     .font(.title.weight(.heavy))
                     .foregroundColor(.white)
-                Text("참가자 \(state.players.count)명 · \(GameRules.playerRange.lowerBound)~\(GameRules.playerRange.upperBound)명 필요")
+                Text(subtitle)
                     .font(.subheadline)
+                    .foregroundColor(.white.opacity(0.65))
+                Text("\(players.count)명 참가 중 (\(range.lowerBound)~\(range.upperBound)명)")
+                    .font(.caption)
                     .foregroundColor(countOK ? Theme.moonlit : .white.opacity(0.6))
             }
 
             ScrollView {
                 VStack(spacing: 8) {
-                    ForEach(state.players) { p in
+                    ForEach(players) { p in
                         PlayerRow(player: p, isMe: p.id == game.playerID)
                     }
                 }
                 .padding(.horizontal, 20)
-            }
-
-            if state.players.count >= GameRules.playerRange.lowerBound {
-                shadowCountInfo
             }
 
             if game.isDemo {
@@ -61,10 +55,8 @@ struct LobbyView: View {
             }
 
             if game.isHost {
-                Button {
-                    game.startGame()
-                } label: {
-                    Text(countOK ? "게임 시작" : "최소 \(GameRules.playerRange.lowerBound)명이 필요합니다")
+                Button(action: onStart) {
+                    Text(countOK ? "게임 시작" : "최소 \(range.lowerBound)명이 필요합니다")
                 }
                 .buttonStyle(BigButtonStyle())
                 .disabled(!countOK)
@@ -78,13 +70,5 @@ struct LobbyView: View {
             }
         }
         .padding(.bottom, 16)
-    }
-
-    private var shadowCountInfo: some View {
-        let n = state.players.count
-        let shadows = GameRules.shadowCount(for: n)
-        return Text("이 인원이면 그림자 진영 \(shadows)명 · 달빛 결사 \(n - shadows)명")
-            .font(.caption)
-            .foregroundColor(.white.opacity(0.55))
     }
 }
