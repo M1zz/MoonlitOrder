@@ -341,6 +341,8 @@ final class GameViewModel: ObservableObject {
             }
         case .wolf:
             setupWolfEngine()
+            // 마을 사람이 걸리면 능력을 체험하지 못하므로 행동 역할을 보장
+            wolfEngine?.guaranteeActionRoleFor = playerID
             wolfEngine?.join(playerID: playerID, name: trimmedName, isHost: true)
             if let wolfEngine {
                 let driver = WolfDemoDriver(engine: wolfEngine, hostID: playerID)
@@ -349,6 +351,11 @@ final class GameViewModel: ObservableObject {
             }
         }
         mode = .hosting
+    }
+
+    /// 데모(달 없는 밤) 전용: 연습에서만 공개하는 '밤사이 일어난 일' 요약
+    func demoNightSummary() -> String? {
+        wolfDemoDriver?.nightSummary()
     }
 
     /// 데모: '다음' — 현재 단계에서 남은 참가자(봇)의 행동을 실행해 한 단계 진행한다.

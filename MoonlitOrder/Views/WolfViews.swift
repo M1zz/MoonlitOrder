@@ -424,6 +424,27 @@ struct WolfDayView: View {
                     .foregroundColor(.white.opacity(0.45))
             }
 
+            if game.isDemo, let summary = game.demoNightSummary() {
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 8) {
+                        Label("밤사이 일어난 일 (연습에서만 공개)", systemImage: "moon.zzz.fill")
+                            .font(.footnote.bold())
+                            .foregroundColor(Theme.gold)
+                        Text(summary)
+                            .font(.footnote)
+                            .foregroundColor(.white.opacity(0.85))
+                            .fixedSize(horizontal: false, vertical: true)
+                        Text("실제 게임에서는 아무것도 공개되지 않아요. 그래서 토론이 중요합니다!")
+                            .font(.caption2)
+                            .foregroundColor(.white.opacity(0.5))
+                    }
+                    .padding(14)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .cardStyle()
+                    .padding(.horizontal, 20)
+                }
+            }
+
             Spacer()
 
             if game.isHost {

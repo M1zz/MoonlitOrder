@@ -48,6 +48,10 @@ final class WolfEngine {
     var onStateChange: ((WolfGameState) -> Void)?
     var onPrivateInfo: ((UUID, WolfPrivateInfo) -> Void)?
 
+    /// 게임방법(데모) 전용: 이 플레이어에게 밤 행동이 있는 역할을 보장한다.
+    /// (마을 사람이 걸리면 능력·카드 교환 시스템을 전혀 체험하지 못하므로)
+    var guaranteeActionRoleFor: UUID?
+
     private var hostID: UUID? { players.first { $0.isHost }?.id }
 
     // MARK: - 참가 / 연결 (달빛 결사와 동일한 규약)
@@ -127,6 +131,27 @@ final class WolfEngine {
             players[i].troublemakerTargets = []
         }
         center = deck   // 남은 3장
+
+        // 데모: 사용자가 마을 사람이면 밤 행동이 있는 역할과 카드를 바꿔준다
+        if let favored = guaranteeActionRoleFor,
+           let fIdx = players.firstIndex(where: { $0.id == favored }),
+           players[fIdx].originalRole == .villager {
+            if let donor = players.indices.first(where: {
+                players[$0].originalRole != .villager && players[$0].id != favored
+            }) {
+                let role = players[donor].originalRole
+                players[donor].originalRole = .villager
+                players[donor].currentRole = .villager
+                players[fIdx].originalRole = role
+                players[fIdx].currentRole = role
+            } else if let cIdx = center.firstIndex(where: { $0 != .villager }) {
+                let role = center[cIdx]
+                center[cIdx] = .villager
+                players[fIdx].originalRole = role
+                players[fIdx].currentRole = role
+            }
+        }
+
         lastVotes = [:]
         executedIDs = []
         villageWins = nil

@@ -86,6 +86,37 @@ final class WolfDemoDriver {
         }
     }
 
+    /// 연습에서만 공개하는 '밤사이 일어난 일' 요약.
+    /// 실제 게임에서는 절대 볼 수 없는 정보지만, 능력·카드 교환 시스템을
+    /// 배우려면 무슨 일이 있었는지 봐야 하므로 데모에서만 보여준다.
+    func nightSummary() -> String? {
+        guard let engine else { return nil }
+        var lines: [String] = []
+        for player in engine.players {
+            switch player.originalRole {
+            case .werewolf:
+                lines.append("🔥 도깨비 \(player.name)이(가) 어둠 속에서 눈을 떴습니다.")
+            case .seer:
+                lines.append("👁 무당 \(player.name)이(가) 남몰래 카드를 확인했습니다.")
+            case .robber:
+                if let targetID = player.robberTarget,
+                   let target = engine.players.first(where: { $0.id == targetID }) {
+                    lines.append("🤝 밤손님 \(player.name)이(가) \(target.name)의 카드를 훔쳐 서로 바뀌었습니다!")
+                }
+            case .troublemaker:
+                let names = player.troublemakerTargets.compactMap { id in
+                    engine.players.first { $0.id == id }?.name
+                }
+                if names.count == 2 {
+                    lines.append("🔀 장난꾼 \(player.name)이(가) \(names[0])과(와) \(names[1])의 카드를 서로 바꿨습니다!")
+                }
+            case .villager:
+                break
+            }
+        }
+        return lines.isEmpty ? nil : lines.joined(separator: "\n")
+    }
+
     private func schedule(after delay: TimeInterval,
                           _ action: @escaping (WolfEngine) -> Void) {
         let item = DispatchWorkItem { [weak self] in
