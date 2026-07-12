@@ -69,7 +69,11 @@ struct GameView: View {
                     .foregroundColor(.white)
             }
             Spacer()
-            Image(systemName: "xmark").opacity(0)   // 균형용
+            if let seconds = state.phaseSeconds, state.phase != .gameOver {
+                PhaseTimerView(seconds: seconds, startedAt: state.phaseStartedAt)
+            } else {
+                Image(systemName: "xmark").opacity(0)   // 균형용
+            }
         }
         .padding(.horizontal, 20)
         .padding(.top, 8)
@@ -105,16 +109,32 @@ struct GameView: View {
 
     @ViewBuilder
     private var footer: some View {
-        if state.phase != .gameOver, game.privateInfo != nil {
-            Button {
-                showRoleSheet = true
-            } label: {
-                Label("내 역할 보기", systemImage: "person.text.rectangle")
-                    .font(.subheadline.bold())
-                    .padding(.vertical, 10)
-                    .padding(.horizontal, 18)
-                    .background(Capsule().fill(Color.white.opacity(0.12)))
-                    .foregroundColor(.white)
+        if state.phase != .gameOver {
+            HStack(spacing: 12) {
+                if game.privateInfo != nil {
+                    Button {
+                        showRoleSheet = true
+                    } label: {
+                        Label("내 역할 보기", systemImage: "person.text.rectangle")
+                            .font(.subheadline.bold())
+                            .padding(.vertical, 10)
+                            .padding(.horizontal, 18)
+                            .background(Capsule().fill(Color.white.opacity(0.12)))
+                            .foregroundColor(.white)
+                    }
+                }
+                if game.isDemo {
+                    Button {
+                        game.skipDemoPhase()
+                    } label: {
+                        Label("넘어가기", systemImage: "forward.fill")
+                            .font(.subheadline.bold())
+                            .padding(.vertical, 10)
+                            .padding(.horizontal, 18)
+                            .background(Capsule().fill(Theme.gold.opacity(0.25)))
+                            .foregroundColor(Theme.gold)
+                    }
+                }
             }
         }
     }
@@ -144,6 +164,33 @@ struct GameView: View {
         .padding(.horizontal, 14)
         .background(Capsule().fill(color.opacity(0.9)))
         .padding(.top, 4)
+    }
+}
+
+// MARK: - 단계 타이머
+
+/// 현재 단계의 남은 시간을 보여주는 카운트다운.
+/// 호스트가 정한 단계 시작 시각 기준이라 모든 기기가 같은 시간을 본다.
+/// 시간이 다 되어도 행동을 강제하지는 않는다 (재촉용).
+struct PhaseTimerView: View {
+    let seconds: Int
+    let startedAt: Date
+
+    var body: some View {
+        TimelineView(.periodic(from: startedAt, by: 1)) { context in
+            let elapsed = Int(context.date.timeIntervalSince(startedAt))
+            let remaining = max(0, seconds - elapsed)
+            let urgent = remaining <= 10
+            Label(remaining > 0 ? "\(remaining)" : "시간 초과",
+                  systemImage: "timer")
+                .font(.subheadline.bold().monospacedDigit())
+                .foregroundColor(urgent ? Theme.shadow : .white.opacity(0.85))
+                .padding(.vertical, 6)
+                .padding(.horizontal, 10)
+                .background(
+                    Capsule().fill((urgent ? Theme.shadow : Color.white).opacity(0.15))
+                )
+        }
     }
 }
 

@@ -54,6 +54,15 @@ struct HomeView: View {
                 }
                 .buttonStyle(BigButtonStyle(color: Color.white.opacity(0.12),
                                             textColor: .white))
+
+                Button {
+                    nameFocused = false
+                    game.startDemo()
+                } label: {
+                    Label("게임방법", systemImage: "questionmark.circle")
+                }
+                .buttonStyle(BigButtonStyle(color: Color.white.opacity(0.12),
+                                            textColor: .white))
             }
             .padding(.horizontal, 28)
 

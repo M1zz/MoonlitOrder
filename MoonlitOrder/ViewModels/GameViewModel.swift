@@ -32,7 +32,11 @@ final class GameViewModel: ObservableObject {
 
     private var service: MultipeerService?
     private var engine: GameEngine?
+    private var demoDriver: DemoDriver?
     private(set) var isHost = false
+
+    /// 게임방법(데모) 모드 여부 — 봇들이 자동으로 플레이하는 관전용 판
+    var isDemo: Bool { demoDriver != nil }
 
     private var peerForPlayer: [UUID: MCPeerID] = [:]
     private var playerForPeer: [MCPeerID: UUID] = [:]
@@ -183,6 +187,45 @@ final class GameViewModel: ObservableObject {
         }
     }
 
+    // MARK: - 게임방법 (데모 모드)
+
+    /// 봇 6명이 자동으로 플레이하는 데모 판을 연다. 네트워크 없이 로컬에서 돌며,
+    /// 사용자는 관전하거나 자기 차례의 행동(투표 등)을 직접 해볼 수도 있다.
+    func startDemo() {
+        cleanup()
+        isHost = true
+        UIApplication.shared.isIdleTimerDisabled = true
+
+        let engine = GameEngine()
+        self.engine = engine
+
+        engine.onStateChange = { [weak self] state in
+            guard let self else { return }
+            Task { @MainActor in
+                self.publicState = state
+                self.demoDriver?.react(to: state)
+            }
+        }
+        engine.onPrivateInfo = { [weak self] pid, info in
+            guard let self else { return }
+            Task { @MainActor in
+                if pid == self.playerID { self.privateInfo = info }
+            }
+        }
+
+        engine.join(playerID: playerID, name: trimmedName, isHost: true)
+        let driver = DemoDriver(engine: engine, hostID: playerID)
+        demoDriver = driver
+        mode = .hosting
+        driver.start()
+    }
+
+    /// 데모: 현재 단계를 즉시 진행시켜 다음 단계로 넘어간다.
+    func skipDemoPhase() {
+        guard let state = publicState else { return }
+        demoDriver?.skip(state: state)
+    }
+
     // MARK: - 클라이언트 참가
 
     func startBrowsing() {
@@ -331,8 +374,12 @@ final class GameViewModel: ObservableObject {
         resyncTimer?.invalidate()
         resyncTimer = nil
         cancelReconnectDeadline()
+        demoDriver?.stop()
+        demoDriver = nil
         service?.stop()
         service = nil
+        engine?.onStateChange = nil
+        engine?.onPrivateInfo = nil
         engine = nil
         publicState = nil
         privateInfo = nil

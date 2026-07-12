@@ -26,7 +26,10 @@ final class GameEngine {
     // MARK: 상태
 
     private(set) var players: [PlayerInternal] = []
-    private(set) var phase: GamePhase = .lobby
+    private(set) var phase: GamePhase = .lobby {
+        didSet { if oldValue != phase { phaseStartedAt = Date() } }
+    }
+    private var phaseStartedAt = Date()
     private var round = 1
     private var leaderIndex = 0
     private var proposedTeam: [UUID] = []
@@ -376,6 +379,8 @@ final class GameEngine {
         s.winReason = winReason
         s.assassinTargetName = assassinTargetName
         s.revealedRoles = revealedRoles
+        s.phaseSeconds = GameRules.phaseSeconds(for: phase)
+        s.phaseStartedAt = phaseStartedAt
         return s
     }
 

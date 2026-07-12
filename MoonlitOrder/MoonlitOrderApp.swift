@@ -50,5 +50,11 @@ struct RootView: View {
         .onChange(of: scenePhase) { newPhase in
             game.handleScenePhase(newPhase)
         }
+        .onAppear {
+            // 실행 인자로 게임방법(데모) 판을 바로 연다 (시뮬레이터 시연용)
+            if ProcessInfo.processInfo.arguments.contains("-demo"), game.mode == .idle {
+                game.startDemo()
+            }
+        }
     }
 }

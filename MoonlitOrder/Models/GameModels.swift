@@ -107,6 +107,10 @@ struct PublicGameState: Codable, Equatable {
     var assassinTargetName: String?
     var revealedRoles: [String: Role]?     // playerID.uuidString → 역할 (게임 종료 시)
 
+    // 단계 타이머 (호스트 기준 — 모든 기기가 같은 시간을 본다)
+    var phaseSeconds: Int?                 // 현재 단계 제한시간, nil이면 타이머 없음
+    var phaseStartedAt: Date = Date()      // 현재 단계 시작 시각
+
     // MARK: 계산 속성
 
     var requiredTeamSize: Int {
@@ -167,6 +171,20 @@ enum GameRules {
         var fails = [1, 1, 1, 1, 1]
         if playerCount >= 7 { fails[3] = 2 }
         return fails
+    }
+
+    /// 단계별 제한시간(초). 결과 화면·로비·종료 화면은 타이머가 없다.
+    /// 시간이 다 되어도 행동을 강제하지는 않는다 (재촉용 소프트 타이머).
+    static func phaseSeconds(for phase: GamePhase) -> Int? {
+        switch phase {
+        case .roleReveal:    return 45
+        case .teamProposal:  return 90
+        case .teamVoting:    return 30
+        case .mission:       return 30
+        case .assassination: return 90
+        case .lobby, .voteResult, .missionResult, .gameOver:
+            return nil
+        }
     }
 
     /// 역할 목록 생성 (셔플됨)
