@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>달빛 결사</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>주변 친구들의 아이폰과 직접 연결해 보드게임을 함께 플레이하기 위해 로컬 네트워크 접근이 필요합니다.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_moonorder._tcp</string>
+		<string>_moonorder._udp</string>
+	</array>
+</dict>
+</plist>
