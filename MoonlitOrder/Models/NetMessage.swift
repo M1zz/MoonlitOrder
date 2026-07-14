@@ -24,6 +24,7 @@ enum NetMessage: Codable {
 
     case liarAction(playerID: UUID, action: LiarAction)
     case wolfAction(playerID: UUID, action: WolfAction)
+    case sketchAction(playerID: UUID, action: SketchAction)
 
     // MARK: 호스트 → 클라이언트
 
@@ -33,6 +34,8 @@ enum NetMessage: Codable {
     case liarPrivate(LiarPrivateInfo)
     case wolfState(WolfGameState)
     case wolfPrivate(WolfPrivateInfo)
+    case sketchState(SketchGameState)
+    case sketchPrivate(SketchPrivateInfo)
     case rejected(reason: String)         // 참가 거절
     case hostEnded                        // 호스트가 방을 닫음
 }

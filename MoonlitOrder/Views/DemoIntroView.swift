@@ -12,6 +12,7 @@ struct DemoIntroView: View {
         case .moonlit: return "moon.stars.fill"
         case .liar:    return "theatermasks.fill"
         case .wolf:    return "flame.fill"
+        case .sketch:  return "paintbrush.pointed.fill"
         }
     }
 
@@ -20,6 +21,7 @@ struct DemoIntroView: View {
         case .moonlit: return Theme.gold
         case .liar:    return Theme.moonlit
         case .wolf:    return Theme.shadow
+        case .sketch:  return Theme.mint
         }
     }
 
@@ -31,6 +33,8 @@ struct DemoIntroView: View {
             return "라이어 한 명만 빼고 전원이 같은 제시어를 받습니다. 돌아가며 제시어를 한 마디씩 설명하며 서로가 진짜인지 확인하세요. 라이어는 제시어를 모른 채 아는 척 연기해야 합니다."
         case .wolf:
             return "마을에 도깨비가 숨어들었습니다! 밤에 각자 비밀 행동으로 정보를 얻거나 카드를 몰래 뒤바꾸고, 낮에 토론한 뒤 단 한 번의 투표로 추방할 사람을 정합니다. 밤사이 카드가 바뀔 수 있어 승패는 '최종 카드' 기준입니다."
+        case .sketch:
+            return "매 라운드 한 명이 '화가'가 되어 제시어를 그림으로만 표현합니다. 나머지는 그림을 보고 채팅으로 정답을 맞혀요. 글자나 숫자는 쓸 수 없습니다. 모든 참가자가 한 번씩 화가를 맡으면 게임이 끝납니다."
         }
     }
 
@@ -56,6 +60,13 @@ struct DemoIntroView: View {
                  "도깨비(최종 카드 기준)를 추방하면 승리. 도깨비가 모두 중앙 카드에 있다면, 아무도 추방하지 않아야 승리."),
                 ("도깨비", Theme.shadow,
                  "도깨비가 한 명도 추방되지 않으면 승리 — 애꿎은 사람이 추방돼도 이겨요."),
+            ]
+        case .sketch:
+            return [
+                ("맞히는 사람", Theme.mint,
+                 "그림을 보고 제시어를 빨리 맞힐수록 높은 점수! 정답을 맞히면 점수를 얻습니다."),
+                ("화가", Theme.gold,
+                 "내가 그린 그림을 많은 사람이 맞힐수록 점수를 얻어요. 누구나 알아볼 수 있게 그리는 게 관건!"),
             ]
         }
     }

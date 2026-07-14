@@ -19,12 +19,14 @@ final class GameViewModel: ObservableObject {
         case moonlit   // 달빛 결사 (오리지널)
         case liar      // 라이어 게임 (민속 파티게임 — 관용 명칭)
         case wolf      // 달 없는 밤 (한국 설화 테마 오리지널)
+        case sketch    // 달빛 화실 (그림 맞추기 — 오리지널 테마)
 
         var displayName: String {
             switch self {
             case .moonlit: return "달빛 결사"
             case .liar:    return "라이어 게임"
             case .wolf:    return "달 없는 밤"
+            case .sketch:  return "달빛 화실"
             }
         }
     }
@@ -41,6 +43,8 @@ final class GameViewModel: ObservableObject {
     @Published var liarPrivate: LiarPrivateInfo?
     @Published var wolfState: WolfGameState?
     @Published var wolfPrivate: WolfPrivateInfo?
+    @Published var sketchState: SketchGameState?
+    @Published var sketchPrivate: SketchPrivateInfo?
     @Published var hosts: [MultipeerService.DiscoveredHost] = []
     @Published var connectionLost = false      // 클라이언트: 재접속 시도 중
     @Published var errorMessage: String?
@@ -53,16 +57,19 @@ final class GameViewModel: ObservableObject {
     private var engine: GameEngine?
     private var liarEngine: LiarEngine?
     private var wolfEngine: WolfEngine?
+    private var sketchEngine: SketchEngine?
     private var demoDriver: DemoDriver?
     private var liarDemoDriver: LiarDemoDriver?
     private var wolfDemoDriver: WolfDemoDriver?
+    private var sketchDemoDriver: SketchDemoDriver?
     private(set) var isHost = false
     private(set) var gameKind: GameKind = .moonlit
     private(set) var browseFilter: GameKind?
 
     /// 게임방법(데모) 모드 여부 — 봇들과 함께 단계별로 배우는 판
     var isDemo: Bool {
-        demoDriver != nil || liarDemoDriver != nil || wolfDemoDriver != nil
+        demoDriver != nil || liarDemoDriver != nil
+            || wolfDemoDriver != nil || sketchDemoDriver != nil
     }
 
     private var peerForPlayer: [UUID: MCPeerID] = [:]
@@ -115,6 +122,7 @@ final class GameViewModel: ObservableObject {
         case .moonlit: setupMoonlitEngine()
         case .liar:    setupLiarEngine()
         case .wolf:    setupWolfEngine()
+        case .sketch:  setupSketchEngine()
         }
 
         let service = MultipeerService(role: .host,
@@ -127,6 +135,7 @@ final class GameViewModel: ObservableObject {
         case .moonlit: engine?.join(playerID: playerID, name: trimmedName, isHost: true)
         case .liar:    liarEngine?.join(playerID: playerID, name: trimmedName, isHost: true)
         case .wolf:    wolfEngine?.join(playerID: playerID, name: trimmedName, isHost: true)
+        case .sketch:  sketchEngine?.join(playerID: playerID, name: trimmedName, isHost: true)
         }
         startResyncTimer()
         mode = .hosting
@@ -216,6 +225,34 @@ final class GameViewModel: ObservableObject {
         }
     }
 
+    private func setupSketchEngine() {
+        let engine = SketchEngine()
+        sketchEngine = engine
+
+        engine.onStateChange = { [weak self] state in
+            guard let self else { return }
+            Task { @MainActor in
+                self.sketchState = state
+                self.prunePeerMappings(keeping: state.players.map(\.id))
+                self.service?.broadcast(.sketchState(state))
+                self.updateAdvertising(lobby: state.phase == .lobby,
+                                       playerCount: state.players.count,
+                                       maxPlayers: SketchRules.playerRange.upperBound,
+                                       anyDisconnected: !state.disconnectedPlayers.isEmpty)
+            }
+        }
+        engine.onPrivateInfo = { [weak self] pid, info in
+            guard let self else { return }
+            Task { @MainActor in
+                if pid == self.playerID {
+                    self.sketchPrivate = info
+                } else if let peer = self.peerForPlayer[pid] {
+                    self.service?.send(.sketchPrivate(info), to: peer)
+                }
+            }
+        }
+    }
+
     /// 상태 브로드캐스트가 전송 실패로 유실돼도 복구되도록 주기적으로 최신 전체
     /// 상태를 재전송한다. (전체 상태 스냅샷 설계라 중복 수신은 무해하다)
     private func startResyncTimer() {
@@ -237,6 +274,7 @@ final class GameViewModel: ObservableObject {
         case .moonlit: return publicState.map { NetMessage.state($0) }
         case .liar:    return liarState.map { NetMessage.liarState($0) }
         case .wolf:    return wolfState.map { NetMessage.wolfState($0) }
+        case .sketch:  return sketchState.map { NetMessage.sketchState($0) }
         }
     }
 
@@ -268,6 +306,7 @@ final class GameViewModel: ObservableObject {
                     self.engine?.setConnected(pid, false)
                     self.liarEngine?.setConnected(pid, false)
                     self.wolfEngine?.setConnected(pid, false)
+                    self.sketchEngine?.setConnected(pid, false)
                 }
             }
         }
@@ -287,6 +326,9 @@ final class GameViewModel: ObservableObject {
             case .wolf:
                 guard let wolfEngine else { return }
                 result = wolfEngine.join(playerID: pid, name: name, isHost: false)
+            case .sketch:
+                guard let sketchEngine else { return }
+                result = sketchEngine.join(playerID: pid, name: name, isHost: false)
             }
             switch result {
             case .joined, .rejoined:
@@ -305,6 +347,8 @@ final class GameViewModel: ObservableObject {
             liarEngine?.handle(pid, action)
         case .wolfAction(let pid, let action):
             wolfEngine?.handle(pid, action)
+        case .sketchAction(let pid, let action):
+            sketchEngine?.handle(pid, action)
         default:
             engine?.handle(message)
         }
@@ -314,11 +358,11 @@ final class GameViewModel: ObservableObject {
 
     /// 봇들과 함께 한 단계씩 배우는 데모 판을 연다. 네트워크 없이 로컬에서 돌며,
     /// 사용자는 자기 차례의 행동을 직접 해보고 '다음'으로 봇들을 진행시킨다.
-    func startDemo(kind: GameKind = .moonlit) {
+    func startDemo(kind: GameKind = .moonlit, auto: Bool = false) {
         cleanup()
         isHost = true
         gameKind = kind
-        showDemoIntro = true   // 먼저 게임 목적·승리 조건을 보여준다
+        showDemoIntro = !auto  // 먼저 게임 목적·승리 조건을 보여준다 (자동 시연은 건너뜀)
         UIApplication.shared.isIdleTimerDisabled = true
 
         // 서비스가 없으므로 브로드캐스트/광고는 자연스럽게 무시된다
@@ -349,6 +393,15 @@ final class GameViewModel: ObservableObject {
                 wolfDemoDriver = driver
                 driver.start()
             }
+        case .sketch:
+            setupSketchEngine()
+            if let sketchEngine {
+                // 드라이버가 사용자를 첫 화가로 지정하므로 join 전에 생성한다
+                let driver = SketchDemoDriver(engine: sketchEngine, hostID: playerID, auto: auto)
+                sketchDemoDriver = driver
+                sketchEngine.join(playerID: playerID, name: trimmedName, isHost: true)
+                driver.start()
+            }
         }
         mode = .hosting
     }
@@ -367,6 +420,8 @@ final class GameViewModel: ObservableObject {
             if let state = liarState { liarDemoDriver?.advance(from: state) }
         case .wolf:
             if let state = wolfState { wolfDemoDriver?.advance(from: state) }
+        case .sketch:
+            if let state = sketchState { sketchDemoDriver?.advance(from: state) }
         }
     }
 
@@ -471,6 +526,19 @@ final class GameViewModel: ObservableObject {
             }
         case .wolfPrivate(let info):
             if info != wolfPrivate { wolfPrivate = info }
+        case .sketchState(let state):
+            gameKind = .sketch
+            if state != sketchState { sketchState = state }
+            if connectionLost { connectionLost = false }
+            cancelReconnectDeadline()
+            if mode == .connecting { mode = .playing }
+            if state.phase != .lobby, sketchPrivate == nil,
+               Date().timeIntervalSince(lastPrivateInfoRequest) > 3 {
+                lastPrivateInfoRequest = Date()
+                service?.sendToHost(.join(playerID: playerID, name: trimmedName))
+            }
+        case .sketchPrivate(let info):
+            if info != sketchPrivate { sketchPrivate = info }
         case .rejected(let reason):
             errorMessage = reason
             leaveGame()
@@ -507,6 +575,15 @@ final class GameViewModel: ObservableObject {
             wolfEngine?.handle(playerID, action)
         } else {
             service?.sendToHost(.wolfAction(playerID: playerID, action: action))
+        }
+    }
+
+    /// 달빛 화실 액션
+    func performSketch(_ action: SketchAction) {
+        if isHost {
+            sketchEngine?.handle(playerID, action)
+        } else {
+            service?.sendToHost(.sketchAction(playerID: playerID, action: action))
         }
     }
 
@@ -576,6 +653,8 @@ final class GameViewModel: ObservableObject {
         liarDemoDriver = nil
         wolfDemoDriver?.stop()
         wolfDemoDriver = nil
+        sketchDemoDriver?.stop()
+        sketchDemoDriver = nil
         browseFilter = nil
         showDemoIntro = false
         service?.stop()
@@ -589,12 +668,17 @@ final class GameViewModel: ObservableObject {
         wolfEngine?.onStateChange = nil
         wolfEngine?.onPrivateInfo = nil
         wolfEngine = nil
+        sketchEngine?.onStateChange = nil
+        sketchEngine?.onPrivateInfo = nil
+        sketchEngine = nil
         publicState = nil
         privateInfo = nil
         liarState = nil
         liarPrivate = nil
         wolfState = nil
         wolfPrivate = nil
+        sketchState = nil
+        sketchPrivate = nil
         gameKind = .moonlit
         hosts = []
         connectionLost = false

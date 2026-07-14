@@ -95,6 +95,11 @@ struct HomeView: View {
                          desc: "3~10인 · 도깨비가 숨어든 하룻밤 추리") {
                     selectedGame = .wolf
                 }
+                gameCard(icon: "paintbrush.pointed.fill", color: Theme.mint,
+                         title: "달빛 화실",
+                         desc: "3~10인 · 한 명이 그리고 나머지가 맞히는 그림 놀이") {
+                    selectedGame = .sketch
+                }
 
                 Button {
                     nameFocused = false
@@ -135,6 +140,7 @@ struct GameMenuView: View {
         case .moonlit: return "moon.stars.fill"
         case .liar:    return "theatermasks.fill"
         case .wolf:    return "flame.fill"
+        case .sketch:  return "paintbrush.pointed.fill"
         }
     }
 
@@ -143,6 +149,7 @@ struct GameMenuView: View {
         case .moonlit: return Theme.gold
         case .liar:    return Theme.moonlit
         case .wolf:    return Theme.shadow
+        case .sketch:  return Theme.mint
         }
     }
 
@@ -154,6 +161,8 @@ struct GameMenuView: View {
             return "라이어만 빼고 모두 같은 제시어를 받는 3~10인 눈치 게임. 한 마디씩 설명한 뒤 라이어를 찾아내세요. 라이어는 잡혀도 제시어를 맞히면 역전승!"
         case .wolf:
             return "도깨비가 숨어든 하룻밤의 3~10인 추리 게임. 밤사이 카드가 뒤바뀌고, 단 한 번의 투표로 승패가 갈립니다."
+        case .sketch:
+            return "매 라운드 한 명이 제시어를 그림으로 그리고, 나머지는 채팅으로 맞히는 3~10인 그림 놀이. 빨리 맞힐수록 높은 점수! 모두 한 번씩 그리면 최고 점수자가 승리합니다."
         }
     }
 
@@ -184,7 +193,7 @@ struct GameMenuView: View {
                         Label("방 만들기 (호스트)", systemImage: "house.fill")
                     }
                     .buttonStyle(BigButtonStyle(color: color,
-                                                textColor: kind == .moonlit ? .black : .white))
+                                                textColor: (kind == .moonlit || kind == .sketch) ? .black : .white))
 
                     Button {
                         dismiss()

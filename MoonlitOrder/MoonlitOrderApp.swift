@@ -33,6 +33,8 @@ struct RootView: View {
                     LiarRootView(state: liarState)
                 } else if let wolfState = game.wolfState {
                     WolfRootView(state: wolfState)
+                } else if let sketchState = game.sketchState {
+                    SketchRootView(state: sketchState)
                 } else if let state = game.publicState {
                     if state.phase == .lobby {
                         LobbyView(state: state)
@@ -64,6 +66,10 @@ struct RootView: View {
                 game.startDemo(kind: .liar)
             } else if args.contains("-demoWolf") {
                 game.startDemo(kind: .wolf)
+            } else if args.contains("-demoSketchAuto") {
+                game.startDemo(kind: .sketch, auto: true)
+            } else if args.contains("-demoSketch") {
+                game.startDemo(kind: .sketch)
             } else if args.contains("-demo") {
                 game.startDemo(kind: .moonlit)
             }

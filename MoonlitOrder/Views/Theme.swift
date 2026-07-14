@@ -13,6 +13,7 @@ enum Theme {
     static let moonlit = Color(red: 0.45, green: 0.75, blue: 1.0)   // 달빛(선) — 청색
     static let shadow  = Color(red: 0.95, green: 0.35, blue: 0.42)  // 그림자(악) — 적색
     static let gold    = Color(red: 0.95, green: 0.78, blue: 0.35)
+    static let mint    = Color(red: 0.35, green: 0.82, blue: 0.72)   // 달빛 화실 — 민트
 
     static func teamColor(_ team: Team) -> Color {
         team == .moonlit ? moonlit : shadow
