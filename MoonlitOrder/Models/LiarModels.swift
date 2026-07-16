@@ -62,7 +62,7 @@ enum LiarAction: Codable {
 // MARK: - 규칙 / 단어 은행
 
 enum LiarRules {
-    static let playerRange = 3...10
+    static let playerRange = 3...15
     static let guessChoiceCount = 12
 
     static func phaseSeconds(for phase: LiarPhase) -> Int? {

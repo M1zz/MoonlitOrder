@@ -110,7 +110,7 @@ enum SketchAction: Codable {
 // MARK: - 규칙 / 단어 은행 / 팔레트
 
 enum SketchRules {
-    static let playerRange = 3...10
+    static let playerRange = 3...15
     static let wordChoiceCount = 3
     static let maxChatLines = 40
 

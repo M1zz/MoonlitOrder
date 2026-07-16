@@ -50,6 +50,53 @@ final class GameViewModel: ObservableObject {
     @Published var errorMessage: String?
     @Published var showDemoIntro = false       // 게임방법: 목적·승리조건 안내 화면
 
+    /// 시연용(-autoJoin): 방이 발견되면 자동으로 참가한다
+    var autoJoinRoom = false
+
+    // MARK: - 마지막 방 기억 (끊겨도 다시 들어와 이어서 플레이)
+
+    struct LastRoom: Equatable {
+        let roomID: String
+        let hostName: String
+        let gameName: String
+    }
+
+    /// 마지막으로 참가했던 방. 앱을 껐다 켜도 홈 화면에서 바로 재참가할 수 있다.
+    @Published private(set) var lastRoom: LastRoom?
+    /// 재참가 대상 방 — 목록에서 발견되는 즉시 자동 참가한다
+    private var pendingRejoinRoomID: String?
+
+    private func loadLastRoom() {
+        let d = UserDefaults.standard
+        guard let id = d.string(forKey: "moonorder.lastRoom.id"),
+              let host = d.string(forKey: "moonorder.lastRoom.host") else { return }
+        lastRoom = LastRoom(roomID: id, hostName: host,
+                            gameName: d.string(forKey: "moonorder.lastRoom.game") ?? "")
+    }
+
+    private func saveLastRoom(_ room: LastRoom) {
+        lastRoom = room
+        let d = UserDefaults.standard
+        d.set(room.roomID, forKey: "moonorder.lastRoom.id")
+        d.set(room.hostName, forKey: "moonorder.lastRoom.host")
+        d.set(room.gameName, forKey: "moonorder.lastRoom.game")
+    }
+
+    func forgetLastRoom() {
+        lastRoom = nil
+        let d = UserDefaults.standard
+        d.removeObject(forKey: "moonorder.lastRoom.id")
+        d.removeObject(forKey: "moonorder.lastRoom.host")
+        d.removeObject(forKey: "moonorder.lastRoom.game")
+    }
+
+    /// 홈 화면의 '이어서 하기': 기억해 둔 방을 찾아 자동으로 다시 참가한다.
+    func rejoinLastRoom() {
+        guard let room = lastRoom else { return }
+        startBrowsing()
+        pendingRejoinRoomID = room.roomID
+    }
+
     /// 기기에 영구 저장되는 플레이어 ID — 재접속의 핵심.
     let playerID: UUID
 
@@ -72,8 +119,10 @@ final class GameViewModel: ObservableObject {
             || wolfDemoDriver != nil || sketchDemoDriver != nil
     }
 
+    /// 플레이어가 어느 직결 피어를 통해 들어왔는지. 릴레이 뒤의 플레이어는
+    /// 릴레이 피어로 매핑되므로 피어 하나에 여러 플레이어가 붙을 수 있다.
     private var peerForPlayer: [UUID: MCPeerID] = [:]
-    private var playerForPeer: [MCPeerID: UUID] = [:]
+    private var playersForPeer: [MCPeerID: Set<UUID>] = [:]
     private var lastPrivateInfoRequest: Date = .distantPast
 
     /// 호스트: 상태 브로드캐스트 유실 대비 주기적 재전송.
@@ -96,6 +145,7 @@ final class GameViewModel: ObservableObject {
             playerID = uuid
         }
         playerName = UserDefaults.standard.string(forKey: "moonorder.playerName") ?? ""
+        loadLastRoom()
     }
 
     // MARK: - 편의 계산 속성
@@ -127,6 +177,7 @@ final class GameViewModel: ObservableObject {
 
         let service = MultipeerService(role: .host,
                                        displayName: "\(trimmedName)#\(shortID)")
+        service.myPlayerID = playerID
         self.service = service
         wireHostCallbacks(service)
         service.startHosting(hostName: trimmedName, gameName: kind.displayName)
@@ -162,8 +213,8 @@ final class GameViewModel: ObservableObject {
             Task { @MainActor in
                 if pid == self.playerID {
                     self.privateInfo = info
-                } else if let peer = self.peerForPlayer[pid] {
-                    self.service?.send(.privateInfo(info), to: peer)
+                } else {
+                    self.sendToPlayer(pid, .privateInfo(info))
                 }
             }
         }
@@ -190,8 +241,8 @@ final class GameViewModel: ObservableObject {
             Task { @MainActor in
                 if pid == self.playerID {
                     self.liarPrivate = info
-                } else if let peer = self.peerForPlayer[pid] {
-                    self.service?.send(.liarPrivate(info), to: peer)
+                } else {
+                    self.sendToPlayer(pid, .liarPrivate(info))
                 }
             }
         }
@@ -218,8 +269,8 @@ final class GameViewModel: ObservableObject {
             Task { @MainActor in
                 if pid == self.playerID {
                     self.wolfPrivate = info
-                } else if let peer = self.peerForPlayer[pid] {
-                    self.service?.send(.wolfPrivate(info), to: peer)
+                } else {
+                    self.sendToPlayer(pid, .wolfPrivate(info))
                 }
             }
         }
@@ -246,8 +297,8 @@ final class GameViewModel: ObservableObject {
             Task { @MainActor in
                 if pid == self.playerID {
                     self.sketchPrivate = info
-                } else if let peer = self.peerForPlayer[pid] {
-                    self.service?.send(.sketchPrivate(info), to: peer)
+                } else {
+                    self.sendToPlayer(pid, .sketchPrivate(info))
                 }
             }
         }
@@ -289,8 +340,30 @@ final class GameViewModel: ObservableObject {
         let keep = Set(ids)
         for (pid, peer) in peerForPlayer where !keep.contains(pid) {
             peerForPlayer.removeValue(forKey: pid)
-            playerForPeer.removeValue(forKey: peer)
+            playersForPeer[peer]?.remove(pid)
+            if playersForPeer[peer]?.isEmpty == true {
+                playersForPeer.removeValue(forKey: peer)
+            }
         }
+    }
+
+    /// 참가가 확정된 플레이어의 유입 경로를 기록한다.
+    /// (릴레이를 통해 온 플레이어는 릴레이 피어로 매핑된다)
+    private func recordRoute(playerID pid: UUID, via peer: MCPeerID) {
+        if let old = peerForPlayer[pid], old != peer {
+            playersForPeer[old]?.remove(pid)
+            if playersForPeer[old]?.isEmpty == true {
+                playersForPeer.removeValue(forKey: old)
+            }
+        }
+        peerForPlayer[pid] = peer
+        playersForPeer[peer, default: []].insert(pid)
+    }
+
+    /// 호스트 → 특정 플레이어 전송. 릴레이 뒤에 있어도 봉투가 트리를 따라 전달된다.
+    private func sendToPlayer(_ pid: UUID, _ message: NetMessage) {
+        guard let peer = peerForPlayer[pid] else { return }
+        service?.send(.toPlayer(playerID: pid, message: message), to: peer)
     }
 
     private func wireHostCallbacks(_ service: MultipeerService) {
@@ -301,7 +374,8 @@ final class GameViewModel: ObservableObject {
         service.onPeerDisconnected = { [weak self] peer in
             guard let self else { return }
             Task { @MainActor in
-                if let pid = self.playerForPeer[peer] {
+                // 릴레이 피어가 끊기면 그 뒤의 플레이어들도 함께 끊긴 것으로 처리
+                for pid in self.playersForPeer[peer] ?? [] {
                     // 활성 엔진은 하나뿐이므로 모두 호출해도 안전하다
                     self.engine?.setConnected(pid, false)
                     self.liarEngine?.setConnected(pid, false)
@@ -333,16 +407,26 @@ final class GameViewModel: ObservableObject {
             switch result {
             case .joined, .rejoined:
                 // 참가가 확정된 피어만 매핑에 기록 (거절된 피어가 맵을 오염시키지 않도록)
-                if let old = peerForPlayer[pid] { playerForPeer.removeValue(forKey: old) }
-                peerForPlayer[pid] = peer
-                playerForPeer[peer] = pid
+                recordRoute(playerID: pid, via: peer)
             case .rejectedFull:
-                service?.send(.rejected(reason: "정원이 가득 찼습니다. (최대 10명)"), to: peer)
-                service?.disconnectPeer(peer)
+                service?.send(.toPlayer(playerID: pid,
+                                        message: .rejected(reason: "정원이 가득 찼습니다. (최대 \(activeMaxPlayers)명)")),
+                              to: peer)
+                disconnectIfDirect(pid, peer: peer)
             case .rejectedInProgress:
-                service?.send(.rejected(reason: "이미 게임이 진행 중인 방입니다."), to: peer)
-                service?.disconnectPeer(peer)
+                service?.send(.toPlayer(playerID: pid,
+                                        message: .rejected(reason: "이미 게임이 진행 중인 방입니다.")),
+                              to: peer)
+                disconnectIfDirect(pid, peer: peer)
             }
+        case .playerGone(let pid):
+            // 릴레이가 보고한 자식 끊김. 그 사이 다른 경로로 재접속했다면
+            // (현재 경로가 보고한 릴레이가 아니라면) 낡은 보고이므로 무시한다.
+            guard peerForPlayer[pid] == peer else { break }
+            engine?.setConnected(pid, false)
+            liarEngine?.setConnected(pid, false)
+            wolfEngine?.setConnected(pid, false)
+            sketchEngine?.setConnected(pid, false)
         case .liarAction(let pid, let action):
             liarEngine?.handle(pid, action)
         case .wolfAction(let pid, let action):
@@ -351,6 +435,42 @@ final class GameViewModel: ObservableObject {
             sketchEngine?.handle(pid, action)
         default:
             engine?.handle(message)
+        }
+    }
+
+    /// 현재 게임의 최대 정원
+    private var activeMaxPlayers: Int {
+        switch gameKind {
+        case .moonlit: return GameRules.playerRange.upperBound
+        case .liar:    return LiarRules.playerRange.upperBound
+        case .wolf:    return WolfRules.playerRange.upperBound
+        case .sketch:  return SketchRules.playerRange.upperBound
+        }
+    }
+
+    /// 피어가 그 플레이어 하나만 나르는 직결 연결일 때만 물리 연결을 끊는다.
+    /// (릴레이 피어를 끊으면 뒤에 붙은 다른 플레이어까지 같이 끊기므로)
+    private func disconnectIfDirect(_ pid: UUID, peer: MCPeerID) {
+        let carried = playersForPeer[peer] ?? []
+        if carried.isEmpty || carried == [pid] {
+            service?.disconnectPeer(peer)
+        }
+    }
+
+    /// 추방 UI 확인용: 가짜 플레이어들이 있는 방을 연다. (시뮬레이터 시연 전용)
+    /// midGame이면 게임을 시작하고 한 명을 끊긴 상태로 만들어 재접속 대기 배너를 띄운다.
+    func startKickPreview(midGame: Bool) {
+        hostGame(kind: .moonlit)
+        guard let engine else { return }
+        let bots = ["난희", "무명", "달수", "별이"].map { (id: UUID(), name: $0) }
+        for bot in bots { engine.join(playerID: bot.id, name: bot.name, isHost: false) }
+        guard midGame else { return }
+        engine.handle(.startGame(playerID: playerID))
+        for bot in bots { engine.handle(.confirmRole(playerID: bot.id)) }
+        engine.setConnected(bots[0].id, false)
+        // 잠시 후 자동으로 추방해 추방 동작까지 시연한다
+        DispatchQueue.main.asyncAfter(deadline: .now() + 6) { [weak self] in
+            self?.kickPlayer(bots[0].id)
         }
     }
 
@@ -435,6 +555,7 @@ final class GameViewModel: ObservableObject {
 
         let service = MultipeerService(role: .client,
                                        displayName: "\(trimmedName)#\(shortID)")
+        service.myPlayerID = playerID
         self.service = service
 
         service.onHostsChanged = { [weak self] hosts in
@@ -444,6 +565,15 @@ final class GameViewModel: ObservableObject {
                     self.hosts = hosts.filter { $0.gameName == filter.displayName }
                 } else {
                     self.hosts = hosts
+                }
+                // 이어서 하기: 기억해 둔 방이 다시 보이면 즉시 재참가
+                if let want = self.pendingRejoinRoomID, self.mode == .browsing,
+                   let room = self.hosts.first(where: { $0.id == want }) {
+                    self.pendingRejoinRoomID = nil
+                    self.join(host: room)
+                } else if self.autoJoinRoom, self.mode == .browsing,
+                          let first = self.hosts.first {
+                    self.join(host: first)
                 }
             }
         }
@@ -479,7 +609,18 @@ final class GameViewModel: ObservableObject {
         guard let service else { return }
         mode = .connecting
         UIApplication.shared.isIdleTimerDisabled = true
+        // 세션이 끊기거나 앱을 껐다 켜도 이어서 할 수 있게 방을 기억한다
+        saveLastRoom(LastRoom(roomID: host.roomID,
+                              hostName: host.hostName,
+                              gameName: host.gameName ?? ""))
         service.join(host: host)
+    }
+
+    /// 클라이언트: 방에 자리가 있거나 재접속 대기자가 있으면 이 기기도
+    /// 릴레이(추가 접속 지점)가 되어 준다. 상태를 받을 때마다 갱신한다.
+    private func updateRelayAvailability(lobby: Bool, playerCount: Int,
+                                         maxPlayers: Int, anyDisconnected: Bool) {
+        service?.setRelayAvailable((lobby && playerCount < maxPlayers) || anyDisconnected)
     }
 
     private func clientReceived(_ message: NetMessage) {
@@ -498,6 +639,10 @@ final class GameViewModel: ObservableObject {
                 lastPrivateInfoRequest = Date()
                 service?.sendToHost(.join(playerID: playerID, name: trimmedName))
             }
+            updateRelayAvailability(lobby: state.phase == .lobby,
+                                    playerCount: state.players.count,
+                                    maxPlayers: GameRules.playerRange.upperBound,
+                                    anyDisconnected: !state.disconnectedPlayers.isEmpty)
         case .privateInfo(let info):
             if info != privateInfo { privateInfo = info }
         case .liarState(let state):
@@ -511,6 +656,10 @@ final class GameViewModel: ObservableObject {
                 lastPrivateInfoRequest = Date()
                 service?.sendToHost(.join(playerID: playerID, name: trimmedName))
             }
+            updateRelayAvailability(lobby: state.phase == .lobby,
+                                    playerCount: state.players.count,
+                                    maxPlayers: LiarRules.playerRange.upperBound,
+                                    anyDisconnected: !state.disconnectedPlayers.isEmpty)
         case .liarPrivate(let info):
             if info != liarPrivate { liarPrivate = info }
         case .wolfState(let state):
@@ -524,6 +673,10 @@ final class GameViewModel: ObservableObject {
                 lastPrivateInfoRequest = Date()
                 service?.sendToHost(.join(playerID: playerID, name: trimmedName))
             }
+            updateRelayAvailability(lobby: state.phase == .lobby,
+                                    playerCount: state.players.count,
+                                    maxPlayers: WolfRules.playerRange.upperBound,
+                                    anyDisconnected: !state.disconnectedPlayers.isEmpty)
         case .wolfPrivate(let info):
             if info != wolfPrivate { wolfPrivate = info }
         case .sketchState(let state):
@@ -537,10 +690,17 @@ final class GameViewModel: ObservableObject {
                 lastPrivateInfoRequest = Date()
                 service?.sendToHost(.join(playerID: playerID, name: trimmedName))
             }
+            updateRelayAvailability(lobby: state.phase == .lobby,
+                                    playerCount: state.players.count,
+                                    maxPlayers: SketchRules.playerRange.upperBound,
+                                    anyDisconnected: !state.disconnectedPlayers.isEmpty)
         case .sketchPrivate(let info):
             if info != sketchPrivate { sketchPrivate = info }
         case .rejected(let reason):
             errorMessage = reason
+            leaveGame()
+        case .kicked:
+            errorMessage = "방장이 회원님을 내보냈습니다."
             leaveGame()
         case .hostEnded:
             errorMessage = "호스트가 방을 닫았습니다."
@@ -587,6 +747,60 @@ final class GameViewModel: ObservableObject {
         }
     }
 
+    // MARK: - GM(진행자) 제어 — 호스트 전용, 활성 엔진에서 직접 읽는다
+
+    /// 현재 게임의 참가자 목록 (GM 패널용)
+    var gmPlayers: [PlayerPublic] {
+        publicState?.players ?? liarState?.players
+            ?? wolfState?.players ?? sketchState?.players ?? []
+    }
+
+    /// 플레이어별 비공개 정보 (역할·라이어 여부 등)
+    var gmSecrets: [UUID: String] {
+        guard isHost else { return [:] }
+        return engine?.gmSecrets() ?? liarEngine?.gmSecrets()
+            ?? wolfEngine?.gmSecrets() ?? sketchEngine?.gmSecrets() ?? [:]
+    }
+
+    /// 판 전체 비밀 요약 (제시어·중앙 카드 등)
+    var gmNote: String? {
+        guard isHost else { return nil }
+        return engine?.gmNote() ?? liarEngine?.gmNote()
+            ?? wolfEngine?.gmNote() ?? sketchEngine?.gmNote()
+    }
+
+    /// 강제 진행이 수행할 일 설명. nil이면 현재 단계에서 강제 진행 불가.
+    var gmForceAdvanceLabel: String? {
+        guard isHost else { return nil }
+        return engine?.gmForceAdvanceLabel() ?? liarEngine?.gmForceAdvanceLabel()
+            ?? wolfEngine?.gmForceAdvanceLabel() ?? sketchEngine?.gmForceAdvanceLabel()
+    }
+
+    /// GM 강제 진행: 미응답자를 기본 처리하고 현재 단계를 끝낸다.
+    func gmForceAdvance() {
+        guard isHost else { return }
+        // 활성 엔진은 하나뿐이므로 모두 호출해도 안전하다
+        engine?.forceAdvance(by: playerID)
+        liarEngine?.forceAdvance(by: playerID)
+        wolfEngine?.forceAdvance(by: playerID)
+        sketchEngine?.forceAdvance(by: playerID)
+    }
+
+    /// 호스트: 플레이어 추방. 엔진에서 제거하고, 아직 연결돼 있으면
+    /// 추방 통지를 보낸 뒤 세션을 끊는다. (끊긴 채 방치된 사람 정리가 주 용도)
+    func kickPlayer(_ targetID: UUID) {
+        guard isHost, targetID != playerID else { return }
+        if let peer = peerForPlayer[targetID] {
+            sendToPlayer(targetID, .kicked)
+            disconnectIfDirect(targetID, peer: peer)
+        }
+        // 활성 엔진은 하나뿐이므로 모두 호출해도 안전하다
+        engine?.removePlayer(targetID, by: playerID)
+        liarEngine?.removePlayer(targetID, by: playerID)
+        wolfEngine?.removePlayer(targetID, by: playerID)
+        sketchEngine?.removePlayer(targetID, by: playerID)
+    }
+
     func startGame()                  { perform(.startGame(playerID: playerID)) }
     func confirmRole()                { perform(.confirmRole(playerID: playerID)) }
     func proposeTeam(_ ids: [UUID])   { perform(.proposeTeam(playerID: playerID, members: ids)) }
@@ -606,8 +820,8 @@ final class GameViewModel: ObservableObject {
                                                  repeats: false) { [weak self] _ in
             Task { @MainActor in
                 guard let self, self.connectionLost else { return }
-                self.errorMessage = "호스트에 다시 연결하지 못했습니다. 방 목록에서 다시 참가해주세요."
-                self.leaveGame()
+                self.errorMessage = "호스트에 다시 연결하지 못했습니다. 홈의 '이어서 하기'로 다시 참가할 수 있습니다."
+                self.leaveGame(forgetRoom: false)   // 방을 기억해 두어 이어서 할 수 있게
             }
         }
     }
@@ -627,7 +841,10 @@ final class GameViewModel: ObservableObject {
 
     // MARK: - 나가기 / 정리
 
-    func leaveGame() {
+    /// 게임에서 나간다. 재접속 제한시간 초과처럼 '의도치 않은' 퇴장은
+    /// forgetRoom=false로 방 기억을 남겨 홈에서 이어서 참가할 수 있게 한다.
+    func leaveGame(forgetRoom: Bool = true) {
+        if forgetRoom, !isHost { forgetLastRoom() }
         if isHost, let service {
             // hostEnded가 전송될 시간을 준 뒤 세션을 닫는다.
             // (즉시 disconnect하면 마지막 메시지가 유실되어 클라이언트가
@@ -683,7 +900,8 @@ final class GameViewModel: ObservableObject {
         hosts = []
         connectionLost = false
         peerForPlayer = [:]
-        playerForPeer = [:]
+        playersForPeer = [:]
+        pendingRejoinRoomID = nil
         isHost = false
     }
 

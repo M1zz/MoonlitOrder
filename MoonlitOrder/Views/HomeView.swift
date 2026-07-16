@@ -40,9 +40,8 @@ struct HomeView: View {
     }
 
     var body: some View {
-        VStack(spacing: 28) {
-            Spacer()
-
+        ScrollView {
+            VStack(spacing: 28) {
             VStack(spacing: 10) {
                 Image(systemName: "moon.stars.fill")
                     .font(.system(size: 48))
@@ -53,6 +52,11 @@ struct HomeView: View {
                 Text("가까운 친구들과 즐기는 파티게임 3종")
                     .font(.subheadline)
                     .foregroundColor(.white.opacity(0.65))
+            }
+            .padding(.top, 24)
+
+            if let room = game.lastRoom {
+                rejoinCard(room)
             }
 
             VStack(alignment: .leading, spacing: 8) {
@@ -82,22 +86,22 @@ struct HomeView: View {
 
                 gameCard(icon: "moon.stars.fill", color: Theme.gold,
                          title: "달빛 결사",
-                         desc: "5~10인 · 숨어든 그림자를 찾는 정체 추리") {
+                         desc: "5~15인 · 숨어든 그림자를 찾는 정체 추리") {
                     selectedGame = .moonlit
                 }
                 gameCard(icon: "theatermasks.fill", color: Theme.moonlit,
                          title: "라이어 게임",
-                         desc: "3~10인 · 제시어를 모르는 한 명을 찾아라") {
+                         desc: "3~15인 · 제시어를 모르는 한 명을 찾아라") {
                     selectedGame = .liar
                 }
                 gameCard(icon: "flame.fill", color: Theme.shadow,
                          title: "달 없는 밤",
-                         desc: "3~10인 · 도깨비가 숨어든 하룻밤 추리") {
+                         desc: "3~15인 · 도깨비가 숨어든 하룻밤 추리") {
                     selectedGame = .wolf
                 }
                 gameCard(icon: "paintbrush.pointed.fill", color: Theme.mint,
                          title: "달빛 화실",
-                         desc: "3~10인 · 한 명이 그리고 나머지가 맞히는 그림 놀이") {
+                         desc: "3~15인 · 한 명이 그리고 나머지가 맞히는 그림 놀이") {
                     selectedGame = .sketch
                 }
 
@@ -113,18 +117,53 @@ struct HomeView: View {
             }
             .padding(.horizontal, 28)
 
-            Spacer()
-
             Text("같은 Wi-Fi 또는 근거리의 아이폰끼리 자동으로 연결됩니다.\n인터넷 없이도 플레이할 수 있어요.")
                 .font(.caption)
                 .multilineTextAlignment(.center)
                 .foregroundColor(.white.opacity(0.45))
-                .padding(.bottom, 12)
+                .padding(.bottom, 24)
+            }
         }
+        .scrollDismissesKeyboard(.interactively)
         .sheet(item: $selectedGame) { kind in
             GameMenuView(kind: kind)
                 .presentationDetents([.medium])
         }
+    }
+
+    /// 마지막으로 참가했던 방 이어서 하기 카드
+    private func rejoinCard(_ room: GameViewModel.LastRoom) -> some View {
+        HStack(spacing: 12) {
+            Button {
+                nameFocused = false
+                game.rejoinLastRoom()
+            } label: {
+                HStack(spacing: 12) {
+                    Image(systemName: "arrow.uturn.forward.circle.fill")
+                        .font(.title2)
+                        .foregroundColor(Theme.gold)
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("이어서 하기")
+                            .font(.headline)
+                            .foregroundColor(.white)
+                        Text("\(room.hostName)의 방\(room.gameName.isEmpty ? "" : " · \(room.gameName)")")
+                            .font(.caption)
+                            .foregroundColor(.white.opacity(0.65))
+                    }
+                    Spacer()
+                }
+            }
+            Button {
+                game.forgetLastRoom()
+            } label: {
+                Image(systemName: "xmark.circle.fill")
+                    .foregroundColor(.white.opacity(0.35))
+            }
+        }
+        .padding(.vertical, 12)
+        .padding(.horizontal, 14)
+        .background(RoundedRectangle(cornerRadius: 14).fill(Theme.gold.opacity(0.12)))
+        .padding(.horizontal, 28)
     }
 }
 
@@ -156,13 +195,13 @@ struct GameMenuView: View {
     private var summary: String {
         switch kind {
         case .moonlit:
-            return "원정대에 숨어든 그림자 진영을 찾아내는 5~10인 정체 추리 게임. 미션 3회를 먼저 성공(또는 실패)시키는 진영이 승리합니다."
+            return "원정대에 숨어든 그림자 진영을 찾아내는 5~15인 정체 추리 게임. 미션 3회를 먼저 성공(또는 실패)시키는 진영이 승리합니다."
         case .liar:
-            return "라이어만 빼고 모두 같은 제시어를 받는 3~10인 눈치 게임. 한 마디씩 설명한 뒤 라이어를 찾아내세요. 라이어는 잡혀도 제시어를 맞히면 역전승!"
+            return "라이어만 빼고 모두 같은 제시어를 받는 3~15인 눈치 게임. 한 마디씩 설명한 뒤 라이어를 찾아내세요. 라이어는 잡혀도 제시어를 맞히면 역전승!"
         case .wolf:
-            return "도깨비가 숨어든 하룻밤의 3~10인 추리 게임. 밤사이 카드가 뒤바뀌고, 단 한 번의 투표로 승패가 갈립니다."
+            return "도깨비가 숨어든 하룻밤의 3~15인 추리 게임. 밤사이 카드가 뒤바뀌고, 단 한 번의 투표로 승패가 갈립니다."
         case .sketch:
-            return "매 라운드 한 명이 제시어를 그림으로 그리고, 나머지는 채팅으로 맞히는 3~10인 그림 놀이. 빨리 맞힐수록 높은 점수! 모두 한 번씩 그리면 최고 점수자가 승리합니다."
+            return "매 라운드 한 명이 제시어를 그림으로 그리고, 나머지는 채팅으로 맞히는 3~15인 그림 놀이. 빨리 맞힐수록 높은 점수! 모두 한 번씩 그리면 최고 점수자가 승리합니다."
         }
     }
 

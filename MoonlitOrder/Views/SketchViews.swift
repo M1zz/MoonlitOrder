@@ -40,6 +40,7 @@ struct SketchGameView: View {
     @EnvironmentObject var game: GameViewModel
     let state: SketchGameState
     @State private var showLeaveConfirm = false
+    @State private var showGMPanel = false
 
     private var isDrawer: Bool { state.drawerID == game.playerID }
 
@@ -68,7 +69,13 @@ struct SketchGameView: View {
                 .padding(.vertical, 8).padding(.horizontal, 14)
                 .background(Capsule().fill(Theme.shadow.opacity(0.9)))
                 .padding(.top, 4)
+            } else if state.phase != .gameOver, !state.disconnectedPlayers.isEmpty {
+                ReconnectWaitBanner(disconnected: state.disconnectedPlayers)
             }
+        }
+        .sheet(isPresented: $showGMPanel) {
+            GMPanelView()
+                .presentationDetents([.medium, .large])
         }
         .confirmationDialog("게임에서 나갈까요?",
                             isPresented: $showLeaveConfirm,
@@ -89,6 +96,13 @@ struct SketchGameView: View {
         HStack {
             Button { showLeaveConfirm = true } label: {
                 Image(systemName: "xmark").foregroundColor(.white.opacity(0.7))
+            }
+            if game.isHost, !game.isDemo {
+                Button { showGMPanel = true } label: {
+                    Image(systemName: "crown.fill")
+                        .foregroundColor(Theme.gold.opacity(0.85))
+                }
+                .padding(.leading, 6)
             }
             Spacer()
             VStack(spacing: 2) {
@@ -275,22 +289,14 @@ struct SketchDrawingView: View {
         VStack(spacing: 10) {
             hintHeader
 
-            SketchCanvasView(
-                strokes: state.strokes,
-                live: live,
-                liveColorIndex: colorIndex,
-                liveWidth: width,
-                isDrawer: isDrawer,
-                onChanged: { p in live.append(p) },
-                onEnded: {
-                    if !live.isEmpty {
-                        game.performSketch(.addStroke(
-                            SketchStroke(points: live, colorIndex: colorIndex, width: width)))
-                        live = []
-                    }
-                })
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .padding(.horizontal, 16)
+            if isDrawer {
+                canvas
+            } else {
+                // 추측자: 그림을 탭하면 키보드가 내려가 화면이 다시 펴진다
+                canvas
+                    .contentShape(Rectangle())
+                    .onTapGesture { guessFocused = false }
+            }
 
             chatStrip
 
@@ -300,6 +306,25 @@ struct SketchDrawingView: View {
                 guessBar
             }
         }
+    }
+
+    private var canvas: some View {
+        SketchCanvasView(
+            strokes: state.strokes,
+            live: live,
+            liveColorIndex: colorIndex,
+            liveWidth: width,
+            isDrawer: isDrawer,
+            onChanged: { p in live.append(p) },
+            onEnded: {
+                if !live.isEmpty {
+                    game.performSketch(.addStroke(
+                        SketchStroke(points: live, colorIndex: colorIndex, width: width)))
+                    live = []
+                }
+            })
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .padding(.horizontal, 16)
     }
 
     // MARK: 힌트 헤더
@@ -363,6 +388,8 @@ struct SketchDrawingView: View {
             .frame(height: 84)
             .background(RoundedRectangle(cornerRadius: 12).fill(Color.white.opacity(0.06)))
             .padding(.horizontal, 16)
+            .scrollDismissesKeyboard(.immediately)
+            .onTapGesture { guessFocused = false }
             .onChange(of: state.chat.count) { _ in
                 if let last = state.chat.last { withAnimation { proxy.scrollTo(last.id, anchor: .bottom) } }
             }
@@ -450,6 +477,18 @@ struct SketchDrawingView: View {
                     .focused($guessFocused)
                     .submitLabel(.send)
                     .onSubmit(submitGuess)
+                    .toolbar {
+                        ToolbarItemGroup(placement: .keyboard) {
+                            Spacer()
+                            Button {
+                                guessFocused = false
+                            } label: {
+                                Label("키보드 내리기",
+                                      systemImage: "keyboard.chevron.compact.down")
+                                    .font(.subheadline)
+                            }
+                        }
+                    }
 
                 Button(action: submitGuess) {
                     Image(systemName: "paperplane.fill")

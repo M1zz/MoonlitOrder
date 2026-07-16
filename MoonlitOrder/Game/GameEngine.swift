@@ -83,6 +83,44 @@ final class GameEngine {
         pushState()
     }
 
+    /// 호스트가 플레이어를 추방한다. 진행 중이던 단계는 남은 인원 기준으로
+    /// 완료 여부를 다시 판정해, 나간 사람을 기다리느라 게임이 멈추지 않게 한다.
+    func removePlayer(_ targetID: UUID, by requesterID: UUID) {
+        guard requesterID == hostID,
+              let idx = players.firstIndex(where: { $0.id == targetID }),
+              !players[idx].isHost else { return }
+        // 제거로 리더 순번이 밀리지 않도록 보정
+        let leaderPos = leaderIndex % players.count
+        leaderIndex = idx < leaderPos ? leaderPos - 1 : leaderPos
+        let wasAssassin = players[idx].role == .assassin
+        players.remove(at: idx)
+        proposedTeam.removeAll { $0 == targetID }
+        if !players.isEmpty { leaderIndex %= players.count }
+
+        switch phase {
+        case .roleReveal:
+            if players.allSatisfy({ $0.confirmedRole }) { phase = .teamProposal }
+        case .teamProposal:
+            proposedTeam = []   // 필요 인원이 바뀌었을 수 있으니 리더가 다시 지명
+        case .teamVoting:
+            finishVotingIfComplete()
+        case .mission:
+            if proposedTeam.isEmpty {
+                phase = .teamProposal   // 원정대가 전부 나가면 다시 지명
+            } else {
+                finishMissionIfComplete()
+            }
+        case .assassination:
+            if wasAssassin {
+                endGame(winner: .moonlit,
+                        reason: "암살자가 방을 떠나 달빛 결사의 승리로 끝났습니다.")
+            }
+        default:
+            break
+        }
+        pushState()
+    }
+
     /// 이름 중복 방지 (비공개 정보가 이름 기반이므로 반드시 유일해야 함)
     private func uniqueName(for name: String) -> String {
         let base = name.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -186,16 +224,18 @@ final class GameEngine {
               let idx = players.firstIndex(where: { $0.id == playerID }),
               players[idx].vote == nil else { return }
         players[idx].vote = approve
-
-        if players.allSatisfy({ $0.vote != nil }) {
-            lastVotes = Dictionary(uniqueKeysWithValues:
-                players.map { ($0.id.uuidString, $0.vote ?? false) })
-            let approves = players.filter { $0.vote == true }.count
-            lastVoteApproved = approves * 2 > players.count   // 동수는 부결
-            if !lastVoteApproved { voteTrack += 1 }
-            phase = .voteResult
-        }
+        finishVotingIfComplete()
         pushState()
+    }
+
+    private func finishVotingIfComplete() {
+        guard players.allSatisfy({ $0.vote != nil }) else { return }
+        lastVotes = Dictionary(uniqueKeysWithValues:
+            players.map { ($0.id.uuidString, $0.vote ?? false) })
+        let approves = players.filter { $0.vote == true }.count
+        lastVoteApproved = approves * 2 > players.count   // 동수는 부결
+        if !lastVoteApproved { voteTrack += 1 }
+        phase = .voteResult
     }
 
     // MARK: - 미션
@@ -209,19 +249,21 @@ final class GameEngine {
         // 달빛 결사 진영은 실패 카드를 낼 수 없다 (규칙 강제)
         let play = players[idx].role.team == .moonlit ? true : success
         players[idx].missionPlay = play
-
-        let team = players.filter { proposedTeam.contains($0.id) }
-        if team.allSatisfy({ $0.missionPlay != nil }) {
-            let fails = team.filter { $0.missionPlay == false }.count
-            let needed = GameRules.failsRequired(for: players.count)[round - 1]
-            let succeeded = fails < needed
-            missionHistory.append(MissionRecord(round: round,
-                                                succeeded: succeeded,
-                                                failCount: fails,
-                                                teamNames: team.map { $0.name }.sorted()))
-            phase = .missionResult
-        }
+        finishMissionIfComplete()
         pushState()
+    }
+
+    private func finishMissionIfComplete() {
+        let team = players.filter { proposedTeam.contains($0.id) }
+        guard !team.isEmpty, team.allSatisfy({ $0.missionPlay != nil }) else { return }
+        let fails = team.filter { $0.missionPlay == false }.count
+        let needed = GameRules.failsRequired(for: players.count)[round - 1]
+        let succeeded = fails < needed
+        missionHistory.append(MissionRecord(round: round,
+                                            succeeded: succeeded,
+                                            failCount: fails,
+                                            teamNames: team.map { $0.name }.sorted()))
+        phase = .missionResult
     }
 
     // MARK: - 결과 화면에서 다음으로 (호스트가 진행을 통제)
@@ -315,6 +357,65 @@ final class GameEngine {
         proposedTeam = []
         voteTrack = 0
         round = 1
+        pushState()
+    }
+
+    // MARK: - GM(진행자) 제어 — 호스트 기기에서만 호출된다
+
+    /// GM 패널용: 플레이어별 비공개 정보 (역할)
+    func gmSecrets() -> [UUID: String] {
+        guard phase != .lobby else { return [:] }
+        return Dictionary(uniqueKeysWithValues:
+            players.map { ($0.id, $0.role.displayName) })
+    }
+
+    /// GM 패널용: 판 전체 비밀 요약
+    func gmNote() -> String? { nil }
+
+    /// 현재 단계에서 강제 진행이 수행할 일. nil이면 강제 진행 불가.
+    func gmForceAdvanceLabel() -> String? {
+        switch phase {
+        case .roleReveal:    return "전원 역할 확인 처리 후 원정대 지명으로 넘어갑니다."
+        case .teamProposal:  return "지명하지 않는 리더를 건너뛰고 다음 리더에게 넘깁니다."
+        case .teamVoting:    return "아직 투표하지 않은 사람을 찬성으로 처리하고 개표합니다."
+        case .mission:       return "카드를 내지 않은 원정대원을 성공으로 처리합니다."
+        case .voteResult, .missionResult: return "다음 단계로 넘어갑니다."
+        case .assassination: return "암살 포기로 처리하고 달빛 결사의 승리로 끝냅니다."
+        case .lobby, .gameOver: return nil
+        }
+    }
+
+    /// GM 강제 진행: 미응답자를 기본값으로 처리하고 현재 단계를 끝낸다.
+    func forceAdvance(by requesterID: UUID) {
+        guard requesterID == hostID else { return }
+        switch phase {
+        case .roleReveal:
+            for i in players.indices { players[i].confirmedRole = true }
+            phase = .teamProposal
+        case .teamProposal:
+            advanceLeader()
+            proposedTeam = []
+        case .teamVoting:
+            for i in players.indices where players[i].vote == nil {
+                players[i].vote = true
+            }
+            finishVotingIfComplete()
+        case .mission:
+            for i in players.indices
+            where proposedTeam.contains(players[i].id) && players[i].missionPlay == nil {
+                players[i].missionPlay = true
+            }
+            finishMissionIfComplete()
+        case .voteResult:
+            continueFromVoteResult()
+        case .missionResult:
+            continueFromMissionResult()
+        case .assassination:
+            endGame(winner: .moonlit,
+                    reason: "암살자가 예언자를 지목하지 못해 달빛 결사의 승리로 끝났습니다.")
+        case .lobby, .gameOver:
+            return
+        }
         pushState()
     }
 

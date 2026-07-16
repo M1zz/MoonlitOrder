@@ -86,6 +86,32 @@ final class WolfEngine {
         pushState()
     }
 
+    /// 호스트가 플레이어를 추방한다. 나간 사람의 카드는 판에서 빠지고,
+    /// 밤/투표 단계는 남은 인원 기준으로 완료 여부를 다시 판정한다.
+    func removePlayer(_ targetID: UUID, by requesterID: UUID) {
+        guard requesterID == hostID,
+              let idx = players.firstIndex(where: { $0.id == targetID }),
+              !players[idx].isHost else { return }
+        players.remove(at: idx)
+
+        switch phase {
+        case .night:
+            if players.allSatisfy({ $0.nightDone }) {
+                resolveNight()
+                phase = .day
+            }
+        case .voting:
+            // 나간 사람에게 던진 표는 무효 → 해당 플레이어는 다시 투표
+            for i in players.indices where players[i].votedFor == targetID {
+                players[i].votedFor = nil
+            }
+            if players.allSatisfy({ $0.votedFor != nil }) { tallyVotes() }
+        default:
+            break
+        }
+        pushState()
+    }
+
     private func uniqueName(for name: String) -> String {
         let base = name.trimmingCharacters(in: .whitespacesAndNewlines)
         let candidate = base.isEmpty ? "플레이어" : base
@@ -327,6 +353,53 @@ final class WolfEngine {
         winReason = nil
         nightResults = [:]
         phase = .lobby
+        pushState()
+    }
+
+    // MARK: - GM(진행자) 제어 — 호스트 기기에서만 호출된다
+
+    /// GM 패널용: 플레이어별 비공개 정보 (원래 역할 → 교환된 현재 카드)
+    func gmSecrets() -> [UUID: String] {
+        guard phase != .lobby else { return [:] }
+        return Dictionary(uniqueKeysWithValues: players.map { p in
+            let secret = p.originalRole == p.currentRole
+                ? p.originalRole.displayName
+                : "\(p.originalRole.displayName) → \(p.currentRole.displayName)"
+            return (p.id, secret)
+        })
+    }
+
+    /// GM 패널용: 판 전체 비밀 요약 (중앙 카드)
+    func gmNote() -> String? {
+        guard phase != .lobby, !center.isEmpty else { return nil }
+        return "중앙 카드: \(center.map(\.displayName).joined(separator: " · "))"
+    }
+
+    /// 현재 단계에서 강제 진행이 수행할 일. nil이면 강제 진행 불가.
+    func gmForceAdvanceLabel() -> String? {
+        switch phase {
+        case .night:  return "행동하지 않은 사람은 능력 사용 없이 밤을 끝냅니다."
+        case .day:    return "토론을 끝내고 처형 투표를 시작합니다."
+        case .voting: return "아직 투표하지 않은 사람은 기권으로 처리하고 개표합니다."
+        case .lobby, .gameOver: return nil
+        }
+    }
+
+    /// GM 강제 진행: 미응답자를 기본값으로 처리하고 현재 단계를 끝낸다.
+    func forceAdvance(by requesterID: UUID) {
+        guard requesterID == hostID else { return }
+        switch phase {
+        case .night:
+            for i in players.indices { players[i].nightDone = true }
+            resolveNight()
+            phase = .day
+        case .day:
+            phase = .voting
+        case .voting:
+            tallyVotes()   // 기권표는 빼고 개표 (2표 미만이면 아무도 처형되지 않음)
+        case .lobby, .gameOver:
+            return
+        }
         pushState()
     }
 

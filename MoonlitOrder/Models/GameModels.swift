@@ -143,33 +143,38 @@ struct PrivateInfo: Codable, Equatable {
 // MARK: - 게임 규칙 테이블
 
 enum GameRules {
-    static let playerRange = 5...10
+    static let playerRange = 5...15
     static let missionCount = 5
     static let maxRejections = 5
 
-    /// 인원수별 그림자 진영 수
+    /// 인원수별 그림자 진영 수 (전체의 1/3 안팎을 유지)
     static func shadowCount(for playerCount: Int) -> Int {
         switch playerCount {
-        case ...6:   return 2
-        case 7...9:  return 3
-        default:     return 4
+        case ...6:    return 2
+        case 7...9:   return 3
+        case 10...12: return 4
+        default:      return 5
         }
     }
 
     /// 라운드별 원정대 인원수
     static func teamSizes(for playerCount: Int) -> [Int] {
         switch playerCount {
-        case 5:  return [2, 3, 2, 3, 3]
-        case 6:  return [2, 3, 4, 3, 4]
-        case 7:  return [2, 3, 3, 4, 4]
-        default: return [3, 4, 4, 5, 5]
+        case 5:        return [2, 3, 2, 3, 3]
+        case 6:        return [2, 3, 4, 3, 4]
+        case 7:        return [2, 3, 3, 4, 4]
+        case 8...10:   return [3, 4, 4, 5, 5]
+        case 11...12:  return [4, 5, 5, 6, 6]
+        default:       return [4, 5, 6, 7, 7]
         }
     }
 
-    /// 라운드별 미션 실패에 필요한 실패 카드 수 (7인 이상은 4라운드에 2장 필요)
+    /// 라운드별 미션 실패에 필요한 실패 카드 수
+    /// (7인 이상은 4라운드에 2장, 11인 이상은 원정대가 커지므로 5라운드도 2장)
     static func failsRequired(for playerCount: Int) -> [Int] {
         var fails = [1, 1, 1, 1, 1]
         if playerCount >= 7 { fails[3] = 2 }
+        if playerCount >= 11 { fails[4] = 2 }
         return fails
     }
 

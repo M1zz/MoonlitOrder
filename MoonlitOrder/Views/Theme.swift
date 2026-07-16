@@ -65,6 +65,7 @@ struct PlayerRow: View {
     var isLeader: Bool = false
     var showActed: Bool = false
     var trailing: String? = nil
+    var onKick: (() -> Void)? = nil   // 호스트 전용: 내보내기
 
     var body: some View {
         HStack(spacing: 10) {
@@ -110,10 +111,71 @@ struct PlayerRow: View {
                     .font(.caption2)
                     .foregroundColor(.red.opacity(0.9))
             }
+
+            if let onKick {
+                Button(action: onKick) {
+                    Image(systemName: "person.fill.xmark")
+                        .font(.caption)
+                        .foregroundColor(.red.opacity(0.9))
+                        .padding(6)
+                        .background(Circle().fill(Color.red.opacity(0.15)))
+                }
+                .buttonStyle(.plain)
+            }
         }
         .padding(.vertical, 10)
         .padding(.horizontal, 14)
         .cardStyle()
+    }
+}
+
+/// 게임 중 연결이 끊긴 플레이어의 재접속을 기다리는 배너.
+/// 호스트에게는 돌아오지 않는 플레이어를 추방하는 버튼을 함께 보여준다.
+struct ReconnectWaitBanner: View {
+    @EnvironmentObject var game: GameViewModel
+    let disconnected: [PlayerPublic]
+    @State private var kickTarget: PlayerPublic?
+
+    var body: some View {
+        VStack(spacing: 8) {
+            HStack(spacing: 8) {
+                ProgressView().tint(.white).scaleEffect(0.8)
+                Text("\(disconnected.map { $0.name }.joined(separator: ", ")) 님의 재접속을 기다리는 중입니다.")
+                    .font(.caption)
+                    .foregroundColor(.white)
+            }
+            if game.isHost {
+                HStack(spacing: 8) {
+                    ForEach(disconnected) { p in
+                        Button {
+                            kickTarget = p
+                        } label: {
+                            Label("\(p.name) 내보내기", systemImage: "person.fill.xmark")
+                                .font(.caption2.bold())
+                                .padding(.vertical, 5)
+                                .padding(.horizontal, 10)
+                                .background(Capsule().fill(Color.white.opacity(0.2)))
+                                .foregroundColor(.white)
+                        }
+                    }
+                }
+            }
+        }
+        .padding(.vertical, 10)
+        .padding(.horizontal, 16)
+        .background(RoundedRectangle(cornerRadius: 16).fill(Color.orange.opacity(0.9)))
+        .padding(.top, 4)
+        .padding(.horizontal, 16)
+        .confirmationDialog(kickTarget.map { "\($0.name) 님을 내보낼까요?" } ?? "",
+                            isPresented: Binding(get: { kickTarget != nil },
+                                                 set: { if !$0 { kickTarget = nil } }),
+                            titleVisibility: .visible,
+                            presenting: kickTarget) { target in
+            Button("내보내기", role: .destructive) { game.kickPlayer(target.id) }
+            Button("취소", role: .cancel) {}
+        } message: { _ in
+            Text("내보낸 뒤에도 진행 중인 게임은 남은 인원으로 계속됩니다.")
+        }
     }
 }
 

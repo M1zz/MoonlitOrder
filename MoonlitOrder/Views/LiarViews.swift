@@ -26,6 +26,7 @@ struct LiarGameView: View {
     @EnvironmentObject var game: GameViewModel
     let state: LiarGameState
     @State private var showLeaveConfirm = false
+    @State private var showGMPanel = false
 
     private var me: PlayerPublic? { state.player(game.playerID) }
 
@@ -65,7 +66,13 @@ struct LiarGameView: View {
                 .padding(.vertical, 8).padding(.horizontal, 14)
                 .background(Capsule().fill(Theme.shadow.opacity(0.9)))
                 .padding(.top, 4)
+            } else if state.phase != .gameOver, !state.disconnectedPlayers.isEmpty {
+                ReconnectWaitBanner(disconnected: state.disconnectedPlayers)
             }
+        }
+        .sheet(isPresented: $showGMPanel) {
+            GMPanelView()
+                .presentationDetents([.medium, .large])
         }
         .confirmationDialog("게임에서 나갈까요?",
                             isPresented: $showLeaveConfirm,
@@ -84,6 +91,13 @@ struct LiarGameView: View {
         HStack {
             Button { showLeaveConfirm = true } label: {
                 Image(systemName: "xmark").foregroundColor(.white.opacity(0.7))
+            }
+            if game.isHost, !game.isDemo {
+                Button { showGMPanel = true } label: {
+                    Image(systemName: "crown.fill")
+                        .foregroundColor(Theme.gold.opacity(0.85))
+                }
+                .padding(.leading, 6)
             }
             Spacer()
             VStack(spacing: 2) {
@@ -353,7 +367,8 @@ struct LiarVotingView: View {
                         Button {
                             pendingTarget = p
                         } label: {
-                            PlayerRow(player: p)
+                            // 투표를 마친 사람에게 체크 표시 (누구에게 던졌는지는 비공개)
+                            PlayerRow(player: p, showActed: true)
                         }
                         .disabled(iVoted)
                         .opacity(iVoted ? 0.55 : 1)

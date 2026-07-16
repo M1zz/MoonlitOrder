@@ -5,6 +5,7 @@ struct GameView: View {
     let state: PublicGameState
     @State private var showRoleSheet = false
     @State private var showLeaveConfirm = false
+    @State private var showGMPanel = false
 
     var body: some View {
         VStack(spacing: 14) {
@@ -28,6 +29,10 @@ struct GameView: View {
         .overlay(alignment: .top) { disconnectBanner }
         .sheet(isPresented: $showRoleSheet) {
             RoleSheet()
+                .presentationDetents([.medium, .large])
+        }
+        .sheet(isPresented: $showGMPanel) {
+            GMPanelView()
                 .presentationDetents([.medium, .large])
         }
         .confirmationDialog("게임에서 나갈까요?",
@@ -54,6 +59,13 @@ struct GameView: View {
             } label: {
                 Image(systemName: "xmark")
                     .foregroundColor(.white.opacity(0.7))
+            }
+            if game.isHost, !game.isDemo {
+                Button { showGMPanel = true } label: {
+                    Image(systemName: "crown.fill")
+                        .foregroundColor(Theme.gold.opacity(0.85))
+                }
+                .padding(.leading, 6)
             }
             Spacer()
             if state.phase != .gameOver {
@@ -193,9 +205,7 @@ struct GameView: View {
             banner(text: "호스트와 연결이 끊겼습니다. 자동으로 재접속을 시도하는 중…",
                    color: Theme.shadow)
         } else if state.phase != .gameOver, !state.disconnectedPlayers.isEmpty {
-            let names = state.disconnectedPlayers.map { $0.name }.joined(separator: ", ")
-            banner(text: "\(names) 님의 재접속을 기다리는 중입니다. 앱을 다시 열면 자동 복귀됩니다.",
-                   color: .orange)
+            ReconnectWaitBanner(disconnected: state.disconnectedPlayers)
         }
     }
 

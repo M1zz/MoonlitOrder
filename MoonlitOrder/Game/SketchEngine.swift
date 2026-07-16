@@ -81,6 +81,57 @@ final class SketchEngine {
         pushState()
     }
 
+    /// 호스트가 플레이어를 추방한다. 화가가 나가면 이번 라운드를 정리하고
+    /// 다음 화가로 넘어가며, 전체 라운드 수도 남은 인원에 맞춘다.
+    func removePlayer(_ targetID: UUID, by requesterID: UUID) {
+        guard requesterID == hostID,
+              let idx = players.firstIndex(where: { $0.id == targetID }),
+              !players[idx].isHost else { return }
+        players.remove(at: idx)
+        guard phase != .lobby else {
+            pushState()
+            return
+        }
+
+        let wasCurrentDrawer = targetID == currentDrawerID
+        scores[targetID] = nil
+        lastRoundGains[targetID] = nil
+        solvedOrder.removeAll { $0 == targetID }
+
+        if let dIdx = drawOrder.firstIndex(of: targetID) {
+            drawOrder.remove(at: dIdx)
+            // 이미 그렸던(또는 방금 마친) 화가가 빠지면 순번과 라운드 번호를 당긴다
+            if dIdx < drawerIndex || (dIdx == drawerIndex && phase == .roundResult) {
+                drawerIndex -= 1
+                round -= 1
+            }
+        }
+        if forcedTotalRounds == nil { totalRounds = drawOrder.count }
+
+        switch phase {
+        case .wordSelect, .drawing:
+            if wasCurrentDrawer {
+                // 화가가 나가면 이번 라운드는 무효 — 이미 맞힌 점수만 반영하고 넘어간다
+                for (id, gain) in lastRoundGains { scores[id, default: 0] += gain }
+                if drawerIndex < drawOrder.count {
+                    beginRound()   // pushState + 비공개 정보 전송 포함
+                    return
+                }
+                phase = .gameOver
+            } else if phase == .drawing {
+                // 남은 추측자 전원이 이미 맞혔으면 라운드 종료
+                let guessers = players.filter { $0.id != currentDrawerID }
+                if guessers.allSatisfy({ solvedOrder.contains($0.id) }) {
+                    finishRound()   // pushState 포함
+                    return
+                }
+            }
+        default:
+            break
+        }
+        pushState()
+    }
+
     private func uniqueName(for name: String) -> String {
         let base = name.trimmingCharacters(in: .whitespacesAndNewlines)
         let candidate = base.isEmpty ? "플레이어" : base
@@ -257,6 +308,49 @@ final class SketchEngine {
         scores = [:]
         lastRoundGains = [:]
         pushState()
+    }
+
+    // MARK: - GM(진행자) 제어 — 호스트 기기에서만 호출된다
+
+    /// GM 패널용: 플레이어별 비공개 정보 (화가 표시)
+    func gmSecrets() -> [UUID: String] {
+        guard phase != .lobby else { return [:] }
+        return Dictionary(uniqueKeysWithValues:
+            players.map { ($0.id, $0.id == currentDrawerID ? "화가" : "") })
+    }
+
+    /// GM 패널용: 판 전체 비밀 요약 (제시어)
+    func gmNote() -> String? {
+        if !secretWord.isEmpty { return "제시어: \(secretWord)" }
+        if phase == .wordSelect { return "제시어 후보: \(wordChoices.joined(separator: " · "))" }
+        return nil
+    }
+
+    /// 현재 단계에서 강제 진행이 수행할 일. nil이면 강제 진행 불가.
+    func gmForceAdvanceLabel() -> String? {
+        switch phase {
+        case .wordSelect:  return "화가 대신 제시어를 무작위로 골라 그리기를 시작합니다."
+        case .drawing:     return "이번 라운드를 종료하고 점수를 정산합니다."
+        case .roundResult: return "다음 라운드로 넘어갑니다."
+        case .lobby, .gameOver: return nil
+        }
+    }
+
+    /// GM 강제 진행: 멈춘 단계를 기본값으로 처리하고 넘어간다.
+    func forceAdvance(by requesterID: UUID) {
+        guard requesterID == hostID else { return }
+        switch phase {
+        case .wordSelect:
+            guard let drawer = currentDrawerID,
+                  let word = wordChoices.randomElement() else { return }
+            chooseWord(drawer, word: word)
+        case .drawing:
+            finishRound()
+        case .roundResult:
+            continueRound(by: requesterID)
+        case .lobby, .gameOver:
+            return
+        }
     }
 
     // MARK: - 상태 생성

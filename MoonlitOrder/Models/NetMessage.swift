@@ -37,7 +37,33 @@ enum NetMessage: Codable {
     case sketchState(SketchGameState)
     case sketchPrivate(SketchPrivateInfo)
     case rejected(reason: String)         // 참가 거절
+    case kicked                           // 방장이 내보냄 (재접속 중단)
     case hostEnded                        // 호스트가 방을 닫음
+
+    // MARK: 릴레이 라우팅 (호스트 직결이 꽉 차면 클라이언트끼리 트리로 연결)
+
+    /// 특정 플레이어에게 보내는 메시지 봉투. 릴레이는 자기 것이 아니면
+    /// 해당 플레이어가 붙어 있는 자식 쪽으로 그대로 흘려보낸다.
+    indirect case toPlayer(playerID: UUID, message: NetMessage)
+    /// 릴레이 → 호스트: 내 자식으로 붙어 있던 플레이어의 연결이 끊겼다.
+    case playerGone(playerID: UUID)
+}
+
+extension NetMessage {
+    /// 클라이언트 → 호스트 방향 메시지의 발신 플레이어.
+    /// 릴레이가 위로 흘려보내면서 playerID ↔ 자식 피어 매핑을 학습하는 데 쓴다.
+    var senderPlayerID: UUID? {
+        switch self {
+        case .join(let pid, _), .startGame(let pid), .confirmRole(let pid),
+             .proposeTeam(let pid, _), .teamVote(let pid, _),
+             .missionAction(let pid, _), .assassinate(let pid, _),
+             .hostContinue(let pid), .playAgain(let pid), .abortToLobby(let pid),
+             .liarAction(let pid, _), .wolfAction(let pid, _), .sketchAction(let pid, _):
+            return pid
+        default:
+            return nil
+        }
+    }
 }
 
 enum NetCoder {

@@ -16,6 +16,7 @@ struct MoonlitOrderApp: App {
 struct RootView: View {
     @EnvironmentObject var game: GameViewModel
     @Environment(\.scenePhase) private var scenePhase
+    @State private var showGMPreview = false
 
     var body: some View {
         ZStack {
@@ -72,7 +73,35 @@ struct RootView: View {
                 game.startDemo(kind: .sketch)
             } else if args.contains("-demo") {
                 game.startDemo(kind: .moonlit)
+            } else if args.contains("-kickPreviewGame") {
+                game.startKickPreview(midGame: true)
+            } else if args.contains("-kickPreview") {
+                game.startKickPreview(midGame: false)
+            } else if args.contains("-gmPreview") {
+                // GM 패널 시연: 봇 게임을 열고 패널을 띄운 뒤 강제 진행까지 실행
+                game.startKickPreview(midGame: true)
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) { showGMPreview = true }
+                DispatchQueue.main.asyncAfter(deadline: .now() + 8) { game.gmForceAdvance() }
+            } else if args.contains("-autoHost") {
+                // 멀티 기기 시연: 즉시 방을 연다
+                if let name = argValue(args, "-playerName") { game.playerName = name }
+                game.hostGame(kind: .moonlit)
+            } else if args.contains("-autoJoin") {
+                // 멀티 기기 시연: 발견되는 첫 방에 자동 참가
+                if let name = argValue(args, "-playerName") { game.playerName = name }
+                game.autoJoinRoom = true
+                game.startBrowsing()
             }
         }
+        .sheet(isPresented: $showGMPreview) {
+            GMPanelView()
+                .presentationDetents([.medium, .large])
+        }
+    }
+
+    /// 실행 인자에서 "-이름 값" 쌍의 값을 읽는다 (시연용)
+    private func argValue(_ args: [String], _ name: String) -> String? {
+        guard let i = args.firstIndex(of: name), args.indices.contains(i + 1) else { return nil }
+        return args[i + 1]
     }
 }

@@ -105,7 +105,7 @@ enum WolfAction: Codable {
 // MARK: - 규칙
 
 enum WolfRules {
-    static let playerRange = 3...10
+    static let playerRange = 3...15
     static let centerCount = 3
 
     static func phaseSeconds(for phase: WolfPhase) -> Int? {
@@ -117,9 +117,10 @@ enum WolfRules {
         }
     }
 
-    /// 인원수+3장의 카드 구성: 도깨비 2, 무당, 밤손님, 장난꾼 + 나머지 마을 사람
+    /// 인원수+3장의 카드 구성: 도깨비 2(11인 이상은 3), 무당, 밤손님, 장난꾼 + 나머지 마을 사람
     static func makeDeck(for playerCount: Int) -> [WolfRole] {
         var deck: [WolfRole] = [.werewolf, .werewolf, .seer, .robber, .troublemaker]
+        if playerCount >= 11 { deck.append(.werewolf) }   // 대인원에선 도깨비도 늘린다
         let villagers = playerCount + centerCount - deck.count
         deck += Array(repeating: .villager, count: max(0, villagers))
         return deck.shuffled()

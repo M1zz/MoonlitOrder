@@ -71,6 +71,44 @@ final class LiarEngine {
         pushState()
     }
 
+    /// 호스트가 플레이어를 추방한다. 진행 중이던 단계는 남은 인원 기준으로
+    /// 다시 판정하고, 라이어가 나가면 시민의 승리로 끝낸다.
+    func removePlayer(_ targetID: UUID, by requesterID: UUID) {
+        guard requesterID == hostID,
+              let idx = players.firstIndex(where: { $0.id == targetID }),
+              !players[idx].isHost else { return }
+        players.remove(at: idx)
+
+        if phase != .lobby, targetID == liarID {
+            endGame(liarWins: false, reason: "라이어가 방을 떠났습니다. 시민의 승리!")
+            return
+        }
+        if let sIdx = speakingOrder.firstIndex(of: targetID) {
+            speakingOrder.remove(at: sIdx)
+            if sIdx < speakerIndex {
+                speakerIndex -= 1
+            } else if sIdx == speakerIndex {
+                phaseStartedAt = Date()   // 발언 중이던 사람이 나가면 타이머 리셋
+            }
+        }
+
+        switch phase {
+        case .wordReveal:
+            if players.allSatisfy({ $0.confirmedWord }) { phase = .describing }
+        case .describing:
+            if speakerIndex >= speakingOrder.count { phase = .voting }
+        case .voting:
+            // 나간 사람에게 던진 표는 무효 → 해당 플레이어는 다시 투표
+            for i in players.indices where players[i].votedFor == targetID {
+                players[i].votedFor = nil
+            }
+            if players.allSatisfy({ $0.votedFor != nil }) { tallyVotes() }
+        default:
+            break
+        }
+        pushState()
+    }
+
     private func uniqueName(for name: String) -> String {
         let base = name.trimmingCharacters(in: .whitespacesAndNewlines)
         let candidate = base.isEmpty ? "플레이어" : base
@@ -227,6 +265,54 @@ final class LiarEngine {
         liarGuess = nil
         liarWins = nil
         winReason = nil
+        pushState()
+    }
+
+    // MARK: - GM(진행자) 제어 — 호스트 기기에서만 호출된다
+
+    /// GM 패널용: 플레이어별 비공개 정보 (라이어 여부)
+    func gmSecrets() -> [UUID: String] {
+        guard phase != .lobby else { return [:] }
+        return Dictionary(uniqueKeysWithValues:
+            players.map { ($0.id, $0.id == liarID ? "라이어" : "시민") })
+    }
+
+    /// GM 패널용: 판 전체 비밀 요약
+    func gmNote() -> String? {
+        guard phase != .lobby else { return nil }
+        return "제시어: \(secretWord) · 카테고리: \(category)"
+    }
+
+    /// 현재 단계에서 강제 진행이 수행할 일. nil이면 강제 진행 불가.
+    func gmForceAdvanceLabel() -> String? {
+        switch phase {
+        case .wordReveal: return "전원 제시어 확인 처리 후 설명 단계로 넘어갑니다."
+        case .describing: return "현재 발언자의 차례를 끝내고 다음으로 넘깁니다."
+        case .voting:     return "아직 투표하지 않은 사람은 기권으로 처리하고 개표합니다."
+        case .liarGuess:  return "라이어의 추측 포기로 처리하고 시민의 승리로 끝냅니다."
+        case .lobby, .gameOver: return nil
+        }
+    }
+
+    /// GM 강제 진행: 미응답자를 기본값으로 처리하고 현재 단계를 끝낸다.
+    func forceAdvance(by requesterID: UUID) {
+        guard requesterID == hostID else { return }
+        switch phase {
+        case .wordReveal:
+            for i in players.indices { players[i].confirmedWord = true }
+            phase = .describing
+        case .describing:
+            speakerIndex += 1
+            phaseStartedAt = Date()
+            if speakerIndex >= speakingOrder.count { phase = .voting }
+        case .voting:
+            tallyVotes()   // 기권표는 빼고 개표 (표가 갈리면 규칙대로 라이어 승리)
+        case .liarGuess:
+            endGame(liarWins: false, reason: "라이어가 답하지 못했습니다. 시민의 승리!")
+            return   // endGame이 상태를 전파한다
+        case .lobby, .gameOver:
+            return
+        }
         pushState()
     }
 

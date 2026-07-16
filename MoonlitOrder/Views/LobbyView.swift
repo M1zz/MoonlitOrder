@@ -3,9 +3,14 @@ import SwiftUI
 struct LobbyView: View {
     @EnvironmentObject var game: GameViewModel
     let state: PublicGameState
+    @State private var kickTarget: PlayerPublic?
 
     private var countOK: Bool {
         GameRules.playerRange.contains(state.players.count)
+    }
+
+    private func canKick(_ p: PlayerPublic) -> Bool {
+        game.isHost && !game.isDemo && !p.isHost
     }
 
     var body: some View {
@@ -43,7 +48,8 @@ struct LobbyView: View {
             ScrollView {
                 VStack(spacing: 8) {
                     ForEach(state.players) { p in
-                        PlayerRow(player: p, isMe: p.id == game.playerID)
+                        PlayerRow(player: p, isMe: p.id == game.playerID,
+                                  onKick: canKick(p) ? { kickTarget = p } : nil)
                     }
                 }
                 .padding(.horizontal, 20)
@@ -78,6 +84,14 @@ struct LobbyView: View {
             }
         }
         .padding(.bottom, 16)
+        .confirmationDialog(kickTarget.map { "\($0.name) 님을 내보낼까요?" } ?? "",
+                            isPresented: Binding(get: { kickTarget != nil },
+                                                 set: { if !$0 { kickTarget = nil } }),
+                            titleVisibility: .visible,
+                            presenting: kickTarget) { target in
+            Button("내보내기", role: .destructive) { game.kickPlayer(target.id) }
+            Button("취소", role: .cancel) {}
+        }
     }
 
     private var shadowCountInfo: some View {
