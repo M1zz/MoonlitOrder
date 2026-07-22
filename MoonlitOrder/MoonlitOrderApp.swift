@@ -23,6 +23,7 @@ struct RootView: View {
     @EnvironmentObject var game: GameViewModel
     @Environment(\.scenePhase) private var scenePhase
     @State private var showGMPreview = false
+    @State private var showSupport = false
 
     var body: some View {
         ZStack {
@@ -53,6 +54,30 @@ struct RootView: View {
                         .tint(.white)
                 }
             }
+
+            // 홈 화면에서만 노출되는 설정(지원) 진입점
+            if game.mode == .idle {
+                VStack {
+                    HStack {
+                        Spacer()
+                        Button {
+                            showSupport = true
+                        } label: {
+                            Image(systemName: "gearshape")
+                                .font(.title3)
+                                .foregroundColor(.white.opacity(0.7))
+                                .padding(10)
+                        }
+                        .accessibilityLabel("설정")
+                    }
+                    Spacer()
+                }
+                .padding(.horizontal, 8)
+                .padding(.top, 4)
+            }
+        }
+        .sheet(isPresented: $showSupport) {
+            MoonlitOrderSupportView()
         }
         .alert("알림", isPresented: Binding(
             get: { game.errorMessage != nil },
