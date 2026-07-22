@@ -1,14 +1,20 @@
 import SwiftUI
+import LeeoKit
 
 @main
 struct MoonlitOrderApp: App {
     @StateObject private var game = GameViewModel()
+
+    init() {
+        LeeoEngagement.shared.registerLaunch()
+    }
 
     var body: some Scene {
         WindowGroup {
             RootView()
                 .environmentObject(game)
                 .preferredColorScheme(.dark)
+                .leeoSatisfactionCheck(MoonlitOrderSpec.self)
         }
     }
 }

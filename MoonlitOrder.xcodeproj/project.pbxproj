@@ -6,12 +6,18 @@
 	objectVersion = 70;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		06C99259EC8895C5A12DEB45 /* MoonlitOrderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A588CD5A78965A59BE215F1 /* MoonlitOrderSpec.swift */; };
+		F1614D6FAFBD9A525C3CB58B /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = E4B35F4CBC38F45CD9FC111E /* LeeoKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		8A588CD5A78965A59BE215F1 /* MoonlitOrderSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoonlitOrderSpec.swift; path = MoonlitOrder/MoonlitOrderSpec.swift; sourceTree = "<group>"; };
 		D0B000000000000000000F01 /* MoonlitOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoonlitOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D0B000000000000000000E01 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		D0B000000000000000000E01 /* Exceptions for "MoonlitOrder" folder in "MoonlitOrder" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,7 +27,18 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D0B000000000000000000A63 /* MoonlitOrder */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (D0B000000000000000000E01 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = MoonlitOrder; sourceTree = "<group>"; };
+		D0B000000000000000000A63 /* MoonlitOrder */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D0B000000000000000000E01 /* Exceptions for "MoonlitOrder" folder in "MoonlitOrder" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = MoonlitOrder;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1614D6FAFBD9A525C3CB58B /* LeeoKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +58,7 @@
 			children = (
 				D0B000000000000000000A63 /* MoonlitOrder */,
 				D0B000000000000000000A62 /* Products */,
+				8A588CD5A78965A59BE215F1 /* MoonlitOrderSpec.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +89,9 @@
 				D0B000000000000000000A63 /* MoonlitOrder */,
 			);
 			name = MoonlitOrder;
+			packageProductDependencies = (
+				E4B35F4CBC38F45CD9FC111E /* LeeoKit */,
+			);
 			productName = MoonlitOrder;
 			productReference = D0B000000000000000000F01 /* MoonlitOrder.app */;
 			productType = "com.apple.product-type.application";
@@ -100,6 +122,9 @@
 			);
 			mainGroup = D0B000000000000000000A61;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7BE001AD02EDA138A35F9DEB /* XCLocalSwiftPackageReference "LeeoKit" */,
+			);
 			productRefGroup = D0B000000000000000000A62 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06C99259EC8895C5A12DEB45 /* MoonlitOrderSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +208,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -239,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -333,6 +359,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		7BE001AD02EDA138A35F9DEB /* XCLocalSwiftPackageReference "LeeoKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../LeeoKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E4B35F4CBC38F45CD9FC111E /* LeeoKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7BE001AD02EDA138A35F9DEB /* XCLocalSwiftPackageReference "LeeoKit" */;
+			productName = LeeoKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D0B000000000000000000A91 /* Project object */;
 }
