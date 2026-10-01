@@ -11,5 +11,7 @@
 		<string>_moonorder._tcp</string>
 		<string>_moonorder._udp</string>
 	</array>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 </dict>
 </plist>
