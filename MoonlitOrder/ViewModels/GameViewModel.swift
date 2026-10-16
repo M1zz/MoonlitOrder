@@ -483,6 +483,7 @@ final class GameViewModel: ObservableObject {
         isHost = true
         gameKind = kind
         showDemoIntro = !auto  // 먼저 게임 목적·승리 조건을 보여준다 (자동 시연은 건너뜀)
+        FeatureTips.markPracticed()  // 연습 판을 열어 봤으니 연습 팁은 더 띄우지 않는다
         UIApplication.shared.isIdleTimerDisabled = true
 
         // 서비스가 없으므로 브로드캐스트/광고는 자연스럽게 무시된다
