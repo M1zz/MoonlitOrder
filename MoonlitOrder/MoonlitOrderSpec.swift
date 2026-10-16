@@ -10,4 +10,6 @@ enum MoonlitOrderSpec: LeeoAppSpec {
         privacyURL: URL(string: "https://m1zz.github.io/MoonlitOrder/privacy.html")!,
         supportURL: URL(string: "https://m1zz.github.io/MoonlitOrder/")!)
     static let monetization = LeeoMonetization.free
+    // 익명 사용 통계 → FeedbackHub. 없으면 bootstrap 이 스냅샷·app_open 을 건너뛴다.
+    static let analytics: any LeeoAnalytics = LeeoUsageAnalytics(spec: MoonlitOrderSpec.self)
 }
