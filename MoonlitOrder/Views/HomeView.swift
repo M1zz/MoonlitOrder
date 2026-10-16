@@ -1,4 +1,5 @@
 import SwiftUI
+import TipKit
 
 extension GameViewModel.GameKind: Identifiable {
     var id: String { rawValue }
@@ -9,11 +10,13 @@ struct HomeView: View {
     @FocusState private var nameFocused: Bool
     @State private var selectedGame: GameViewModel.GameKind?
 
-    private func gameCard(icon: String, color: Color, title: String,
-                          desc: String, action: @escaping () -> Void) -> some View {
-        Button {
+    private func gameCard(kind: GameViewModel.GameKind, icon: String, color: Color,
+                          title: String, desc: String) -> some View {
+        // 원격 킬스위치로 꺼진 게임은 '점검 중'으로 보이고 열리지 않는다.
+        let enabled = kind.isRemotelyEnabled
+        return Button {
             nameFocused = false
-            action()
+            selectedGame = kind
         } label: {
             HStack(spacing: 12) {
                 Image(systemName: icon)
@@ -24,19 +27,21 @@ struct HomeView: View {
                     Text(title)
                         .font(.headline)
                         .foregroundColor(.white)
-                    Text(desc)
+                    Text(enabled ? desc : "잠시 점검 중이에요. 곧 다시 열게요.")
                         .font(.caption)
                         .foregroundColor(.white.opacity(0.6))
                 }
                 Spacer()
-                Image(systemName: "chevron.right")
+                Image(systemName: enabled ? "chevron.right" : "wrench.and.screwdriver")
                     .font(.caption)
                     .foregroundColor(.white.opacity(0.4))
             }
             .padding(.vertical, 12)
             .padding(.horizontal, 14)
             .cardStyle()
+            .opacity(enabled ? 1 : 0.5)
         }
+        .disabled(!enabled)
     }
 
     var body: some View {
@@ -84,26 +89,18 @@ struct HomeView: View {
                     Spacer()
                 }
 
-                gameCard(icon: "moon.stars.fill", color: Theme.gold,
+                gameCard(kind: .moonlit, icon: "moon.stars.fill", color: Theme.gold,
                          title: "달빛 결사",
-                         desc: "5~15인 · 숨어든 그림자를 찾는 정체 추리") {
-                    selectedGame = .moonlit
-                }
-                gameCard(icon: "theatermasks.fill", color: Theme.moonlit,
+                         desc: "5~15인 · 숨어든 그림자를 찾는 정체 추리")
+                gameCard(kind: .liar, icon: "theatermasks.fill", color: Theme.moonlit,
                          title: "라이어 게임",
-                         desc: "3~15인 · 제시어를 모르는 한 명을 찾아라") {
-                    selectedGame = .liar
-                }
-                gameCard(icon: "flame.fill", color: Theme.shadow,
+                         desc: "3~15인 · 제시어를 모르는 한 명을 찾아라")
+                gameCard(kind: .wolf, icon: "flame.fill", color: Theme.shadow,
                          title: "달 없는 밤",
-                         desc: "3~15인 · 도깨비가 숨어든 하룻밤 추리") {
-                    selectedGame = .wolf
-                }
-                gameCard(icon: "paintbrush.pointed.fill", color: Theme.mint,
+                         desc: "3~15인 · 도깨비가 숨어든 하룻밤 추리")
+                gameCard(kind: .sketch, icon: "paintbrush.pointed.fill", color: Theme.mint,
                          title: "달빛 화실",
-                         desc: "3~15인 · 한 명이 그리고 나머지가 맞히는 그림 놀이") {
-                    selectedGame = .sketch
-                }
+                         desc: "3~15인 · 한 명이 그리고 나머지가 맞히는 그림 놀이")
 
                 Button {
                     nameFocused = false
@@ -252,6 +249,7 @@ struct GameMenuView: View {
                     }
                     .buttonStyle(BigButtonStyle(color: Color.white.opacity(0.12),
                                                 textColor: .white))
+                    .popoverTip(PracticeTip(), arrowEdge: .bottom)
                 }
                 .padding(.horizontal, 24)
                 .padding(.bottom, 24)

@@ -1,4 +1,5 @@
 import SwiftUI
+import TipKit
 import LeeoKit
 
 @main
@@ -6,8 +7,20 @@ struct MoonlitOrderApp: App {
     @StateObject private var game = GameViewModel()
 
     init() {
-        // 사용량 기록 · 크래시 진단 · 익명 사용 통계. 실패해도 게임은 그대로 돈다.
-        LeeoKit.bootstrap(MoonlitOrderSpec.self)
+        // 첫 실행 안내가 생기기 전부터 쓰던 사람에게는 안내를 띄우지 않는다 (뷰모델이 ID 를 만들기 전에 판단).
+        MoonlitOrderOnboarding.skipForExistingPlayers()
+
+        // 사용량 기록 · 크래시 진단 · 익명 사용 통계 · 원격 킬스위치. 실패해도 게임은 그대로 돈다.
+        // 통계·진단 스위치는 지난 실행에 받아 둔 값으로 판단한다(이번 갱신은 다음 실행부터 반영).
+        LeeoKit.bootstrap(
+            MoonlitOrderSpec.self,
+            flags: MoonlitOrderFlag.self,
+            diagnostics: LeeoRemoteFlags.isEnabled(MoonlitOrderFlag.diagnosticsEnabled),
+            usageReporting: LeeoRemoteFlags.isEnabled(MoonlitOrderFlag.usageReportingEnabled))
+
+        // 사용 팁 — 화면당 하나씩, TipKit 이 표시 빈도를 관리한다.
+        try? Tips.configure([.displayFrequency(.daily)])
+        if RootView.isScriptedLaunch { Tips.hideAllTipsForTesting() }
     }
 
     var body: some Scene {
@@ -25,6 +38,22 @@ struct RootView: View {
     @Environment(\.scenePhase) private var scenePhase
     @State private var showGMPreview = false
     @State private var showSupport = false
+    @AppStorage(MoonlitOrderOnboarding.hasSeenOnboardingKey) private var hasSeenOnboarding = false
+    @ObservedObject private var shortcuts = ShortcutRouter.shared
+
+    /// 시연·스크린샷용 실행 인자로 켠 실행인가. 이때는 첫 실행 안내·팁을 띄우지 않는다.
+    static var isScriptedLaunch: Bool {
+        ProcessInfo.processInfo.arguments.contains { arg in
+            arg.hasPrefix("-demo") || arg.hasPrefix("-kickPreview")
+                || ["-gmPreview", "-autoHost", "-autoJoin"].contains(arg)
+        }
+    }
+
+    private var showOnboarding: Binding<Bool> {
+        Binding(
+            get: { !hasSeenOnboarding && !Self.isScriptedLaunch },
+            set: { if !$0 { hasSeenOnboarding = true } })
+    }
 
     var body: some View {
         ZStack {
@@ -80,6 +109,11 @@ struct RootView: View {
         .sheet(isPresented: $showSupport) {
             MoonlitOrderSupportView()
         }
+        .fullScreenCover(isPresented: showOnboarding) {
+            MoonlitOrderOnboardingView { hasSeenOnboarding = true }
+        }
+        .onReceive(shortcuts.$pending) { _ in runPendingShortcut() }
+        .onChange(of: hasSeenOnboarding) { _ in runPendingShortcut() }
         .alert("알림", isPresented: Binding(
             get: { game.errorMessage != nil },
             set: { if !$0 { game.errorMessage = nil } }
@@ -128,6 +162,30 @@ struct RootView: View {
         .sheet(isPresented: $showGMPreview) {
             GMPanelView()
                 .presentationDetents([.medium, .large])
+        }
+    }
+
+    /// 단축어·Siri 로 받은 할 일을 실행한다. 첫 실행 안내를 다 본 뒤 홈 화면에서만 한다 —
+    /// 게임 중이면 진행 중인 판을 깨지 않도록 버린다.
+    private func runPendingShortcut() {
+        guard let action = shortcuts.pending, hasSeenOnboarding || Self.isScriptedLaunch else { return }
+        shortcuts.pending = nil
+        guard game.mode == .idle else { return }
+        showSupport = false
+
+        switch action {
+        case .browse:
+            game.startBrowsing()
+        case .host(let kind), .practice(let kind):
+            guard kind.isRemotelyEnabled else {
+                game.errorMessage = "\(kind.displayName)은(는) 잠시 점검 중이에요. 다른 게임을 골라 주세요."
+                return
+            }
+            if case .host = action {
+                game.hostGame(kind: kind)
+            } else {
+                game.startDemo(kind: kind)
+            }
         }
     }
 
