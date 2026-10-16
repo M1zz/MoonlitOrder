@@ -8,6 +8,22 @@ enum SketchStyle {
         let c = SketchRules.palette[i]
         return Color(red: c.r, green: c.g, blue: c.b)
     }
+    /// VoiceOver 가 읽는 팔레트 이름 (SketchRules.palette 순서와 같다)
+    static func colorName(_ i: Int) -> String {
+        let names = ["검정", "빨강", "주황", "노랑", "초록", "파랑", "보라", "갈색"]
+        if i == SketchRules.eraserIndex { return "지우개" }
+        return names.indices.contains(i) ? names[i] : "색 \(i + 1)"
+    }
+
+    /// VoiceOver 가 읽는 붓 굵기 이름 (SketchRules.brushWidths 순서와 같다)
+    static func brushName(_ width: Double) -> String {
+        switch SketchRules.brushWidths.firstIndex(of: width) {
+        case 0:  return "가는 붓"
+        case 1:  return "중간 붓"
+        default: return "굵은 붓"
+        }
+    }
+
     static var boardColor: Color {
         let c = SketchRules.boardColor
         return Color(red: c.r, green: c.g, blue: c.b)
@@ -97,11 +113,13 @@ struct SketchGameView: View {
             Button { showLeaveConfirm = true } label: {
                 Image(systemName: "xmark").foregroundColor(.white.opacity(0.7))
             }
+            .accessibilityLabel("나가기")
             if game.isHost, !game.isDemo {
                 Button { showGMPanel = true } label: {
                     Image(systemName: "crown.fill")
                         .foregroundColor(Theme.gold.opacity(0.85))
                 }
+                .accessibilityLabel("진행자 패널")
                 .padding(.leading, 6)
             }
             Spacer()
@@ -422,6 +440,8 @@ struct SketchDrawingView: View {
                             }
                             .frame(width: 38, height: 38)
                         }
+                        .accessibilityLabel(SketchStyle.colorName(i))
+                        .accessibilityAddTraits(colorIndex == i ? .isSelected : [])
                     }
                 }
                 .padding(.horizontal, 16)
@@ -435,6 +455,8 @@ struct SketchDrawingView: View {
                             .frame(width: w + 6, height: w + 6)
                             .frame(width: 32, height: 32)
                     }
+                    .accessibilityLabel(SketchStyle.brushName(w))
+                    .accessibilityAddTraits(width == w ? .isSelected : [])
                 }
 
                 Divider().frame(height: 22).overlay(Color.white.opacity(0.2))
@@ -444,6 +466,7 @@ struct SketchDrawingView: View {
                         .foregroundColor(.white).frame(width: 34, height: 34)
                         .background(Circle().fill(Color.white.opacity(0.12)))
                 }
+                .accessibilityLabel("한 획 되돌리기")
                 .disabled(state.strokes.isEmpty)
                 .opacity(state.strokes.isEmpty ? 0.4 : 1)
 
@@ -452,6 +475,7 @@ struct SketchDrawingView: View {
                         .foregroundColor(.white).frame(width: 34, height: 34)
                         .background(Circle().fill(Color.white.opacity(0.12)))
                 }
+                .accessibilityLabel("그림 모두 지우기")
                 .disabled(state.strokes.isEmpty)
                 .opacity(state.strokes.isEmpty ? 0.4 : 1)
             }

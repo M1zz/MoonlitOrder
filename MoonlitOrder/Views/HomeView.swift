@@ -159,6 +159,7 @@ struct HomeView: View {
                 Image(systemName: "xmark.circle.fill")
                     .foregroundColor(.white.opacity(0.35))
             }
+            .accessibilityLabel("이어서 하기 기록 지우기")
         }
         .padding(.vertical, 12)
         .padding(.horizontal, 14)

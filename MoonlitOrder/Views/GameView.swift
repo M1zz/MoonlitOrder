@@ -60,11 +60,13 @@ struct GameView: View {
                 Image(systemName: "xmark")
                     .foregroundColor(.white.opacity(0.7))
             }
+            .accessibilityLabel("나가기")
             if game.isHost, !game.isDemo {
                 Button { showGMPanel = true } label: {
                     Image(systemName: "crown.fill")
                         .foregroundColor(Theme.gold.opacity(0.85))
                 }
+                .accessibilityLabel("진행자 패널")
                 .padding(.leading, 6)
             }
             Spacer()
