@@ -17,7 +17,11 @@ struct MoonlitOrderSupportView: View {
     var body: some View {
         NavigationStack {
             List {
-                Section { LeeoSupportSection<MoonlitOrderSpec>() } header: { Text("지원") }
+                Section {
+                    LeeoSupportSection<MoonlitOrderSpec>()
+                    // 앞으로 만들 기능 — 원본은 MoonlitOrderRoadmap.swift
+                    NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
+                } header: { Text("지원") }
 
                 Section {
                     Button {
