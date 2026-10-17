@@ -1,0 +1,380 @@
+{
+  "sourceLanguage" : "ko",
+  "strings" : {
+    "VoiceOver로 더 편하게" : {
+      "comment" : "Roadmap item: VoiceOver",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Better VoiceOver support"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver로 더 편하게"
+          }
+        }
+      }
+    },
+    "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요." : {
+      "comment" : "Roadmap item detail: larger text",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Screens rearrange neatly instead of getting cut off when you enlarge text."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요."
+          }
+        }
+      }
+    },
+    "내 차례 알림" : {
+      "comment" : "Roadmap item: notifications",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your-turn alerts"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "내 차례 알림"
+          }
+        }
+      }
+    },
+    "대비를 높이거나 색을 구별하기 어려워도 진영과 결과를 알아볼 수 있어요." : {
+      "comment" : "Roadmap item detail: color and contrast",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tell teams and results apart, even with Increase Contrast on or if colors are hard to tell apart."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "대비를 높이거나 색을 구별하기 어려워도 진영과 결과를 알아볼 수 있어요."
+          }
+        }
+      }
+    },
+    "더 많은 나라 말로 앱을 쓸 수 있게 해요." : {
+      "comment" : "Roadmap item detail: more languages",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use the app in more languages."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "더 많은 나라 말로 앱을 쓸 수 있게 해요."
+          }
+        }
+      }
+    },
+    "더 많은 언어" : {
+      "comment" : "Roadmap item: more languages",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "More languages"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "더 많은 언어"
+          }
+        }
+      }
+    },
+    "보기 편한 색과 대비" : {
+      "comment" : "Roadmap item: color and contrast",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Easier colors and contrast"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "보기 편한 색과 대비"
+          }
+        }
+      }
+    },
+    "손끝으로 느끼는 반응" : {
+      "comment" : "Roadmap item: haptics",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptic feedback"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "손끝으로 느끼는 반응"
+          }
+        }
+      }
+    },
+    "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요." : {
+      "comment" : "Roadmap item detail: what's new",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The first time you open the app after an update, see what’s new."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요."
+          }
+        }
+      }
+    },
+    "업데이트 소식" : {
+      "comment" : "Roadmap item: what's new",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What’s new"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "업데이트 소식"
+          }
+        }
+      }
+    },
+    "역할을 받거나 투표가 끝나면 가볍게 떨려서 알려 줘요." : {
+      "comment" : "Roadmap item detail: haptics",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A gentle tap when you get your role or a vote ends."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "역할을 받거나 투표가 끝나면 가볍게 떨려서 알려 줘요."
+          }
+        }
+      }
+    },
+    "영어 지원" : {
+      "comment" : "Roadmap item: English",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Full English support"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "영어 지원"
+          }
+        }
+      }
+    },
+    "외국인 친구와도 함께 하도록 앱을 영어로도 쓸 수 있어요." : {
+      "comment" : "Roadmap item detail: English",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use the whole app in English, so friends from abroad can play too."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "외국인 친구와도 함께 하도록 앱을 영어로도 쓸 수 있어요."
+          }
+        }
+      }
+    },
+    "움직임 줄이기" : {
+      "comment" : "Roadmap item: reduce motion",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reduce Motion"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "움직임 줄이기"
+          }
+        }
+      }
+    },
+    "움직임 줄이기를 켜면 화면 효과가 차분해져요." : {
+      "comment" : "Roadmap item detail: reduce motion",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "With Reduce Motion on, screen effects calm down."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "움직임 줄이기를 켜면 화면 효과가 차분해져요."
+          }
+        }
+      }
+    },
+    "큰 글씨에 맞춘 화면" : {
+      "comment" : "Roadmap item: larger text",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layouts for larger text"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "큰 글씨에 맞춘 화면"
+          }
+        }
+      }
+    },
+    "펼치는 아이폰 화면" : {
+      "comment" : "Roadmap item: foldable iPhone",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foldable iPhone layout"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "펼치는 아이폰 화면"
+          }
+        }
+      }
+    },
+    "펼치는 아이폰에서 넓은 화면을 두 쪽으로 나눠 써요." : {
+      "comment" : "Roadmap item detail: foldable iPhone",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use the wide screen of a foldable iPhone as two side-by-side panes."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "펼치는 아이폰에서 넓은 화면을 두 쪽으로 나눠 써요."
+          }
+        }
+      }
+    },
+    "홈 화면 위젯" : {
+      "comment" : "Roadmap item: widgets",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home Screen widgets"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "홈 화면 위젯"
+          }
+        }
+      }
+    },
+    "홈 화면에서 바로 게임 방을 열 수 있어요." : {
+      "comment" : "Roadmap item detail: widgets",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open a game room straight from your Home Screen."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "홈 화면에서 바로 게임 방을 열 수 있어요."
+          }
+        }
+      }
+    },
+    "화면 읽기 기능이 역할 카드와 투표 단추를 빠짐없이, 알맞은 순서로 읽어 줘요." : {
+      "comment" : "Roadmap item detail: VoiceOver",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver reads every role card and vote button, in the right order."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "화면 읽기 기능이 역할 카드와 투표 단추를 빠짐없이, 알맞은 순서로 읽어 줘요."
+          }
+        }
+      }
+    },
+    "화면을 꺼 두어도 내 차례가 오면 알림으로 알려 줘요." : {
+      "comment" : "Roadmap item detail: notifications",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get a notification when it’s your turn, even with the screen off."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "화면을 꺼 두어도 내 차례가 오면 알림으로 알려 줘요."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
