@@ -637,3 +637,61 @@ https://m1zz.github.io/MoonlitOrder/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/MoonlitOrder/
+
+## pt-BR
+
+### 이름
+
+Fliperama Lunar: Jogos Offline
+
+### 부제
+
+Jogue com amigos por perto
+
+### 키워드
+
+mentiroso,mafia,lobisomem,dedução,desenhar,adivinhar,blefe,bluetooth,wifi,multijogador,família,festa
+
+### 프로모션 텍스트
+
+Reuniu o pessoal e ninguém sabe o que jogar? Conecte iPhones por perto sem internet e curta quatro jogos de festa para até 15 jogadores.
+
+### 설명
+
+Jogos de festa que você começa na hora no seu iPhone quando os amigos se reúnem.
+Sem internet, iPhones na mesma rede Wi-Fi ou por perto se conectam entre si, e até 15 pessoas podem jogar juntas.
+
+Quatro jogos
+Ordem Lunar (5–15 jogadores): um jogo de identidades ocultas em que você descobre as Sombras infiltradas entre os membros da Ordem. O líder escolhe uma equipe, todos votam a favor ou contra, e a equipe joga em segredo sucesso ou fracasso. Quem chega primeiro a 3 missões, pelo sucesso ou pelo fracasso?
+Jogo do Mentiroso (3–15 jogadores): todos recebem a mesma palavra secreta, menos uma pessoa. Descubra o Mentiroso que não a conhece ouvindo a conversa.
+Noite sem Lua (3–15 jogadores): uma noite com um Goblin na vila. À noite cada um age em segredo conforme seu papel e, ao amanhecer, vocês discutem e votam para encontrar o Goblin.
+Ateliê Lunar (3–15 jogadores): uma pessoa desenha a palavra secreta e os outros adivinham. Quanto mais rápido você acerta, mais pontos ganha.
+
+Na sua própria tela, em segredo
+Papéis e palavras aparecem só no seu iPhone. Não precisa distribuir cartas nem fechar os olhos.
+Na votação você vê na hora quem já votou. Em quem cada um votou fica em segredo até a revelação.
+
+Fácil para quem está começando
+Cada jogo tem um modo de aprendizado. Aprenda as regras jogando passo a passo com bots.
+
+Continue de onde parou
+Se o app fechar ou a conexão cair, «Continuar» na tela inicial leva você de volta à partida, com seu papel e seus pontos.
+Os aparelhos se retransmitem entre si, então o jogo fica estável mesmo com muita gente.
+
+Ferramentas para o anfitrião
+O anfitrião pode remover a qualquer momento um jogador que não responde, e a partida é julgada de novo com os jogadores restantes para nunca travar.
+No modo anfitrião, você pode avançar uma fase travada e gerenciar os jogadores.
+
+Todos os jogos são gratuitos e começam sem conta.
+
+### 지원 URL
+
+https://m1zz.github.io/MoonlitOrder/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/MoonlitOrder/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/MoonlitOrder/

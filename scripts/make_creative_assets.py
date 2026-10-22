@@ -24,9 +24,9 @@ OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 # 문구 언어 → App Store Connect 로케일
-STORE = {"en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it"}
+STORE = {"en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR"}
 # 문구 언어 → 기기 화면 캡처 폴더
-SCREEN = {"ko": "ko", "en": "en", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it"}   # en 캡처는 Mac 시뮬레이터에서 docs/screenshots/raw/creative/en/ 에 만든다
+SCREEN = {"ko": "ko", "en": "en", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR"}   # en 캡처는 Mac 시뮬레이터에서 docs/screenshots/raw/creative/en/ 에 만든다
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -48,6 +48,7 @@ SEARCH = {
     "de": ("Partyspiele", "Zusammenkommen,<br>sofort losspielen", "Vom Lügner-Spiel bis Zeichnen und Raten<br>ganz ohne Internet"),
     "fr": ("Jeux de soirée", "On se retrouve,<br>on lance une partie", "Du Jeu du Menteur au dessin à deviner<br>sans Internet"),
     "it": ("Giochi di società", "Ci si ritrova,<br>si parte subito", "Dal Gioco del Bugiardo al disegno<br>senza Internet"),
+    "pt-BR": ("Jogos de festa", "Reuniu o pessoal,<br>já começa a partida", "Do Jogo do Mentiroso ao desenho<br>sem precisar de internet"),
 }
 
 # 헤더: 처음 온 사람에게 한 가지 약속.
@@ -63,6 +64,7 @@ HEADER = {
     "de": ("Partyspiele für die Nähe", "Handy raus<br>und alle spielen mit"),
     "fr": ("Jeux de soirée à proximité", "Sortez votre téléphone<br>et jouez tous ensemble"),
     "it": ("Giochi di società vicini", "Tira fuori il telefono<br>e giocate insieme"),
+    "pt-BR": ("Jogos de festa por perto", "Pegue o celular<br>e jogue com todo mundo"),
 }
 
 # 바탕 · 글자색은 앱의 색이다(Views/Theme.swift): 남색→보라 그라데이션 배경, 포인트 금색(Theme.gold).

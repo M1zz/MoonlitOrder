@@ -51,6 +51,12 @@
             "value" : "月明かりアーケード"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fliperama Lunar"
+          }
+        },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
@@ -119,6 +125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "近くの友だちのiPhoneと直接つないでパーティゲームを一緒に遊ぶために、ローカルネットワークへのアクセスが必要です。"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O acesso à rede local é necessário para se conectar diretamente aos iPhones de amigos por perto e jogar juntos."
           }
         },
         "ru" : {
