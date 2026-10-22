@@ -82,7 +82,7 @@ Avalie o app e confira a versão
 
 ### 앱스토어 (Tiếng Việt)
 
-Mở Cài đặt bằng bánh răng ở màn hình chính
+Mở Cài đặt bằng bánh răng màn chính
 Gửi góp ý cho nhà phát triển ngay
 Đánh giá ứng dụng và xem phiên bản
 
