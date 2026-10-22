@@ -521,3 +521,61 @@ https://m1zz.github.io/MoonlitOrder/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/MoonlitOrder/
+
+## fr
+
+### 이름
+
+Arcade Lunaire: Jeux de soirée
+
+### 부제
+
+Jouez hors ligne entre amis
+
+### 키워드
+
+menteur,mafia,loup-garou,société,déduction,dessin,deviner,bluff,bluetooth,wifi,multijoueur,famille
+
+### 프로모션 텍스트
+
+Réunis sans savoir à quoi jouer ? Connectez des iPhone proches sans Internet et profitez de quatre jeux de soirée jusqu’à 15 joueurs.
+
+### 설명
+
+Des jeux de soirée que vous lancez tout de suite sur votre propre iPhone quand des amis se retrouvent.
+Sans Internet, les iPhone sur le même Wi-Fi ou à proximité se connectent entre eux, et jusqu’à 15 personnes peuvent jouer.
+
+Quatre jeux
+Ordre Lunaire (5 à 15 joueurs) : un jeu d’identités cachées où l’on démasque les Ombres infiltrées parmi les membres de l’Ordre. Le chef choisit une équipe, tout le monde vote pour ou contre, et l’équipe joue en secret succès ou échec. Qui atteindra 3 missions en premier, par le succès ou par l’échec ?
+Jeu du Menteur (3 à 15 joueurs) : tout le monde reçoit le même mot secret, sauf une personne. Démasquez le Menteur qui l’ignore en écoutant la conversation.
+Nuit sans Lune (3 à 15 joueurs) : une nuit avec un Gobelin au village. La nuit, chacun agit en secret selon son rôle ; au lever du jour, on discute et on vote pour trouver le Gobelin.
+Atelier Lunaire (3 à 15 joueurs) : une personne dessine le mot secret et les autres devinent. Plus vous devinez vite, plus vous marquez de points.
+
+Sur votre propre écran, en secret
+Les rôles et les mots n’apparaissent que sur votre iPhone. Pas besoin de distribuer des cartes ni de fermer les yeux.
+Pendant le vote, on voit tout de suite qui a fini de voter. Pour qui chacun a voté reste secret jusqu’à la révélation.
+
+Facile pour les débutants
+Chaque jeu propose un mode d’apprentissage. Apprenez les règles en jouant pas à pas avec des bots.
+
+On reprend où on s’est arrêté
+Si l’app se ferme ou si la connexion saute, « Reprendre » sur l’écran d’accueil vous ramène dans votre partie, avec votre rôle et vos points.
+Les appareils se relaient entre eux, la partie reste donc stable même à nombreux.
+
+Des outils pour l’hôte
+L’hôte peut retirer à tout moment un joueur qui ne répond plus, et la partie est rejugée avec les joueurs restants pour ne jamais se bloquer.
+Le mode hôte permet de débloquer une phase et de gérer les joueurs.
+
+Tous les jeux sont gratuits et se lancent sans compte.
+
+### 지원 URL
+
+https://m1zz.github.io/MoonlitOrder/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/MoonlitOrder/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/MoonlitOrder/

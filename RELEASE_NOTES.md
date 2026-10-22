@@ -56,6 +56,12 @@ Einstellungen über das Zahnrad öffnen
 Feedback direkt an den Entwickler senden
 App bewerten und Version prüfen
 
+### 앱스토어 (Français)
+
+Ouvrez les Réglages via l’engrenage
+Envoyez un avis au développeur
+Notez l’app et vérifiez la version
+
 ## 1.0.1 (2026-07-17)
 
 ### 새로운 기능
