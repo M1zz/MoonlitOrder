@@ -92,6 +92,12 @@
             "state" : "translated",
             "value" : "Měsíční Zajíc"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Månehare"
+          }
         }
       }
     },
@@ -185,6 +191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noční Vánek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natbrise"
           }
         }
       }
@@ -280,6 +292,12 @@
             "state" : "translated",
             "value" : "Mléčná dráha"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mælkevejen"
+          }
         }
       }
     },
@@ -373,6 +391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couvající Měsíc"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aftagende Måne"
           }
         }
       }
@@ -468,6 +492,12 @@
             "state" : "translated",
             "value" : "Strážce hvězd"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stjernevogter"
+          }
         }
       }
     },
@@ -561,6 +591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Svítání"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daggry"
           }
         }
       }
@@ -656,6 +692,12 @@
             "state" : "translated",
             "value" : "Vrah opustil místnost. Měsíční řád vyhrává."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snigmorderen forlod rummet. Måneordenen vinder."
+          }
         }
       }
     },
@@ -749,6 +791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hráč"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spiller"
           }
         }
       }
@@ -844,6 +892,12 @@
             "state" : "translated",
             "value" : "Tým byl %lld× po sobě zamítnut. Stíny vyhrávají."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Holdet blev afvist %lld gange i træk. Skyggerne vinder."
+          }
         }
       }
     },
@@ -937,6 +991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tři mise selhaly. Stíny vyhrávají."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tre missioner mislykkedes. Skyggerne vinder."
           }
         }
       }
@@ -1032,6 +1092,12 @@
             "state" : "translated",
             "value" : "Vrah přesně našel Věštce „%@“. Stíny otáčejí hru!"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snigmorderen fandt præcis Seeren, „%@“. Skyggerne vender spillet!"
+          }
         }
       }
     },
@@ -1125,6 +1191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vrah se netrefil. „%@“ nebyl Věštec. Měsíční řád vyhrává!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snigmorderen ramte ved siden af. „%@“ var ikke Seeren. Måneordenen vinder!"
           }
         }
       }
@@ -1220,6 +1292,12 @@
             "state" : "translated",
             "value" : "Všichni se považují za ty, kdo viděli svou roli. Přecházíme k výběru týmu."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle regnes for at have set deres rolle. Videre til valg af hold."
+          }
         }
       }
     },
@@ -1313,6 +1391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vůdce, který nevybral tým, je přeskočen a řada přechází na dalšího."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lederen, der ikke valgte hold, springes over, og turen går videre til den næste."
           }
         }
       }
@@ -1408,6 +1492,12 @@
             "state" : "translated",
             "value" : "Kdo nehlasoval, počítá se jako pro. Sčítají se hlasy."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dem, der ikke har stemt, tæller som for. Stemmerne optælles."
+          }
         }
       }
     },
@@ -1501,6 +1591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Členové týmu, kteří nezahráli kartu, se počítají jako úspěch."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Holdmedlemmer, der ikke spillede et kort, tæller som succes."
           }
         }
       }
@@ -1596,6 +1692,12 @@
             "state" : "translated",
             "value" : "Přecházíme do další fáze."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videre til næste fase."
+          }
         }
       }
     },
@@ -1689,6 +1791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vrah se považuje za toho, kdo to vzdal. Měsíční řád vyhrává."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snigmorderen regnes for at have givet op. Måneordenen vinder."
           }
         }
       }
@@ -1784,6 +1892,12 @@
             "state" : "translated",
             "value" : "Vrah neurčil Věštce. Měsíční řád vyhrává."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snigmorderen udpegede ikke Seeren. Måneordenen vinder."
+          }
         }
       }
     },
@@ -1877,6 +1991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lhář opustil místnost. Občané vyhrávají!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgneren forlod rummet. Borgerne vinder!"
           }
         }
       }
@@ -1972,6 +2092,12 @@
             "state" : "translated",
             "value" : "Hlasy se rozdělily a Lhář unikl!"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stemmerne blev delt, og Løgneren slap væk!"
+          }
         }
       }
     },
@@ -2065,6 +2191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Označen byl špatný člověk!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der blev peget på den forkerte!"
           }
         }
       }
@@ -2160,6 +2292,12 @@
             "state" : "translated",
             "value" : "Lhář uhodl slovo! Lhář otáčí hru!"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgneren gættede ordet! Løgneren vender spillet!"
+          }
         }
       }
     },
@@ -2253,6 +2391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lhář slovo neuhodl. Občané vyhrávají!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgneren gættede ikke ordet. Borgerne vinder!"
           }
         }
       }
@@ -2348,6 +2492,12 @@
             "state" : "translated",
             "value" : "Lhář"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgner"
+          }
         }
       }
     },
@@ -2441,6 +2591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Občan"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borger"
           }
         }
       }
@@ -2536,6 +2692,12 @@
             "state" : "translated",
             "value" : "Slovo: %@ · Kategorie: %@"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ord: %@ · Kategori: %@"
+          }
         }
       }
     },
@@ -2629,6 +2791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Všichni se považují za ty, kdo viděli slovo. Přecházíme k fázi popisování."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle regnes for at have set ordet. Videre til beskrivelsesfasen."
           }
         }
       }
@@ -2724,6 +2892,12 @@
             "state" : "translated",
             "value" : "Tah aktuálního mluvčího končí a řada přechází na dalšího."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den nuværende talers tur slutter, og turen går videre til den næste."
+          }
         }
       }
     },
@@ -2817,6 +2991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kdo nehlasoval, počítá se jako zdržel se. Sčítají se hlasy."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dem, der ikke har stemt, tæller som blanke. Stemmerne optælles."
           }
         }
       }
@@ -2912,6 +3092,12 @@
             "state" : "translated",
             "value" : "Lhář se považuje za toho, kdo se vzdal hádání. Občané vyhrávají."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgneren regnes for at have opgivet at gætte. Borgerne vinder."
+          }
         }
       }
     },
@@ -3005,6 +3191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lhář nedokázal odpovědět. Občané vyhrávají!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgneren kunne ikke svare. Borgerne vinder!"
           }
         }
       }
@@ -3100,6 +3292,12 @@
             "state" : "translated",
             "value" : "Pejsek?"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En hvalp?"
+          }
         }
       }
     },
@@ -3193,6 +3391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hmm… auto"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hmm… en bil"
           }
         }
       }
@@ -3288,6 +3492,12 @@
             "state" : "translated",
             "value" : "Že by medvěd?"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Måske en bjørn?"
+          }
         }
       }
     },
@@ -3381,6 +3591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Netuším, haha"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aner det ikke, haha"
           }
         }
       }
@@ -3476,6 +3692,12 @@
             "state" : "translated",
             "value" : "Jablko?"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et æble?"
+          }
         }
       }
     },
@@ -3566,6 +3788,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hmm…"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hmm…"
@@ -3664,6 +3892,12 @@
             "state" : "translated",
             "value" : "Uhodl jsi! 🎉"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du gættede rigtigt! 🎉"
+          }
         }
       }
     },
@@ -3757,6 +3991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Malíř"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tegner"
           }
         }
       }
@@ -3852,6 +4092,12 @@
             "state" : "translated",
             "value" : "Slovo: %@"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ord: %@"
+          }
         }
       }
     },
@@ -3945,6 +4191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nabízená slova: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordforslag: %@"
           }
         }
       }
@@ -4040,6 +4292,12 @@
             "state" : "translated",
             "value" : "Místo malíře se náhodně vybere slovo a začíná kreslení."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et ord vælges tilfældigt i stedet for tegneren, og tegningen går i gang."
+          }
         }
       }
     },
@@ -4133,6 +4391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kolo končí a počítají se body."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runden slutter, og point opgøres."
           }
         }
       }
@@ -4228,6 +4492,12 @@
             "state" : "translated",
             "value" : "Přecházíme do dalšího kola."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Videre til næste runde."
+          }
         }
       }
     },
@@ -4321,6 +4591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🔥 Skřet %@ otevřel oči ve tmě."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔥 Goblinen %@ åbnede øjnene i mørket."
           }
         }
       }
@@ -4416,6 +4692,12 @@
             "state" : "translated",
             "value" : "👁 Šaman %@ tajně nahlédl do karty."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "👁 Shamanen %@ kiggede i al hemmelighed på et kort."
+          }
         }
       }
     },
@@ -4509,6 +4791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🤝 Noční zloděj %@ ukradl kartu hráči %@ a vyměnili si je!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🤝 Nattetyven %@ stjal %@s kort, og de byttede!"
           }
         }
       }
@@ -4604,6 +4892,12 @@
             "state" : "translated",
             "value" : "🔀 Šprýmař %@ vyměnil karty hráčů %@ a %@!"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔀 Spasmageren %@ byttede kortene mellem %@ og %@!"
+          }
         }
       }
     },
@@ -4697,6 +4991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prostřední karta č. %lld je „%@“."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Midterkort nr. %lld er „%@“."
           }
         }
       }
@@ -4792,6 +5092,12 @@
             "state" : "translated",
             "value" : "Karta hráče %@ je „%@“."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@s kort er „%@“."
+          }
         }
       }
     },
@@ -4885,6 +5191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prostřední 2 karty: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De 2 midterkort: %@"
           }
         }
       }
@@ -4980,6 +5292,12 @@
             "state" : "translated",
             "value" : "Ukradl jsi kartu hráči %@. Nyní jsi „%@“."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du stjal %@s kort. Du er nu „%@“."
+          }
         }
       }
     },
@@ -5073,6 +5391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyměnil jsi karty hráčů %@ a %@."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du byttede kortene mellem %@ og %@."
           }
         }
       }
@@ -5168,6 +5492,12 @@
             "state" : "translated",
             "value" : "Skřet byl vyhnán. Vesnice vyhrává!"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En goblin blev forvist. Landsbyen vinder!"
+          }
         }
       }
     },
@@ -5261,6 +5591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Všichni skřeti byli uprostřed a nikdo nebyl vyhnán. Vesnice vyhrává!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle goblinerne lå i midten, og ingen blev forvist. Landsbyen vinder!"
           }
         }
       }
@@ -5356,6 +5692,12 @@
             "state" : "translated",
             "value" : "Nikdo nebyl vyhnán, ale skřet se ukrýval. Skřeti vyhrávají!"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen blev forvist, men en goblin skjulte sig. Goblinerne vinder!"
+          }
         }
       }
     },
@@ -5449,6 +5791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Byl vyhnán nevinný. Skřeti vyhrávají!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En uskyldig blev forvist. Goblinerne vinder!"
           }
         }
       }
@@ -5544,6 +5892,12 @@
             "state" : "translated",
             "value" : "Prostřední karty: %@"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Midterkort: %@"
+          }
         }
       }
     },
@@ -5637,6 +5991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kdo nejednal, končí noc bez použití schopnosti."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den, der ikke handlede, afslutter natten uden at bruge sin evne."
           }
         }
       }
@@ -5732,6 +6092,12 @@
             "state" : "translated",
             "value" : "Diskuse končí a začíná hlasování o vyhnání."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Debatten slutter, og afstemningen om forvisning begynder."
+          }
         }
       }
     },
@@ -5825,6 +6191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Měsíční řád"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Måneordenen"
           }
         }
       }
@@ -5920,6 +6292,12 @@
             "state" : "translated",
             "value" : "Stíny"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skyggerne"
+          }
         }
       }
     },
@@ -6013,6 +6391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Věštec"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seer"
           }
         }
       }
@@ -6108,6 +6492,12 @@
             "state" : "translated",
             "value" : "Člen řádu"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordensmedlem"
+          }
         }
       }
     },
@@ -6201,6 +6591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vrah"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snigmorder"
           }
         }
       }
@@ -6296,6 +6692,12 @@
             "state" : "translated",
             "value" : "Agent Stínů"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skyggeagent"
+          }
         }
       }
     },
@@ -6389,6 +6791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Víš, kdo jsou agenti Stínů. Pokud se ale prozradíš, na konci tě mohou zavraždit, takže týmy veď nenápadně."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du ved, hvem skyggeagenterne er. Men afsløres du, kan du blive myrdet til sidst, så led holdene diskret."
           }
         }
       }
@@ -6484,6 +6892,12 @@
             "state" : "translated",
             "value" : "Jsi věrný člen Měsíčního řádu. Z diskuse a záznamů hlasování vypátrej agenty Stínů a dokonči 3 mise."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er et loyalt medlem af Måneordenen. Brug debatten og stemmehistorikken til at finde skyggeagenterne og få 3 missioner til at lykkes."
+          }
         }
       }
     },
@@ -6577,6 +6991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jsi čepel Stínů. Znáš ostatní agenty, a i když řád zvládne 3 mise, vyhraješ, pokud správně určíš Věštce."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er Skyggernes klinge. Du kender de andre agenter, og selv hvis ordenen klarer 3 missioner, vinder du, hvis du udpeger Seeren rigtigt."
           }
         }
       }
@@ -6672,6 +7092,12 @@
             "state" : "translated",
             "value" : "Jsi zrádce ukrytý ve tmě. Znáš ostatní Stíny. Skryj svou totožnost, infiltruj týmy a zmař mise."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er en forræder, der gemmer sig i mørket. Du kender de andre skygger. Skjul din identitet, infiltrér holdene og få missionerne til at mislykkes."
+          }
         }
       }
     },
@@ -6765,6 +7191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 úspěšné mise (prohra, pokud je Věštec zavražděn)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 vellykkede missioner (men du taber, hvis Seeren myrdes)"
           }
         }
       }
@@ -6860,6 +7292,12 @@
             "state" : "translated",
             "value" : "3 neúspěšné mise · 5 zamítnutých týmů po sobě · vražda Věštce"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 mislykkede missioner · 5 afviste hold i træk · mord på Seeren"
+          }
         }
       }
     },
@@ -6953,6 +7391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jídlo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mad"
           }
         }
       }
@@ -7048,6 +7492,12 @@
             "state" : "translated",
             "value" : "Kimči guláš"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kimchigryde"
+          }
         }
       }
     },
@@ -7142,6 +7592,12 @@
             "state" : "translated",
             "value" : "Grilovaný vepřový bůček"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grillet svinebryst"
+          }
         }
       }
     },
@@ -7232,6 +7688,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tteokbokki"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tteokbokki"
@@ -7330,6 +7792,12 @@
             "state" : "translated",
             "value" : "Smažené kuře"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stegt kylling"
+          }
         }
       }
     },
@@ -7420,6 +7888,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pizza"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pizza"
@@ -7518,6 +7992,12 @@
             "state" : "translated",
             "value" : "Sushi"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sushi"
+          }
         }
       }
     },
@@ -7608,6 +8088,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ramen"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ramen"
@@ -7706,6 +8192,12 @@
             "state" : "translated",
             "value" : "Bibimbap"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibimbap"
+          }
         }
       }
     },
@@ -7799,6 +8291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Studené nudle"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kolde nudler"
           }
         }
       }
@@ -7894,6 +8392,12 @@
             "state" : "translated",
             "value" : "Polévka z hovězích žeber"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suppe med oksespareribs"
+          }
         }
       }
     },
@@ -7988,6 +8492,12 @@
             "state" : "translated",
             "value" : "Těstoviny"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasta"
+          }
         }
       }
     },
@@ -8078,6 +8588,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamburger"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hamburger"
@@ -8176,6 +8692,12 @@
             "state" : "translated",
             "value" : "Gimbap"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gimbap"
+          }
         }
       }
     },
@@ -8269,6 +8791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Korejská krvavá klobása"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koreansk blodpølse"
           }
         }
       }
@@ -8364,6 +8892,12 @@
             "state" : "translated",
             "value" : "Vepřové nožičky"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grisetæer"
+          }
         }
       }
     },
@@ -8457,6 +8991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Salát"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salat"
           }
         }
       }
@@ -8552,6 +9092,12 @@
             "state" : "translated",
             "value" : "Zvířata"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dyr"
+          }
         }
       }
     },
@@ -8645,6 +9191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slon"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elefant"
           }
         }
       }
@@ -8740,6 +9292,12 @@
             "state" : "translated",
             "value" : "Žirafa"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giraf"
+          }
         }
       }
     },
@@ -8833,6 +9391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tučňák"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pingvin"
           }
         }
       }
@@ -8928,6 +9492,12 @@
             "state" : "translated",
             "value" : "Tygr"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiger"
+          }
         }
       }
     },
@@ -9018,6 +9588,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panda"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Panda"
@@ -9116,6 +9692,12 @@
             "state" : "translated",
             "value" : "Ježek"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pindsvin"
+          }
         }
       }
     },
@@ -9209,6 +9791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klokan"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kænguru"
           }
         }
       }
@@ -9304,6 +9892,12 @@
             "state" : "translated",
             "value" : "Sova"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ugle"
+          }
         }
       }
     },
@@ -9397,6 +9991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delfín"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delfin"
           }
         }
       }
@@ -9492,6 +10092,12 @@
             "state" : "translated",
             "value" : "Chobotnice"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blæksprutte"
+          }
         }
       }
     },
@@ -9585,6 +10191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Veverka"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Egern"
           }
         }
       }
@@ -9680,6 +10292,12 @@
             "state" : "translated",
             "value" : "Krokodýl"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krokodille"
+          }
         }
       }
     },
@@ -9773,6 +10391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velbloud"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamel"
           }
         }
       }
@@ -9868,6 +10492,12 @@
             "state" : "translated",
             "value" : "Vydra"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odder"
+          }
         }
       }
     },
@@ -9961,6 +10591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Papoušek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papegøje"
           }
         }
       }
@@ -10056,6 +10692,12 @@
             "state" : "translated",
             "value" : "Krtek"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muldvarp"
+          }
         }
       }
     },
@@ -10149,6 +10791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Místa"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steder"
           }
         }
       }
@@ -10244,6 +10892,12 @@
             "state" : "translated",
             "value" : "Zábavní park"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forlystelsespark"
+          }
         }
       }
     },
@@ -10337,6 +10991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Knihovna"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliotek"
           }
         }
       }
@@ -10432,6 +11092,12 @@
             "state" : "translated",
             "value" : "Korejská sauna"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koreansk spa"
+          }
         }
       }
     },
@@ -10525,6 +11191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kino"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biograf"
           }
         }
       }
@@ -10620,6 +11292,12 @@
             "state" : "translated",
             "value" : "Večerka"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kiosk"
+          }
         }
       }
     },
@@ -10713,6 +11391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stanice metra"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metrostation"
           }
         }
       }
@@ -10808,6 +11492,12 @@
             "state" : "translated",
             "value" : "Kadeřnictví"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frisørsalon"
+          }
         }
       }
     },
@@ -10901,6 +11591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nemocnice"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hospital"
           }
         }
       }
@@ -10996,6 +11692,12 @@
             "state" : "translated",
             "value" : "Škola"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skole"
+          }
         }
       }
     },
@@ -11089,6 +11791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kemp"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Campingplads"
           }
         }
       }
@@ -11184,6 +11892,12 @@
             "state" : "translated",
             "value" : "Bazén"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svømmehal"
+          }
         }
       }
     },
@@ -11277,6 +11991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Letiště"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lufthavn"
           }
         }
       }
@@ -11372,6 +12092,12 @@
             "state" : "translated",
             "value" : "Trh"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marked"
+          }
         }
       }
     },
@@ -11466,6 +12192,12 @@
             "state" : "translated",
             "value" : "Kavárna"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Café"
+          }
         }
       }
     },
@@ -11556,6 +12288,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karaoke"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Karaoke"
@@ -11654,6 +12392,12 @@
             "state" : "translated",
             "value" : "Posilovna"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fitnesscenter"
+          }
         }
       }
     },
@@ -11747,6 +12491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Povolání"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erhverv"
           }
         }
       }
@@ -11842,6 +12592,12 @@
             "state" : "translated",
             "value" : "Hasič"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brandmand"
+          }
         }
       }
     },
@@ -11935,6 +12691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lékař"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Læge"
           }
         }
       }
@@ -12030,6 +12792,12 @@
             "state" : "translated",
             "value" : "Kuchař"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kok"
+          }
         }
       }
     },
@@ -12124,6 +12892,12 @@
             "state" : "translated",
             "value" : "Programátor"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programmør"
+          }
         }
       }
     },
@@ -12214,6 +12988,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Youtuber"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Youtuber"
@@ -12312,6 +13092,12 @@
             "state" : "translated",
             "value" : "Učitel"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lærer"
+          }
         }
       }
     },
@@ -12405,6 +13191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Policista"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Politibetjent"
           }
         }
       }
@@ -12500,6 +13292,12 @@
             "state" : "translated",
             "value" : "Farmář"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Landmand"
+          }
         }
       }
     },
@@ -12590,6 +13388,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilot"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pilot"
@@ -12688,6 +13492,12 @@
             "state" : "translated",
             "value" : "Kadeřník"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frisør"
+          }
         }
       }
     },
@@ -12781,6 +13591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zpěvák"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sanger"
           }
         }
       }
@@ -12876,6 +13692,12 @@
             "state" : "translated",
             "value" : "Sportovec"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atlet"
+          }
         }
       }
     },
@@ -12966,6 +13788,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotograf"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotograf"
@@ -13064,6 +13892,12 @@
             "state" : "translated",
             "value" : "Právník"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Advokat"
+          }
         }
       }
     },
@@ -13158,6 +13992,12 @@
             "state" : "translated",
             "value" : "Rybář"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fisker"
+          }
         }
       }
     },
@@ -13248,6 +14088,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barista"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Barista"
@@ -13346,6 +14192,12 @@
             "state" : "translated",
             "value" : "Věci"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ting"
+          }
         }
       }
     },
@@ -13439,6 +14291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deštník"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paraply"
           }
         }
       }
@@ -13534,6 +14392,12 @@
             "state" : "translated",
             "value" : "Větrák"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ventilator"
+          }
         }
       }
     },
@@ -13627,6 +14491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lednice"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Køleskab"
           }
         }
       }
@@ -13722,6 +14592,12 @@
             "state" : "translated",
             "value" : "Zubní kartáček"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tandbørste"
+          }
         }
       }
     },
@@ -13815,6 +14691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Polštář"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pude"
           }
         }
       }
@@ -13910,6 +14792,12 @@
             "state" : "translated",
             "value" : "Dálkový ovladač"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjernbetjening"
+          }
         }
       }
     },
@@ -14003,6 +14891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Termohrnek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Termokrus"
           }
         }
       }
@@ -14098,6 +14992,12 @@
             "state" : "translated",
             "value" : "Sluchátka"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ørepropper"
+          }
         }
       }
     },
@@ -14191,6 +15091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nůžky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saks"
           }
         }
       }
@@ -14286,6 +15192,12 @@
             "state" : "translated",
             "value" : "Deka"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tæppe"
+          }
         }
       }
     },
@@ -14379,6 +15291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zrcadlo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spejl"
           }
         }
       }
@@ -14474,6 +15392,12 @@
             "state" : "translated",
             "value" : "Hodiny"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ur"
+          }
         }
       }
     },
@@ -14567,6 +15491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nabíječka"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oplader"
           }
         }
       }
@@ -14662,6 +15592,12 @@
             "state" : "translated",
             "value" : "Pantofle"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hjemmesko"
+          }
         }
       }
     },
@@ -14755,6 +15691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rouška"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mundbind"
           }
         }
       }
@@ -14850,6 +15792,12 @@
             "state" : "translated",
             "value" : "Peněženka"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pung"
+          }
         }
       }
     },
@@ -14943,6 +15891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sporty"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sport"
           }
         }
       }
@@ -15038,6 +15992,12 @@
             "state" : "translated",
             "value" : "Fotbal"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fodbold"
+          }
         }
       }
     },
@@ -15128,6 +16088,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baseball"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Baseball"
@@ -15226,6 +16192,12 @@
             "state" : "translated",
             "value" : "Basketbal"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basketball"
+          }
         }
       }
     },
@@ -15316,6 +16288,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Badminton"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Badminton"
@@ -15414,6 +16392,12 @@
             "state" : "translated",
             "value" : "Plavání"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svømning"
+          }
         }
       }
     },
@@ -15504,6 +16488,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bowling"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bowling"
@@ -15602,6 +16592,12 @@
             "state" : "translated",
             "value" : "Taekwondo"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taekwondo"
+          }
         }
       }
     },
@@ -15692,6 +16688,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Golf"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Golf"
@@ -15790,6 +16792,12 @@
             "state" : "translated",
             "value" : "Stolní tenis"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bordtennis"
+          }
         }
       }
     },
@@ -15883,6 +16891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lyžování"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skiløb"
           }
         }
       }
@@ -15978,6 +16992,12 @@
             "state" : "translated",
             "value" : "Lezení"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klatring"
+          }
         }
       }
     },
@@ -16071,6 +17091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jóga"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yoga"
           }
         }
       }
@@ -16166,6 +17192,12 @@
             "state" : "translated",
             "value" : "Box"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boksning"
+          }
         }
       }
     },
@@ -16259,6 +17291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lukostřelba"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bueskydning"
           }
         }
       }
@@ -16354,6 +17392,12 @@
             "state" : "translated",
             "value" : "Šerm"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fægtning"
+          }
         }
       }
     },
@@ -16444,6 +17488,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maraton"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maraton"
@@ -16542,6 +17592,12 @@
             "state" : "translated",
             "value" : "Králík"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kanin"
+          }
         }
       }
     },
@@ -16635,6 +17691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kočka"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kat"
           }
         }
       }
@@ -16730,6 +17792,12 @@
             "state" : "translated",
             "value" : "Pes"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hund"
+          }
         }
       }
     },
@@ -16823,6 +17891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lev"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løve"
           }
         }
       }
@@ -16918,6 +17992,12 @@
             "state" : "translated",
             "value" : "Medvěd"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bjørn"
+          }
         }
       }
     },
@@ -17011,6 +18091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Šnek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snegl"
           }
         }
       }
@@ -17106,6 +18192,12 @@
             "state" : "translated",
             "value" : "Had"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slange"
+          }
         }
       }
     },
@@ -17199,6 +18291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Želva"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skildpadde"
           }
         }
       }
@@ -17294,6 +18392,12 @@
             "state" : "translated",
             "value" : "Motýl"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sommerfugl"
+          }
         }
       }
     },
@@ -17387,6 +18491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ryba"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fisk"
           }
         }
       }
@@ -17482,6 +18592,12 @@
             "state" : "translated",
             "value" : "Zmrzlina"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Is"
+          }
         }
       }
     },
@@ -17575,6 +18691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dort"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kage"
           }
         }
       }
@@ -17670,6 +18792,12 @@
             "state" : "translated",
             "value" : "Banán"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banan"
+          }
         }
       }
     },
@@ -17763,6 +18891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Meloun"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vandmelon"
           }
         }
       }
@@ -17858,6 +18992,12 @@
             "state" : "translated",
             "value" : "Volské oko"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spejlæg"
+          }
         }
       }
     },
@@ -17951,6 +19091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Donut"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doughnut"
           }
         }
       }
@@ -18046,6 +19192,12 @@
             "state" : "translated",
             "value" : "Jablko"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Æble"
+          }
         }
       }
     },
@@ -18139,6 +19291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hot dog"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hotdog"
           }
         }
       }
@@ -18234,6 +19392,12 @@
             "state" : "translated",
             "value" : "Hrozny"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vindruer"
+          }
         }
       }
     },
@@ -18327,6 +19491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mrkev"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gulerod"
           }
         }
       }
@@ -18422,6 +19592,12 @@
             "state" : "translated",
             "value" : "Předměty"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genstande"
+          }
         }
       }
     },
@@ -18515,6 +19691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brýle"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Briller"
           }
         }
       }
@@ -18610,6 +19792,12 @@
             "state" : "translated",
             "value" : "Kolo"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cykel"
+          }
         }
       }
     },
@@ -18703,6 +19891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Židle"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stol"
           }
         }
       }
@@ -18798,6 +19992,12 @@
             "state" : "translated",
             "value" : "Klíč"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nøgle"
+          }
         }
       }
     },
@@ -18891,6 +20091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Žárovka"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pære"
           }
         }
       }
@@ -18986,6 +20192,12 @@
             "state" : "translated",
             "value" : "Balonek"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ballon"
+          }
         }
       }
     },
@@ -19079,6 +20291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Svíčka"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stearinlys"
           }
         }
       }
@@ -19174,6 +20392,12 @@
             "state" : "translated",
             "value" : "Dárková krabice"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gaveæske"
+          }
         }
       }
     },
@@ -19267,6 +20491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Koště"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kost"
           }
         }
       }
@@ -19362,6 +20592,12 @@
             "state" : "translated",
             "value" : "Kladivo"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hammer"
+          }
         }
       }
     },
@@ -19455,6 +20691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tužka"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blyant"
           }
         }
       }
@@ -19550,6 +20792,12 @@
             "state" : "translated",
             "value" : "Hrnek"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krus"
+          }
         }
       }
     },
@@ -19643,6 +20891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dopravní prostředky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Køretøjer"
           }
         }
       }
@@ -19738,6 +20992,12 @@
             "state" : "translated",
             "value" : "Auto"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bil"
+          }
         }
       }
     },
@@ -19831,6 +21091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Letadlo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fly"
           }
         }
       }
@@ -19926,6 +21192,12 @@
             "state" : "translated",
             "value" : "Loď"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skib"
+          }
         }
       }
     },
@@ -20019,6 +21291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vlak"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tog"
           }
         }
       }
@@ -20114,6 +21392,12 @@
             "state" : "translated",
             "value" : "Raketa"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raket"
+          }
         }
       }
     },
@@ -20207,6 +21491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vrtulník"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helikopter"
           }
         }
       }
@@ -20302,6 +21592,12 @@
             "state" : "translated",
             "value" : "Ponorka"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ubåd"
+          }
         }
       }
     },
@@ -20395,6 +21691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Horkovzdušný balon"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luftballon"
           }
         }
       }
@@ -20490,6 +21792,12 @@
             "state" : "translated",
             "value" : "Příroda"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natur"
+          }
         }
       }
     },
@@ -20583,6 +21891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Strom"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Træ"
           }
         }
       }
@@ -20678,6 +21992,12 @@
             "state" : "translated",
             "value" : "Květina"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blomst"
+          }
         }
       }
     },
@@ -20771,6 +22091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slunce"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sol"
           }
         }
       }
@@ -20866,6 +22192,12 @@
             "state" : "translated",
             "value" : "Mrak"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sky"
+          }
         }
       }
     },
@@ -20959,6 +22291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Duha"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regnbue"
           }
         }
       }
@@ -21054,6 +22392,12 @@
             "state" : "translated",
             "value" : "Hora"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bjerg"
+          }
         }
       }
     },
@@ -21147,6 +22491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hvězda"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stjerne"
           }
         }
       }
@@ -21242,6 +22592,12 @@
             "state" : "translated",
             "value" : "Sněhulák"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snemand"
+          }
         }
       }
     },
@@ -21335,6 +22691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blesk"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyn"
           }
         }
       }
@@ -21430,6 +22792,12 @@
             "state" : "translated",
             "value" : "Sopka"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vulkan"
+          }
         }
       }
     },
@@ -21523,6 +22891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ostrov"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ø"
           }
         }
       }
@@ -21618,6 +22992,12 @@
             "state" : "translated",
             "value" : "Měsíc"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Måne"
+          }
         }
       }
     },
@@ -21712,6 +23092,12 @@
             "state" : "translated",
             "value" : "Postavy"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Figurer"
+          }
         }
       }
     },
@@ -21802,6 +23188,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Robot"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Robot"
@@ -21900,6 +23292,12 @@
             "state" : "translated",
             "value" : "Duch"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spøgelse"
+          }
         }
       }
     },
@@ -21993,6 +23391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Koruna"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krone"
           }
         }
       }
@@ -22088,6 +23492,12 @@
             "state" : "translated",
             "value" : "Pirát"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pirat"
+          }
         }
       }
     },
@@ -22181,6 +23591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anděl"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Engel"
           }
         }
       }
@@ -22276,6 +23692,12 @@
             "state" : "translated",
             "value" : "Čaroděj"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Troldmand"
+          }
         }
       }
     },
@@ -22369,6 +23791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dinosaurus"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dinosaur"
           }
         }
       }
@@ -22464,6 +23892,12 @@
             "state" : "translated",
             "value" : "Mimozemšťan"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rumvæsen"
+          }
         }
       }
     },
@@ -22557,6 +23991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mořská panna"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Havfrue"
           }
         }
       }
@@ -22652,6 +24092,12 @@
             "state" : "translated",
             "value" : "Santa Claus"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Julemand"
+          }
         }
       }
     },
@@ -22745,6 +24191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skřet"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goblin"
           }
         }
       }
@@ -22840,6 +24292,12 @@
             "state" : "translated",
             "value" : "Šaman"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shaman"
+          }
         }
       }
     },
@@ -22933,6 +24391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noční zloděj"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nattetyv"
           }
         }
       }
@@ -23028,6 +24492,12 @@
             "state" : "translated",
             "value" : "Šprýmař"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spasmager"
+          }
         }
       }
     },
@@ -23121,6 +24591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vesničan"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Landsbyboer"
           }
         }
       }
@@ -23216,6 +24692,12 @@
             "state" : "translated",
             "value" : "Poznáš ostatní skřety. Pokud jsi jediný skřet, můžeš se podívat na 1 prostřední kartu. Až se rozední, skryj totožnost a tvař se jako člověk."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kender dine goblin-kammerater. Er du den eneste goblin, må du kigge på 1 midterkort. Når det bliver dag, skal du skjule din identitet og lade som om, du er menneske."
+          }
         }
       }
     },
@@ -23309,6 +24791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nadpřirozenou silou se můžeš podívat na kartu 1 jiného hráče nebo na 2 prostřední karty."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med overnaturlige kræfter kan du kigge på 1 anden spillers kort eller 2 midterkort."
           }
         }
       }
@@ -23404,6 +24892,12 @@
             "state" : "translated",
             "value" : "Tajně si vyměň kartu s 1 jiným hráčem a podívej se na novou. Od té chvíle se tvá strana řídí novou kartou."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Byt i hemmelighed kort med 1 anden spiller og se det nye kort. Herefter følger dit hold det nye kort."
+          }
         }
       }
     },
@@ -23497,6 +24991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Šprým začíná! Vyměň karty dvou jiných hráčů. Neuvidíš, o jaké karty šlo."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spilopperne er løs! Byt kortene mellem to andre spillere. Du kan ikke se, hvad de var."
           }
         }
       }
@@ -23592,6 +25092,12 @@
             "state" : "translated",
             "value" : "V noci není co dělat. Skryté skřety vypátrej dedukcí a diskusí ve dne."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om natten er der intet at lave. Find de skjulte goblins med afledning og debat om dagen."
+          }
         }
       }
     },
@@ -23685,6 +25191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Připojování…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opretter forbindelse…"
           }
         }
       }
@@ -23780,6 +25292,12 @@
             "state" : "translated",
             "value" : "Nastavení"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indstillinger"
+          }
         }
       }
     },
@@ -23874,6 +25392,12 @@
             "state" : "translated",
             "value" : "Upozornění"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Besked"
+          }
         }
       }
     },
@@ -23964,6 +25488,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -24062,6 +25592,12 @@
             "state" : "translated",
             "value" : "Hra „%@“ je v údržbě. Vyber jinou hru."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ er under vedligeholdelse. Vælg et andet spil."
+          }
         }
       }
     },
@@ -24155,6 +25691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hra"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spil"
           }
         }
       }
@@ -24250,6 +25792,12 @@
             "state" : "translated",
             "value" : "Hra na lháře"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgnerspillet"
+          }
         }
       }
     },
@@ -24343,6 +25891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noc bez měsíce"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nat uden Måne"
           }
         }
       }
@@ -24438,6 +25992,12 @@
             "state" : "translated",
             "value" : "Měsíční ateliér"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Måneatelieret"
+          }
         }
       }
     },
@@ -24531,6 +26091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vytvořit místnost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opret rum"
           }
         }
       }
@@ -24626,6 +26192,12 @@
             "state" : "translated",
             "value" : "Otevři místnost pro zvolenou hru, aby se mohli přidat kamarádi."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åbn et rum til det valgte spil, så dine venner kan komme med."
+          }
         }
       }
     },
@@ -24719,6 +26291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hledat místnosti v okolí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Find rum i nærheden"
           }
         }
       }
@@ -24814,6 +26392,12 @@
             "state" : "translated",
             "value" : "Najdi místnost, kterou vytvořil kamarád poblíž, a přidej se."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Find det rum, en ven i nærheden har oprettet, og deltag."
+          }
         }
       }
     },
@@ -24907,6 +26491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trénink s boty"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Øv med bots"
           }
         }
       }
@@ -25002,6 +26592,12 @@
             "state" : "translated",
             "value" : "Zahraj si jedno kolo sám s boty a nauč se pravidla."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spil en runde alene med bots for at lære reglerne."
+          }
         }
       }
     },
@@ -25095,6 +26691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Místnost je plná. (Nejvyšší počet hráčů: %lld)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rummet er fuldt. (Maks. antal spillere: %lld)"
           }
         }
       }
@@ -25190,6 +26792,12 @@
             "state" : "translated",
             "value" : "V této místnosti už hra probíhá."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der er allerede et spil i gang i dette rum."
+          }
         }
       }
     },
@@ -25280,6 +26888,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luna"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Luna"
@@ -25378,6 +26992,12 @@
             "state" : "translated",
             "value" : "Orion"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orion"
+          }
         }
       }
     },
@@ -25468,6 +27088,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nova"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nova"
@@ -25566,6 +27192,12 @@
             "state" : "translated",
             "value" : "Sol"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sol"
+          }
         }
       }
     },
@@ -25659,6 +27291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hostitel tě odebral z místnosti."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Værten fjernede dig fra rummet."
           }
         }
       }
@@ -25754,6 +27392,12 @@
             "state" : "translated",
             "value" : "Hostitel zavřel místnost."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Værten lukkede rummet."
+          }
         }
       }
     },
@@ -25847,6 +27491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "K hostiteli se nepodařilo znovu připojit. Můžeš se vrátit přes „Pokračovat“ na domovské obrazovce."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke oprette forbindelse til værten igen. Du kan deltage igen via „Fortsæt“ på startskærmen."
           }
         }
       }
@@ -25942,6 +27592,12 @@
             "state" : "translated",
             "value" : "Každý hráč je tajně přiřazen k Měsíčnímu řádu (dobří) nebo ke Stínům (zlí). Během nejvýše 5 misí musíš jen z rozhovorů a záznamů hlasování zjistit, kdo jsou Stíny."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hver spiller tildeles i hemmelighed Måneordenen (de gode) eller Skyggerne (de onde). Over op til 5 missioner skal du kun ud fra samtaler og stemmehistorik regne ud, hvem Skyggerne er."
+          }
         }
       }
     },
@@ -26035,6 +27691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Všichni dostanou stejné tajné slovo kromě jednoho Lháře. Střídavě slovo stručně popisujte a ověřujte, kdo ho opravdu zná. Lhář musí blafovat, aniž by slovo znal."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle får det samme hemmelige ord, undtagen én Løgner. Beskriv på skift ordet med få ord, og se, hvem der virkelig kender det. Løgneren skal bluffe uden at kende ordet."
           }
         }
       }
@@ -26130,6 +27792,12 @@
             "state" : "translated",
             "value" : "Do vesnice se vplížili skřeti! V noci každý tajnou akcí získává informace nebo nenápadně vyměňuje karty, ve dne se diskutuje a jediné hlasování určí, kdo bude vyhnán. Karty se přes noc mohou změnit, proto o výsledku rozhoduje „konečná karta“."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goblins har sneget sig ind i landsbyen! Om natten bruger alle en hemmelig handling til at få oplysninger eller i al hemmelighed bytte kort; om dagen debatteres der, og én afstemning afgør, hvem der forvises. Kortene kan ændre sig om natten, så resultatet afgøres af det „endelige kort“."
+          }
         }
       }
     },
@@ -26223,6 +27891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "V každém kole se jeden hráč stane „Malířem“ a tajné slovo vyjádří jen kresbou. Ostatní kresbu sledují a hádají v chatu. Písmena a číslice jsou zakázány. Hra končí, když byl Malířem každý."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I hver runde bliver én spiller „Tegner“ og udtrykker det hemmelige ord kun med en tegning. De andre ser tegningen og gætter i chatten. Bogstaver og tal er forbudt. Spillet slutter, når alle har været Tegner."
           }
         }
       }
@@ -26318,6 +27992,12 @@
             "state" : "translated",
             "value" : "Měsíční řád (dobří)"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Måneordenen (de gode)"
+          }
         }
       }
     },
@@ -26411,6 +28091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 úspěšné mise. Pokud ale na konci Vrah správně určí Věštce, prohráváš, takže Věštec musí svou totožnost skrývat do konce."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 vellykkede missioner. Men udpeger Snigmorderen Seeren rigtigt til sidst, taber du, så Seeren skal skjule sin identitet til det sidste."
           }
         }
       }
@@ -26506,6 +28192,12 @@
             "state" : "translated",
             "value" : "Stíny (zlí)"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skyggerne (de onde)"
+          }
         }
       }
     },
@@ -26599,6 +28291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 neúspěšné mise · 5 zamítnutých týmů po sobě · úspěšná vražda Věštce — stačí kterákoli z tří."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 mislykkede missioner · 5 afviste hold i træk · vellykket mord på Seeren — én af de tre er nok til at vinde."
           }
         }
       }
@@ -26694,6 +28392,12 @@
             "state" : "translated",
             "value" : "Vyhráváš, pokud hlasování správně určí Lháře a ten slovo neuhodne."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du vinder, hvis afstemningen udpeger Løgneren rigtigt, og Løgneren ikke gætter ordet."
+          }
         }
       }
     },
@@ -26787,6 +28491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyhráváš, pokud se hlasy rozdělí nebo je označen špatný člověk. I když je Lhář chycen, otočí hru, pokud slovo uhodne!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du vinder, hvis stemmerne deles, eller den forkerte udpeges. Selv hvis Løgneren fanges, vender han spillet ved at gætte ordet!"
           }
         }
       }
@@ -26882,6 +28592,12 @@
             "state" : "translated",
             "value" : "Vesnice"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Landsby"
+          }
         }
       }
     },
@@ -26975,6 +28691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyhráváš, pokud vyženeš skřeta (podle konečné karty). Pokud jsou všichni skřeti mezi prostředními kartami, vyhráváš jen tehdy, když nikdo vyhnán není."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du vinder, hvis du forviser en goblin (efter det endelige kort). Ligger alle goblins i midten, vinder du kun, hvis ingen forvises."
           }
         }
       }
@@ -27070,6 +28792,12 @@
             "state" : "translated",
             "value" : "Vyhráváš, pokud není vyhnán žádný skřet — vyhráváš i tehdy, když je vyhnán nevinný."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du vinder, hvis ingen goblin forvises — du vinder også, hvis en uskyldig forvises."
+          }
         }
       }
     },
@@ -27163,6 +28891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hádající"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gættere"
           }
         }
       }
@@ -27258,6 +28992,12 @@
             "state" : "translated",
             "value" : "Čím rychleji podle kresby uhodneš slovo, tím víc bodů! Za správnou odpověď dostaneš body."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jo hurtigere du gætter ordet ud fra tegningen, jo flere point! Rigtigt gæt giver point."
+          }
         }
       }
     },
@@ -27351,6 +29091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Body získáváš, když tvou kresbu uhodne hodně lidí. Klíčové je kreslit tak, aby to poznal každý!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du får point, når mange gætter din tegning. Nøglen er at tegne, så alle kan genkende det!"
           }
         }
       }
@@ -27446,6 +29192,12 @@
             "state" : "translated",
             "value" : "Jak hrát"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sådan spiller du"
+          }
         }
       }
     },
@@ -27539,6 +29291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cíl hry"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spillets mål"
           }
         }
       }
@@ -27634,6 +29392,12 @@
             "state" : "translated",
             "value" : "Podmínky vítězství"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Betingelser for sejr"
+          }
         }
       }
     },
@@ -27727,6 +29491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Teď si to krok za krokem vyzkoušíš s boty.\nV každé fázi se zobrazí nápověda a dál pokračuješ tlačítkem „Další“."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu prøver du det trin for trin sammen med bots.\nI hver fase vises en vejledning, og du går videre med „Næste“."
           }
         }
       }
@@ -27822,6 +29592,12 @@
             "state" : "translated",
             "value" : "Začít trénink"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start øvelsen"
+          }
         }
       }
     },
@@ -27915,6 +29691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Na domovskou obrazovku"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Til startskærmen"
           }
         }
       }
@@ -28010,6 +29792,12 @@
             "state" : "translated",
             "value" : "Čas vraždy"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tid til mord"
+          }
         }
       }
     },
@@ -28103,6 +29891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Měsíční řád zvládl 3 mise.\nPokud ale Vrah najde Věštce, Stíny otočí hru!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Måneordenen har klaret 3 missioner.\nMen finder Snigmorderen Seeren, vender Skyggerne spillet!"
           }
         }
       }
@@ -28198,6 +29992,12 @@
             "state" : "translated",
             "value" : "Označ hráče, o kterém si myslíš, že je Věštec"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udpeg den spiller, du tror er Seeren"
+          }
         }
       }
     },
@@ -28291,6 +30091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Provést vraždu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udfør mordet"
           }
         }
       }
@@ -28386,6 +30192,12 @@
             "state" : "translated",
             "value" : "Vrah vybírá poslední cíl…"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snigmorderen vælger sit sidste mål…"
+          }
         }
       }
     },
@@ -28479,6 +30291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyhrává %@!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ vinder!"
           }
         }
       }
@@ -28574,6 +30392,12 @@
             "state" : "translated",
             "value" : "Odhalené role"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roller afsløret"
+          }
         }
       }
     },
@@ -28667,6 +30491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Já"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mig"
           }
         }
       }
@@ -28762,6 +30592,12 @@
             "state" : "translated",
             "value" : "Hrát znovu ve stejné sestavě"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spil igen med de samme spillere"
+          }
         }
       }
     },
@@ -28855,6 +30691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hostitel může hru spustit znovu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Værten kan starte forfra"
           }
         }
       }
@@ -28950,6 +30792,12 @@
             "state" : "translated",
             "value" : "Odejít"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forlad"
+          }
         }
       }
     },
@@ -29043,6 +30891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poprvé? Nejdřív si zatrénuj s boty"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Første gang? Øv dig med bots først"
           }
         }
       }
@@ -29138,6 +30992,12 @@
             "state" : "translated",
             "value" : "Můžeš si sám zahrát celou hru s boty a naučit se pravidla."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan spille en hel runde alene med bots for at lære reglerne."
+          }
         }
       }
     },
@@ -29231,6 +31091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vynutit posun do další fáze?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gennemtving næste fase?"
           }
         }
       }
@@ -29326,6 +31192,12 @@
             "state" : "translated",
             "value" : "Vynutit posun"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gennemtving"
+          }
         }
       }
     },
@@ -29419,6 +31291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zrušit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annullér"
           }
         }
       }
@@ -29514,6 +31392,12 @@
             "state" : "translated",
             "value" : "Odebrat hráče %@?"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern %@?"
+          }
         }
       }
     },
@@ -29607,6 +31491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odebrat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern"
           }
         }
       }
@@ -29702,6 +31592,12 @@
             "state" : "translated",
             "value" : "Rozehraná hra pokračuje s ostatními hráči."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et igangværende spil fortsætter med de resterende spillere."
+          }
         }
       }
     },
@@ -29795,6 +31691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Režim hostitele GM"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GM-værtstilstand"
           }
         }
       }
@@ -29890,6 +31792,12 @@
             "state" : "translated",
             "value" : "Pokud se hra zasekne, můžeš ji odsud rozběhnout."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis spillet går i stå, kan du holde det kørende herfra."
+          }
         }
       }
     },
@@ -29983,6 +31891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Řízení hry"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spilstyring"
           }
         }
       }
@@ -30078,6 +31992,12 @@
             "state" : "translated",
             "value" : "Vynutit posun fáze"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gennemtving næste fase"
+          }
         }
       }
     },
@@ -30171,6 +32091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "V aktuální fázi není co vynucovat."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der er intet at gennemtvinge i den nuværende fase."
           }
         }
       }
@@ -30266,6 +32192,12 @@
             "state" : "translated",
             "value" : "Správa hráčů"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Administrér spillere"
+          }
         }
       }
     },
@@ -30359,6 +32291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Soukromé informace"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Private oplysninger"
           }
         }
       }
@@ -30454,6 +32392,12 @@
             "state" : "translated",
             "value" : "Odhalit role a odpovědi"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afslør roller og svar"
+          }
         }
       }
     },
@@ -30547,6 +32491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pokud se podíváš, bude pro GM těžké hrát férově. Použij to, jen když se hra zasekne."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis du kigger, bliver det svært for GM at spille fair. Brug det kun, hvis spillet går i stå."
           }
         }
       }
@@ -30642,6 +32592,12 @@
             "state" : "translated",
             "value" : "Opustit hru?"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forlad spillet?"
+          }
         }
       }
     },
@@ -30735,6 +32691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přerušit hru a vrátit se do předsíně"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop spillet og gå til lobbyen"
           }
         }
       }
@@ -30830,6 +32792,12 @@
             "state" : "translated",
             "value" : "Zavřít místnost (hra skončí pro všechny)"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luk rummet (slutter for alle)"
+          }
         }
       }
     },
@@ -30923,6 +32891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Panel hostitele"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Værtspanel"
           }
         }
       }
@@ -31018,6 +32992,12 @@
             "state" : "translated",
             "value" : "Mise č. %lld"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mission nr. %lld"
+          }
         }
       }
     },
@@ -31111,6 +33091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vůdce: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leder: %@"
           }
         }
       }
@@ -31206,6 +33192,12 @@
             "state" : "translated",
             "value" : "Konec hry"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spillet er slut"
+          }
         }
       }
     },
@@ -31299,6 +33291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zobrazit moji roli"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se min rolle"
           }
         }
       }
@@ -31394,6 +33392,12 @@
             "state" : "translated",
             "value" : "Další"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Næste"
+          }
         }
       }
     },
@@ -31487,6 +33491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "V této fázi si každý tajně prohlédne svou roli. Až si ji prohlédneš a klepneš na „Další“, dokončí to i boti."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I denne fase ser alle deres egen rolle i hemmelighed. Når du har set din og trykker „Næste“, bliver botsene også færdige."
           }
         }
       }
@@ -31582,6 +33592,12 @@
             "state" : "translated",
             "value" : "Vůdce vybírá tým pro tuto misi. Klepni na „Další“ a vůdce tým vybere. (Pokud jsi vůdce, vyber ho sám!)"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lederen udpeger holdet til denne mission. Tryk „Næste“, så vælger lederen holdet. (Er du leder, så vælg selv!)"
+          }
         }
       }
     },
@@ -31675,6 +33691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Všichni hlasují pro nebo proti složení týmu. Při shodě hlasů je tým zamítnut! Nejdřív hlasuj a pak klepni na „Další“, abys viděl hlasy botů."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle stemmer for eller imod holdets sammensætning. Står det lige, afvises det! Stem først, og tryk så „Næste“ for at se botsenes stemmer."
           }
         }
       }
@@ -31770,6 +33792,12 @@
             "state" : "translated",
             "value" : "Toto je výsledek hlasování. Pokud je tým 5× po sobě zamítnut, vyhrávají Stíny, takže nelze jen slepě hlasovat proti."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her er afstemningens resultat. Afvises holdet 5 gange i træk, vinder Skyggerne, så du kan ikke bare stemme imod hele tiden."
+          }
         }
       }
     },
@@ -31863,6 +33891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kartu úspěchu nebo neúspěchu hrají jen členové týmu. Měsíční řád může zahrát jen úspěch; neúspěch mohou tajně zahrát jen Stíny. Klepni na „Další“ a sleduj odevzdávání karet."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun holdmedlemmer spiller et succes- eller fiaskokort. Måneordenen kan kun spille succes; kun Skyggerne kan i hemmelighed spille fiasko. Tryk „Næste“ for at følge holdets kortaflevering."
           }
         }
       }
@@ -31958,6 +33992,12 @@
             "state" : "translated",
             "value" : "Pokud karet neúspěchu dosáhne požadovaného počtu, mise selže! Kdo první získá 3 vítězství, ukončí hru."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når fiaskokortene når det krævede antal, mislykkes missionen! Den, der først får 3 sejre, afslutter spillet."
+          }
         }
       }
     },
@@ -32051,6 +34091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I když uspějí 3 mise, zbývá poslední zvrat: pokud Vrah správně určí Věštce, Stíny otočí hru."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selv hvis 3 missioner lykkes, er der en sidste drejning: udpeger Snigmorderen Seeren rigtigt, vender Skyggerne spillet."
           }
         }
       }
@@ -32146,6 +34192,12 @@
             "state" : "translated",
             "value" : "Spojení s hostitelem se přerušilo. Zkouším se automaticky znovu připojit…"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forbindelsen til værten blev afbrudt. Prøver automatisk at oprette forbindelse igen…"
+          }
         }
       }
     },
@@ -32239,6 +34291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Čas vypršel"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiden er gået"
           }
         }
       }
@@ -32334,6 +34392,12 @@
             "state" : "translated",
             "value" : "Podívej se tam, kde to nikdo nevidí"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se efter, hvor ingen andre kan se det"
+          }
         }
       }
     },
@@ -32427,6 +34491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Strana: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hold: %@"
           }
         }
       }
@@ -32522,6 +34592,12 @@
             "state" : "translated",
             "value" : "Ti, kdo vypadají jako agenti Stínů"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dem, der ligner skyggeagenter"
+          }
         }
       }
     },
@@ -32615,6 +34691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tvoji spojenci ze Stínů"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dine kammerater blandt Skyggerne"
           }
         }
       }
@@ -32710,6 +34792,12 @@
             "state" : "translated",
             "value" : "Cíl: %@"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mål: %@"
+          }
         }
       }
     },
@@ -32803,6 +34891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chvíli v údržbě. Brzy znovu otevřeme."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Under vedligeholdelse et øjeblik. Åbner snart igen."
           }
         }
       }
@@ -32898,6 +34992,12 @@
             "state" : "translated",
             "value" : "3 párty hry s kamarády poblíž"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 festspil at nyde med venner i nærheden"
+          }
         }
       }
     },
@@ -32991,6 +35091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přezdívka"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaldenavn"
           }
         }
       }
@@ -33086,6 +35192,12 @@
             "state" : "translated",
             "value" : "Zadej své jméno"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv dit navn"
+          }
         }
       }
     },
@@ -33179,6 +35291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyber hru"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg et spil"
           }
         }
       }
@@ -33274,6 +35392,12 @@
             "state" : "translated",
             "value" : "5–15 hráčů · Najdi ukryté Stíny"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5–15 spillere · Find de skjulte Skygger"
+          }
         }
       }
     },
@@ -33367,6 +35491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3–15 hráčů · Najdi toho, kdo nezná slovo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 spillere · Find den, der ikke kender ordet"
           }
         }
       }
@@ -33462,6 +35592,12 @@
             "state" : "translated",
             "value" : "3–15 hráčů · Jedna noc se skřetem ve vsi"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 spillere · En nat med en goblin i landsbyen"
+          }
         }
       }
     },
@@ -33555,6 +35691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3–15 hráčů · Jeden kreslí, ostatní hádají"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 spillere · Én tegner, de andre gætter"
           }
         }
       }
@@ -33650,6 +35792,12 @@
             "state" : "translated",
             "value" : "Najít všechny místnosti v okolí"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Find alle rum i nærheden"
+          }
         }
       }
     },
@@ -33743,6 +35891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "iPhony ve stejné síti Wi-Fi nebo poblíž se propojí automaticky.\nHrát lze i bez internetu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhones på samme Wi-Fi eller i nærheden forbinder automatisk.\nDu kan spille uden internet."
           }
         }
       }
@@ -33838,6 +35992,12 @@
             "state" : "translated",
             "value" : "Pokračovat"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsæt"
+          }
         }
       }
     },
@@ -33931,6 +36091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Místnost hráče %1$@%2$@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@s rum%2$@"
           }
         }
       }
@@ -34026,6 +36192,12 @@
             "state" : "translated",
             "value" : "Smazat historii „Pokračovat“"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ryd historik for „Fortsæt“"
+          }
         }
       }
     },
@@ -34119,6 +36291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hra o skrytých identitách pro 5–15 hráčů: najdi Stíny ukryté v týmu. Vyhrává strana, která jako první splní (nebo zmaří) 3 mise."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et spil om skjulte identiteter for 5–15 spillere: find de Skygger, der gemmer sig på holdet. Den side, der først lykkes med (eller får fejlet) 3 missioner, vinder."
           }
         }
       }
@@ -34214,6 +36392,12 @@
             "state" : "translated",
             "value" : "Blafovací hra pro 3–15 hráčů: všichni kromě Lháře dostanou stejné slovo. Stručně ho popište a pak najděte Lháře. Ani chycený Lhář nemusí prohrát — když slovo uhodne, vyhrává!"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et bluffespil for 3–15 spillere: alle undtagen Løgneren får det samme ord. Beskriv det med få ord, og find så Løgneren. Selv hvis han fanges, vinder Løgneren ved at gætte ordet!"
+          }
         }
       }
     },
@@ -34307,6 +36491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dedukční hra pro 3–15 hráčů o jedné noci se skřetem ve vsi. Přes noc se karty vyměňují a o výsledku rozhoduje jediné hlasování."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et deduktionsspil for 3–15 spillere om en nat med en goblin i landsbyen. Om natten byttes der kort, og én afstemning afgør vinderen."
           }
         }
       }
@@ -34402,6 +36592,12 @@
             "state" : "translated",
             "value" : "Kreslicí hra pro 3–15 hráčů: v každém kole jeden kreslí slovo a ostatní hádají v chatu. Čím rychleji uhodneš, tím víc bodů! Až nakreslí každý, vyhrává ten s nejvíc body."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et tegnespil for 3–15 spillere: i hver runde tegner én ordet, og de andre gætter i chatten. Jo hurtigere du gætter, jo flere point! Når alle har tegnet, vinder den med flest point."
+          }
         }
       }
     },
@@ -34495,6 +36691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vytvořit místnost (hostitel)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opret rum (vært)"
           }
         }
       }
@@ -34590,6 +36792,12 @@
             "state" : "translated",
             "value" : "Připojit se ke hře"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deltag i et spil"
+          }
         }
       }
     },
@@ -34683,6 +36891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jak hrát (trénink s boty)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sådan spiller du (øv med bots)"
           }
         }
       }
@@ -34778,6 +36992,12 @@
             "state" : "translated",
             "value" : "Zpět"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilbage"
+          }
         }
       }
     },
@@ -34871,6 +37091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hledat místnosti: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Find rum for %@"
           }
         }
       }
@@ -34966,6 +37192,12 @@
             "state" : "translated",
             "value" : "Hledat místnosti v okolí"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Find rum i nærheden"
+          }
         }
       }
     },
@@ -35059,6 +37291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Připojování k místnosti…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opretter forbindelse til rummet…"
           }
         }
       }
@@ -35154,6 +37392,12 @@
             "state" : "translated",
             "value" : "Hledám místnosti v okolí…\nZkontroluj, že hostitel klepl na „Vytvořit místnost“."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leder efter rum i nærheden…\nTjek, at værten har trykket „Opret rum“."
+          }
         }
       }
     },
@@ -35247,6 +37491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Místnost hráče %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@s rum"
           }
         }
       }
@@ -35342,6 +37592,12 @@
             "state" : "translated",
             "value" : "Všichni mají stejné slovo. Jen jeden ho nezná."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle har det samme ord. Kun én kender det ikke."
+          }
         }
       }
     },
@@ -35435,6 +37691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spojení s hostitelem se přerušilo. Zkouším se znovu připojit…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forbindelsen til værten blev afbrudt. Prøver at oprette forbindelse igen…"
           }
         }
       }
@@ -35530,6 +37792,12 @@
             "state" : "translated",
             "value" : "Kategorie: %@"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategori: %@"
+          }
         }
       }
     },
@@ -35623,6 +37891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Všichni kromě Lháře dostali stejné slovo. Prohlédni si své a klepni na „Další“, aby dokončili i boti."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle undtagen Løgneren fik det samme ord. Se dit ord, og tryk „Næste“, så botsene også bliver færdige."
           }
         }
       }
@@ -35718,6 +37992,12 @@
             "state" : "translated",
             "value" : "Je to fáze, kdy se slovo střídavě stručně popisuje. Každé klepnutí na „Další“ ukončí projev aktuálního hráče."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I denne fase beskriver alle på skift ordet med få ord. Hvert tryk på „Næste“ afslutter den nuværende tur."
+          }
         }
       }
     },
@@ -35811,6 +38091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kdo se v popisu vyhýbal? Nejdřív hlasuj pro toho, koho podezíráš, že je Lhář, a klepni na „Další“, abys viděl hlasy botů."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvem var undvigende i sin beskrivelse? Stem først på den, du mistænker for at være Løgneren, og tryk så „Næste“ for at se botsenes stemmer."
           }
         }
       }
@@ -35906,6 +38192,12 @@
             "state" : "translated",
             "value" : "Lhář byl chycen! Pokud ale uhodne slovo, otočí hru — klepni na „Další“ a sleduj jeho tip."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgneren er fanget! Men gætter han ordet, vender han spillet — tryk „Næste“ for at følge hans gæt."
+          }
         }
       }
     },
@@ -35999,6 +38291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ty jsi Lhář!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er Løgneren!"
           }
         }
       }
@@ -36094,6 +38392,12 @@
             "state" : "translated",
             "value" : "Slovo neznáš, ale musíš ho popisovat, jako bys ho znal. Nenech se přistihnout!"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kender ikke ordet, men skal beskrive det, som om du gør. Lad være med at blive afsløret!"
+          }
         }
       }
     },
@@ -36187,6 +38491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slovo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ord"
           }
         }
       }
@@ -36282,6 +38592,12 @@
             "state" : "translated",
             "value" : "Slovo dorazilo"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordet er ankommet"
+          }
         }
       }
     },
@@ -36375,6 +38691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hotovo! Čekám na ostatní hráče…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Færdig! Venter på de andre spillere…"
           }
         }
       }
@@ -36470,6 +38792,12 @@
             "state" : "translated",
             "value" : "Viděl jsem"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set"
+          }
         }
       }
     },
@@ -36563,6 +38891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podívej se tam, kde na obrazovku nikdo nevidí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se efter, hvor ingen andre kan se skærmen"
           }
         }
       }
@@ -36658,6 +38992,12 @@
             "state" : "translated",
             "value" : "Nenápadně nahlédnout"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag et lille kig"
+          }
         }
       }
     },
@@ -36751,6 +39091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Potvrzeno: %lld/%lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekræftet: %lld/%lld"
           }
         }
       }
@@ -36846,6 +39192,12 @@
             "state" : "translated",
             "value" : "Střídavě stručně popisujte slovo"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beskriv på skift ordet med få ord"
+          }
         }
       }
     },
@@ -36939,6 +39291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Když řekneš příliš, pomůžeš Lháři;\nkdyž řekneš příliš málo, budou podezírat tebe!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siger du for meget, hjælper du Løgneren;\nsiger du for lidt, bliver du mistænkt!"
           }
         }
       }
@@ -37034,6 +39392,12 @@
             "state" : "translated",
             "value" : "Mluví"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taler"
+          }
         }
       }
     },
@@ -37127,6 +39491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Domluvil"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Færdig med at tale"
           }
         }
       }
@@ -37222,6 +39592,12 @@
             "state" : "translated",
             "value" : "Kdo je Lhář?"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvem er Løgneren?"
+          }
         }
       }
     },
@@ -37315,6 +39691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hlasuj pro nejpodezřelejšího · Když se hlasy rozdělí, vyhrává Lhář!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stem på den mest mistænkelige · Hvis stemmerne deles, vinder Løgneren!"
           }
         }
       }
@@ -37410,6 +39792,12 @@
             "state" : "translated",
             "value" : "Hlas odevzdán! Čekám na sečtení…"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stemme afgivet! Venter på optællingen…"
+          }
         }
       }
     },
@@ -37503,6 +39891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odhlasovali: %lld/%lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Har stemt: %lld/%lld"
           }
         }
       }
@@ -37598,6 +39992,12 @@
             "state" : "translated",
             "value" : "Označit „%@“ za Lháře?"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udpege „%@“ som Løgneren?"
+          }
         }
       }
     },
@@ -37691,6 +40091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Potvrdit hlas"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekræft stemme"
           }
         }
       }
@@ -37786,6 +40192,12 @@
             "state" : "translated",
             "value" : "Odeslaný hlas nelze změnit."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En afgivet stemme kan ikke ændres."
+          }
         }
       }
     },
@@ -37879,6 +40291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lhář chycen!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgneren fanget!"
           }
         }
       }
@@ -37974,6 +40392,12 @@
             "state" : "translated",
             "value" : "„%@“ byl Lhář!\nPokud ale uhodne slovo, Lhář otočí hru."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ var Løgneren!\nMen gætter han ordet, vender Løgneren spillet."
+          }
         }
       }
     },
@@ -38067,6 +40491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyber slovo — máš jen jednu šanci!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg ordet — du har kun ét forsøg!"
           }
         }
       }
@@ -38162,6 +40592,12 @@
             "state" : "translated",
             "value" : "Lhář hádá slovo…"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgneren gætter ordet…"
+          }
         }
       }
     },
@@ -38255,6 +40691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tipnout si „%@“ jako slovo?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gætte på „%@“ som ordet?"
           }
         }
       }
@@ -38350,6 +40792,12 @@
             "state" : "translated",
             "value" : "Potvrdit toto slovo"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekræft dette ord"
+          }
         }
       }
     },
@@ -38443,6 +40891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Máš jen jednu šanci!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du har kun ét forsøg!"
           }
         }
       }
@@ -38538,6 +40992,12 @@
             "state" : "translated",
             "value" : "Vyhrává Lhář!"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgneren vinder!"
+          }
         }
       }
     },
@@ -38631,6 +41091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyhrávají občané!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borgerne vinder!"
           }
         }
       }
@@ -38726,6 +41192,12 @@
             "state" : "translated",
             "value" : "Tip Lháře"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgnerens gæt"
+          }
         }
       }
     },
@@ -38819,6 +41291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Výsledky hlasování"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afstemningsresultat"
           }
         }
       }
@@ -38914,6 +41392,12 @@
             "state" : "translated",
             "value" : "Zavřít místnost"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luk rum"
+          }
         }
       }
     },
@@ -39007,6 +41491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Moje místnost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit rum"
           }
         }
       }
@@ -39102,6 +41592,12 @@
             "state" : "translated",
             "value" : "Předsíň"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lobby"
+          }
         }
       }
     },
@@ -39195,6 +41691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hráči: %1$lld · potřeba %2$lld–%3$lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spillere: %1$lld · der skal bruges %2$lld–%3$lld"
           }
         }
       }
@@ -39290,6 +41792,12 @@
             "state" : "translated",
             "value" : "Učení hry: boti vstupují do místnosti.\nAž bude hráčů dost, klepni na „Začít hru“."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lær at spille: botsene kommer ind.\nNår der er spillere nok, så tryk „Start spil“."
+          }
         }
       }
     },
@@ -39383,6 +41891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Začít hru"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start spil"
           }
         }
       }
@@ -39478,6 +41992,12 @@
             "state" : "translated",
             "value" : "Nejmenší počet hráčů: %lld"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mindste antal spillere: %lld"
+          }
         }
       }
     },
@@ -39571,6 +42091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Čekám, až hostitel začne hru…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venter på, at værten starter spillet…"
           }
         }
       }
@@ -39666,6 +42192,12 @@
             "state" : "translated",
             "value" : "Při tomto počtu hráčů: Stíny %1$lld · Měsíční řád %2$lld"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med dette antal spillere: Skygger %1$lld · Måneordenen %2$lld"
+          }
         }
       }
     },
@@ -39759,6 +42291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[Měsíční herna %@] Dotaz"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[Månearkaden %@] Henvendelse"
           }
         }
       }
@@ -39854,6 +42392,12 @@
             "state" : "translated",
             "value" : "Podpora"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
+          }
         }
       }
     },
@@ -39948,6 +42492,12 @@
             "state" : "translated",
             "value" : "Napsat e-mail"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt via e-mail"
+          }
         }
       }
     },
@@ -40038,6 +42588,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM (@lee25_ios)"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram DM (@lee25_ios)"
@@ -40136,6 +42692,12 @@
             "state" : "translated",
             "value" : "Kontaktovat vývojáře"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt udvikleren"
+          }
         }
       }
     },
@@ -40229,6 +42791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dej nám klidně vědět o chybě nebo o hře, kterou bys rád viděl."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortæl os endelig om fejl eller spil, du gerne vil have."
           }
         }
       }
@@ -40324,6 +42892,12 @@
             "state" : "translated",
             "value" : "Aplikaci Mail nelze otevřít"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mail-appen kan ikke åbnes"
+          }
         }
       }
     },
@@ -40417,6 +42991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopírovat adresu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiér adresse"
           }
         }
       }
@@ -40512,6 +43092,12 @@
             "state" : "translated",
             "value" : "Zavřít"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luk"
+          }
         }
       }
     },
@@ -40605,6 +43191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pošli e-mail na níže uvedenou adresu.\n%@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send en e-mail til adressen herunder.\n%@"
           }
         }
       }
@@ -40700,6 +43292,12 @@
             "state" : "translated",
             "value" : "Vítej v Měsíční herně"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velkommen til Månearkaden"
+          }
         }
       }
     },
@@ -40793,6 +43391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sbírka párty her na iPhony pro kamarády na jednom místě.\nNepotřebuješ internet ani registraci."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En samling festspil til iPhone, som du spiller sammen med venner på samme sted.\nDu behøver hverken internet eller tilmelding."
           }
         }
       }
@@ -40888,6 +43492,12 @@
             "state" : "translated",
             "value" : "Jeden vytvoří místnost"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Én opretter rummet"
+          }
         }
       }
     },
@@ -40981,6 +43591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Až si všichni nainstalují aplikaci, jeden vybere hru a klepne na „Vytvořit místnost“.\nOstatní se přidají přes „Připojit se ke hře“ — hotovo!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når alle har installeret appen, vælger én et spil og trykker „Opret rum“.\nDe andre kommer ind med „Deltag i et spil“ — så er det klaret!"
           }
         }
       }
@@ -41076,6 +43692,12 @@
             "state" : "translated",
             "value" : "Sejděte se blízko a povolte připojení"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom tæt på hinanden og tillad forbindelsen"
+          }
         }
       }
     },
@@ -41169,6 +43791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Najdete se v jedné síti Wi-Fi nebo v dosahu Bluetooth.\nPři prvním spuštění určitě povol žádost o přístup k „Místní síti“."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I finder hinanden på samme Wi-Fi eller inden for Bluetooth-rækkevidde.\nHusk at tillade anmodningen om adgang til „Lokalt netværk“, der vises første gang."
           }
         }
       }
@@ -41264,6 +43892,12 @@
             "state" : "translated",
             "value" : "Pravidla neznáš? Nejdřív trénuj"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kender du ikke reglerne? Øv dig først"
+          }
         }
       }
     },
@@ -41357,6 +43991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Každá hra má „Jak hrát (trénink s boty)“.\nMůžeš si sám zahrát jedno kolo s boty a naučit se pravidla."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvert spil har „Sådan spiller du (øv med bots)“.\nDu kan spille en runde alene med bots for at lære reglerne."
           }
         }
       }
@@ -41452,6 +44092,12 @@
             "state" : "translated",
             "value" : "Přeskočit"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spring over"
+          }
         }
       }
     },
@@ -41545,6 +44191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Začít"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom i gang"
           }
         }
       }
@@ -41640,6 +44292,12 @@
             "state" : "translated",
             "value" : "Hráči: %1$lld (%2$lld–%3$lld)"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spillere: %1$lld (%2$lld–%3$lld)"
+          }
         }
       }
     },
@@ -41733,6 +44391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Role byly rozdány"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roller er tildelt"
           }
         }
       }
@@ -41828,6 +44492,12 @@
             "state" : "translated",
             "value" : "Viděl jsem"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg har set den"
+          }
         }
       }
     },
@@ -41921,6 +44591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přijímám informace o roli…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modtager rolleoplysninger…"
           }
         }
       }
@@ -42016,6 +44692,12 @@
             "state" : "translated",
             "value" : "Role viděly: %lld/%lld"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roller set: %lld/%lld"
+          }
         }
       }
     },
@@ -42109,6 +44791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zajisti, aby tě nikdo poblíž neviděl,\na klepnutím na tlačítko si zobraz svou roli"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sørg for, at ingen i nærheden kan se,\nog tryk på knappen for at se din rolle"
           }
         }
       }
@@ -42204,6 +44892,12 @@
             "state" : "translated",
             "value" : "Zobrazit moji roli"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se min rolle"
+          }
         }
       }
     },
@@ -42297,6 +44991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hotovo!\nČekám na ostatní hráče…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Færdig!\nVenter på de andre spillere…"
           }
         }
       }
@@ -42392,6 +45092,12 @@
             "state" : "translated",
             "value" : "Jsi vůdce!"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er leder!"
+          }
         }
       }
     },
@@ -42485,6 +45191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyber členy pro tuto misi: %1$lld (%2$lld/%3$lld)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg til denne mission: %1$lld (%2$lld/%3$lld)"
           }
         }
       }
@@ -42580,6 +45292,12 @@
             "state" : "translated",
             "value" : "Potvrdit tým → hlasují všichni"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekræft hold → alle stemmer"
+          }
         }
       }
     },
@@ -42673,6 +45391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vůdce %1$@\nvybírá členy týmu: %2$lld…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leder %1$@\nvælger holdmedlemmer: %2$lld…"
           }
         }
       }
@@ -42768,6 +45492,12 @@
             "state" : "translated",
             "value" : "Svobodně diskutujte, koho poslat!"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diskuter frit, hvem der skal sendes afsted!"
+          }
         }
       }
     },
@@ -42861,6 +45591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hlasování o týmu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afstemning om holdet"
           }
         }
       }
@@ -42956,6 +45692,12 @@
             "state" : "translated",
             "value" : "Hlas odevzdán — čekám na výsledek (%lld/%lld)"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stemme afgivet — venter på resultatet (%lld/%lld)"
+          }
         }
       }
     },
@@ -43049,6 +45791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Souhlasíš s tímto složením týmu?\n(Hlasy všech budou odhaleny · při shodě je tým zamítnut)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er du enig i denne holdsammensætning?\n(Alles stemmer afsløres · uafgjort = afvist)"
           }
         }
       }
@@ -43144,6 +45892,12 @@
             "state" : "translated",
             "value" : "Pro"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For"
+          }
         }
       }
     },
@@ -43237,6 +45991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Proti"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imod"
           }
         }
       }
@@ -43332,6 +46092,12 @@
             "state" : "translated",
             "value" : "Hlasovat „pro“ tým?"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stemme „for“ holdet?"
+          }
         }
       }
     },
@@ -43425,6 +46191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hlasovat „proti“ týmu?"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stemme „imod“ holdet?"
           }
         }
       }
@@ -43520,6 +46292,12 @@
             "state" : "translated",
             "value" : "Volba vůdce %@"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leder %@s valg"
+          }
         }
       }
     },
@@ -43613,6 +46391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schváleno! Tým vyráží na misi"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Godkendt! Holdet drager afsted"
           }
         }
       }
@@ -43708,6 +46492,12 @@
             "state" : "translated",
             "value" : "Zamítnuto"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afvist"
+          }
         }
       }
     },
@@ -43801,6 +46591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vedení přechází na dalšího · zamítnutí po sobě: %lld/%lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ledelsen går videre til den næste · afvisninger i træk: %lld/%lld"
           }
         }
       }
@@ -43896,6 +46692,12 @@
             "state" : "translated",
             "value" : "⚠️ Další zamítnutí a vyhrávají Stíny!"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⚠️ Endnu en afvisning, og Skyggerne vinder!"
+          }
         }
       }
     },
@@ -43989,6 +46791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pokračovat"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsæt"
           }
         }
       }
@@ -44084,6 +46892,12 @@
             "state" : "translated",
             "value" : "Čekám, až hostitel pokračuje…"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venter på, at værten fortsætter…"
+          }
         }
       }
     },
@@ -44177,6 +46991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pro 👍"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For 👍"
           }
         }
       }
@@ -44272,6 +47092,12 @@
             "state" : "translated",
             "value" : "Proti 👎"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imod 👎"
+          }
         }
       }
     },
@@ -44365,6 +47191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Probíhá mise č. %lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mission nr. %lld er i gang"
           }
         }
       }
@@ -44460,6 +47292,12 @@
             "state" : "translated",
             "value" : "Tým: %@"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hold: %@"
+          }
         }
       }
     },
@@ -44553,6 +47391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tým plní misi…\n(odevzdáno %lld/%lld)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Holdet udfører missionen…\n(%lld/%lld afleveret)"
           }
         }
       }
@@ -44648,6 +47492,12 @@
             "state" : "translated",
             "value" : "Karet neúspěchu potřebných k selhání mise: %lld"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fiaskokort, der skal til for at missionen mislykkes: %lld"
+          }
         }
       }
     },
@@ -44741,6 +47591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyber kartu (nikdo se nedozví, kdo co zahrál)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg et kort (ingen kan se, hvem der spillede hvad)"
           }
         }
       }
@@ -44836,6 +47692,12 @@
             "state" : "translated",
             "value" : "Jsi Stín — kartou neúspěchu můžeš misi zmařit"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er en Skygge — et fiaskokort kan spolere missionen"
+          }
         }
       }
     },
@@ -44929,6 +47791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odevzdat kartu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aflevér kort"
           }
         }
       }
@@ -45024,6 +47892,12 @@
             "state" : "translated",
             "value" : "Úspěch"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Succes"
+          }
         }
       }
     },
@@ -45117,6 +47991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neúspěch"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fiasko"
           }
         }
       }
@@ -45212,6 +48092,12 @@
             "state" : "translated",
             "value" : "Členové řádu\nmohou zahrát jen úspěch"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordensmedlemmer\nkan kun spille succes"
+          }
         }
       }
     },
@@ -45305,6 +48191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Karta odevzdána\nČekám na ostatní členy… (%lld/%lld)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kort afleveret\nVenter på de andre medlemmer… (%lld/%lld)"
           }
         }
       }
@@ -45400,6 +48292,12 @@
             "state" : "translated",
             "value" : "Mise se zdařila!"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missionen lykkedes!"
+          }
         }
       }
     },
@@ -45493,6 +48391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mise selhala…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missionen mislykkedes…"
           }
         }
       }
@@ -45588,6 +48492,12 @@
             "state" : "translated",
             "value" : "Karty úspěchu: %1$lld · karty neúspěchu: %2$lld"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Succeskort: %1$lld · fiaskokort: %2$lld"
+          }
         }
       }
     },
@@ -45681,6 +48591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Padla karta neúspěchu, ale tato mise jich vyžadovala %lld, takže obstála!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der kom et fiaskokort, men denne mission krævede %lld, så den holdt!"
           }
         }
       }
@@ -45776,6 +48692,12 @@
             "state" : "translated",
             "value" : "Úspěch %lld : %lld Neúspěch — vyhrává ten, kdo první získá 3"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Succes %lld : %lld Fiasko — først til 3 vinder"
+          }
         }
       }
     },
@@ -45869,6 +48791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Černá"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sort"
           }
         }
       }
@@ -45964,6 +48892,12 @@
             "state" : "translated",
             "value" : "Červená"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rød"
+          }
         }
       }
     },
@@ -46057,6 +48991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oranžová"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orange"
           }
         }
       }
@@ -46152,6 +49092,12 @@
             "state" : "translated",
             "value" : "Žlutá"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gul"
+          }
         }
       }
     },
@@ -46245,6 +49191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zelená"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grøn"
           }
         }
       }
@@ -46340,6 +49292,12 @@
             "state" : "translated",
             "value" : "Modrá"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blå"
+          }
         }
       }
     },
@@ -46433,6 +49391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fialová"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lilla"
           }
         }
       }
@@ -46528,6 +49492,12 @@
             "state" : "translated",
             "value" : "Hnědá"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brun"
+          }
         }
       }
     },
@@ -46621,6 +49591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guma"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viskelæder"
           }
         }
       }
@@ -46716,6 +49692,12 @@
             "state" : "translated",
             "value" : "Barva %lld"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farve %lld"
+          }
         }
       }
     },
@@ -46809,6 +49791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tenký štětec"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tynd pensel"
           }
         }
       }
@@ -46904,6 +49892,12 @@
             "state" : "translated",
             "value" : "Střední štětec"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mellem pensel"
+          }
         }
       }
     },
@@ -46997,6 +49991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tlustý štětec"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tyk pensel"
           }
         }
       }
@@ -47092,6 +50092,12 @@
             "state" : "translated",
             "value" : "Jeden kreslí, ostatní hádají"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Én tegner, de andre gætter"
+          }
         }
       }
     },
@@ -47185,6 +50191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kolo %1$lld / %2$lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runde %1$lld / %2$lld"
           }
         }
       }
@@ -47280,6 +50292,12 @@
             "state" : "translated",
             "value" : "Já jsem Malíř!"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg er Tegneren!"
+          }
         }
       }
     },
@@ -47373,6 +50391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Malíř: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tegner: %@"
           }
         }
       }
@@ -47468,6 +50492,12 @@
             "state" : "translated",
             "value" : "Dokreslil jsem"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Færdig med at tegne"
+          }
         }
       }
     },
@@ -47561,6 +50591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přeskočit kolo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spring runden over"
           }
         }
       }
@@ -47656,6 +50692,12 @@
             "state" : "translated",
             "value" : "V tomto kole jsi Malíř! Vyber ze 3 slov to, které se nejsnáz kreslí."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I denne runde er du Tegner! Vælg det af de 3 ord, der er nemmest at tegne."
+          }
         }
       }
     },
@@ -47749,6 +50791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyjádři slovo kresbou. Písmena a číslice jsou zakázány! Až skončíš, klepni na „Další“ a sleduj tipy botů."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udtryk ordet med en tegning. Ingen bogstaver eller tal! Når du er færdig, tryk „Næste“ for at se botsenes gæt."
           }
         }
       }
@@ -47844,6 +50892,12 @@
             "state" : "translated",
             "value" : "Výsledky kola. Čím rychleji uhodneš, tím víc bodů; Malíř získá víc bodů, čím víc lidí uhodne. Klepni na „Další“ a uvidíš konečné pořadí."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rundens resultat. Jo hurtigere du gætter, jo flere point; Tegneren får flere point, jo flere der gætter. Tryk „Næste“ for den endelige rangliste."
+          }
         }
       }
     },
@@ -47937,6 +50991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyber slovo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg et ord"
           }
         }
       }
@@ -48032,6 +51092,12 @@
             "state" : "translated",
             "value" : "Ať to nikdo nevidí! Když zvolíš něco, co se dobře kreslí, máš výhodu."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lad ingen se det! Et ord, der er nemt at tegne, giver en fordel."
+          }
         }
       }
     },
@@ -48125,6 +51191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ vybírá slovo…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ vælger et ord…"
           }
         }
       }
@@ -48220,6 +51292,12 @@
             "state" : "translated",
             "value" : "Za chvíli začne kreslení."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om lidt begynder tegningen."
+          }
         }
       }
     },
@@ -48313,6 +51391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Počet písmen: %lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bogstaver: %lld"
           }
         }
       }
@@ -48408,6 +51492,12 @@
             "state" : "translated",
             "value" : "Správně: %1$lld/%2$lld"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rigtige: %1$lld/%2$lld"
+          }
         }
       }
     },
@@ -48501,6 +51591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zde se zobrazí tipy všech."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles gæt vises her."
           }
         }
       }
@@ -48596,6 +51692,12 @@
             "state" : "translated",
             "value" : "Podívej se na kresbu a uhodni odpověď!"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se tegningen og gæt svaret!"
+          }
         }
       }
     },
@@ -48689,6 +51791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vrátit jeden tah"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortryd ét streg"
           }
         }
       }
@@ -48784,6 +51892,12 @@
             "state" : "translated",
             "value" : "Smazat celou kresbu"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ryd hele tegningen"
+          }
         }
       }
     },
@@ -48877,6 +51991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Správně! Čekám na ostatní…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rigtigt! Venter på de andre…"
           }
         }
       }
@@ -48972,6 +52092,12 @@
             "state" : "translated",
             "value" : "Zadej odpověď…"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv dit svar…"
+          }
         }
       }
     },
@@ -49065,6 +52191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skrýt klávesnici"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjul tastatur"
           }
         }
       }
@@ -49160,6 +52292,12 @@
             "state" : "translated",
             "value" : "Slovo bylo"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordet var"
+          }
         }
       }
     },
@@ -49253,6 +52391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Správně"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rigtigt"
           }
         }
       }
@@ -49348,6 +52492,12 @@
             "state" : "translated",
             "value" : "Zobrazit konečné pořadí"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se den endelige rangliste"
+          }
         }
       }
     },
@@ -49441,6 +52591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Další kolo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Næste runde"
           }
         }
       }
@@ -49536,6 +52692,12 @@
             "state" : "translated",
             "value" : "Čekám, až hostitel pokračuje…"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venter på, at værten fortsætter…"
+          }
         }
       }
     },
@@ -49629,6 +52791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nejvyšší skóre: %lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Højeste score: %lld"
           }
         }
       }
@@ -49724,6 +52892,12 @@
             "state" : "translated",
             "value" : "Body: %lld"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Point: %lld"
+          }
         }
       }
     },
@@ -49817,6 +52991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hrát znovu ve stejné sestavě"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spil igen med de samme spillere"
           }
         }
       }
@@ -49912,6 +53092,12 @@
             "state" : "translated",
             "value" : "Odpojeno"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forbindelsen er afbrudt"
+          }
         }
       }
     },
@@ -50005,6 +53191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Čekám, až se hráč %@ znovu připojí."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venter på, at %@ opretter forbindelse igen."
           }
         }
       }
@@ -50100,6 +53292,12 @@
             "state" : "translated",
             "value" : "Odebrat hráče %@"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern %@"
+          }
         }
       }
     },
@@ -50193,6 +53391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zamítnuto"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afvist"
           }
         }
       }
@@ -50288,6 +53492,12 @@
             "state" : "translated",
             "value" : "Potřeba 2 neúspěchů"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kræver 2 fiaskoer"
+          }
         }
       }
     },
@@ -50381,6 +53591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jedna noc se skřetem ve vsi a jediné hlasování"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En nat med en goblin i landsbyen, én afstemning"
           }
         }
       }
@@ -50476,6 +53692,12 @@
             "state" : "translated",
             "value" : "🌙 Noc — tajná akce"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🌙 Nat — hemmelig handling"
+          }
         }
       }
     },
@@ -50569,6 +53791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "☀️ Den — diskuse"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "☀️ Dag — debat"
           }
         }
       }
@@ -50664,6 +53892,12 @@
             "state" : "translated",
             "value" : "🗳️ Hlasování o vyhnání"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🗳️ Afstemning om forvisning"
+          }
         }
       }
     },
@@ -50757,6 +53991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Výsledek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resultat"
           }
         }
       }
@@ -50852,6 +54092,12 @@
             "state" : "translated",
             "value" : "V noci jedná každý tajně. Prohlédni si svou roli, dokonči akci a klepni na „Další“, aby boti provedli své noční akce."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om natten handler alle i hemmelighed. Se din rolle og afslut din handling, og tryk så „Næste“ for at køre botsenes natlige handlinger."
+          }
         }
       }
     },
@@ -50945,6 +54191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přes noc mohli Noční zloděj a Šprýmař vyměnit karty! V opravdové hře se tady diskutuje. Klepnutím na „Další“ začne hlasování."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I løbet af natten kan Nattetyven og Spasmageren have byttet kort! I et rigtigt spil debatteres der her. Tryk „Næste“ for at starte afstemningen."
           }
         }
       }
@@ -51040,6 +54292,12 @@
             "state" : "translated",
             "value" : "Nejdřív označ, koho podezíráš, že je skřet, a klepni na „Další“, abys viděl hlasy botů. Kdo má nejvíc hlasů, bude vyhnán."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udpeg først den, du mistænker for at være en goblin, og tryk så „Næste“ for at se botsenes stemmer. Den med flest stemmer forvises."
+          }
         }
       }
     },
@@ -51133,6 +54391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Další skřeti: %@"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andre goblins: %@"
           }
         }
       }
@@ -51228,6 +54492,12 @@
             "state" : "translated",
             "value" : "Nastala noc"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natten er faldet på"
+          }
         }
       }
     },
@@ -51321,6 +54591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prohlédni si svou roli tam, kde na obrazovku nikdo nevidí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se din rolle, hvor ingen andre kan se skærmen"
           }
         }
       }
@@ -51416,6 +54692,12 @@
             "state" : "translated",
             "value" : "Akce hotova! Čekám na ostatní hráče… %lld/%lld"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handling udført! Venter på de andre spillere… %lld/%lld"
+          }
         }
       }
     },
@@ -51509,6 +54791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jsi jediný skřet! Můžeš se podívat na 1 prostřední kartu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er den eneste goblin! Du må kigge på 1 midterkort"
           }
         }
       }
@@ -51604,6 +54892,12 @@
             "state" : "translated",
             "value" : "Střed č. %lld"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Midten nr. %lld"
+          }
         }
       }
     },
@@ -51697,6 +54991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podívat se na prostřední kartu č. %lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se midterkort nr. %lld"
           }
         }
       }
@@ -51792,6 +55092,12 @@
             "state" : "translated",
             "value" : "Viděl jsem spojence"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg har set mine kammerater"
+          }
         }
       }
     },
@@ -51885,6 +55191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podívat se na 1 hráče"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se 1 spiller"
           }
         }
       }
@@ -51980,6 +55292,12 @@
             "state" : "translated",
             "value" : "Podívat se na 2 prostřední karty"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se 2 midterkort"
+          }
         }
       }
     },
@@ -52073,6 +55391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podívat se na kartu hráče „%@“"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se „%@“s kort"
           }
         }
       }
@@ -52168,6 +55492,12 @@
             "state" : "translated",
             "value" : "Podívat se na 2 prostřední karty"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se de 2 midterkort"
+          }
         }
       }
     },
@@ -52261,6 +55591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyber, komu kartu ukradneš"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg, hvem du vil stjæle kortet fra"
           }
         }
       }
@@ -52356,6 +55692,12 @@
             "state" : "translated",
             "value" : "Ukrást kartu hráče „%@“"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stjæl „%@“s kort"
+          }
         }
       }
     },
@@ -52449,6 +55791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyber dva hráče, jejichž karty se vymění (%lld/2)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg to spillere, hvis kort skal byttes (%lld/2)"
           }
         }
       }
@@ -52544,6 +55892,12 @@
             "state" : "translated",
             "value" : "Vyměnit karty těchto dvou"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Byt kortene mellem disse to"
+          }
         }
       }
     },
@@ -52637,6 +55991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je ráno"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morgenen er kommet"
           }
         }
       }
@@ -52732,6 +56092,12 @@
             "state" : "translated",
             "value" : "Karty se mohly přes noc změnit!\nNajděte skřeta (podle aktuální karty) diskusí."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortene kan have ændret sig i løbet af natten!\nFind goblinen (efter det aktuelle kort) gennem debat."
+          }
         }
       }
     },
@@ -52825,6 +56191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "(Podle tvé role na začátku noci)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(Efter din rolle ved nattens begyndelse)"
           }
         }
       }
@@ -52920,6 +56292,12 @@
             "state" : "translated",
             "value" : "Co se stalo přes noc (zobrazí se jen při tréninku)"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvad der skete i løbet af natten (kun synligt i øvelsen)"
+          }
         }
       }
     },
@@ -53013,6 +56391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "V opravdové hře se nic neodhaluje. Proto je diskuse důležitá!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I et rigtigt spil afsløres intet. Derfor er debatten vigtig!"
           }
         }
       }
@@ -53108,6 +56492,12 @@
             "state" : "translated",
             "value" : "Diskuse skončila! Zahájit hlasování"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Debatten er slut! Start afstemningen"
+          }
         }
       }
     },
@@ -53201,6 +56591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Čekám, až hostitel zahájí hlasování…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venter på, at værten starter afstemningen…"
           }
         }
       }
@@ -53296,6 +56692,12 @@
             "state" : "translated",
             "value" : "Označ, o kom si myslíš, že je skřet"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udpeg den, du tror er goblinen"
+          }
         }
       }
     },
@@ -53389,6 +56791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kdo má nejvíc hlasů, bude vyhnán · při shodě všichni se shodou · pokud mají všichni nejvýš 1 hlas, nikdo vyhnán není"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den med flest stemmer forvises · ved lige mange alle de ligestillede · hvis alle har højst 1 stemme, forvises ingen"
           }
         }
       }
@@ -53484,6 +56892,12 @@
             "state" : "translated",
             "value" : "Hlasovat pro vyhnání hráče „%@“?"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stemme for at forvise „%@“?"
+          }
         }
       }
     },
@@ -53577,6 +56991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vesnice vyhrává!"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Landsbyen vinder!"
           }
         }
       }
@@ -53672,6 +57092,12 @@
             "state" : "translated",
             "value" : "Skřeti vyhrávají!"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goblinerne vinder!"
+          }
         }
       }
     },
@@ -53765,6 +57191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hlasy: %lld"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stemmer: %lld"
           }
         }
       }
@@ -53861,6 +57293,12 @@
             "state" : "translated",
             "value" : "Pohodlnější VoiceOver"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedre VoiceOver"
+          }
         }
       }
     },
@@ -53955,6 +57393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Když zvětšíš písmo, obrazovky se přeskládají, místo aby se ořízly."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når du forstørrer teksten, omarrangeres skærmene i stedet for at blive skåret af."
           }
         }
       }
@@ -54051,6 +57495,12 @@
             "state" : "translated",
             "value" : "Upozornění na tvůj tah"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Besked, når det er din tur"
+          }
         }
       }
     },
@@ -54145,6 +57595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I se zvýšeným kontrastem nebo potížemi s rozlišením barev poznáš strany i výsledky."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selv med øget kontrast eller svært ved at skelne farver kan du se holdene og resultaterne."
           }
         }
       }
@@ -54241,6 +57697,12 @@
             "state" : "translated",
             "value" : "Používej aplikaci ve více jazycích."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug appen på flere sprog."
+          }
         }
       }
     },
@@ -54335,6 +57797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Více jazyků"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flere sprog"
           }
         }
       }
@@ -54431,6 +57899,12 @@
             "state" : "translated",
             "value" : "Příjemné barvy a kontrast"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Behagelige farver og kontrast"
+          }
         }
       }
     },
@@ -54525,6 +57999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odezva, kterou cítíš na prstech"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Respons, du mærker i fingrene"
           }
         }
       }
@@ -54621,6 +58101,12 @@
             "state" : "translated",
             "value" : "Při prvním otevření po aktualizaci se dozvíš, co je nového."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Første gang du åbner appen efter en opdatering, kan du se, hvad der er nyt."
+          }
         }
       }
     },
@@ -54715,6 +58201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Novinky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyheder"
           }
         }
       }
@@ -54811,6 +58303,12 @@
             "state" : "translated",
             "value" : "Jemné zavibrování, když dostaneš roli nebo skončí hlasování."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En let vibration, når du får din rolle, eller en afstemning slutter."
+          }
         }
       }
     },
@@ -54905,6 +58403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podpora angličtiny"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Understøttelse af engelsk"
           }
         }
       }
@@ -55001,6 +58505,12 @@
             "state" : "translated",
             "value" : "Aby si s tebou mohli zahrát i kamarádi z ciziny, půjde aplikaci používat i v angličtině."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Så du også kan spille med venner fra udlandet, kan appen også bruges på engelsk."
+          }
         }
       }
     },
@@ -55095,6 +58605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Omezit pohyb"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reducer bevægelse"
           }
         }
       }
@@ -55191,6 +58707,12 @@
             "state" : "translated",
             "value" : "Se zapnutým „Omezit pohyb“ budou efekty na obrazovce klidnější."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med „Reducer bevægelse“ slået til bliver skærmeffekterne roligere."
+          }
         }
       }
     },
@@ -55285,6 +58807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Obrazovky pro velké písmo"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skærme til stor tekst"
           }
         }
       }
@@ -55381,6 +58909,12 @@
             "state" : "translated",
             "value" : "Obrazovka pro skládací iPhone"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skærm til foldbar iPhone"
+          }
         }
       }
     },
@@ -55475,6 +59009,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Na skládacím iPhonu se široká obrazovka rozdělí na dvě části."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På en foldbar iPhone deles den brede skærm i to dele."
           }
         }
       }
@@ -55571,6 +59111,12 @@
             "state" : "translated",
             "value" : "Widgety na ploše"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgets på hjemmeskærmen"
+          }
         }
       }
     },
@@ -55665,6 +59211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Herní místnost otevřeš přímo z plochy."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åbn et spilrum direkte fra hjemmeskærmen."
           }
         }
       }
@@ -55761,6 +59313,12 @@
             "state" : "translated",
             "value" : "VoiceOver přečte karty rolí i tlačítka hlasování úplně a ve správném pořadí."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver læser alle rollekort og afstemningsknapper op, i den rigtige rækkefølge."
+          }
         }
       }
     },
@@ -55855,6 +59413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I s vypnutou obrazovkou ti upozornění řekne, že jsi na řadě."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selv med slukket skærm får du en notifikation, når det er din tur."
           }
         }
       }

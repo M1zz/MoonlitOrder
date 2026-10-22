@@ -92,6 +92,12 @@ Nastavení otevřeš ozubeným kolem
 Zpětnou vazbu pošleš vývojáři hned
 Ohodnoť aplikaci a zjisti verzi
 
+### 앱스토어 (Dansk)
+
+Åbn Indstillinger med tandhjulet
+Send feedback direkte til udvikleren
+Bedøm appen og tjek versionen
+
 ## 1.0.1 (2026-07-17)
 
 ### 새로운 기능

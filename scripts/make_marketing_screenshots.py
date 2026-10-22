@@ -15,7 +15,7 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "marketing"
 WORK = pathlib.Path("/tmp") / "moonlit-marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs"}
+STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da"}
 
 # (원본 파일, 헤드라인, 서브카피) — 언어마다 따로 쓴다.
 SHOTS = {
@@ -123,6 +123,13 @@ SHOTS = {
         ("03-vote.png", "Pro<br>nebo proti?", "V okamžiku, kdy se hlasy odhalí, se hra obrátí"),
         ("04-draw.png", "Kresli<br>a hádej", "Jeden kreslí, ostatní hádají v Měsíčním ateliéru"),
         ("05-result.png", "Čím rychleji,<br>tím víc bodů", "Hrajte spolu až s 15 kamarády"),
+    ],
+    "da": [
+        ("01-home.png", "Mød op,<br>og spil med det samme", "iPhones i nærheden forbindes uden internet"),
+        ("02-role.png", "Din rolle<br>kender kun du", "Find de skjulte Skygger i Måneordenen"),
+        ("03-vote.png", "For<br>eller imod?", "I det øjeblik alles stemmer afsløres, vender spillet"),
+        ("04-draw.png", "Tegn<br>og gæt", "Én tegner, de andre gætter i Måneatelieret"),
+        ("05-result.png", "Jo hurtigere,<br>jo flere point", "Spil med op til 15 venner"),
     ],
 }
 

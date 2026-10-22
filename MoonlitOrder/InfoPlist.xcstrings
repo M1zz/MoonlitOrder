@@ -15,6 +15,12 @@
             "value" : "Měsíční herna"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Månearkaden"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -107,6 +113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přístup k místní síti je potřeba, aby se šlo přímo propojit s iPhony kamarádů poblíž a hrát párty hry společně."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adgang til lokalt netværk er nødvendig for at forbinde direkte til nærliggende venners iPhones og spille festspil sammen."
           }
         },
         "de" : {
