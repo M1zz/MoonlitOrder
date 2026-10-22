@@ -1101,3 +1101,61 @@ https://m1zz.github.io/MoonlitOrder/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/MoonlitOrder/
+
+## nb
+
+### 이름
+
+Månearkaden: Festspill
+
+### 부제
+
+Offline-moro med venner
+
+### 키워드
+
+løgner,mafia,varulv,brettspill,deduksjon,tegne,gjette,bløff,bluetooth,wifi,familie,leir
+
+### 프로모션 텍스트
+
+Samlet, men uten idéer? Koble sammen iPhoner i nærheten uten internett, og spill fire festspill for opptil 15 spillere.
+
+### 설명
+
+Festspill du kan starte med én gang på din egen iPhone når vennene møtes.
+Uten internett kobles iPhoner på samme Wi-Fi eller i nærheten sammen, og opptil 15 kan spille.
+
+Fire spill
+Månordenen (5–15 spillere): et spill om skjulte identiteter der du avslører Skyggene som har sneket seg inn blant ordenens medlemmer. Lederen velger lag, alle stemmer for eller imot, og laget spiller i hemmelighet suksess eller fiasko. Hvem får først 3 oppdrag — suksess eller fiasko?
+Løgnerspillet (3–15 spillere): alle får det samme hemmelige ordet, unntatt én. Finn Løgneren som ikke kjenner det, ved å lytte til samtalen.
+Natt uten måne (3–15 spillere): en natt med en goblin i landsbyen. Om natten handler alle i hemmelighet etter rollen sin, og når dagen gryr, diskuterer og stemmer dere for å finne goblinen.
+Månestudioet (3–15 spillere): én tegner det hemmelige ordet, og de andre gjetter. Jo raskere du gjetter, jo flere poeng får du.
+
+På din egen skjerm, i hemmelighet
+Roller og ord vises bare på din egen iPhone. Du trenger ikke dele ut kort eller lukke øynene.
+Under en avstemning ser du med én gang hvem som er ferdig med å stemme. Hvem man stemte på, forblir hemmelig til det avsløres.
+
+Enkelt for nybegynnere
+Hvert spill har en veiledningsmodus. Lær reglene ved å spille steg for steg sammen med roboter.
+
+Fortsett der du slapp
+Hvis appen lukkes eller forbindelsen brytes, tar «Fortsett» på startskjermen deg tilbake til spillet ditt, med rolle og poeng intakte.
+Enhetene videreformidler til hverandre, så spillet går stabilt selv med mange.
+
+Verktøy for verten
+Verten kan når som helst fjerne en spiller som ikke svarer, og spillet vurderes på nytt med de gjenværende spillerne, slik at det aldri stopper.
+I vertsmodus kan du skyve en fastlåst fase videre og administrere spillere.
+
+Alle spill er gratis og kan startes uten konto.
+
+### 지원 URL
+
+https://m1zz.github.io/MoonlitOrder/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/MoonlitOrder/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/MoonlitOrder/

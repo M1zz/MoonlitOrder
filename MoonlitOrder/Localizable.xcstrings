@@ -116,6 +116,12 @@
             "state" : "translated",
             "value" : "Kelinci Bulan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Måneharen"
+          }
         }
       }
     },
@@ -233,6 +239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Angin Malam"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nattbris"
           }
         }
       }
@@ -352,6 +364,12 @@
             "state" : "translated",
             "value" : "Bima Sakti"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Melkeveien"
+          }
         }
       }
     },
@@ -469,6 +487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bulan Sabit Akhir"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avtagende måne"
           }
         }
       }
@@ -588,6 +612,12 @@
             "state" : "translated",
             "value" : "Penjaga Bintang"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stjernevokter"
+          }
         }
       }
     },
@@ -705,6 +735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fajar"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daggry"
           }
         }
       }
@@ -824,6 +860,12 @@
             "state" : "translated",
             "value" : "Pembunuh meninggalkan ruangan. Ordo Cahaya Bulan menang."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snikmorderen forlot rommet. Månordenen vinner."
+          }
         }
       }
     },
@@ -941,6 +983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pemain"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spiller"
           }
         }
       }
@@ -1060,6 +1108,12 @@
             "state" : "translated",
             "value" : "Tim ditolak %lld kali berturut-turut. Bayangan menang."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laget ble avvist %lld ganger på rad. Skyggene vinner."
+          }
         }
       }
     },
@@ -1177,6 +1231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tiga misi gagal. Bayangan menang."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tre oppdrag mislyktes. Skyggene vinner."
           }
         }
       }
@@ -1296,6 +1356,12 @@
             "state" : "translated",
             "value" : "Pembunuh tepat menemukan Peramal, “%@”. Bayangan membalikkan keadaan!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snikmorderen fant Seeren, «%@», med presisjon. Skyggene snur spillet!"
+          }
         }
       }
     },
@@ -1413,6 +1479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pembunuh meleset. “%@” bukan Peramal. Ordo Cahaya Bulan menang!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snikmorderen bommet. «%@» var ikke Seeren. Månordenen vinner!"
           }
         }
       }
@@ -1532,6 +1604,12 @@
             "state" : "translated",
             "value" : "Semua dianggap sudah melihat peran. Lanjut ke pemilihan tim."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle regnes som å ha sett rollen sin. Går videre til lagvalg."
+          }
         }
       }
     },
@@ -1649,6 +1727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pemimpin yang tidak memilih tim dilewati, giliran beralih ke berikutnya."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lederen som ikke valgte lag, hoppes over, og turen går til neste."
           }
         }
       }
@@ -1768,6 +1852,12 @@
             "state" : "translated",
             "value" : "Yang belum memilih dihitung setuju. Suara dihitung."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De som ikke har stemt, teller som for. Stemmene telles opp."
+          }
         }
       }
     },
@@ -1885,6 +1975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anggota tim yang tidak memainkan kartu dihitung sukses."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagmedlemmer som ikke spilte et kort, teller som suksess."
           }
         }
       }
@@ -2004,6 +2100,12 @@
             "state" : "translated",
             "value" : "Lanjut ke tahap berikutnya."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Går videre til neste fase."
+          }
         }
       }
     },
@@ -2121,6 +2223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pembunuh dianggap menyerah. Ordo Cahaya Bulan menang."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snikmorderen regnes som å ha gitt opp. Månordenen vinner."
           }
         }
       }
@@ -2240,6 +2348,12 @@
             "state" : "translated",
             "value" : "Pembunuh tidak menunjuk Peramal. Ordo Cahaya Bulan menang."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snikmorderen pekte ikke ut Seeren. Månordenen vinner."
+          }
         }
       }
     },
@@ -2357,6 +2471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Si Pembohong meninggalkan ruangan. Warga menang!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgneren forlot rommet. Borgerne vinner!"
           }
         }
       }
@@ -2476,6 +2596,12 @@
             "state" : "translated",
             "value" : "Suara terbagi dan Si Pembohong lolos!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stemmene ble delt, og Løgneren slapp unna!"
+          }
         }
       }
     },
@@ -2593,6 +2719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Orang yang ditunjuk salah!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feil person ble pekt ut!"
           }
         }
       }
@@ -2712,6 +2844,12 @@
             "state" : "translated",
             "value" : "Si Pembohong menebak kata dengan tepat! Si Pembohong membalikkan keadaan!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgneren gjettet ordet! Løgneren snur spillet!"
+          }
         }
       }
     },
@@ -2829,6 +2967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Si Pembohong tidak menebak kata. Warga menang!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgneren gjettet ikke ordet. Borgerne vinner!"
           }
         }
       }
@@ -2948,6 +3092,12 @@
             "state" : "translated",
             "value" : "Si Pembohong"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgner"
+          }
         }
       }
     },
@@ -3065,6 +3215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Warga"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borger"
           }
         }
       }
@@ -3184,6 +3340,12 @@
             "state" : "translated",
             "value" : "Kata: %@ · Kategori: %@"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ord: %@ · Kategori: %@"
+          }
         }
       }
     },
@@ -3301,6 +3463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Semua dianggap sudah melihat kata. Lanjut ke tahap deskripsi."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle regnes som å ha sett ordet. Går videre til beskrivelsesfasen."
           }
         }
       }
@@ -3420,6 +3588,12 @@
             "state" : "translated",
             "value" : "Giliran pembicara saat ini berakhir, lanjut ke berikutnya."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nåværende talers tur er over, og turen går til neste."
+          }
         }
       }
     },
@@ -3537,6 +3711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yang belum memilih dihitung abstain. Suara dihitung."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De som ikke har stemt, teller som blanke. Stemmene telles opp."
           }
         }
       }
@@ -3656,6 +3836,12 @@
             "state" : "translated",
             "value" : "Si Pembohong dianggap menyerah menebak. Warga menang."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgneren regnes som å ha gitt opp å gjette. Borgerne vinner."
+          }
         }
       }
     },
@@ -3773,6 +3959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Si Pembohong tidak bisa menjawab. Warga menang!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgneren kunne ikke svare. Borgerne vinner!"
           }
         }
       }
@@ -3892,6 +4084,12 @@
             "state" : "translated",
             "value" : "Anak anjing?"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En valp?"
+          }
         }
       }
     },
@@ -4009,6 +4207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hmm… mobil"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hmm… en bil"
           }
         }
       }
@@ -4128,6 +4332,12 @@
             "state" : "translated",
             "value" : "Mungkin beruang?"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kanskje en bjørn?"
+          }
         }
       }
     },
@@ -4245,6 +4455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nggak tahu, haha"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aner ikke, haha"
           }
         }
       }
@@ -4364,6 +4580,12 @@
             "state" : "translated",
             "value" : "Apel?"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et eple?"
+          }
         }
       }
     },
@@ -4478,6 +4700,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hmm…"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hmm…"
@@ -4600,6 +4828,12 @@
             "state" : "translated",
             "value" : "Tebakanmu benar! 🎉"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du gjettet riktig! 🎉"
+          }
         }
       }
     },
@@ -4717,6 +4951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pelukis"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tegner"
           }
         }
       }
@@ -4836,6 +5076,12 @@
             "state" : "translated",
             "value" : "Kata: %@"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ord: %@"
+          }
         }
       }
     },
@@ -4953,6 +5199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pilihan kata: %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordforslag: %@"
           }
         }
       }
@@ -5072,6 +5324,12 @@
             "state" : "translated",
             "value" : "Kata dipilih acak menggantikan Pelukis, lalu menggambar dimulai."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et ord velges tilfeldig i stedet for tegneren, og tegningen starter."
+          }
         }
       }
     },
@@ -5189,6 +5447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ronde berakhir dan skor dihitung."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runden avsluttes, og poengene regnes ut."
           }
         }
       }
@@ -5308,6 +5572,12 @@
             "state" : "translated",
             "value" : "Lanjut ke ronde berikutnya."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Går videre til neste runde."
+          }
         }
       }
     },
@@ -5425,6 +5695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🔥 Goblin %@ membuka mata dalam kegelapan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔥 Goblinen %@ åpnet øynene i mørket."
           }
         }
       }
@@ -5544,6 +5820,12 @@
             "state" : "translated",
             "value" : "👁 Dukun %@ diam-diam melihat sebuah kartu."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "👁 Sjamanen %@ kikket i hemmelighet på et kort."
+          }
         }
       }
     },
@@ -5661,6 +5943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🤝 Pencuri Malam %@ mencuri kartu %@ dan mereka bertukar!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🤝 Nattetyven %@ stjal kortet til %@, og de byttet!"
           }
         }
       }
@@ -5780,6 +6068,12 @@
             "state" : "translated",
             "value" : "🔀 Si Usil %@ menukar kartu %@ dan %@!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔀 Spøkefuglen %@ byttet kortene til %@ og %@!"
+          }
         }
       }
     },
@@ -5897,6 +6191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kartu tengah nomor %lld adalah “%@”."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Midtkort nr. %lld er «%@»."
           }
         }
       }
@@ -6016,6 +6316,12 @@
             "state" : "translated",
             "value" : "Kartu %@ adalah “%@”."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortet til %@ er «%@»."
+          }
         }
       }
     },
@@ -6133,6 +6439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 kartu tengah: %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De 2 midtkortene: %@"
           }
         }
       }
@@ -6252,6 +6564,12 @@
             "state" : "translated",
             "value" : "Kamu mencuri kartu %@. Sekarang kamu adalah “%@”."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du stjal kortet til %@. Nå er du «%@»."
+          }
         }
       }
     },
@@ -6369,6 +6687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kamu menukar kartu %@ dan %@."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du byttet kortene til %@ og %@."
           }
         }
       }
@@ -6488,6 +6812,12 @@
             "state" : "translated",
             "value" : "Seorang Goblin diusir. Desa menang!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En goblin ble forvist. Landsbyen vinner!"
+          }
         }
       }
     },
@@ -6605,6 +6935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Semua Goblin ada di tengah dan tidak ada yang diusir. Desa menang!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle goblinene lå i midten, og ingen ble forvist. Landsbyen vinner!"
           }
         }
       }
@@ -6724,6 +7060,12 @@
             "state" : "translated",
             "value" : "Tidak ada yang diusir, tetapi ada Goblin yang bersembunyi. Goblin menang!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen ble forvist, men en goblin gjemte seg. Goblinene vinner!"
+          }
         }
       }
     },
@@ -6841,6 +7183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Orang yang tidak bersalah diusir. Goblin menang!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En uskyldig ble forvist. Goblinene vinner!"
           }
         }
       }
@@ -6960,6 +7308,12 @@
             "state" : "translated",
             "value" : "Kartu tengah: %@"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Midtkort: %@"
+          }
         }
       }
     },
@@ -7077,6 +7431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yang tidak bertindak mengakhiri malam tanpa memakai kemampuan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den som ikke handlet, avslutter natten uten å bruke evnen sin."
           }
         }
       }
@@ -7196,6 +7556,12 @@
             "state" : "translated",
             "value" : "Diskusi berakhir dan pemungutan suara pengusiran dimulai."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Debatten avsluttes, og avstemningen om forvisning starter."
+          }
         }
       }
     },
@@ -7313,6 +7679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ordo Cahaya Bulan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Månordenen"
           }
         }
       }
@@ -7432,6 +7804,12 @@
             "state" : "translated",
             "value" : "Bayangan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skyggene"
+          }
         }
       }
     },
@@ -7549,6 +7927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Peramal"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seer"
           }
         }
       }
@@ -7668,6 +8052,12 @@
             "state" : "translated",
             "value" : "Anggota Ordo"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordensmedlem"
+          }
         }
       }
     },
@@ -7785,6 +8175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pembunuh"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snikmorder"
           }
         }
       }
@@ -7904,6 +8300,12 @@
             "state" : "translated",
             "value" : "Agen Bayangan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skyggeagent"
+          }
         }
       }
     },
@@ -8021,6 +8423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kamu tahu siapa saja Agen Bayangan. Namun jika identitasmu terbongkar, kamu bisa dibunuh di akhir, jadi pimpin tim dengan diam-diam."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du vet hvem skyggeagentene er. Men blir du avslørt, kan du bli myrdet til slutt, så led lagene diskret."
           }
         }
       }
@@ -8140,6 +8548,12 @@
             "state" : "translated",
             "value" : "Kamu anggota setia Ordo Cahaya Bulan. Gunakan diskusi dan catatan suara untuk menemukan Agen Bayangan dan buat 3 misi berhasil."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er et lojalt medlem av Månordenen. Bruk debatten og stemmehistorikken til å finne skyggeagentene og få 3 oppdrag til å lykkes."
+          }
         }
       }
     },
@@ -8257,6 +8671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kamu bilah pedang Bayangan. Kamu mengenal Agen lain, dan walaupun Ordo menyelesaikan 3 misi, kamu menang jika menunjuk Peramal dengan tepat."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er Skyggenes klinge. Du kjenner de andre agentene, og selv om ordenen klarer 3 oppdrag, vinner du hvis du peker ut Seeren riktig."
           }
         }
       }
@@ -8376,6 +8796,12 @@
             "state" : "translated",
             "value" : "Kamu pengkhianat yang bersembunyi dalam gelap. Kamu mengenal Bayangan lain. Sembunyikan identitasmu, selundupkan diri ke tim, dan buat misi gagal."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er en forræder som skjuler seg i mørket. Du kjenner de andre skyggene. Skjul identiteten din, infiltrer lagene og få oppdragene til å mislykkes."
+          }
         }
       }
     },
@@ -8493,6 +8919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 misi berhasil (tetapi kalah jika Peramal dibunuh)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 vellykkede oppdrag (men du taper hvis Seeren myrdes)"
           }
         }
       }
@@ -8612,6 +9044,12 @@
             "state" : "translated",
             "value" : "3 misi gagal · 5 tim ditolak berturut-turut · Peramal dibunuh"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 mislykkede oppdrag · 5 avviste lag på rad · mord på Seeren"
+          }
         }
       }
     },
@@ -8729,6 +9167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Makanan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mat"
           }
         }
       }
@@ -8848,6 +9292,12 @@
             "state" : "translated",
             "value" : "Sup kimchi"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kimchigryte"
+          }
         }
       }
     },
@@ -8966,6 +9416,12 @@
             "state" : "translated",
             "value" : "Perut babi panggang"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grillet svinebryst"
+          }
         }
       }
     },
@@ -9080,6 +9536,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tteokbokki"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tteokbokki"
@@ -9202,6 +9664,12 @@
             "state" : "translated",
             "value" : "Ayam goreng"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stekt kylling"
+          }
         }
       }
     },
@@ -9316,6 +9784,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pizza"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pizza"
@@ -9438,6 +9912,12 @@
             "state" : "translated",
             "value" : "Sushi"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sushi"
+          }
         }
       }
     },
@@ -9552,6 +10032,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ramen"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ramen"
@@ -9674,6 +10160,12 @@
             "state" : "translated",
             "value" : "Bibimbap"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibimbap"
+          }
         }
       }
     },
@@ -9791,6 +10283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mi dingin"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalde nudler"
           }
         }
       }
@@ -9910,6 +10408,12 @@
             "state" : "translated",
             "value" : "Sup iga sapi"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ribbesuppe"
+          }
         }
       }
     },
@@ -10024,6 +10528,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasta"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pasta"
@@ -10146,6 +10656,12 @@
             "state" : "translated",
             "value" : "Hamburger"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamburger"
+          }
         }
       }
     },
@@ -10260,6 +10776,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gimbap"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gimbap"
@@ -10382,6 +10904,12 @@
             "state" : "translated",
             "value" : "Sosis darah Korea"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koreansk blodpølse"
+          }
         }
       }
     },
@@ -10499,6 +11027,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kaki babi"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grisetæ"
           }
         }
       }
@@ -10618,6 +11152,12 @@
             "state" : "translated",
             "value" : "Salad"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salat"
+          }
         }
       }
     },
@@ -10735,6 +11275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hewan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dyr"
           }
         }
       }
@@ -10854,6 +11400,12 @@
             "state" : "translated",
             "value" : "Gajah"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elefant"
+          }
         }
       }
     },
@@ -10971,6 +11523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jerapah"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sjiraff"
           }
         }
       }
@@ -11090,6 +11648,12 @@
             "state" : "translated",
             "value" : "Pinguin"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pingvin"
+          }
         }
       }
     },
@@ -11208,6 +11772,12 @@
             "state" : "translated",
             "value" : "Harimau"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiger"
+          }
         }
       }
     },
@@ -11322,6 +11892,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panda"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Panda"
@@ -11444,6 +12020,12 @@
             "state" : "translated",
             "value" : "Landak"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pinnsvin"
+          }
         }
       }
     },
@@ -11561,6 +12143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kanguru"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kenguru"
           }
         }
       }
@@ -11680,6 +12268,12 @@
             "state" : "translated",
             "value" : "Burung hantu"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ugle"
+          }
         }
       }
     },
@@ -11797,6 +12391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lumba-lumba"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delfin"
           }
         }
       }
@@ -11916,6 +12516,12 @@
             "state" : "translated",
             "value" : "Gurita"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blekksprut"
+          }
         }
       }
     },
@@ -12033,6 +12639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tupai"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekorn"
           }
         }
       }
@@ -12152,6 +12764,12 @@
             "state" : "translated",
             "value" : "Buaya"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krokodille"
+          }
         }
       }
     },
@@ -12269,6 +12887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unta"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamel"
           }
         }
       }
@@ -12388,6 +13012,12 @@
             "state" : "translated",
             "value" : "Berang-berang"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oter"
+          }
         }
       }
     },
@@ -12505,6 +13135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Burung beo"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papegøye"
           }
         }
       }
@@ -12624,6 +13260,12 @@
             "state" : "translated",
             "value" : "Tikus tanah"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muldvarp"
+          }
         }
       }
     },
@@ -12741,6 +13383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tempat"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steder"
           }
         }
       }
@@ -12860,6 +13508,12 @@
             "state" : "translated",
             "value" : "Taman hiburan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fornøyelsespark"
+          }
         }
       }
     },
@@ -12977,6 +13631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Perpustakaan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliotek"
           }
         }
       }
@@ -13096,6 +13756,12 @@
             "state" : "translated",
             "value" : "Spa Korea"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koreansk spa"
+          }
         }
       }
     },
@@ -13213,6 +13879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bioskop"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kino"
           }
         }
       }
@@ -13332,6 +14004,12 @@
             "state" : "translated",
             "value" : "Minimarket"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nærbutikk"
+          }
         }
       }
     },
@@ -13449,6 +14127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stasiun kereta bawah tanah"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "T-banestasjon"
           }
         }
       }
@@ -13568,6 +14252,12 @@
             "state" : "translated",
             "value" : "Salon"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frisørsalong"
+          }
         }
       }
     },
@@ -13685,6 +14375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rumah sakit"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sykehus"
           }
         }
       }
@@ -13804,6 +14500,12 @@
             "state" : "translated",
             "value" : "Sekolah"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skole"
+          }
         }
       }
     },
@@ -13921,6 +14623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tempat berkemah"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Campingplass"
           }
         }
       }
@@ -14040,6 +14748,12 @@
             "state" : "translated",
             "value" : "Kolam renang"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svømmehall"
+          }
         }
       }
     },
@@ -14157,6 +14871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bandara"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flyplass"
           }
         }
       }
@@ -14276,6 +14996,12 @@
             "state" : "translated",
             "value" : "Pasar"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marked"
+          }
         }
       }
     },
@@ -14394,6 +15120,12 @@
             "state" : "translated",
             "value" : "Kafe"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kafé"
+          }
         }
       }
     },
@@ -14508,6 +15240,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karaoke"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Karaoke"
@@ -14630,6 +15368,12 @@
             "state" : "translated",
             "value" : "Pusat kebugaran"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Treningssenter"
+          }
         }
       }
     },
@@ -14747,6 +15491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pekerjaan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yrker"
           }
         }
       }
@@ -14866,6 +15616,12 @@
             "state" : "translated",
             "value" : "Pemadam kebakaran"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brannmann"
+          }
         }
       }
     },
@@ -14983,6 +15739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dokter"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lege"
           }
         }
       }
@@ -15102,6 +15864,12 @@
             "state" : "translated",
             "value" : "Koki"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kokk"
+          }
         }
       }
     },
@@ -15219,6 +15987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Programmer"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programmerer"
           }
         }
       }
@@ -15338,6 +16112,12 @@
             "state" : "translated",
             "value" : "YouTuber"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Youtuber"
+          }
         }
       }
     },
@@ -15455,6 +16235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guru"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lærer"
           }
         }
       }
@@ -15574,6 +16360,12 @@
             "state" : "translated",
             "value" : "Polisi"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Politi"
+          }
         }
       }
     },
@@ -15692,6 +16484,12 @@
             "state" : "translated",
             "value" : "Petani"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bonde"
+          }
         }
       }
     },
@@ -15806,6 +16604,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilot"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pilot"
@@ -15928,6 +16732,12 @@
             "state" : "translated",
             "value" : "Penata rambut"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frisør"
+          }
         }
       }
     },
@@ -16045,6 +16855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Penyanyi"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sanger"
           }
         }
       }
@@ -16164,6 +16980,12 @@
             "state" : "translated",
             "value" : "Atlet"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utøver"
+          }
         }
       }
     },
@@ -16281,6 +17103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotografer"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotograf"
           }
         }
       }
@@ -16400,6 +17228,12 @@
             "state" : "translated",
             "value" : "Pengacara"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Advokat"
+          }
         }
       }
     },
@@ -16518,6 +17352,12 @@
             "state" : "translated",
             "value" : "Nelayan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fisker"
+          }
         }
       }
     },
@@ -16632,6 +17472,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barista"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Barista"
@@ -16754,6 +17600,12 @@
             "state" : "translated",
             "value" : "Benda"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ting"
+          }
         }
       }
     },
@@ -16871,6 +17723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Payung"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paraply"
           }
         }
       }
@@ -16990,6 +17848,12 @@
             "state" : "translated",
             "value" : "Kipas angin"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vifte"
+          }
         }
       }
     },
@@ -17107,6 +17971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kulkas"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kjøleskap"
           }
         }
       }
@@ -17226,6 +18096,12 @@
             "state" : "translated",
             "value" : "Sikat gigi"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tannbørste"
+          }
         }
       }
     },
@@ -17343,6 +18219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bantal"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pute"
           }
         }
       }
@@ -17462,6 +18344,12 @@
             "state" : "translated",
             "value" : "Remote"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjernkontroll"
+          }
         }
       }
     },
@@ -17579,6 +18467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tumbler"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Termokopp"
           }
         }
       }
@@ -17698,6 +18592,12 @@
             "state" : "translated",
             "value" : "Earphone"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Øreplugger"
+          }
         }
       }
     },
@@ -17815,6 +18715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gunting"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saks"
           }
         }
       }
@@ -17934,6 +18840,12 @@
             "state" : "translated",
             "value" : "Selimut"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teppe"
+          }
         }
       }
     },
@@ -18051,6 +18963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cermin"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speil"
           }
         }
       }
@@ -18170,6 +19088,12 @@
             "state" : "translated",
             "value" : "Jam"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klokke"
+          }
         }
       }
     },
@@ -18287,6 +19211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pengisi daya"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lader"
           }
         }
       }
@@ -18406,6 +19336,12 @@
             "state" : "translated",
             "value" : "Sandal rumah"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tøfler"
+          }
         }
       }
     },
@@ -18523,6 +19459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Masker"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Munnbind"
           }
         }
       }
@@ -18642,6 +19584,12 @@
             "state" : "translated",
             "value" : "Dompet"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lommebok"
+          }
         }
       }
     },
@@ -18759,6 +19707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Olahraga"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sport"
           }
         }
       }
@@ -18878,6 +19832,12 @@
             "state" : "translated",
             "value" : "Sepak bola"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotball"
+          }
         }
       }
     },
@@ -18995,6 +19955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bisbol"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baseball"
           }
         }
       }
@@ -19114,6 +20080,12 @@
             "state" : "translated",
             "value" : "Bola basket"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basketball"
+          }
         }
       }
     },
@@ -19231,6 +20203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bulu tangkis"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Badminton"
           }
         }
       }
@@ -19350,6 +20328,12 @@
             "state" : "translated",
             "value" : "Renang"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svømming"
+          }
         }
       }
     },
@@ -19468,6 +20452,12 @@
             "state" : "translated",
             "value" : "Boling"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bowling"
+          }
         }
       }
     },
@@ -19582,6 +20572,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taekwondo"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taekwondo"
@@ -19704,6 +20700,12 @@
             "state" : "translated",
             "value" : "Golf"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Golf"
+          }
         }
       }
     },
@@ -19822,6 +20824,12 @@
             "state" : "translated",
             "value" : "Tenis meja"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bordtennis"
+          }
         }
       }
     },
@@ -19936,6 +20944,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ski"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ski"
@@ -20058,6 +21072,12 @@
             "state" : "translated",
             "value" : "Panjat tebing"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klatring"
+          }
         }
       }
     },
@@ -20172,6 +21192,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yoga"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yoga"
@@ -20294,6 +21320,12 @@
             "state" : "translated",
             "value" : "Tinju"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boksing"
+          }
         }
       }
     },
@@ -20411,6 +21443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Panahan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bueskyting"
           }
         }
       }
@@ -20530,6 +21568,12 @@
             "state" : "translated",
             "value" : "Anggar"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fekting"
+          }
         }
       }
     },
@@ -20644,6 +21688,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maraton"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maraton"
@@ -20766,6 +21816,12 @@
             "state" : "translated",
             "value" : "Kelinci"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kanin"
+          }
         }
       }
     },
@@ -20883,6 +21939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kucing"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katt"
           }
         }
       }
@@ -21002,6 +22064,12 @@
             "state" : "translated",
             "value" : "Anjing"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hund"
+          }
         }
       }
     },
@@ -21119,6 +22187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Singa"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løve"
           }
         }
       }
@@ -21238,6 +22312,12 @@
             "state" : "translated",
             "value" : "Beruang"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bjørn"
+          }
         }
       }
     },
@@ -21355,6 +22435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siput"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snegle"
           }
         }
       }
@@ -21474,6 +22560,12 @@
             "state" : "translated",
             "value" : "Ular"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slange"
+          }
         }
       }
     },
@@ -21591,6 +22683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kura-kura"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skilpadde"
           }
         }
       }
@@ -21710,6 +22808,12 @@
             "state" : "translated",
             "value" : "Kupu-kupu"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sommerfugl"
+          }
         }
       }
     },
@@ -21827,6 +22931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ikan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fisk"
           }
         }
       }
@@ -21946,6 +23056,12 @@
             "state" : "translated",
             "value" : "Es krim"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iskrem"
+          }
         }
       }
     },
@@ -22063,6 +23179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kue"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kake"
           }
         }
       }
@@ -22182,6 +23304,12 @@
             "state" : "translated",
             "value" : "Pisang"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banan"
+          }
         }
       }
     },
@@ -22299,6 +23427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Semangka"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vannmelon"
           }
         }
       }
@@ -22418,6 +23552,12 @@
             "state" : "translated",
             "value" : "Telur mata sapi"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speilegg"
+          }
         }
       }
     },
@@ -22535,6 +23675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Donat"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smultring"
           }
         }
       }
@@ -22654,6 +23800,12 @@
             "state" : "translated",
             "value" : "Apel"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eple"
+          }
         }
       }
     },
@@ -22771,6 +23923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hot dog"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pølse i brød"
           }
         }
       }
@@ -22890,6 +24048,12 @@
             "state" : "translated",
             "value" : "Anggur"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Druer"
+          }
         }
       }
     },
@@ -23007,6 +24171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wortel"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gulrot"
           }
         }
       }
@@ -23126,6 +24296,12 @@
             "state" : "translated",
             "value" : "Barang"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjenstander"
+          }
         }
       }
     },
@@ -23243,6 +24419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kacamata"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Briller"
           }
         }
       }
@@ -23362,6 +24544,12 @@
             "state" : "translated",
             "value" : "Sepeda"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sykkel"
+          }
         }
       }
     },
@@ -23479,6 +24667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kursi"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stol"
           }
         }
       }
@@ -23598,6 +24792,12 @@
             "state" : "translated",
             "value" : "Kunci"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nøkkel"
+          }
         }
       }
     },
@@ -23715,6 +24915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bola lampu"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyspære"
           }
         }
       }
@@ -23834,6 +25040,12 @@
             "state" : "translated",
             "value" : "Balon"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ballong"
+          }
         }
       }
     },
@@ -23951,6 +25163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lilin"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stearinlys"
           }
         }
       }
@@ -24070,6 +25288,12 @@
             "state" : "translated",
             "value" : "Kotak hadiah"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gaveeske"
+          }
         }
       }
     },
@@ -24187,6 +25411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sapu"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kost"
           }
         }
       }
@@ -24306,6 +25536,12 @@
             "state" : "translated",
             "value" : "Palu"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hammer"
+          }
         }
       }
     },
@@ -24423,6 +25659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pensil"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blyant"
           }
         }
       }
@@ -24542,6 +25784,12 @@
             "state" : "translated",
             "value" : "Cangkir"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krus"
+          }
         }
       }
     },
@@ -24659,6 +25907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kendaraan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kjøretøy"
           }
         }
       }
@@ -24778,6 +26032,12 @@
             "state" : "translated",
             "value" : "Mobil"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bil"
+          }
         }
       }
     },
@@ -24895,6 +26155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pesawat"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fly"
           }
         }
       }
@@ -25014,6 +26280,12 @@
             "state" : "translated",
             "value" : "Kapal"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skip"
+          }
         }
       }
     },
@@ -25131,6 +26403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kereta"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tog"
           }
         }
       }
@@ -25250,6 +26528,12 @@
             "state" : "translated",
             "value" : "Roket"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rakett"
+          }
         }
       }
     },
@@ -25364,6 +26648,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helikopter"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Helikopter"
@@ -25486,6 +26776,12 @@
             "state" : "translated",
             "value" : "Kapal selam"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ubåt"
+          }
         }
       }
     },
@@ -25603,6 +26899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Balon udara"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luftballong"
           }
         }
       }
@@ -25722,6 +27024,12 @@
             "state" : "translated",
             "value" : "Alam"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natur"
+          }
         }
       }
     },
@@ -25839,6 +27147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pohon"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tre"
           }
         }
       }
@@ -25958,6 +27272,12 @@
             "state" : "translated",
             "value" : "Bunga"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blomst"
+          }
         }
       }
     },
@@ -26075,6 +27395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Matahari"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sol"
           }
         }
       }
@@ -26194,6 +27520,12 @@
             "state" : "translated",
             "value" : "Awan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sky"
+          }
         }
       }
     },
@@ -26311,6 +27643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pelangi"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regnbue"
           }
         }
       }
@@ -26430,6 +27768,12 @@
             "state" : "translated",
             "value" : "Gunung"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjell"
+          }
         }
       }
     },
@@ -26547,6 +27891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bintang"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stjerne"
           }
         }
       }
@@ -26666,6 +28016,12 @@
             "state" : "translated",
             "value" : "Manusia salju"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snømann"
+          }
         }
       }
     },
@@ -26783,6 +28139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Petir"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyn"
           }
         }
       }
@@ -26902,6 +28264,12 @@
             "state" : "translated",
             "value" : "Gunung berapi"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vulkan"
+          }
         }
       }
     },
@@ -27019,6 +28387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pulau"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Øy"
           }
         }
       }
@@ -27138,6 +28512,12 @@
             "state" : "translated",
             "value" : "Bulan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Måne"
+          }
         }
       }
     },
@@ -27256,6 +28636,12 @@
             "state" : "translated",
             "value" : "Karakter"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Figurer"
+          }
         }
       }
     },
@@ -27370,6 +28756,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Robot"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Robot"
@@ -27492,6 +28884,12 @@
             "state" : "translated",
             "value" : "Hantu"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spøkelse"
+          }
         }
       }
     },
@@ -27609,6 +29007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mahkota"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krone"
           }
         }
       }
@@ -27728,6 +29132,12 @@
             "state" : "translated",
             "value" : "Bajak laut"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pirat"
+          }
         }
       }
     },
@@ -27845,6 +29255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Malaikat"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Engel"
           }
         }
       }
@@ -27964,6 +29380,12 @@
             "state" : "translated",
             "value" : "Penyihir"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trollmann"
+          }
         }
       }
     },
@@ -28081,6 +29503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dinosaurus"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dinosaur"
           }
         }
       }
@@ -28200,6 +29628,12 @@
             "state" : "translated",
             "value" : "Alien"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Romvesen"
+          }
         }
       }
     },
@@ -28317,6 +29751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Putri duyung"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Havfrue"
           }
         }
       }
@@ -28436,6 +29876,12 @@
             "state" : "translated",
             "value" : "Sinterklas"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Julenisse"
+          }
         }
       }
     },
@@ -28550,6 +29996,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goblin"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Goblin"
@@ -28672,6 +30124,12 @@
             "state" : "translated",
             "value" : "Dukun"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sjaman"
+          }
         }
       }
     },
@@ -28789,6 +30247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pencuri Malam"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nattetyv"
           }
         }
       }
@@ -28908,6 +30372,12 @@
             "state" : "translated",
             "value" : "Si Usil"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spøkefugl"
+          }
         }
       }
     },
@@ -29025,6 +30495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Warga Desa"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Landsbyboer"
           }
         }
       }
@@ -29144,6 +30620,12 @@
             "state" : "translated",
             "value" : "Kamu mengenali sesama Goblin. Jika kamu satu-satunya Goblin, kamu boleh melihat 1 kartu tengah. Saat fajar menyingsing, sembunyikan identitasmu dan berpura-puralah jadi manusia."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kjenner dine goblin-kamerater. Er du den eneste goblinen, kan du se på 1 midtkort. Når dagen gryr, skjuler du identiteten din og later som om du er et menneske."
+          }
         }
       }
     },
@@ -29261,6 +30743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dengan kekuatan gaib, kamu bisa melihat kartu 1 pemain lain atau 2 kartu tengah."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med overnaturlige krefter kan du se på kortet til 1 annen spiller eller 2 midtkort."
           }
         }
       }
@@ -29380,6 +30868,12 @@
             "state" : "translated",
             "value" : "Tukar kartu secara diam-diam dengan 1 pemain lain dan lihat kartu barumu. Sejak itu pihakmu mengikuti kartu baru."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bytt kort i hemmelighet med 1 annen spiller og se det nye kortet. Etter det følger laget ditt det nye kortet."
+          }
         }
       }
     },
@@ -29497,6 +30991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kejahilan dimulai! Tukar kartu dua pemain lain. Kamu tidak bisa melihat kartu apa itu."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprell! Bytt kortene til to andre spillere. Du får ikke se hva de var."
           }
         }
       }
@@ -29616,6 +31116,12 @@
             "state" : "translated",
             "value" : "Malam hari tidak ada yang bisa dilakukan. Temukan Goblin yang bersembunyi lewat penalaran dan diskusi di siang hari."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om natten er det ingenting å gjøre. Finn de skjulte goblinene med resonnering og debatt om dagen."
+          }
         }
       }
     },
@@ -29733,6 +31239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Menyambungkan…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kobler til …"
           }
         }
       }
@@ -29852,6 +31364,12 @@
             "state" : "translated",
             "value" : "Pengaturan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Innstillinger"
+          }
         }
       }
     },
@@ -29970,6 +31488,12 @@
             "state" : "translated",
             "value" : "Pemberitahuan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varsel"
+          }
         }
       }
     },
@@ -30084,6 +31608,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -30206,6 +31736,12 @@
             "state" : "translated",
             "value" : "“%@” sedang dalam perawatan. Pilih permainan lain."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%@» er under vedlikehold. Velg et annet spill."
+          }
         }
       }
     },
@@ -30323,6 +31859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Permainan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spill"
           }
         }
       }
@@ -30442,6 +31984,12 @@
             "state" : "translated",
             "value" : "Permainan Si Pembohong"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgnerspillet"
+          }
         }
       }
     },
@@ -30559,6 +32107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Malam Tanpa Bulan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natt uten måne"
           }
         }
       }
@@ -30678,6 +32232,12 @@
             "state" : "translated",
             "value" : "Studio Cahaya Bulan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Månestudioet"
+          }
         }
       }
     },
@@ -30795,6 +32355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Buat ruangan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opprett rom"
           }
         }
       }
@@ -30914,6 +32480,12 @@
             "state" : "translated",
             "value" : "Buka ruangan untuk permainan yang dipilih agar teman-temanmu bisa masuk."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åpne et rom for det valgte spillet, så vennene dine kan bli med."
+          }
         }
       }
     },
@@ -31031,6 +32603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cari ruangan terdekat"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finn rom i nærheten"
           }
         }
       }
@@ -31150,6 +32728,12 @@
             "state" : "translated",
             "value" : "Cari ruangan yang dibuat teman di dekatmu lalu bergabung."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finn rommet en venn i nærheten har opprettet, og bli med."
+          }
         }
       }
     },
@@ -31267,6 +32851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Latihan dengan bot"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Øv med roboter"
           }
         }
       }
@@ -31386,6 +32976,12 @@
             "state" : "translated",
             "value" : "Mainkan satu ronde sendirian dengan bot untuk mempelajari aturan."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spill en runde alene mot roboter for å lære reglene."
+          }
         }
       }
     },
@@ -31503,6 +33099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ruangan penuh. (Jumlah pemain maksimum: %lld)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rommet er fullt. (Maks antall spillere: %lld)"
           }
         }
       }
@@ -31622,6 +33224,12 @@
             "state" : "translated",
             "value" : "Permainan sudah berlangsung di ruangan ini."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det pågår allerede et spill i dette rommet."
+          }
         }
       }
     },
@@ -31736,6 +33344,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luna"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Luna"
@@ -31858,6 +33472,12 @@
             "state" : "translated",
             "value" : "Orion"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orion"
+          }
         }
       }
     },
@@ -31972,6 +33592,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nova"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nova"
@@ -32094,6 +33720,12 @@
             "state" : "translated",
             "value" : "Sol"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sol"
+          }
         }
       }
     },
@@ -32211,6 +33843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Host mengeluarkanmu dari ruangan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verten fjernet deg fra rommet."
           }
         }
       }
@@ -32330,6 +33968,12 @@
             "state" : "translated",
             "value" : "Host menutup ruangan."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verten stengte rommet."
+          }
         }
       }
     },
@@ -32447,6 +34091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidak bisa tersambung kembali ke host. Kamu bisa bergabung lagi lewat “Lanjutkan” di layar utama."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunne ikke koble til verten igjen. Du kan bli med på nytt via «Fortsett» på startskjermen."
           }
         }
       }
@@ -32566,6 +34216,12 @@
             "state" : "translated",
             "value" : "Setiap pemain ditempatkan secara rahasia ke Ordo Cahaya Bulan (baik) atau Bayangan (jahat). Dalam maksimal 5 misi, kamu harus menebak siapa Bayangan hanya dari percakapan dan catatan suara."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hver spiller blir i hemmelighet tildelt Månordenen (de gode) eller Skyggene (de onde). I løpet av opptil 5 oppdrag må du regne ut hvem Skyggene er kun ut fra samtaler og stemmehistorikk."
+          }
         }
       }
     },
@@ -32683,6 +34339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Semua orang mendapat kata rahasia yang sama, kecuali satu Si Pembohong. Bergantian jelaskan kata dengan singkat dan cek siapa yang benar-benar tahu. Si Pembohong harus berpura-pura tanpa tahu katanya."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle får det samme hemmelige ordet, unntatt én Løgner. Beskriv ordet etter tur med få ord, og sjekk hvem som virkelig kjenner det. Løgneren må bløffe uten å kjenne ordet."
           }
         }
       }
@@ -32802,6 +34464,12 @@
             "state" : "translated",
             "value" : "Para Goblin menyusup ke desa! Pada malam hari setiap orang memakai aksi rahasia untuk mendapatkan informasi atau diam-diam menukar kartu; pada siang hari kalian berdiskusi, lalu satu kali pemungutan suara menentukan siapa yang diusir. Kartu bisa berubah semalam, jadi hasilnya dinilai dari “kartu akhir”."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goblinene har sneket seg inn i landsbyen! Om natten bruker alle en hemmelig handling for å få informasjon eller bytte kort i all hemmelighet; om dagen diskuterer man, og én avstemning avgjør hvem som forvises. Kortene kan endre seg i løpet av natten, så resultatet avgjøres av «sluttkortet»."
+          }
         }
       }
     },
@@ -32919,6 +34587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tiap ronde satu pemain menjadi “Pelukis” dan mengungkapkan kata rahasia hanya lewat gambar. Yang lain melihat gambar dan menebak di obrolan. Huruf dan angka dilarang. Permainan berakhir setelah semua pernah jadi Pelukis."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I hver runde blir én spiller «Tegner» og uttrykker det hemmelige ordet kun med en tegning. De andre ser på tegningen og gjetter i chatten. Bokstaver og tall er forbudt. Spillet er over når alle har vært Tegner."
           }
         }
       }
@@ -33038,6 +34712,12 @@
             "state" : "translated",
             "value" : "Ordo Cahaya Bulan (baik)"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Månordenen (de gode)"
+          }
         }
       }
     },
@@ -33155,6 +34835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 misi berhasil. Tetapi jika di akhir Pembunuh menunjuk Peramal dengan tepat, kamu kalah, jadi Peramal harus menyembunyikan identitasnya sampai akhir."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 vellykkede oppdrag. Men peker Snikmorderen ut Seeren riktig til slutt, taper du, så Seeren må skjule identiteten sin helt til slutt."
           }
         }
       }
@@ -33274,6 +34960,12 @@
             "state" : "translated",
             "value" : "Bayangan (jahat)"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skyggene (de onde)"
+          }
         }
       }
     },
@@ -33391,6 +35083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 misi gagal · 5 tim ditolak berturut-turut · pembunuhan Peramal berhasil — salah satu dari tiga sudah cukup untuk menang."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 mislykkede oppdrag · 5 avviste lag på rad · vellykket mord på Seeren — ett av de tre er nok til å vinne."
           }
         }
       }
@@ -33510,6 +35208,12 @@
             "state" : "translated",
             "value" : "Kamu menang jika pemungutan suara menunjuk Si Pembohong dengan tepat dan Si Pembohong gagal menebak kata."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du vinner hvis avstemningen peker ut Løgneren riktig og Løgneren ikke gjetter ordet."
+          }
         }
       }
     },
@@ -33627,6 +35331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kamu menang jika suara terbagi atau orang yang salah ditunjuk. Meski tertangkap, Si Pembohong membalikkan keadaan jika menebak kata!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du vinner hvis stemmene deles eller feil person pekes ut. Selv om Løgneren blir tatt, snur han spillet ved å gjette ordet!"
           }
         }
       }
@@ -33746,6 +35456,12 @@
             "state" : "translated",
             "value" : "Desa"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Landsby"
+          }
         }
       }
     },
@@ -33863,6 +35579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kamu menang jika berhasil mengusir Goblin (berdasarkan kartu akhir). Jika semua Goblin ada di kartu tengah, kamu hanya menang bila tidak ada yang diusir."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du vinner hvis du forviser en goblin (etter sluttkortet). Ligger alle goblinene i midten, vinner du bare hvis ingen forvises."
           }
         }
       }
@@ -33982,6 +35704,12 @@
             "state" : "translated",
             "value" : "Kamu menang jika tidak ada Goblin yang diusir — kamu tetap menang meski orang tidak bersalah diusir."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du vinner hvis ingen goblin forvises — du vinner også om en uskyldig forvises."
+          }
         }
       }
     },
@@ -34099,6 +35827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Penebak"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjettere"
           }
         }
       }
@@ -34218,6 +35952,12 @@
             "state" : "translated",
             "value" : "Makin cepat kamu menebak kata dari gambar, makin tinggi skornya! Tebakan benar memberi skor."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jo raskere du gjetter ordet ut fra tegningen, jo flere poeng! Riktig gjetning gir poeng."
+          }
         }
       }
     },
@@ -34335,6 +36075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kamu mendapat skor saat banyak orang menebak gambarmu. Kuncinya menggambar agar semua orang bisa mengenalinya!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du får poeng når mange gjetter tegningen din. Nøkkelen er å tegne slik at alle kjenner det igjen!"
           }
         }
       }
@@ -34454,6 +36200,12 @@
             "state" : "translated",
             "value" : "Cara bermain"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slik spiller du"
+          }
         }
       }
     },
@@ -34571,6 +36323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tujuan permainan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spillets mål"
           }
         }
       }
@@ -34690,6 +36448,12 @@
             "state" : "translated",
             "value" : "Syarat menang"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vilkår for seier"
+          }
         }
       }
     },
@@ -34807,6 +36571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sekarang kamu akan mencobanya langkah demi langkah bersama bot.\nSetiap tahap ada panduan, lanjutkan dengan tombol “Berikutnya”."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nå prøver du det steg for steg sammen med roboter.\nI hver fase vises en veiledning, og du går videre med «Neste»."
           }
         }
       }
@@ -34926,6 +36696,12 @@
             "state" : "translated",
             "value" : "Mulai latihan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start øvelsen"
+          }
         }
       }
     },
@@ -35043,6 +36819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ke beranda"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Til startskjermen"
           }
         }
       }
@@ -35162,6 +36944,12 @@
             "state" : "translated",
             "value" : "Saatnya pembunuhan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tid for mord"
+          }
         }
       }
     },
@@ -35279,6 +37067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ordo Cahaya Bulan menyelesaikan 3 misi.\nTetapi jika Pembunuh menemukan Peramal, Bayangan membalikkan keadaan!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Månordenen har klart 3 oppdrag.\nMen finner Snikmorderen Seeren, snur Skyggene spillet!"
           }
         }
       }
@@ -35398,6 +37192,12 @@
             "state" : "translated",
             "value" : "Tunjuk pemain yang menurutmu Peramal"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pek ut spilleren du tror er Seeren"
+          }
         }
       }
     },
@@ -35515,6 +37315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lakukan pembunuhan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utfør mordet"
           }
         }
       }
@@ -35634,6 +37440,12 @@
             "state" : "translated",
             "value" : "Pembunuh sedang memilih target terakhir…"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snikmorderen velger sitt siste mål …"
+          }
         }
       }
     },
@@ -35751,6 +37563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ menang!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ vinner!"
           }
         }
       }
@@ -35870,6 +37688,12 @@
             "state" : "translated",
             "value" : "Peran terungkap"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roller avslørt"
+          }
         }
       }
     },
@@ -35987,6 +37811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aku"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meg"
           }
         }
       }
@@ -36106,6 +37936,12 @@
             "state" : "translated",
             "value" : "Main lagi dengan pemain yang sama"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spill igjen med de samme spillerne"
+          }
         }
       }
     },
@@ -36223,6 +38059,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Host bisa memulai ulang"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verten kan starte på nytt"
           }
         }
       }
@@ -36342,6 +38184,12 @@
             "state" : "translated",
             "value" : "Keluar"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forlat"
+          }
         }
       }
     },
@@ -36459,6 +38307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Baru pertama kali? Berlatih dulu dengan bot"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Første gang? Øv deg med roboter først"
           }
         }
       }
@@ -36578,6 +38432,12 @@
             "state" : "translated",
             "value" : "Kamu bisa memainkan satu permainan penuh sendirian dengan bot untuk mempelajari aturan."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan spille en hel runde alene mot roboter for å lære reglene."
+          }
         }
       }
     },
@@ -36695,6 +38555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Paksa lanjut ke tahap berikutnya?"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tvinge fasen videre?"
           }
         }
       }
@@ -36814,6 +38680,12 @@
             "state" : "translated",
             "value" : "Paksa lanjut"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tving videre"
+          }
         }
       }
     },
@@ -36931,6 +38803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Batal"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
           }
         }
       }
@@ -37050,6 +38928,12 @@
             "state" : "translated",
             "value" : "Keluarkan %@?"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjerne %@?"
+          }
         }
       }
     },
@@ -37167,6 +39051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keluarkan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern"
           }
         }
       }
@@ -37286,6 +39176,12 @@
             "state" : "translated",
             "value" : "Permainan yang sedang berjalan berlanjut dengan pemain yang tersisa."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et pågående spill fortsetter med de gjenværende spillerne."
+          }
         }
       }
     },
@@ -37403,6 +39299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mode host GM"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GM-vertsmodus"
           }
         }
       }
@@ -37522,6 +39424,12 @@
             "state" : "translated",
             "value" : "Jika permainan macet, kamu bisa melanjutkannya dari sini."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Henger spillet seg opp, kan du holde det i gang herfra."
+          }
         }
       }
     },
@@ -37639,6 +39547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kontrol permainan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spillkontroll"
           }
         }
       }
@@ -37758,6 +39672,12 @@
             "state" : "translated",
             "value" : "Paksa lanjut tahap"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tving fasen videre"
+          }
         }
       }
     },
@@ -37875,6 +39795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidak ada yang perlu dipaksa pada tahap saat ini."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det er ingenting å tvinge i den nåværende fasen."
           }
         }
       }
@@ -37994,6 +39920,12 @@
             "state" : "translated",
             "value" : "Kelola pemain"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Administrer spillere"
+          }
         }
       }
     },
@@ -38111,6 +40043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Informasi pribadi"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privat informasjon"
           }
         }
       }
@@ -38230,6 +40168,12 @@
             "state" : "translated",
             "value" : "Ungkap peran dan jawaban"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avslør roller og svar"
+          }
         }
       }
     },
@@ -38347,6 +40291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jika kamu melihatnya, GM sulit bermain adil. Gunakan hanya saat permainan macet."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvis du ser på, blir det vanskelig for GM å spille rettferdig. Bruk det bare når spillet henger seg opp."
           }
         }
       }
@@ -38466,6 +40416,12 @@
             "state" : "translated",
             "value" : "Keluar dari permainan?"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forlate spillet?"
+          }
         }
       }
     },
@@ -38583,6 +40539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hentikan permainan dan kembali ke lobi"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt spillet og gå til lobbyen"
           }
         }
       }
@@ -38702,6 +40664,12 @@
             "state" : "translated",
             "value" : "Tutup ruangan (berakhir untuk semua)"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steng rommet (avsluttes for alle)"
+          }
         }
       }
     },
@@ -38819,6 +40787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Panel host"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vertspanel"
           }
         }
       }
@@ -38938,6 +40912,12 @@
             "state" : "translated",
             "value" : "Misi nomor %lld"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppdrag nr. %lld"
+          }
         }
       }
     },
@@ -39055,6 +41035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pemimpin: %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leder: %@"
           }
         }
       }
@@ -39174,6 +41160,12 @@
             "state" : "translated",
             "value" : "Permainan selesai"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spillet er slutt"
+          }
         }
       }
     },
@@ -39291,6 +41283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lihat peranku"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se rollen min"
           }
         }
       }
@@ -39410,6 +41408,12 @@
             "state" : "translated",
             "value" : "Berikutnya"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neste"
+          }
         }
       }
     },
@@ -39527,6 +41531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pada tahap ini setiap orang diam-diam melihat perannya sendiri. Setelah melihat peranmu dan menekan “Berikutnya”, bot juga selesai melihat."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I denne fasen ser alle sin egen rolle i hemmelighet. Når du har sett din og trykker «Neste», blir robotene ferdige også."
           }
         }
       }
@@ -39646,6 +41656,12 @@
             "state" : "translated",
             "value" : "Pemimpin menunjuk tim untuk misi ini. Tekan “Berikutnya” dan pemimpin akan memilih tim. (Jika kamu pemimpin, pilih sendiri!)"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lederen peker ut laget til dette oppdraget. Trykk «Neste», så velger lederen lag. (Er du leder, velger du selv!)"
+          }
         }
       }
     },
@@ -39763,6 +41779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Semua orang memilih setuju atau tidak setuju pada susunan tim. Jika seri, tim ditolak! Pilih dulu, lalu tekan “Berikutnya” untuk melihat suara bot."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle stemmer for eller imot lagets sammensetning. Står det likt, avvises det! Stem først, og trykk så «Neste» for å se robotenes stemmer."
           }
         }
       }
@@ -39882,6 +41904,12 @@
             "state" : "translated",
             "value" : "Ini hasil pemungutan suara. Jika tim ditolak 5 kali berturut-turut, Bayangan menang, jadi tidak bisa asal menolak terus."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dette er resultatet av avstemningen. Avvises laget 5 ganger på rad, vinner Skyggene, så du kan ikke bare stemme imot hele tiden."
+          }
         }
       }
     },
@@ -39999,6 +42027,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hanya anggota tim yang memainkan kartu sukses atau gagal. Ordo Cahaya Bulan hanya bisa memainkan sukses; hanya Bayangan yang bisa diam-diam memainkan gagal. Tekan “Berikutnya” untuk melihat tim menyerahkan kartu."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bare lagmedlemmer spiller et suksess- eller fiaskokort. Månordenen kan bare spille suksess; bare Skyggene kan i hemmelighet spille fiasko. Trykk «Neste» for å følge lagets kortinnlevering."
           }
         }
       }
@@ -40118,6 +42152,12 @@
             "state" : "translated",
             "value" : "Jika kartu gagal mencapai jumlah yang dibutuhkan, misi gagal! Pihak yang lebih dulu meraih 3 kemenangan mengakhiri permainan."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når fiaskokortene når det nødvendige antallet, mislykkes oppdraget! Den som først får 3 seire, avslutter spillet."
+          }
         }
       }
     },
@@ -40235,6 +42275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Meski 3 misi berhasil, masih ada kejutan terakhir: jika Pembunuh menunjuk Peramal dengan tepat, Bayangan membalikkan keadaan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selv om 3 oppdrag lykkes, er det en siste vending: peker Snikmorderen ut Seeren riktig, snur Skyggene spillet."
           }
         }
       }
@@ -40354,6 +42400,12 @@
             "state" : "translated",
             "value" : "Koneksi ke host terputus. Mencoba menyambung kembali secara otomatis…"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forbindelsen til verten ble brutt. Prøver å koble til på nytt automatisk …"
+          }
         }
       }
     },
@@ -40471,6 +42523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Waktu habis"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiden er ute"
           }
         }
       }
@@ -40590,6 +42648,12 @@
             "state" : "translated",
             "value" : "Lihat di tempat yang tidak terlihat orang lain"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se der ingen andre kan se"
+          }
         }
       }
     },
@@ -40707,6 +42771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pihak %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lag: %@"
           }
         }
       }
@@ -40826,6 +42896,12 @@
             "state" : "translated",
             "value" : "Mereka yang tampak seperti Agen Bayangan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De som ser ut som skyggeagenter"
+          }
         }
       }
     },
@@ -40943,6 +43019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sekutu Bayanganmu"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dine kamerater blant Skyggene"
           }
         }
       }
@@ -41062,6 +43144,12 @@
             "state" : "translated",
             "value" : "Tujuan: %@"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mål: %@"
+          }
         }
       }
     },
@@ -41179,6 +43267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sedang dalam perawatan sebentar. Segera dibuka kembali."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Under vedlikehold et øyeblikk. Åpner snart igjen."
           }
         }
       }
@@ -41298,6 +43392,12 @@
             "state" : "translated",
             "value" : "3 permainan pesta untuk dinikmati bersama teman di dekatmu"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 festspill å kose seg med sammen med venner i nærheten"
+          }
         }
       }
     },
@@ -41415,6 +43515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nama panggilan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kallenavn"
           }
         }
       }
@@ -41534,6 +43640,12 @@
             "state" : "translated",
             "value" : "Masukkan namamu"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv inn navnet ditt"
+          }
         }
       }
     },
@@ -41651,6 +43763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pilih permainan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg et spill"
           }
         }
       }
@@ -41770,6 +43888,12 @@
             "state" : "translated",
             "value" : "5–15 pemain · Temukan Bayangan yang bersembunyi"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5–15 spillere · Finn de skjulte Skyggene"
+          }
         }
       }
     },
@@ -41887,6 +44011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3–15 pemain · Cari yang tidak tahu katanya"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 spillere · Finn den som ikke kjenner ordet"
           }
         }
       }
@@ -42006,6 +44136,12 @@
             "state" : "translated",
             "value" : "3–15 pemain · Satu malam dengan Goblin di desa"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 spillere · En natt med en goblin i landsbyen"
+          }
         }
       }
     },
@@ -42123,6 +44259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3–15 pemain · Satu menggambar, yang lain menebak"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 spillere · Én tegner, de andre gjetter"
           }
         }
       }
@@ -42242,6 +44384,12 @@
             "state" : "translated",
             "value" : "Cari semua ruangan terdekat"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finn alle rom i nærheten"
+          }
         }
       }
     },
@@ -42359,6 +44507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "iPhone di Wi-Fi yang sama atau berdekatan tersambung otomatis.\nBisa dimainkan tanpa internet."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhoner på samme Wi-Fi eller i nærheten kobler seg automatisk sammen.\nDu kan spille uten internett."
           }
         }
       }
@@ -42478,6 +44632,12 @@
             "state" : "translated",
             "value" : "Lanjutkan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsett"
+          }
         }
       }
     },
@@ -42595,6 +44755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ruangan %1$@%2$@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rom: %1$@%2$@"
           }
         }
       }
@@ -42714,6 +44880,12 @@
             "state" : "translated",
             "value" : "Hapus riwayat “Lanjutkan”"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern historikken for «Fortsett»"
+          }
         }
       }
     },
@@ -42831,6 +45003,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Permainan identitas tersembunyi untuk 5–15 pemain: temukan Bayangan yang menyusup di tim. Pihak yang lebih dulu berhasil (atau menggagalkan) 3 misi menang."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et spill om skjulte identiteter for 5–15 spillere: finn Skyggene som gjemmer seg i laget. Den siden som først får 3 oppdrag til å lykkes (eller mislykkes), vinner."
           }
         }
       }
@@ -42950,6 +45128,12 @@
             "state" : "translated",
             "value" : "Permainan blufing untuk 3–15 pemain: semua kecuali Si Pembohong mendapat kata yang sama. Jelaskan dengan singkat lalu cari Si Pembohong. Meski tertangkap, Si Pembohong menang jika menebak kata!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et bløffespill for 3–15 spillere: alle unntatt Løgneren får det samme ordet. Beskriv det med få ord, og finn så Løgneren. Selv om Løgneren blir tatt, vinner han ved å gjette ordet!"
+          }
         }
       }
     },
@@ -43067,6 +45251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Permainan deduksi untuk 3–15 pemain tentang satu malam dengan Goblin di desa. Kartu ditukar semalam, dan satu pemungutan suara menentukan pemenang."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et deduksjonsspill for 3–15 spillere om en natt med en goblin i landsbyen. Om natten byttes kort, og én avstemning avgjør vinneren."
           }
         }
       }
@@ -43186,6 +45376,12 @@
             "state" : "translated",
             "value" : "Permainan menggambar untuk 3–15 pemain: tiap ronde satu orang menggambar kata dan yang lain menebak di obrolan. Makin cepat menebak, makin tinggi skor! Setelah semua menggambar, pemilik skor tertinggi menang."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et tegnespill for 3–15 spillere: i hver runde tegner én ordet, og de andre gjetter i chatten. Jo raskere du gjetter, jo flere poeng! Når alle har tegnet, vinner den med flest poeng."
+          }
         }
       }
     },
@@ -43303,6 +45499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Buat ruangan (host)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opprett rom (vert)"
           }
         }
       }
@@ -43422,6 +45624,12 @@
             "state" : "translated",
             "value" : "Gabung permainan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bli med i et spill"
+          }
         }
       }
     },
@@ -43539,6 +45747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cara bermain (latihan dengan bot)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slik spiller du (øv med roboter)"
           }
         }
       }
@@ -43658,6 +45872,12 @@
             "state" : "translated",
             "value" : "Kembali"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilbake"
+          }
         }
       }
     },
@@ -43775,6 +45995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cari ruangan %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finn rom for %@"
           }
         }
       }
@@ -43894,6 +46120,12 @@
             "state" : "translated",
             "value" : "Cari ruangan terdekat"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finn rom i nærheten"
+          }
         }
       }
     },
@@ -44011,6 +46243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Menyambung ke ruangan…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kobler til rommet …"
           }
         }
       }
@@ -44130,6 +46368,12 @@
             "state" : "translated",
             "value" : "Mencari ruangan terdekat…\nPastikan host sudah menekan “Buat ruangan”."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leter etter rom i nærheten …\nSjekk at verten har trykket «Opprett rom»."
+          }
         }
       }
     },
@@ -44247,6 +46491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ruangan %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rom: %@"
           }
         }
       }
@@ -44366,6 +46616,12 @@
             "state" : "translated",
             "value" : "Semua orang punya kata yang sama. Hanya satu yang tidak tahu."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle har det samme ordet. Bare én kjenner det ikke."
+          }
         }
       }
     },
@@ -44484,6 +46740,12 @@
             "state" : "translated",
             "value" : "Koneksi ke host terputus. Mencoba menyambung kembali…"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forbindelsen til verten ble brutt. Prøver å koble til på nytt …"
+          }
         }
       }
     },
@@ -44598,6 +46860,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategori: %@"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kategori: %@"
@@ -44720,6 +46988,12 @@
             "state" : "translated",
             "value" : "Semua kecuali Si Pembohong mendapat kata yang sama. Lihat katamu lalu tekan “Berikutnya” agar bot selesai juga."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle unntatt Løgneren fikk det samme ordet. Se ordet ditt og trykk «Neste», så blir robotene ferdige også."
+          }
         }
       }
     },
@@ -44837,6 +47111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tahap ini bergantian menjelaskan kata dengan singkat. Setiap kali menekan “Berikutnya”, ucapan giliran saat ini berakhir."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I denne fasen beskriver alle ordet etter tur med få ord. Hvert trykk på «Neste» avslutter den nåværende turen."
           }
         }
       }
@@ -44956,6 +47236,12 @@
             "state" : "translated",
             "value" : "Siapa yang menjelaskan dengan berbelit? Pilih dulu orang yang kamu curigai sebagai Si Pembohong, lalu tekan “Berikutnya” untuk melihat suara bot."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvem var unnvikende i beskrivelsen? Stem først på den du mistenker for å være Løgneren, og trykk så «Neste» for å se robotenes stemmer."
+          }
         }
       }
     },
@@ -45073,6 +47359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Si Pembohong tertangkap! Tetapi jika ia menebak kata, ia membalikkan keadaan — tekan “Berikutnya” untuk melihat tebakannya."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgneren er tatt! Men gjetter han ordet, snur han spillet — trykk «Neste» for å følge gjetningen hans."
           }
         }
       }
@@ -45192,6 +47484,12 @@
             "state" : "translated",
             "value" : "Kamu Si Pembohong!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er Løgneren!"
+          }
         }
       }
     },
@@ -45309,6 +47607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kamu tidak tahu katanya, tetapi harus menjelaskannya seolah tahu. Jangan sampai ketahuan!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kjenner ikke ordet, men må beskrive det som om du gjør. La deg ikke avsløre!"
           }
         }
       }
@@ -45428,6 +47732,12 @@
             "state" : "translated",
             "value" : "Kata"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ord"
+          }
         }
       }
     },
@@ -45545,6 +47855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kata telah tiba"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordet har kommet"
           }
         }
       }
@@ -45664,6 +47980,12 @@
             "state" : "translated",
             "value" : "Selesai! Menunggu pemain lain…"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferdig! Venter på de andre spillerne …"
+          }
         }
       }
     },
@@ -45781,6 +48103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sudah lihat"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sett"
           }
         }
       }
@@ -45900,6 +48228,12 @@
             "state" : "translated",
             "value" : "Lihat di tempat yang tidak terlihat orang lain"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se der ingen andre kan se skjermen"
+          }
         }
       }
     },
@@ -46017,6 +48351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Intip sebentar"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta en liten titt"
           }
         }
       }
@@ -46136,6 +48476,12 @@
             "state" : "translated",
             "value" : "Terkonfirmasi: %lld/%lld"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekreftet: %lld/%lld"
+          }
         }
       }
     },
@@ -46253,6 +48599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bergantian jelaskan kata dengan singkat"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beskriv ordet etter tur med få ord"
           }
         }
       }
@@ -46372,6 +48724,12 @@
             "state" : "translated",
             "value" : "Jika terlalu rinci, kamu membantu Si Pembohong;\njika terlalu samar, kamu dicurigai!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sier du for mye, hjelper du Løgneren;\nsier du for lite, blir du mistenkt!"
+          }
         }
       }
     },
@@ -46489,6 +48847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sedang bicara"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snakker"
           }
         }
       }
@@ -46608,6 +48972,12 @@
             "state" : "translated",
             "value" : "Selesai bicara"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferdig med å snakke"
+          }
         }
       }
     },
@@ -46725,6 +49095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siapa Si Pembohong?"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvem er Løgneren?"
           }
         }
       }
@@ -46844,6 +49220,12 @@
             "state" : "translated",
             "value" : "Pilih yang paling mencurigakan · Jika suara terbagi, Si Pembohong menang!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stem på den mest mistenkelige · Hvis stemmene deles, vinner Løgneren!"
+          }
         }
       }
     },
@@ -46961,6 +49343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suara terkirim! Menunggu penghitungan…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stemme avgitt! Venter på opptellingen …"
           }
         }
       }
@@ -47080,6 +49468,12 @@
             "state" : "translated",
             "value" : "Sudah memilih: %lld/%lld"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Har stemt: %lld/%lld"
+          }
         }
       }
     },
@@ -47197,6 +49591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tunjuk “%@” sebagai Si Pembohong?"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peke ut «%@» som Løgneren?"
           }
         }
       }
@@ -47316,6 +49716,12 @@
             "state" : "translated",
             "value" : "Konfirmasi pilihan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekreft stemme"
+          }
         }
       }
     },
@@ -47433,6 +49839,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suara yang sudah dikirim tidak bisa diubah."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En avgitt stemme kan ikke endres."
           }
         }
       }
@@ -47552,6 +49964,12 @@
             "state" : "translated",
             "value" : "Si Pembohong tertangkap!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgneren er tatt!"
+          }
         }
       }
     },
@@ -47669,6 +50087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "“%@” adalah Si Pembohong!\nTetapi jika ia menebak kata, Si Pembohong membalikkan keadaan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "«%@» var Løgneren!\nMen gjetter han ordet, snur Løgneren spillet."
           }
         }
       }
@@ -47788,6 +50212,12 @@
             "state" : "translated",
             "value" : "Pilih katanya — hanya satu kesempatan!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg ordet — du har bare ett forsøk!"
+          }
         }
       }
     },
@@ -47905,6 +50335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Si Pembohong sedang menebak kata…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgneren gjetter ordet …"
           }
         }
       }
@@ -48024,6 +50460,12 @@
             "state" : "translated",
             "value" : "Tebak “%@” sebagai katanya?"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjette på «%@» som ordet?"
+          }
         }
       }
     },
@@ -48141,6 +50583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Konfirmasi kata ini"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekreft dette ordet"
           }
         }
       }
@@ -48260,6 +50708,12 @@
             "state" : "translated",
             "value" : "Hanya satu kesempatan!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du har bare ett forsøk!"
+          }
         }
       }
     },
@@ -48377,6 +50831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Si Pembohong menang!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgneren vinner!"
           }
         }
       }
@@ -48496,6 +50956,12 @@
             "state" : "translated",
             "value" : "Warga menang!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borgerne vinner!"
+          }
         }
       }
     },
@@ -48613,6 +51079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tebakan Si Pembohong"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Løgnerens gjetning"
           }
         }
       }
@@ -48732,6 +51204,12 @@
             "state" : "translated",
             "value" : "Hasil pemungutan suara"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resultat av avstemningen"
+          }
         }
       }
     },
@@ -48849,6 +51327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tutup ruangan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Steng rommet"
           }
         }
       }
@@ -48968,6 +51452,12 @@
             "state" : "translated",
             "value" : "Ruanganku"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitt rom"
+          }
         }
       }
     },
@@ -49085,6 +51575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lobi"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lobby"
           }
         }
       }
@@ -49204,6 +51700,12 @@
             "state" : "translated",
             "value" : "Pemain: %1$lld · dibutuhkan %2$lld–%3$lld"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spillere: %1$lld · trengs %2$lld–%3$lld"
+          }
         }
       }
     },
@@ -49321,6 +51823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Belajar bermain: bot sedang masuk.\nJika pemain sudah cukup, tekan “Mulai permainan”."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lær å spille: robotene kommer inn.\nNår det er nok spillere, trykker du «Start spill»."
           }
         }
       }
@@ -49440,6 +51948,12 @@
             "state" : "translated",
             "value" : "Mulai permainan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start spill"
+          }
         }
       }
     },
@@ -49557,6 +52071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jumlah pemain minimum: %lld"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minste antall spillere: %lld"
           }
         }
       }
@@ -49676,6 +52196,12 @@
             "state" : "translated",
             "value" : "Menunggu host memulai permainan…"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venter på at verten starter spillet …"
+          }
         }
       }
     },
@@ -49793,6 +52319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dengan jumlah pemain ini: Bayangan %1$lld · Ordo Cahaya Bulan %2$lld"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med dette antallet spillere: Skyggene %1$lld · Månordenen %2$lld"
           }
         }
       }
@@ -49912,6 +52444,12 @@
             "state" : "translated",
             "value" : "[Arena Game Cahaya Bulan %@] Pertanyaan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[Månearkaden %@] Henvendelse"
+          }
         }
       }
     },
@@ -50029,6 +52567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dukungan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Støtte"
           }
         }
       }
@@ -50148,6 +52692,12 @@
             "state" : "translated",
             "value" : "Hubungi lewat email"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt via e-post"
+          }
         }
       }
     },
@@ -50265,6 +52815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "DM Instagram (@lee25_ios)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM (@lee25_ios)"
           }
         }
       }
@@ -50384,6 +52940,12 @@
             "state" : "translated",
             "value" : "Hubungi pengembang"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakt utvikleren"
+          }
         }
       }
     },
@@ -50501,6 +53063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Silakan beri tahu kami jika ada bug atau permainan yang kamu inginkan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si gjerne fra om feil eller spill du ønsker deg."
           }
         }
       }
@@ -50620,6 +53188,12 @@
             "state" : "translated",
             "value" : "Tidak bisa membuka aplikasi Mail"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kan ikke åpne Mail-appen"
+          }
         }
       }
     },
@@ -50737,6 +53311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Salin alamat"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopier adresse"
           }
         }
       }
@@ -50856,6 +53436,12 @@
             "state" : "translated",
             "value" : "Tutup"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lukk"
+          }
         }
       }
     },
@@ -50973,6 +53559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kirim email ke alamat di bawah.\n%@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send en e-post til adressen under.\n%@"
           }
         }
       }
@@ -51092,6 +53684,12 @@
             "state" : "translated",
             "value" : "Selamat datang di Arena Game Cahaya Bulan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velkommen til Månearkaden"
+          }
         }
       }
     },
@@ -51209,6 +53807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kumpulan permainan pesta di iPhone bersama teman-teman di satu tempat.\nTanpa internet dan tanpa mendaftar."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En samling festspill for iPhone som du spiller sammen med venner på samme sted.\nDu trenger verken internett eller registrering."
           }
         }
       }
@@ -51328,6 +53932,12 @@
             "state" : "translated",
             "value" : "Satu orang membuat ruangan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Én oppretter rommet"
+          }
         }
       }
     },
@@ -51445,6 +54055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Setelah semua memasang aplikasi, satu orang memilih permainan lalu menekan “Buat ruangan”.\nYang lain masuk lewat “Gabung permainan” — selesai!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når alle har installert appen, velger én et spill og trykker «Opprett rom».\nDe andre kommer inn med «Bli med i et spill» — så er det gjort!"
           }
         }
       }
@@ -51564,6 +54180,12 @@
             "state" : "translated",
             "value" : "Berkumpul berdekatan dan izinkan koneksi"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom tett på hverandre og tillat tilkobling"
+          }
         }
       }
     },
@@ -51681,6 +54303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kalian saling menemukan dalam Wi-Fi yang sama atau dalam jangkauan Bluetooth.\nPastikan mengizinkan permintaan akses “Jaringan Lokal” yang muncul di awal."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dere finner hverandre på samme Wi-Fi eller innen Bluetooth-rekkevidde.\nHusk å tillate forespørselen om tilgang til «Lokalt nettverk» som vises første gang."
           }
         }
       }
@@ -51800,6 +54428,12 @@
             "state" : "translated",
             "value" : "Belum paham aturan? Berlatih dulu"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kan du ikke reglene? Øv først"
+          }
         }
       }
     },
@@ -51917,6 +54551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Setiap permainan punya “Cara bermain (latihan dengan bot)”.\nKamu bisa memainkan satu ronde sendirian dengan bot untuk mempelajari aturan."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvert spill har «Slik spiller du (øv med roboter)».\nDu kan spille en runde alene mot roboter for å lære reglene."
           }
         }
       }
@@ -52036,6 +54676,12 @@
             "state" : "translated",
             "value" : "Lewati"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hopp over"
+          }
         }
       }
     },
@@ -52153,6 +54799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mulai"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom i gang"
           }
         }
       }
@@ -52272,6 +54924,12 @@
             "state" : "translated",
             "value" : "Pemain: %1$lld (%2$lld–%3$lld)"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spillere: %1$lld (%2$lld–%3$lld)"
+          }
         }
       }
     },
@@ -52389,6 +55047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Peran sudah dibagikan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rollene er fordelt"
           }
         }
       }
@@ -52508,6 +55172,12 @@
             "state" : "translated",
             "value" : "Sudah lihat"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg har sett"
+          }
         }
       }
     },
@@ -52625,6 +55295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Menerima informasi peran…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mottar rolleinformasjon …"
           }
         }
       }
@@ -52744,6 +55420,12 @@
             "state" : "translated",
             "value" : "Peran terlihat: %lld/%lld"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roller sett: %lld/%lld"
+          }
         }
       }
     },
@@ -52861,6 +55543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pastikan tidak ada orang di dekatmu yang bisa melihat,\nlalu tekan tombol untuk melihat perannya"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sørg for at ingen i nærheten kan se,\nog trykk på knappen for å se rollen din"
           }
         }
       }
@@ -52980,6 +55668,12 @@
             "state" : "translated",
             "value" : "Lihat peranku"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se rollen min"
+          }
         }
       }
     },
@@ -53097,6 +55791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Selesai!\nMenunggu pemain lain…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferdig!\nVenter på de andre spillerne …"
           }
         }
       }
@@ -53216,6 +55916,12 @@
             "state" : "translated",
             "value" : "Kamu pemimpin!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er leder!"
+          }
         }
       }
     },
@@ -53333,6 +56039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pilih untuk misi ini: %1$lld (%2$lld/%3$lld)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg til dette oppdraget: %1$lld (%2$lld/%3$lld)"
           }
         }
       }
@@ -53452,6 +56164,12 @@
             "state" : "translated",
             "value" : "Konfirmasi tim → semua memilih"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekreft lag → alle stemmer"
+          }
         }
       }
     },
@@ -53569,6 +56287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pemimpin %1$@\nsedang memilih anggota tim: %2$lld…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leder %1$@\nvelger lagmedlemmer: %2$lld …"
           }
         }
       }
@@ -53688,6 +56412,12 @@
             "state" : "translated",
             "value" : "Diskusikan dengan bebas siapa yang akan dikirim!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diskuter fritt hvem som skal sendes!"
+          }
         }
       }
     },
@@ -53805,6 +56535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pemungutan suara tim"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avstemning om laget"
           }
         }
       }
@@ -53924,6 +56660,12 @@
             "state" : "translated",
             "value" : "Suara terkirim — menunggu hasil (%lld/%lld)"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stemme avgitt — venter på resultatet (%lld/%lld)"
+          }
         }
       }
     },
@@ -54041,6 +56783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Apakah kamu setuju dengan susunan tim ini?\n(Suara semua orang dibuka · seri = ditolak)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er du enig i denne lagsammensetningen?\n(Alles stemmer avsløres · likt = avvist)"
           }
         }
       }
@@ -54160,6 +56908,12 @@
             "state" : "translated",
             "value" : "Setuju"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For"
+          }
         }
       }
     },
@@ -54277,6 +57031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tolak"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imot"
           }
         }
       }
@@ -54396,6 +57156,12 @@
             "state" : "translated",
             "value" : "Pilih “setuju” untuk tim?"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stemme «for» laget?"
+          }
         }
       }
     },
@@ -54513,6 +57279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pilih “tolak” untuk tim?"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stemme «imot» laget?"
           }
         }
       }
@@ -54632,6 +57404,12 @@
             "state" : "translated",
             "value" : "Pilihan pemimpin %@"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leder %@ sitt valg"
+          }
         }
       }
     },
@@ -54749,6 +57527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Disetujui! Tim berangkat menjalankan misi"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Godkjent! Laget drar på oppdrag"
           }
         }
       }
@@ -54868,6 +57652,12 @@
             "state" : "translated",
             "value" : "Ditolak"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avvist"
+          }
         }
       }
     },
@@ -54985,6 +57775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kepemimpinan beralih ke berikutnya · ditolak berturut-turut: %lld/%lld"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ledelsen går til neste · avvisninger på rad: %lld/%lld"
           }
         }
       }
@@ -55104,6 +57900,12 @@
             "state" : "translated",
             "value" : "⚠️ Satu kali ditolak lagi dan Bayangan menang!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⚠️ Én avvisning til, og Skyggene vinner!"
+          }
         }
       }
     },
@@ -55221,6 +58023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lanjut"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsett"
           }
         }
       }
@@ -55340,6 +58148,12 @@
             "state" : "translated",
             "value" : "Menunggu host melanjutkan…"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venter på at verten fortsetter …"
+          }
         }
       }
     },
@@ -55457,6 +58271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Setuju 👍"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For 👍"
           }
         }
       }
@@ -55576,6 +58396,12 @@
             "state" : "translated",
             "value" : "Tolak 👎"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imot 👎"
+          }
         }
       }
     },
@@ -55693,6 +58519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Misi nomor %lld sedang berlangsung"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppdrag nr. %lld pågår"
           }
         }
       }
@@ -55812,6 +58644,12 @@
             "state" : "translated",
             "value" : "Tim: %@"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lag: %@"
+          }
         }
       }
     },
@@ -55929,6 +58767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tim sedang menjalankan misi…\n(terkirim %lld/%lld)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laget utfører oppdraget …\n(%lld/%lld levert)"
           }
         }
       }
@@ -56048,6 +58892,12 @@
             "state" : "translated",
             "value" : "Kartu gagal yang dibutuhkan agar misi gagal: %lld"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fiaskokort som trengs for at oppdraget mislykkes: %lld"
+          }
         }
       }
     },
@@ -56165,6 +59015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pilih kartu (tidak ada yang tahu siapa memainkan apa)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg et kort (ingen får vite hvem som spilte hva)"
           }
         }
       }
@@ -56284,6 +59140,12 @@
             "state" : "translated",
             "value" : "Kamu Bayangan — kartu gagal bisa menggagalkan misi"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er en Skygge — et fiaskokort kan ødelegge oppdraget"
+          }
         }
       }
     },
@@ -56401,6 +59263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Serahkan kartu"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lever kort"
           }
         }
       }
@@ -56520,6 +59388,12 @@
             "state" : "translated",
             "value" : "Sukses"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suksess"
+          }
         }
       }
     },
@@ -56637,6 +59511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gagal"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fiasko"
           }
         }
       }
@@ -56756,6 +59636,12 @@
             "state" : "translated",
             "value" : "Anggota Ordo\nhanya bisa memainkan sukses"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordensmedlemmer\nkan bare spille suksess"
+          }
         }
       }
     },
@@ -56873,6 +59759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kartu diserahkan\nMenunggu anggota lain… (%lld/%lld)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kort levert\nVenter på de andre medlemmene … (%lld/%lld)"
           }
         }
       }
@@ -56992,6 +59884,12 @@
             "state" : "translated",
             "value" : "Misi berhasil!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppdraget lyktes!"
+          }
         }
       }
     },
@@ -57109,6 +60007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Misi gagal…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppdraget mislyktes …"
           }
         }
       }
@@ -57228,6 +60132,12 @@
             "state" : "translated",
             "value" : "Kartu sukses: %1$lld · kartu gagal: %2$lld"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suksesskort: %1$lld · fiaskokort: %2$lld"
+          }
         }
       }
     },
@@ -57345,6 +60255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kartu gagal muncul, tetapi misi ini membutuhkan %lld, jadi misi bertahan!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det kom et fiaskokort, men dette oppdraget krevde %lld, så det holdt!"
           }
         }
       }
@@ -57464,6 +60380,12 @@
             "state" : "translated",
             "value" : "Sukses %lld : %lld Gagal — yang lebih dulu meraih 3 kemenangan menang"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suksess %lld : %lld Fiasko — først til 3 vinner"
+          }
         }
       }
     },
@@ -57581,6 +60503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hitam"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svart"
           }
         }
       }
@@ -57700,6 +60628,12 @@
             "state" : "translated",
             "value" : "Merah"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rød"
+          }
         }
       }
     },
@@ -57817,6 +60751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oranye"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oransje"
           }
         }
       }
@@ -57936,6 +60876,12 @@
             "state" : "translated",
             "value" : "Kuning"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gul"
+          }
         }
       }
     },
@@ -58053,6 +60999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hijau"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grønn"
           }
         }
       }
@@ -58172,6 +61124,12 @@
             "state" : "translated",
             "value" : "Biru"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blå"
+          }
         }
       }
     },
@@ -58289,6 +61247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ungu"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lilla"
           }
         }
       }
@@ -58408,6 +61372,12 @@
             "state" : "translated",
             "value" : "Cokelat"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brun"
+          }
         }
       }
     },
@@ -58525,6 +61495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Penghapus"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viskelær"
           }
         }
       }
@@ -58644,6 +61620,12 @@
             "state" : "translated",
             "value" : "Warna %lld"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farge %lld"
+          }
         }
       }
     },
@@ -58761,6 +61743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kuas tipis"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tynn pensel"
           }
         }
       }
@@ -58880,6 +61868,12 @@
             "state" : "translated",
             "value" : "Kuas sedang"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Middels pensel"
+          }
         }
       }
     },
@@ -58997,6 +61991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kuas tebal"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tykk pensel"
           }
         }
       }
@@ -59116,6 +62116,12 @@
             "state" : "translated",
             "value" : "Satu menggambar, yang lain menebak"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Én tegner, de andre gjetter"
+          }
         }
       }
     },
@@ -59233,6 +62239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ronde %1$lld / %2$lld"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Runde %1$lld / %2$lld"
           }
         }
       }
@@ -59352,6 +62364,12 @@
             "state" : "translated",
             "value" : "Aku Pelukisnya!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg er Tegneren!"
+          }
         }
       }
     },
@@ -59469,6 +62487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pelukis: %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tegner: %@"
           }
         }
       }
@@ -59588,6 +62612,12 @@
             "state" : "translated",
             "value" : "Selesai menggambar"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ferdig med å tegne"
+          }
         }
       }
     },
@@ -59705,6 +62735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lewati ronde"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hopp over runden"
           }
         }
       }
@@ -59824,6 +62860,12 @@
             "state" : "translated",
             "value" : "Ronde ini kamu Pelukisnya! Pilih kata yang paling mudah digambar dari 3 kata."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I denne runden er du Tegner! Velg det av de 3 ordene som er enklest å tegne."
+          }
         }
       }
     },
@@ -59941,6 +62983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ungkapkan kata dengan gambar. Dilarang huruf dan angka! Setelah selesai, tekan “Berikutnya” untuk melihat tebakan bot."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uttrykk ordet med en tegning. Ingen bokstaver eller tall! Når du er ferdig, trykker du «Neste» for å se robotenes gjetninger."
           }
         }
       }
@@ -60060,6 +63108,12 @@
             "state" : "translated",
             "value" : "Hasil ronde. Makin cepat menebak, makin tinggi skor; Pelukis mendapat lebih banyak skor jika makin banyak yang menebak. Tekan “Berikutnya” untuk melihat peringkat akhir."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resultat for runden. Jo raskere du gjetter, jo flere poeng; Tegneren får flere poeng jo flere som gjetter. Trykk «Neste» for den endelige rangeringen."
+          }
         }
       }
     },
@@ -60177,6 +63231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pilih kata"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg et ord"
           }
         }
       }
@@ -60296,6 +63356,12 @@
             "state" : "translated",
             "value" : "Jangan sampai terlihat orang lain! Memilih kata yang mudah digambar menguntungkan."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La ingen se det! Å velge noe som er lett å tegne, gir en fordel."
+          }
         }
       }
     },
@@ -60413,6 +63479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ sedang memilih kata…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ velger et ord …"
           }
         }
       }
@@ -60532,6 +63604,12 @@
             "state" : "translated",
             "value" : "Sebentar lagi gambar akan mulai dibuat."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om litt begynner tegningen."
+          }
         }
       }
     },
@@ -60649,6 +63727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jumlah huruf: %lld"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bokstaver: %lld"
           }
         }
       }
@@ -60768,6 +63852,12 @@
             "state" : "translated",
             "value" : "Benar: %1$lld/%2$lld"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riktige: %1$lld/%2$lld"
+          }
         }
       }
     },
@@ -60885,6 +63975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tebakan semua orang akan muncul di sini."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles gjetninger vises her."
           }
         }
       }
@@ -61004,6 +64100,12 @@
             "state" : "translated",
             "value" : "Lihat gambar dan tebak jawabannya!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se på tegningen og gjett svaret!"
+          }
         }
       }
     },
@@ -61121,6 +64223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Urungkan satu goresan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Angre ett strøk"
           }
         }
       }
@@ -61240,6 +64348,12 @@
             "state" : "translated",
             "value" : "Hapus seluruh gambar"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett hele tegningen"
+          }
         }
       }
     },
@@ -61357,6 +64471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Benar! Menunggu yang lain…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riktig! Venter på de andre …"
           }
         }
       }
@@ -61476,6 +64596,12 @@
             "state" : "translated",
             "value" : "Ketik jawaban…"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv svaret …"
+          }
         }
       }
     },
@@ -61593,6 +64719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tutup keyboard"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjul tastatur"
           }
         }
       }
@@ -61712,6 +64844,12 @@
             "state" : "translated",
             "value" : "Katanya adalah"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordet var"
+          }
         }
       }
     },
@@ -61829,6 +64967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Benar"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riktig"
           }
         }
       }
@@ -61948,6 +65092,12 @@
             "state" : "translated",
             "value" : "Lihat peringkat akhir"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se endelig rangering"
+          }
         }
       }
     },
@@ -62065,6 +65215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ronde berikutnya"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neste runde"
           }
         }
       }
@@ -62184,6 +65340,12 @@
             "state" : "translated",
             "value" : "Menunggu host melanjutkan…"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venter på at verten fortsetter …"
+          }
         }
       }
     },
@@ -62301,6 +65463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skor tertinggi: %lld"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Høyeste poengsum: %lld"
           }
         }
       }
@@ -62420,6 +65588,12 @@
             "state" : "translated",
             "value" : "Skor: %lld"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poeng: %lld"
+          }
         }
       }
     },
@@ -62537,6 +65711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Main lagi dengan pemain yang sama"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spill igjen med de samme spillerne"
           }
         }
       }
@@ -62656,6 +65836,12 @@
             "state" : "translated",
             "value" : "Terputus"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frakoblet"
+          }
         }
       }
     },
@@ -62773,6 +65959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Menunggu %@ tersambung kembali."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venter på at %@ kobler til igjen."
           }
         }
       }
@@ -62892,6 +66084,12 @@
             "state" : "translated",
             "value" : "Keluarkan %@"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern %@"
+          }
         }
       }
     },
@@ -63009,6 +66207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ditolak"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avvist"
           }
         }
       }
@@ -63128,6 +66332,12 @@
             "state" : "translated",
             "value" : "Butuh 2 kegagalan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krever 2 fiaskoer"
+          }
         }
       }
     },
@@ -63245,6 +66455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Satu malam dengan Goblin di desa, satu kali pemungutan suara"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En natt med en goblin i landsbyen, én avstemning"
           }
         }
       }
@@ -63364,6 +66580,12 @@
             "state" : "translated",
             "value" : "🌙 Malam — Aksi rahasia"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🌙 Natt — hemmelig handling"
+          }
         }
       }
     },
@@ -63481,6 +66703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "☀️ Siang — Diskusi"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "☀️ Dag — debatt"
           }
         }
       }
@@ -63600,6 +66828,12 @@
             "state" : "translated",
             "value" : "🗳️ Pemungutan suara pengusiran"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🗳️ Avstemning om forvisning"
+          }
         }
       }
     },
@@ -63717,6 +66951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hasil"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resultat"
           }
         }
       }
@@ -63836,6 +67076,12 @@
             "state" : "translated",
             "value" : "Pada malam hari setiap orang bertindak diam-diam. Lihat perannya dan selesaikan aksimu, lalu tekan “Berikutnya” untuk menjalankan aksi malam bot."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om natten handler alle i hemmelighet. Se rollen din og fullfør handlingen din, og trykk så «Neste» for å kjøre robotenes nattlige handlinger."
+          }
         }
       }
     },
@@ -63953,6 +67199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Semalam Pencuri Malam dan Si Usil mungkin sudah menukar kartu! Dalam permainan sungguhan, di sinilah kalian berdiskusi. Tekan “Berikutnya” untuk memulai pemungutan suara."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I løpet av natten kan Nattetyven og Spøkefuglen ha byttet kort! I et ekte spill diskuterer man her. Trykk «Neste» for å starte avstemningen."
           }
         }
       }
@@ -64072,6 +67324,12 @@
             "state" : "translated",
             "value" : "Tunjuk dulu orang yang kamu curigai sebagai Goblin, lalu tekan “Berikutnya” untuk melihat suara bot. Yang suaranya terbanyak diusir."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pek først ut den du mistenker for å være en goblin, og trykk så «Neste» for å se robotenes stemmer. Den med flest stemmer forvises."
+          }
         }
       }
     },
@@ -64189,6 +67447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sesama Goblin: %@"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andre goblins: %@"
           }
         }
       }
@@ -64308,6 +67572,12 @@
             "state" : "translated",
             "value" : "Malam telah tiba"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natten har falt på"
+          }
         }
       }
     },
@@ -64425,6 +67695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lihat perannya di tempat yang layarnya tidak terlihat orang lain"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se rollen din der ingen andre kan se skjermen"
           }
         }
       }
@@ -64544,6 +67820,12 @@
             "state" : "translated",
             "value" : "Aksi selesai! Menunggu pemain lain… %lld/%lld"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handling utført! Venter på de andre spillerne … %lld/%lld"
+          }
         }
       }
     },
@@ -64661,6 +67943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kamu satu-satunya Goblin! Kamu boleh melihat 1 kartu tengah"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du er den eneste goblinen! Du kan se på 1 midtkort"
           }
         }
       }
@@ -64780,6 +68068,12 @@
             "state" : "translated",
             "value" : "Tengah nomor %lld"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Midten nr. %lld"
+          }
         }
       }
     },
@@ -64897,6 +68191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lihat kartu tengah nomor %lld"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se midtkort nr. %lld"
           }
         }
       }
@@ -65016,6 +68316,12 @@
             "state" : "translated",
             "value" : "Sudah melihat sesama Goblin"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeg har sett kameratene mine"
+          }
         }
       }
     },
@@ -65133,6 +68439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lihat 1 pemain"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se 1 spiller"
           }
         }
       }
@@ -65252,6 +68564,12 @@
             "state" : "translated",
             "value" : "Lihat 2 kartu tengah"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se 2 midtkort"
+          }
         }
       }
     },
@@ -65369,6 +68687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lihat kartu “%@”"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se kortet til «%@»"
           }
         }
       }
@@ -65488,6 +68812,12 @@
             "state" : "translated",
             "value" : "Lihat 2 kartu tengah"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se de 2 midtkortene"
+          }
         }
       }
     },
@@ -65605,6 +68935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pilih pemilik kartu yang akan dicuri"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg hvem du vil stjele kortet fra"
           }
         }
       }
@@ -65724,6 +69060,12 @@
             "state" : "translated",
             "value" : "Curi kartu “%@”"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stjel kortet til «%@»"
+          }
         }
       }
     },
@@ -65841,6 +69183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pilih dua pemain yang kartunya ditukar (%lld/2)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg to spillere som skal bytte kort (%lld/2)"
           }
         }
       }
@@ -65960,6 +69308,12 @@
             "state" : "translated",
             "value" : "Tukar kartu kedua orang ini"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bytt kortene til disse to"
+          }
         }
       }
     },
@@ -66077,6 +69431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pagi telah tiba"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morgenen er kommet"
           }
         }
       }
@@ -66196,6 +69556,12 @@
             "state" : "translated",
             "value" : "Kartu mungkin berubah semalam!\nTemukan Goblin (berdasarkan kartu saat ini) lewat diskusi."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortene kan ha endret seg i løpet av natten!\nFinn goblinen (etter nåværende kort) gjennom debatt."
+          }
         }
       }
     },
@@ -66313,6 +69679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "(Berdasarkan perananmu saat malam dimulai)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(Etter rollen din ved nattens begynnelse)"
           }
         }
       }
@@ -66432,6 +69804,12 @@
             "state" : "translated",
             "value" : "Yang terjadi semalam (hanya terlihat saat latihan)"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hva som skjedde i løpet av natten (vises bare i øvelsen)"
+          }
         }
       }
     },
@@ -66549,6 +69927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dalam permainan sungguhan tidak ada yang diungkap. Karena itu diskusi penting!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I et ekte spill avsløres ingenting. Derfor er debatten viktig!"
           }
         }
       }
@@ -66668,6 +70052,12 @@
             "state" : "translated",
             "value" : "Diskusi selesai! Mulai pemungutan suara"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Debatten er over! Start avstemningen"
+          }
         }
       }
     },
@@ -66785,6 +70175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Menunggu host memulai pemungutan suara…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Venter på at verten starter avstemningen …"
           }
         }
       }
@@ -66904,6 +70300,12 @@
             "state" : "translated",
             "value" : "Tunjuk orang yang menurutmu Goblin"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pek ut den du tror er goblinen"
+          }
         }
       }
     },
@@ -67021,6 +70423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yang suaranya terbanyak diusir · jika seri semua yang seri · jika semua hanya mendapat 1 suara atau kurang, tidak ada yang diusir"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den med flest stemmer forvises · ved likt alle likestilte · hvis alle har høyst 1 stemme, forvises ingen"
           }
         }
       }
@@ -67140,6 +70548,12 @@
             "state" : "translated",
             "value" : "Pilih mengusir “%@”?"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stemme for å forvise «%@»?"
+          }
         }
       }
     },
@@ -67257,6 +70671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Desa menang!"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Landsbyen vinner!"
           }
         }
       }
@@ -67376,6 +70796,12 @@
             "state" : "translated",
             "value" : "Goblin menang!"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goblinene vinner!"
+          }
         }
       }
     },
@@ -67493,6 +70919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suara: %lld"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stemmer: %lld"
           }
         }
       }
@@ -67613,6 +71045,12 @@
             "state" : "translated",
             "value" : "VoiceOver lebih nyaman"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedre VoiceOver"
+          }
         }
       }
     },
@@ -67731,6 +71169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Saat teks diperbesar, layar tersusun ulang dan tidak terpotong."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når du forstørrer teksten, omorganiseres skjermene i stedet for å bli kuttet."
           }
         }
       }
@@ -67851,6 +71295,12 @@
             "state" : "translated",
             "value" : "Pemberitahuan giliranmu"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varsel når det er din tur"
+          }
         }
       }
     },
@@ -67969,6 +71419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Meski kontras ditingkatkan atau sulit membedakan warna, kamu tetap bisa mengenali pihak dan hasil."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selv med økt kontrast eller vansker med å skille farger kan du se lagene og resultatene."
           }
         }
       }
@@ -68089,6 +71545,12 @@
             "state" : "translated",
             "value" : "Gunakan aplikasi dalam lebih banyak bahasa."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruk appen på flere språk."
+          }
         }
       }
     },
@@ -68207,6 +71669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lebih banyak bahasa"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flere språk"
           }
         }
       }
@@ -68327,6 +71795,12 @@
             "state" : "translated",
             "value" : "Warna dan kontras yang nyaman"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Behagelige farger og kontrast"
+          }
         }
       }
     },
@@ -68445,6 +71919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Respons yang terasa di ujung jari"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Respons du kjenner i fingrene"
           }
         }
       }
@@ -68565,6 +72045,12 @@
             "state" : "translated",
             "value" : "Saat pertama membuka setelah pembaruan, kamu bisa melihat apa yang baru."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Første gang du åpner appen etter en oppdatering, ser du hva som er nytt."
+          }
         }
       }
     },
@@ -68683,6 +72169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yang baru"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyheter"
           }
         }
       }
@@ -68803,6 +72295,12 @@
             "state" : "translated",
             "value" : "Getaran ringan saat kamu mendapat peran atau pemungutan suara selesai."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En lett vibrasjon når du får rollen din eller en avstemning er over."
+          }
         }
       }
     },
@@ -68921,6 +72419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dukungan bahasa Inggris"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Støtte for engelsk"
           }
         }
       }
@@ -69041,6 +72545,12 @@
             "state" : "translated",
             "value" : "Agar bisa bermain dengan teman dari luar negeri, aplikasi juga bisa dipakai dalam bahasa Inggris."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Så du også kan spille med venner fra utlandet, kan appen også brukes på engelsk."
+          }
         }
       }
     },
@@ -69159,6 +72669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kurangi gerakan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reduser bevegelse"
           }
         }
       }
@@ -69279,6 +72795,12 @@
             "state" : "translated",
             "value" : "Dengan “Kurangi Gerakan” aktif, efek layar menjadi lebih tenang."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med «Reduser bevegelse» på blir skjermeffektene roligere."
+          }
         }
       }
     },
@@ -69397,6 +72919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Layar untuk teks besar"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjermer for stor tekst"
           }
         }
       }
@@ -69517,6 +73045,12 @@
             "state" : "translated",
             "value" : "Layar iPhone lipat"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjerm for foldbar iPhone"
+          }
         }
       }
     },
@@ -69635,6 +73169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Di iPhone lipat, layar lebar dibagi menjadi dua bagian."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På en foldbar iPhone deles den brede skjermen i to deler."
           }
         }
       }
@@ -69755,6 +73295,12 @@
             "state" : "translated",
             "value" : "Widget Layar Utama"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgeter på hjem-skjermen"
+          }
         }
       }
     },
@@ -69873,6 +73419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Buka ruangan permainan langsung dari Layar Utama."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åpne et spillrom rett fra hjem-skjermen."
           }
         }
       }
@@ -69993,6 +73545,12 @@
             "state" : "translated",
             "value" : "VoiceOver membacakan kartu peran dan tombol pemungutan suara dengan lengkap dan berurutan."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver leser opp alle rollekort og avstemningsknapper, i riktig rekkefølge."
+          }
         }
       }
     },
@@ -70111,6 +73669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Meski layar mati, kamu mendapat notifikasi saat giliranmu tiba."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selv med slukket skjerm får du et varsel når det er din tur."
           }
         }
       }

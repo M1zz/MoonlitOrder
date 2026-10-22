@@ -81,6 +81,12 @@
             "value" : "月明かりアーケード"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Månearkaden"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -197,6 +203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "近くの友だちのiPhoneと直接つないでパーティゲームを一緒に遊ぶために、ローカルネットワークへのアクセスが必要です。"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilgang til lokalt nettverk trengs for å koble direkte til vennenes iPhoner i nærheten og spille festspill sammen."
           }
         },
         "pt-BR" : {

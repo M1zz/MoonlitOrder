@@ -15,7 +15,7 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "marketing"
 WORK = pathlib.Path("/tmp") / "moonlit-marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id"}
+STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no"}
 
 # (원본 파일, 헤드라인, 서브카피) — 언어마다 따로 쓴다.
 SHOTS = {
@@ -151,6 +151,13 @@ SHOTS = {
         ("03-vote.png", "Setuju<br>atau tolak?", "Saat suara semua orang dibuka, permainan berbalik"),
         ("04-draw.png", "Gambar<br>dan tebak", "Satu menggambar, yang lain menebak di Studio Cahaya Bulan"),
         ("05-result.png", "Makin cepat,<br>makin tinggi skor", "Main bareng hingga 15 teman"),
+    ],
+    "nb": [
+        ("01-home.png", "Møt opp,<br>og spill med en gang", "iPhoner i nærheten kobles sammen uten internett"),
+        ("02-role.png", "Rollen din<br>vet bare du", "Finn de skjulte Skyggene i Månordenen"),
+        ("03-vote.png", "For<br>eller imot?", "I det alles stemmer avsløres, snur spillet"),
+        ("04-draw.png", "Tegn<br>og gjett", "Én tegner, de andre gjetter i Månestudioet"),
+        ("05-result.png", "Jo raskere,<br>jo flere poeng", "Spill med opptil 15 venner"),
     ],
 }
 

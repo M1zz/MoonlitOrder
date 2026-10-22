@@ -116,6 +116,12 @@ Buka Pengaturan lewat ikon roda gigi
 Kirim masukan langsung ke pengembang
 Nilai aplikasi dan cek versinya
 
+### 앱스토어 (Norsk bokmål)
+
+Åpne Innstillinger med tannhjulet
+Send tilbakemelding rett til utvikleren
+Vurder appen og sjekk versjonen
+
 ## 1.0.1 (2026-07-17)
 
 ### 새로운 기능
