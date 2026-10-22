@@ -15,7 +15,7 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "marketing"
 WORK = pathlib.Path("/tmp") / "moonlit-marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant"}
+STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru"}
 
 # (원본 파일, 헤드라인, 서브카피) — 언어마다 따로 쓴다.
 SHOTS = {
@@ -60,6 +60,13 @@ SHOTS = {
         ("03-vote.png", "贊成<br>還是反對?", "大家的票公開的瞬間,局勢翻轉"),
         ("04-draw.png", "畫一畫,<br>猜一猜", "在“月光畫室”,一人畫,其他人猜"),
         ("05-result.png", "猜得越快<br>得分越高", "最多15人一起玩"),
+    ],
+    "ru": [
+        ("01-home.png", "Собрались —<br>играем сразу", "iPhone рядом соединяются без интернета"),
+        ("02-role.png", "Свою роль<br>знаете только вы", "Найдите затаившихся Теней в «Лунном ордене»"),
+        ("03-vote.png", "За<br>или против?", "В момент, когда голоса открыты, всё переворачивается"),
+        ("04-draw.png", "Рисуй<br>и угадывай", "Один рисует, остальные угадывают в «Лунной студии»"),
+        ("05-result.png", "Чем быстрее,<br>тем больше очков", "Играйте вместе до 15 человек"),
     ],
 }
 

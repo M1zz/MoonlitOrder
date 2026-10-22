@@ -38,6 +38,12 @@
             "state" : "translated",
             "value" : "月光遊戲廳"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лунная аркада"
+          }
         }
       }
     },
@@ -77,6 +83,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "需要訪問本地網路,才能直接連線附近朋友的iPhone,一起玩派對遊戲。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нужен доступ к локальной сети, чтобы напрямую подключаться к iPhone друзей рядом и играть вместе."
           }
         }
       }
