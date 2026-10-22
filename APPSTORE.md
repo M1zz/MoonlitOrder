@@ -405,3 +405,61 @@ https://m1zz.github.io/MoonlitOrder/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/MoonlitOrder/
+
+## es
+
+### 이름
+
+Arcade Lunar: Juegos de Fiesta
+
+### 부제
+
+Juega sin internet con amigos
+
+### 키워드
+
+mentiroso,mafia,deducción,dibujar,adivinar,reunión,bluetooth,wifi,multijugador,familia,campamento
+
+### 프로모션 텍스트
+
+¿Están juntos y no saben qué hacer? Conecta iPhone cercanos sin internet y disfruta de cuatro juegos de fiesta para hasta 15 jugadores.
+
+### 설명
+
+Juegos de fiesta que puedes empezar al instante con tu iPhone cuando se reúnen los amigos.
+Sin internet, los iPhone en la misma red Wi-Fi o cercanos se conectan entre sí, y pueden jugar hasta 15 personas.
+
+Cuatro juegos
+Orden Lunar (5–15 jugadores): un juego de identidades ocultas en el que descubres a las Sombras infiltradas entre los miembros de la Orden. El líder elige un equipo, todos votan a favor o en contra, y el equipo juega en secreto éxito o fracaso. ¿Lograrán 3 misiones con éxito o con fracaso primero?
+Juego del Mentiroso (3–15 jugadores): todos reciben la misma palabra secreta, menos una persona. Descubre al Mentiroso que no la conoce escuchando la conversación.
+Noche sin Luna (3–15 jugadores): una noche con un Trasgo en el pueblo. De noche cada quien actúa en secreto según su rol y, al amanecer, debaten y votan para encontrar al Trasgo.
+Estudio Lunar (3–15 jugadores): una persona dibuja la palabra secreta y los demás la adivinan. Cuanto antes aciertes, más puntos consigues.
+
+En tu propia pantalla, en secreto
+Los roles y las palabras solo aparecen en tu iPhone. No hace falta repartir cartas ni cerrar los ojos.
+En la votación se ve enseguida quién ya votó. A quién votó cada uno sigue siendo secreto hasta la revelación.
+
+Fácil para principiantes
+Cada juego tiene un modo de práctica. Aprende las reglas jugando paso a paso con bots.
+
+Sigue donde lo dejaste
+Si la app se cierra o se corta la conexión, «Continuar» en la pantalla de inicio te devuelve a tu partida, con tu rol y tus puntos intactos.
+Los dispositivos se conectan entre sí, así que el juego es estable incluso con mucha gente.
+
+Herramientas para el anfitrión
+El anfitrión puede sacar en cualquier momento a un jugador que no responde, y la partida se recalcula con los restantes para que no se detenga.
+En el modo anfitrión puedes avanzar una fase atascada y gestionar a los jugadores.
+
+Todos los juegos son gratis y empiezan sin cuenta.
+
+### 지원 URL
+
+https://m1zz.github.io/MoonlitOrder/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/MoonlitOrder/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/MoonlitOrder/

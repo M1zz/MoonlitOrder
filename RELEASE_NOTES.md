@@ -44,6 +44,12 @@ Rate the app and check your version
 Отзыв разработчику — в пару касаний
 Оцените приложение и проверьте версию
 
+### 앱스토어 (Español)
+
+Abre Ajustes con el engranaje de inicio
+Envía tus comentarios al desarrollador
+Valora la app y consulta la versión
+
 ## 1.0.1 (2026-07-17)
 
 ### 새로운 기능

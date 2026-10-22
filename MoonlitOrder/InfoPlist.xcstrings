@@ -9,22 +9,34 @@
             "value" : "달빛 오락실"
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Moonlit Arcade"
-          }
-        },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Moonlit Arcade"
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moonlit Arcade"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arcade Lunar"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "月明かりアーケード"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лунная аркада"
           }
         },
         "zh-Hans" : {
@@ -38,12 +50,6 @@
             "state" : "translated",
             "value" : "月光遊戲廳"
           }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Лунная аркада"
-          }
         }
       }
     },
@@ -55,22 +61,34 @@
             "value" : "주변 친구들의 아이폰과 직접 연결해 보드게임을 함께 플레이하기 위해 로컬 네트워크 접근이 필요합니다."
           }
         },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Local network access is needed to connect directly with the iPhones of friends nearby and play party games together."
-          }
-        },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Local network access is needed to connect directly with the iPhones of friends nearby and play party games together."
           }
         },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Local network access is needed to connect directly with the iPhones of friends nearby and play party games together."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se necesita acceso a la red local para conectarte directamente con los iPhone de tus amigos cercanos y jugar juntos."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "近くの友だちのiPhoneと直接つないでパーティゲームを一緒に遊ぶために、ローカルネットワークへのアクセスが必要です。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нужен доступ к локальной сети, чтобы напрямую подключаться к iPhone друзей рядом и играть вместе."
           }
         },
         "zh-Hans" : {
@@ -83,12 +101,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "需要訪問本地網路,才能直接連線附近朋友的iPhone,一起玩派對遊戲。"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Нужен доступ к локальной сети, чтобы напрямую подключаться к iPhone друзей рядом и играть вместе."
           }
         }
       }
