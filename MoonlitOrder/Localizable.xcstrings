@@ -122,6 +122,12 @@
             "state" : "translated",
             "value" : "Måneharen"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maanhaas"
+          }
         }
       }
     },
@@ -245,6 +251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nattbris"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nachtbries"
           }
         }
       }
@@ -370,6 +382,12 @@
             "state" : "translated",
             "value" : "Melkeveien"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Melkweg"
+          }
         }
       }
     },
@@ -493,6 +511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avtagende måne"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afnemende Maan"
           }
         }
       }
@@ -618,6 +642,12 @@
             "state" : "translated",
             "value" : "Stjernevokter"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sterrenwachter"
+          }
         }
       }
     },
@@ -741,6 +771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Daggry"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ochtendgloren"
           }
         }
       }
@@ -866,6 +902,12 @@
             "state" : "translated",
             "value" : "Snikmorderen forlot rommet. Månordenen vinner."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De Moordenaar heeft de kamer verlaten. De Maanorde wint."
+          }
         }
       }
     },
@@ -989,6 +1031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spiller"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speler"
           }
         }
       }
@@ -1114,6 +1162,12 @@
             "state" : "translated",
             "value" : "Laget ble avvist %lld ganger på rad. Skyggene vinner."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het team is %lld keer achter elkaar afgewezen. De Schaduwen winnen."
+          }
         }
       }
     },
@@ -1237,6 +1291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tre oppdrag mislyktes. Skyggene vinner."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drie missies zijn mislukt. De Schaduwen winnen."
           }
         }
       }
@@ -1362,6 +1422,12 @@
             "state" : "translated",
             "value" : "Snikmorderen fant Seeren, «%@», med presisjon. Skyggene snur spillet!"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De Moordenaar heeft de Ziener, ‘%@’, precies gevonden. De Schaduwen keren het spel!"
+          }
         }
       }
     },
@@ -1485,6 +1551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Snikmorderen bommet. «%@» var ikke Seeren. Månordenen vinner!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De Moordenaar greep mis. ‘%@’ was niet de Ziener. De Maanorde wint!"
           }
         }
       }
@@ -1610,6 +1682,12 @@
             "state" : "translated",
             "value" : "Alle regnes som å ha sett rollen sin. Går videre til lagvalg."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iedereen geldt als klaar met het bekijken van de rol. Door naar de teamkeuze."
+          }
         }
       }
     },
@@ -1733,6 +1811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lederen som ikke valgte lag, hoppes over, og turen går til neste."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De leider die geen team koos, wordt overgeslagen en de beurt gaat naar de volgende."
           }
         }
       }
@@ -1858,6 +1942,12 @@
             "state" : "translated",
             "value" : "De som ikke har stemt, teller som for. Stemmene telles opp."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wie niet gestemd heeft, telt als voor. De stemmen worden geteld."
+          }
         }
       }
     },
@@ -1981,6 +2071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lagmedlemmer som ikke spilte et kort, teller som suksess."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teamleden die geen kaart speelden, tellen als succes."
           }
         }
       }
@@ -2106,6 +2202,12 @@
             "state" : "translated",
             "value" : "Går videre til neste fase."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Door naar de volgende fase."
+          }
         }
       }
     },
@@ -2229,6 +2331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Snikmorderen regnes som å ha gitt opp. Månordenen vinner."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De Moordenaar geldt als opgegeven. De Maanorde wint."
           }
         }
       }
@@ -2354,6 +2462,12 @@
             "state" : "translated",
             "value" : "Snikmorderen pekte ikke ut Seeren. Månordenen vinner."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De Moordenaar heeft de Ziener niet aangewezen. De Maanorde wint."
+          }
         }
       }
     },
@@ -2477,6 +2591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Løgneren forlot rommet. Borgerne vinner!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De Leugenaar heeft de kamer verlaten. De burgers winnen!"
           }
         }
       }
@@ -2602,6 +2722,12 @@
             "state" : "translated",
             "value" : "Stemmene ble delt, og Løgneren slapp unna!"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De stemmen waren verdeeld en de Leugenaar kwam weg!"
+          }
         }
       }
     },
@@ -2725,6 +2851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Feil person ble pekt ut!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De verkeerde persoon is aangewezen!"
           }
         }
       }
@@ -2850,6 +2982,12 @@
             "state" : "translated",
             "value" : "Løgneren gjettet ordet! Løgneren snur spillet!"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De Leugenaar raadde het woord! De Leugenaar keert het spel!"
+          }
         }
       }
     },
@@ -2973,6 +3111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Løgneren gjettet ikke ordet. Borgerne vinner!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De Leugenaar raadde het woord niet. De burgers winnen!"
           }
         }
       }
@@ -3098,6 +3242,12 @@
             "state" : "translated",
             "value" : "Løgner"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leugenaar"
+          }
         }
       }
     },
@@ -3221,6 +3371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Borger"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Burger"
           }
         }
       }
@@ -3346,6 +3502,12 @@
             "state" : "translated",
             "value" : "Ord: %@ · Kategori: %@"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Woord: %@ · Categorie: %@"
+          }
         }
       }
     },
@@ -3469,6 +3631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alle regnes som å ha sett ordet. Går videre til beskrivelsesfasen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iedereen geldt als klaar met het bekijken van het woord. Door naar de beschrijffase."
           }
         }
       }
@@ -3594,6 +3762,12 @@
             "state" : "translated",
             "value" : "Nåværende talers tur er over, og turen går til neste."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De beurt van de huidige spreker eindigt en gaat naar de volgende."
+          }
         }
       }
     },
@@ -3717,6 +3891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De som ikke har stemt, teller som blanke. Stemmene telles opp."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wie niet gestemd heeft, telt als onthouding. De stemmen worden geteld."
           }
         }
       }
@@ -3842,6 +4022,12 @@
             "state" : "translated",
             "value" : "Løgneren regnes som å ha gitt opp å gjette. Borgerne vinner."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De Leugenaar geldt als opgegeven met raden. De burgers winnen."
+          }
         }
       }
     },
@@ -3965,6 +4151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Løgneren kunne ikke svare. Borgerne vinner!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De Leugenaar kon niet antwoorden. De burgers winnen!"
           }
         }
       }
@@ -4090,6 +4282,12 @@
             "state" : "translated",
             "value" : "En valp?"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een puppy?"
+          }
         }
       }
     },
@@ -4213,6 +4411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hmm… en bil"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hmm… een auto"
           }
         }
       }
@@ -4338,6 +4542,12 @@
             "state" : "translated",
             "value" : "Kanskje en bjørn?"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Misschien een beer?"
+          }
         }
       }
     },
@@ -4461,6 +4671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aner ikke, haha"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen idee haha"
           }
         }
       }
@@ -4586,6 +4802,12 @@
             "state" : "translated",
             "value" : "Et eple?"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een appel?"
+          }
         }
       }
     },
@@ -4706,6 +4928,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hmm…"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hmm…"
@@ -4834,6 +5062,12 @@
             "state" : "translated",
             "value" : "Du gjettet riktig! 🎉"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goed geraden! 🎉"
+          }
         }
       }
     },
@@ -4957,6 +5191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tegner"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekenaar"
           }
         }
       }
@@ -5082,6 +5322,12 @@
             "state" : "translated",
             "value" : "Ord: %@"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Woord: %@"
+          }
         }
       }
     },
@@ -5205,6 +5451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ordforslag: %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Woordopties: %@"
           }
         }
       }
@@ -5330,6 +5582,12 @@
             "state" : "translated",
             "value" : "Et ord velges tilfeldig i stedet for tegneren, og tegningen starter."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In plaats van de Tekenaar wordt willekeurig een woord gekozen en het tekenen begint."
+          }
         }
       }
     },
@@ -5453,6 +5711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Runden avsluttes, og poengene regnes ut."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De ronde eindigt en de punten worden geteld."
           }
         }
       }
@@ -5578,6 +5842,12 @@
             "state" : "translated",
             "value" : "Går videre til neste runde."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Door naar de volgende ronde."
+          }
         }
       }
     },
@@ -5701,6 +5971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🔥 Goblinen %@ åpnet øynene i mørket."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔥 Goblin %@ opende zijn ogen in het donker."
           }
         }
       }
@@ -5826,6 +6102,12 @@
             "state" : "translated",
             "value" : "👁 Sjamanen %@ kikket i hemmelighet på et kort."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "👁 Sjamaan %@ keek stiekem naar een kaart."
+          }
         }
       }
     },
@@ -5949,6 +6231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🤝 Nattetyven %@ stjal kortet til %@, og de byttet!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🤝 Nachtdief %@ stal de kaart van %@ en ze wisselden!"
           }
         }
       }
@@ -6074,6 +6362,12 @@
             "state" : "translated",
             "value" : "🔀 Spøkefuglen %@ byttet kortene til %@ og %@!"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔀 Grappenmaker %@ wisselde de kaarten van %@ en %@!"
+          }
         }
       }
     },
@@ -6197,6 +6491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Midtkort nr. %lld er «%@»."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Middenkaart nr. %lld is ‘%@’."
           }
         }
       }
@@ -6322,6 +6622,12 @@
             "state" : "translated",
             "value" : "Kortet til %@ er «%@»."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De kaart van %@ is ‘%@’."
+          }
         }
       }
     },
@@ -6445,6 +6751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De 2 midtkortene: %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De 2 middenkaarten: %@"
           }
         }
       }
@@ -6570,6 +6882,12 @@
             "state" : "translated",
             "value" : "Du stjal kortet til %@. Nå er du «%@»."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je hebt de kaart van %@ gestolen. Je bent nu ‘%@’."
+          }
         }
       }
     },
@@ -6693,6 +7011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du byttet kortene til %@ og %@."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je hebt de kaarten van %@ en %@ gewisseld."
           }
         }
       }
@@ -6818,6 +7142,12 @@
             "state" : "translated",
             "value" : "En goblin ble forvist. Landsbyen vinner!"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een goblin is verbannen. Het Dorp wint!"
+          }
         }
       }
     },
@@ -6941,6 +7271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alle goblinene lå i midten, og ingen ble forvist. Landsbyen vinner!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle goblins lagen in het midden en niemand is verbannen. Het Dorp wint!"
           }
         }
       }
@@ -7066,6 +7402,12 @@
             "state" : "translated",
             "value" : "Ingen ble forvist, men en goblin gjemte seg. Goblinene vinner!"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niemand is verbannen, maar er zat een goblin verstopt. De Goblins winnen!"
+          }
         }
       }
     },
@@ -7189,6 +7531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En uskyldig ble forvist. Goblinene vinner!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een onschuldige is verbannen. De Goblins winnen!"
           }
         }
       }
@@ -7314,6 +7662,12 @@
             "state" : "translated",
             "value" : "Midtkort: %@"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Middenkaarten: %@"
+          }
         }
       }
     },
@@ -7437,6 +7791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Den som ikke handlet, avslutter natten uten å bruke evnen sin."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wie niets deed, eindigt de nacht zonder zijn kracht te gebruiken."
           }
         }
       }
@@ -7562,6 +7922,12 @@
             "state" : "translated",
             "value" : "Debatten avsluttes, og avstemningen om forvisning starter."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De discussie eindigt en de stemming over de verbanning begint."
+          }
         }
       }
     },
@@ -7685,6 +8051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Månordenen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maanorde"
           }
         }
       }
@@ -7810,6 +8182,12 @@
             "state" : "translated",
             "value" : "Skyggene"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schaduwen"
+          }
         }
       }
     },
@@ -7933,6 +8311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seer"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ziener"
           }
         }
       }
@@ -8058,6 +8442,12 @@
             "state" : "translated",
             "value" : "Ordensmedlem"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordelid"
+          }
         }
       }
     },
@@ -8181,6 +8571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Snikmorder"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moordenaar"
           }
         }
       }
@@ -8306,6 +8702,12 @@
             "state" : "translated",
             "value" : "Skyggeagent"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schaduwagent"
+          }
         }
       }
     },
@@ -8429,6 +8831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du vet hvem skyggeagentene er. Men blir du avslørt, kan du bli myrdet til slutt, så led lagene diskret."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je weet wie de schaduwagenten zijn. Maar word je ontmaskerd, dan kun je aan het eind vermoord worden, dus leid de teams discreet."
           }
         }
       }
@@ -8554,6 +8962,12 @@
             "state" : "translated",
             "value" : "Du er et lojalt medlem av Månordenen. Bruk debatten og stemmehistorikken til å finne skyggeagentene og få 3 oppdrag til å lykkes."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je bent een trouw lid van de Maanorde. Gebruik de discussie en het stemoverzicht om de schaduwagenten te vinden en 3 missies te laten slagen."
+          }
         }
       }
     },
@@ -8677,6 +9091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du er Skyggenes klinge. Du kjenner de andre agentene, og selv om ordenen klarer 3 oppdrag, vinner du hvis du peker ut Seeren riktig."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je bent het zwaard van de Schaduwen. Je kent de andere agenten en zelfs als de Orde 3 missies haalt, win je door de Ziener juist aan te wijzen."
           }
         }
       }
@@ -8802,6 +9222,12 @@
             "state" : "translated",
             "value" : "Du er en forræder som skjuler seg i mørket. Du kjenner de andre skyggene. Skjul identiteten din, infiltrer lagene og få oppdragene til å mislykkes."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je bent een verrader die zich in het donker verbergt. Je kent de andere Schaduwen. Verberg je identiteit, infiltreer de teams en laat missies mislukken."
+          }
         }
       }
     },
@@ -8925,6 +9351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 vellykkede oppdrag (men du taper hvis Seeren myrdes)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 geslaagde missies (maar je verliest als de Ziener wordt vermoord)"
           }
         }
       }
@@ -9050,6 +9482,12 @@
             "state" : "translated",
             "value" : "3 mislykkede oppdrag · 5 avviste lag på rad · mord på Seeren"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 mislukte missies · 5 teams achter elkaar afgewezen · moord op de Ziener"
+          }
         }
       }
     },
@@ -9173,6 +9611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mat"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eten"
           }
         }
       }
@@ -9298,6 +9742,12 @@
             "state" : "translated",
             "value" : "Kimchigryte"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kimchi-stoofpot"
+          }
         }
       }
     },
@@ -9422,6 +9872,12 @@
             "state" : "translated",
             "value" : "Grillet svinebryst"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gegrilde buikspek"
+          }
         }
       }
     },
@@ -9542,6 +9998,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tteokbokki"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tteokbokki"
@@ -9670,6 +10132,12 @@
             "state" : "translated",
             "value" : "Stekt kylling"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebakken kip"
+          }
         }
       }
     },
@@ -9790,6 +10258,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pizza"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pizza"
@@ -9918,6 +10392,12 @@
             "state" : "translated",
             "value" : "Sushi"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sushi"
+          }
         }
       }
     },
@@ -10038,6 +10518,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ramen"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ramen"
@@ -10166,6 +10652,12 @@
             "state" : "translated",
             "value" : "Bibimbap"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibimbap"
+          }
         }
       }
     },
@@ -10289,6 +10781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kalde nudler"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koude noedels"
           }
         }
       }
@@ -10414,6 +10912,12 @@
             "state" : "translated",
             "value" : "Ribbesuppe"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ribbetjessoep"
+          }
         }
       }
     },
@@ -10534,6 +11038,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasta"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pasta"
@@ -10662,6 +11172,12 @@
             "state" : "translated",
             "value" : "Hamburger"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamburger"
+          }
         }
       }
     },
@@ -10782,6 +11298,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gimbap"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gimbap"
@@ -10910,6 +11432,12 @@
             "state" : "translated",
             "value" : "Koreansk blodpølse"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koreaanse bloedworst"
+          }
         }
       }
     },
@@ -11033,6 +11561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Grisetæ"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varkenspoten"
           }
         }
       }
@@ -11158,6 +11692,12 @@
             "state" : "translated",
             "value" : "Salat"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salade"
+          }
         }
       }
     },
@@ -11281,6 +11821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dyr"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dieren"
           }
         }
       }
@@ -11406,6 +11952,12 @@
             "state" : "translated",
             "value" : "Elefant"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olifant"
+          }
         }
       }
     },
@@ -11529,6 +12081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sjiraff"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giraffe"
           }
         }
       }
@@ -11654,6 +12212,12 @@
             "state" : "translated",
             "value" : "Pingvin"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pinguïn"
+          }
         }
       }
     },
@@ -11778,6 +12342,12 @@
             "state" : "translated",
             "value" : "Tiger"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tijger"
+          }
         }
       }
     },
@@ -11898,6 +12468,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panda"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Panda"
@@ -12026,6 +12602,12 @@
             "state" : "translated",
             "value" : "Pinnsvin"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Egel"
+          }
         }
       }
     },
@@ -12149,6 +12731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kenguru"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kangoeroe"
           }
         }
       }
@@ -12274,6 +12862,12 @@
             "state" : "translated",
             "value" : "Ugle"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uil"
+          }
         }
       }
     },
@@ -12397,6 +12991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delfin"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dolfijn"
           }
         }
       }
@@ -12522,6 +13122,12 @@
             "state" : "translated",
             "value" : "Blekksprut"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Octopus"
+          }
         }
       }
     },
@@ -12645,6 +13251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ekorn"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eekhoorn"
           }
         }
       }
@@ -12770,6 +13382,12 @@
             "state" : "translated",
             "value" : "Krokodille"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krokodil"
+          }
         }
       }
     },
@@ -12893,6 +13511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kamel"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kameel"
           }
         }
       }
@@ -13018,6 +13642,12 @@
             "state" : "translated",
             "value" : "Oter"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otter"
+          }
         }
       }
     },
@@ -13141,6 +13771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Papegøye"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papegaai"
           }
         }
       }
@@ -13266,6 +13902,12 @@
             "state" : "translated",
             "value" : "Muldvarp"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mol"
+          }
         }
       }
     },
@@ -13389,6 +14031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Steder"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plaatsen"
           }
         }
       }
@@ -13514,6 +14162,12 @@
             "state" : "translated",
             "value" : "Fornøyelsespark"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pretpark"
+          }
         }
       }
     },
@@ -13637,6 +14291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bibliotek"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliotheek"
           }
         }
       }
@@ -13762,6 +14422,12 @@
             "state" : "translated",
             "value" : "Koreansk spa"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koreaanse spa"
+          }
         }
       }
     },
@@ -13885,6 +14551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kino"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bioscoop"
           }
         }
       }
@@ -14010,6 +14682,12 @@
             "state" : "translated",
             "value" : "Nærbutikk"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buurtwinkel"
+          }
         }
       }
     },
@@ -14133,6 +14811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "T-banestasjon"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metrostation"
           }
         }
       }
@@ -14258,6 +14942,12 @@
             "state" : "translated",
             "value" : "Frisørsalong"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapsalon"
+          }
         }
       }
     },
@@ -14381,6 +15071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sykehus"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ziekenhuis"
           }
         }
       }
@@ -14506,6 +15202,12 @@
             "state" : "translated",
             "value" : "Skole"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "School"
+          }
         }
       }
     },
@@ -14629,6 +15331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Campingplass"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camping"
           }
         }
       }
@@ -14754,6 +15462,12 @@
             "state" : "translated",
             "value" : "Svømmehall"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zwembad"
+          }
         }
       }
     },
@@ -14877,6 +15591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flyplass"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luchthaven"
           }
         }
       }
@@ -15002,6 +15722,12 @@
             "state" : "translated",
             "value" : "Marked"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markt"
+          }
         }
       }
     },
@@ -15126,6 +15852,12 @@
             "state" : "translated",
             "value" : "Kafé"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Café"
+          }
         }
       }
     },
@@ -15246,6 +15978,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karaoke"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Karaoke"
@@ -15374,6 +16112,12 @@
             "state" : "translated",
             "value" : "Treningssenter"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sportschool"
+          }
         }
       }
     },
@@ -15497,6 +16241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yrker"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beroepen"
           }
         }
       }
@@ -15622,6 +16372,12 @@
             "state" : "translated",
             "value" : "Brannmann"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brandweerman"
+          }
         }
       }
     },
@@ -15745,6 +16501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lege"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arts"
           }
         }
       }
@@ -15870,6 +16632,12 @@
             "state" : "translated",
             "value" : "Kokk"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kok"
+          }
         }
       }
     },
@@ -15993,6 +16761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Programmerer"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programmeur"
           }
         }
       }
@@ -16118,6 +16892,12 @@
             "state" : "translated",
             "value" : "Youtuber"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "YouTuber"
+          }
         }
       }
     },
@@ -16241,6 +17021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lærer"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leraar"
           }
         }
       }
@@ -16366,6 +17152,12 @@
             "state" : "translated",
             "value" : "Politi"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Politieagent"
+          }
         }
       }
     },
@@ -16489,6 +17281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bonde"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boer"
           }
         }
       }
@@ -16614,6 +17412,12 @@
             "state" : "translated",
             "value" : "Pilot"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piloot"
+          }
         }
       }
     },
@@ -16737,6 +17541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Frisør"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapper"
           }
         }
       }
@@ -16862,6 +17672,12 @@
             "state" : "translated",
             "value" : "Sanger"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zanger"
+          }
         }
       }
     },
@@ -16985,6 +17801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utøver"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atleet"
           }
         }
       }
@@ -17110,6 +17932,12 @@
             "state" : "translated",
             "value" : "Fotograf"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotograaf"
+          }
         }
       }
     },
@@ -17233,6 +18061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Advokat"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Advocaat"
           }
         }
       }
@@ -17358,6 +18192,12 @@
             "state" : "translated",
             "value" : "Fisker"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visser"
+          }
         }
       }
     },
@@ -17478,6 +18318,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barista"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Barista"
@@ -17606,6 +18452,12 @@
             "state" : "translated",
             "value" : "Ting"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voorwerpen"
+          }
         }
       }
     },
@@ -17729,6 +18581,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Paraply"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paraplu"
           }
         }
       }
@@ -17854,6 +18712,12 @@
             "state" : "translated",
             "value" : "Vifte"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ventilator"
+          }
         }
       }
     },
@@ -17977,6 +18841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kjøleskap"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koelkast"
           }
         }
       }
@@ -18102,6 +18972,12 @@
             "state" : "translated",
             "value" : "Tannbørste"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tandenborstel"
+          }
         }
       }
     },
@@ -18225,6 +19101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pute"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kussen"
           }
         }
       }
@@ -18350,6 +19232,12 @@
             "state" : "translated",
             "value" : "Fjernkontroll"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afstandsbediening"
+          }
         }
       }
     },
@@ -18473,6 +19361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Termokopp"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thermosbeker"
           }
         }
       }
@@ -18598,6 +19492,12 @@
             "state" : "translated",
             "value" : "Øreplugger"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oordopjes"
+          }
         }
       }
     },
@@ -18721,6 +19621,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Saks"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schaar"
           }
         }
       }
@@ -18846,6 +19752,12 @@
             "state" : "translated",
             "value" : "Teppe"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deken"
+          }
         }
       }
     },
@@ -18969,6 +19881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Speil"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spiegel"
           }
         }
       }
@@ -19094,6 +20012,12 @@
             "state" : "translated",
             "value" : "Klokke"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klok"
+          }
         }
       }
     },
@@ -19217,6 +20141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lader"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oplader"
           }
         }
       }
@@ -19342,6 +20272,12 @@
             "state" : "translated",
             "value" : "Tøfler"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pantoffels"
+          }
         }
       }
     },
@@ -19465,6 +20401,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Munnbind"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mondkapje"
           }
         }
       }
@@ -19590,6 +20532,12 @@
             "state" : "translated",
             "value" : "Lommebok"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Portemonnee"
+          }
         }
       }
     },
@@ -19710,6 +20658,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sport"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sport"
@@ -19838,6 +20792,12 @@
             "state" : "translated",
             "value" : "Fotball"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voetbal"
+          }
         }
       }
     },
@@ -19961,6 +20921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Baseball"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Honkbal"
           }
         }
       }
@@ -20086,6 +21052,12 @@
             "state" : "translated",
             "value" : "Basketball"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basketbal"
+          }
         }
       }
     },
@@ -20206,6 +21178,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Badminton"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Badminton"
@@ -20334,6 +21312,12 @@
             "state" : "translated",
             "value" : "Svømming"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zwemmen"
+          }
         }
       }
     },
@@ -20458,6 +21442,12 @@
             "state" : "translated",
             "value" : "Bowling"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bowlen"
+          }
         }
       }
     },
@@ -20578,6 +21568,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taekwondo"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taekwondo"
@@ -20706,6 +21702,12 @@
             "state" : "translated",
             "value" : "Golf"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Golf"
+          }
         }
       }
     },
@@ -20829,6 +21831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bordtennis"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tafeltennis"
           }
         }
       }
@@ -20954,6 +21962,12 @@
             "state" : "translated",
             "value" : "Ski"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skiën"
+          }
         }
       }
     },
@@ -21078,6 +22092,12 @@
             "state" : "translated",
             "value" : "Klatring"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klimmen"
+          }
         }
       }
     },
@@ -21198,6 +22218,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yoga"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yoga"
@@ -21326,6 +22352,12 @@
             "state" : "translated",
             "value" : "Boksing"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boksen"
+          }
         }
       }
     },
@@ -21449,6 +22481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bueskyting"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boogschieten"
           }
         }
       }
@@ -21574,6 +22612,12 @@
             "state" : "translated",
             "value" : "Fekting"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schermen"
+          }
         }
       }
     },
@@ -21697,6 +22741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maraton"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marathon"
           }
         }
       }
@@ -21822,6 +22872,12 @@
             "state" : "translated",
             "value" : "Kanin"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konijn"
+          }
         }
       }
     },
@@ -21945,6 +23001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Katt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kat"
           }
         }
       }
@@ -22070,6 +23132,12 @@
             "state" : "translated",
             "value" : "Hund"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hond"
+          }
         }
       }
     },
@@ -22193,6 +23261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Løve"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leeuw"
           }
         }
       }
@@ -22318,6 +23392,12 @@
             "state" : "translated",
             "value" : "Bjørn"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beer"
+          }
         }
       }
     },
@@ -22441,6 +23521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Snegle"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slak"
           }
         }
       }
@@ -22566,6 +23652,12 @@
             "state" : "translated",
             "value" : "Slange"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slang"
+          }
         }
       }
     },
@@ -22689,6 +23781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skilpadde"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schildpad"
           }
         }
       }
@@ -22814,6 +23912,12 @@
             "state" : "translated",
             "value" : "Sommerfugl"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vlinder"
+          }
         }
       }
     },
@@ -22937,6 +24041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fisk"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vis"
           }
         }
       }
@@ -23062,6 +24172,12 @@
             "state" : "translated",
             "value" : "Iskrem"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IJs"
+          }
         }
       }
     },
@@ -23185,6 +24301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kake"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taart"
           }
         }
       }
@@ -23310,6 +24432,12 @@
             "state" : "translated",
             "value" : "Banan"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banaan"
+          }
         }
       }
     },
@@ -23433,6 +24561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vannmelon"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watermeloen"
           }
         }
       }
@@ -23558,6 +24692,12 @@
             "state" : "translated",
             "value" : "Speilegg"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spiegelei"
+          }
         }
       }
     },
@@ -23681,6 +24821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Smultring"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Donut"
           }
         }
       }
@@ -23806,6 +24952,12 @@
             "state" : "translated",
             "value" : "Eple"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appel"
+          }
         }
       }
     },
@@ -23929,6 +25081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pølse i brød"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hotdog"
           }
         }
       }
@@ -24054,6 +25212,12 @@
             "state" : "translated",
             "value" : "Druer"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Druiven"
+          }
         }
       }
     },
@@ -24177,6 +25341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gulrot"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wortel"
           }
         }
       }
@@ -24302,6 +25472,12 @@
             "state" : "translated",
             "value" : "Gjenstander"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dingen"
+          }
         }
       }
     },
@@ -24425,6 +25601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Briller"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bril"
           }
         }
       }
@@ -24550,6 +25732,12 @@
             "state" : "translated",
             "value" : "Sykkel"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fiets"
+          }
         }
       }
     },
@@ -24673,6 +25861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stol"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stoel"
           }
         }
       }
@@ -24798,6 +25992,12 @@
             "state" : "translated",
             "value" : "Nøkkel"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sleutel"
+          }
         }
       }
     },
@@ -24921,6 +26121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lyspære"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gloeilamp"
           }
         }
       }
@@ -25046,6 +26252,12 @@
             "state" : "translated",
             "value" : "Ballong"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ballon"
+          }
         }
       }
     },
@@ -25169,6 +26381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stearinlys"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaars"
           }
         }
       }
@@ -25294,6 +26512,12 @@
             "state" : "translated",
             "value" : "Gaveeske"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cadeaudoos"
+          }
         }
       }
     },
@@ -25417,6 +26641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kost"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bezem"
           }
         }
       }
@@ -25542,6 +26772,12 @@
             "state" : "translated",
             "value" : "Hammer"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamer"
+          }
         }
       }
     },
@@ -25665,6 +26901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blyant"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potlood"
           }
         }
       }
@@ -25790,6 +27032,12 @@
             "state" : "translated",
             "value" : "Krus"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beker"
+          }
         }
       }
     },
@@ -25913,6 +27161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kjøretøy"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voertuigen"
           }
         }
       }
@@ -26038,6 +27292,12 @@
             "state" : "translated",
             "value" : "Bil"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto"
+          }
         }
       }
     },
@@ -26161,6 +27421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fly"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vliegtuig"
           }
         }
       }
@@ -26286,6 +27552,12 @@
             "state" : "translated",
             "value" : "Skip"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schip"
+          }
         }
       }
     },
@@ -26409,6 +27681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tog"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trein"
           }
         }
       }
@@ -26534,6 +27812,12 @@
             "state" : "translated",
             "value" : "Rakett"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raket"
+          }
         }
       }
     },
@@ -26654,6 +27938,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helikopter"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Helikopter"
@@ -26782,6 +28072,12 @@
             "state" : "translated",
             "value" : "Ubåt"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onderzeeër"
+          }
         }
       }
     },
@@ -26905,6 +28201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Luftballong"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luchtballon"
           }
         }
       }
@@ -27030,6 +28332,12 @@
             "state" : "translated",
             "value" : "Natur"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natuur"
+          }
         }
       }
     },
@@ -27153,6 +28461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tre"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boom"
           }
         }
       }
@@ -27278,6 +28592,12 @@
             "state" : "translated",
             "value" : "Blomst"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloem"
+          }
         }
       }
     },
@@ -27401,6 +28721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sol"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zon"
           }
         }
       }
@@ -27526,6 +28852,12 @@
             "state" : "translated",
             "value" : "Sky"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wolk"
+          }
         }
       }
     },
@@ -27649,6 +28981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Regnbue"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regenboog"
           }
         }
       }
@@ -27774,6 +29112,12 @@
             "state" : "translated",
             "value" : "Fjell"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berg"
+          }
         }
       }
     },
@@ -27897,6 +29241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stjerne"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ster"
           }
         }
       }
@@ -28022,6 +29372,12 @@
             "state" : "translated",
             "value" : "Snømann"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sneeuwpop"
+          }
         }
       }
     },
@@ -28145,6 +29501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lyn"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bliksem"
           }
         }
       }
@@ -28270,6 +29632,12 @@
             "state" : "translated",
             "value" : "Vulkan"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vulkaan"
+          }
         }
       }
     },
@@ -28393,6 +29761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Øy"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eiland"
           }
         }
       }
@@ -28518,6 +29892,12 @@
             "state" : "translated",
             "value" : "Måne"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maan"
+          }
         }
       }
     },
@@ -28642,6 +30022,12 @@
             "state" : "translated",
             "value" : "Figurer"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personages"
+          }
         }
       }
     },
@@ -28762,6 +30148,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Robot"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Robot"
@@ -28890,6 +30282,12 @@
             "state" : "translated",
             "value" : "Spøkelse"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spook"
+          }
         }
       }
     },
@@ -29013,6 +30411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Krone"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kroon"
           }
         }
       }
@@ -29138,6 +30542,12 @@
             "state" : "translated",
             "value" : "Pirat"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piraat"
+          }
         }
       }
     },
@@ -29258,6 +30668,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Engel"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Engel"
@@ -29386,6 +30802,12 @@
             "state" : "translated",
             "value" : "Trollmann"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tovenaar"
+          }
         }
       }
     },
@@ -29509,6 +30931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dinosaur"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dinosaurus"
           }
         }
       }
@@ -29634,6 +31062,12 @@
             "state" : "translated",
             "value" : "Romvesen"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alien"
+          }
         }
       }
     },
@@ -29757,6 +31191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Havfrue"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeemeermin"
           }
         }
       }
@@ -29882,6 +31322,12 @@
             "state" : "translated",
             "value" : "Julenisse"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kerstman"
+          }
         }
       }
     },
@@ -30002,6 +31448,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goblin"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Goblin"
@@ -30130,6 +31582,12 @@
             "state" : "translated",
             "value" : "Sjaman"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sjamaan"
+          }
         }
       }
     },
@@ -30253,6 +31711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nattetyv"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nachtdief"
           }
         }
       }
@@ -30378,6 +31842,12 @@
             "state" : "translated",
             "value" : "Spøkefugl"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grappenmaker"
+          }
         }
       }
     },
@@ -30501,6 +31971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Landsbyboer"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dorpeling"
           }
         }
       }
@@ -30626,6 +32102,12 @@
             "state" : "translated",
             "value" : "Du kjenner dine goblin-kamerater. Er du den eneste goblinen, kan du se på 1 midtkort. Når dagen gryr, skjuler du identiteten din og later som om du er et menneske."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je ziet je mede-goblins. Ben je de enige goblin, dan mag je 1 middenkaart bekijken. Als het licht wordt, verberg je je identiteit en doe je alsof je een mens bent."
+          }
         }
       }
     },
@@ -30749,6 +32231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Med overnaturlige krefter kan du se på kortet til 1 annen spiller eller 2 midtkort."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Met bovennatuurlijke kracht bekijk je de kaart van 1 andere speler of 2 middenkaarten."
           }
         }
       }
@@ -30874,6 +32362,12 @@
             "state" : "translated",
             "value" : "Bytt kort i hemmelighet med 1 annen spiller og se det nye kortet. Etter det følger laget ditt det nye kortet."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wissel stiekem je kaart met 1 andere speler en bekijk de nieuwe kaart. Vanaf dan volgt jouw kamp de nieuwe kaart."
+          }
         }
       }
     },
@@ -30997,6 +32491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sprell! Bytt kortene til to andre spillere. Du får ikke se hva de var."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De kwajongen in jou ontwaakt! Wissel de kaarten van twee andere spelers. Je ziet niet wat het waren."
           }
         }
       }
@@ -31122,6 +32622,12 @@
             "state" : "translated",
             "value" : "Om natten er det ingenting å gjøre. Finn de skjulte goblinene med resonnering og debatt om dagen."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "’s Nachts is er niets te doen. Vind de verborgen goblins door overdag te redeneren en te discussiëren."
+          }
         }
       }
     },
@@ -31245,6 +32751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kobler til …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbinden…"
           }
         }
       }
@@ -31370,6 +32882,12 @@
             "state" : "translated",
             "value" : "Innstillinger"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instellingen"
+          }
         }
       }
     },
@@ -31494,6 +33012,12 @@
             "state" : "translated",
             "value" : "Varsel"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Melding"
+          }
         }
       }
     },
@@ -31614,6 +33138,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -31742,6 +33272,12 @@
             "state" : "translated",
             "value" : "«%@» er under vedlikehold. Velg et annet spill."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%@’ is in onderhoud. Kies een ander spel."
+          }
         }
       }
     },
@@ -31865,6 +33401,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spill"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spel"
           }
         }
       }
@@ -31990,6 +33532,12 @@
             "state" : "translated",
             "value" : "Løgnerspillet"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het Leugenaarsspel"
+          }
         }
       }
     },
@@ -32113,6 +33661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Natt uten måne"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nacht zonder Maan"
           }
         }
       }
@@ -32238,6 +33792,12 @@
             "state" : "translated",
             "value" : "Månestudioet"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maanatelier"
+          }
         }
       }
     },
@@ -32361,6 +33921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opprett rom"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamer maken"
           }
         }
       }
@@ -32486,6 +34052,12 @@
             "state" : "translated",
             "value" : "Åpne et rom for det valgte spillet, så vennene dine kan bli med."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open een kamer voor het gekozen spel zodat je vrienden kunnen meedoen."
+          }
         }
       }
     },
@@ -32609,6 +34181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Finn rom i nærheten"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamers in de buurt zoeken"
           }
         }
       }
@@ -32734,6 +34312,12 @@
             "state" : "translated",
             "value" : "Finn rommet en venn i nærheten har opprettet, og bli med."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoek de kamer die een vriend in de buurt heeft gemaakt en doe mee."
+          }
         }
       }
     },
@@ -32857,6 +34441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Øv med roboter"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oefenen met bots"
           }
         }
       }
@@ -32982,6 +34572,12 @@
             "state" : "translated",
             "value" : "Spill en runde alene mot roboter for å lære reglene."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speel alleen een ronde met bots om de regels te leren."
+          }
         }
       }
     },
@@ -33105,6 +34701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rommet er fullt. (Maks antall spillere: %lld)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De kamer is vol. (Maximaal aantal spelers: %lld)"
           }
         }
       }
@@ -33230,6 +34832,12 @@
             "state" : "translated",
             "value" : "Det pågår allerede et spill i dette rommet."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In deze kamer is al een spel bezig."
+          }
         }
       }
     },
@@ -33350,6 +34958,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luna"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Luna"
@@ -33478,6 +35092,12 @@
             "state" : "translated",
             "value" : "Orion"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orion"
+          }
         }
       }
     },
@@ -33598,6 +35218,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nova"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nova"
@@ -33726,6 +35352,12 @@
             "state" : "translated",
             "value" : "Sol"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sol"
+          }
         }
       }
     },
@@ -33849,6 +35481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verten fjernet deg fra rommet."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De host heeft je uit de kamer gezet."
           }
         }
       }
@@ -33974,6 +35612,12 @@
             "state" : "translated",
             "value" : "Verten stengte rommet."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De host heeft de kamer gesloten."
+          }
         }
       }
     },
@@ -34097,6 +35741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kunne ikke koble til verten igjen. Du kan bli med på nytt via «Fortsett» på startskjermen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opnieuw verbinden met de host is niet gelukt. Je kunt weer meedoen via ‘Doorgaan’ op het beginscherm."
           }
         }
       }
@@ -34222,6 +35872,12 @@
             "state" : "translated",
             "value" : "Hver spiller blir i hemmelighet tildelt Månordenen (de gode) eller Skyggene (de onde). I løpet av opptil 5 oppdrag må du regne ut hvem Skyggene er kun ut fra samtaler og stemmehistorikk."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elke speler wordt geheim ingedeeld bij de Maanorde (de goeden) of de Schaduwen (de slechten). In maximaal 5 missies moet je alleen aan de hand van gesprekken en het stemoverzicht uitzoeken wie de Schaduwen zijn."
+          }
         }
       }
     },
@@ -34345,6 +36001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alle får det samme hemmelige ordet, unntatt én Løgner. Beskriv ordet etter tur med få ord, og sjekk hvem som virkelig kjenner det. Løgneren må bløffe uten å kjenne ordet."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iedereen krijgt hetzelfde geheime woord, behalve één Leugenaar. Beschrijf het woord om de beurt met een paar woorden en kijk wie het echt kent. De Leugenaar moet bluffen zonder het woord te kennen."
           }
         }
       }
@@ -34470,6 +36132,12 @@
             "state" : "translated",
             "value" : "Goblinene har sneket seg inn i landsbyen! Om natten bruker alle en hemmelig handling for å få informasjon eller bytte kort i all hemmelighet; om dagen diskuterer man, og én avstemning avgjør hvem som forvises. Kortene kan endre seg i løpet av natten, så resultatet avgjøres av «sluttkortet»."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goblins zijn het dorp binnengeslopen! ’s Nachts gebruikt iedereen een geheime actie om informatie te krijgen of stiekem kaarten te wisselen; overdag wordt er gediscussieerd en één stemming bepaalt wie wordt verbannen. Kaarten kunnen ’s nachts veranderen, dus de uitslag wordt beoordeeld op de ‘eindkaart’."
+          }
         }
       }
     },
@@ -34593,6 +36261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I hver runde blir én spiller «Tegner» og uttrykker det hemmelige ordet kun med en tegning. De andre ser på tegningen og gjetter i chatten. Bokstaver og tall er forbudt. Spillet er over når alle har vært Tegner."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elke ronde wordt één speler de ‘Tekenaar’ en drukt het geheime woord alleen uit met een tekening. De anderen kijken naar de tekening en raden in de chat. Letters en cijfers zijn verboden. Het spel eindigt zodra iedereen Tekenaar is geweest."
           }
         }
       }
@@ -34718,6 +36392,12 @@
             "state" : "translated",
             "value" : "Månordenen (de gode)"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maanorde (de goeden)"
+          }
         }
       }
     },
@@ -34841,6 +36521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 vellykkede oppdrag. Men peker Snikmorderen ut Seeren riktig til slutt, taper du, så Seeren må skjule identiteten sin helt til slutt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 missies slagen. Maar wijst de Moordenaar aan het eind de Ziener juist aan, dan verlies je, dus de Ziener moet zijn identiteit tot het eind verbergen."
           }
         }
       }
@@ -34966,6 +36652,12 @@
             "state" : "translated",
             "value" : "Skyggene (de onde)"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schaduwen (de slechten)"
+          }
         }
       }
     },
@@ -35089,6 +36781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 mislykkede oppdrag · 5 avviste lag på rad · vellykket mord på Seeren — ett av de tre er nok til å vinne."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 missies mislukken · 5 teams achter elkaar afgewezen · moord op de Ziener lukt — één van de drie is genoeg om te winnen."
           }
         }
       }
@@ -35214,6 +36912,12 @@
             "state" : "translated",
             "value" : "Du vinner hvis avstemningen peker ut Løgneren riktig og Løgneren ikke gjetter ordet."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je wint als de stemming de Leugenaar juist aanwijst en de Leugenaar het woord niet raadt."
+          }
         }
       }
     },
@@ -35337,6 +37041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du vinner hvis stemmene deles eller feil person pekes ut. Selv om Løgneren blir tatt, snur han spillet ved å gjette ordet!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je wint als de stemmen verdeeld zijn of de verkeerde persoon wordt aangewezen. Zelfs als de Leugenaar gepakt wordt, keert hij het spel door het woord te raden!"
           }
         }
       }
@@ -35462,6 +37172,12 @@
             "state" : "translated",
             "value" : "Landsby"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dorp"
+          }
         }
       }
     },
@@ -35585,6 +37301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du vinner hvis du forviser en goblin (etter sluttkortet). Ligger alle goblinene i midten, vinner du bare hvis ingen forvises."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je wint door een goblin (op eindkaart) te verbannen. Liggen alle goblins in het midden, dan win je alleen als niemand wordt verbannen."
           }
         }
       }
@@ -35710,6 +37432,12 @@
             "state" : "translated",
             "value" : "Du vinner hvis ingen goblin forvises — du vinner også om en uskyldig forvises."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je wint als er geen goblin wordt verbannen — je wint ook als een onschuldige wordt verbannen."
+          }
         }
       }
     },
@@ -35833,6 +37561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gjettere"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raders"
           }
         }
       }
@@ -35958,6 +37692,12 @@
             "state" : "translated",
             "value" : "Jo raskere du gjetter ordet ut fra tegningen, jo flere poeng! Riktig gjetning gir poeng."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoe sneller je het woord uit de tekening raadt, hoe meer punten! Goed raden levert punten op."
+          }
         }
       }
     },
@@ -36081,6 +37821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du får poeng når mange gjetter tegningen din. Nøkkelen er å tegne slik at alle kjenner det igjen!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je krijgt punten als veel mensen jouw tekening raden. De kunst is zo te tekenen dat iedereen het herkent!"
           }
         }
       }
@@ -36206,6 +37952,12 @@
             "state" : "translated",
             "value" : "Slik spiller du"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zo speel je"
+          }
         }
       }
     },
@@ -36329,6 +38081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spillets mål"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doel van het spel"
           }
         }
       }
@@ -36454,6 +38212,12 @@
             "state" : "translated",
             "value" : "Vilkår for seier"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Winvoorwaarden"
+          }
         }
       }
     },
@@ -36577,6 +38341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nå prøver du det steg for steg sammen med roboter.\nI hver fase vises en veiledning, og du går videre med «Neste»."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu probeer je het stap voor stap samen met bots.\nBij elke stap verschijnt uitleg en je gaat verder met ‘Volgende’."
           }
         }
       }
@@ -36702,6 +38472,12 @@
             "state" : "translated",
             "value" : "Start øvelsen"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oefening starten"
+          }
         }
       }
     },
@@ -36825,6 +38601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Til startskjermen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naar het beginscherm"
           }
         }
       }
@@ -36950,6 +38732,12 @@
             "state" : "translated",
             "value" : "Tid for mord"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tijd voor de moord"
+          }
         }
       }
     },
@@ -37073,6 +38861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Månordenen har klart 3 oppdrag.\nMen finner Snikmorderen Seeren, snur Skyggene spillet!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De Maanorde heeft 3 missies gehaald.\nMaar vindt de Moordenaar de Ziener, dan keren de Schaduwen het spel!"
           }
         }
       }
@@ -37198,6 +38992,12 @@
             "state" : "translated",
             "value" : "Pek ut spilleren du tror er Seeren"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wijs de speler aan die je de Ziener denkt te zijn"
+          }
         }
       }
     },
@@ -37321,6 +39121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utfør mordet"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moord uitvoeren"
           }
         }
       }
@@ -37446,6 +39252,12 @@
             "state" : "translated",
             "value" : "Snikmorderen velger sitt siste mål …"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De Moordenaar kiest zijn laatste doelwit…"
+          }
         }
       }
     },
@@ -37569,6 +39381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ vinner!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ wint!"
           }
         }
       }
@@ -37694,6 +39512,12 @@
             "state" : "translated",
             "value" : "Roller avslørt"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rollen onthuld"
+          }
         }
       }
     },
@@ -37817,6 +39641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Meg"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik"
           }
         }
       }
@@ -37942,6 +39772,12 @@
             "state" : "translated",
             "value" : "Spill igjen med de samme spillerne"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opnieuw met dezelfde spelers"
+          }
         }
       }
     },
@@ -38065,6 +39901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verten kan starte på nytt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De host kan opnieuw beginnen"
           }
         }
       }
@@ -38190,6 +40032,12 @@
             "state" : "translated",
             "value" : "Forlat"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlaten"
+          }
         }
       }
     },
@@ -38313,6 +40161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Første gang? Øv deg med roboter først"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voor het eerst? Oefen eerst met bots"
           }
         }
       }
@@ -38438,6 +40292,12 @@
             "state" : "translated",
             "value" : "Du kan spille en hel runde alene mot roboter for å lære reglene."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je kunt alleen een heel spel met bots spelen om de regels te leren."
+          }
         }
       }
     },
@@ -38561,6 +40421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tvinge fasen videre?"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fase geforceerd verder laten gaan?"
           }
         }
       }
@@ -38686,6 +40552,12 @@
             "state" : "translated",
             "value" : "Tving videre"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forceer verder"
+          }
         }
       }
     },
@@ -38809,6 +40681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avbryt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuleren"
           }
         }
       }
@@ -38934,6 +40812,12 @@
             "state" : "translated",
             "value" : "Fjerne %@?"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ verwijderen?"
+          }
         }
       }
     },
@@ -39057,6 +40941,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fjern"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwijderen"
           }
         }
       }
@@ -39182,6 +41072,12 @@
             "state" : "translated",
             "value" : "Et pågående spill fortsetter med de gjenværende spillerne."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een lopend spel gaat door met de overgebleven spelers."
+          }
         }
       }
     },
@@ -39305,6 +41201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "GM-vertsmodus"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GM-hostmodus"
           }
         }
       }
@@ -39430,6 +41332,12 @@
             "state" : "translated",
             "value" : "Henger spillet seg opp, kan du holde det i gang herfra."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loopt het spel vast, dan kun je het vanaf hier laten doorgaan."
+          }
         }
       }
     },
@@ -39553,6 +41461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spillkontroll"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spelbesturing"
           }
         }
       }
@@ -39678,6 +41592,12 @@
             "state" : "translated",
             "value" : "Tving fasen videre"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fase forceren"
+          }
         }
       }
     },
@@ -39801,6 +41721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det er ingenting å tvinge i den nåværende fasen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In de huidige fase valt niets te forceren."
           }
         }
       }
@@ -39926,6 +41852,12 @@
             "state" : "translated",
             "value" : "Administrer spillere"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spelers beheren"
+          }
         }
       }
     },
@@ -40049,6 +41981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Privat informasjon"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privé-informatie"
           }
         }
       }
@@ -40174,6 +42112,12 @@
             "state" : "translated",
             "value" : "Avslør roller og svar"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rollen en antwoorden onthullen"
+          }
         }
       }
     },
@@ -40297,6 +42241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hvis du ser på, blir det vanskelig for GM å spille rettferdig. Bruk det bare når spillet henger seg opp."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kijk je mee, dan is eerlijk meespelen voor de GM moeilijk. Gebruik dit alleen als het spel vastloopt."
           }
         }
       }
@@ -40422,6 +42372,12 @@
             "state" : "translated",
             "value" : "Forlate spillet?"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het spel verlaten?"
+          }
         }
       }
     },
@@ -40545,6 +42501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avbryt spillet og gå til lobbyen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spel stoppen en naar de lobby"
           }
         }
       }
@@ -40670,6 +42632,12 @@
             "state" : "translated",
             "value" : "Steng rommet (avsluttes for alle)"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamer sluiten (stopt voor iedereen)"
+          }
         }
       }
     },
@@ -40793,6 +42761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vertspanel"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hostpaneel"
           }
         }
       }
@@ -40918,6 +42892,12 @@
             "state" : "translated",
             "value" : "Oppdrag nr. %lld"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missie nr. %lld"
+          }
         }
       }
     },
@@ -41041,6 +43021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leder: %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leider: %@"
           }
         }
       }
@@ -41166,6 +43152,12 @@
             "state" : "translated",
             "value" : "Spillet er slutt"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spel afgelopen"
+          }
         }
       }
     },
@@ -41289,6 +43281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se rollen min"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mijn rol bekijken"
           }
         }
       }
@@ -41414,6 +43412,12 @@
             "state" : "translated",
             "value" : "Neste"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volgende"
+          }
         }
       }
     },
@@ -41537,6 +43541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I denne fasen ser alle sin egen rolle i hemmelighet. Når du har sett din og trykker «Neste», blir robotene ferdige også."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In deze fase bekijkt iedereen stiekem zijn eigen rol. Als je de jouwe hebt bekeken en op ‘Volgende’ tikt, zijn de bots ook klaar."
           }
         }
       }
@@ -41662,6 +43672,12 @@
             "state" : "translated",
             "value" : "Lederen peker ut laget til dette oppdraget. Trykk «Neste», så velger lederen lag. (Er du leder, velger du selv!)"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De leider wijst het team voor deze missie aan. Tik op ‘Volgende’ en de leider kiest het team. (Ben jij de leider, kies dan zelf!)"
+          }
         }
       }
     },
@@ -41785,6 +43801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alle stemmer for eller imot lagets sammensetning. Står det likt, avvises det! Stem først, og trykk så «Neste» for å se robotenes stemmer."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iedereen stemt voor of tegen de teamsamenstelling. Bij gelijkspel wordt het afgewezen! Stem eerst en tik dan op ‘Volgende’ om de stemmen van de bots te zien."
           }
         }
       }
@@ -41910,6 +43932,12 @@
             "state" : "translated",
             "value" : "Dette er resultatet av avstemningen. Avvises laget 5 ganger på rad, vinner Skyggene, så du kan ikke bare stemme imot hele tiden."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dit is de stemuitslag. Wordt het team 5 keer achter elkaar afgewezen, dan winnen de Schaduwen, dus je kunt niet gewoon altijd tegen stemmen."
+          }
         }
       }
     },
@@ -42033,6 +44061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bare lagmedlemmer spiller et suksess- eller fiaskokort. Månordenen kan bare spille suksess; bare Skyggene kan i hemmelighet spille fiasko. Trykk «Neste» for å følge lagets kortinnlevering."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alleen teamleden spelen een succes- of mislukkingskaart. De Maanorde kan alleen succes spelen; alleen de Schaduwen kunnen stiekem mislukking spelen. Tik op ‘Volgende’ om het inleveren van de kaarten te volgen."
           }
         }
       }
@@ -42158,6 +44192,12 @@
             "state" : "translated",
             "value" : "Når fiaskokortene når det nødvendige antallet, mislykkes oppdraget! Den som først får 3 seire, avslutter spillet."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bereiken de mislukkingskaarten het vereiste aantal, dan mislukt de missie! Wie als eerste 3 overwinningen haalt, beëindigt het spel."
+          }
         }
       }
     },
@@ -42281,6 +44321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Selv om 3 oppdrag lykkes, er det en siste vending: peker Snikmorderen ut Seeren riktig, snur Skyggene spillet."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ook als 3 missies slagen, is er nog een laatste wending: wijst de Moordenaar de Ziener juist aan, dan keren de Schaduwen het spel."
           }
         }
       }
@@ -42406,6 +44452,12 @@
             "state" : "translated",
             "value" : "Forbindelsen til verten ble brutt. Prøver å koble til på nytt automatisk …"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De verbinding met de host is verbroken. Er wordt automatisch geprobeerd opnieuw te verbinden…"
+          }
         }
       }
     },
@@ -42529,6 +44581,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tiden er ute"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De tijd is om"
           }
         }
       }
@@ -42654,6 +44712,12 @@
             "state" : "translated",
             "value" : "Se der ingen andre kan se"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kijk waar niemand anders het kan zien"
+          }
         }
       }
     },
@@ -42777,6 +44841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lag: %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamp: %@"
           }
         }
       }
@@ -42902,6 +44972,12 @@
             "state" : "translated",
             "value" : "De som ser ut som skyggeagenter"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Degenen die op schaduwagenten lijken"
+          }
         }
       }
     },
@@ -43025,6 +45101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dine kamerater blant Skyggene"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je bondgenoten bij de Schaduwen"
           }
         }
       }
@@ -43150,6 +45232,12 @@
             "state" : "translated",
             "value" : "Mål: %@"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doel: %@"
+          }
         }
       }
     },
@@ -43273,6 +45361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Under vedlikehold et øyeblikk. Åpner snart igjen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Even in onderhoud. Zo weer open."
           }
         }
       }
@@ -43398,6 +45492,12 @@
             "state" : "translated",
             "value" : "3 festspill å kose seg med sammen med venner i nærheten"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 feestspellen om te spelen met vrienden in de buurt"
+          }
         }
       }
     },
@@ -43521,6 +45621,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kallenavn"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bijnaam"
           }
         }
       }
@@ -43646,6 +45752,12 @@
             "state" : "translated",
             "value" : "Skriv inn navnet ditt"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voer je naam in"
+          }
         }
       }
     },
@@ -43769,6 +45881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velg et spill"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies een spel"
           }
         }
       }
@@ -43894,6 +46012,12 @@
             "state" : "translated",
             "value" : "5–15 spillere · Finn de skjulte Skyggene"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5–15 spelers · Vind de verborgen Schaduwen"
+          }
         }
       }
     },
@@ -44017,6 +46141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3–15 spillere · Finn den som ikke kjenner ordet"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 spelers · Vind degene die het woord niet kent"
           }
         }
       }
@@ -44142,6 +46272,12 @@
             "state" : "translated",
             "value" : "3–15 spillere · En natt med en goblin i landsbyen"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 spelers · Eén nacht met een goblin in het dorp"
+          }
         }
       }
     },
@@ -44265,6 +46401,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3–15 spillere · Én tegner, de andre gjetter"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 spelers · Eén tekent, de rest raadt"
           }
         }
       }
@@ -44390,6 +46532,12 @@
             "state" : "translated",
             "value" : "Finn alle rom i nærheten"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle kamers in de buurt zoeken"
+          }
         }
       }
     },
@@ -44513,6 +46661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "iPhoner på samme Wi-Fi eller i nærheten kobler seg automatisk sammen.\nDu kan spille uten internett."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhones op hetzelfde wifi-netwerk of in de buurt verbinden automatisch.\nJe kunt ook zonder internet spelen."
           }
         }
       }
@@ -44638,6 +46792,12 @@
             "state" : "translated",
             "value" : "Fortsett"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doorgaan"
+          }
         }
       }
     },
@@ -44761,6 +46921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rom: %1$@%2$@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamer van %1$@%2$@"
           }
         }
       }
@@ -44886,6 +47052,12 @@
             "state" : "translated",
             "value" : "Fjern historikken for «Fortsett»"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geschiedenis van ‘Doorgaan’ wissen"
+          }
         }
       }
     },
@@ -45009,6 +47181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Et spill om skjulte identiteter for 5–15 spillere: finn Skyggene som gjemmer seg i laget. Den siden som først får 3 oppdrag til å lykkes (eller mislykkes), vinner."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een spel met verborgen identiteiten voor 5–15 spelers: vind de Schaduwen die zich in het team verstoppen. De kant die als eerste 3 missies laat slagen (of mislukken), wint."
           }
         }
       }
@@ -45134,6 +47312,12 @@
             "state" : "translated",
             "value" : "Et bløffespill for 3–15 spillere: alle unntatt Løgneren får det samme ordet. Beskriv det med få ord, og finn så Løgneren. Selv om Løgneren blir tatt, vinner han ved å gjette ordet!"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een bluffspel voor 3–15 spelers: iedereen behalve de Leugenaar krijgt hetzelfde woord. Beschrijf het met een paar woorden en zoek dan de Leugenaar. Zelfs als hij gepakt wordt, wint de Leugenaar door het woord te raden!"
+          }
         }
       }
     },
@@ -45257,6 +47441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Et deduksjonsspill for 3–15 spillere om en natt med en goblin i landsbyen. Om natten byttes kort, og én avstemning avgjør vinneren."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een deductiespel voor 3–15 spelers over één nacht met een goblin in het dorp. ’s Nachts worden kaarten gewisseld en één stemming beslist de winnaar."
           }
         }
       }
@@ -45382,6 +47572,12 @@
             "state" : "translated",
             "value" : "Et tegnespill for 3–15 spillere: i hver runde tegner én ordet, og de andre gjetter i chatten. Jo raskere du gjetter, jo flere poeng! Når alle har tegnet, vinner den med flest poeng."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een tekenspel voor 3–15 spelers: elke ronde tekent er één het woord en de rest raadt in de chat. Hoe sneller je raadt, hoe meer punten! Als iedereen getekend heeft, wint wie de meeste punten heeft."
+          }
         }
       }
     },
@@ -45505,6 +47701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opprett rom (vert)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamer maken (host)"
           }
         }
       }
@@ -45630,6 +47832,12 @@
             "state" : "translated",
             "value" : "Bli med i et spill"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meedoen aan een spel"
+          }
         }
       }
     },
@@ -45753,6 +47961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slik spiller du (øv med roboter)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zo speel je (oefenen met bots)"
           }
         }
       }
@@ -45878,6 +48092,12 @@
             "state" : "translated",
             "value" : "Tilbake"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terug"
+          }
         }
       }
     },
@@ -46001,6 +48221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Finn rom for %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamers zoeken: %@"
           }
         }
       }
@@ -46126,6 +48352,12 @@
             "state" : "translated",
             "value" : "Finn rom i nærheten"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamers in de buurt zoeken"
+          }
         }
       }
     },
@@ -46249,6 +48481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kobler til rommet …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbinden met de kamer…"
           }
         }
       }
@@ -46374,6 +48612,12 @@
             "state" : "translated",
             "value" : "Leter etter rom i nærheten …\nSjekk at verten har trykket «Opprett rom»."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamers in de buurt zoeken…\nControleer of de host op ‘Kamer maken’ heeft getikt."
+          }
         }
       }
     },
@@ -46497,6 +48741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rom: %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamer van %@"
           }
         }
       }
@@ -46622,6 +48872,12 @@
             "state" : "translated",
             "value" : "Alle har det samme ordet. Bare én kjenner det ikke."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iedereen heeft hetzelfde woord. Slechts één kent het niet."
+          }
         }
       }
     },
@@ -46745,6 +49001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Forbindelsen til verten ble brutt. Prøver å koble til på nytt …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De verbinding met de host is verbroken. Er wordt geprobeerd opnieuw te verbinden…"
           }
         }
       }
@@ -46870,6 +49132,12 @@
             "state" : "translated",
             "value" : "Kategori: %@"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Categorie: %@"
+          }
         }
       }
     },
@@ -46993,6 +49261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alle unntatt Løgneren fikk det samme ordet. Se ordet ditt og trykk «Neste», så blir robotene ferdige også."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iedereen behalve de Leugenaar kreeg hetzelfde woord. Bekijk het jouwe en tik op ‘Volgende’ zodat de bots ook klaar zijn."
           }
         }
       }
@@ -47118,6 +49392,12 @@
             "state" : "translated",
             "value" : "I denne fasen beskriver alle ordet etter tur med få ord. Hvert trykk på «Neste» avslutter den nåværende turen."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In deze fase beschrijft iedereen om de beurt het woord met een paar woorden. Elke tik op ‘Volgende’ beëindigt de huidige beurt."
+          }
         }
       }
     },
@@ -47241,6 +49521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hvem var unnvikende i beskrivelsen? Stem først på den du mistenker for å være Løgneren, og trykk så «Neste» for å se robotenes stemmer."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wie was vaag in de beschrijving? Stem eerst op wie je als Leugenaar verdenkt en tik dan op ‘Volgende’ om de stemmen van de bots te zien."
           }
         }
       }
@@ -47366,6 +49652,12 @@
             "state" : "translated",
             "value" : "Løgneren er tatt! Men gjetter han ordet, snur han spillet — trykk «Neste» for å følge gjetningen hans."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De Leugenaar is gepakt! Maar raadt hij het woord, dan keert hij het spel — tik op ‘Volgende’ om zijn gok te volgen."
+          }
         }
       }
     },
@@ -47489,6 +49781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du er Løgneren!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jij bent de Leugenaar!"
           }
         }
       }
@@ -47614,6 +49912,12 @@
             "state" : "translated",
             "value" : "Du kjenner ikke ordet, men må beskrive det som om du gjør. La deg ikke avsløre!"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je kent het woord niet, maar moet het beschrijven alsof je het kent. Laat je niet betrappen!"
+          }
         }
       }
     },
@@ -47737,6 +50041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ord"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Woord"
           }
         }
       }
@@ -47862,6 +50172,12 @@
             "state" : "translated",
             "value" : "Ordet har kommet"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het woord is binnen"
+          }
         }
       }
     },
@@ -47985,6 +50301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ferdig! Venter på de andre spillerne …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klaar! Wachten op de andere spelers…"
           }
         }
       }
@@ -48110,6 +50432,12 @@
             "state" : "translated",
             "value" : "Sett"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gezien"
+          }
         }
       }
     },
@@ -48233,6 +50561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se der ingen andre kan se skjermen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kijk waar niemand het scherm kan zien"
           }
         }
       }
@@ -48358,6 +50692,12 @@
             "state" : "translated",
             "value" : "Ta en liten titt"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Even gluren"
+          }
         }
       }
     },
@@ -48481,6 +50821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bekreftet: %lld/%lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bevestigd: %lld/%lld"
           }
         }
       }
@@ -48606,6 +50952,12 @@
             "state" : "translated",
             "value" : "Beskriv ordet etter tur med få ord"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beschrijf het woord om de beurt met een paar woorden"
+          }
         }
       }
     },
@@ -48729,6 +51081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sier du for mye, hjelper du Løgneren;\nsier du for lite, blir du mistenkt!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeg je te veel, dan help je de Leugenaar;\nzeg je te weinig, dan word je verdacht!"
           }
         }
       }
@@ -48854,6 +51212,12 @@
             "state" : "translated",
             "value" : "Snakker"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aan het woord"
+          }
         }
       }
     },
@@ -48977,6 +51341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ferdig med å snakke"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klaar met praten"
           }
         }
       }
@@ -49102,6 +51472,12 @@
             "state" : "translated",
             "value" : "Hvem er Løgneren?"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wie is de Leugenaar?"
+          }
         }
       }
     },
@@ -49225,6 +51601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stem på den mest mistenkelige · Hvis stemmene deles, vinner Løgneren!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stem op de meest verdachte · Bij verdeelde stemmen wint de Leugenaar!"
           }
         }
       }
@@ -49350,6 +51732,12 @@
             "state" : "translated",
             "value" : "Stemme avgitt! Venter på opptellingen …"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stem uitgebracht! Wachten op de telling…"
+          }
         }
       }
     },
@@ -49473,6 +51861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Har stemt: %lld/%lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gestemd: %lld/%lld"
           }
         }
       }
@@ -49598,6 +51992,12 @@
             "state" : "translated",
             "value" : "Peke ut «%@» som Løgneren?"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%@’ aanwijzen als Leugenaar?"
+          }
         }
       }
     },
@@ -49721,6 +52121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bekreft stemme"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stem bevestigen"
           }
         }
       }
@@ -49846,6 +52252,12 @@
             "state" : "translated",
             "value" : "En avgitt stemme kan ikke endres."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een uitgebrachte stem kan niet worden gewijzigd."
+          }
         }
       }
     },
@@ -49969,6 +52381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Løgneren er tatt!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leugenaar gepakt!"
           }
         }
       }
@@ -50094,6 +52512,12 @@
             "state" : "translated",
             "value" : "«%@» var Løgneren!\nMen gjetter han ordet, snur Løgneren spillet."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%@’ was de Leugenaar!\nMaar raadt hij het woord, dan keert de Leugenaar het spel."
+          }
         }
       }
     },
@@ -50217,6 +52641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velg ordet — du har bare ett forsøk!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies het woord — je hebt maar één kans!"
           }
         }
       }
@@ -50342,6 +52772,12 @@
             "state" : "translated",
             "value" : "Løgneren gjetter ordet …"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De Leugenaar raadt het woord…"
+          }
         }
       }
     },
@@ -50465,6 +52901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gjette på «%@» som ordet?"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘%@’ raden als het woord?"
           }
         }
       }
@@ -50590,6 +53032,12 @@
             "state" : "translated",
             "value" : "Bekreft dette ordet"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dit woord bevestigen"
+          }
         }
       }
     },
@@ -50713,6 +53161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du har bare ett forsøk!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je hebt maar één kans!"
           }
         }
       }
@@ -50838,6 +53292,12 @@
             "state" : "translated",
             "value" : "Løgneren vinner!"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De Leugenaar wint!"
+          }
         }
       }
     },
@@ -50961,6 +53421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Borgerne vinner!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De burgers winnen!"
           }
         }
       }
@@ -51086,6 +53552,12 @@
             "state" : "translated",
             "value" : "Løgnerens gjetning"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De gok van de Leugenaar"
+          }
         }
       }
     },
@@ -51209,6 +53681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resultat av avstemningen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stemuitslag"
           }
         }
       }
@@ -51334,6 +53812,12 @@
             "state" : "translated",
             "value" : "Steng rommet"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamer sluiten"
+          }
         }
       }
     },
@@ -51458,6 +53942,12 @@
             "state" : "translated",
             "value" : "Mitt rom"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mijn kamer"
+          }
         }
       }
     },
@@ -51578,6 +54068,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lobby"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lobby"
@@ -51706,6 +54202,12 @@
             "state" : "translated",
             "value" : "Spillere: %1$lld · trengs %2$lld–%3$lld"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spelers: %1$lld · nodig: %2$lld–%3$lld"
+          }
         }
       }
     },
@@ -51829,6 +54331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lær å spille: robotene kommer inn.\nNår det er nok spillere, trykker du «Start spill»."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leren spelen: de bots komen binnen.\nZijn er genoeg spelers, tik dan op ‘Spel starten’."
           }
         }
       }
@@ -51954,6 +54462,12 @@
             "state" : "translated",
             "value" : "Start spill"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spel starten"
+          }
         }
       }
     },
@@ -52077,6 +54591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Minste antall spillere: %lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minimum aantal spelers: %lld"
           }
         }
       }
@@ -52202,6 +54722,12 @@
             "state" : "translated",
             "value" : "Venter på at verten starter spillet …"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wachten tot de host het spel start…"
+          }
         }
       }
     },
@@ -52325,6 +54851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Med dette antallet spillere: Skyggene %1$lld · Månordenen %2$lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bij dit aantal spelers: Schaduwen %1$lld · Maanorde %2$lld"
           }
         }
       }
@@ -52450,6 +54982,12 @@
             "state" : "translated",
             "value" : "[Månearkaden %@] Henvendelse"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[Maanarcade %@] Vraag"
+          }
         }
       }
     },
@@ -52573,6 +55111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Støtte"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ondersteuning"
           }
         }
       }
@@ -52698,6 +55242,12 @@
             "state" : "translated",
             "value" : "Kontakt via e-post"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mailen"
+          }
         }
       }
     },
@@ -52821,6 +55371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram DM (@lee25_ios)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram-DM (@lee25_ios)"
           }
         }
       }
@@ -52946,6 +55502,12 @@
             "state" : "translated",
             "value" : "Kontakt utvikleren"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact met de ontwikkelaar"
+          }
         }
       }
     },
@@ -53069,6 +55631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Si gjerne fra om feil eller spill du ønsker deg."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laat het gerust weten bij bugs of spellen die je graag zou willen."
           }
         }
       }
@@ -53194,6 +55762,12 @@
             "state" : "translated",
             "value" : "Kan ikke åpne Mail-appen"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De Mail-app kan niet worden geopend"
+          }
         }
       }
     },
@@ -53317,6 +55891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopier adresse"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adres kopiëren"
           }
         }
       }
@@ -53442,6 +56022,12 @@
             "state" : "translated",
             "value" : "Lukk"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sluiten"
+          }
         }
       }
     },
@@ -53565,6 +56151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Send en e-post til adressen under.\n%@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stuur een e-mail naar het onderstaande adres.\n%@"
           }
         }
       }
@@ -53690,6 +56282,12 @@
             "state" : "translated",
             "value" : "Velkommen til Månearkaden"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welkom bij Maanarcade"
+          }
         }
       }
     },
@@ -53813,6 +56411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En samling festspill for iPhone som du spiller sammen med venner på samme sted.\nDu trenger verken internett eller registrering."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een verzameling feestspellen voor iPhone, te spelen met vrienden op dezelfde plek.\nJe hebt geen internet of registratie nodig."
           }
         }
       }
@@ -53938,6 +56542,12 @@
             "state" : "translated",
             "value" : "Én oppretter rommet"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eén persoon maakt de kamer"
+          }
         }
       }
     },
@@ -54061,6 +56671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Når alle har installert appen, velger én et spill og trykker «Opprett rom».\nDe andre kommer inn med «Bli med i et spill» — så er det gjort!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als iedereen de app heeft geïnstalleerd, kiest één persoon een spel en tikt op ‘Kamer maken’.\nDe rest doet mee via ‘Meedoen aan een spel’ en klaar!"
           }
         }
       }
@@ -54186,6 +56802,12 @@
             "state" : "translated",
             "value" : "Kom tett på hverandre og tillat tilkobling"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom dicht bij elkaar en sta de verbinding toe"
+          }
         }
       }
     },
@@ -54309,6 +56931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dere finner hverandre på samme Wi-Fi eller innen Bluetooth-rekkevidde.\nHusk å tillate forespørselen om tilgang til «Lokalt nettverk» som vises første gang."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jullie vinden elkaar op hetzelfde wifi-netwerk of binnen Bluetooth-bereik.\nSta het verzoek om toegang tot het ‘Lokale netwerk’ dat eerst verschijnt zeker toe."
           }
         }
       }
@@ -54434,6 +57062,12 @@
             "state" : "translated",
             "value" : "Kan du ikke reglene? Øv først"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regels onbekend? Oefen eerst"
+          }
         }
       }
     },
@@ -54557,6 +57191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hvert spill har «Slik spiller du (øv med roboter)».\nDu kan spille en runde alene mot roboter for å lære reglene."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elk spel heeft ‘Zo speel je (oefenen met bots)’.\nJe kunt alleen een ronde met bots spelen om de regels te leren."
           }
         }
       }
@@ -54682,6 +57322,12 @@
             "state" : "translated",
             "value" : "Hopp over"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overslaan"
+          }
         }
       }
     },
@@ -54805,6 +57451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kom i gang"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aan de slag"
           }
         }
       }
@@ -54930,6 +57582,12 @@
             "state" : "translated",
             "value" : "Spillere: %1$lld (%2$lld–%3$lld)"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spelers: %1$lld (%2$lld–%3$lld)"
+          }
         }
       }
     },
@@ -55053,6 +57711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rollene er fordelt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De rollen zijn verdeeld"
           }
         }
       }
@@ -55178,6 +57842,12 @@
             "state" : "translated",
             "value" : "Jeg har sett"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gezien"
+          }
         }
       }
     },
@@ -55301,6 +57971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mottar rolleinformasjon …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolinformatie ontvangen…"
           }
         }
       }
@@ -55426,6 +58102,12 @@
             "state" : "translated",
             "value" : "Roller sett: %lld/%lld"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rollen bekeken: %lld/%lld"
+          }
         }
       }
     },
@@ -55549,6 +58231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sørg for at ingen i nærheten kan se,\nog trykk på knappen for å se rollen din"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zorg dat niemand in de buurt kan meekijken,\nen tik op de knop om je rol te bekijken"
           }
         }
       }
@@ -55674,6 +58362,12 @@
             "state" : "translated",
             "value" : "Se rollen min"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mijn rol bekijken"
+          }
         }
       }
     },
@@ -55797,6 +58491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ferdig!\nVenter på de andre spillerne …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klaar!\nWachten op de andere spelers…"
           }
         }
       }
@@ -55922,6 +58622,12 @@
             "state" : "translated",
             "value" : "Du er leder!"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jij bent de leider!"
+          }
         }
       }
     },
@@ -56045,6 +58751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velg til dette oppdraget: %1$lld (%2$lld/%3$lld)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies voor deze missie: %1$lld (%2$lld/%3$lld)"
           }
         }
       }
@@ -56170,6 +58882,12 @@
             "state" : "translated",
             "value" : "Bekreft lag → alle stemmer"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Team bevestigen → iedereen stemt"
+          }
         }
       }
     },
@@ -56293,6 +59011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leder %1$@\nvelger lagmedlemmer: %2$lld …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leider %1$@\nkiest teamleden: %2$lld…"
           }
         }
       }
@@ -56418,6 +59142,12 @@
             "state" : "translated",
             "value" : "Diskuter fritt hvem som skal sendes!"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bespreek vrijuit wie je stuurt!"
+          }
         }
       }
     },
@@ -56541,6 +59271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avstemning om laget"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stemming over het team"
           }
         }
       }
@@ -56666,6 +59402,12 @@
             "state" : "translated",
             "value" : "Stemme avgitt — venter på resultatet (%lld/%lld)"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stem uitgebracht — wachten op de uitslag (%lld/%lld)"
+          }
         }
       }
     },
@@ -56789,6 +59531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Er du enig i denne lagsammensetningen?\n(Alles stemmer avsløres · likt = avvist)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ga je akkoord met deze teamsamenstelling?\n(Ieders stem wordt onthuld · gelijkspel = afgewezen)"
           }
         }
       }
@@ -56914,6 +59662,12 @@
             "state" : "translated",
             "value" : "For"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voor"
+          }
         }
       }
     },
@@ -57037,6 +59791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Imot"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tegen"
           }
         }
       }
@@ -57162,6 +59922,12 @@
             "state" : "translated",
             "value" : "Stemme «for» laget?"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘Voor’ het team stemmen?"
+          }
         }
       }
     },
@@ -57285,6 +60051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stemme «imot» laget?"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "‘Tegen’ het team stemmen?"
           }
         }
       }
@@ -57410,6 +60182,12 @@
             "state" : "translated",
             "value" : "Leder %@ sitt valg"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keuze van leider %@"
+          }
         }
       }
     },
@@ -57533,6 +60311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Godkjent! Laget drar på oppdrag"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goedgekeurd! Het team vertrekt op missie"
           }
         }
       }
@@ -57658,6 +60442,12 @@
             "state" : "translated",
             "value" : "Avvist"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afgewezen"
+          }
         }
       }
     },
@@ -57781,6 +60571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ledelsen går til neste · avvisninger på rad: %lld/%lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De leiding gaat naar de volgende · afwijzingen achter elkaar: %lld/%lld"
           }
         }
       }
@@ -57906,6 +60702,12 @@
             "state" : "translated",
             "value" : "⚠️ Én avvisning til, og Skyggene vinner!"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⚠️ Nog één afwijzing en de Schaduwen winnen!"
+          }
         }
       }
     },
@@ -58029,6 +60831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fortsett"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doorgaan"
           }
         }
       }
@@ -58154,6 +60962,12 @@
             "state" : "translated",
             "value" : "Venter på at verten fortsetter …"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wachten tot de host doorgaat…"
+          }
         }
       }
     },
@@ -58277,6 +61091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "For 👍"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voor 👍"
           }
         }
       }
@@ -58402,6 +61222,12 @@
             "state" : "translated",
             "value" : "Imot 👎"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tegen 👎"
+          }
         }
       }
     },
@@ -58525,6 +61351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oppdrag nr. %lld pågår"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missie nr. %lld bezig"
           }
         }
       }
@@ -58650,6 +61482,12 @@
             "state" : "translated",
             "value" : "Lag: %@"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Team: %@"
+          }
         }
       }
     },
@@ -58773,6 +61611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Laget utfører oppdraget …\n(%lld/%lld levert)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het team voert de missie uit…\n(%lld/%lld ingeleverd)"
           }
         }
       }
@@ -58898,6 +61742,12 @@
             "state" : "translated",
             "value" : "Fiaskokort som trengs for at oppdraget mislykkes: %lld"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mislukkingskaarten die nodig zijn om de missie te laten mislukken: %lld"
+          }
         }
       }
     },
@@ -59021,6 +61871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velg et kort (ingen får vite hvem som spilte hva)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies een kaart (niemand weet wie wat speelde)"
           }
         }
       }
@@ -59146,6 +62002,12 @@
             "state" : "translated",
             "value" : "Du er en Skygge — et fiaskokort kan ødelegge oppdraget"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je bent een Schaduw — met een mislukkingskaart kun je de missie saboteren"
+          }
         }
       }
     },
@@ -59269,6 +62131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lever kort"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaart inleveren"
           }
         }
       }
@@ -59394,6 +62262,12 @@
             "state" : "translated",
             "value" : "Suksess"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Succes"
+          }
         }
       }
     },
@@ -59517,6 +62391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fiasko"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mislukking"
           }
         }
       }
@@ -59642,6 +62522,12 @@
             "state" : "translated",
             "value" : "Ordensmedlemmer\nkan bare spille suksess"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordeleden\nkunnen alleen succes spelen"
+          }
         }
       }
     },
@@ -59765,6 +62651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kort levert\nVenter på de andre medlemmene … (%lld/%lld)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaart ingeleverd\nWachten op de andere leden… (%lld/%lld)"
           }
         }
       }
@@ -59890,6 +62782,12 @@
             "state" : "translated",
             "value" : "Oppdraget lyktes!"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missie geslaagd!"
+          }
         }
       }
     },
@@ -60013,6 +62911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oppdraget mislyktes …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Missie mislukt…"
           }
         }
       }
@@ -60138,6 +63042,12 @@
             "state" : "translated",
             "value" : "Suksesskort: %1$lld · fiaskokort: %2$lld"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Succeskaarten: %1$lld · mislukkingskaarten: %2$lld"
+          }
         }
       }
     },
@@ -60261,6 +63171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det kom et fiaskokort, men dette oppdraget krevde %lld, så det holdt!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er viel een mislukkingskaart, maar deze missie vereiste er %lld, dus hij hield stand!"
           }
         }
       }
@@ -60386,6 +63302,12 @@
             "state" : "translated",
             "value" : "Suksess %lld : %lld Fiasko — først til 3 vinner"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Succes %lld : %lld Mislukking — wie als eerste 3 overwinningen haalt, wint"
+          }
         }
       }
     },
@@ -60509,6 +63431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Svart"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zwart"
           }
         }
       }
@@ -60634,6 +63562,12 @@
             "state" : "translated",
             "value" : "Rød"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rood"
+          }
         }
       }
     },
@@ -60757,6 +63691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oransje"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oranje"
           }
         }
       }
@@ -60882,6 +63822,12 @@
             "state" : "translated",
             "value" : "Gul"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geel"
+          }
         }
       }
     },
@@ -61005,6 +63951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Grønn"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Groen"
           }
         }
       }
@@ -61130,6 +64082,12 @@
             "state" : "translated",
             "value" : "Blå"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blauw"
+          }
         }
       }
     },
@@ -61253,6 +64211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lilla"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paars"
           }
         }
       }
@@ -61378,6 +64342,12 @@
             "state" : "translated",
             "value" : "Brun"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruin"
+          }
         }
       }
     },
@@ -61501,6 +64471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Viskelær"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gum"
           }
         }
       }
@@ -61626,6 +64602,12 @@
             "state" : "translated",
             "value" : "Farge %lld"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kleur %lld"
+          }
         }
       }
     },
@@ -61749,6 +64731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tynn pensel"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dunne kwast"
           }
         }
       }
@@ -61874,6 +64862,12 @@
             "state" : "translated",
             "value" : "Middels pensel"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Middelmatige kwast"
+          }
         }
       }
     },
@@ -61997,6 +64991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tykk pensel"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dikke kwast"
           }
         }
       }
@@ -62122,6 +65122,12 @@
             "state" : "translated",
             "value" : "Én tegner, de andre gjetter"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eén tekent, de rest raadt"
+          }
         }
       }
     },
@@ -62245,6 +65251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Runde %1$lld / %2$lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ronde %1$lld / %2$lld"
           }
         }
       }
@@ -62370,6 +65382,12 @@
             "state" : "translated",
             "value" : "Jeg er Tegneren!"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ik ben de Tekenaar!"
+          }
         }
       }
     },
@@ -62493,6 +65511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tegner: %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekenaar: %@"
           }
         }
       }
@@ -62618,6 +65642,12 @@
             "state" : "translated",
             "value" : "Ferdig med å tegne"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klaar met tekenen"
+          }
         }
       }
     },
@@ -62741,6 +65771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hopp over runden"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ronde overslaan"
           }
         }
       }
@@ -62866,6 +65902,12 @@
             "state" : "translated",
             "value" : "I denne runden er du Tegner! Velg det av de 3 ordene som er enklest å tegne."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deze ronde ben jij de Tekenaar! Kies uit 3 woorden het woord dat het makkelijkst te tekenen is."
+          }
         }
       }
     },
@@ -62989,6 +66031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uttrykk ordet med en tegning. Ingen bokstaver eller tall! Når du er ferdig, trykker du «Neste» for å se robotenes gjetninger."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Druk het woord uit met een tekening. Geen letters of cijfers! Tik als je klaar bent op ‘Volgende’ om de gokken van de bots te zien."
           }
         }
       }
@@ -63114,6 +66162,12 @@
             "state" : "translated",
             "value" : "Resultat for runden. Jo raskere du gjetter, jo flere poeng; Tegneren får flere poeng jo flere som gjetter. Trykk «Neste» for den endelige rangeringen."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rondeuitslag. Hoe sneller geraden, hoe meer punten; de Tekenaar krijgt meer punten naarmate meer mensen raden. Tik op ‘Volgende’ voor de eindstand."
+          }
         }
       }
     },
@@ -63237,6 +66291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velg et ord"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies een woord"
           }
         }
       }
@@ -63362,6 +66422,12 @@
             "state" : "translated",
             "value" : "La ingen se det! Å velge noe som er lett å tegne, gir en fordel."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laat niemand het zien! Een makkelijk te tekenen woord kiezen geeft een voordeel."
+          }
         }
       }
     },
@@ -63485,6 +66551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ velger et ord …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ kiest een woord…"
           }
         }
       }
@@ -63610,6 +66682,12 @@
             "state" : "translated",
             "value" : "Om litt begynner tegningen."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zo begint het tekenen."
+          }
         }
       }
     },
@@ -63733,6 +66811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bokstaver: %lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letters: %lld"
           }
         }
       }
@@ -63858,6 +66942,12 @@
             "state" : "translated",
             "value" : "Riktige: %1$lld/%2$lld"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goed: %1$lld/%2$lld"
+          }
         }
       }
     },
@@ -63981,6 +67071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alles gjetninger vises her."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De gokken van iedereen verschijnen hier."
           }
         }
       }
@@ -64106,6 +67202,12 @@
             "state" : "translated",
             "value" : "Se på tegningen og gjett svaret!"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kijk naar de tekening en raad het antwoord!"
+          }
         }
       }
     },
@@ -64229,6 +67331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Angre ett strøk"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eén streek ongedaan maken"
           }
         }
       }
@@ -64354,6 +67462,12 @@
             "state" : "translated",
             "value" : "Slett hele tegningen"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hele tekening wissen"
+          }
         }
       }
     },
@@ -64477,6 +67591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Riktig! Venter på de andre …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goed! Wachten op de anderen…"
           }
         }
       }
@@ -64602,6 +67722,12 @@
             "state" : "translated",
             "value" : "Skriv svaret …"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Typ je antwoord…"
+          }
         }
       }
     },
@@ -64725,6 +67851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skjul tastatur"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toetsenbord verbergen"
           }
         }
       }
@@ -64850,6 +67982,12 @@
             "state" : "translated",
             "value" : "Ordet var"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het woord was"
+          }
         }
       }
     },
@@ -64973,6 +68111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Riktig"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goed"
           }
         }
       }
@@ -65098,6 +68242,12 @@
             "state" : "translated",
             "value" : "Se endelig rangering"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eindstand bekijken"
+          }
         }
       }
     },
@@ -65221,6 +68371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neste runde"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volgende ronde"
           }
         }
       }
@@ -65346,6 +68502,12 @@
             "state" : "translated",
             "value" : "Venter på at verten fortsetter …"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wachten tot de host doorgaat…"
+          }
         }
       }
     },
@@ -65469,6 +68631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Høyeste poengsum: %lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoogste score: %lld"
           }
         }
       }
@@ -65594,6 +68762,12 @@
             "state" : "translated",
             "value" : "Poeng: %lld"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Punten: %lld"
+          }
         }
       }
     },
@@ -65717,6 +68891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spill igjen med de samme spillerne"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opnieuw met dezelfde spelers"
           }
         }
       }
@@ -65842,6 +69022,12 @@
             "state" : "translated",
             "value" : "Frakoblet"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verbinding verbroken"
+          }
         }
       }
     },
@@ -65965,6 +69151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Venter på at %@ kobler til igjen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wachten tot %@ weer verbindt."
           }
         }
       }
@@ -66090,6 +69282,12 @@
             "state" : "translated",
             "value" : "Fjern %@"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ verwijderen"
+          }
         }
       }
     },
@@ -66213,6 +69411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avvist"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afgewezen"
           }
         }
       }
@@ -66338,6 +69542,12 @@
             "state" : "translated",
             "value" : "Krever 2 fiaskoer"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 mislukkingen nodig"
+          }
         }
       }
     },
@@ -66461,6 +69671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En natt med en goblin i landsbyen, én avstemning"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eén nacht met een goblin in het dorp, één stemming"
           }
         }
       }
@@ -66586,6 +69802,12 @@
             "state" : "translated",
             "value" : "🌙 Natt — hemmelig handling"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🌙 Nacht — geheime actie"
+          }
         }
       }
     },
@@ -66709,6 +69931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "☀️ Dag — debatt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "☀️ Dag — discussie"
           }
         }
       }
@@ -66834,6 +70062,12 @@
             "state" : "translated",
             "value" : "🗳️ Avstemning om forvisning"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🗳️ Stemming over verbanning"
+          }
         }
       }
     },
@@ -66957,6 +70191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resultat"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uitslag"
           }
         }
       }
@@ -67082,6 +70322,12 @@
             "state" : "translated",
             "value" : "Om natten handler alle i hemmelighet. Se rollen din og fullfør handlingen din, og trykk så «Neste» for å kjøre robotenes nattlige handlinger."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "’s Nachts handelt iedereen in het geheim. Bekijk je rol en maak je actie af, en tik dan op ‘Volgende’ om de nachtacties van de bots uit te voeren."
+          }
         }
       }
     },
@@ -67205,6 +70451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I løpet av natten kan Nattetyven og Spøkefuglen ha byttet kort! I et ekte spill diskuterer man her. Trykk «Neste» for å starte avstemningen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "’s Nachts kunnen de Nachtdief en de Grappenmaker kaarten hebben gewisseld! In een echt spel wordt hier gediscussieerd. Tik op ‘Volgende’ om de stemming te starten."
           }
         }
       }
@@ -67330,6 +70582,12 @@
             "state" : "translated",
             "value" : "Pek først ut den du mistenker for å være en goblin, og trykk så «Neste» for å se robotenes stemmer. Den med flest stemmer forvises."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wijs eerst aan wie je voor goblin houdt en tik dan op ‘Volgende’ om de stemmen van de bots te zien. Wie de meeste stemmen krijgt, wordt verbannen."
+          }
         }
       }
     },
@@ -67453,6 +70711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Andre goblins: %@"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mede-goblins: %@"
           }
         }
       }
@@ -67578,6 +70842,12 @@
             "state" : "translated",
             "value" : "Natten har falt på"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De nacht is gevallen"
+          }
         }
       }
     },
@@ -67701,6 +70971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se rollen din der ingen andre kan se skjermen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekijk je rol waar niemand het scherm kan zien"
           }
         }
       }
@@ -67826,6 +71102,12 @@
             "state" : "translated",
             "value" : "Handling utført! Venter på de andre spillerne … %lld/%lld"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Actie voltooid! Wachten op de andere spelers… %lld/%lld"
+          }
         }
       }
     },
@@ -67949,6 +71231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du er den eneste goblinen! Du kan se på 1 midtkort"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je bent de enige goblin! Je mag 1 middenkaart bekijken"
           }
         }
       }
@@ -68074,6 +71362,12 @@
             "state" : "translated",
             "value" : "Midten nr. %lld"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Midden nr. %lld"
+          }
         }
       }
     },
@@ -68197,6 +71491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se midtkort nr. %lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Middenkaart nr. %lld bekijken"
           }
         }
       }
@@ -68322,6 +71622,12 @@
             "state" : "translated",
             "value" : "Jeg har sett kameratene mine"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mede-goblins gezien"
+          }
         }
       }
     },
@@ -68445,6 +71751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se 1 spiller"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 speler bekijken"
           }
         }
       }
@@ -68570,6 +71882,12 @@
             "state" : "translated",
             "value" : "Se 2 midtkort"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 middenkaarten bekijken"
+          }
         }
       }
     },
@@ -68693,6 +72011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se kortet til «%@»"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaart van ‘%@’ bekijken"
           }
         }
       }
@@ -68818,6 +72142,12 @@
             "state" : "translated",
             "value" : "Se de 2 midtkortene"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De 2 middenkaarten bekijken"
+          }
         }
       }
     },
@@ -68941,6 +72271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velg hvem du vil stjele kortet fra"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies van wie je de kaart steelt"
           }
         }
       }
@@ -69066,6 +72402,12 @@
             "state" : "translated",
             "value" : "Stjel kortet til «%@»"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaart van ‘%@’ stelen"
+          }
         }
       }
     },
@@ -69189,6 +72531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velg to spillere som skal bytte kort (%lld/2)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies twee spelers wier kaarten worden gewisseld (%lld/2)"
           }
         }
       }
@@ -69314,6 +72662,12 @@
             "state" : "translated",
             "value" : "Bytt kortene til disse to"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaarten van deze twee wisselen"
+          }
         }
       }
     },
@@ -69437,6 +72791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Morgenen er kommet"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De ochtend is aangebroken"
           }
         }
       }
@@ -69562,6 +72922,12 @@
             "state" : "translated",
             "value" : "Kortene kan ha endret seg i løpet av natten!\nFinn goblinen (etter nåværende kort) gjennom debatt."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaarten kunnen ’s nachts veranderd zijn!\nVind de goblin (op huidige kaart) door te discussiëren."
+          }
         }
       }
     },
@@ -69685,6 +73051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "(Etter rollen din ved nattens begynnelse)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(Gebaseerd op je rol aan het begin van de nacht)"
           }
         }
       }
@@ -69810,6 +73182,12 @@
             "state" : "translated",
             "value" : "Hva som skjedde i løpet av natten (vises bare i øvelsen)"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat er ’s nachts gebeurde (alleen zichtbaar tijdens oefenen)"
+          }
         }
       }
     },
@@ -69933,6 +73311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I et ekte spill avsløres ingenting. Derfor er debatten viktig!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In een echt spel wordt niets onthuld. Daarom is de discussie belangrijk!"
           }
         }
       }
@@ -70058,6 +73442,12 @@
             "state" : "translated",
             "value" : "Debatten er over! Start avstemningen"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discussie voorbij! Stemming starten"
+          }
         }
       }
     },
@@ -70181,6 +73571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Venter på at verten starter avstemningen …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wachten tot de host de stemming start…"
           }
         }
       }
@@ -70306,6 +73702,12 @@
             "state" : "translated",
             "value" : "Pek ut den du tror er goblinen"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wijs aan wie je voor de goblin houdt"
+          }
         }
       }
     },
@@ -70429,6 +73831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Den med flest stemmer forvises · ved likt alle likestilte · hvis alle har høyst 1 stemme, forvises ingen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wie de meeste stemmen krijgt, wordt verbannen · bij gelijkspel alle gelijken · hebben allen hooguit 1 stem, dan wordt niemand verbannen"
           }
         }
       }
@@ -70554,6 +73962,12 @@
             "state" : "translated",
             "value" : "Stemme for å forvise «%@»?"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stemmen om ‘%@’ te verbannen?"
+          }
         }
       }
     },
@@ -70677,6 +74091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Landsbyen vinner!"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het Dorp wint!"
           }
         }
       }
@@ -70802,6 +74222,12 @@
             "state" : "translated",
             "value" : "Goblinene vinner!"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De Goblins winnen!"
+          }
         }
       }
     },
@@ -70925,6 +74351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stemmer: %lld"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stemmen: %lld"
           }
         }
       }
@@ -71051,6 +74483,12 @@
             "state" : "translated",
             "value" : "Bedre VoiceOver"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prettiger VoiceOver"
+          }
         }
       }
     },
@@ -71175,6 +74613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Når du forstørrer teksten, omorganiseres skjermene i stedet for å bli kuttet."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als je de tekst vergroot, ordenen de schermen zich opnieuw in plaats van afgesneden te worden."
           }
         }
       }
@@ -71301,6 +74745,12 @@
             "state" : "translated",
             "value" : "Varsel når det er din tur"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Melding als jij aan de beurt bent"
+          }
         }
       }
     },
@@ -71425,6 +74875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Selv med økt kontrast eller vansker med å skille farger kan du se lagene og resultatene."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ook met meer contrast of moeite met kleuren herken je de kampen en de uitslagen."
           }
         }
       }
@@ -71551,6 +75007,12 @@
             "state" : "translated",
             "value" : "Bruk appen på flere språk."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruik de app in meer talen."
+          }
         }
       }
     },
@@ -71675,6 +75137,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flere språk"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meer talen"
           }
         }
       }
@@ -71801,6 +75269,12 @@
             "state" : "translated",
             "value" : "Behagelige farger og kontrast"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fijne kleuren en contrast"
+          }
         }
       }
     },
@@ -71925,6 +75399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Respons du kjenner i fingrene"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reactie die je in je vingers voelt"
           }
         }
       }
@@ -72051,6 +75531,12 @@
             "state" : "translated",
             "value" : "Første gang du åpner appen etter en oppdatering, ser du hva som er nytt."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De eerste keer openen na een update zie je wat er nieuw is."
+          }
         }
       }
     },
@@ -72175,6 +75661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nyheter"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wat is er nieuw"
           }
         }
       }
@@ -72301,6 +75793,12 @@
             "state" : "translated",
             "value" : "En lett vibrasjon når du får rollen din eller en avstemning er over."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een lichte trilling als je je rol krijgt of een stemming afloopt."
+          }
         }
       }
     },
@@ -72425,6 +75923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Støtte for engelsk"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ondersteuning voor Engels"
           }
         }
       }
@@ -72551,6 +76055,12 @@
             "state" : "translated",
             "value" : "Så du også kan spille med venner fra utlandet, kan appen også brukes på engelsk."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zodat je ook met vrienden uit het buitenland kunt spelen, kan de app ook in het Engels worden gebruikt."
+          }
         }
       }
     },
@@ -72675,6 +76185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reduser bevegelse"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beweging beperken"
           }
         }
       }
@@ -72801,6 +76317,12 @@
             "state" : "translated",
             "value" : "Med «Reduser bevegelse» på blir skjermeffektene roligere."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Met ‘Beweging beperken’ aan worden schermeffecten rustiger."
+          }
         }
       }
     },
@@ -72925,6 +76447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skjermer for stor tekst"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schermen voor grote tekst"
           }
         }
       }
@@ -73051,6 +76579,12 @@
             "state" : "translated",
             "value" : "Skjerm for foldbar iPhone"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scherm voor opvouwbare iPhone"
+          }
         }
       }
     },
@@ -73175,6 +76709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "På en foldbar iPhone deles den brede skjermen i to deler."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Op een opvouwbare iPhone wordt het brede scherm in twee delen verdeeld."
           }
         }
       }
@@ -73301,6 +76841,12 @@
             "state" : "translated",
             "value" : "Widgeter på hjem-skjermen"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgets op het beginscherm"
+          }
         }
       }
     },
@@ -73425,6 +76971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Åpne et spillrom rett fra hjem-skjermen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open een spelkamer direct vanaf het beginscherm."
           }
         }
       }
@@ -73551,6 +77103,12 @@
             "state" : "translated",
             "value" : "VoiceOver leser opp alle rollekort og avstemningsknapper, i riktig rekkefølge."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver leest alle rolkaarten en stemknoppen volledig en in de juiste volgorde voor."
+          }
         }
       }
     },
@@ -73675,6 +77233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Selv med slukket skjerm får du et varsel når det er din tur."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ook met uitgeschakeld scherm krijg je een melding als je aan de beurt bent."
           }
         }
       }

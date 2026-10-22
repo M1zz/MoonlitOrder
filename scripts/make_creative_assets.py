@@ -24,9 +24,9 @@ OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 # 문구 언어 → App Store Connect 로케일
-STORE = {"en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no"}
+STORE = {"en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no", "nl": "nl-NL"}
 # 문구 언어 → 기기 화면 캡처 폴더
-SCREEN = {"ko": "ko", "en": "en", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb"}   # en 캡처는 Mac 시뮬레이터에서 docs/screenshots/raw/creative/en/ 에 만든다
+SCREEN = {"ko": "ko", "en": "en", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl"}   # en 캡처는 Mac 시뮬레이터에서 docs/screenshots/raw/creative/en/ 에 만든다
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -57,6 +57,7 @@ SEARCH = {
     "fi": ("Bilepelit", "Kokoonnutte,<br>peli alkaa heti", "Valehtelijapelistä piirtämiseen ja arvaamiseen<br>ilman internetiä"),
     "id": ("Game pesta", "Berkumpul,<br>langsung main", "Dari Permainan Si Pembohong sampai tebak gambar<br>tanpa internet"),
     "nb": ("Festspill", "Møt opp,<br>og spillet er i gang", "Fra Løgnerspillet til tegn og gjett<br>helt uten internett"),
+    "nl": ("Feestspellen", "Samenkomen,<br>meteen spelen", "Van het Leugenaarsspel tot tekenen en raden<br>zonder internet"),
 }
 
 # 헤더: 처음 온 사람에게 한 가지 약속.
@@ -81,6 +82,7 @@ HEADER = {
     "fi": ("Bilepelit lähellä oleville", "Ota puhelin esiin<br>ja pelatkaa yhdessä"),
     "id": ("Game pesta terdekat", "Keluarkan ponsel<br>dan main bareng"),
     "nb": ("Festspill i nærheten", "Ta fram telefonen<br>og spill sammen"),
+    "nl": ("Feestspellen in de buurt", "Pak je telefoon<br>en speel samen"),
 }
 
 # 바탕 · 글자색은 앱의 색이다(Views/Theme.swift): 남색→보라 그라데이션 배경, 포인트 금색(Theme.gold).

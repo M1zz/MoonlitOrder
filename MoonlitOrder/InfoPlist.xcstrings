@@ -87,6 +87,12 @@
             "value" : "Månearkaden"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maanarcade"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -209,6 +215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tilgang til lokalt nettverk trengs for å koble direkte til vennenes iPhoner i nærheten og spille festspill sammen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toegang tot het lokale netwerk is nodig om rechtstreeks verbinding te maken met iPhones van vrienden in de buurt en samen feestspellen te spelen."
           }
         },
         "pt-BR" : {

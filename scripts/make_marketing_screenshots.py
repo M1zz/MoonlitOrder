@@ -15,7 +15,7 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "marketing"
 WORK = pathlib.Path("/tmp") / "moonlit-marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no"}
+STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no", "nl": "nl-NL"}
 
 # (원본 파일, 헤드라인, 서브카피) — 언어마다 따로 쓴다.
 SHOTS = {
@@ -158,6 +158,13 @@ SHOTS = {
         ("03-vote.png", "For<br>eller imot?", "I det alles stemmer avsløres, snur spillet"),
         ("04-draw.png", "Tegn<br>og gjett", "Én tegner, de andre gjetter i Månestudioet"),
         ("05-result.png", "Jo raskere,<br>jo flere poeng", "Spill med opptil 15 venner"),
+    ],
+    "nl": [
+        ("01-home.png", "Samenkomen,<br>meteen een feestspel", "iPhones in de buurt verbinden zonder internet"),
+        ("02-role.png", "Jouw rol<br>weet alleen jij", "Vind de verborgen Schaduwen in de Maanorde"),
+        ("03-vote.png", "Voor<br>of tegen?", "Op het moment dat ieders stem wordt onthuld, keert het spel"),
+        ("04-draw.png", "Teken<br>en raad", "Eén tekent, de rest raadt in het Maanatelier"),
+        ("05-result.png", "Hoe sneller,<br>hoe meer punten", "Speel samen met maximaal 15 vrienden"),
     ],
 }
 

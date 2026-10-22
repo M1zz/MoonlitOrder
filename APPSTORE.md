@@ -1159,3 +1159,61 @@ https://m1zz.github.io/MoonlitOrder/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/MoonlitOrder/
+
+## nl
+
+### 이름
+
+Maanarcade: Feestspellen
+
+### 부제
+
+Offline spelen met vrienden
+
+### 키워드
+
+leugenaar,mafia,weerwolf,bordspel,deductie,tekenen,raden,bluf,bluetooth,wifi,gezin,kamp
+
+### 프로모션 텍스트
+
+Samen, maar geen idee wat je speelt? Verbind iPhones in de buurt zonder internet en speel vier feestspellen met maximaal 15 spelers.
+
+### 설명
+
+Feestspellen die je meteen op je eigen iPhone start wanneer vrienden samenkomen.
+Zonder internet verbinden iPhones op hetzelfde wifi-netwerk of in de buurt met elkaar, en maximaal 15 mensen kunnen meedoen.
+
+Vier spellen
+Maanorde (5–15 spelers): een spel met verborgen identiteiten waarin je de Schaduwen opspoort die zich onder de ordeleden hebben gemengd. De leider kiest een team, iedereen stemt voor of tegen, en het team speelt geheim succes of mislukking. Wie haalt als eerste 3 missies, succes of mislukking?
+Het Leugenaarsspel (3–15 spelers): iedereen krijgt hetzelfde geheime woord, behalve één persoon. Vind de Leugenaar die het niet kent door het gesprek te volgen.
+Nacht zonder Maan (3–15 spelers): één nacht met een goblin in het dorp. ’s Nachts handelt iedereen geheim volgens zijn rol en bij zonsopgang bespreken en stemmen jullie om de goblin te vinden.
+Maanatelier (3–15 spelers): één persoon tekent het geheime woord en de rest raadt. Hoe sneller je raadt, hoe meer punten je krijgt.
+
+Op je eigen scherm, in het geheim
+Rollen en woorden verschijnen alleen op je eigen iPhone. Kaarten delen of je ogen sluiten hoeft niet.
+Tijdens een stemming zie je meteen wie klaar is met stemmen. Op wie iemand stemde, blijft geheim tot de onthulling.
+
+Makkelijk voor beginners
+Elk spel heeft een uitlegmodus. Leer de regels door stap voor stap met bots te spelen.
+
+Ga verder waar je gebleven was
+Sluit de app af of valt de verbinding weg, dan brengt ‘Doorgaan’ op het beginscherm je terug in je spel, met je rol en punten intact.
+De apparaten sturen onderling door, dus het spel loopt stabiel, ook met een grote groep.
+
+Hulpmiddelen voor de host
+De host kan op elk moment een niet-reagerende speler verwijderen en het spel wordt opnieuw beoordeeld met de overgebleven spelers, zodat het nooit vastloopt.
+In hostmodus kun je een vastgelopen fase doorzetten en spelers beheren.
+
+Alle spellen zijn gratis en starten zonder account.
+
+### 지원 URL
+
+https://m1zz.github.io/MoonlitOrder/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/MoonlitOrder/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/MoonlitOrder/
