@@ -93,6 +93,12 @@
             "value" : "Maanarcade"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Księżycowa Arkada"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -221,6 +227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toegang tot het lokale netwerk is nodig om rechtstreeks verbinding te maken met iPhones van vrienden in de buurt en samen feestspellen te spelen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostęp do sieci lokalnej jest potrzebny, aby łączyć się bezpośrednio z iPhone’ami znajomych w pobliżu i wspólnie grać w gry imprezowe."
           }
         },
         "pt-BR" : {

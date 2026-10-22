@@ -1217,3 +1217,61 @@ https://m1zz.github.io/MoonlitOrder/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/MoonlitOrder/
+
+## pl
+
+### 이름
+
+Księżycowa Arkada: Gry
+
+### 부제
+
+Gry offline ze znajomymi
+
+### 키워드
+
+kłamca,mafia,wilkołak,planszówka,dedukcja,rysowanie,zgadywanie,blef,bluetooth,wifi,rodzina,obóz
+
+### 프로모션 텍스트
+
+Spotkaliście się, a nie wiecie, w co grać? Połącz iPhone’y w pobliżu bez internetu i zagraj w cztery gry imprezowe dla maksymalnie 15 osób.
+
+### 설명
+
+Gry imprezowe, które możesz od razu uruchomić na własnym iPhonie, gdy spotkają się znajomi.
+Bez internetu iPhone’y w tej samej sieci Wi-Fi lub w pobliżu łączą się ze sobą, a grać może nawet 15 osób.
+
+Cztery gry
+Zakon Księżyca (5–15 graczy): gra o ukrytych tożsamościach, w której odkrywasz Cienie ukryte wśród członków Zakonu. Lider wybiera drużynę, wszyscy głosują za lub przeciw, a drużyna po cichu zagrywa sukces lub porażkę. Kto pierwszy zaliczy 3 misje — sukces czy porażka?
+Gra w Kłamcę (3–15 graczy): wszyscy dostają to samo tajne hasło, oprócz jednej osoby. Znajdź Kłamcę, który go nie zna, słuchając rozmowy.
+Noc bez Księżyca (3–15 graczy): jedna noc z goblinem w wiosce. W nocy każdy działa potajemnie zgodnie ze swoją rolą, a o świcie dyskutujecie i głosujecie, by znaleźć goblina.
+Księżycowa Pracownia (3–15 graczy): jedna osoba rysuje tajne hasło, a reszta zgaduje. Im szybciej zgadniesz, tym więcej punktów zdobędziesz.
+
+Na własnym ekranie, po cichu
+Role i hasła widać tylko na twoim iPhonie. Nie trzeba rozdawać kart ani zamykać oczu.
+Podczas głosowania od razu widać, kto już zagłosował. Kto na kogo głosował, pozostaje tajemnicą do ujawnienia.
+
+Łatwo dla początkujących
+Każda gra ma tryb nauki. Poznaj zasady, grając krok po kroku z botami.
+
+Wróć tam, gdzie skończyłeś
+Jeśli aplikacja się zamknie lub połączenie zniknie, „Kontynuuj” na ekranie głównym przywróci cię do gry, z rolą i punktami bez zmian.
+Urządzenia przekazują dane między sobą, więc gra działa stabilnie nawet w dużej grupie.
+
+Narzędzia dla gospodarza
+Gospodarz może w każdej chwili usunąć nieodpowiadającego gracza, a gra zostanie oceniona ponownie z pozostałymi osobami, by nigdy się nie zawiesiła.
+W trybie gospodarza możesz popchnąć zablokowaną fazę i zarządzać graczami.
+
+Wszystkie gry są darmowe i startują bez konta.
+
+### 지원 URL
+
+https://m1zz.github.io/MoonlitOrder/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/MoonlitOrder/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/MoonlitOrder/

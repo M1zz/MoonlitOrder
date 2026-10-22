@@ -15,7 +15,7 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "marketing"
 WORK = pathlib.Path("/tmp") / "moonlit-marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no", "nl": "nl-NL"}
+STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no", "nl": "nl-NL", "pl": "pl"}
 
 # (원본 파일, 헤드라인, 서브카피) — 언어마다 따로 쓴다.
 SHOTS = {
@@ -165,6 +165,13 @@ SHOTS = {
         ("03-vote.png", "Voor<br>of tegen?", "Op het moment dat ieders stem wordt onthuld, keert het spel"),
         ("04-draw.png", "Teken<br>en raad", "Eén tekent, de rest raadt in het Maanatelier"),
         ("05-result.png", "Hoe sneller,<br>hoe meer punten", "Speel samen met maximaal 15 vrienden"),
+    ],
+    "pl": [
+        ("01-home.png", "Spotykacie się —<br>od razu gra imprezowa", "iPhone’y w pobliżu łączą się bez internetu"),
+        ("02-role.png", "Swoją rolę<br>znasz tylko ty", "Znajdź ukryte Cienie w Zakonie Księżyca"),
+        ("03-vote.png", "Za<br>czy przeciw?", "W chwili ujawnienia głosów wszystkich gra się odwraca"),
+        ("04-draw.png", "Rysuj<br>i zgaduj", "Jeden rysuje, reszta zgaduje w Księżycowej Pracowni"),
+        ("05-result.png", "Im szybciej,<br>tym więcej punktów", "Graj razem z maksymalnie 15 znajomymi"),
     ],
 }
 

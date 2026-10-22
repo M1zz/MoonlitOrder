@@ -128,6 +128,12 @@ Open Instellingen via het tandwiel
 Stuur feedback direct naar de maker
 Beoordeel de app en check je versie
 
+### 앱스토어 (Polski)
+
+Ustawienia otworzysz kołem zębatym
+Opinię wyślesz twórcy od ręki
+Oceń aplikację i sprawdź wersję
+
 ## 1.0.1 (2026-07-17)
 
 ### 새로운 기능
