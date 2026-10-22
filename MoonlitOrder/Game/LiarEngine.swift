@@ -80,7 +80,7 @@ final class LiarEngine {
         players.remove(at: idx)
 
         if phase != .lobby, targetID == liarID {
-            endGame(liarWins: false, reason: "라이어가 방을 떠났습니다. 시민의 승리!")
+            endGame(liarWins: false, reason: String(localized: "라이어가 방을 떠났습니다. 시민의 승리!"))
             return
         }
         if let sIdx = speakingOrder.firstIndex(of: targetID) {
@@ -111,7 +111,7 @@ final class LiarEngine {
 
     private func uniqueName(for name: String) -> String {
         let base = name.trimmingCharacters(in: .whitespacesAndNewlines)
-        let candidate = base.isEmpty ? "플레이어" : base
+        let candidate = base.isEmpty ? String(localized: "플레이어") : base
         var result = candidate
         var n = 2
         while players.contains(where: { $0.name == result }) {
@@ -217,7 +217,7 @@ final class LiarEngine {
 
         guard top.count == 1, let accused = top.first else {
             // 표가 갈리면 라이어 검거 실패
-            endGame(liarWins: true, reason: "표가 갈려 라이어를 잡지 못했습니다!")
+            endGame(liarWins: true, reason: String(localized: "표가 갈려 라이어를 잡지 못했습니다!"))
             return
         }
         accusedID = accused
@@ -226,7 +226,7 @@ final class LiarEngine {
             // 라이어에게 추측 후보를 전달
             if let liarID { onPrivateInfo?(liarID, privateInfo(for: liarID)) }
         } else {
-            endGame(liarWins: true, reason: "엉뚱한 사람을 지목했습니다!")
+            endGame(liarWins: true, reason: String(localized: "엉뚱한 사람을 지목했습니다!"))
         }
     }
 
@@ -234,9 +234,9 @@ final class LiarEngine {
         guard phase == .liarGuess, playerID == liarID else { return }
         liarGuess = word
         if word == secretWord {
-            endGame(liarWins: true, reason: "라이어가 제시어를 정확히 맞혔습니다! 라이어의 역전승!")
+            endGame(liarWins: true, reason: String(localized: "라이어가 제시어를 정확히 맞혔습니다! 라이어의 역전승!"))
         } else {
-            endGame(liarWins: false, reason: "라이어가 제시어를 맞히지 못했습니다. 시민의 승리!")
+            endGame(liarWins: false, reason: String(localized: "라이어가 제시어를 맞히지 못했습니다. 시민의 승리!"))
         }
     }
 
@@ -274,22 +274,22 @@ final class LiarEngine {
     func gmSecrets() -> [UUID: String] {
         guard phase != .lobby else { return [:] }
         return Dictionary(uniqueKeysWithValues:
-            players.map { ($0.id, $0.id == liarID ? "라이어" : "시민") })
+            players.map { ($0.id, $0.id == liarID ? String(localized: "라이어") : String(localized: "시민")) })
     }
 
     /// GM 패널용: 판 전체 비밀 요약
     func gmNote() -> String? {
         guard phase != .lobby else { return nil }
-        return "제시어: \(secretWord) · 카테고리: \(category)"
+        return String(localized: "제시어: \(secretWord) · 카테고리: \(category)")
     }
 
     /// 현재 단계에서 강제 진행이 수행할 일. nil이면 강제 진행 불가.
     func gmForceAdvanceLabel() -> String? {
         switch phase {
-        case .wordReveal: return "전원 제시어 확인 처리 후 설명 단계로 넘어갑니다."
-        case .describing: return "현재 발언자의 차례를 끝내고 다음으로 넘깁니다."
-        case .voting:     return "아직 투표하지 않은 사람은 기권으로 처리하고 개표합니다."
-        case .liarGuess:  return "라이어의 추측 포기로 처리하고 시민의 승리로 끝냅니다."
+        case .wordReveal: return String(localized: "전원 제시어 확인 처리 후 설명 단계로 넘어갑니다.")
+        case .describing: return String(localized: "현재 발언자의 차례를 끝내고 다음으로 넘깁니다.")
+        case .voting:     return String(localized: "아직 투표하지 않은 사람은 기권으로 처리하고 개표합니다.")
+        case .liarGuess:  return String(localized: "라이어의 추측 포기로 처리하고 시민의 승리로 끝냅니다.")
         case .lobby, .gameOver: return nil
         }
     }
@@ -308,7 +308,7 @@ final class LiarEngine {
         case .voting:
             tallyVotes()   // 기권표는 빼고 개표 (표가 갈리면 규칙대로 라이어 승리)
         case .liarGuess:
-            endGame(liarWins: false, reason: "라이어가 답하지 못했습니다. 시민의 승리!")
+            endGame(liarWins: false, reason: String(localized: "라이어가 답하지 못했습니다. 시민의 승리!"))
             return   // endGame이 상태를 전파한다
         case .lobby, .gameOver:
             return

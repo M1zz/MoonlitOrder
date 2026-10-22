@@ -36,7 +36,7 @@ struct GMPanelView: View {
         } message: {
             Text(game.gmForceAdvanceLabel ?? "")
         }
-        .confirmationDialog(kickTarget.map { "\($0.name) 님을 내보낼까요?" } ?? "",
+        .confirmationDialog(kickTarget.map { String(localized: "\($0.name) 님을 내보낼까요?") } ?? "",
                             isPresented: Binding(get: { kickTarget != nil },
                                                  set: { if !$0 { kickTarget = nil } }),
                             titleVisibility: .visible,
@@ -69,7 +69,7 @@ struct GMPanelView: View {
 
     @ViewBuilder
     private var forceAdvanceSection: some View {
-        sectionCard(title: "진행 제어", icon: "forward.frame.fill") {
+        sectionCard(title: String(localized: "진행 제어"), icon: "forward.frame.fill") {
             if let label = game.gmForceAdvanceLabel {
                 Text(label)
                     .font(.footnote)
@@ -99,7 +99,7 @@ struct GMPanelView: View {
     // MARK: 참가자 관리
 
     private var playerSection: some View {
-        sectionCard(title: "참가자 관리", icon: "person.3.fill") {
+        sectionCard(title: String(localized: "참가자 관리"), icon: "person.3.fill") {
             ForEach(game.gmPlayers) { p in
                 PlayerRow(player: p,
                           isMe: p.id == game.playerID,
@@ -113,7 +113,7 @@ struct GMPanelView: View {
     // MARK: 비공개 정보
 
     private var secretSection: some View {
-        sectionCard(title: "비공개 정보", icon: "eye.fill") {
+        sectionCard(title: String(localized: "비공개 정보"), icon: "eye.fill") {
             Toggle(isOn: $showSecrets.animation()) {
                 Text("역할·정답 공개")
                     .font(.subheadline.bold())

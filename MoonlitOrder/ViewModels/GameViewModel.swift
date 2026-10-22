@@ -23,10 +23,10 @@ final class GameViewModel: ObservableObject {
 
         var displayName: String {
             switch self {
-            case .moonlit: return "달빛 결사"
-            case .liar:    return "라이어 게임"
-            case .wolf:    return "달 없는 밤"
-            case .sketch:  return "달빛 화실"
+            case .moonlit: return String(localized: "달빛 결사")
+            case .liar:    return String(localized: "라이어 게임")
+            case .wolf:    return String(localized: "달 없는 밤")
+            case .sketch:  return String(localized: "달빛 화실")
             }
         }
     }
@@ -157,7 +157,7 @@ final class GameViewModel: ObservableObject {
 
     var trimmedName: String {
         let t = playerName.trimmingCharacters(in: .whitespacesAndNewlines)
-        return t.isEmpty ? "플레이어" : t
+        return t.isEmpty ? String(localized: "플레이어") : t
     }
 
     // MARK: - 호스트 시작
@@ -410,12 +410,12 @@ final class GameViewModel: ObservableObject {
                 recordRoute(playerID: pid, via: peer)
             case .rejectedFull:
                 service?.send(.toPlayer(playerID: pid,
-                                        message: .rejected(reason: "정원이 가득 찼습니다. (최대 \(activeMaxPlayers)명)")),
+                                        message: .rejected(reason: String(localized: "정원이 가득 찼습니다. (최대 \(activeMaxPlayers)명)"))),
                               to: peer)
                 disconnectIfDirect(pid, peer: peer)
             case .rejectedInProgress:
                 service?.send(.toPlayer(playerID: pid,
-                                        message: .rejected(reason: "이미 게임이 진행 중인 방입니다.")),
+                                        message: .rejected(reason: String(localized: "이미 게임이 진행 중인 방입니다."))),
                               to: peer)
                 disconnectIfDirect(pid, peer: peer)
             }
@@ -462,7 +462,7 @@ final class GameViewModel: ObservableObject {
     func startKickPreview(midGame: Bool) {
         hostGame(kind: .moonlit)
         guard let engine else { return }
-        let bots = ["난희", "무명", "달수", "별이"].map { (id: UUID(), name: $0) }
+        let bots = [String(localized: "난희"), String(localized: "무명"), String(localized: "달수"), String(localized: "별이")].map { (id: UUID(), name: $0) }
         for bot in bots { engine.join(playerID: bot.id, name: bot.name, isHost: false) }
         guard midGame else { return }
         engine.handle(.startGame(playerID: playerID))
@@ -701,10 +701,10 @@ final class GameViewModel: ObservableObject {
             errorMessage = reason
             leaveGame()
         case .kicked:
-            errorMessage = "방장이 회원님을 내보냈습니다."
+            errorMessage = String(localized: "방장이 회원님을 내보냈습니다.")
             leaveGame()
         case .hostEnded:
-            errorMessage = "호스트가 방을 닫았습니다."
+            errorMessage = String(localized: "호스트가 방을 닫았습니다.")
             leaveGame()
         default:
             break
@@ -821,7 +821,7 @@ final class GameViewModel: ObservableObject {
                                                  repeats: false) { [weak self] _ in
             Task { @MainActor in
                 guard let self, self.connectionLost else { return }
-                self.errorMessage = "호스트에 다시 연결하지 못했습니다. 홈의 '이어서 하기'로 다시 참가할 수 있습니다."
+                self.errorMessage = String(localized: "호스트에 다시 연결하지 못했습니다. 홈의 '이어서 하기'로 다시 참가할 수 있습니다.")
                 self.leaveGame(forgetRoom: false)   // 방을 기억해 두어 이어서 할 수 있게
             }
         }

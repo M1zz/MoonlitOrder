@@ -12,11 +12,11 @@ enum WolfRole: String, Codable, Equatable, CaseIterable {
 
     var displayName: String {
         switch self {
-        case .werewolf:     return "도깨비"
-        case .seer:         return "무당"
-        case .robber:       return "밤손님"
-        case .troublemaker: return "장난꾼"
-        case .villager:     return "마을 사람"
+        case .werewolf:     return String(localized: "도깨비")
+        case .seer:         return String(localized: "무당")
+        case .robber:       return String(localized: "밤손님")
+        case .troublemaker: return String(localized: "장난꾼")
+        case .villager:     return String(localized: "마을 사람")
         }
     }
 
@@ -25,15 +25,15 @@ enum WolfRole: String, Codable, Equatable, CaseIterable {
     var summary: String {
         switch self {
         case .werewolf:
-            return "동료 도깨비를 확인합니다. 당신이 유일한 도깨비라면 중앙 카드 1장을 볼 수 있습니다. 날이 밝으면 사람인 척 정체를 숨기세요."
+            return String(localized: "동료 도깨비를 확인합니다. 당신이 유일한 도깨비라면 중앙 카드 1장을 볼 수 있습니다. 날이 밝으면 사람인 척 정체를 숨기세요.")
         case .seer:
-            return "신통력으로 다른 플레이어 1명의 카드 또는 중앙 카드 2장을 볼 수 있습니다."
+            return String(localized: "신통력으로 다른 플레이어 1명의 카드 또는 중앙 카드 2장을 볼 수 있습니다.")
         case .robber:
-            return "다른 플레이어 1명과 카드를 몰래 바꾸고, 새로 가져온 카드를 확인합니다. 이후 당신의 편은 새 카드를 따릅니다."
+            return String(localized: "다른 플레이어 1명과 카드를 몰래 바꾸고, 새로 가져온 카드를 확인합니다. 이후 당신의 편은 새 카드를 따릅니다.")
         case .troublemaker:
-            return "장난기가 발동! 다른 두 플레이어의 카드를 서로 바꿉니다. 무엇이었는지는 볼 수 없습니다."
+            return String(localized: "장난기가 발동! 다른 두 플레이어의 카드를 서로 바꿉니다. 무엇이었는지는 볼 수 없습니다.")
         case .villager:
-            return "밤에는 할 일이 없습니다. 낮의 추리와 토론으로 숨어든 도깨비를 찾아내세요."
+            return String(localized: "밤에는 할 일이 없습니다. 낮의 추리와 토론으로 숨어든 도깨비를 찾아내세요.")
         }
     }
 

@@ -146,17 +146,17 @@ enum SketchRules {
     // MARK: 단어 은행 (그리기 좋은 명사 위주)
 
     static let wordBank: [String: [String]] = [
-        "동물": ["코끼리", "기린", "펭귄", "토끼", "고양이", "강아지", "사자", "곰",
-               "돌고래", "문어", "달팽이", "뱀", "부엉이", "거북이", "나비", "물고기"],
-        "음식": ["피자", "햄버거", "아이스크림", "케이크", "바나나", "수박", "달걀후라이",
-               "라면", "김밥", "도넛", "사과", "핫도그", "포도", "당근"],
-        "사물": ["우산", "안경", "시계", "가위", "자전거", "의자", "열쇠", "전구",
-               "풍선", "양초", "선물상자", "빗자루", "망치", "연필", "컵"],
-        "탈것": ["자동차", "비행기", "배", "기차", "로켓", "헬리콥터", "잠수함", "열기구"],
-        "자연": ["나무", "꽃", "태양", "구름", "무지개", "산", "별", "눈사람",
-               "번개", "화산", "섬", "달"],
-        "캐릭터": ["로봇", "유령", "왕관", "해적", "천사", "마법사", "공룡", "외계인",
-                "인어", "산타"],
+        String(localized: "동물"): [String(localized: "코끼리"), String(localized: "기린"), String(localized: "펭귄"), String(localized: "토끼"), String(localized: "고양이"), String(localized: "강아지"), String(localized: "사자"), String(localized: "곰"),
+               String(localized: "돌고래"), String(localized: "문어"), String(localized: "달팽이"), String(localized: "뱀"), String(localized: "부엉이"), String(localized: "거북이"), String(localized: "나비"), String(localized: "물고기")],
+        String(localized: "음식"): [String(localized: "피자"), String(localized: "햄버거"), String(localized: "아이스크림"), String(localized: "케이크"), String(localized: "바나나"), String(localized: "수박"), String(localized: "달걀후라이"),
+               String(localized: "라면"), String(localized: "김밥"), String(localized: "도넛"), String(localized: "사과"), String(localized: "핫도그"), String(localized: "포도"), String(localized: "당근")],
+        String(localized: "사물"): [String(localized: "우산"), String(localized: "안경"), String(localized: "시계"), String(localized: "가위"), String(localized: "자전거"), String(localized: "의자"), String(localized: "열쇠"), String(localized: "전구"),
+               String(localized: "풍선"), String(localized: "양초"), String(localized: "선물상자"), String(localized: "빗자루"), String(localized: "망치"), String(localized: "연필"), String(localized: "컵")],
+        String(localized: "탈것"): [String(localized: "자동차"), String(localized: "비행기"), String(localized: "배"), String(localized: "기차"), String(localized: "로켓"), String(localized: "헬리콥터"), String(localized: "잠수함"), String(localized: "열기구")],
+        String(localized: "자연"): [String(localized: "나무"), String(localized: "꽃"), String(localized: "태양"), String(localized: "구름"), String(localized: "무지개"), String(localized: "산"), String(localized: "별"), String(localized: "눈사람"),
+               String(localized: "번개"), String(localized: "화산"), String(localized: "섬"), String(localized: "달")],
+        String(localized: "캐릭터"): [String(localized: "로봇"), String(localized: "유령"), String(localized: "왕관"), String(localized: "해적"), String(localized: "천사"), String(localized: "마법사"), String(localized: "공룡"), String(localized: "외계인"),
+                String(localized: "인어"), String(localized: "산타")],
     ]
 
     /// 화가에게 보여줄 제시어 후보 (서로 다른 3개, 각각 카테고리 포함)

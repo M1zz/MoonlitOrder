@@ -23,7 +23,7 @@ struct LobbyView: View {
                         .foregroundColor(.white.opacity(0.8))
                 }
                 Spacer()
-                Text(game.isHost ? "내가 만든 방" : "대기실")
+                Text(game.isHost ? String(localized: "내가 만든 방") : String(localized: "대기실"))
                     .font(.headline)
                     .foregroundColor(.white)
                 Spacer()
@@ -70,7 +70,7 @@ struct LobbyView: View {
                 Button {
                     game.startGame()
                 } label: {
-                    Text(countOK ? "게임 시작" : "최소 \(GameRules.playerRange.lowerBound)명이 필요합니다")
+                    Text(countOK ? String(localized: "게임 시작") : String(localized: "최소 \(GameRules.playerRange.lowerBound)명이 필요합니다"))
                 }
                 .buttonStyle(BigButtonStyle())
                 .disabled(!countOK)
@@ -84,7 +84,7 @@ struct LobbyView: View {
             }
         }
         .padding(.bottom, 16)
-        .confirmationDialog(kickTarget.map { "\($0.name) 님을 내보낼까요?" } ?? "",
+        .confirmationDialog(kickTarget.map { String(localized: "\($0.name) 님을 내보낼까요?") } ?? "",
                             isPresented: Binding(get: { kickTarget != nil },
                                                  set: { if !$0 { kickTarget = nil } }),
                             titleVisibility: .visible,

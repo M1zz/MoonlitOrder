@@ -8,6 +8,12 @@
 개발자에게 의견을 바로 보낼 수 있어요
 앱을 평가하고 버전을 확인할 수 있어요
 
+### 앱스토어 (English)
+
+Open Settings from the home screen gear
+Send feedback straight to the developer
+Rate the app and check your version
+
 ## 1.0.1 (2026-07-17)
 
 ### 새로운 기능

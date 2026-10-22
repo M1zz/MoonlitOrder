@@ -134,7 +134,7 @@ final class SketchEngine {
 
     private func uniqueName(for name: String) -> String {
         let base = name.trimmingCharacters(in: .whitespacesAndNewlines)
-        let candidate = base.isEmpty ? "플레이어" : base
+        let candidate = base.isEmpty ? String(localized: "플레이어") : base
         var result = candidate
         var n = 2
         while players.contains(where: { $0.name == result }) {
@@ -241,7 +241,7 @@ final class SketchEngine {
             solvedOrder.append(playerID)
             let rank = solvedOrder.count
             lastRoundGains[playerID, default: 0] += SketchRules.guesserPoints(rank: rank)
-            appendChat(SketchChat(name: p.name, text: "정답을 맞혔어요! 🎉", correct: true))
+            appendChat(SketchChat(name: p.name, text: String(localized: "정답을 맞혔어요! 🎉"), correct: true))
             // 모든 추측자가 맞히면 라운드 종료
             let guessers = players.filter { $0.id != currentDrawerID }
             if guessers.allSatisfy({ solvedOrder.contains($0.id) }) {
@@ -316,22 +316,22 @@ final class SketchEngine {
     func gmSecrets() -> [UUID: String] {
         guard phase != .lobby else { return [:] }
         return Dictionary(uniqueKeysWithValues:
-            players.map { ($0.id, $0.id == currentDrawerID ? "화가" : "") })
+            players.map { ($0.id, $0.id == currentDrawerID ? String(localized: "화가") : "") })
     }
 
     /// GM 패널용: 판 전체 비밀 요약 (제시어)
     func gmNote() -> String? {
-        if !secretWord.isEmpty { return "제시어: \(secretWord)" }
-        if phase == .wordSelect { return "제시어 후보: \(wordChoices.joined(separator: " · "))" }
+        if !secretWord.isEmpty { return String(localized: "제시어: \(secretWord)") }
+        if phase == .wordSelect { return String(localized: "제시어 후보: \(wordChoices.joined(separator: " · "))") }
         return nil
     }
 
     /// 현재 단계에서 강제 진행이 수행할 일. nil이면 강제 진행 불가.
     func gmForceAdvanceLabel() -> String? {
         switch phase {
-        case .wordSelect:  return "화가 대신 제시어를 무작위로 골라 그리기를 시작합니다."
-        case .drawing:     return "이번 라운드를 종료하고 점수를 정산합니다."
-        case .roundResult: return "다음 라운드로 넘어갑니다."
+        case .wordSelect:  return String(localized: "화가 대신 제시어를 무작위로 골라 그리기를 시작합니다.")
+        case .drawing:     return String(localized: "이번 라운드를 종료하고 점수를 정산합니다.")
+        case .roundResult: return String(localized: "다음 라운드로 넘어갑니다.")
         case .lobby, .gameOver: return nil
         }
     }

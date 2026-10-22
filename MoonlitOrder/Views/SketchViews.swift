@@ -10,17 +10,17 @@ enum SketchStyle {
     }
     /// VoiceOver 가 읽는 팔레트 이름 (SketchRules.palette 순서와 같다)
     static func colorName(_ i: Int) -> String {
-        let names = ["검정", "빨강", "주황", "노랑", "초록", "파랑", "보라", "갈색"]
-        if i == SketchRules.eraserIndex { return "지우개" }
-        return names.indices.contains(i) ? names[i] : "색 \(i + 1)"
+        let names = [String(localized: "검정"), String(localized: "빨강"), String(localized: "주황"), String(localized: "노랑"), String(localized: "초록"), String(localized: "파랑"), String(localized: "보라"), String(localized: "갈색")]
+        if i == SketchRules.eraserIndex { return String(localized: "지우개") }
+        return names.indices.contains(i) ? names[i] : String(localized: "색 \(i + 1)")
     }
 
     /// VoiceOver 가 읽는 붓 굵기 이름 (SketchRules.brushWidths 순서와 같다)
     static func brushName(_ width: Double) -> String {
         switch SketchRules.brushWidths.firstIndex(of: width) {
-        case 0:  return "가는 붓"
-        case 1:  return "중간 붓"
-        default: return "굵은 붓"
+        case 0:  return String(localized: "가는 붓")
+        case 1:  return String(localized: "중간 붓")
+        default: return String(localized: "굵은 붓")
         }
     }
 
@@ -38,8 +38,8 @@ struct SketchRootView: View {
 
     var body: some View {
         if state.phase == .lobby {
-            PartyLobbyView(title: "달빛 화실",
-                           subtitle: "한 명이 그리고 나머지가 맞히는 그림 놀이",
+            PartyLobbyView(title: String(localized: "달빛 화실"),
+                           subtitle: String(localized: "한 명이 그리고 나머지가 맞히는 그림 놀이"),
                            players: state.players,
                            range: SketchRules.playerRange) {
                 game.performSketch(.startGame)
@@ -99,7 +99,7 @@ struct SketchGameView: View {
             if game.isHost, state.phase != .gameOver {
                 Button("게임 중단하고 대기실로") { game.performSketch(.abortToLobby) }
             }
-            Button(game.isHost ? "방 닫기 (전원 종료됨)" : "나가기", role: .destructive) {
+            Button(game.isHost ? String(localized: "방 닫기 (전원 종료됨)") : String(localized: "나가기"), role: .destructive) {
                 game.leaveGame()
             }
             Button("취소", role: .cancel) {}
@@ -131,7 +131,7 @@ struct SketchGameView: View {
                     Text("\(state.round) / \(state.totalRounds) 라운드")
                         .font(.headline).foregroundColor(.white)
                     if let drawer = state.drawer {
-                        Label(isDrawer ? "내가 화가!" : "화가: \(drawer.name)",
+                        Label(isDrawer ? String(localized: "내가 화가!") : String(localized: "화가: \(drawer.name)"),
                               systemImage: "paintbrush.pointed.fill")
                             .font(.caption)
                             .foregroundColor(Theme.mint)
@@ -172,7 +172,7 @@ struct SketchGameView: View {
                 Button {
                     game.performSketch(.endRound)
                 } label: {
-                    Label(isDrawer ? "다 그렸어요" : "라운드 넘기기",
+                    Label(isDrawer ? String(localized: "다 그렸어요") : String(localized: "라운드 넘기기"),
                           systemImage: "flag.checkered")
                         .font(.subheadline.bold())
                         .padding(.vertical, 10).padding(.horizontal, 16)
@@ -201,11 +201,11 @@ struct SketchGameView: View {
         guard game.isDemo else { return nil }
         switch state.phase {
         case .wordSelect:
-            return "당신이 이번 화가예요! 제시어 3개 중 그리기 쉬운 걸 하나 고르세요."
+            return String(localized: "당신이 이번 화가예요! 제시어 3개 중 그리기 쉬운 걸 하나 고르세요.")
         case .drawing:
-            return "제시어를 그림으로 표현하세요. 글자·숫자는 금지! 다 그렸으면 '다음'을 눌러 봇들의 추측을 지켜보세요."
+            return String(localized: "제시어를 그림으로 표현하세요. 글자·숫자는 금지! 다 그렸으면 '다음'을 눌러 봇들의 추측을 지켜보세요.")
         case .roundResult:
-            return "라운드 결과입니다. 빨리 맞힌 사람일수록 높은 점수, 화가는 맞힌 사람이 많을수록 점수를 얻어요. '다음'으로 최종 순위를 확인하세요."
+            return String(localized: "라운드 결과입니다. 빨리 맞힌 사람일수록 높은 점수, 화가는 맞힌 사람이 많을수록 점수를 얻어요. '다음'으로 최종 순위를 확인하세요.")
         default:
             return nil
         }
@@ -395,8 +395,8 @@ struct SketchDrawingView: View {
                         .id(line.id)
                     }
                     if state.chat.isEmpty {
-                        Text(isDrawer ? "사람들의 추측이 여기에 표시돼요."
-                                      : "그림을 보고 정답을 맞혀보세요!")
+                        Text(isDrawer ? String(localized: "사람들의 추측이 여기에 표시돼요.")
+                                      : String(localized: "그림을 보고 정답을 맞혀보세요!"))
                             .font(.caption).foregroundColor(.white.opacity(0.4))
                     }
                 }
@@ -628,7 +628,7 @@ struct SketchRoundResultView: View {
                         PlayerRow(
                             player: p,
                             isMe: p.id == game.playerID,
-                            trailing: gain > 0 ? "+\(gain)" : (isDrawer ? "화가" : (solved ? "정답" : "―"))
+                            trailing: gain > 0 ? "+\(gain)" : (isDrawer ? String(localized: "화가") : (solved ? String(localized: "정답") : "―"))
                         )
                     }
                 }
@@ -639,7 +639,7 @@ struct SketchRoundResultView: View {
                 Button {
                     game.performSketch(.continueRound)
                 } label: {
-                    Text(isLast ? "최종 순위 보기" : "다음 라운드")
+                    Text(isLast ? String(localized: "최종 순위 보기") : String(localized: "다음 라운드"))
                 }
                 .buttonStyle(BigButtonStyle())
                 .padding(.horizontal, 20)
@@ -664,7 +664,7 @@ struct SketchGameOverView: View {
         VStack(spacing: 16) {
             Image(systemName: "trophy.fill")
                 .font(.system(size: 48)).foregroundColor(Theme.gold)
-            Text(winners.isEmpty ? "게임 종료" : "\(winners.joined(separator: ", ")) 승리!")
+            Text(winners.isEmpty ? String(localized: "게임 종료") : String(localized: "\(winners.joined(separator: ", ")) 승리!"))
                 .font(.largeTitle.weight(.heavy))
                 .foregroundColor(Theme.gold)
                 .multilineTextAlignment(.center)
@@ -681,7 +681,7 @@ struct SketchGameOverView: View {
                                 .foregroundColor(idx == 0 ? Theme.gold : .white.opacity(0.7))
                             PlayerRow(player: entry.player,
                                       isMe: entry.player.id == game.playerID,
-                                      trailing: "\(entry.score)점")
+                                      trailing: String(localized: "\(entry.score)점"))
                         }
                     }
                 }

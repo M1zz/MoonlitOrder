@@ -244,7 +244,7 @@ struct VotingView: View {
             votersProgress
         }
         .confirmationDialog(
-            pendingVote == true ? "원정대에 '찬성'으로 투표할까요?" : "원정대에 '반대'로 투표할까요?",
+            pendingVote == true ? String(localized: "원정대에 '찬성'으로 투표할까요?") : String(localized: "원정대에 '반대'로 투표할까요?"),
             isPresented: Binding(get: { pendingVote != nil },
                                  set: { if !$0 { pendingVote = nil } }),
             titleVisibility: .visible
@@ -298,7 +298,7 @@ struct VoteResultView: View {
 
     var body: some View {
         VStack(spacing: 16) {
-            Text(state.lastVoteApproved ? "가결! 원정을 떠납니다" : "부결되었습니다")
+            Text(state.lastVoteApproved ? String(localized: "가결! 원정을 떠납니다") : String(localized: "부결되었습니다"))
                 .font(.title2.weight(.heavy))
                 .foregroundColor(state.lastVoteApproved ? Theme.moonlit : Theme.shadow)
 
@@ -343,7 +343,7 @@ struct VoteResultView: View {
 
     private func voteText(_ id: UUID) -> String {
         guard let vote = state.lastVotes[id.uuidString] else { return "-" }
-        return vote ? "찬성 👍" : "반대 👎"
+        return vote ? String(localized: "찬성 👍") : String(localized: "반대 👎")
     }
 }
 
@@ -440,7 +440,7 @@ struct MissionView: View {
             VStack(spacing: 8) {
                 Image(systemName: success ? "checkmark.shield.fill" : "xmark.shield.fill")
                     .font(.system(size: 36))
-                Text(success ? "성공" : "실패")
+                Text(success ? String(localized: "성공") : String(localized: "실패"))
                     .font(.headline)
                 if disabled {
                     Text("결사단은\n성공만 가능")
@@ -497,7 +497,7 @@ struct MissionResultView: View {
                     .font(.system(size: 56))
                     .foregroundColor(record.succeeded ? Theme.gold : Theme.shadow)
 
-                Text(record.succeeded ? "원정 성공!" : "원정 실패…")
+                Text(record.succeeded ? String(localized: "원정 성공!") : String(localized: "원정 실패…"))
                     .font(.largeTitle.weight(.heavy))
                     .foregroundColor(record.succeeded ? Theme.moonlit : Theme.shadow)
 

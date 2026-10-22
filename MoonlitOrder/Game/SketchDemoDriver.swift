@@ -12,8 +12,8 @@ final class SketchDemoDriver {
 
     private let auto: Bool
 
-    private static let botNames = ["달토끼", "밤바람", "은하수", "그믐달", "별지기"]
-    private static let wrongGuesses = ["강아지?", "음… 자동차", "혹시 곰?", "모르겠다 ㅋㅋ", "사과?"]
+    private static let botNames = [String(localized: "달토끼"), String(localized: "밤바람"), String(localized: "은하수"), String(localized: "그믐달"), String(localized: "별지기")]
+    private static let wrongGuesses = [String(localized: "강아지?"), String(localized: "음… 자동차"), String(localized: "혹시 곰?"), String(localized: "모르겠다 ㅋㅋ"), String(localized: "사과?")]
 
     init(engine: SketchEngine, hostID: UUID, botCount: Int = 4, auto: Bool = false) {
         self.engine = engine
@@ -59,7 +59,7 @@ final class SketchDemoDriver {
         for (i, bot) in bots.enumerated() {
             if i == 0 {
                 schedule(after: guessStart) { e in
-                    e.handle(bot, .guess(Self.wrongGuesses.randomElement() ?? "음…"))
+                    e.handle(bot, .guess(Self.wrongGuesses.randomElement() ?? String(localized: "음…")))
                 }
                 schedule(after: guessStart + 0.6) { e in e.handle(bot, .guess(e.secretWord)) }
             } else {
@@ -117,7 +117,7 @@ final class SketchDemoDriver {
                 // 앞의 한두 명은 오답을 먼저 던지고, 그다음 정답
                 if i == 0 {
                     schedule(after: 0.3) { engine in
-                        engine.handle(bot.id, .guess(Self.wrongGuesses.randomElement() ?? "음…"))
+                        engine.handle(bot.id, .guess(Self.wrongGuesses.randomElement() ?? String(localized: "음…")))
                     }
                     schedule(after: 1.0) { engine in
                         engine.handle(bot.id, .guess(engine.secretWord))

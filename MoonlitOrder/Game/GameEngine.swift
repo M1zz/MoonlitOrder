@@ -113,7 +113,7 @@ final class GameEngine {
         case .assassination:
             if wasAssassin {
                 endGame(winner: .moonlit,
-                        reason: "암살자가 방을 떠나 달빛 결사의 승리로 끝났습니다.")
+                        reason: String(localized: "암살자가 방을 떠나 달빛 결사의 승리로 끝났습니다."))
             }
         default:
             break
@@ -124,7 +124,7 @@ final class GameEngine {
     /// 이름 중복 방지 (비공개 정보가 이름 기반이므로 반드시 유일해야 함)
     private func uniqueName(for name: String) -> String {
         let base = name.trimmingCharacters(in: .whitespacesAndNewlines)
-        let candidate = base.isEmpty ? "플레이어" : base
+        let candidate = base.isEmpty ? String(localized: "플레이어") : base
         var result = candidate
         var n = 2
         while players.contains(where: { $0.name == result }) {
@@ -288,7 +288,7 @@ final class GameEngine {
             phase = .mission
         } else if voteTrack >= GameRules.maxRejections {
             endGame(winner: .shadow,
-                    reason: "원정대 구성이 \(GameRules.maxRejections)회 연속 부결되어 그림자 진영이 승리했습니다.")
+                    reason: String(localized: "원정대 구성이 \(GameRules.maxRejections)회 연속 부결되어 그림자 진영이 승리했습니다."))
         } else {
             advanceLeader()
             proposedTeam = []
@@ -300,7 +300,7 @@ final class GameEngine {
         let successes = missionHistory.filter { $0.succeeded }.count
         let failures = missionHistory.count - successes
         if failures >= 3 {
-            endGame(winner: .shadow, reason: "미션이 3회 실패하여 그림자 진영이 승리했습니다.")
+            endGame(winner: .shadow, reason: String(localized: "미션이 3회 실패하여 그림자 진영이 승리했습니다."))
         } else if successes >= 3 {
             phase = .assassination
         } else {
@@ -323,10 +323,10 @@ final class GameEngine {
         assassinTargetName = target.name
         if target.role == .seer {
             endGame(winner: .shadow,
-                    reason: "암살자가 예언자 '\(target.name)'을(를) 정확히 찾아냈습니다. 그림자 진영의 역전승!")
+                    reason: String(localized: "암살자가 예언자 '\(target.name)'을(를) 정확히 찾아냈습니다. 그림자 진영의 역전승!"))
         } else {
             endGame(winner: .moonlit,
-                    reason: "암살자의 칼끝이 빗나갔습니다. '\(target.name)'은(는) 예언자가 아니었습니다. 달빛 결사의 승리!")
+                    reason: String(localized: "암살자의 칼끝이 빗나갔습니다. '\(target.name)'은(는) 예언자가 아니었습니다. 달빛 결사의 승리!"))
         }
         pushState()
     }
@@ -375,12 +375,12 @@ final class GameEngine {
     /// 현재 단계에서 강제 진행이 수행할 일. nil이면 강제 진행 불가.
     func gmForceAdvanceLabel() -> String? {
         switch phase {
-        case .roleReveal:    return "전원 역할 확인 처리 후 원정대 지명으로 넘어갑니다."
-        case .teamProposal:  return "지명하지 않는 리더를 건너뛰고 다음 리더에게 넘깁니다."
-        case .teamVoting:    return "아직 투표하지 않은 사람을 찬성으로 처리하고 개표합니다."
-        case .mission:       return "카드를 내지 않은 원정대원을 성공으로 처리합니다."
-        case .voteResult, .missionResult: return "다음 단계로 넘어갑니다."
-        case .assassination: return "암살 포기로 처리하고 달빛 결사의 승리로 끝냅니다."
+        case .roleReveal:    return String(localized: "전원 역할 확인 처리 후 원정대 지명으로 넘어갑니다.")
+        case .teamProposal:  return String(localized: "지명하지 않는 리더를 건너뛰고 다음 리더에게 넘깁니다.")
+        case .teamVoting:    return String(localized: "아직 투표하지 않은 사람을 찬성으로 처리하고 개표합니다.")
+        case .mission:       return String(localized: "카드를 내지 않은 원정대원을 성공으로 처리합니다.")
+        case .voteResult, .missionResult: return String(localized: "다음 단계로 넘어갑니다.")
+        case .assassination: return String(localized: "암살 포기로 처리하고 달빛 결사의 승리로 끝냅니다.")
         case .lobby, .gameOver: return nil
         }
     }
@@ -412,7 +412,7 @@ final class GameEngine {
             continueFromMissionResult()
         case .assassination:
             endGame(winner: .moonlit,
-                    reason: "암살자가 예언자를 지목하지 못해 달빛 결사의 승리로 끝났습니다.")
+                    reason: String(localized: "암살자가 예언자를 지목하지 못해 달빛 결사의 승리로 끝났습니다."))
         case .lobby, .gameOver:
             return
         }

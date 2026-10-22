@@ -62,7 +62,7 @@ struct PartyLobbyView: View {
 
             if game.isHost {
                 Button(action: onStart) {
-                    Text(countOK ? "게임 시작" : "최소 \(range.lowerBound)명이 필요합니다")
+                    Text(countOK ? String(localized: "게임 시작") : String(localized: "최소 \(range.lowerBound)명이 필요합니다"))
                 }
                 .buttonStyle(BigButtonStyle())
                 .disabled(!countOK)
@@ -76,7 +76,7 @@ struct PartyLobbyView: View {
             }
         }
         .padding(.bottom, 16)
-        .confirmationDialog(kickTarget.map { "\($0.name) 님을 내보낼까요?" } ?? "",
+        .confirmationDialog(kickTarget.map { String(localized: "\($0.name) 님을 내보낼까요?") } ?? "",
                             isPresented: Binding(get: { kickTarget != nil },
                                                  set: { if !$0 { kickTarget = nil } }),
                             titleVisibility: .visible,

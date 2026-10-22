@@ -9,7 +9,7 @@ final class LiarDemoDriver {
     private let botIDs: [UUID]
     private var pendingActions: [DispatchWorkItem] = []
 
-    private static let botNames = ["달토끼", "밤바람", "은하수", "그믐달", "별지기"]
+    private static let botNames = [String(localized: "달토끼"), String(localized: "밤바람"), String(localized: "은하수"), String(localized: "그믐달"), String(localized: "별지기")]
 
     init(engine: LiarEngine, hostID: UUID, botCount: Int = 5) {
         self.engine = engine

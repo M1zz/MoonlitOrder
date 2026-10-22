@@ -166,7 +166,7 @@ struct ReconnectWaitBanner: View {
         .background(RoundedRectangle(cornerRadius: 16).fill(Color.orange.opacity(0.9)))
         .padding(.top, 4)
         .padding(.horizontal, 16)
-        .confirmationDialog(kickTarget.map { "\($0.name) 님을 내보낼까요?" } ?? "",
+        .confirmationDialog(kickTarget.map { String(localized: "\($0.name) 님을 내보낼까요?") } ?? "",
                             isPresented: Binding(get: { kickTarget != nil },
                                                  set: { if !$0 { kickTarget = nil } }),
                             titleVisibility: .visible,

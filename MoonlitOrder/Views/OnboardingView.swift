@@ -38,17 +38,17 @@ struct MoonlitOrderOnboardingView: View {
 
     private let pages: [Page] = [
         Page(icon: "moon.stars.fill", color: Theme.gold,
-             title: "달빛 오락실에 오신 걸 환영해요",
-             body: "한자리에 모인 친구들과 아이폰으로 즐기는 파티게임 모음이에요.\n인터넷도, 회원가입도 필요 없어요."),
+             title: String(localized: "달빛 오락실에 오신 걸 환영해요"),
+             body: String(localized: "한자리에 모인 친구들과 아이폰으로 즐기는 파티게임 모음이에요.\n인터넷도, 회원가입도 필요 없어요.")),
         Page(icon: "house.fill", color: Theme.moonlit,
-             title: "한 명이 방을 만들어요",
-             body: "모두 앱을 설치한 뒤, 한 사람이 게임을 골라 '방 만들기'를 눌러요.\n나머지는 '게임 참가'로 그 방에 들어오면 끝!"),
+             title: String(localized: "한 명이 방을 만들어요"),
+             body: String(localized: "모두 앱을 설치한 뒤, 한 사람이 게임을 골라 '방 만들기'를 눌러요.\n나머지는 '게임 참가'로 그 방에 들어오면 끝!")),
         Page(icon: "antenna.radiowaves.left.and.right", color: Theme.mint,
-             title: "가까이 모여 연결을 허용해 주세요",
-             body: "같은 Wi-Fi나 블루투스 거리 안에서 서로를 찾아요.\n처음에 뜨는 '로컬 네트워크' 접근 요청은 꼭 허용해 주세요."),
+             title: String(localized: "가까이 모여 연결을 허용해 주세요"),
+             body: String(localized: "같은 Wi-Fi나 블루투스 거리 안에서 서로를 찾아요.\n처음에 뜨는 '로컬 네트워크' 접근 요청은 꼭 허용해 주세요.")),
         Page(icon: "person.2.wave.2", color: Theme.shadow,
-             title: "규칙이 낯설다면 연습부터",
-             body: "게임마다 '게임방법 (봇과 연습)'이 있어요.\n혼자서 봇들과 한 판을 해 보며 규칙을 익힐 수 있어요."),
+             title: String(localized: "규칙이 낯설다면 연습부터"),
+             body: String(localized: "게임마다 '게임방법 (봇과 연습)'이 있어요.\n혼자서 봇들과 한 판을 해 보며 규칙을 익힐 수 있어요.")),
     ]
 
     private var isLastPage: Bool { page == pages.count - 1 }
@@ -83,7 +83,7 @@ struct MoonlitOrderOnboardingView: View {
                         withAnimation { page += 1 }
                     }
                 } label: {
-                    Text(isLastPage ? "시작하기" : "다음")
+                    Text(isLastPage ? String(localized: "시작하기") : String(localized: "다음"))
                 }
                 .buttonStyle(BigButtonStyle(color: Theme.gold, textColor: .black))
                 .padding(.horizontal, 24)

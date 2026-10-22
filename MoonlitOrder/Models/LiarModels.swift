@@ -77,24 +77,24 @@ enum LiarRules {
 
     /// 카테고리 → 단어 목록 (라이어의 추측 후보도 여기서 뽑는다)
     static let wordBank: [String: [String]] = [
-        "음식": ["김치찌개", "삼겹살", "떡볶이", "치킨", "피자", "초밥", "라면", "비빔밥",
-               "냉면", "갈비탕", "파스타", "햄버거", "김밥", "순대", "족발", "샐러드"],
-        "동물": ["코끼리", "기린", "펭귄", "호랑이", "판다", "고슴도치", "캥거루", "부엉이",
-               "돌고래", "문어", "다람쥐", "악어", "낙타", "수달", "앵무새", "두더지"],
-        "장소": ["놀이공원", "도서관", "찜질방", "영화관", "편의점", "지하철역", "미용실", "병원",
-               "학교", "캠핑장", "수영장", "공항", "시장", "카페", "노래방", "헬스장"],
-        "직업": ["소방관", "의사", "요리사", "프로그래머", "유튜버", "선생님", "경찰관", "농부",
-               "파일럿", "미용사", "가수", "운동선수", "사진작가", "변호사", "어부", "바리스타"],
-        "물건": ["우산", "선풍기", "냉장고", "칫솔", "베개", "리모컨", "텀블러", "이어폰",
-               "가위", "담요", "거울", "시계", "충전기", "슬리퍼", "마스크", "지갑"],
-        "스포츠": ["축구", "야구", "농구", "배드민턴", "수영", "볼링", "태권도", "골프",
-                "탁구", "스키", "클라이밍", "요가", "복싱", "양궁", "펜싱", "마라톤"],
+        String(localized: "음식"): [String(localized: "김치찌개"), String(localized: "삼겹살"), String(localized: "떡볶이"), String(localized: "치킨"), String(localized: "피자"), String(localized: "초밥"), String(localized: "라면"), String(localized: "비빔밥"),
+               String(localized: "냉면"), String(localized: "갈비탕"), String(localized: "파스타"), String(localized: "햄버거"), String(localized: "김밥"), String(localized: "순대"), String(localized: "족발"), String(localized: "샐러드")],
+        String(localized: "동물"): [String(localized: "코끼리"), String(localized: "기린"), String(localized: "펭귄"), String(localized: "호랑이"), String(localized: "판다"), String(localized: "고슴도치"), String(localized: "캥거루"), String(localized: "부엉이"),
+               String(localized: "돌고래"), String(localized: "문어"), String(localized: "다람쥐"), String(localized: "악어"), String(localized: "낙타"), String(localized: "수달"), String(localized: "앵무새"), String(localized: "두더지")],
+        String(localized: "장소"): [String(localized: "놀이공원"), String(localized: "도서관"), String(localized: "찜질방"), String(localized: "영화관"), String(localized: "편의점"), String(localized: "지하철역"), String(localized: "미용실"), String(localized: "병원"),
+               String(localized: "학교"), String(localized: "캠핑장"), String(localized: "수영장"), String(localized: "공항"), String(localized: "시장"), String(localized: "카페"), String(localized: "노래방"), String(localized: "헬스장")],
+        String(localized: "직업"): [String(localized: "소방관"), String(localized: "의사"), String(localized: "요리사"), String(localized: "프로그래머"), String(localized: "유튜버"), String(localized: "선생님"), String(localized: "경찰관"), String(localized: "농부"),
+               String(localized: "파일럿"), String(localized: "미용사"), String(localized: "가수"), String(localized: "운동선수"), String(localized: "사진작가"), String(localized: "변호사"), String(localized: "어부"), String(localized: "바리스타")],
+        String(localized: "물건"): [String(localized: "우산"), String(localized: "선풍기"), String(localized: "냉장고"), String(localized: "칫솔"), String(localized: "베개"), String(localized: "리모컨"), String(localized: "텀블러"), String(localized: "이어폰"),
+               String(localized: "가위"), String(localized: "담요"), String(localized: "거울"), String(localized: "시계"), String(localized: "충전기"), String(localized: "슬리퍼"), String(localized: "마스크"), String(localized: "지갑")],
+        String(localized: "스포츠"): [String(localized: "축구"), String(localized: "야구"), String(localized: "농구"), String(localized: "배드민턴"), String(localized: "수영"), String(localized: "볼링"), String(localized: "태권도"), String(localized: "골프"),
+                String(localized: "탁구"), String(localized: "스키"), String(localized: "클라이밍"), String(localized: "요가"), String(localized: "복싱"), String(localized: "양궁"), String(localized: "펜싱"), String(localized: "마라톤")],
     ]
 
     /// 무작위 카테고리와 제시어를 뽑는다.
     static func drawWord() -> (category: String, word: String) {
-        let category = wordBank.keys.randomElement() ?? "음식"
-        let word = wordBank[category]?.randomElement() ?? "김치찌개"
+        let category = wordBank.keys.randomElement() ?? String(localized: "음식")
+        let word = wordBank[category]?.randomElement() ?? String(localized: "김치찌개")
         return (category, word)
     }
 

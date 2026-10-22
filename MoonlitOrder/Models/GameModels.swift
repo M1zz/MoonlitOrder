@@ -8,8 +8,8 @@ enum Team: String, Codable, Equatable {
 
     var displayName: String {
         switch self {
-        case .moonlit: return "달빛 결사"
-        case .shadow:  return "그림자"
+        case .moonlit: return String(localized: "달빛 결사")
+        case .shadow:  return String(localized: "그림자")
         }
     }
 }
@@ -31,30 +31,30 @@ enum Role: String, Codable, CaseIterable, Equatable {
 
     var displayName: String {
         switch self {
-        case .seer:     return "예언자"
-        case .knight:   return "결사단원"
-        case .assassin: return "암살자"
-        case .shadow:   return "그림자 단원"
+        case .seer:     return String(localized: "예언자")
+        case .knight:   return String(localized: "결사단원")
+        case .assassin: return String(localized: "암살자")
+        case .shadow:   return String(localized: "그림자 단원")
         }
     }
 
     var summary: String {
         switch self {
         case .seer:
-            return "당신은 그림자 단원이 누구인지 알고 있습니다. 하지만 정체가 드러나면 마지막에 암살당할 수 있으니, 티 내지 말고 은밀하게 원정대를 이끌어야 합니다."
+            return String(localized: "당신은 그림자 단원이 누구인지 알고 있습니다. 하지만 정체가 드러나면 마지막에 암살당할 수 있으니, 티 내지 말고 은밀하게 원정대를 이끌어야 합니다.")
         case .knight:
-            return "당신은 달빛 결사의 충직한 단원입니다. 토론과 투표 기록을 근거로 그림자 단원을 찾아내고, 미션 3회를 성공시키세요."
+            return String(localized: "당신은 달빛 결사의 충직한 단원입니다. 토론과 투표 기록을 근거로 그림자 단원을 찾아내고, 미션 3회를 성공시키세요.")
         case .assassin:
-            return "당신은 그림자의 칼끝입니다. 동료 그림자 단원들을 알고 있으며, 결사가 미션 3회를 성공하더라도 예언자를 정확히 지목하면 역전승합니다."
+            return String(localized: "당신은 그림자의 칼끝입니다. 동료 그림자 단원들을 알고 있으며, 결사가 미션 3회를 성공하더라도 예언자를 정확히 지목하면 역전승합니다.")
         case .shadow:
-            return "당신은 어둠 속에 숨은 배신자입니다. 동료 그림자를 알고 있습니다. 정체를 숨기고 원정대에 잠입해 미션을 실패시키세요."
+            return String(localized: "당신은 어둠 속에 숨은 배신자입니다. 동료 그림자를 알고 있습니다. 정체를 숨기고 원정대에 잠입해 미션을 실패시키세요.")
         }
     }
 
     var objective: String {
         switch team {
-        case .moonlit: return "미션 3회 성공 (단, 예언자가 암살당하면 패배)"
-        case .shadow:  return "미션 3회 실패 · 원정대 5회 연속 부결 · 예언자 암살"
+        case .moonlit: return String(localized: "미션 3회 성공 (단, 예언자가 암살당하면 패배)")
+        case .shadow:  return String(localized: "미션 3회 실패 · 원정대 5회 연속 부결 · 예언자 암살")
         }
     }
 }

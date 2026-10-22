@@ -8,8 +8,8 @@ struct LiarRootView: View {
 
     var body: some View {
         if state.phase == .lobby {
-            PartyLobbyView(title: "라이어 게임",
-                           subtitle: "모두 같은 제시어, 단 한 명만 모른다",
+            PartyLobbyView(title: String(localized: "라이어 게임"),
+                           subtitle: String(localized: "모두 같은 제시어, 단 한 명만 모른다"),
                            players: state.players,
                            range: LiarRules.playerRange) {
                 game.performLiar(.startGame)
@@ -80,7 +80,7 @@ struct LiarGameView: View {
             if game.isHost, state.phase != .gameOver {
                 Button("게임 중단하고 대기실로") { game.performLiar(.abortToLobby) }
             }
-            Button(game.isHost ? "방 닫기 (전원 종료됨)" : "나가기", role: .destructive) {
+            Button(game.isHost ? String(localized: "방 닫기 (전원 종료됨)") : String(localized: "나가기"), role: .destructive) {
                 game.leaveGame()
             }
             Button("취소", role: .cancel) {}
@@ -141,13 +141,13 @@ struct LiarGameView: View {
         guard game.isDemo else { return nil }
         switch state.phase {
         case .wordReveal:
-            return "라이어만 빼고 전원이 같은 제시어를 받았어요. 내 제시어를 확인한 뒤 '다음'으로 봇들의 확인을 마치세요."
+            return String(localized: "라이어만 빼고 전원이 같은 제시어를 받았어요. 내 제시어를 확인한 뒤 '다음'으로 봇들의 확인을 마치세요.")
         case .describing:
-            return "순서대로 제시어를 한 마디씩 설명하는 단계입니다. '다음'을 누를 때마다 현재 차례의 발언이 끝납니다."
+            return String(localized: "순서대로 제시어를 한 마디씩 설명하는 단계입니다. '다음'을 누를 때마다 현재 차례의 발언이 끝납니다.")
         case .voting:
-            return "누가 설명을 얼버무렸나요? 라이어로 의심되는 사람에게 먼저 투표해보고, '다음'으로 봇들의 표를 확인하세요."
+            return String(localized: "누가 설명을 얼버무렸나요? 라이어로 의심되는 사람에게 먼저 투표해보고, '다음'으로 봇들의 표를 확인하세요.")
         case .liarGuess:
-            return "라이어가 잡혔습니다! 하지만 라이어가 제시어를 맞히면 역전승 — '다음'으로 라이어의 추측을 지켜보세요."
+            return String(localized: "라이어가 잡혔습니다! 하지만 라이어가 제시어를 맞히면 역전승 — '다음'으로 라이어의 추측을 지켜보세요.")
         default:
             return nil
         }
@@ -508,7 +508,7 @@ struct LiarGameOverView: View {
                 .font(.system(size: 48))
                 .foregroundColor(state.liarWins == true ? Theme.shadow : Theme.moonlit)
 
-            Text(state.liarWins == true ? "라이어 승리!" : "시민 승리!")
+            Text(state.liarWins == true ? String(localized: "라이어 승리!") : String(localized: "시민 승리!"))
                 .font(.largeTitle.weight(.heavy))
                 .foregroundColor(state.liarWins == true ? Theme.shadow : Theme.moonlit)
 
@@ -521,10 +521,10 @@ struct LiarGameOverView: View {
             }
 
             VStack(spacing: 8) {
-                resultRow(label: "라이어", value: liarName, color: Theme.shadow)
-                resultRow(label: "제시어", value: state.secretWord ?? "?", color: Theme.gold)
+                resultRow(label: String(localized: "라이어"), value: liarName, color: Theme.shadow)
+                resultRow(label: String(localized: "제시어"), value: state.secretWord ?? "?", color: Theme.gold)
                 if let guess = state.liarGuess {
-                    resultRow(label: "라이어의 추측", value: guess,
+                    resultRow(label: String(localized: "라이어의 추측"), value: guess,
                               color: guess == state.secretWord ? Theme.shadow : .white)
                 }
             }

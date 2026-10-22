@@ -57,7 +57,7 @@ final class GameEngineTests: XCTestCase {
         engine.join(playerID: UUID(), name: "달님", isHost: true)
         engine.join(playerID: UUID(), name: "달님", isHost: false)
         engine.join(playerID: UUID(), name: "  ", isHost: false)
-        XCTAssertEqual(state.players.map(\.name), ["달님", "달님 2", "플레이어"])
+        XCTAssertEqual(state.players.map(\.name), ["달님", "달님 2", String(localized: "플레이어")])
     }
 
     func testRejoinKeepsSeatAndLateJoinIsRejected() {

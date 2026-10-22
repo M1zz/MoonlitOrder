@@ -8,8 +8,8 @@ struct WolfRootView: View {
 
     var body: some View {
         if state.phase == .lobby {
-            PartyLobbyView(title: "달 없는 밤",
-                           subtitle: "도깨비가 숨어든 하룻밤, 단 한 번의 투표",
+            PartyLobbyView(title: String(localized: "달 없는 밤"),
+                           subtitle: String(localized: "도깨비가 숨어든 하룻밤, 단 한 번의 투표"),
                            players: state.players,
                            range: WolfRules.playerRange) {
                 game.performWolf(.startGame)
@@ -78,7 +78,7 @@ struct WolfGameView: View {
             if game.isHost, state.phase != .gameOver {
                 Button("게임 중단하고 대기실로") { game.performWolf(.abortToLobby) }
             }
-            Button(game.isHost ? "방 닫기 (전원 종료됨)" : "나가기", role: .destructive) {
+            Button(game.isHost ? String(localized: "방 닫기 (전원 종료됨)") : String(localized: "나가기"), role: .destructive) {
                 game.leaveGame()
             }
             Button("취소", role: .cancel) {}
@@ -121,10 +121,10 @@ struct WolfGameView: View {
 
     private var phaseTitle: String {
         switch state.phase {
-        case .night:    return "🌙 밤 — 비밀 행동"
-        case .day:      return "☀️ 낮 — 토론"
-        case .voting:   return "🗳️ 처형 투표"
-        case .gameOver: return "결과"
+        case .night:    return String(localized: "🌙 밤 — 비밀 행동")
+        case .day:      return String(localized: "☀️ 낮 — 토론")
+        case .voting:   return String(localized: "🗳️ 처형 투표")
+        case .gameOver: return String(localized: "결과")
         case .lobby:    return ""
         }
     }
@@ -146,11 +146,11 @@ struct WolfGameView: View {
         guard game.isDemo else { return nil }
         switch state.phase {
         case .night:
-            return "밤에는 각자 몰래 행동해요. 내 역할을 확인하고 행동을 마친 뒤, '다음'으로 봇들의 밤 행동을 진행하세요."
+            return String(localized: "밤에는 각자 몰래 행동해요. 내 역할을 확인하고 행동을 마친 뒤, '다음'으로 봇들의 밤 행동을 진행하세요.")
         case .day:
-            return "밤사이 밤손님과 장난꾼이 카드를 바꿨을 수 있어요! 실제 게임에선 여기서 토론합니다. '다음'을 누르면 투표가 시작됩니다."
+            return String(localized: "밤사이 밤손님과 장난꾼이 카드를 바꿨을 수 있어요! 실제 게임에선 여기서 토론합니다. '다음'을 누르면 투표가 시작됩니다.")
         case .voting:
-            return "도깨비로 의심되는 사람을 먼저 지목해보고, '다음'으로 봇들의 표를 확인하세요. 최다 득표자가 추방됩니다."
+            return String(localized: "도깨비로 의심되는 사람을 먼저 지목해보고, '다음'으로 봇들의 표를 확인하세요. 최다 득표자가 추방됩니다.")
         default:
             return nil
         }
@@ -273,7 +273,7 @@ struct WolfNightView: View {
     private func nightActionArea(info: WolfPrivateInfo) -> some View {
         switch info.role {
         case .villager:
-            confirmButton(title: "확인했어요")
+            confirmButton(title: String(localized: "확인했어요"))
 
         case .werewolf:
             if info.isLoneWolf {
@@ -307,13 +307,13 @@ struct WolfNightView: View {
                     }
                     .padding(.horizontal, 20)
                     if let choice = centerChoice {
-                        confirmButton(title: "중앙 \(choice + 1)번 카드 확인하기") {
+                        confirmButton(title: String(localized: "중앙 \(choice + 1)번 카드 확인하기")) {
                             game.performWolf(.nightAction(targets: [], centers: [choice]))
                         }
                     }
                 }
             } else {
-                confirmButton(title: "동료를 확인했어요")
+                confirmButton(title: String(localized: "동료를 확인했어요"))
             }
 
         case .seer:
@@ -328,12 +328,12 @@ struct WolfNightView: View {
                 if seerMode == 0 {
                     playerPicker(limit: 1)
                     if let target = selected.first {
-                        confirmButton(title: "'\(name(of: target))'의 카드 보기") {
+                        confirmButton(title: String(localized: "'\(name(of: target))'의 카드 보기")) {
                             game.performWolf(.nightAction(targets: [target], centers: []))
                         }
                     }
                 } else {
-                    confirmButton(title: "중앙 카드 2장 확인") {
+                    confirmButton(title: String(localized: "중앙 카드 2장 확인")) {
                         game.performWolf(.nightAction(targets: [], centers: [0, 1]))
                     }
                 }
@@ -346,7 +346,7 @@ struct WolfNightView: View {
                     .foregroundColor(.white.opacity(0.7))
                 playerPicker(limit: 1)
                 if let target = selected.first {
-                    confirmButton(title: "'\(name(of: target))'의 카드 훔치기") {
+                    confirmButton(title: String(localized: "'\(name(of: target))'의 카드 훔치기")) {
                         game.performWolf(.nightAction(targets: [target], centers: []))
                     }
                 }
@@ -359,7 +359,7 @@ struct WolfNightView: View {
                     .foregroundColor(.white.opacity(0.7))
                 playerPicker(limit: 2)
                 if selected.count == 2 {
-                    confirmButton(title: "이 둘의 카드를 바꾸기") {
+                    confirmButton(title: String(localized: "이 둘의 카드를 바꾸기")) {
                         game.performWolf(.nightAction(targets: selected, centers: []))
                     }
                 }
@@ -559,7 +559,7 @@ struct WolfGameOverView: View {
                 .font(.system(size: 44))
                 .foregroundColor(state.villageWins == true ? Theme.moonlit : Theme.shadow)
 
-            Text(state.villageWins == true ? "마을의 승리!" : "도깨비의 승리!")
+            Text(state.villageWins == true ? String(localized: "마을의 승리!") : String(localized: "도깨비의 승리!"))
                 .font(.title.weight(.heavy))
                 .foregroundColor(state.villageWins == true ? Theme.moonlit : Theme.shadow)
 

@@ -114,7 +114,7 @@ final class WolfEngine {
 
     private func uniqueName(for name: String) -> String {
         let base = name.trimmingCharacters(in: .whitespacesAndNewlines)
-        let candidate = base.isEmpty ? "플레이어" : base
+        let candidate = base.isEmpty ? String(localized: "플레이어") : base
         var result = candidate
         var n = 2
         while players.contains(where: { $0.name == result }) {
@@ -211,7 +211,7 @@ final class WolfEngine {
             if wolves.count == 1 {
                 // 외톨이 도깨비: 중앙 1장 확인
                 guard centers.count == 1, validCenters, let i = centers.first else { return }
-                nightResults[playerID] = "중앙 \(i + 1)번 카드는 '\(center[i].displayName)'입니다."
+                nightResults[playerID] = String(localized: "중앙 \(i + 1)번 카드는 '\(center[i].displayName)'입니다.")
             } else {
                 nightResults[playerID] = nil   // 동료 정보는 packmates로 이미 전달됨
             }
@@ -219,11 +219,11 @@ final class WolfEngine {
         case .seer:
             if others.count == 1, targets.count == 1, centers.isEmpty,
                let target = players.first(where: { $0.id == others[0] }) {
-                nightResults[playerID] = "\(target.name)의 카드는 '\(target.originalRole.displayName)'입니다."
+                nightResults[playerID] = String(localized: "\(target.name)의 카드는 '\(target.originalRole.displayName)'입니다.")
             } else if centers.count == 2, validCenters, targets.isEmpty,
                       centers[0] != centers[1] {
                 let seen = centers.map { "'\(center[$0].displayName)'" }.joined(separator: ", ")
-                nightResults[playerID] = "중앙 카드 2장: \(seen)"
+                nightResults[playerID] = String(localized: "중앙 카드 2장: \(seen)")
             } else {
                 return
             }
@@ -233,7 +233,7 @@ final class WolfEngine {
                   let target = players.first(where: { $0.id == others[0] }) else { return }
             players[idx].robberTarget = target.id
             nightResults[playerID] =
-                "\(target.name)의 카드를 훔쳤습니다. 당신은 이제 '\(target.originalRole.displayName)'입니다."
+                String(localized: "\(target.name)의 카드를 훔쳤습니다. 당신은 이제 '\(target.originalRole.displayName)'입니다.")
 
         case .troublemaker:
             guard others.count == 2, targets.count == 2, centers.isEmpty,
@@ -241,7 +241,7 @@ final class WolfEngine {
                   players.contains(where: { $0.id == others[0] }),
                   players.contains(where: { $0.id == others[1] }) else { return }
             players[idx].troublemakerTargets = others
-            nightResults[playerID] = "\(named(others[0]))과(와) \(named(others[1]))의 카드를 서로 바꿨습니다."
+            nightResults[playerID] = String(localized: "\(named(others[0]))과(와) \(named(others[1]))의 카드를 서로 바꿨습니다.")
 
         case .villager:
             nightResults[playerID] = nil
@@ -321,16 +321,16 @@ final class WolfEngine {
 
         if executedWolf {
             villageWins = true
-            winReason = "도깨비가 추방되었습니다. 마을의 승리!"
+            winReason = String(localized: "도깨비가 추방되었습니다. 마을의 승리!")
         } else if !wolvesAmongPlayers && executedIDs.isEmpty {
             villageWins = true
-            winReason = "도깨비는 모두 중앙에 있었고, 아무도 추방되지 않았습니다. 마을의 승리!"
+            winReason = String(localized: "도깨비는 모두 중앙에 있었고, 아무도 추방되지 않았습니다. 마을의 승리!")
         } else if executedIDs.isEmpty {
             villageWins = false
-            winReason = "아무도 추방되지 않았지만 도깨비가 숨어 있었습니다. 도깨비의 승리!"
+            winReason = String(localized: "아무도 추방되지 않았지만 도깨비가 숨어 있었습니다. 도깨비의 승리!")
         } else {
             villageWins = false
-            winReason = "애꿎은 사람이 추방되었습니다. 도깨비의 승리!"
+            winReason = String(localized: "애꿎은 사람이 추방되었습니다. 도깨비의 승리!")
         }
         phase = .gameOver
     }
@@ -372,15 +372,15 @@ final class WolfEngine {
     /// GM 패널용: 판 전체 비밀 요약 (중앙 카드)
     func gmNote() -> String? {
         guard phase != .lobby, !center.isEmpty else { return nil }
-        return "중앙 카드: \(center.map(\.displayName).joined(separator: " · "))"
+        return String(localized: "중앙 카드: \(center.map(\.displayName).joined(separator: " · "))")
     }
 
     /// 현재 단계에서 강제 진행이 수행할 일. nil이면 강제 진행 불가.
     func gmForceAdvanceLabel() -> String? {
         switch phase {
-        case .night:  return "행동하지 않은 사람은 능력 사용 없이 밤을 끝냅니다."
-        case .day:    return "토론을 끝내고 처형 투표를 시작합니다."
-        case .voting: return "아직 투표하지 않은 사람은 기권으로 처리하고 개표합니다."
+        case .night:  return String(localized: "행동하지 않은 사람은 능력 사용 없이 밤을 끝냅니다.")
+        case .day:    return String(localized: "토론을 끝내고 처형 투표를 시작합니다.")
+        case .voting: return String(localized: "아직 투표하지 않은 사람은 기권으로 처리하고 개표합니다.")
         case .lobby, .gameOver: return nil
         }
     }

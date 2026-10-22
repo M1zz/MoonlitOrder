@@ -10,7 +10,7 @@ struct MoonlitOrderSupportView: View {
         c.scheme = "mailto"
         c.path = MoonlitOrderSpec.developerEmail
         let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "-"
-        c.queryItems = [URLQueryItem(name: "subject", value: "[달빛 오락실 \(version)] 문의")]
+        c.queryItems = [URLQueryItem(name: "subject", value: String(localized: "[달빛 오락실 \(version)] 문의"))]
         return c.url
     }
 
@@ -30,12 +30,12 @@ struct MoonlitOrderSupportView: View {
                             if !opened { showMailFallback = true }
                         }
                     } label: {
-                        externalRow("메일로 문의하기", systemImage: "envelope.fill")
+                        externalRow(String(localized: "메일로 문의하기"), systemImage: "envelope.fill")
                     }
 
                     // 핸들(@lee25_ios)은 고유명사라 그대로 둔다.
                     Link(destination: URL(string: "https://instagram.com/lee25_ios")!) {
-                        externalRow("인스타그램 DM (@lee25_ios)", systemImage: "paperplane.fill")
+                        externalRow(String(localized: "인스타그램 DM (@lee25_ios)"), systemImage: "paperplane.fill")
                     }
                 } header: {
                     Text("개발자에게 연락하기")

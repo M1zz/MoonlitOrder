@@ -178,7 +178,7 @@ struct RootView: View {
             game.startBrowsing()
         case .host(let kind), .practice(let kind):
             guard kind.isRemotelyEnabled else {
-                game.errorMessage = "\(kind.displayName)은(는) 잠시 점검 중이에요. 다른 게임을 골라 주세요."
+                game.errorMessage = String(localized: "\(kind.displayName)은(는) 잠시 점검 중이에요. 다른 게임을 골라 주세요.")
                 return
             }
             if case .host = action {

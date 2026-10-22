@@ -9,7 +9,7 @@ final class WolfDemoDriver {
     private let botIDs: [UUID]
     private var pendingActions: [DispatchWorkItem] = []
 
-    private static let botNames = ["달토끼", "밤바람", "은하수", "그믐달", "별지기"]
+    private static let botNames = [String(localized: "달토끼"), String(localized: "밤바람"), String(localized: "은하수"), String(localized: "그믐달"), String(localized: "별지기")]
 
     init(engine: WolfEngine, hostID: UUID, botCount: Int = 5) {
         self.engine = engine
@@ -95,20 +95,20 @@ final class WolfDemoDriver {
         for player in engine.players {
             switch player.originalRole {
             case .werewolf:
-                lines.append("🔥 도깨비 \(player.name)이(가) 어둠 속에서 눈을 떴습니다.")
+                lines.append(String(localized: "🔥 도깨비 \(player.name)이(가) 어둠 속에서 눈을 떴습니다."))
             case .seer:
-                lines.append("👁 무당 \(player.name)이(가) 남몰래 카드를 확인했습니다.")
+                lines.append(String(localized: "👁 무당 \(player.name)이(가) 남몰래 카드를 확인했습니다."))
             case .robber:
                 if let targetID = player.robberTarget,
                    let target = engine.players.first(where: { $0.id == targetID }) {
-                    lines.append("🤝 밤손님 \(player.name)이(가) \(target.name)의 카드를 훔쳐 서로 바뀌었습니다!")
+                    lines.append(String(localized: "🤝 밤손님 \(player.name)이(가) \(target.name)의 카드를 훔쳐 서로 바뀌었습니다!"))
                 }
             case .troublemaker:
                 let names = player.troublemakerTargets.compactMap { id in
                     engine.players.first { $0.id == id }?.name
                 }
                 if names.count == 2 {
-                    lines.append("🔀 장난꾼 \(player.name)이(가) \(names[0])과(와) \(names[1])의 카드를 서로 바꿨습니다!")
+                    lines.append(String(localized: "🔀 장난꾼 \(player.name)이(가) \(names[0])과(와) \(names[1])의 카드를 서로 바꿨습니다!"))
                 }
             case .villager:
                 break
