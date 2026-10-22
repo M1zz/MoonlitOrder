@@ -140,6 +140,12 @@
             "state" : "translated",
             "value" : "Månharen"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ay Tavşanı"
+          }
         }
       }
     },
@@ -281,6 +287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nattbris"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gece Meltemi"
           }
         }
       }
@@ -424,6 +436,12 @@
             "state" : "translated",
             "value" : "Vintergatan"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Samanyolu"
+          }
         }
       }
     },
@@ -565,6 +583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avtagande måne"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Küçülen Ay"
           }
         }
       }
@@ -708,6 +732,12 @@
             "state" : "translated",
             "value" : "Stjärnväktaren"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yıldız Bekçisi"
+          }
         }
       }
     },
@@ -849,6 +879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gryning"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şafak"
           }
         }
       }
@@ -992,6 +1028,12 @@
             "state" : "translated",
             "value" : "Lönnmördaren lämnade rummet. Månorden vinner."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suikastçı odadan ayrıldı. Ay Tarikatı kazandı."
+          }
         }
       }
     },
@@ -1133,6 +1175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spelare"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyuncu"
           }
         }
       }
@@ -1276,6 +1324,12 @@
             "state" : "translated",
             "value" : "Laget avvisades %lld gånger i rad. Skuggorna vinner."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekip art arda %lld kez reddedildi. Gölgeler kazandı."
+          }
         }
       }
     },
@@ -1417,6 +1471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tre uppdrag misslyckades. Skuggorna vinner."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Üç görev başarısız oldu. Gölgeler kazandı."
           }
         }
       }
@@ -1560,6 +1620,12 @@
             "state" : "translated",
             "value" : "Lönnmördaren hittade Siaren, ”%@”, med precision. Skuggorna vänder spelet!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suikastçı Kâhin’i, “%@”, tam isabetle buldu. Gölgeler oyunu çevirdi!"
+          }
         }
       }
     },
@@ -1701,6 +1767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lönnmördaren missade. ”%@” var inte Siaren. Månorden vinner!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suikastçı ıskaladı. “%@” Kâhin değildi. Ay Tarikatı kazandı!"
           }
         }
       }
@@ -1844,6 +1916,12 @@
             "state" : "translated",
             "value" : "Alla anses ha sett sin roll. Vi går vidare till lagval."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herkes rolüne baktı sayılır. Ekip seçimine geçiliyor."
+          }
         }
       }
     },
@@ -1985,6 +2063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ledaren som inte valde lag hoppas över och turen går vidare till nästa."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekip seçmeyen lider atlanır, sıra bir sonrakine geçer."
           }
         }
       }
@@ -2128,6 +2212,12 @@
             "state" : "translated",
             "value" : "De som inte har röstat räknas som för. Rösterna räknas."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oy vermeyenler lehte sayılır. Oylar sayılıyor."
+          }
         }
       }
     },
@@ -2269,6 +2359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lagmedlemmar som inte spelade ett kort räknas som lyckat."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kart oynamayan ekip üyeleri başarı sayılır."
           }
         }
       }
@@ -2412,6 +2508,12 @@
             "state" : "translated",
             "value" : "Vi går vidare till nästa fas."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonraki aşamaya geçiliyor."
+          }
         }
       }
     },
@@ -2553,6 +2655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lönnmördaren anses ha gett upp. Månorden vinner."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suikastçı vazgeçmiş sayılır. Ay Tarikatı kazandı."
           }
         }
       }
@@ -2696,6 +2804,12 @@
             "state" : "translated",
             "value" : "Lönnmördaren pekade inte ut Siaren. Månorden vinner."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suikastçı Kâhin’i işaret etmedi. Ay Tarikatı kazandı."
+          }
         }
       }
     },
@@ -2837,6 +2951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lögnaren lämnade rummet. Medborgarna vinner!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalancı odadan ayrıldı. Vatandaşlar kazandı!"
           }
         }
       }
@@ -2980,6 +3100,12 @@
             "state" : "translated",
             "value" : "Rösterna delades och Lögnaren kom undan!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oylar bölündü ve Yalancı kıl payı kurtuldu!"
+          }
         }
       }
     },
@@ -3121,6 +3247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fel person pekades ut!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yanlış kişi işaret edildi!"
           }
         }
       }
@@ -3264,6 +3396,12 @@
             "state" : "translated",
             "value" : "Lögnaren gissade ordet! Lögnaren vänder spelet!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalancı kelimeyi bildi! Yalancı oyunu çevirdi!"
+          }
         }
       }
     },
@@ -3405,6 +3543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lögnaren gissade inte ordet. Medborgarna vinner!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalancı kelimeyi bilemedi. Vatandaşlar kazandı!"
           }
         }
       }
@@ -3548,6 +3692,12 @@
             "state" : "translated",
             "value" : "Lögnare"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalancı"
+          }
         }
       }
     },
@@ -3689,6 +3839,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Medborgare"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vatandaş"
           }
         }
       }
@@ -3832,6 +3988,12 @@
             "state" : "translated",
             "value" : "Ord: %@ · Kategori: %@"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kelime: %@ · Kategori: %@"
+          }
         }
       }
     },
@@ -3973,6 +4135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alla anses ha sett ordet. Vi går vidare till beskrivningsfasen."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herkes kelimeye baktı sayılır. Anlatma aşamasına geçiliyor."
           }
         }
       }
@@ -4116,6 +4284,12 @@
             "state" : "translated",
             "value" : "Den nuvarande talarens tur tar slut och turen går vidare till nästa."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konuşanın sırası biter, sıra bir sonrakine geçer."
+          }
         }
       }
     },
@@ -4257,6 +4431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De som inte har röstat räknas som blanka. Rösterna räknas."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oy vermeyenler çekimser sayılır. Oylar sayılıyor."
           }
         }
       }
@@ -4400,6 +4580,12 @@
             "state" : "translated",
             "value" : "Lögnaren anses ha gett upp gissningen. Medborgarna vinner."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalancı tahminden vazgeçmiş sayılır. Vatandaşlar kazandı."
+          }
         }
       }
     },
@@ -4541,6 +4727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lögnaren kunde inte svara. Medborgarna vinner!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalancı cevap veremedi. Vatandaşlar kazandı!"
           }
         }
       }
@@ -4684,6 +4876,12 @@
             "state" : "translated",
             "value" : "En valp?"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köpek mi?"
+          }
         }
       }
     },
@@ -4825,6 +5023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hmm… en bil"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hmm… araba"
           }
         }
       }
@@ -4968,6 +5172,12 @@
             "state" : "translated",
             "value" : "Kanske en björn?"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belki ayıdır?"
+          }
         }
       }
     },
@@ -5109,6 +5319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen aning, haha"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiçbir fikrim yok, haha"
           }
         }
       }
@@ -5252,6 +5468,12 @@
             "state" : "translated",
             "value" : "Ett äpple?"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elma mı?"
+          }
         }
       }
     },
@@ -5390,6 +5612,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hmm…"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hmm…"
@@ -5536,6 +5764,12 @@
             "state" : "translated",
             "value" : "Du gissade rätt! 🎉"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doğru bildin! 🎉"
+          }
         }
       }
     },
@@ -5677,6 +5911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tecknare"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ressam"
           }
         }
       }
@@ -5820,6 +6060,12 @@
             "state" : "translated",
             "value" : "Ord: %@"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kelime: %@"
+          }
         }
       }
     },
@@ -5961,6 +6207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ordförslag: %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kelime seçenekleri: %@"
           }
         }
       }
@@ -6104,6 +6356,12 @@
             "state" : "translated",
             "value" : "Ett ord väljs slumpmässigt i stället för tecknaren och ritandet börjar."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ressamın yerine rastgele bir kelime seçilir ve çizim başlar."
+          }
         }
       }
     },
@@ -6245,6 +6503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ronden avslutas och poängen räknas ihop."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tur biter ve puanlar hesaplanır."
           }
         }
       }
@@ -6388,6 +6652,12 @@
             "state" : "translated",
             "value" : "Vi går vidare till nästa rond."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonraki tura geçiliyor."
+          }
         }
       }
     },
@@ -6529,6 +6799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🔥 Goblinen %@ öppnade ögonen i mörkret."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔥 Goblin %@ karanlıkta gözlerini açtı."
           }
         }
       }
@@ -6672,6 +6948,12 @@
             "state" : "translated",
             "value" : "👁 Shamanen %@ kikade i hemlighet på ett kort."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "👁 Şaman %@ gizlice bir karta baktı."
+          }
         }
       }
     },
@@ -6813,6 +7095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🤝 Nattjuven %@ stal %@s kort och de bytte!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🤝 Gece Hırsızı %@, %@ oyuncusunun kartını çaldı ve kartlar yer değiştirdi!"
           }
         }
       }
@@ -6956,6 +7244,12 @@
             "state" : "translated",
             "value" : "🔀 Skojaren %@ bytte kort mellan %@ och %@!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔀 Muzip %@, %@ ile %@ oyuncularının kartlarını değiştirdi!"
+          }
         }
       }
     },
@@ -7097,6 +7391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mittenkort nr %lld är ”%@”."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ortadaki %lld. kart “%@”."
           }
         }
       }
@@ -7240,6 +7540,12 @@
             "state" : "translated",
             "value" : "%@s kort är ”%@”."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ oyuncusunun kartı “%@”."
+          }
         }
       }
     },
@@ -7381,6 +7687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De 2 mittenkorten: %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ortadaki 2 kart: %@"
           }
         }
       }
@@ -7524,6 +7836,12 @@
             "state" : "translated",
             "value" : "Du stal %@s kort. Nu är du ”%@”."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ oyuncusunun kartını çaldın. Artık “%@” oldun."
+          }
         }
       }
     },
@@ -7665,6 +7983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du bytte kort mellan %@ och %@."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ile %@ oyuncularının kartlarını değiştirdin."
           }
         }
       }
@@ -7808,6 +8132,12 @@
             "state" : "translated",
             "value" : "En goblin förvisades. Byn vinner!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir Goblin sürüldü. Köy kazandı!"
+          }
         }
       }
     },
@@ -7949,6 +8279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alla goblins låg i mitten och ingen förvisades. Byn vinner!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tüm Goblinler ortadaydı ve kimse sürülmedi. Köy kazandı!"
           }
         }
       }
@@ -8092,6 +8428,12 @@
             "state" : "translated",
             "value" : "Ingen förvisades, men en goblin gömde sig. Goblinerna vinner!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kimse sürülmedi ama bir Goblin saklanıyordu. Goblinler kazandı!"
+          }
         }
       }
     },
@@ -8233,6 +8575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En oskyldig förvisades. Goblinerna vinner!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masum biri sürüldü. Goblinler kazandı!"
           }
         }
       }
@@ -8376,6 +8724,12 @@
             "state" : "translated",
             "value" : "Mittenkort: %@"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ortadaki kartlar: %@"
+          }
         }
       }
     },
@@ -8517,6 +8871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Den som inte agerade avslutar natten utan att använda sin förmåga."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hareket etmeyen kişi gücünü kullanmadan geceyi bitirir."
           }
         }
       }
@@ -8660,6 +9020,12 @@
             "state" : "translated",
             "value" : "Debatten avslutas och omröstningen om förvisning börjar."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tartışma biter ve sürgün oylaması başlar."
+          }
         }
       }
     },
@@ -8801,6 +9167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Månorden"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ay Tarikatı"
           }
         }
       }
@@ -8944,6 +9316,12 @@
             "state" : "translated",
             "value" : "Skuggorna"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gölgeler"
+          }
         }
       }
     },
@@ -9085,6 +9463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siare"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kâhin"
           }
         }
       }
@@ -9228,6 +9612,12 @@
             "state" : "translated",
             "value" : "Ordensmedlem"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarikat Üyesi"
+          }
         }
       }
     },
@@ -9369,6 +9759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lönnmördare"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suikastçı"
           }
         }
       }
@@ -9512,6 +9908,12 @@
             "state" : "translated",
             "value" : "Skuggagent"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gölge Ajanı"
+          }
         }
       }
     },
@@ -9653,6 +10055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du vet vilka skuggagenterna är. Men avslöjas du kan du bli mördad på slutet, så led lagen diskret."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gölge ajanlarının kim olduğunu biliyorsun. Ama kimliğin ortaya çıkarsa sonunda suikasta uğrayabilirsin; bu yüzden ekipleri sezdirmeden yönet."
           }
         }
       }
@@ -9796,6 +10204,12 @@
             "state" : "translated",
             "value" : "Du är en lojal medlem av Månorden. Använd debatten och röstningshistoriken för att hitta skuggagenterna och få 3 uppdrag att lyckas."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ay Tarikatı’nın sadık bir üyesisin. Tartışmaları ve oy kayıtlarını kullanarak gölge ajanlarını bul ve 3 görevi başarıyla tamamla."
+          }
         }
       }
     },
@@ -9937,6 +10351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du är Skuggornas klinga. Du känner de andra agenterna, och även om orden klarar 3 uppdrag vinner du om du pekar ut Siaren rätt."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gölgelerin kılıcısın. Diğer ajanları tanıyorsun ve Tarikat 3 görevi tamamlasa bile Kâhin’i doğru işaret edersen kazanırsın."
           }
         }
       }
@@ -10080,6 +10500,12 @@
             "state" : "translated",
             "value" : "Du är en förrädare som gömmer sig i mörkret. Du känner de andra skuggorna. Dölj din identitet, infiltrera lagen och låt uppdragen misslyckas."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karanlıkta saklanan bir hainsin. Diğer Gölgeleri tanıyorsun. Kimliğini gizle, ekiplere sız ve görevleri başarısızlığa uğrat."
+          }
         }
       }
     },
@@ -10221,6 +10647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 lyckade uppdrag (men du förlorar om Siaren mördas)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 görev başarılı (ama Kâhin öldürülürse kaybedersin)"
           }
         }
       }
@@ -10364,6 +10796,12 @@
             "state" : "translated",
             "value" : "3 misslyckade uppdrag · 5 avvisade lag i rad · mord på Siaren"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 görev başarısız · art arda 5 ekip reddi · Kâhin’e suikast"
+          }
         }
       }
     },
@@ -10505,6 +10943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mat"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yemek"
           }
         }
       }
@@ -10648,6 +11092,12 @@
             "state" : "translated",
             "value" : "Kimchigryta"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kimchi güveç"
+          }
         }
       }
     },
@@ -10790,6 +11240,12 @@
             "state" : "translated",
             "value" : "Grillat fläsksida"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Izgara domuz karnı"
+          }
         }
       }
     },
@@ -10928,6 +11384,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tteokbokki"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tteokbokki"
@@ -11074,6 +11536,12 @@
             "state" : "translated",
             "value" : "Stekt kyckling"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kızarmış tavuk"
+          }
         }
       }
     },
@@ -11212,6 +11680,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pizza"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pizza"
@@ -11358,6 +11832,12 @@
             "state" : "translated",
             "value" : "Sushi"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suşi"
+          }
         }
       }
     },
@@ -11496,6 +11976,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ramen"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ramen"
@@ -11642,6 +12128,12 @@
             "state" : "translated",
             "value" : "Bibimbap"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibimbap"
+          }
         }
       }
     },
@@ -11783,6 +12275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kalla nudlar"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soğuk erişte"
           }
         }
       }
@@ -11926,6 +12424,12 @@
             "state" : "translated",
             "value" : "Revbenssoppa"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dana kaburga çorbası"
+          }
         }
       }
     },
@@ -12067,6 +12571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pasta"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makarna"
           }
         }
       }
@@ -12210,6 +12720,12 @@
             "state" : "translated",
             "value" : "Hamburgare"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamburger"
+          }
         }
       }
     },
@@ -12348,6 +12864,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gimbap"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gimbap"
@@ -12494,6 +13016,12 @@
             "state" : "translated",
             "value" : "Koreansk blodkorv"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kore kan sosisi"
+          }
         }
       }
     },
@@ -12635,6 +13163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Grisfötter"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Domuz paçası"
           }
         }
       }
@@ -12778,6 +13312,12 @@
             "state" : "translated",
             "value" : "Sallad"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salata"
+          }
         }
       }
     },
@@ -12919,6 +13459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Djur"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hayvanlar"
           }
         }
       }
@@ -13062,6 +13608,12 @@
             "state" : "translated",
             "value" : "Elefant"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fil"
+          }
         }
       }
     },
@@ -13203,6 +13755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Giraff"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zürafa"
           }
         }
       }
@@ -13346,6 +13904,12 @@
             "state" : "translated",
             "value" : "Pingvin"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Penguen"
+          }
         }
       }
     },
@@ -13488,6 +14052,12 @@
             "state" : "translated",
             "value" : "Tiger"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaplan"
+          }
         }
       }
     },
@@ -13626,6 +14196,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panda"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Panda"
@@ -13772,6 +14348,12 @@
             "state" : "translated",
             "value" : "Igelkott"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirpi"
+          }
         }
       }
     },
@@ -13913,6 +14495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Känguru"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kanguru"
           }
         }
       }
@@ -14056,6 +14644,12 @@
             "state" : "translated",
             "value" : "Uggla"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baykuş"
+          }
         }
       }
     },
@@ -14197,6 +14791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delfin"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yunus"
           }
         }
       }
@@ -14340,6 +14940,12 @@
             "state" : "translated",
             "value" : "Bläckfisk"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ahtapot"
+          }
         }
       }
     },
@@ -14481,6 +15087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ekorre"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sincap"
           }
         }
       }
@@ -14624,6 +15236,12 @@
             "state" : "translated",
             "value" : "Krokodil"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timsah"
+          }
         }
       }
     },
@@ -14765,6 +15383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kamel"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deve"
           }
         }
       }
@@ -14908,6 +15532,12 @@
             "state" : "translated",
             "value" : "Utter"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Su samuru"
+          }
         }
       }
     },
@@ -15049,6 +15679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Papegoja"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papağan"
           }
         }
       }
@@ -15192,6 +15828,12 @@
             "state" : "translated",
             "value" : "Mullvad"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köstebek"
+          }
         }
       }
     },
@@ -15333,6 +15975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Platser"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mekânlar"
           }
         }
       }
@@ -15476,6 +16124,12 @@
             "state" : "translated",
             "value" : "Nöjespark"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lunapark"
+          }
         }
       }
     },
@@ -15617,6 +16271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bibliotek"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kütüphane"
           }
         }
       }
@@ -15760,6 +16420,12 @@
             "state" : "translated",
             "value" : "Koreanskt spa"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kore saunası"
+          }
         }
       }
     },
@@ -15901,6 +16567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bio"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sinema"
           }
         }
       }
@@ -16044,6 +16716,12 @@
             "state" : "translated",
             "value" : "Närbutik"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Market"
+          }
         }
       }
     },
@@ -16185,6 +16863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tunnelbanestation"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metro istasyonu"
           }
         }
       }
@@ -16328,6 +17012,12 @@
             "state" : "translated",
             "value" : "Frisörsalong"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuaför"
+          }
         }
       }
     },
@@ -16469,6 +17159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sjukhus"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hastane"
           }
         }
       }
@@ -16612,6 +17308,12 @@
             "state" : "translated",
             "value" : "Skola"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Okul"
+          }
         }
       }
     },
@@ -16753,6 +17455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Campingplats"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamp alanı"
           }
         }
       }
@@ -16896,6 +17604,12 @@
             "state" : "translated",
             "value" : "Simhall"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yüzme havuzu"
+          }
         }
       }
     },
@@ -17037,6 +17751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flygplats"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Havalimanı"
           }
         }
       }
@@ -17180,6 +17900,12 @@
             "state" : "translated",
             "value" : "Marknad"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pazar"
+          }
         }
       }
     },
@@ -17322,6 +18048,12 @@
             "state" : "translated",
             "value" : "Café"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kafe"
+          }
         }
       }
     },
@@ -17460,6 +18192,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karaoke"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Karaoke"
@@ -17606,6 +18344,12 @@
             "state" : "translated",
             "value" : "Gym"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spor salonu"
+          }
         }
       }
     },
@@ -17747,6 +18491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yrken"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meslekler"
           }
         }
       }
@@ -17890,6 +18640,12 @@
             "state" : "translated",
             "value" : "Brandman"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İtfaiyeci"
+          }
         }
       }
     },
@@ -18031,6 +18787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Läkare"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doktor"
           }
         }
       }
@@ -18174,6 +18936,12 @@
             "state" : "translated",
             "value" : "Kock"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aşçı"
+          }
         }
       }
     },
@@ -18315,6 +19083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Programmerare"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yazılımcı"
           }
         }
       }
@@ -18458,6 +19232,12 @@
             "state" : "translated",
             "value" : "Youtubare"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "YouTuber"
+          }
         }
       }
     },
@@ -18600,6 +19380,12 @@
             "state" : "translated",
             "value" : "Lärare"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öğretmen"
+          }
         }
       }
     },
@@ -18738,6 +19524,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polis"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Polis"
@@ -18884,6 +19676,12 @@
             "state" : "translated",
             "value" : "Bonde"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çiftçi"
+          }
         }
       }
     },
@@ -19022,6 +19820,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilot"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pilot"
@@ -19168,6 +19972,12 @@
             "state" : "translated",
             "value" : "Frisör"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saç tasarımcısı"
+          }
         }
       }
     },
@@ -19309,6 +20119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sångare"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şarkıcı"
           }
         }
       }
@@ -19452,6 +20268,12 @@
             "state" : "translated",
             "value" : "Idrottare"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sporcu"
+          }
         }
       }
     },
@@ -19593,6 +20415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotograf"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğrafçı"
           }
         }
       }
@@ -19736,6 +20564,12 @@
             "state" : "translated",
             "value" : "Advokat"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avukat"
+          }
         }
       }
     },
@@ -19878,6 +20712,12 @@
             "state" : "translated",
             "value" : "Fiskare"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balıkçı"
+          }
         }
       }
     },
@@ -20016,6 +20856,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barista"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Barista"
@@ -20162,6 +21008,12 @@
             "state" : "translated",
             "value" : "Saker"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eşyalar"
+          }
         }
       }
     },
@@ -20303,6 +21155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Paraply"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şemsiye"
           }
         }
       }
@@ -20446,6 +21304,12 @@
             "state" : "translated",
             "value" : "Fläkt"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vantilatör"
+          }
         }
       }
     },
@@ -20587,6 +21451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kylskåp"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buzdolabı"
           }
         }
       }
@@ -20730,6 +21600,12 @@
             "state" : "translated",
             "value" : "Tandborste"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diş fırçası"
+          }
         }
       }
     },
@@ -20871,6 +21747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kudde"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yastık"
           }
         }
       }
@@ -21014,6 +21896,12 @@
             "state" : "translated",
             "value" : "Fjärrkontroll"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kumanda"
+          }
         }
       }
     },
@@ -21155,6 +22043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Termosmugg"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Termos bardak"
           }
         }
       }
@@ -21298,6 +22192,12 @@
             "state" : "translated",
             "value" : "Hörlurar"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kulaklık"
+          }
         }
       }
     },
@@ -21439,6 +22339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sax"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Makas"
           }
         }
       }
@@ -21582,6 +22488,12 @@
             "state" : "translated",
             "value" : "Filt"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battaniye"
+          }
         }
       }
     },
@@ -21723,6 +22635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spegel"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayna"
           }
         }
       }
@@ -21866,6 +22784,12 @@
             "state" : "translated",
             "value" : "Klocka"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat"
+          }
         }
       }
     },
@@ -22007,6 +22931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Laddare"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şarj aleti"
           }
         }
       }
@@ -22150,6 +23080,12 @@
             "state" : "translated",
             "value" : "Tofflor"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terlik"
+          }
         }
       }
     },
@@ -22291,6 +23227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Munskydd"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maske"
           }
         }
       }
@@ -22434,6 +23376,12 @@
             "state" : "translated",
             "value" : "Plånbok"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cüzdan"
+          }
         }
       }
     },
@@ -22575,6 +23523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sport"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sporlar"
           }
         }
       }
@@ -22718,6 +23672,12 @@
             "state" : "translated",
             "value" : "Fotboll"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Futbol"
+          }
         }
       }
     },
@@ -22859,6 +23819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Baseboll"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beyzbol"
           }
         }
       }
@@ -23002,6 +23968,12 @@
             "state" : "translated",
             "value" : "Basket"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basketbol"
+          }
         }
       }
     },
@@ -23140,6 +24112,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Badminton"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Badminton"
@@ -23286,6 +24264,12 @@
             "state" : "translated",
             "value" : "Simning"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yüzme"
+          }
         }
       }
     },
@@ -23424,6 +24408,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bowling"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bowling"
@@ -23570,6 +24560,12 @@
             "state" : "translated",
             "value" : "Taekwondo"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekvando"
+          }
         }
       }
     },
@@ -23708,6 +24704,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Golf"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Golf"
@@ -23854,6 +24856,12 @@
             "state" : "translated",
             "value" : "Bordtennis"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Masa tenisi"
+          }
         }
       }
     },
@@ -23995,6 +25003,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skidåkning"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kayak"
           }
         }
       }
@@ -24138,6 +25152,12 @@
             "state" : "translated",
             "value" : "Klättring"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tırmanış"
+          }
         }
       }
     },
@@ -24276,6 +25296,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yoga"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yoga"
@@ -24422,6 +25448,12 @@
             "state" : "translated",
             "value" : "Boxning"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boks"
+          }
         }
       }
     },
@@ -24563,6 +25595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bågskytte"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Okçuluk"
           }
         }
       }
@@ -24706,6 +25744,12 @@
             "state" : "translated",
             "value" : "Fäktning"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eskrim"
+          }
         }
       }
     },
@@ -24844,6 +25888,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maraton"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maraton"
@@ -24990,6 +26040,12 @@
             "state" : "translated",
             "value" : "Kanin"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tavşan"
+          }
         }
       }
     },
@@ -25131,6 +26187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Katt"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kedi"
           }
         }
       }
@@ -25274,6 +26336,12 @@
             "state" : "translated",
             "value" : "Hund"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köpek"
+          }
         }
       }
     },
@@ -25415,6 +26483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lejon"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aslan"
           }
         }
       }
@@ -25558,6 +26632,12 @@
             "state" : "translated",
             "value" : "Björn"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayı"
+          }
         }
       }
     },
@@ -25699,6 +26779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Snigel"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salyangoz"
           }
         }
       }
@@ -25842,6 +26928,12 @@
             "state" : "translated",
             "value" : "Orm"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yılan"
+          }
         }
       }
     },
@@ -25983,6 +27075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sköldpadda"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaplumbağa"
           }
         }
       }
@@ -26126,6 +27224,12 @@
             "state" : "translated",
             "value" : "Fjäril"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kelebek"
+          }
         }
       }
     },
@@ -26267,6 +27371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fisk"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balık"
           }
         }
       }
@@ -26410,6 +27520,12 @@
             "state" : "translated",
             "value" : "Glass"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dondurma"
+          }
         }
       }
     },
@@ -26551,6 +27667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tårta"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasta"
           }
         }
       }
@@ -26694,6 +27816,12 @@
             "state" : "translated",
             "value" : "Banan"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muz"
+          }
         }
       }
     },
@@ -26835,6 +27963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vattenmelon"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karpuz"
           }
         }
       }
@@ -26978,6 +28112,12 @@
             "state" : "translated",
             "value" : "Stekt ägg"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sahanda yumurta"
+          }
         }
       }
     },
@@ -27119,6 +28259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Munk"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Donut"
           }
         }
       }
@@ -27262,6 +28408,12 @@
             "state" : "translated",
             "value" : "Äpple"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elma"
+          }
         }
       }
     },
@@ -27403,6 +28555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Varmkorv"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sosisli sandviç"
           }
         }
       }
@@ -27546,6 +28704,12 @@
             "state" : "translated",
             "value" : "Vindruvor"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Üzüm"
+          }
         }
       }
     },
@@ -27687,6 +28851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Morot"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Havuç"
           }
         }
       }
@@ -27830,6 +29000,12 @@
             "state" : "translated",
             "value" : "Föremål"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nesneler"
+          }
         }
       }
     },
@@ -27971,6 +29147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Glasögon"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gözlük"
           }
         }
       }
@@ -28114,6 +29296,12 @@
             "state" : "translated",
             "value" : "Cykel"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bisiklet"
+          }
         }
       }
     },
@@ -28255,6 +29443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stol"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sandalye"
           }
         }
       }
@@ -28398,6 +29592,12 @@
             "state" : "translated",
             "value" : "Nyckel"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anahtar"
+          }
         }
       }
     },
@@ -28539,6 +29739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Glödlampa"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ampul"
           }
         }
       }
@@ -28682,6 +29888,12 @@
             "state" : "translated",
             "value" : "Ballong"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balon"
+          }
         }
       }
     },
@@ -28823,6 +30035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ljus"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mum"
           }
         }
       }
@@ -28966,6 +30184,12 @@
             "state" : "translated",
             "value" : "Presentask"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hediye kutusu"
+          }
         }
       }
     },
@@ -29107,6 +30331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kvast"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Süpürge"
           }
         }
       }
@@ -29250,6 +30480,12 @@
             "state" : "translated",
             "value" : "Hammare"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çekiç"
+          }
         }
       }
     },
@@ -29391,6 +30627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blyertspenna"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurşun kalem"
           }
         }
       }
@@ -29534,6 +30776,12 @@
             "state" : "translated",
             "value" : "Mugg"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kupa"
+          }
         }
       }
     },
@@ -29675,6 +30923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fordon"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taşıtlar"
           }
         }
       }
@@ -29818,6 +31072,12 @@
             "state" : "translated",
             "value" : "Bil"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Araba"
+          }
         }
       }
     },
@@ -29959,6 +31219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flygplan"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uçak"
           }
         }
       }
@@ -30102,6 +31368,12 @@
             "state" : "translated",
             "value" : "Fartyg"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemi"
+          }
         }
       }
     },
@@ -30243,6 +31515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tåg"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tren"
           }
         }
       }
@@ -30386,6 +31664,12 @@
             "state" : "translated",
             "value" : "Raket"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roket"
+          }
         }
       }
     },
@@ -30524,6 +31808,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helikopter"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Helikopter"
@@ -30670,6 +31960,12 @@
             "state" : "translated",
             "value" : "Ubåt"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Denizaltı"
+          }
         }
       }
     },
@@ -30811,6 +32107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Luftballong"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sıcak hava balonu"
           }
         }
       }
@@ -30954,6 +32256,12 @@
             "state" : "translated",
             "value" : "Natur"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doğa"
+          }
         }
       }
     },
@@ -31095,6 +32403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Träd"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ağaç"
           }
         }
       }
@@ -31238,6 +32552,12 @@
             "state" : "translated",
             "value" : "Blomma"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çiçek"
+          }
         }
       }
     },
@@ -31379,6 +32699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sol"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Güneş"
           }
         }
       }
@@ -31522,6 +32848,12 @@
             "state" : "translated",
             "value" : "Moln"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bulut"
+          }
         }
       }
     },
@@ -31663,6 +32995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Regnbåge"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gökkuşağı"
           }
         }
       }
@@ -31806,6 +33144,12 @@
             "state" : "translated",
             "value" : "Berg"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dağ"
+          }
         }
       }
     },
@@ -31947,6 +33291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stjärna"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yıldız"
           }
         }
       }
@@ -32090,6 +33440,12 @@
             "state" : "translated",
             "value" : "Snögubbe"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kardan adam"
+          }
         }
       }
     },
@@ -32231,6 +33587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blixt"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şimşek"
           }
         }
       }
@@ -32374,6 +33736,12 @@
             "state" : "translated",
             "value" : "Vulkan"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yanardağ"
+          }
         }
       }
     },
@@ -32515,6 +33883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ö"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ada"
           }
         }
       }
@@ -32658,6 +34032,12 @@
             "state" : "translated",
             "value" : "Måne"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ay"
+          }
         }
       }
     },
@@ -32800,6 +34180,12 @@
             "state" : "translated",
             "value" : "Figurer"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karakterler"
+          }
         }
       }
     },
@@ -32938,6 +34324,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Robot"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Robot"
@@ -33084,6 +34476,12 @@
             "state" : "translated",
             "value" : "Spöke"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hayalet"
+          }
         }
       }
     },
@@ -33225,6 +34623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Krona"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taç"
           }
         }
       }
@@ -33368,6 +34772,12 @@
             "state" : "translated",
             "value" : "Pirat"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korsan"
+          }
         }
       }
     },
@@ -33509,6 +34919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ängel"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Melek"
           }
         }
       }
@@ -33652,6 +35068,12 @@
             "state" : "translated",
             "value" : "Trollkarl"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Büyücü"
+          }
         }
       }
     },
@@ -33793,6 +35215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dinosaurie"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dinozor"
           }
         }
       }
@@ -33936,6 +35364,12 @@
             "state" : "translated",
             "value" : "Utomjording"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uzaylı"
+          }
         }
       }
     },
@@ -34077,6 +35511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sjöjungfru"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deniz kızı"
           }
         }
       }
@@ -34220,6 +35660,12 @@
             "state" : "translated",
             "value" : "Tomte"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noel Baba"
+          }
         }
       }
     },
@@ -34358,6 +35804,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goblin"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Goblin"
@@ -34504,6 +35956,12 @@
             "state" : "translated",
             "value" : "Shaman"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şaman"
+          }
         }
       }
     },
@@ -34645,6 +36103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nattjuv"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gece Hırsızı"
           }
         }
       }
@@ -34788,6 +36252,12 @@
             "state" : "translated",
             "value" : "Skojare"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muzip"
+          }
         }
       }
     },
@@ -34929,6 +36399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bybo"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köylü"
           }
         }
       }
@@ -35072,6 +36548,12 @@
             "state" : "translated",
             "value" : "Du känner dina goblinkamrater. Om du är den enda goblinen får du titta på 1 mittenkort. När det gryr döljer du din identitet och låtsas vara människa."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goblin dostlarını görürsün. Tek Goblin sensen ortadaki 1 karta bakabilirsin. Gün ağardığında kimliğini gizle ve insan gibi davran."
+          }
         }
       }
     },
@@ -35213,6 +36695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Med övernaturlig kraft kan du titta på 1 annan spelares kort eller 2 mittenkort."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doğaüstü gücünle başka bir oyuncunun 1 kartına veya ortadaki 2 karta bakabilirsin."
           }
         }
       }
@@ -35356,6 +36844,12 @@
             "state" : "translated",
             "value" : "Byt kort i hemlighet med 1 annan spelare och titta på det nya kortet. Efter det följer ditt lag det nya kortet."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başka bir oyuncuyla gizlice kart değiştir ve yeni kartına bak. Bundan sonra tarafın yeni karta göre belirlenir."
+          }
         }
       }
     },
@@ -35497,6 +36991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skojet börjar! Byt kort mellan två andra spelare. Du får inte se vad det var."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muziplik başlıyor! Başka iki oyuncunun kartlarını birbiriyle değiştir. Ne olduklarını göremezsin."
           }
         }
       }
@@ -35640,6 +37140,12 @@
             "state" : "translated",
             "value" : "På natten finns inget att göra. Hitta de gömda goblinerna genom att resonera och diskutera på dagen."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geceleri yapacak bir şey yok. Gizlenen Goblinleri gündüz akıl yürütüp tartışarak bul."
+          }
         }
       }
     },
@@ -35781,6 +37287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ansluter …"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlanıyor…"
           }
         }
       }
@@ -35924,6 +37436,12 @@
             "state" : "translated",
             "value" : "Inställningar"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayarlar"
+          }
         }
       }
     },
@@ -36065,6 +37583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Meddelande"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bildirim"
           }
         }
       }
@@ -36208,6 +37732,12 @@
             "state" : "translated",
             "value" : "OK"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamam"
+          }
         }
       }
     },
@@ -36349,6 +37879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "”%@” är under underhåll. Välj ett annat spel."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” bakımda. Lütfen başka bir oyun seç."
           }
         }
       }
@@ -36492,6 +38028,12 @@
             "state" : "translated",
             "value" : "Spel"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyun"
+          }
         }
       }
     },
@@ -36633,6 +38175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lögnarspelet"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalancı Oyunu"
           }
         }
       }
@@ -36776,6 +38324,12 @@
             "state" : "translated",
             "value" : "Natt utan måne"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aysız Gece"
+          }
         }
       }
     },
@@ -36917,6 +38471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Månateljén"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ay Atölyesi"
           }
         }
       }
@@ -37060,6 +38620,12 @@
             "state" : "translated",
             "value" : "Skapa rum"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oda oluştur"
+          }
         }
       }
     },
@@ -37201,6 +38767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Öppna ett rum för det valda spelet så att dina vänner kan gå med."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seçtiğin oyun için bir oda aç, arkadaşların katılabilsin."
           }
         }
       }
@@ -37344,6 +38916,12 @@
             "state" : "translated",
             "value" : "Hitta rum i närheten"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yakındaki odaları bul"
+          }
         }
       }
     },
@@ -37485,6 +39063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hitta rummet som en vän i närheten har skapat och gå med."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yakındaki bir arkadaşının kurduğu odayı bul ve katıl."
           }
         }
       }
@@ -37628,6 +39212,12 @@
             "state" : "translated",
             "value" : "Öva med botar"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Botlarla pratik yap"
+          }
         }
       }
     },
@@ -37769,6 +39359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spela en omgång själv mot botar för att lära dig reglerna."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuralları öğrenmek için botlarla tek başına bir tur oyna."
           }
         }
       }
@@ -37912,6 +39508,12 @@
             "state" : "translated",
             "value" : "Rummet är fullt. (Högsta antal spelare: %lld)"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oda dolu. (En fazla oyuncu sayısı: %lld)"
+          }
         }
       }
     },
@@ -38054,6 +39656,12 @@
             "state" : "translated",
             "value" : "Ett spel pågår redan i det här rummet."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu odada oyun zaten sürüyor."
+          }
         }
       }
     },
@@ -38192,6 +39800,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luna"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Luna"
@@ -38338,6 +39952,12 @@
             "state" : "translated",
             "value" : "Orion"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orion"
+          }
         }
       }
     },
@@ -38476,6 +40096,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nova"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nova"
@@ -38622,6 +40248,12 @@
             "state" : "translated",
             "value" : "Sol"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sol"
+          }
         }
       }
     },
@@ -38763,6 +40395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Värden tog bort dig från rummet."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ev sahibi seni odadan çıkardı."
           }
         }
       }
@@ -38906,6 +40544,12 @@
             "state" : "translated",
             "value" : "Värden stängde rummet."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ev sahibi odayı kapattı."
+          }
         }
       }
     },
@@ -39047,6 +40691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det gick inte att ansluta till värden igen. Du kan gå med igen via ”Fortsätt” på startskärmen."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ev sahibine yeniden bağlanılamadı. Ana ekrandaki “Devam et” ile tekrar katılabilirsin."
           }
         }
       }
@@ -39190,6 +40840,12 @@
             "state" : "translated",
             "value" : "Varje spelare tilldelas i hemlighet Månorden (de goda) eller Skuggorna (de onda). Under upp till 5 uppdrag måste du bara utifrån samtal och röstningshistorik lista ut vilka Skuggorna är."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her oyuncu gizlice Ay Tarikatı’na (iyiler) veya Gölgeler’e (kötüler) atanır. En fazla 5 görev boyunca Gölgeler’in kim olduğunu yalnızca konuşmalardan ve oy kayıtlarından çıkarmalısın."
+          }
         }
       }
     },
@@ -39331,6 +40987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alla får samma hemliga ord, utom en Lögnare. Beskriv ordet i tur och ordning med några få ord och kolla vem som verkligen känner till det. Lögnaren måste bluffa utan att känna till ordet."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir Yalancı dışında herkes aynı gizli kelimeyi alır. Sırayla kelimeyi birkaç sözcükle anlatın ve kimin gerçekten bildiğini kontrol edin. Yalancı kelimeyi bilmeden blöf yapmak zorundadır."
           }
         }
       }
@@ -39474,6 +41136,12 @@
             "state" : "translated",
             "value" : "Goblins har smugit sig in i byn! På natten använder alla en hemlig handling för att få information eller i hemlighet byta kort; på dagen diskuterar man och en enda omröstning avgör vem som förvisas. Korten kan ändras under natten, så resultatet avgörs av ”slutkortet”."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köye Goblinler sızdı! Geceleri herkes bilgi edinmek ya da gizlice kart değiştirmek için gizli bir eylem yapar; gündüz tartışılır ve tek bir oylama kimin sürüleceğini belirler. Kartlar gece boyunca değişebilir, bu yüzden sonuç “son karta” göre belirlenir."
+          }
         }
       }
     },
@@ -39615,6 +41283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I varje rond blir en spelare ”Tecknare” och uttrycker det hemliga ordet bara med en teckning. De andra tittar på teckningen och gissar i chatten. Bokstäver och siffror är förbjudna. Spelet slutar när alla har varit Tecknare."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her turda bir oyuncu “Ressam” olur ve gizli kelimeyi yalnızca çizimle anlatır. Diğerleri çizime bakıp sohbetten tahmin eder. Harf ve rakam yasaktır. Herkes bir kez Ressam olunca oyun biter."
           }
         }
       }
@@ -39758,6 +41432,12 @@
             "state" : "translated",
             "value" : "Månorden (de goda)"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ay Tarikatı (iyiler)"
+          }
         }
       }
     },
@@ -39899,6 +41579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 lyckade uppdrag. Men om Lönnmördaren pekar ut Siaren rätt på slutet förlorar du, så Siaren måste dölja sin identitet in i det sista."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 görev başarılı olur. Ama sonunda Suikastçı Kâhin’i doğru işaret ederse kaybedersin; bu yüzden Kâhin kimliğini sonuna kadar gizlemelidir."
           }
         }
       }
@@ -40042,6 +41728,12 @@
             "state" : "translated",
             "value" : "Skuggorna (de onda)"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gölgeler (kötüler)"
+          }
         }
       }
     },
@@ -40183,6 +41875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 misslyckade uppdrag · 5 avvisade lag i rad · lyckat mord på Siaren — ett av de tre räcker för att vinna."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 görev başarısız · art arda 5 ekip reddi · Kâhin’e suikast başarılı — üçünden biri yeter."
           }
         }
       }
@@ -40326,6 +42024,12 @@
             "state" : "translated",
             "value" : "Du vinner om omröstningen pekar ut Lögnaren rätt och Lögnaren inte gissar ordet."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oylama Yalancı’yı doğru işaret eder ve Yalancı kelimeyi bilemezse kazanırsın."
+          }
         }
       }
     },
@@ -40467,6 +42171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du vinner om rösterna delas eller fel person pekas ut. Även om Lögnaren åker fast vänder han spelet genom att gissa ordet!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oylar bölünürse veya yanlış kişi işaret edilirse kazanırsın. Yakalansa bile Yalancı kelimeyi bilirse oyunu çevirir!"
           }
         }
       }
@@ -40610,6 +42320,12 @@
             "state" : "translated",
             "value" : "By"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köy"
+          }
         }
       }
     },
@@ -40751,6 +42467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du vinner om du förvisar en goblin (enligt slutkortet). Ligger alla goblins bland mittenkorten vinner du bara om ingen förvisas."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir Goblin’i (son karta göre) sürersen kazanırsın. Tüm Goblinler ortadaki kartlardaysa yalnızca kimse sürülmezse kazanırsın."
           }
         }
       }
@@ -40894,6 +42616,12 @@
             "state" : "translated",
             "value" : "Du vinner om ingen goblin förvisas — du vinner även om en oskyldig förvisas."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiçbir Goblin sürülmezse kazanırsın — masum biri sürülse bile kazanırsın."
+          }
         }
       }
     },
@@ -41035,6 +42763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gissare"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tahmin edenler"
           }
         }
       }
@@ -41178,6 +42912,12 @@
             "state" : "translated",
             "value" : "Ju snabbare du gissar ordet utifrån teckningen, desto fler poäng! Rätt svar ger poäng."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kelimeyi çizimden ne kadar hızlı bilirsen o kadar çok puan! Doğru bilince puan kazanırsın."
+          }
         }
       }
     },
@@ -41319,6 +43059,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du får poäng när många gissar din teckning. Nyckeln är att rita så att alla känner igen det!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çizimini çok kişi bilirse puan kazanırsın. Püf noktası, herkesin tanıyacağı şekilde çizmek!"
           }
         }
       }
@@ -41462,6 +43208,12 @@
             "state" : "translated",
             "value" : "Så spelar du"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nasıl oynanır"
+          }
         }
       }
     },
@@ -41603,6 +43355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spelets mål"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyunun amacı"
           }
         }
       }
@@ -41746,6 +43504,12 @@
             "state" : "translated",
             "value" : "Vinstvillkor"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kazanma koşulları"
+          }
         }
       }
     },
@@ -41887,6 +43651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nu provar du steg för steg tillsammans med botar.\nI varje fas visas en guide och du går vidare med ”Nästa”."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şimdi botlarla birlikte adım adım kendin deneyeceksin.\nHer aşamada bir ipucu çıkar, “İleri” düğmesiyle devam edersin."
           }
         }
       }
@@ -42030,6 +43800,12 @@
             "state" : "translated",
             "value" : "Starta övningen"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pratiğe başla"
+          }
         }
       }
     },
@@ -42171,6 +43947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Till startskärmen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ana ekrana dön"
           }
         }
       }
@@ -42314,6 +44096,12 @@
             "state" : "translated",
             "value" : "Dags för mord"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suikast zamanı"
+          }
         }
       }
     },
@@ -42455,6 +44243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Månorden har klarat 3 uppdrag.\nMen om Lönnmördaren hittar Siaren vänder Skuggorna spelet!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ay Tarikatı 3 görevi tamamladı.\nAma Suikastçı Kâhin’i bulursa Gölgeler oyunu çevirir!"
           }
         }
       }
@@ -42598,6 +44392,12 @@
             "state" : "translated",
             "value" : "Peka ut spelaren du tror är Siaren"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kâhin olduğunu düşündüğün oyuncuyu işaret et"
+          }
         }
       }
     },
@@ -42739,6 +44539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utför mordet"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suikast yap"
           }
         }
       }
@@ -42882,6 +44688,12 @@
             "state" : "translated",
             "value" : "Lönnmördaren väljer sitt sista mål …"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suikastçı son hedefini seçiyor…"
+          }
         }
       }
     },
@@ -43023,6 +44835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ vinner!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kazanan: %@!"
           }
         }
       }
@@ -43166,6 +44984,12 @@
             "state" : "translated",
             "value" : "Roller avslöjade"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roller açıklandı"
+          }
         }
       }
     },
@@ -43307,6 +45131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jag"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ben"
           }
         }
       }
@@ -43450,6 +45280,12 @@
             "state" : "translated",
             "value" : "Spela igen med samma spelare"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aynı oyuncularla tekrar oyna"
+          }
         }
       }
     },
@@ -43591,6 +45427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Värden kan starta om"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ev sahibi yeniden başlatabilir"
           }
         }
       }
@@ -43734,6 +45576,12 @@
             "state" : "translated",
             "value" : "Lämna"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayrıl"
+          }
         }
       }
     },
@@ -43875,6 +45723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Första gången? Öva med botar först"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İlk kez mi? Önce botlarla pratik yap"
           }
         }
       }
@@ -44018,6 +45872,12 @@
             "state" : "translated",
             "value" : "Du kan spela ett helt spel själv mot botar för att lära dig reglerna."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuralları öğrenmek için botlarla tek başına baştan sona bir oyun oynayabilirsin."
+          }
         }
       }
     },
@@ -44159,6 +46019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tvinga fasen vidare?"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aşama zorla ilerletilsin mi?"
           }
         }
       }
@@ -44302,6 +46168,12 @@
             "state" : "translated",
             "value" : "Tvinga vidare"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zorla ilerlet"
+          }
         }
       }
     },
@@ -44443,6 +46315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avbryt"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vazgeç"
           }
         }
       }
@@ -44586,6 +46464,12 @@
             "state" : "translated",
             "value" : "Ta bort %@?"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ çıkarılsın mı?"
+          }
         }
       }
     },
@@ -44727,6 +46611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ta bort"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çıkar"
           }
         }
       }
@@ -44870,6 +46760,12 @@
             "state" : "translated",
             "value" : "Ett pågående spel fortsätter med de kvarvarande spelarna."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Süren oyun kalan oyuncularla devam eder."
+          }
         }
       }
     },
@@ -45011,6 +46907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "GM-värdläge"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GM yönetici modu"
           }
         }
       }
@@ -45154,6 +47056,12 @@
             "state" : "translated",
             "value" : "Om spelet fastnar kan du hålla det igång härifrån."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyun takılırsa buradan sürdürebilirsin."
+          }
         }
       }
     },
@@ -45295,6 +47203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spelkontroll"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyun kontrolü"
           }
         }
       }
@@ -45438,6 +47352,12 @@
             "state" : "translated",
             "value" : "Tvinga fasen vidare"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aşamayı zorla ilerlet"
+          }
         }
       }
     },
@@ -45579,6 +47499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det finns inget att tvinga i den nuvarande fasen."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mevcut aşamada zorlanacak bir şey yok."
           }
         }
       }
@@ -45722,6 +47648,12 @@
             "state" : "translated",
             "value" : "Hantera spelare"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyuncuları yönet"
+          }
         }
       }
     },
@@ -45863,6 +47795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Privat information"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Özel bilgiler"
           }
         }
       }
@@ -46006,6 +47944,12 @@
             "state" : "translated",
             "value" : "Avslöja roller och svar"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolleri ve cevapları göster"
+          }
         }
       }
     },
@@ -46147,6 +48091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Om du tittar blir det svårt för GM att spela rättvist. Använd bara när spelet fastnar."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bakarsan GM’nin adil oynaması zorlaşır. Yalnızca oyun takıldığında kullan."
           }
         }
       }
@@ -46290,6 +48240,12 @@
             "state" : "translated",
             "value" : "Lämna spelet?"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyundan ayrılınsın mı?"
+          }
         }
       }
     },
@@ -46431,6 +48387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avbryt spelet och gå till lobbyn"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyunu durdur ve lobiye dön"
           }
         }
       }
@@ -46574,6 +48536,12 @@
             "state" : "translated",
             "value" : "Stäng rummet (avslutas för alla)"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odayı kapat (herkes için biter)"
+          }
         }
       }
     },
@@ -46715,6 +48683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Värdpanel"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ev sahibi paneli"
           }
         }
       }
@@ -46858,6 +48832,12 @@
             "state" : "translated",
             "value" : "Uppdrag nr %lld"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld. görev"
+          }
         }
       }
     },
@@ -46999,6 +48979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ledare: %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lider: %@"
           }
         }
       }
@@ -47142,6 +49128,12 @@
             "state" : "translated",
             "value" : "Spelet är slut"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyun bitti"
+          }
         }
       }
     },
@@ -47283,6 +49275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se min roll"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolümü göster"
           }
         }
       }
@@ -47426,6 +49424,12 @@
             "state" : "translated",
             "value" : "Nästa"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İleri"
+          }
         }
       }
     },
@@ -47567,6 +49571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I den här fasen tittar alla i hemlighet på sin egen roll. När du har tittat på din och tryckt på ”Nästa” blir botarna också klara."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu aşamada herkes kendi rolüne gizlice bakar. Kendi rolüne bakıp “İleri”ye dokununca botlar da bakmayı bitirir."
           }
         }
       }
@@ -47710,6 +49720,12 @@
             "state" : "translated",
             "value" : "Ledaren utser laget för det här uppdraget. Tryck på ”Nästa” så väljer ledaren lag. (Är du ledare, välj själv!)"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lider bu görev için ekibi belirler. “İleri”ye dokun, lider ekibi seçsin. (Lider sensen kendin seç!)"
+          }
         }
       }
     },
@@ -47851,6 +49867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alla röstar för eller emot lagets sammansättning. Vid lika avvisas det! Rösta först och tryck sedan på ”Nästa” för att se botarnas röster."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herkes ekibin kurulumuna lehte veya aleyhte oy verir. Eşitlikte ekip reddedilir! Önce oy ver, sonra botların oylarını görmek için “İleri”ye dokun."
           }
         }
       }
@@ -47994,6 +50016,12 @@
             "state" : "translated",
             "value" : "Det här är omröstningens resultat. Avvisas laget 5 gånger i rad vinner Skuggorna, så du kan inte bara rösta emot hela tiden."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oylama sonucu bu. Ekip art arda 5 kez reddedilirse Gölgeler kazanır; bu yüzden hep aleyhte oy veremezsin."
+          }
         }
       }
     },
@@ -48135,6 +50163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bara lagmedlemmar spelar ett lyckat- eller misslyckatkort. Månorden kan bara spela lyckat; bara Skuggorna kan i hemlighet spela misslyckat. Tryck på ”Nästa” för att följa kortinlämningen."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başarı veya başarısızlık kartını yalnızca ekip üyeleri oynar. Ay Tarikatı yalnızca başarı oynayabilir; başarısızlığı gizlice yalnızca Gölgeler oynayabilir. Kart teslimini izlemek için “İleri”ye dokun."
           }
         }
       }
@@ -48278,6 +50312,12 @@
             "state" : "translated",
             "value" : "När misslyckatkorten når det krävda antalet misslyckas uppdraget! Den som först får 3 segrar avslutar spelet."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başarısızlık kartları gereken sayıya ulaşırsa görev başarısız olur! İlk 3 galibiyeti alan oyunu bitirir."
+          }
         }
       }
     },
@@ -48419,6 +50459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Även om 3 uppdrag lyckas finns en sista vändning: pekar Lönnmördaren ut Siaren rätt vänder Skuggorna spelet."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 görev başarılı olsa bile son bir sürpriz var: Suikastçı Kâhin’i doğru işaret ederse Gölgeler oyunu çevirir."
           }
         }
       }
@@ -48562,6 +50608,12 @@
             "state" : "translated",
             "value" : "Anslutningen till värden bröts. Försöker ansluta igen automatiskt …"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ev sahibiyle bağlantı koptu. Otomatik olarak yeniden bağlanmaya çalışılıyor…"
+          }
         }
       }
     },
@@ -48703,6 +50755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tiden är ute"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Süre doldu"
           }
         }
       }
@@ -48846,6 +50904,12 @@
             "state" : "translated",
             "value" : "Titta där ingen annan kan se"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kimsenin göremeyeceği yerde bak"
+          }
         }
       }
     },
@@ -48987,6 +51051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lag: %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taraf: %@"
           }
         }
       }
@@ -49130,6 +51200,12 @@
             "state" : "translated",
             "value" : "De som verkar vara skuggagenter"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gölge ajanına benzeyenler"
+          }
         }
       }
     },
@@ -49271,6 +51347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dina allierade bland Skuggorna"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gölge müttefiklerin"
           }
         }
       }
@@ -49414,6 +51496,12 @@
             "state" : "translated",
             "value" : "Mål: %@"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hedef: %@"
+          }
         }
       }
     },
@@ -49555,6 +51643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Under underhåll en liten stund. Öppnar snart igen."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kısa süreliğine bakımda. Yakında yeniden açılacak."
           }
         }
       }
@@ -49698,6 +51792,12 @@
             "state" : "translated",
             "value" : "3 festspel att njuta av med vänner i närheten"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yakındaki arkadaşlarla eğlenilecek 3 parti oyunu"
+          }
         }
       }
     },
@@ -49839,6 +51939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Smeknamn"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Takma ad"
           }
         }
       }
@@ -49982,6 +52088,12 @@
             "state" : "translated",
             "value" : "Skriv ditt namn"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adını gir"
+          }
         }
       }
     },
@@ -50123,6 +52235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Välj ett spel"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir oyun seç"
           }
         }
       }
@@ -50266,6 +52384,12 @@
             "state" : "translated",
             "value" : "5–15 spelare · Hitta de gömda Skuggorna"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5–15 oyuncu · Gizlenen Gölgeleri bul"
+          }
         }
       }
     },
@@ -50407,6 +52531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3–15 spelare · Hitta den som inte känner till ordet"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 oyuncu · Kelimeyi bilmeyen kişiyi bul"
           }
         }
       }
@@ -50550,6 +52680,12 @@
             "state" : "translated",
             "value" : "3–15 spelare · En natt med en goblin i byn"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 oyuncu · Köyde bir Goblin’le bir gece"
+          }
         }
       }
     },
@@ -50691,6 +52827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3–15 spelare · En ritar, de andra gissar"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 oyuncu · Biri çizer, diğerleri tahmin eder"
           }
         }
       }
@@ -50834,6 +52976,12 @@
             "state" : "translated",
             "value" : "Hitta alla rum i närheten"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yakındaki tüm odaları bul"
+          }
         }
       }
     },
@@ -50975,6 +53123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "iPhones på samma Wi-Fi eller i närheten ansluter automatiskt.\nDu kan spela utan internet."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aynı Wi-Fi’deki veya yakındaki iPhone’lar otomatik bağlanır.\nİnternet olmadan da oynayabilirsin."
           }
         }
       }
@@ -51118,6 +53272,12 @@
             "state" : "translated",
             "value" : "Fortsätt"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devam et"
+          }
         }
       }
     },
@@ -51259,6 +53419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rum: %1$@%2$@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oda: %1$@%2$@"
           }
         }
       }
@@ -51402,6 +53568,12 @@
             "state" : "translated",
             "value" : "Rensa historiken för ”Fortsätt”"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Devam et” geçmişini temizle"
+          }
         }
       }
     },
@@ -51543,6 +53715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ett spel om dolda identiteter för 5–15 spelare: hitta Skuggorna som gömmer sig i laget. Den sida som först får 3 uppdrag att lyckas (eller misslyckas) vinner."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5–15 oyuncu için gizli kimlik oyunu: ekibe gizlenen Gölgeleri bul. 3 görevi ilk başaran (veya başarısız kılan) taraf kazanır."
           }
         }
       }
@@ -51686,6 +53864,12 @@
             "state" : "translated",
             "value" : "Ett bluffspel för 3–15 spelare: alla utom Lögnaren får samma ord. Beskriv det med några få ord och hitta sedan Lögnaren. Även om Lögnaren åker fast vinner han genom att gissa ordet!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 oyuncu için blöf oyunu: Yalancı dışında herkes aynı kelimeyi alır. Birkaç sözcükle anlatıp Yalancı’yı bulun. Yakalansa bile Yalancı kelimeyi bilirse kazanır!"
+          }
         }
       }
     },
@@ -51827,6 +54011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ett deduktionsspel för 3–15 spelare om en natt med en goblin i byn. På natten byts kort och en enda omröstning avgör vinnaren."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köyde bir Goblin’le geçen bir geceyi anlatan 3–15 oyunculu çıkarım oyunu. Gece kartlar değiştirilir, kazananı tek bir oylama belirler."
           }
         }
       }
@@ -51970,6 +54160,12 @@
             "state" : "translated",
             "value" : "Ett ritspel för 3–15 spelare: i varje rond ritar en person ordet och de andra gissar i chatten. Ju snabbare du gissar, desto fler poäng! När alla har ritat vinner den med flest poäng."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 oyunculu çizim oyunu: her turda biri kelimeyi çizer, diğerleri sohbette tahmin eder. Ne kadar hızlı bilirsen o kadar çok puan! Herkes çizince en çok puanı olan kazanır."
+          }
         }
       }
     },
@@ -52111,6 +54307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skapa rum (värd)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oda oluştur (ev sahibi)"
           }
         }
       }
@@ -52254,6 +54456,12 @@
             "state" : "translated",
             "value" : "Gå med i ett spel"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyuna katıl"
+          }
         }
       }
     },
@@ -52395,6 +54603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Så spelar du (öva med botar)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nasıl oynanır (botlarla pratik)"
           }
         }
       }
@@ -52538,6 +54752,12 @@
             "state" : "translated",
             "value" : "Tillbaka"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geri"
+          }
         }
       }
     },
@@ -52679,6 +54899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hitta rum: %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odaları bul: %@"
           }
         }
       }
@@ -52822,6 +55048,12 @@
             "state" : "translated",
             "value" : "Hitta rum i närheten"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yakındaki odaları bul"
+          }
         }
       }
     },
@@ -52963,6 +55195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ansluter till rummet …"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odaya bağlanılıyor…"
           }
         }
       }
@@ -53106,6 +55344,12 @@
             "state" : "translated",
             "value" : "Letar efter rum i närheten …\nKontrollera att värden har tryckt på ”Skapa rum”."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yakındaki odalar aranıyor…\nEv sahibinin “Oda oluştur”a dokunduğundan emin ol."
+          }
         }
       }
     },
@@ -53247,6 +55491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rum: %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oda: %@"
           }
         }
       }
@@ -53390,6 +55640,12 @@
             "state" : "translated",
             "value" : "Alla har samma ord. Bara en person känner inte till det."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herkesin kelimesi aynı. Yalnızca biri bilmiyor."
+          }
         }
       }
     },
@@ -53532,6 +55788,12 @@
             "state" : "translated",
             "value" : "Anslutningen till värden bröts. Försöker ansluta igen …"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ev sahibiyle bağlantı koptu. Yeniden bağlanmaya çalışılıyor…"
+          }
         }
       }
     },
@@ -53670,6 +55932,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategori: %@"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kategori: %@"
@@ -53816,6 +56084,12 @@
             "state" : "translated",
             "value" : "Alla utom Lögnaren fick samma ord. Titta på ditt och tryck på ”Nästa” så blir botarna också klara."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalancı dışında herkes aynı kelimeyi aldı. Kendi kelimene bak ve botların da bitirmesi için “İleri”ye dokun."
+          }
         }
       }
     },
@@ -53957,6 +56231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I den här fasen beskriver alla ordet i tur och ordning med några få ord. Varje tryck på ”Nästa” avslutar den nuvarande turen."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu aşamada kelime sırayla birkaç sözcükle anlatılır. “İleri”ye her dokunuşta mevcut sıranın konuşması biter."
           }
         }
       }
@@ -54100,6 +56380,12 @@
             "state" : "translated",
             "value" : "Vem var undvikande i sin beskrivning? Rösta först på den du misstänker är Lögnaren och tryck sedan på ”Nästa” för att se botarnas röster."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anlatımında kim kaçamak yaptı? Önce Yalancı olduğundan şüphelendiğin kişiye oy ver, sonra botların oylarını görmek için “İleri”ye dokun."
+          }
         }
       }
     },
@@ -54241,6 +56527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lögnaren åkte fast! Men gissar han ordet vänder han spelet — tryck på ”Nästa” för att följa hans gissning."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalancı yakalandı! Ama kelimeyi bilirse oyunu çevirir — tahminini izlemek için “İleri”ye dokun."
           }
         }
       }
@@ -54384,6 +56676,12 @@
             "state" : "translated",
             "value" : "Du är Lögnaren!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalancı sensin!"
+          }
         }
       }
     },
@@ -54525,6 +56823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du känner inte till ordet, men måste beskriva det som om du gjorde det. Låt dig inte avslöjas!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kelimeyi bilmiyorsun ama biliyormuş gibi anlatmalısın. Yakalanma!"
           }
         }
       }
@@ -54668,6 +56972,12 @@
             "state" : "translated",
             "value" : "Ord"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kelime"
+          }
         }
       }
     },
@@ -54809,6 +57119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ordet har kommit"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kelime geldi"
           }
         }
       }
@@ -54952,6 +57268,12 @@
             "state" : "translated",
             "value" : "Klart! Väntar på de andra spelarna …"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamam! Diğer oyuncular bekleniyor…"
+          }
         }
       }
     },
@@ -55093,6 +57415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sett"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baktım"
           }
         }
       }
@@ -55236,6 +57564,12 @@
             "state" : "translated",
             "value" : "Titta där ingen annan kan se skärmen"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekranın kimse tarafından görülemeyeceği yerde bak"
+          }
         }
       }
     },
@@ -55377,6 +57711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ta en liten titt"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Göz at"
           }
         }
       }
@@ -55520,6 +57860,12 @@
             "state" : "translated",
             "value" : "Bekräftade: %lld/%lld"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Onaylayan: %lld/%lld"
+          }
         }
       }
     },
@@ -55661,6 +58007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beskriv ordet i tur och ordning med några få ord"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kelimeyi sırayla birkaç sözcükle anlat"
           }
         }
       }
@@ -55804,6 +58156,12 @@
             "state" : "translated",
             "value" : "Säger du för mycket hjälper du Lögnaren;\nsäger du för lite blir du misstänkt!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çok ayrıntılı anlatırsan Yalancı’ya ipucu verirsin,\nçok belirsiz anlatırsan şüphe çekersin!"
+          }
         }
       }
     },
@@ -55945,6 +58303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pratar"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konuşuyor"
           }
         }
       }
@@ -56088,6 +58452,12 @@
             "state" : "translated",
             "value" : "Klar med att prata"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konuşmayı bitirdi"
+          }
         }
       }
     },
@@ -56229,6 +58599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vem är Lögnaren?"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalancı kim?"
           }
         }
       }
@@ -56372,6 +58748,12 @@
             "state" : "translated",
             "value" : "Rösta på den mest misstänkta · Om rösterna delas vinner Lögnaren!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En şüpheli kişiye oy ver · Oylar bölünürse Yalancı kazanır!"
+          }
         }
       }
     },
@@ -56513,6 +58895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rösten är lagd! Väntar på räkningen …"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oy verildi! Sayım bekleniyor…"
           }
         }
       }
@@ -56656,6 +59044,12 @@
             "state" : "translated",
             "value" : "Har röstat: %lld/%lld"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oy veren: %lld/%lld"
+          }
         }
       }
     },
@@ -56797,6 +59191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Peka ut ”%@” som Lögnaren?"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” Yalancı olarak işaret edilsin mi?"
           }
         }
       }
@@ -56940,6 +59340,12 @@
             "state" : "translated",
             "value" : "Bekräfta röst"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyu onayla"
+          }
         }
       }
     },
@@ -57081,6 +59487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En skickad röst kan inte ändras."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gönderilen oy değiştirilemez."
           }
         }
       }
@@ -57224,6 +59636,12 @@
             "state" : "translated",
             "value" : "Lögnaren åkte fast!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalancı yakalandı!"
+          }
         }
       }
     },
@@ -57365,6 +59783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "”%@” var Lögnaren!\nMen gissar han ordet vänder Lögnaren spelet."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” Yalancı’ymış!\nAma kelimeyi bilirse Yalancı oyunu çevirir."
           }
         }
       }
@@ -57508,6 +59932,12 @@
             "state" : "translated",
             "value" : "Välj ordet — du har bara ett försök!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kelimeyi seç — tek bir şansın var!"
+          }
         }
       }
     },
@@ -57649,6 +60079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lögnaren gissar ordet …"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalancı kelimeyi tahmin ediyor…"
           }
         }
       }
@@ -57792,6 +60228,12 @@
             "state" : "translated",
             "value" : "Gissa ”%@” som ordet?"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kelime olarak “%@” tahmin edilsin mi?"
+          }
         }
       }
     },
@@ -57933,6 +60375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bekräfta det här ordet"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu kelimeyi onayla"
           }
         }
       }
@@ -58076,6 +60524,12 @@
             "state" : "translated",
             "value" : "Du har bara ett försök!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tek bir şansın var!"
+          }
         }
       }
     },
@@ -58217,6 +60671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lögnaren vinner!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalancı kazandı!"
           }
         }
       }
@@ -58360,6 +60820,12 @@
             "state" : "translated",
             "value" : "Medborgarna vinner!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vatandaşlar kazandı!"
+          }
         }
       }
     },
@@ -58501,6 +60967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lögnarens gissning"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalancı’nın tahmini"
           }
         }
       }
@@ -58644,6 +61116,12 @@
             "state" : "translated",
             "value" : "Omröstningens resultat"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oylama sonucu"
+          }
         }
       }
     },
@@ -58785,6 +61263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stäng rummet"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odayı kapat"
           }
         }
       }
@@ -58928,6 +61412,12 @@
             "state" : "translated",
             "value" : "Mitt rum"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odam"
+          }
         }
       }
     },
@@ -59069,6 +61559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lobby"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lobi"
           }
         }
       }
@@ -59212,6 +61708,12 @@
             "state" : "translated",
             "value" : "Spelare: %1$lld · det behövs %2$lld–%3$lld"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyuncu: %1$lld · gereken: %2$lld–%3$lld"
+          }
         }
       }
     },
@@ -59353,6 +61855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lär dig spela: botarna kommer in.\nNär det finns tillräckligt många spelare trycker du på ”Starta spelet”."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oynamayı öğren: botlar giriyor.\nYeterli oyuncu olunca “Oyunu başlat”a dokun."
           }
         }
       }
@@ -59496,6 +62004,12 @@
             "state" : "translated",
             "value" : "Starta spelet"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyunu başlat"
+          }
         }
       }
     },
@@ -59637,6 +62151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Minsta antal spelare: %lld"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En az oyuncu sayısı: %lld"
           }
         }
       }
@@ -59780,6 +62300,12 @@
             "state" : "translated",
             "value" : "Väntar på att värden startar spelet …"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ev sahibinin oyunu başlatması bekleniyor…"
+          }
         }
       }
     },
@@ -59921,6 +62447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Med det här antalet spelare: Skuggorna %1$lld · Månorden %2$lld"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu oyuncu sayısıyla: Gölgeler %1$lld · Ay Tarikatı %2$lld"
           }
         }
       }
@@ -60064,6 +62596,12 @@
             "state" : "translated",
             "value" : "[Månarkaden %@] Fråga"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[Ay Oyun Salonu %@] Soru"
+          }
         }
       }
     },
@@ -60205,6 +62743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Support"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destek"
           }
         }
       }
@@ -60348,6 +62892,12 @@
             "state" : "translated",
             "value" : "Kontakta via e-post"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-postayla ulaş"
+          }
         }
       }
     },
@@ -60486,6 +63036,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM (@lee25_ios)"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram DM (@lee25_ios)"
@@ -60632,6 +63188,12 @@
             "state" : "translated",
             "value" : "Kontakta utvecklaren"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geliştiriciyle iletişime geç"
+          }
         }
       }
     },
@@ -60773,6 +63335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hör gärna av dig om buggar eller spel du skulle vilja ha."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hata bildirimi ya da görmek istediğin oyunlar varsa çekinmeden bize ilet."
           }
         }
       }
@@ -60916,6 +63484,12 @@
             "state" : "translated",
             "value" : "Det går inte att öppna Mail-appen"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mail uygulaması açılamıyor"
+          }
         }
       }
     },
@@ -61057,6 +63631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopiera adress"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adresi kopyala"
           }
         }
       }
@@ -61200,6 +63780,12 @@
             "state" : "translated",
             "value" : "Stäng"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapat"
+          }
         }
       }
     },
@@ -61341,6 +63927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skicka ett e-postmeddelande till adressen nedan.\n%@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aşağıdaki adrese e-posta gönder.\n%@"
           }
         }
       }
@@ -61484,6 +64076,12 @@
             "state" : "translated",
             "value" : "Välkommen till Månarkaden"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ay Oyun Salonu’na hoş geldin"
+          }
         }
       }
     },
@@ -61625,6 +64223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En samling festspel för iPhone att spela med vänner på samma plats.\nDu behöver varken internet eller registrering."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aynı yerde toplanan arkadaşlarla iPhone’da oynanan parti oyunları koleksiyonu.\nİnternete de üyeliğe de gerek yok."
           }
         }
       }
@@ -61768,6 +64372,12 @@
             "state" : "translated",
             "value" : "En person skapar rummet"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biri odayı kurar"
+          }
         }
       }
     },
@@ -61909,6 +64519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "När alla har installerat appen väljer en person ett spel och trycker på ”Skapa rum”.\nDe andra går med via ”Gå med i ett spel” — klart!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herkes uygulamayı kurunca biri bir oyun seçip “Oda oluştur”a dokunur.\nDiğerleri “Oyuna katıl” ile odaya girer, bu kadar!"
           }
         }
       }
@@ -62052,6 +64668,12 @@
             "state" : "translated",
             "value" : "Samlas nära varandra och tillåt anslutningen"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yakın toplanın ve bağlantıya izin verin"
+          }
         }
       }
     },
@@ -62193,6 +64815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ni hittar varandra på samma Wi-Fi eller inom Bluetooth-räckvidd.\nTillåt förfrågan om åtkomst till ”Lokalt nätverk” som visas första gången."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aynı Wi-Fi’de veya Bluetooth menzilinde birbirinizi bulursunuz.\nİlk başta çıkan “Yerel Ağ” erişim isteğine mutlaka izin ver."
           }
         }
       }
@@ -62336,6 +64964,12 @@
             "state" : "translated",
             "value" : "Kan du inte reglerna? Öva först"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurallar yabancı mı? Önce pratik yap"
+          }
         }
       }
     },
@@ -62477,6 +65111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Varje spel har ”Så spelar du (öva med botar)”.\nDu kan spela en omgång själv mot botar för att lära dig reglerna."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her oyunda “Nasıl oynanır (botlarla pratik)” var.\nKuralları öğrenmek için botlarla tek başına bir tur oynayabilirsin."
           }
         }
       }
@@ -62620,6 +65260,12 @@
             "state" : "translated",
             "value" : "Hoppa över"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atla"
+          }
         }
       }
     },
@@ -62761,6 +65407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kom igång"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başla"
           }
         }
       }
@@ -62904,6 +65556,12 @@
             "state" : "translated",
             "value" : "Spelare: %1$lld (%2$lld–%3$lld)"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyuncu: %1$lld (%2$lld–%3$lld)"
+          }
         }
       }
     },
@@ -63045,6 +65703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rollerna har delats ut"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roller dağıtıldı"
           }
         }
       }
@@ -63188,6 +65852,12 @@
             "state" : "translated",
             "value" : "Jag har sett"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baktım"
+          }
         }
       }
     },
@@ -63329,6 +65999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tar emot rollinformation …"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rol bilgisi alınıyor…"
           }
         }
       }
@@ -63472,6 +66148,12 @@
             "state" : "translated",
             "value" : "Roller sedda: %lld/%lld"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolüne bakan: %lld/%lld"
+          }
         }
       }
     },
@@ -63613,6 +66295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se till att ingen i närheten kan se,\noch tryck på knappen för att se din roll"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çevrende kimsenin görmediğinden emin ol,\nsonra rolüne bakmak için düğmeye dokun"
           }
         }
       }
@@ -63756,6 +66444,12 @@
             "state" : "translated",
             "value" : "Se min roll"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolüme bak"
+          }
         }
       }
     },
@@ -63897,6 +66591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klart!\nVäntar på de andra spelarna …"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamam!\nDiğer oyuncular bekleniyor…"
           }
         }
       }
@@ -64040,6 +66740,12 @@
             "state" : "translated",
             "value" : "Du är ledare!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lider sensin!"
+          }
         }
       }
     },
@@ -64181,6 +66887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Välj till det här uppdraget: %1$lld (%2$lld/%3$lld)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu görev için seç: %1$lld (%2$lld/%3$lld)"
           }
         }
       }
@@ -64324,6 +67036,12 @@
             "state" : "translated",
             "value" : "Bekräfta lag → alla röstar"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekibi onayla → herkes oy verir"
+          }
         }
       }
     },
@@ -64465,6 +67183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ledare %1$@\nväljer lagmedlemmar: %2$lld …"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lider %1$@\nekip üyelerini seçiyor: %2$lld…"
           }
         }
       }
@@ -64608,6 +67332,12 @@
             "state" : "translated",
             "value" : "Diskutera fritt vem som ska skickas!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kimi göndereceğinizi özgürce tartışın!"
+          }
         }
       }
     },
@@ -64749,6 +67479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Omröstning om laget"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekip oylaması"
           }
         }
       }
@@ -64892,6 +67628,12 @@
             "state" : "translated",
             "value" : "Rösten är lagd — väntar på resultatet (%lld/%lld)"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oy verildi — sonuç bekleniyor (%lld/%lld)"
+          }
         }
       }
     },
@@ -65033,6 +67775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Godkänner du lagets sammansättning?\n(Allas röster avslöjas · lika = avvisat)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu ekip kurulumuna katılıyor musun?\n(Herkesin oyu açıklanır · eşitlikte reddedilir)"
           }
         }
       }
@@ -65176,6 +67924,12 @@
             "state" : "translated",
             "value" : "För"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lehte"
+          }
         }
       }
     },
@@ -65317,6 +68071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Emot"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aleyhte"
           }
         }
       }
@@ -65460,6 +68220,12 @@
             "state" : "translated",
             "value" : "Rösta ”för” laget?"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekibe “lehte” oy verilsin mi?"
+          }
         }
       }
     },
@@ -65601,6 +68367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rösta ”emot” laget?"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekibe “aleyhte” oy verilsin mi?"
           }
         }
       }
@@ -65744,6 +68516,12 @@
             "state" : "translated",
             "value" : "Ledare %@s val"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lider %@ tercihi"
+          }
         }
       }
     },
@@ -65885,6 +68663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Godkänt! Laget ger sig av på uppdraget"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kabul edildi! Ekip göreve çıkıyor"
           }
         }
       }
@@ -66028,6 +68812,12 @@
             "state" : "translated",
             "value" : "Avvisat"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reddedildi"
+          }
         }
       }
     },
@@ -66169,6 +68959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ledarskapet går till nästa · avvisningar i rad: %lld/%lld"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liderlik sonrakine geçiyor · art arda ret: %lld/%lld"
           }
         }
       }
@@ -66312,6 +69108,12 @@
             "state" : "translated",
             "value" : "⚠️ Ytterligare en avvisning och Skuggorna vinner!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⚠️ Bir ret daha olursa Gölgeler kazanır!"
+          }
         }
       }
     },
@@ -66453,6 +69255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fortsätt"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Devam"
           }
         }
       }
@@ -66596,6 +69404,12 @@
             "state" : "translated",
             "value" : "Väntar på att värden går vidare …"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ev sahibinin devam etmesi bekleniyor…"
+          }
         }
       }
     },
@@ -66737,6 +69551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "För 👍"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lehte 👍"
           }
         }
       }
@@ -66880,6 +69700,12 @@
             "state" : "translated",
             "value" : "Emot 👎"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aleyhte 👎"
+          }
         }
       }
     },
@@ -67021,6 +69847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uppdrag nr %lld pågår"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld. görev sürüyor"
           }
         }
       }
@@ -67164,6 +69996,12 @@
             "state" : "translated",
             "value" : "Lag: %@"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekip: %@"
+          }
         }
       }
     },
@@ -67305,6 +70143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Laget genomför uppdraget …\n(%lld/%lld inlämnade)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekip görevi yürütüyor…\n(teslim edilen %lld/%lld)"
           }
         }
       }
@@ -67448,6 +70292,12 @@
             "state" : "translated",
             "value" : "Misslyckatkort som krävs för att uppdraget ska misslyckas: %lld"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Görevin başarısız olması için gereken başarısızlık kartı: %lld"
+          }
         }
       }
     },
@@ -67589,6 +70439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Välj ett kort (ingen får veta vem som spelade vad)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir kart seç (kimin ne oynadığını kimse bilemez)"
           }
         }
       }
@@ -67732,6 +70588,12 @@
             "state" : "translated",
             "value" : "Du är en Skugga — ett misslyckatkort kan sabotera uppdraget"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sen bir Gölgesin — başarısızlık kartıyla görevi bozabilirsin"
+          }
         }
       }
     },
@@ -67873,6 +70735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lämna in kort"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kartı teslim et"
           }
         }
       }
@@ -68016,6 +70884,12 @@
             "state" : "translated",
             "value" : "Lyckat"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başarı"
+          }
         }
       }
     },
@@ -68157,6 +71031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Misslyckat"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başarısızlık"
           }
         }
       }
@@ -68300,6 +71180,12 @@
             "state" : "translated",
             "value" : "Ordensmedlemmar\nkan bara spela lyckat"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarikat üyeleri\nyalnızca başarı oynayabilir"
+          }
         }
       }
     },
@@ -68441,6 +71327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kort inlämnat\nVäntar på de andra medlemmarna … (%lld/%lld)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kart teslim edildi\nDiğer üyeler bekleniyor… (%lld/%lld)"
           }
         }
       }
@@ -68584,6 +71476,12 @@
             "state" : "translated",
             "value" : "Uppdraget lyckades!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Görev başarılı!"
+          }
         }
       }
     },
@@ -68725,6 +71623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uppdraget misslyckades …"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Görev başarısız…"
           }
         }
       }
@@ -68868,6 +71772,12 @@
             "state" : "translated",
             "value" : "Lyckatkort: %1$lld · misslyckatkort: %2$lld"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başarı kartı: %1$lld · başarısızlık kartı: %2$lld"
+          }
         }
       }
     },
@@ -69009,6 +71919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ett misslyckatkort kom upp, men det här uppdraget krävde %lld, så det höll!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başarısızlık kartı çıktı ama bu görev %lld tane gerektiriyordu; görev ayakta kaldı!"
           }
         }
       }
@@ -69152,6 +72068,12 @@
             "state" : "translated",
             "value" : "Lyckat %lld : %lld Misslyckat — först till 3 vinner"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başarı %lld : %lld Başarısızlık — önce 3 galibiyeti alan kazanır"
+          }
         }
       }
     },
@@ -69293,6 +72215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Svart"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siyah"
           }
         }
       }
@@ -69436,6 +72364,12 @@
             "state" : "translated",
             "value" : "Röd"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kırmızı"
+          }
         }
       }
     },
@@ -69577,6 +72511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Orange"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turuncu"
           }
         }
       }
@@ -69720,6 +72660,12 @@
             "state" : "translated",
             "value" : "Gul"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sarı"
+          }
         }
       }
     },
@@ -69861,6 +72807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Grön"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeşil"
           }
         }
       }
@@ -70004,6 +72956,12 @@
             "state" : "translated",
             "value" : "Blå"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mavi"
+          }
         }
       }
     },
@@ -70145,6 +73103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lila"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mor"
           }
         }
       }
@@ -70288,6 +73252,12 @@
             "state" : "translated",
             "value" : "Brun"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kahverengi"
+          }
         }
       }
     },
@@ -70429,6 +73399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suddgummi"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silgi"
           }
         }
       }
@@ -70572,6 +73548,12 @@
             "state" : "translated",
             "value" : "Färg %lld"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renk %lld"
+          }
         }
       }
     },
@@ -70713,6 +73695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tunn pensel"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İnce fırça"
           }
         }
       }
@@ -70856,6 +73844,12 @@
             "state" : "translated",
             "value" : "Mellanpensel"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orta fırça"
+          }
         }
       }
     },
@@ -70997,6 +73991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tjock pensel"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalın fırça"
           }
         }
       }
@@ -71140,6 +74140,12 @@
             "state" : "translated",
             "value" : "En ritar, de andra gissar"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biri çizer, diğerleri tahmin eder"
+          }
         }
       }
     },
@@ -71281,6 +74287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rond %1$lld / %2$lld"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tur %1$lld / %2$lld"
           }
         }
       }
@@ -71424,6 +74436,12 @@
             "state" : "translated",
             "value" : "Jag är Tecknaren!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ressam benim!"
+          }
         }
       }
     },
@@ -71565,6 +74583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tecknare: %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ressam: %@"
           }
         }
       }
@@ -71708,6 +74732,12 @@
             "state" : "translated",
             "value" : "Klar med ritandet"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çizimi bitirdim"
+          }
         }
       }
     },
@@ -71849,6 +74879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoppa över ronden"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turu atla"
           }
         }
       }
@@ -71992,6 +75028,12 @@
             "state" : "translated",
             "value" : "I den här ronden är du Tecknare! Välj det av de 3 orden som är lättast att rita."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu turda Ressam sensin! 3 kelimeden çizmesi en kolay olanı seç."
+          }
         }
       }
     },
@@ -72133,6 +75175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uttryck ordet med en teckning. Inga bokstäver eller siffror! När du är klar trycker du på ”Nästa” för att se botarnas gissningar."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kelimeyi çizimle anlat. Harf ve rakam yasak! Bitirince botların tahminlerini görmek için “İleri”ye dokun."
           }
         }
       }
@@ -72276,6 +75324,12 @@
             "state" : "translated",
             "value" : "Rondens resultat. Ju snabbare du gissar, desto fler poäng; Tecknaren får fler poäng ju fler som gissar. Tryck på ”Nästa” för slutställningen."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tur sonucu. Ne kadar hızlı bilirsen o kadar çok puan; Ressam, ne kadar çok kişi bilirse o kadar çok puan alır. Son sıralamayı görmek için “İleri”ye dokun."
+          }
         }
       }
     },
@@ -72417,6 +75471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Välj ett ord"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir kelime seç"
           }
         }
       }
@@ -72560,6 +75620,12 @@
             "state" : "translated",
             "value" : "Låt ingen se det! Att välja något som är lätt att rita ger en fördel."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kimse görmesin! Çizmesi kolay bir kelime seçmek avantaj sağlar."
+          }
         }
       }
     },
@@ -72701,6 +75767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ väljer ett ord …"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ kelime seçiyor…"
           }
         }
       }
@@ -72844,6 +75916,12 @@
             "state" : "translated",
             "value" : "Om en stund börjar ritandet."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Birazdan çizim başlayacak."
+          }
         }
       }
     },
@@ -72985,6 +76063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bokstäver: %lld"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Harf sayısı: %lld"
           }
         }
       }
@@ -73128,6 +76212,12 @@
             "state" : "translated",
             "value" : "Rätt: %1$lld/%2$lld"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doğru: %1$lld/%2$lld"
+          }
         }
       }
     },
@@ -73269,6 +76359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Allas gissningar visas här."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herkesin tahminleri burada görünecek."
           }
         }
       }
@@ -73412,6 +76508,12 @@
             "state" : "translated",
             "value" : "Titta på teckningen och gissa svaret!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Çizime bak ve cevabı tahmin et!"
+          }
         }
       }
     },
@@ -73553,6 +76655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ångra ett streck"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir çizgiyi geri al"
           }
         }
       }
@@ -73696,6 +76804,12 @@
             "state" : "translated",
             "value" : "Rensa hela teckningen"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tüm çizimi sil"
+          }
         }
       }
     },
@@ -73837,6 +76951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rätt! Väntar på de andra …"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doğru! Diğerleri bekleniyor…"
           }
         }
       }
@@ -73980,6 +77100,12 @@
             "state" : "translated",
             "value" : "Skriv ditt svar …"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cevabı yaz…"
+          }
         }
       }
     },
@@ -74121,6 +77247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dölj tangentbord"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klavyeyi gizle"
           }
         }
       }
@@ -74264,6 +77396,12 @@
             "state" : "translated",
             "value" : "Ordet var"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kelime şuydu:"
+          }
         }
       }
     },
@@ -74405,6 +77543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rätt"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doğru"
           }
         }
       }
@@ -74548,6 +77692,12 @@
             "state" : "translated",
             "value" : "Se slutställningen"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son sıralamayı gör"
+          }
         }
       }
     },
@@ -74689,6 +77839,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nästa rond"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonraki tur"
           }
         }
       }
@@ -74832,6 +77988,12 @@
             "state" : "translated",
             "value" : "Väntar på att värden går vidare …"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ev sahibinin devam etmesi bekleniyor…"
+          }
         }
       }
     },
@@ -74973,6 +78135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Högsta poäng: %lld"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En yüksek puan: %lld"
           }
         }
       }
@@ -75116,6 +78284,12 @@
             "state" : "translated",
             "value" : "Poäng: %lld"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puan: %lld"
+          }
         }
       }
     },
@@ -75257,6 +78431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spela igen med samma spelare"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aynı oyuncularla tekrar oyna"
           }
         }
       }
@@ -75400,6 +78580,12 @@
             "state" : "translated",
             "value" : "Frånkopplad"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bağlantı koptu"
+          }
         }
       }
     },
@@ -75541,6 +78727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Väntar på att %@ ska ansluta igen."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ oyuncusunun yeniden bağlanması bekleniyor."
           }
         }
       }
@@ -75684,6 +78876,12 @@
             "state" : "translated",
             "value" : "Ta bort %@"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ oyuncusunu çıkar"
+          }
         }
       }
     },
@@ -75825,6 +79023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avvisat"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reddedildi"
           }
         }
       }
@@ -75968,6 +79172,12 @@
             "state" : "translated",
             "value" : "Kräver 2 misslyckanden"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 başarısızlık gerekir"
+          }
         }
       }
     },
@@ -76109,6 +79319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "En natt med en goblin i byn, en enda omröstning"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köyde bir Goblin’le bir gece, tek bir oylama"
           }
         }
       }
@@ -76252,6 +79468,12 @@
             "state" : "translated",
             "value" : "🌙 Natt — hemlig handling"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🌙 Gece — gizli eylem"
+          }
         }
       }
     },
@@ -76393,6 +79615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "☀️ Dag — debatt"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "☀️ Gündüz — tartışma"
           }
         }
       }
@@ -76536,6 +79764,12 @@
             "state" : "translated",
             "value" : "🗳️ Omröstning om förvisning"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🗳️ Sürgün oylaması"
+          }
         }
       }
     },
@@ -76677,6 +79911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resultat"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonuç"
           }
         }
       }
@@ -76820,6 +80060,12 @@
             "state" : "translated",
             "value" : "På natten agerar alla i hemlighet. Titta på din roll och slutför din handling, tryck sedan på ”Nästa” för att köra botarnas nattliga handlingar."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geceleri herkes gizlice hareket eder. Rolüne bak ve eylemini bitir, sonra botların gece eylemlerini yürütmek için “İleri”ye dokun."
+          }
         }
       }
     },
@@ -76961,6 +80207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Under natten kan Nattjuven och Skojaren ha bytt kort! I ett riktigt spel diskuterar man här. Tryck på ”Nästa” för att starta omröstningen."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gece boyunca Gece Hırsızı ve Muzip kart değiştirmiş olabilir! Gerçek oyunda tartışma burada yapılır. Oylamayı başlatmak için “İleri”ye dokun."
           }
         }
       }
@@ -77104,6 +80356,12 @@
             "state" : "translated",
             "value" : "Peka först ut den du misstänker är en goblin och tryck sedan på ”Nästa” för att se botarnas röster. Den med flest röster förvisas."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Önce Goblin olduğundan şüphelendiğin kişiyi işaret et, sonra botların oylarını görmek için “İleri”ye dokun. En çok oyu alan sürülür."
+          }
         }
       }
     },
@@ -77245,6 +80503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Andra goblins: %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goblin dostların: %@"
           }
         }
       }
@@ -77388,6 +80652,12 @@
             "state" : "translated",
             "value" : "Natten har fallit"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gece oldu"
+          }
         }
       }
     },
@@ -77529,6 +80799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Titta på din roll där ingen annan kan se skärmen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rolüne kimsenin ekranı göremeyeceği yerde bak"
           }
         }
       }
@@ -77672,6 +80948,12 @@
             "state" : "translated",
             "value" : "Handlingen är klar! Väntar på de andra spelarna … %lld/%lld"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eylem tamam! Diğer oyuncular bekleniyor… %lld/%lld"
+          }
         }
       }
     },
@@ -77813,6 +81095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du är den enda goblinen! Du får titta på 1 mittenkort"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tek Goblin sensin! Ortadaki 1 karta bakabilirsin"
           }
         }
       }
@@ -77956,6 +81244,12 @@
             "state" : "translated",
             "value" : "Mitten nr %lld"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orta %lld"
+          }
         }
       }
     },
@@ -78097,6 +81391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Titta på mittenkort nr %lld"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ortadaki %lld. karta bak"
           }
         }
       }
@@ -78240,6 +81540,12 @@
             "state" : "translated",
             "value" : "Jag har sett kamraterna"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostlarımı gördüm"
+          }
         }
       }
     },
@@ -78381,6 +81687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Titta på 1 spelare"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 oyuncuya bak"
           }
         }
       }
@@ -78524,6 +81836,12 @@
             "state" : "translated",
             "value" : "Titta på 2 mittenkort"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ortadaki 2 karta bak"
+          }
         }
       }
     },
@@ -78665,6 +81983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Titta på ”%@”s kort"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” oyuncusunun kartına bak"
           }
         }
       }
@@ -78808,6 +82132,12 @@
             "state" : "translated",
             "value" : "Titta på de 2 mittenkorten"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ortadaki 2 karta bak"
+          }
         }
       }
     },
@@ -78949,6 +82279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Välj vems kort du ska stjäla"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kartını çalacağın kişiyi seç"
           }
         }
       }
@@ -79092,6 +82428,12 @@
             "state" : "translated",
             "value" : "Stjäl ”%@”s kort"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” oyuncusunun kartını çal"
+          }
         }
       }
     },
@@ -79233,6 +82575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Välj två spelare vars kort ska bytas (%lld/2)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kartları değiştirilecek iki oyuncuyu seç (%lld/2)"
           }
         }
       }
@@ -79376,6 +82724,12 @@
             "state" : "translated",
             "value" : "Byt kort mellan dessa två"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu ikisinin kartlarını değiştir"
+          }
         }
       }
     },
@@ -79517,6 +82871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Morgonen har kommit"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sabah oldu"
           }
         }
       }
@@ -79660,6 +83020,12 @@
             "state" : "translated",
             "value" : "Korten kan ha ändrats under natten!\nHitta goblinen (enligt nuvarande kort) genom att diskutera."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kartlar gece boyunca değişmiş olabilir!\nTartışarak Goblin’i (güncel karta göre) bul."
+          }
         }
       }
     },
@@ -79801,6 +83167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "(Enligt din roll i början av natten)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(Gecenin başındaki rolüne göre)"
           }
         }
       }
@@ -79944,6 +83316,12 @@
             "state" : "translated",
             "value" : "Vad som hände under natten (syns bara i övningen)"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gece olanlar (yalnızca pratikte görünür)"
+          }
         }
       }
     },
@@ -80085,6 +83463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I ett riktigt spel avslöjas inget. Därför är debatten viktig!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gerçek oyunda hiçbir şey açıklanmaz. Bu yüzden tartışma önemli!"
           }
         }
       }
@@ -80228,6 +83612,12 @@
             "state" : "translated",
             "value" : "Debatten är slut! Starta omröstningen"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tartışma bitti! Oylamayı başlat"
+          }
         }
       }
     },
@@ -80369,6 +83759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Väntar på att värden startar omröstningen …"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ev sahibinin oylamayı başlatması bekleniyor…"
           }
         }
       }
@@ -80512,6 +83908,12 @@
             "state" : "translated",
             "value" : "Peka ut den du tror är goblinen"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goblin olduğunu düşündüğün kişiyi işaret et"
+          }
         }
       }
     },
@@ -80653,6 +84055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Den med flest röster förvisas · vid lika alla som delar · om alla har högst 1 röst förvisas ingen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En çok oyu alan sürülür · eşitlikte eşit olanların hepsi · herkes en fazla 1 oy aldıysa kimse sürülmez"
           }
         }
       }
@@ -80796,6 +84204,12 @@
             "state" : "translated",
             "value" : "Rösta för att förvisa ”%@”?"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” sürülsün diye oy verilsin mi?"
+          }
         }
       }
     },
@@ -80937,6 +84351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Byn vinner!"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köy kazandı!"
           }
         }
       }
@@ -81080,6 +84500,12 @@
             "state" : "translated",
             "value" : "Goblinerna vinner!"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goblinler kazandı!"
+          }
         }
       }
     },
@@ -81221,6 +84647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Röster: %lld"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oy: %lld"
           }
         }
       }
@@ -81365,6 +84797,12 @@
             "state" : "translated",
             "value" : "Bättre VoiceOver"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha rahat VoiceOver"
+          }
         }
       }
     },
@@ -81507,6 +84945,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "När du förstorar texten ordnas skärmarna om i stället för att kapas."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yazıyı büyütsen bile ekranlar kesilmek yerine yeniden düzenlenir."
           }
         }
       }
@@ -81651,6 +85095,12 @@
             "state" : "translated",
             "value" : "Avisering när det är din tur"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sıra sende olunca bildirim"
+          }
         }
       }
     },
@@ -81793,6 +85243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Även med ökad kontrast eller svårt att skilja färger kan du känna igen lagen och resultaten."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontrastı artırsan veya renkleri ayırt etmekte zorlansan bile tarafları ve sonuçları fark edersin."
           }
         }
       }
@@ -81937,6 +85393,12 @@
             "state" : "translated",
             "value" : "Använd appen på fler språk."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamayı daha fazla dilde kullan."
+          }
         }
       }
     },
@@ -82079,6 +85541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fler språk"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha fazla dil"
           }
         }
       }
@@ -82223,6 +85691,12 @@
             "state" : "translated",
             "value" : "Sköna färger och kontrast"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rahat renkler ve kontrast"
+          }
         }
       }
     },
@@ -82365,6 +85839,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Respons du känner i fingrarna"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parmak uçlarında hissedilen tepki"
           }
         }
       }
@@ -82509,6 +85989,12 @@
             "state" : "translated",
             "value" : "Första gången du öppnar appen efter en uppdatering ser du vad som är nytt."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Güncellemeden sonra ilk açışında nelerin yeni olduğunu görürsün."
+          }
         }
       }
     },
@@ -82651,6 +86137,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nyheter"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yenilikler"
           }
         }
       }
@@ -82795,6 +86287,12 @@
             "state" : "translated",
             "value" : "En lätt vibration när du får din roll eller en omröstning är över."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rol aldığında ya da oylama bittiğinde hafif bir titreşim."
+          }
         }
       }
     },
@@ -82937,6 +86435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stöd för engelska"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İngilizce desteği"
           }
         }
       }
@@ -83081,6 +86585,12 @@
             "state" : "translated",
             "value" : "För att kunna spela även med vänner från utlandet kan appen också användas på engelska."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yurt dışından arkadaşlarınla da oynayabilmen için uygulama İngilizce de kullanılabilir."
+          }
         }
       }
     },
@@ -83223,6 +86733,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Minska rörelse"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hareketi azalt"
           }
         }
       }
@@ -83367,6 +86883,12 @@
             "state" : "translated",
             "value" : "Med ”Minska rörelse” på blir skärmeffekterna lugnare."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Hareketi Azalt” açıkken ekran efektleri sakinleşir."
+          }
         }
       }
     },
@@ -83509,6 +87031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skärmar för stor text"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Büyük yazıya uygun ekranlar"
           }
         }
       }
@@ -83653,6 +87181,12 @@
             "state" : "translated",
             "value" : "Skärm för vikbar iPhone"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katlanabilir iPhone ekranı"
+          }
         }
       }
     },
@@ -83795,6 +87329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "På en vikbar iPhone delas den breda skärmen i två delar."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katlanabilir iPhone’da geniş ekran iki bölüme ayrılır."
           }
         }
       }
@@ -83939,6 +87479,12 @@
             "state" : "translated",
             "value" : "Widgets på hemskärmen"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ana ekran widget’ları"
+          }
         }
       }
     },
@@ -84081,6 +87627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Öppna ett spelrum direkt från hemskärmen."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oyun odasını doğrudan ana ekrandan aç."
           }
         }
       }
@@ -84225,6 +87777,12 @@
             "state" : "translated",
             "value" : "VoiceOver läser upp alla rollkort och röstknappar, fullständigt och i rätt ordning."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver rol kartlarını ve oy düğmelerini eksiksiz ve doğru sırayla okur."
+          }
         }
       }
     },
@@ -84367,6 +87925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Även med avstängd skärm får du en avisering när det är din tur."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekran kapalıyken bile sıra sana geldiğinde bildirim alırsın."
           }
         }
       }

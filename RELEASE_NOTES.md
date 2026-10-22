@@ -140,6 +140,12 @@ Oceń aplikację i sprawdź wersję
 Skicka feedback direkt till utvecklaren
 Betygsätt appen och se versionen
 
+### 앱스토어 (Türkçe)
+
+Ayarlar ana ekrandaki dişlide
+Geri bildirim doğrudan geliştiriciye
+Uygulamayı puanla, sürümü gör
+
 ## 1.0.1 (2026-07-17)
 
 ### 새로운 기능

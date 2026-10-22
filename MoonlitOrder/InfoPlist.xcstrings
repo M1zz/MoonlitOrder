@@ -123,6 +123,12 @@
             "value" : "ห้องเกมแสงจันทร์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ay Oyun Salonu"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -263,6 +269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ต้องเข้าถึงเครือข่ายในพื้นที่เพื่อเชื่อมต่อกับ iPhone ของเพื่อนที่อยู่ใกล้โดยตรงและเล่นเกมปาร์ตี้ด้วยกัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yakındaki arkadaşlarının iPhone’larına doğrudan bağlanıp birlikte parti oyunları oynamak için yerel ağ erişimi gerekir."
           }
         },
         "vi" : {

@@ -15,7 +15,7 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "marketing"
 WORK = pathlib.Path("/tmp") / "moonlit-marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no", "nl": "nl-NL", "pl": "pl", "sv": "sv"}
+STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no", "nl": "nl-NL", "pl": "pl", "sv": "sv", "tr": "tr"}
 
 # (원본 파일, 헤드라인, 서브카피) — 언어마다 따로 쓴다.
 SHOTS = {
@@ -179,6 +179,13 @@ SHOTS = {
         ("03-vote.png", "För<br>eller emot?", "I det ögonblick allas röster avslöjas vänder spelet"),
         ("04-draw.png", "Rita<br>och gissa", "En ritar, de andra gissar i Månateljén"),
         ("05-result.png", "Ju snabbare,<br>desto fler poäng", "Spela med upp till 15 vänner"),
+    ],
+    "tr": [
+        ("01-home.png", "Toplanın,<br>hemen parti oyunu", "Yakındaki iPhone’lar internetsiz bağlanır"),
+        ("02-role.png", "Rolünü<br>yalnızca sen bilirsin", "Ay Tarikatı’nda gizlenen Gölgeleri bul"),
+        ("03-vote.png", "Lehte mi,<br>aleyhte mi?", "Herkesin oyu açıklandığı an oyun tersine döner"),
+        ("04-draw.png", "Çiz,<br>tahmin et", "Ay Atölyesi’nde biri çizer, diğerleri tahmin eder"),
+        ("05-result.png", "Ne kadar hızlı,<br>o kadar çok puan", "15 kişiye kadar birlikte oyna"),
     ],
 }
 

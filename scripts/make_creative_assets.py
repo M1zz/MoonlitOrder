@@ -24,9 +24,9 @@ OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 # 문구 언어 → App Store Connect 로케일
-STORE = {"en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no", "nl": "nl-NL", "pl": "pl", "sv": "sv"}
+STORE = {"en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no", "nl": "nl-NL", "pl": "pl", "sv": "sv", "tr": "tr"}
 # 문구 언어 → 기기 화면 캡처 폴더
-SCREEN = {"ko": "ko", "en": "en", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl", "pl": "pl", "sv": "sv"}   # en 캡처는 Mac 시뮬레이터에서 docs/screenshots/raw/creative/en/ 에 만든다
+SCREEN = {"ko": "ko", "en": "en", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl", "pl": "pl", "sv": "sv", "tr": "tr"}   # en 캡처는 Mac 시뮬레이터에서 docs/screenshots/raw/creative/en/ 에 만든다
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -60,6 +60,7 @@ SEARCH = {
     "nl": ("Feestspellen", "Samenkomen,<br>meteen spelen", "Van het Leugenaarsspel tot tekenen en raden<br>zonder internet"),
     "pl": ("Gry imprezowe", "Spotykacie się —<br>od razu gracie", "Od Gry w Kłamcę po rysuj i zgaduj<br>bez internetu"),
     "sv": ("Festspel", "Samlas,<br>spela direkt", "Från Lögnarspelet till rita och gissa<br>helt utan internet"),
+    "tr": ("Parti oyunları", "Toplanın,<br>hemen oynayın", "Yalancı Oyunu’ndan çizip tahmin etmeye<br>internetsiz"),
 }
 
 # 헤더: 처음 온 사람에게 한 가지 약속.
@@ -87,6 +88,7 @@ HEADER = {
     "nl": ("Feestspellen in de buurt", "Pak je telefoon<br>en speel samen"),
     "pl": ("Gry imprezowe w pobliżu", "Wyjmij telefon<br>i graj razem"),
     "sv": ("Festspel i närheten", "Ta fram telefonen<br>och spela tillsammans"),
+    "tr": ("Yakındaki parti oyunları", "Telefonunu çıkar,<br>birlikte oynayın"),
 }
 
 # 바탕 · 글자색은 앱의 색이다(Views/Theme.swift): 남색→보라 그라데이션 배경, 포인트 금색(Theme.gold).

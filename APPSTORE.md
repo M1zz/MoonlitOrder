@@ -1333,3 +1333,61 @@ https://m1zz.github.io/MoonlitOrder/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/MoonlitOrder/
+
+## tr
+
+### 이름
+
+Ay Oyun Salonu: Parti Oyunları
+
+### 부제
+
+Yakındaki dostlarla çevrimdışı
+
+### 키워드
+
+yalancı,mafya,vampir,masaoyunu,çıkarım,çizim,tahmin,blöf,bluetooth,wifi,aile,kamp,grup
+
+### 프로모션 텍스트
+
+Toplandınız ama ne oynayacağınızı bilmiyor musunuz? Yakındaki iPhone’ları internetsiz bağlayın ve 15 kişiye kadar dört parti oyununun keyfini çıkarın.
+
+### 설명
+
+Arkadaşlar bir araya geldiğinde kendi iPhone’unda hemen başlatabileceğin parti oyunları.
+İnternet olmadan aynı Wi-Fi’deki veya yakındaki iPhone’lar birbirine bağlanır ve 15 kişiye kadar birlikte oynayabilir.
+
+Dört oyun
+Ay Tarikatı (5–15 oyuncu): Tarikat üyeleri arasına sızan Gölgeleri bulduğun gizli kimlik oyunu. Lider bir ekip seçer, herkes lehte veya aleyhte oy verir, ekip de gizlice başarı ya da başarısızlık oynar. 3 göreve ilk ulaşan taraf başarı mı, başarısızlık mı olacak?
+Yalancı Oyunu (3–15 oyuncu): Bir kişi dışında herkes aynı gizli kelimeyi alır. Konuşmayı dinleyerek kelimeyi bilmeyen Yalancı’yı bul.
+Aysız Gece (3–15 oyuncu): Köyde bir Goblin’le geçen bir gece. Geceleri herkes rolüne göre gizlice hareket eder; gün ağarınca tartışıp oy vererek Goblin’i bulursunuz.
+Ay Atölyesi (3–15 oyuncu): Biri gizli kelimeyi çizer, diğerleri tahmin eder. Ne kadar hızlı bilirsen o kadar çok puan kazanırsın.
+
+Kendi ekranında, gizlice
+Roller ve kelimeler yalnızca kendi iPhone’unda görünür. Kart dağıtmana ya da göz kapatmana gerek yok.
+Oylama sırasında kimin oyunu verdiğini hemen görürsün. Kimin kime oy verdiği açıklanana kadar gizli kalır.
+
+İlk kez oynayanlar için kolay
+Her oyunda bir öğretici mod var. Kuralları botlarla adım adım oynayarak öğren.
+
+Kaldığın yerden devam et
+Uygulama kapansa ya da bağlantı kopsa bile ana ekrandaki “Devam et” seni oyununa geri götürür; rolün ve puanın aynen kalır.
+Cihazlar birbirine aktarım yaptığı için kalabalık grupta bile oyun kararlı çalışır.
+
+Ev sahibi için araçlar
+Ev sahibi yanıt vermeyen bir oyuncuyu istediği zaman çıkarabilir ve oyun hiç takılmasın diye kalan oyuncularla yeniden değerlendirilir.
+Yönetici modunda takılan aşamayı ilerletebilir ve oyuncuları yönetebilirsin.
+
+Tüm oyunlar ücretsizdir ve hesap olmadan başlar.
+
+### 지원 URL
+
+https://m1zz.github.io/MoonlitOrder/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/MoonlitOrder/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/MoonlitOrder/
