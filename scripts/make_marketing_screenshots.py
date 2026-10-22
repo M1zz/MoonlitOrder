@@ -15,7 +15,7 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "marketing"
 WORK = pathlib.Path("/tmp") / "moonlit-marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th"}
+STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi"}
 
 # (원본 파일, 헤드라인, 서브카피) — 언어마다 따로 쓴다.
 SHOTS = {
@@ -109,6 +109,13 @@ SHOTS = {
         ("03-vote.png", "เห็นด้วย<br>หรือไม่?", "ในวินาทีที่เปิดคะแนนโหวต เกมก็พลิก"),
         ("04-draw.png", "วาดแล้ว<br>ทาย", "คนหนึ่งวาด คนอื่นทายใน สตูดิโอแสงจันทร์"),
         ("05-result.png", "ทายเร็วเท่าไร<br>ยิ่งได้คะแนนสูง", "เล่นด้วยกันได้สูงสุด 15 คน"),
+    ],
+    "vi": [
+        ("01-home.png", "Tụ họp là<br>chơi tiệc tùng ngay", "iPhone ở gần kết nối với nhau không cần Internet"),
+        ("02-role.png", "Vai của bạn<br>chỉ mình bạn biết", "Tìm Bóng Tối ẩn nấp trong Hội Ánh Trăng"),
+        ("03-vote.png", "Đồng ý<br>hay phản đối?", "Khoảnh khắc phiếu của mọi người được công khai, ván chơi lật ngược"),
+        ("04-draw.png", "Vẽ đi,<br>đoán đi", "Một người vẽ, những người còn lại đoán trong Xưởng Vẽ Ánh Trăng"),
+        ("05-result.png", "Đoán càng nhanh<br>điểm càng cao", "Cùng chơi với tối đa 15 người"),
     ],
 }
 

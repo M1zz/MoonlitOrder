@@ -80,6 +80,12 @@
             "state" : "translated",
             "value" : "กระต่ายจันทร์"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thỏ Ngọc"
+          }
         }
       }
     },
@@ -161,6 +167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สายลมราตรี"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gió Đêm"
           }
         }
       }
@@ -244,6 +256,12 @@
             "state" : "translated",
             "value" : "ทางช้างเผือก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dải Ngân Hà"
+          }
         }
       }
     },
@@ -325,6 +343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จันทร์ข้างแรม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trăng Khuyết"
           }
         }
       }
@@ -408,6 +432,12 @@
             "state" : "translated",
             "value" : "ผู้เฝ้าดาว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Người Giữ Sao"
+          }
         }
       }
     },
@@ -489,6 +519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รุ่งอรุณ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rạng Đông"
           }
         }
       }
@@ -572,6 +608,12 @@
             "state" : "translated",
             "value" : "นักฆ่าออกจากห้องไป ภาคีแสงจันทร์ชนะ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sát Thủ đã rời phòng. Hội Ánh Trăng thắng."
+          }
         }
       }
     },
@@ -653,6 +695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ผู้เล่น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Người chơi"
           }
         }
       }
@@ -736,6 +784,12 @@
             "state" : "translated",
             "value" : "ทีมถูกปฏิเสธติดกัน %lld ครั้ง ฝ่ายเงามืดชนะ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đội bị từ chối %lld lần liên tiếp. Phe Bóng Tối thắng."
+          }
         }
       }
     },
@@ -817,6 +871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภารกิจล้มเหลว 3 ครั้ง ฝ่ายเงามืดชนะ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhiệm vụ thất bại 3 lần. Phe Bóng Tối thắng."
           }
         }
       }
@@ -900,6 +960,12 @@
             "state" : "translated",
             "value" : "นักฆ่าชี้ตัวผู้ทำนาย “%@” ได้ถูกต้อง ฝ่ายเงามืดพลิกชนะ!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sát Thủ đã tìm đúng Nhà Tiên Tri “%@”. Phe Bóng Tối lật ngược thế cờ!"
+          }
         }
       }
     },
@@ -981,6 +1047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นักฆ่าพลาดเป้า “%@” ไม่ใช่ผู้ทำนาย ภาคีแสงจันทร์ชนะ!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sát Thủ đã đoán sai. “%@” không phải Nhà Tiên Tri. Hội Ánh Trăng thắng!"
           }
         }
       }
@@ -1064,6 +1136,12 @@
             "state" : "translated",
             "value" : "ถือว่าทุกคนดูบทบาทแล้ว ไปต่อที่การเลือกทีม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coi như mọi người đã xem vai. Chuyển sang chọn đội."
+          }
         }
       }
     },
@@ -1145,6 +1223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ข้ามหัวหน้าที่ไม่ได้เลือกทีม แล้วส่งต่อให้คนถัดไป"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bỏ qua đội trưởng không chọn đội, chuyển lượt cho người kế tiếp."
           }
         }
       }
@@ -1228,6 +1312,12 @@
             "state" : "translated",
             "value" : "คนที่ยังไม่โหวตนับเป็นเห็นด้วย กำลังนับคะแนนโหวต"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Người chưa bỏ phiếu được tính là đồng ý. Đang kiểm phiếu."
+          }
         }
       }
     },
@@ -1309,6 +1399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สมาชิกทีมที่ไม่ได้ส่งการ์ดนับเป็นสำเร็จ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thành viên đội chưa ra bài được tính là thành công."
           }
         }
       }
@@ -1392,6 +1488,12 @@
             "state" : "translated",
             "value" : "ไปยังขั้นตอนถัดไป"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chuyển sang giai đoạn tiếp theo."
+          }
         }
       }
     },
@@ -1473,6 +1575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถือว่านักฆ่าสละสิทธิ์ ภาคีแสงจันทร์ชนะ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coi như Sát Thủ bỏ cuộc. Hội Ánh Trăng thắng."
           }
         }
       }
@@ -1556,6 +1664,12 @@
             "state" : "translated",
             "value" : "นักฆ่าไม่ได้ชี้ตัวผู้ทำนาย ภาคีแสงจันทร์ชนะ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sát Thủ không chỉ ra được Nhà Tiên Tri. Hội Ánh Trăng thắng."
+          }
         }
       }
     },
@@ -1637,6 +1751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไลเออร์ออกจากห้องไป ฝ่ายพลเมืองชนะ!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kẻ Nói Dối đã rời phòng. Phe công dân thắng!"
           }
         }
       }
@@ -1720,6 +1840,12 @@
             "state" : "translated",
             "value" : "คะแนนโหวตแตกกัน ไลเออร์หนีรอดไปได้!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phiếu bị chia đều nên Kẻ Nói Dối thoát được!"
+          }
         }
       }
     },
@@ -1801,6 +1927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ชี้ผิดคนเสียแล้ว!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã chỉ nhầm người!"
           }
         }
       }
@@ -1884,6 +2016,12 @@
             "state" : "translated",
             "value" : "ไลเออร์ทายคำถูกต้อง! ไลเออร์พลิกชนะ!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kẻ Nói Dối đoán đúng từ khóa! Kẻ Nói Dối lật ngược thế cờ!"
+          }
         }
       }
     },
@@ -1965,6 +2103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไลเออร์ทายคำไม่ถูก ฝ่ายพลเมืองชนะ!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kẻ Nói Dối không đoán được từ khóa. Phe công dân thắng!"
           }
         }
       }
@@ -2048,6 +2192,12 @@
             "state" : "translated",
             "value" : "ไลเออร์"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kẻ Nói Dối"
+          }
         }
       }
     },
@@ -2129,6 +2279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พลเมือง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Công dân"
           }
         }
       }
@@ -2212,6 +2368,12 @@
             "state" : "translated",
             "value" : "คำ: %@ · หมวด: %@"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Từ khóa: %@ · Chủ đề: %@"
+          }
         }
       }
     },
@@ -2293,6 +2455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถือว่าทุกคนดูคำแล้ว ไปต่อที่ขั้นอธิบาย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coi như mọi người đã xem từ khóa. Chuyển sang giai đoạn mô tả."
           }
         }
       }
@@ -2376,6 +2544,12 @@
             "state" : "translated",
             "value" : "จบตาของผู้พูดคนปัจจุบัน แล้วส่งต่อให้คนถัดไป"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết thúc lượt người đang nói và chuyển cho người tiếp theo."
+          }
         }
       }
     },
@@ -2457,6 +2631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คนที่ยังไม่โหวตนับเป็นงดออกเสียง กำลังนับคะแนนโหวต"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Người chưa bỏ phiếu được tính là bỏ phiếu trắng. Đang kiểm phiếu."
           }
         }
       }
@@ -2540,6 +2720,12 @@
             "state" : "translated",
             "value" : "ถือว่าไลเออร์สละสิทธิ์ทาย ฝ่ายพลเมืองชนะ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coi như Kẻ Nói Dối bỏ cuộc đoán. Phe công dân thắng."
+          }
         }
       }
     },
@@ -2621,6 +2807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไลเออร์ตอบไม่ได้ ฝ่ายพลเมืองชนะ!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kẻ Nói Dối không trả lời được. Phe công dân thắng!"
           }
         }
       }
@@ -2704,6 +2896,12 @@
             "state" : "translated",
             "value" : "หมาน้อยเหรอ?"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con chó à?"
+          }
         }
       }
     },
@@ -2785,6 +2983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อืม… รถยนต์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ừm… xe hơi"
           }
         }
       }
@@ -2868,6 +3072,12 @@
             "state" : "translated",
             "value" : "หรือจะเป็นหมี?"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hay là con gấu?"
+          }
         }
       }
     },
@@ -2949,6 +3159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่รู้เลย 555"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không biết luôn haha"
           }
         }
       }
@@ -3032,6 +3248,12 @@
             "state" : "translated",
             "value" : "แอปเปิลเหรอ?"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quả táo à?"
+          }
         }
       }
     },
@@ -3113,6 +3335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อืม…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ừm…"
           }
         }
       }
@@ -3196,6 +3424,12 @@
             "state" : "translated",
             "value" : "ตอบถูกแล้ว! 🎉"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đoán đúng rồi! 🎉"
+          }
         }
       }
     },
@@ -3277,6 +3511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ผู้วาด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Họa sĩ"
           }
         }
       }
@@ -3360,6 +3600,12 @@
             "state" : "translated",
             "value" : "คำ: %@"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Từ khóa: %@"
+          }
         }
       }
     },
@@ -3441,6 +3687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คำให้เลือก: %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Từ khóa gợi ý: %@"
           }
         }
       }
@@ -3524,6 +3776,12 @@
             "state" : "translated",
             "value" : "สุ่มเลือกคำแทนผู้วาดแล้วเริ่มวาด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn ngẫu nhiên một từ thay cho Họa sĩ và bắt đầu vẽ."
+          }
         }
       }
     },
@@ -3605,6 +3863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จบรอบนี้และสรุปคะแนน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết thúc vòng này và tính điểm."
           }
         }
       }
@@ -3688,6 +3952,12 @@
             "state" : "translated",
             "value" : "ไปยังรอบถัดไป"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chuyển sang vòng tiếp theo."
+          }
         }
       }
     },
@@ -3769,6 +4039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🔥 ก็อบลิน %@ ลืมตาขึ้นในความมืด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔥 Yêu tinh %@ đã mở mắt trong bóng tối."
           }
         }
       }
@@ -3852,6 +4128,12 @@
             "state" : "translated",
             "value" : "👁 หมอผี %@ แอบดูการ์ด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "👁 Pháp sư %@ đã lén xem một lá bài."
+          }
         }
       }
     },
@@ -3933,6 +4215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🤝 โจรราตรี %@ ขโมยการ์ดของ %@ แล้วสลับกัน!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🤝 Kẻ trộm đêm %@ đã trộm lá bài của %@ và hai người đổi bài cho nhau!"
           }
         }
       }
@@ -4016,6 +4304,12 @@
             "state" : "translated",
             "value" : "🔀 จอมซน %@ สลับการ์ดของ %@ กับ %@!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔀 Kẻ tinh nghịch %@ đã đổi bài của %@ và %@!"
+          }
         }
       }
     },
@@ -4097,6 +4391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การ์ดกลางใบที่ %lld คือ “%@”"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lá bài giữa số %lld là “%@”."
           }
         }
       }
@@ -4180,6 +4480,12 @@
             "state" : "translated",
             "value" : "การ์ดของ %@ คือ “%@”"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lá bài của %@ là “%@”."
+          }
         }
       }
     },
@@ -4261,6 +4567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การ์ดกลาง 2 ใบ: %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2 lá bài giữa: %@"
           }
         }
       }
@@ -4344,6 +4656,12 @@
             "state" : "translated",
             "value" : "คุณขโมยการ์ดของ %@ ตอนนี้คุณคือ “%@”"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn đã trộm lá bài của %@. Bây giờ bạn là “%@”."
+          }
         }
       }
     },
@@ -4425,6 +4743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คุณสลับการ์ดของ %@ กับ %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn đã đổi bài của %@ và %@ cho nhau."
           }
         }
       }
@@ -4508,6 +4832,12 @@
             "state" : "translated",
             "value" : "ก็อบลินถูกขับไล่ หมู่บ้านชนะ!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Một Yêu tinh bị trục xuất. Dân làng thắng!"
+          }
         }
       }
     },
@@ -4589,6 +4919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ก็อบลินอยู่ในการ์ดกลางทั้งหมดและไม่มีใครถูกขับไล่ หมู่บ้านชนะ!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tất cả Yêu tinh đều ở giữa và không ai bị trục xuất. Dân làng thắng!"
           }
         }
       }
@@ -4672,6 +5008,12 @@
             "state" : "translated",
             "value" : "ไม่มีใครถูกขับไล่ แต่มีก็อบลินซ่อนอยู่ ฝ่ายก็อบลินชนะ!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không ai bị trục xuất nhưng có Yêu tinh ẩn nấp. Phe Yêu tinh thắng!"
+          }
         }
       }
     },
@@ -4753,6 +5095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คนบริสุทธิ์ถูกขับไล่ ฝ่ายก็อบลินชนะ!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Một người vô tội bị trục xuất. Phe Yêu tinh thắng!"
           }
         }
       }
@@ -4836,6 +5184,12 @@
             "state" : "translated",
             "value" : "การ์ดกลาง: %@"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Các lá bài giữa: %@"
+          }
         }
       }
     },
@@ -4917,6 +5271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คนที่ไม่ได้ทำอะไรจะจบคืนโดยไม่ใช้พลัง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Người không hành động sẽ kết thúc đêm mà không dùng năng lực."
           }
         }
       }
@@ -5000,6 +5360,12 @@
             "state" : "translated",
             "value" : "จบการอภิปรายและเริ่มโหวตขับไล่"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết thúc thảo luận và bắt đầu bỏ phiếu trục xuất."
+          }
         }
       }
     },
@@ -5081,6 +5447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาคีแสงจันทร์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hội Ánh Trăng"
           }
         }
       }
@@ -5164,6 +5536,12 @@
             "state" : "translated",
             "value" : "เงามืด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bóng Tối"
+          }
         }
       }
     },
@@ -5245,6 +5623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ผู้ทำนาย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhà Tiên Tri"
           }
         }
       }
@@ -5328,6 +5712,12 @@
             "state" : "translated",
             "value" : "สมาชิกภาคี"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thành viên Hội"
+          }
         }
       }
     },
@@ -5409,6 +5799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นักฆ่า"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sát Thủ"
           }
         }
       }
@@ -5492,6 +5888,12 @@
             "state" : "translated",
             "value" : "สายลับเงามืด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đặc vụ Bóng Tối"
+          }
         }
       }
     },
@@ -5573,6 +5975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คุณรู้ว่าใครคือสายลับเงามืด แต่ถ้าตัวตนถูกเปิดเผย คุณอาจถูกลอบสังหารตอนท้าย จงนำทีมอย่างเงียบ ๆ อย่าให้ใครสังเกต"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn biết ai là đặc vụ Bóng Tối. Nhưng nếu lộ danh tính, bạn có thể bị ám sát vào cuối, nên hãy dẫn dắt các đội thật kín đáo."
           }
         }
       }
@@ -5656,6 +6064,12 @@
             "state" : "translated",
             "value" : "คุณคือสมาชิกผู้ภักดีของภาคีแสงจันทร์ ใช้บันทึกการอภิปรายและการโหวตหาสายลับเงามืด แล้วทำภารกิจให้สำเร็จ 3 ครั้ง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn là thành viên trung thành của Hội Ánh Trăng. Dựa vào thảo luận và lịch sử bỏ phiếu để tìm ra đặc vụ Bóng Tối và làm 3 nhiệm vụ thành công."
+          }
         }
       }
     },
@@ -5737,6 +6151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คุณคือคมดาบของเงามืด คุณรู้จักสายลับเงามืดคนอื่น และต่อให้ภาคีทำภารกิจสำเร็จ 3 ครั้ง คุณก็ชนะได้ถ้าชี้ตัวผู้ทำนายถูก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn là lưỡi dao của Bóng Tối. Bạn biết các đặc vụ khác và dù Hội hoàn thành 3 nhiệm vụ, bạn vẫn thắng nếu chỉ đúng Nhà Tiên Tri."
           }
         }
       }
@@ -5820,6 +6240,12 @@
             "state" : "translated",
             "value" : "คุณคือผู้ทรยศที่ซ่อนอยู่ในความมืด คุณรู้จักพวกเงามืดด้วยกัน ซ่อนตัวตน แทรกเข้าไปในทีม และทำให้ภารกิจล้มเหลว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn là kẻ phản bội ẩn trong bóng tối. Bạn biết những người Bóng Tối khác. Hãy giấu danh tính, lọt vào các đội và làm nhiệm vụ thất bại."
+          }
         }
       }
     },
@@ -5901,6 +6327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภารกิจสำเร็จ 3 ครั้ง (แต่ถ้าผู้ทำนายถูกลอบสังหารจะแพ้)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 nhiệm vụ thành công (nhưng thua nếu Nhà Tiên Tri bị ám sát)"
           }
         }
       }
@@ -5984,6 +6416,12 @@
             "state" : "translated",
             "value" : "ภารกิจล้มเหลว 3 ครั้ง · ทีมถูกปฏิเสธติดกัน 5 ครั้ง · ลอบสังหารผู้ทำนาย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 nhiệm vụ thất bại · 5 đội bị từ chối liên tiếp · ám sát Nhà Tiên Tri"
+          }
         }
       }
     },
@@ -6065,6 +6503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อาหาร"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Món ăn"
           }
         }
       }
@@ -6148,6 +6592,12 @@
             "state" : "translated",
             "value" : "กิมจิจิเก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Canh kimchi"
+          }
         }
       }
     },
@@ -6229,6 +6679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หมูสามชั้นย่าง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ba chỉ nướng"
           }
         }
       }
@@ -6312,6 +6768,12 @@
             "state" : "translated",
             "value" : "ต็อกบกกี"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tteokbokki"
+          }
         }
       }
     },
@@ -6393,6 +6855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไก่ทอด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gà rán"
           }
         }
       }
@@ -6476,6 +6944,12 @@
             "state" : "translated",
             "value" : "พิซซ่า"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pizza"
+          }
         }
       }
     },
@@ -6557,6 +7031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ซูชิ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sushi"
           }
         }
       }
@@ -6640,6 +7120,12 @@
             "state" : "translated",
             "value" : "ราเมน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mì ramen"
+          }
         }
       }
     },
@@ -6721,6 +7207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บิบิมบับ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cơm trộn bibimbap"
           }
         }
       }
@@ -6804,6 +7296,12 @@
             "state" : "translated",
             "value" : "เส้นเย็น"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mì lạnh"
+          }
         }
       }
     },
@@ -6885,6 +7383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ซุปซี่โครงวัว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Canh sườn bò"
           }
         }
       }
@@ -6968,6 +7472,12 @@
             "state" : "translated",
             "value" : "พาสต้า"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mì Ý"
+          }
         }
       }
     },
@@ -7049,6 +7559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แฮมเบอร์เกอร์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamburger"
           }
         }
       }
@@ -7132,6 +7648,12 @@
             "state" : "translated",
             "value" : "คิมบับ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kimbap"
+          }
         }
       }
     },
@@ -7213,6 +7735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ซุนแด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dồi Hàn Quốc"
           }
         }
       }
@@ -7296,6 +7824,12 @@
             "state" : "translated",
             "value" : "ขาหมู"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chân giò heo"
+          }
         }
       }
     },
@@ -7377,6 +7911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สลัด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salad"
           }
         }
       }
@@ -7460,6 +8000,12 @@
             "state" : "translated",
             "value" : "สัตว์"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Động vật"
+          }
         }
       }
     },
@@ -7541,6 +8087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ช้าง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voi"
           }
         }
       }
@@ -7624,6 +8176,12 @@
             "state" : "translated",
             "value" : "ยีราฟ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hươu cao cổ"
+          }
         }
       }
     },
@@ -7705,6 +8263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพนกวิน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chim cánh cụt"
           }
         }
       }
@@ -7788,6 +8352,12 @@
             "state" : "translated",
             "value" : "เสือ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hổ"
+          }
         }
       }
     },
@@ -7869,6 +8439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แพนด้า"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gấu trúc"
           }
         }
       }
@@ -7952,6 +8528,12 @@
             "state" : "translated",
             "value" : "เม่นแคระ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhím"
+          }
         }
       }
     },
@@ -8033,6 +8615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จิงโจ้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chuột túi"
           }
         }
       }
@@ -8116,6 +8704,12 @@
             "state" : "translated",
             "value" : "นกฮูก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cú mèo"
+          }
         }
       }
     },
@@ -8197,6 +8791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โลมา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cá heo"
           }
         }
       }
@@ -8280,6 +8880,12 @@
             "state" : "translated",
             "value" : "หมึกยักษ์"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạch tuộc"
+          }
         }
       }
     },
@@ -8361,6 +8967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กระรอก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sóc"
           }
         }
       }
@@ -8444,6 +9056,12 @@
             "state" : "translated",
             "value" : "จระเข้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cá sấu"
+          }
         }
       }
     },
@@ -8525,6 +9143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อูฐ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lạc đà"
           }
         }
       }
@@ -8608,6 +9232,12 @@
             "state" : "translated",
             "value" : "นากน้ำ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rái cá"
+          }
         }
       }
     },
@@ -8689,6 +9319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นกแก้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vẹt"
           }
         }
       }
@@ -8772,6 +9408,12 @@
             "state" : "translated",
             "value" : "ตัวตุ่น"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chuột chũi"
+          }
         }
       }
     },
@@ -8853,6 +9495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สถานที่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Địa điểm"
           }
         }
       }
@@ -8936,6 +9584,12 @@
             "state" : "translated",
             "value" : "สวนสนุก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Công viên giải trí"
+          }
         }
       }
     },
@@ -9017,6 +9671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ห้องสมุด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thư viện"
           }
         }
       }
@@ -9100,6 +9760,12 @@
             "state" : "translated",
             "value" : "ซาวน่าเกาหลี"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phòng xông hơi Hàn Quốc"
+          }
         }
       }
     },
@@ -9181,6 +9847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โรงหนัง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rạp chiếu phim"
           }
         }
       }
@@ -9264,6 +9936,12 @@
             "state" : "translated",
             "value" : "ร้านสะดวกซื้อ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cửa hàng tiện lợi"
+          }
         }
       }
     },
@@ -9345,6 +10023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สถานีรถไฟใต้ดิน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ga tàu điện ngầm"
           }
         }
       }
@@ -9428,6 +10112,12 @@
             "state" : "translated",
             "value" : "ร้านทำผม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiệm làm tóc"
+          }
         }
       }
     },
@@ -9509,6 +10199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โรงพยาบาล"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bệnh viện"
           }
         }
       }
@@ -9592,6 +10288,12 @@
             "state" : "translated",
             "value" : "โรงเรียน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trường học"
+          }
         }
       }
     },
@@ -9673,6 +10375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แคมป์ปิ้ง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khu cắm trại"
           }
         }
       }
@@ -9756,6 +10464,12 @@
             "state" : "translated",
             "value" : "สระว่ายน้ำ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hồ bơi"
+          }
         }
       }
     },
@@ -9837,6 +10551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สนามบิน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sân bay"
           }
         }
       }
@@ -9920,6 +10640,12 @@
             "state" : "translated",
             "value" : "ตลาด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chợ"
+          }
         }
       }
     },
@@ -10001,6 +10727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ร้านกาแฟ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quán cà phê"
           }
         }
       }
@@ -10084,6 +10816,12 @@
             "state" : "translated",
             "value" : "ร้านคาราโอเกะ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phòng karaoke"
+          }
         }
       }
     },
@@ -10165,6 +10903,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ฟิตเนส"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phòng gym"
           }
         }
       }
@@ -10248,6 +10992,12 @@
             "state" : "translated",
             "value" : "อาชีพ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nghề nghiệp"
+          }
         }
       }
     },
@@ -10329,6 +11079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นักดับเพลิง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lính cứu hỏa"
           }
         }
       }
@@ -10412,6 +11168,12 @@
             "state" : "translated",
             "value" : "หมอ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bác sĩ"
+          }
         }
       }
     },
@@ -10493,6 +11255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พ่อครัว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đầu bếp"
           }
         }
       }
@@ -10576,6 +11344,12 @@
             "state" : "translated",
             "value" : "โปรแกรมเมอร์"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lập trình viên"
+          }
         }
       }
     },
@@ -10657,6 +11431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยูทูบเบอร์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "YouTuber"
           }
         }
       }
@@ -10740,6 +11520,12 @@
             "state" : "translated",
             "value" : "ครู"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giáo viên"
+          }
         }
       }
     },
@@ -10821,6 +11607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตำรวจ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cảnh sát"
           }
         }
       }
@@ -10904,6 +11696,12 @@
             "state" : "translated",
             "value" : "ชาวนา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nông dân"
+          }
         }
       }
     },
@@ -10985,6 +11783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นักบิน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phi công"
           }
         }
       }
@@ -11068,6 +11872,12 @@
             "state" : "translated",
             "value" : "ช่างทำผม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thợ làm tóc"
+          }
         }
       }
     },
@@ -11149,6 +11959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นักร้อง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ca sĩ"
           }
         }
       }
@@ -11232,6 +12048,12 @@
             "state" : "translated",
             "value" : "นักกีฬา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vận động viên"
+          }
         }
       }
     },
@@ -11313,6 +12135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ช่างภาพ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhiếp ảnh gia"
           }
         }
       }
@@ -11396,6 +12224,12 @@
             "state" : "translated",
             "value" : "ทนายความ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luật sư"
+          }
         }
       }
     },
@@ -11477,6 +12311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ชาวประมง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngư dân"
           }
         }
       }
@@ -11560,6 +12400,12 @@
             "state" : "translated",
             "value" : "บาริสต้า"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barista"
+          }
         }
       }
     },
@@ -11641,6 +12487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ของใช้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồ vật"
           }
         }
       }
@@ -11724,6 +12576,12 @@
             "state" : "translated",
             "value" : "ร่ม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cái ô"
+          }
         }
       }
     },
@@ -11805,6 +12663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พัดลม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quạt điện"
           }
         }
       }
@@ -11888,6 +12752,12 @@
             "state" : "translated",
             "value" : "ตู้เย็น"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tủ lạnh"
+          }
         }
       }
     },
@@ -11969,6 +12839,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แปรงสีฟัน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bàn chải đánh răng"
           }
         }
       }
@@ -12052,6 +12928,12 @@
             "state" : "translated",
             "value" : "หมอน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cái gối"
+          }
         }
       }
     },
@@ -12133,6 +13015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รีโมต"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều khiển từ xa"
           }
         }
       }
@@ -12216,6 +13104,12 @@
             "state" : "translated",
             "value" : "แก้วเก็บอุณหภูมิ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bình giữ nhiệt"
+          }
         }
       }
     },
@@ -12297,6 +13191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หูฟัง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tai nghe"
           }
         }
       }
@@ -12380,6 +13280,12 @@
             "state" : "translated",
             "value" : "กรรไกร"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cái kéo"
+          }
         }
       }
     },
@@ -12461,6 +13367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ผ้าห่ม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cái chăn"
           }
         }
       }
@@ -12544,6 +13456,12 @@
             "state" : "translated",
             "value" : "กระจก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cái gương"
+          }
         }
       }
     },
@@ -12625,6 +13543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นาฬิกา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồng hồ"
           }
         }
       }
@@ -12708,6 +13632,12 @@
             "state" : "translated",
             "value" : "ที่ชาร์จ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sạc điện thoại"
+          }
         }
       }
     },
@@ -12789,6 +13719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รองเท้าแตะ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dép đi trong nhà"
           }
         }
       }
@@ -12872,6 +13808,12 @@
             "state" : "translated",
             "value" : "หน้ากากอนามัย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khẩu trang"
+          }
         }
       }
     },
@@ -12953,6 +13895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กระเป๋าสตางค์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cái ví"
           }
         }
       }
@@ -13036,6 +13984,12 @@
             "state" : "translated",
             "value" : "กีฬา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thể thao"
+          }
         }
       }
     },
@@ -13117,6 +14071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ฟุตบอล"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bóng đá"
           }
         }
       }
@@ -13200,6 +14160,12 @@
             "state" : "translated",
             "value" : "เบสบอล"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bóng chày"
+          }
         }
       }
     },
@@ -13281,6 +14247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บาสเกตบอล"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bóng rổ"
           }
         }
       }
@@ -13364,6 +14336,12 @@
             "state" : "translated",
             "value" : "แบดมินตัน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cầu lông"
+          }
         }
       }
     },
@@ -13445,6 +14423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ว่ายน้ำ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bơi lội"
           }
         }
       }
@@ -13528,6 +14512,12 @@
             "state" : "translated",
             "value" : "โบว์ลิ่ง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bowling"
+          }
         }
       }
     },
@@ -13609,6 +14599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เทควันโด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taekwondo"
           }
         }
       }
@@ -13692,6 +14688,12 @@
             "state" : "translated",
             "value" : "กอล์ฟ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Golf"
+          }
         }
       }
     },
@@ -13773,6 +14775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ปิงปอง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bóng bàn"
           }
         }
       }
@@ -13856,6 +14864,12 @@
             "state" : "translated",
             "value" : "สกี"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trượt tuyết"
+          }
         }
       }
     },
@@ -13937,6 +14951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ปีนผา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leo núi"
           }
         }
       }
@@ -14020,6 +15040,12 @@
             "state" : "translated",
             "value" : "โยคะ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yoga"
+          }
         }
       }
     },
@@ -14101,6 +15127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ชกมวย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quyền Anh"
           }
         }
       }
@@ -14184,6 +15216,12 @@
             "state" : "translated",
             "value" : "ยิงธนู"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bắn cung"
+          }
         }
       }
     },
@@ -14265,6 +15303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ฟันดาบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đấu kiếm"
           }
         }
       }
@@ -14348,6 +15392,12 @@
             "state" : "translated",
             "value" : "มาราธอน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marathon"
+          }
         }
       }
     },
@@ -14429,6 +15479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กระต่าย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con thỏ"
           }
         }
       }
@@ -14512,6 +15568,12 @@
             "state" : "translated",
             "value" : "แมว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con mèo"
+          }
         }
       }
     },
@@ -14593,6 +15655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หมา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con chó"
           }
         }
       }
@@ -14676,6 +15744,12 @@
             "state" : "translated",
             "value" : "สิงโต"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con sư tử"
+          }
         }
       }
     },
@@ -14757,6 +15831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หมี"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con gấu"
           }
         }
       }
@@ -14840,6 +15920,12 @@
             "state" : "translated",
             "value" : "หอยทาก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con ốc sên"
+          }
         }
       }
     },
@@ -14921,6 +16007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "งู"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con rắn"
           }
         }
       }
@@ -15004,6 +16096,12 @@
             "state" : "translated",
             "value" : "เต่า"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con rùa"
+          }
         }
       }
     },
@@ -15085,6 +16183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ผีเสื้อ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con bướm"
           }
         }
       }
@@ -15168,6 +16272,12 @@
             "state" : "translated",
             "value" : "ปลา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con cá"
+          }
         }
       }
     },
@@ -15249,6 +16359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไอศกรีม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kem"
           }
         }
       }
@@ -15332,6 +16448,12 @@
             "state" : "translated",
             "value" : "เค้ก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bánh kem"
+          }
         }
       }
     },
@@ -15413,6 +16535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กล้วย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chuối"
           }
         }
       }
@@ -15496,6 +16624,12 @@
             "state" : "translated",
             "value" : "แตงโม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dưa hấu"
+          }
         }
       }
     },
@@ -15577,6 +16711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไข่ดาว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trứng ốp la"
           }
         }
       }
@@ -15660,6 +16800,12 @@
             "state" : "translated",
             "value" : "โดนัท"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bánh donut"
+          }
         }
       }
     },
@@ -15741,6 +16887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แอปเปิล"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quả táo"
           }
         }
       }
@@ -15824,6 +16976,12 @@
             "state" : "translated",
             "value" : "ฮอตดอก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xúc xích kẹp bánh"
+          }
         }
       }
     },
@@ -15905,6 +17063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "องุ่น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nho"
           }
         }
       }
@@ -15988,6 +17152,12 @@
             "state" : "translated",
             "value" : "แครอท"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cà rốt"
+          }
         }
       }
     },
@@ -16069,6 +17239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สิ่งของ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồ dùng"
           }
         }
       }
@@ -16152,6 +17328,12 @@
             "state" : "translated",
             "value" : "แว่นตา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kính mắt"
+          }
         }
       }
     },
@@ -16233,6 +17415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จักรยาน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xe đạp"
           }
         }
       }
@@ -16316,6 +17504,12 @@
             "state" : "translated",
             "value" : "เก้าอี้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cái ghế"
+          }
         }
       }
     },
@@ -16397,6 +17591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กุญแจ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chìa khóa"
           }
         }
       }
@@ -16480,6 +17680,12 @@
             "state" : "translated",
             "value" : "หลอดไฟ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bóng đèn"
+          }
         }
       }
     },
@@ -16561,6 +17767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลูกโป่ง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bóng bay"
           }
         }
       }
@@ -16644,6 +17856,12 @@
             "state" : "translated",
             "value" : "เทียน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cây nến"
+          }
         }
       }
     },
@@ -16725,6 +17943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กล่องของขวัญ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hộp quà"
           }
         }
       }
@@ -16808,6 +18032,12 @@
             "state" : "translated",
             "value" : "ไม้กวาด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cái chổi"
+          }
         }
       }
     },
@@ -16889,6 +18119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ค้อน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cái búa"
           }
         }
       }
@@ -16972,6 +18208,12 @@
             "state" : "translated",
             "value" : "ดินสอ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bút chì"
+          }
         }
       }
     },
@@ -17053,6 +18295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แก้วน้ำ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cái cốc"
           }
         }
       }
@@ -17136,6 +18384,12 @@
             "state" : "translated",
             "value" : "ยานพาหนะ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phương tiện"
+          }
         }
       }
     },
@@ -17217,6 +18471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รถยนต์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xe hơi"
           }
         }
       }
@@ -17300,6 +18560,12 @@
             "state" : "translated",
             "value" : "เครื่องบิน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Máy bay"
+          }
         }
       }
     },
@@ -17381,6 +18647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เรือ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con tàu"
           }
         }
       }
@@ -17464,6 +18736,12 @@
             "state" : "translated",
             "value" : "รถไฟ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tàu hỏa"
+          }
         }
       }
     },
@@ -17545,6 +18823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จรวด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tên lửa"
           }
         }
       }
@@ -17628,6 +18912,12 @@
             "state" : "translated",
             "value" : "เฮลิคอปเตอร์"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trực thăng"
+          }
         }
       }
     },
@@ -17709,6 +18999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เรือดำน้ำ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tàu ngầm"
           }
         }
       }
@@ -17792,6 +19088,12 @@
             "state" : "translated",
             "value" : "บอลลูนลมร้อน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khinh khí cầu"
+          }
         }
       }
     },
@@ -17873,6 +19175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ธรรมชาติ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thiên nhiên"
           }
         }
       }
@@ -17956,6 +19264,12 @@
             "state" : "translated",
             "value" : "ต้นไม้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cái cây"
+          }
         }
       }
     },
@@ -18037,6 +19351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดอกไม้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bông hoa"
           }
         }
       }
@@ -18120,6 +19440,12 @@
             "state" : "translated",
             "value" : "ดวงอาทิตย์"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mặt trời"
+          }
         }
       }
     },
@@ -18201,6 +19527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมฆ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đám mây"
           }
         }
       }
@@ -18284,6 +19616,12 @@
             "state" : "translated",
             "value" : "สายรุ้ง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cầu vồng"
+          }
         }
       }
     },
@@ -18365,6 +19703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภูเขา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngọn núi"
           }
         }
       }
@@ -18448,6 +19792,12 @@
             "state" : "translated",
             "value" : "ดาว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngôi sao"
+          }
         }
       }
     },
@@ -18529,6 +19879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "มนุษย์หิมะ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Người tuyết"
           }
         }
       }
@@ -18612,6 +19968,12 @@
             "state" : "translated",
             "value" : "ฟ้าผ่า"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tia chớp"
+          }
         }
       }
     },
@@ -18693,6 +20055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภูเขาไฟ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Núi lửa"
           }
         }
       }
@@ -18776,6 +20144,12 @@
             "state" : "translated",
             "value" : "เกาะ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hòn đảo"
+          }
         }
       }
     },
@@ -18857,6 +20231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดวงจันทร์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mặt trăng"
           }
         }
       }
@@ -18940,6 +20320,12 @@
             "state" : "translated",
             "value" : "ตัวละคร"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhân vật"
+          }
         }
       }
     },
@@ -19021,6 +20407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หุ่นยนต์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Người máy"
           }
         }
       }
@@ -19104,6 +20496,12 @@
             "state" : "translated",
             "value" : "ผี"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con ma"
+          }
         }
       }
     },
@@ -19185,6 +20583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "มงกุฎ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vương miện"
           }
         }
       }
@@ -19268,6 +20672,12 @@
             "state" : "translated",
             "value" : "โจรสลัด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cướp biển"
+          }
         }
       }
     },
@@ -19349,6 +20759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นางฟ้า"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thiên thần"
           }
         }
       }
@@ -19432,6 +20848,12 @@
             "state" : "translated",
             "value" : "พ่อมด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phù thủy"
+          }
         }
       }
     },
@@ -19513,6 +20935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไดโนเสาร์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khủng long"
           }
         }
       }
@@ -19596,6 +21024,12 @@
             "state" : "translated",
             "value" : "เอเลี่ยน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Người ngoài hành tinh"
+          }
         }
       }
     },
@@ -19677,6 +21111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นางเงือก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nàng tiên cá"
           }
         }
       }
@@ -19760,6 +21200,12 @@
             "state" : "translated",
             "value" : "ซานตาคลอส"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ông già Noel"
+          }
         }
       }
     },
@@ -19841,6 +21287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ก็อบลิน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yêu tinh"
           }
         }
       }
@@ -19924,6 +21376,12 @@
             "state" : "translated",
             "value" : "หมอผี"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pháp sư"
+          }
         }
       }
     },
@@ -20005,6 +21463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โจรราตรี"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kẻ trộm đêm"
           }
         }
       }
@@ -20088,6 +21552,12 @@
             "state" : "translated",
             "value" : "จอมซน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kẻ tinh nghịch"
+          }
         }
       }
     },
@@ -20169,6 +21639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ชาวบ้าน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dân làng"
           }
         }
       }
@@ -20252,6 +21728,12 @@
             "state" : "translated",
             "value" : "ดูว่าใครคือก็อบลินพวกเดียวกัน ถ้าคุณเป็นก็อบลินคนเดียว จะดูการ์ดกลางได้ 1 ใบ เมื่อฟ้าสาง ให้ซ่อนตัวตนและทำเป็นคนธรรมดา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn biết các Yêu tinh đồng đội. Nếu bạn là Yêu tinh duy nhất, bạn được xem 1 lá bài giữa. Khi trời sáng, hãy giấu danh tính và giả làm người thường."
+          }
         }
       }
     },
@@ -20333,6 +21815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ด้วยพลังเหนือธรรมชาติ คุณดูการ์ดของผู้เล่นอื่น 1 คน หรือดูการ์ดกลาง 2 ใบได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bằng năng lực siêu nhiên, bạn có thể xem bài của 1 người chơi khác hoặc 2 lá bài giữa."
           }
         }
       }
@@ -20416,6 +21904,12 @@
             "state" : "translated",
             "value" : "แอบสลับการ์ดกับผู้เล่นอื่น 1 คน แล้วดูการ์ดใบใหม่ จากนั้นฝ่ายของคุณจะเป็นไปตามการ์ดใบใหม่"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lén đổi bài với 1 người chơi khác và xem lá bài mới. Từ đó phe của bạn theo lá bài mới."
+          }
         }
       }
     },
@@ -20497,6 +21991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ความซนมาแล้ว! สลับการ์ดของผู้เล่นอื่นสองคน แต่คุณจะไม่เห็นว่าเป็นการ์ดอะไร"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trò nghịch ngợm bắt đầu! Đổi bài của hai người chơi khác cho nhau. Bạn sẽ không thấy đó là bài gì."
           }
         }
       }
@@ -20580,6 +22080,12 @@
             "state" : "translated",
             "value" : "กลางคืนไม่มีอะไรให้ทำ ใช้การวิเคราะห์และการอภิปรายตอนกลางวันหาก็อบลินที่ซ่อนอยู่"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ban đêm bạn không có việc gì để làm. Hãy tìm ra các Yêu tinh ẩn nấp bằng suy luận và thảo luận ban ngày."
+          }
         }
       }
     },
@@ -20661,6 +22167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังเชื่อมต่อ…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang kết nối…"
           }
         }
       }
@@ -20744,6 +22256,12 @@
             "state" : "translated",
             "value" : "การตั้งค่า"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cài đặt"
+          }
         }
       }
     },
@@ -20825,6 +22343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แจ้งเตือน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thông báo"
           }
         }
       }
@@ -20908,6 +22432,12 @@
             "state" : "translated",
             "value" : "ตกลง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
         }
       }
     },
@@ -20989,6 +22519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "“%@” กำลังปิดปรับปรุง โปรดเลือกเกมอื่น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” đang bảo trì. Hãy chọn trò chơi khác."
           }
         }
       }
@@ -21072,6 +22608,12 @@
             "state" : "translated",
             "value" : "เกม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trò chơi"
+          }
         }
       }
     },
@@ -21153,6 +22695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เกมไลเออร์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trò Kẻ Nói Dối"
           }
         }
       }
@@ -21236,6 +22784,12 @@
             "state" : "translated",
             "value" : "คืนไร้จันทร์"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đêm Không Trăng"
+          }
         }
       }
     },
@@ -21317,6 +22871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สตูดิโอแสงจันทร์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xưởng Vẽ Ánh Trăng"
           }
         }
       }
@@ -21400,6 +22960,12 @@
             "state" : "translated",
             "value" : "สร้างห้อง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tạo phòng"
+          }
         }
       }
     },
@@ -21481,6 +23047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปิดห้องของเกมที่เลือกให้เพื่อน ๆ เข้ามาได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mở phòng cho trò chơi đã chọn để bạn bè có thể vào."
           }
         }
       }
@@ -21564,6 +23136,12 @@
             "state" : "translated",
             "value" : "ค้นหาห้องใกล้ตัว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tìm phòng gần đây"
+          }
         }
       }
     },
@@ -21645,6 +23223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ค้นหาห้องที่เพื่อนใกล้ตัวสร้างไว้แล้วเข้าร่วม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tìm phòng do bạn bè gần đó tạo và tham gia."
           }
         }
       }
@@ -21728,6 +23312,12 @@
             "state" : "translated",
             "value" : "ฝึกกับบอต"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luyện tập với bot"
+          }
         }
       }
     },
@@ -21809,6 +23399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เล่นหนึ่งตาคนเดียวกับบอตเพื่อเรียนรู้กติกา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chơi một ván một mình với bot để học luật."
           }
         }
       }
@@ -21892,6 +23488,12 @@
             "state" : "translated",
             "value" : "ห้องเต็มแล้ว (จำนวนผู้เล่นสูงสุด: %lld)"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phòng đã đầy. (Số người chơi tối đa: %lld)"
+          }
         }
       }
     },
@@ -21973,6 +23575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ห้องนี้กำลังเล่นเกมอยู่แล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phòng này đang có ván chơi diễn ra."
           }
         }
       }
@@ -22056,6 +23664,12 @@
             "state" : "translated",
             "value" : "ลูน่า"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luna"
+          }
         }
       }
     },
@@ -22137,6 +23751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โอไรออน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orion"
           }
         }
       }
@@ -22220,6 +23840,12 @@
             "state" : "translated",
             "value" : "โนวา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nova"
+          }
         }
       }
     },
@@ -22301,6 +23927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โซล"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sol"
           }
         }
       }
@@ -22384,6 +24016,12 @@
             "state" : "translated",
             "value" : "โฮสต์นำคุณออกจากห้อง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chủ phòng đã đưa bạn ra khỏi phòng."
+          }
         }
       }
     },
@@ -22465,6 +24103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โฮสต์ปิดห้องแล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chủ phòng đã đóng phòng."
           }
         }
       }
@@ -22548,6 +24192,12 @@
             "state" : "translated",
             "value" : "เชื่อมต่อกับโฮสต์อีกครั้งไม่ได้ คุณเข้าร่วมใหม่ได้จาก “เล่นต่อ” บนหน้าหลัก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể kết nối lại với chủ phòng. Bạn có thể vào lại từ “Chơi tiếp” trên màn hình chính."
+          }
         }
       }
     },
@@ -22629,6 +24279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ผู้เล่นทุกคนจะถูกจัดเข้าฝ่ายภาคีแสงจันทร์ (ฝ่ายดี) หรือเงามืด (ฝ่ายร้าย) แบบลับ ๆ ตลอดภารกิจสูงสุด 5 ครั้ง คุณต้องหาว่าใครคือเงามืดจากบทสนทนาและบันทึกการโหวตเท่านั้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mỗi người chơi được bí mật chia vào Hội Ánh Trăng (phe thiện) hoặc Bóng Tối (phe ác). Trong tối đa 5 nhiệm vụ, bạn phải suy ra ai là Bóng Tối chỉ qua trò chuyện và lịch sử bỏ phiếu."
           }
         }
       }
@@ -22712,6 +24368,12 @@
             "state" : "translated",
             "value" : "ทุกคนได้คำเดียวกัน ยกเว้นไลเออร์หนึ่งคน ผลัดกันอธิบายคำด้วยถ้อยคำสั้น ๆ แล้วดูว่าใครรู้จริง ไลเออร์ต้องเนียนทั้งที่ไม่รู้คำ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tất cả nhận cùng một từ khóa, trừ một Kẻ Nói Dối. Lần lượt mô tả từ khóa bằng vài lời và kiểm tra xem ai thật sự biết. Kẻ Nói Dối phải giả vờ biết dù không biết từ khóa."
+          }
         }
       }
     },
@@ -22793,6 +24455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ก็อบลินแทรกซึมเข้าหมู่บ้านแล้ว! กลางคืนแต่ละคนใช้การกระทำลับเพื่อหาข้อมูลหรือแอบสลับการ์ด กลางวันอภิปราย แล้วโหวตครั้งเดียวเพื่อตัดสินว่าใครถูกขับไล่ การ์ดอาจเปลี่ยนระหว่างคืน ผลแพ้ชนะจึงดูจาก “การ์ดสุดท้าย”"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yêu tinh đã lẻn vào làng! Ban đêm mỗi người dùng hành động bí mật để lấy thông tin hoặc lén đổi bài; ban ngày thảo luận rồi chỉ một lần bỏ phiếu để quyết định ai bị trục xuất. Bài có thể thay đổi trong đêm nên thắng thua tính theo “lá bài cuối”."
           }
         }
       }
@@ -22876,6 +24544,12 @@
             "state" : "translated",
             "value" : "ทุกรอบ ผู้เล่นหนึ่งคนเป็น “ผู้วาด” และสื่อคำลับด้วยภาพวาดเท่านั้น คนอื่นดูภาพแล้วทายในแชต ห้ามใช้ตัวอักษรหรือตัวเลข เกมจบเมื่อทุกคนได้เป็นผู้วาดครบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mỗi vòng, một người là “Họa sĩ” và chỉ diễn tả từ khóa bằng tranh vẽ. Những người còn lại xem tranh và đoán trong khung chat. Không được dùng chữ hay số. Trò chơi kết thúc khi mọi người đều đã làm Họa sĩ."
+          }
         }
       }
     },
@@ -22957,6 +24631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาคีแสงจันทร์ (ฝ่ายดี)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hội Ánh Trăng (phe thiện)"
           }
         }
       }
@@ -23040,6 +24720,12 @@
             "state" : "translated",
             "value" : "ภารกิจสำเร็จ 3 ครั้ง แต่ถ้าตอนท้ายนักฆ่าชี้ตัวผู้ทำนายถูก คุณจะพลิกแพ้ ผู้ทำนายจึงต้องซ่อนตัวตนจนถึงที่สุด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 nhiệm vụ thành công. Nhưng nếu cuối cùng Sát Thủ chỉ đúng Nhà Tiên Tri, bạn sẽ thua, nên Nhà Tiên Tri phải giấu danh tính đến phút chót."
+          }
         }
       }
     },
@@ -23121,6 +24807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เงามืด (ฝ่ายร้าย)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bóng Tối (phe ác)"
           }
         }
       }
@@ -23204,6 +24896,12 @@
             "state" : "translated",
             "value" : "ภารกิจล้มเหลว 3 ครั้ง · ทีมถูกปฏิเสธติดกัน 5 ครั้ง · ลอบสังหารผู้ทำนายสำเร็จ — ข้อใดข้อหนึ่งก็ชนะ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 nhiệm vụ thất bại · 5 đội bị từ chối liên tiếp · ám sát Nhà Tiên Tri thành công — chỉ cần một trong ba là thắng."
+          }
         }
       }
     },
@@ -23285,6 +24983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ชนะถ้าการโหวตชี้ตัวไลเออร์ได้ถูกต้อง และไลเออร์ทายคำไม่ถูก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn thắng nếu cuộc bỏ phiếu chỉ đúng Kẻ Nói Dối và Kẻ Nói Dối không đoán được từ khóa."
           }
         }
       }
@@ -23368,6 +25072,12 @@
             "state" : "translated",
             "value" : "ชนะถ้าคะแนนโหวตแตกกันหรือชี้ผิดคน ต่อให้ถูกจับได้ ถ้าทายคำถูกก็พลิกชนะ!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn thắng nếu phiếu bị chia đều hoặc chỉ nhầm người. Dù bị bắt, Kẻ Nói Dối vẫn lật ngược thế cờ nếu đoán đúng từ khóa!"
+          }
         }
       }
     },
@@ -23449,6 +25159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หมู่บ้าน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dân làng"
           }
         }
       }
@@ -23532,6 +25248,12 @@
             "state" : "translated",
             "value" : "ชนะถ้าขับไล่ก็อบลินได้ (ดูจากการ์ดสุดท้าย) ถ้าก็อบลินอยู่ในการ์ดกลางทั้งหมด จะชนะก็ต่อเมื่อไม่มีใครถูกขับไล่"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn thắng khi trục xuất được Yêu tinh (theo lá bài cuối). Nếu tất cả Yêu tinh nằm ở bài giữa, bạn chỉ thắng khi không ai bị trục xuất."
+          }
         }
       }
     },
@@ -23613,6 +25335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ชนะถ้าไม่มีก็อบลินถูกขับไล่เลย — แม้คนบริสุทธิ์ถูกขับไล่ก็ชนะ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn thắng nếu không có Yêu tinh nào bị trục xuất — thắng cả khi một người vô tội bị trục xuất."
           }
         }
       }
@@ -23696,6 +25424,12 @@
             "state" : "translated",
             "value" : "ผู้ทาย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Người đoán"
+          }
         }
       }
     },
@@ -23777,6 +25511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยิ่งดูภาพแล้วทายคำได้เร็วเท่าไร ยิ่งได้คะแนนสูง! ทายถูกก็ได้คะแนน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem tranh và đoán đúng từ khóa càng nhanh, điểm càng cao! Đoán đúng sẽ được điểm."
           }
         }
       }
@@ -23860,6 +25600,12 @@
             "state" : "translated",
             "value" : "ยิ่งมีคนทายภาพของคุณถูกมากเท่าไร ยิ่งได้คะแนน หัวใจคือวาดให้ใคร ๆ ก็ดูออก!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Càng nhiều người đoán đúng tranh của bạn, bạn càng được điểm. Mấu chốt là vẽ sao cho ai cũng nhận ra!"
+          }
         }
       }
     },
@@ -23941,6 +25687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วิธีเล่น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cách chơi"
           }
         }
       }
@@ -24024,6 +25776,12 @@
             "state" : "translated",
             "value" : "เป้าหมายของเกม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mục tiêu của trò chơi"
+          }
         }
       }
     },
@@ -24105,6 +25863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เงื่อนไขการชนะ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều kiện thắng"
           }
         }
       }
@@ -24188,6 +25952,12 @@
             "state" : "translated",
             "value" : "ต่อไปคุณจะลองเล่นทีละขั้นกับบอตด้วยตัวเอง\nแต่ละขั้นจะมีคำแนะนำ แล้วกด “ถัดไป” เพื่อไปต่อ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giờ bạn sẽ cùng bot tự thử từng bước để làm quen.\nMỗi bước đều có hướng dẫn, và bạn tiếp tục bằng nút “Tiếp”."
+          }
         }
       }
     },
@@ -24269,6 +26039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เริ่มฝึก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bắt đầu luyện tập"
           }
         }
       }
@@ -24352,6 +26128,12 @@
             "state" : "translated",
             "value" : "กลับหน้าหลัก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Về màn hình chính"
+          }
         }
       }
     },
@@ -24433,6 +26215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถึงเวลาลอบสังหาร"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giờ ám sát"
           }
         }
       }
@@ -24516,6 +26304,12 @@
             "state" : "translated",
             "value" : "ภาคีแสงจันทร์ทำภารกิจสำเร็จ 3 ครั้ง\nแต่ถ้านักฆ่าหาผู้ทำนายเจอ ฝ่ายเงามืดจะพลิกชนะ!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hội Ánh Trăng đã hoàn thành 3 nhiệm vụ.\nNhưng nếu Sát Thủ tìm ra Nhà Tiên Tri, Bóng Tối sẽ lật ngược thế cờ!"
+          }
         }
       }
     },
@@ -24597,6 +26391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือกผู้เล่นที่คุณคิดว่าเป็นผู้ทำนาย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy chỉ người chơi bạn nghĩ là Nhà Tiên Tri"
           }
         }
       }
@@ -24680,6 +26480,12 @@
             "state" : "translated",
             "value" : "ลงมือลอบสังหาร"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thực hiện ám sát"
+          }
         }
       }
     },
@@ -24761,6 +26567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นักฆ่ากำลังเลือกเป้าหมายสุดท้าย…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sát Thủ đang chọn mục tiêu cuối cùng…"
           }
         }
       }
@@ -24844,6 +26656,12 @@
             "state" : "translated",
             "value" : "%@ ชนะ!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ thắng!"
+          }
         }
       }
     },
@@ -24925,6 +26743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปิดเผยบทบาท"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Công bố vai trò"
           }
         }
       }
@@ -25008,6 +26832,12 @@
             "state" : "translated",
             "value" : "ฉัน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tôi"
+          }
         }
       }
     },
@@ -25089,6 +26919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เล่นอีกครั้งกับสมาชิกเดิม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chơi lại với cùng thành viên"
           }
         }
       }
@@ -25172,6 +27008,12 @@
             "state" : "translated",
             "value" : "โฮสต์เริ่มใหม่ได้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chủ phòng có thể bắt đầu lại"
+          }
         }
       }
     },
@@ -25253,6 +27095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ออก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rời đi"
           }
         }
       }
@@ -25336,6 +27184,12 @@
             "state" : "translated",
             "value" : "เพิ่งเริ่มเล่น? ฝึกกับบอตก่อนได้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lần đầu chơi? Hãy luyện tập với bot trước"
+          }
         }
       }
     },
@@ -25417,6 +27271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คุณเล่นจนจบหนึ่งตาคนเดียวกับบอตเพื่อเรียนรู้กติกาได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn có thể chơi trọn một ván một mình với bot để học luật."
           }
         }
       }
@@ -25500,6 +27360,12 @@
             "state" : "translated",
             "value" : "บังคับไปขั้นตอนถัดไปไหม?"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ép chuyển giai đoạn?"
+          }
         }
       }
     },
@@ -25581,6 +27447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บังคับไปต่อ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ép chuyển"
           }
         }
       }
@@ -25664,6 +27536,12 @@
             "state" : "translated",
             "value" : "ยกเลิก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hủy"
+          }
         }
       }
     },
@@ -25745,6 +27623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นำ %@ ออกไหม?"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đưa %@ ra khỏi phòng?"
           }
         }
       }
@@ -25828,6 +27712,12 @@
             "state" : "translated",
             "value" : "นำออก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đưa ra"
+          }
         }
       }
     },
@@ -25909,6 +27799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เกมที่กำลังเล่นอยู่จะดำเนินต่อกับผู้เล่นที่เหลือ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ván đang chơi sẽ tiếp tục với những người còn lại."
           }
         }
       }
@@ -25992,6 +27888,12 @@
             "state" : "translated",
             "value" : "โหมดโฮสต์ GM"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chế độ chủ phòng GM"
+          }
         }
       }
     },
@@ -26073,6 +27975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถ้าเกมค้าง คุณทำให้เกมเดินต่อได้จากที่นี่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nếu ván chơi bị kẹt, bạn có thể làm cho nó tiếp tục từ đây."
           }
         }
       }
@@ -26156,6 +28064,12 @@
             "state" : "translated",
             "value" : "ควบคุมเกม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều khiển ván chơi"
+          }
         }
       }
     },
@@ -26237,6 +28151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บังคับไปขั้นตอนถัดไป"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ép chuyển giai đoạn"
           }
         }
       }
@@ -26320,6 +28240,12 @@
             "state" : "translated",
             "value" : "ขั้นตอนนี้ไม่มีอะไรให้บังคับ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giai đoạn hiện tại không có gì để ép chuyển."
+          }
         }
       }
     },
@@ -26401,6 +28327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จัดการผู้เล่น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quản lý người chơi"
           }
         }
       }
@@ -26484,6 +28416,12 @@
             "state" : "translated",
             "value" : "ข้อมูลส่วนตัว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thông tin riêng tư"
+          }
         }
       }
     },
@@ -26565,6 +28503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปิดเผยบทบาทและคำตอบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Công bố vai trò và đáp án"
           }
         }
       }
@@ -26648,6 +28592,12 @@
             "state" : "translated",
             "value" : "ถ้าดู GM จะเล่นอย่างยุติธรรมได้ยาก ใช้เมื่อเกมค้างเท่านั้น"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nếu xem, GM sẽ khó chơi công bằng. Chỉ dùng khi ván chơi bị kẹt."
+          }
         }
       }
     },
@@ -26729,6 +28679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ออกจากเกมไหม?"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rời khỏi ván chơi?"
           }
         }
       }
@@ -26812,6 +28768,12 @@
             "state" : "translated",
             "value" : "หยุดเกมและกลับห้องรอ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dừng ván và về phòng chờ"
+          }
         }
       }
     },
@@ -26893,6 +28855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ปิดห้อง (จบเกมสำหรับทุกคน)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đóng phòng (kết thúc với mọi người)"
           }
         }
       }
@@ -26976,6 +28944,12 @@
             "state" : "translated",
             "value" : "แผงโฮสต์"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bảng điều khiển chủ phòng"
+          }
         }
       }
     },
@@ -27057,6 +29031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภารกิจที่ %lld"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhiệm vụ số %lld"
           }
         }
       }
@@ -27140,6 +29120,12 @@
             "state" : "translated",
             "value" : "หัวหน้า: %@"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đội trưởng: %@"
+          }
         }
       }
     },
@@ -27221,6 +29207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จบเกม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết thúc ván"
           }
         }
       }
@@ -27304,6 +29296,12 @@
             "state" : "translated",
             "value" : "ดูบทบาทของฉัน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem vai của tôi"
+          }
         }
       }
     },
@@ -27385,6 +29383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถัดไป"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếp"
           }
         }
       }
@@ -27468,6 +29472,12 @@
             "state" : "translated",
             "value" : "ขั้นนี้ทุกคนดูบทบาทของตัวเองแบบลับ ๆ ดูแล้วกด “ถัดไป” บอตก็จะดูเสร็จด้วย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ở giai đoạn này, mỗi người bí mật xem vai của mình. Xem xong hãy nhấn “Tiếp”, bot cũng sẽ xem xong."
+          }
         }
       }
     },
@@ -27549,6 +29559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หัวหน้าเลือกทีมที่จะออกปฏิบัติภารกิจนี้ กด “ถัดไป” แล้วหัวหน้าจะเลือกทีม (ถ้าคุณเป็นหัวหน้า เลือกเองเลย!)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đội trưởng chọn đội cho nhiệm vụ này. Nhấn “Tiếp” rồi đội trưởng sẽ chọn đội. (Nếu bạn là đội trưởng, hãy tự chọn!)"
           }
         }
       }
@@ -27632,6 +29648,12 @@
             "state" : "translated",
             "value" : "ทุกคนโหวตเห็นด้วยหรือไม่เห็นด้วยกับทีม ถ้าคะแนนเท่ากันถือว่าไม่ผ่าน! โหวตก่อน แล้วกด “ถัดไป” เพื่อดูคะแนนของบอต"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mọi người bỏ phiếu đồng ý hoặc phản đối đội hình. Hòa phiếu là bị từ chối! Hãy bỏ phiếu trước rồi nhấn “Tiếp” để xem phiếu của bot."
+          }
         }
       }
     },
@@ -27713,6 +29735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "นี่คือผลโหวต ถ้าทีมถูกปฏิเสธติดกัน 5 ครั้ง ฝ่ายเงามืดจะชนะ จึงโหวตคัดค้านอย่างเดียวไม่ได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đây là kết quả bỏ phiếu. Nếu đội bị từ chối 5 lần liên tiếp, phe Bóng Tối thắng nên không thể cứ phản đối bừa."
           }
         }
       }
@@ -27796,6 +29824,12 @@
             "state" : "translated",
             "value" : "เฉพาะสมาชิกทีมที่ส่งการ์ดสำเร็จหรือล้มเหลว ภาคีแสงจันทร์ส่งได้แค่สำเร็จ มีแต่เงามืดที่แอบส่งล้มเหลวได้ กด “ถัดไป” เพื่อดูทีมส่งการ์ด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chỉ thành viên đội ra bài thành công hoặc thất bại. Hội Ánh Trăng chỉ ra được thành công; chỉ Bóng Tối mới có thể lén ra thất bại. Nhấn “Tiếp” để xem đội nộp bài."
+          }
         }
       }
     },
@@ -27877,6 +29911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถ้าการ์ดล้มเหลวถึงจำนวนที่กำหนด ภารกิจล้มเหลว! ฝ่ายไหนชนะครบ 3 ก่อน เกมจบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nếu số bài thất bại đạt mức yêu cầu thì nhiệm vụ thất bại! Phe nào thắng 3 trận trước thì ván kết thúc."
           }
         }
       }
@@ -27960,6 +30000,12 @@
             "state" : "translated",
             "value" : "แม้ภารกิจสำเร็จ 3 ครั้ง ก็ยังมีจุดพลิกสุดท้าย — ถ้านักฆ่าชี้ตัวผู้ทำนายถูก ฝ่ายเงามืดจะพลิกชนะ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dù 3 nhiệm vụ thành công vẫn còn cú lật cuối: nếu Sát Thủ chỉ đúng Nhà Tiên Tri, Bóng Tối sẽ lật ngược thế cờ."
+          }
         }
       }
     },
@@ -28041,6 +30087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การเชื่อมต่อกับโฮสต์หลุด กำลังลองเชื่อมต่อใหม่อัตโนมัติ…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mất kết nối với chủ phòng. Đang thử kết nối lại tự động…"
           }
         }
       }
@@ -28124,6 +30176,12 @@
             "state" : "translated",
             "value" : "หมดเวลา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hết giờ"
+          }
         }
       }
     },
@@ -28205,6 +30263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูในที่ที่ไม่มีใครเห็น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy xem ở nơi không ai nhìn thấy"
           }
         }
       }
@@ -28288,6 +30352,12 @@
             "state" : "translated",
             "value" : "ฝ่าย%@"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phe %@"
+          }
         }
       }
     },
@@ -28369,6 +30439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คนที่ดูเหมือนสายลับเงามืด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Những người có vẻ là đặc vụ Bóng Tối"
           }
         }
       }
@@ -28452,6 +30528,12 @@
             "state" : "translated",
             "value" : "พวกเงามืดเดียวกับคุณ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồng đội Bóng Tối của bạn"
+          }
         }
       }
     },
@@ -28533,6 +30615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เป้าหมาย: %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mục tiêu: %@"
           }
         }
       }
@@ -28616,6 +30704,12 @@
             "state" : "translated",
             "value" : "กำลังปิดปรับปรุงสักครู่ เดี๋ยวเปิดใหม่"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang bảo trì một lát. Sẽ mở lại sớm."
+          }
         }
       }
     },
@@ -28697,6 +30791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เกมปาร์ตี้ 3 เกมสำหรับเพื่อนที่อยู่ใกล้กัน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 trò chơi tiệc tùng cùng bạn bè ở gần"
           }
         }
       }
@@ -28780,6 +30880,12 @@
             "state" : "translated",
             "value" : "ชื่อเล่น"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biệt danh"
+          }
         }
       }
     },
@@ -28861,6 +30967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กรอกชื่อ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập tên của bạn"
           }
         }
       }
@@ -28944,6 +31056,12 @@
             "state" : "translated",
             "value" : "เลือกเกม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn một trò chơi"
+          }
         }
       }
     },
@@ -29025,6 +31143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "5–15 คน · หาเงามืดที่ซ่อนตัว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5–15 người · Tìm Bóng Tối ẩn nấp"
           }
         }
       }
@@ -29108,6 +31232,12 @@
             "state" : "translated",
             "value" : "3–15 คน · หาคนที่ไม่รู้คำ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 người · Tìm người không biết từ khóa"
+          }
         }
       }
     },
@@ -29189,6 +31319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3–15 คน · หนึ่งคืนที่มีก็อบลินในหมู่บ้าน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 người · Một đêm có Yêu tinh trong làng"
           }
         }
       }
@@ -29272,6 +31408,12 @@
             "state" : "translated",
             "value" : "3–15 คน · คนหนึ่งวาด คนอื่นทาย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 người · Một người vẽ, những người còn lại đoán"
+          }
         }
       }
     },
@@ -29353,6 +31495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ค้นหาทุกห้องใกล้ตัว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tìm tất cả phòng gần đây"
           }
         }
       }
@@ -29436,6 +31584,12 @@
             "state" : "translated",
             "value" : "iPhone ที่อยู่ใน Wi-Fi เดียวกันหรืออยู่ใกล้กันจะเชื่อมต่อกันเอง\nเล่นได้แม้ไม่มีอินเทอร์เน็ต"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Các iPhone cùng Wi-Fi hoặc ở gần nhau sẽ tự kết nối.\nKhông có Internet vẫn chơi được."
+          }
         }
       }
     },
@@ -29517,6 +31671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เล่นต่อ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chơi tiếp"
           }
         }
       }
@@ -29600,6 +31760,12 @@
             "state" : "translated",
             "value" : "ห้องของ %1$@%2$@"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phòng của %1$@%2$@"
+          }
         }
       }
     },
@@ -29681,6 +31847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล้างประวัติ “เล่นต่อ”"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa lịch sử “Chơi tiếp”"
           }
         }
       }
@@ -29764,6 +31936,12 @@
             "state" : "translated",
             "value" : "เกมสืบหาตัวตนสำหรับ 5–15 คน หาฝ่ายเงามืดที่ซ่อนอยู่ในทีม ฝ่ายที่ทำภารกิจสำเร็จ (หรือล้มเหลว) ครบ 3 ครั้งก่อนเป็นฝ่ายชนะ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trò chơi suy luận thân phận cho 5–15 người: tìm ra Bóng Tối lẫn trong đội. Phe nào hoàn thành (hoặc làm thất bại) 3 nhiệm vụ trước sẽ thắng."
+          }
         }
       }
     },
@@ -29845,6 +32023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เกมหลอกล่อสำหรับ 3–15 คน ทุกคนได้คำเดียวกันยกเว้นไลเออร์ อธิบายคำสั้น ๆ แล้วหาตัวไลเออร์ แม้ถูกจับได้ ไลเออร์ก็พลิกชนะถ้าทายคำถูก!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trò chơi đánh lừa cho 3–15 người: ai cũng nhận cùng một từ khóa trừ Kẻ Nói Dối. Mô tả bằng vài lời rồi tìm Kẻ Nói Dối. Dù bị bắt, Kẻ Nói Dối thắng nếu đoán đúng từ khóa!"
           }
         }
       }
@@ -29928,6 +32112,12 @@
             "state" : "translated",
             "value" : "เกมสืบสวนสำหรับ 3–15 คน เกี่ยวกับหนึ่งคืนที่มีก็อบลินในหมู่บ้าน การ์ดถูกสลับระหว่างคืน และการโหวตครั้งเดียวตัดสินแพ้ชนะ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trò chơi suy luận cho 3–15 người về một đêm có Yêu tinh trong làng. Bài bị đổi trong đêm và chỉ một lần bỏ phiếu quyết định thắng thua."
+          }
         }
       }
     },
@@ -30009,6 +32199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เกมวาดภาพสำหรับ 3–15 คน ทุกรอบคนหนึ่งวาดคำ คนอื่นทายในแชต ยิ่งทายเร็วยิ่งได้คะแนนสูง! เมื่อทุกคนวาดครบ คนที่ได้คะแนนสูงสุดชนะ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trò chơi vẽ tranh cho 3–15 người: mỗi vòng một người vẽ từ khóa, những người còn lại đoán trong chat. Đoán càng nhanh càng được nhiều điểm! Khi mọi người đều đã vẽ, ai điểm cao nhất sẽ thắng."
           }
         }
       }
@@ -30092,6 +32288,12 @@
             "state" : "translated",
             "value" : "สร้างห้อง (โฮสต์)"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tạo phòng (chủ phòng)"
+          }
         }
       }
     },
@@ -30173,6 +32375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เข้าร่วมเกม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tham gia ván chơi"
           }
         }
       }
@@ -30256,6 +32464,12 @@
             "state" : "translated",
             "value" : "วิธีเล่น (ฝึกกับบอต)"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cách chơi (luyện tập với bot)"
+          }
         }
       }
     },
@@ -30337,6 +32551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ย้อนกลับ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quay lại"
           }
         }
       }
@@ -30420,6 +32640,12 @@
             "state" : "translated",
             "value" : "ค้นหาห้อง %@"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tìm phòng của %@"
+          }
         }
       }
     },
@@ -30501,6 +32727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ค้นหาห้องใกล้ตัว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tìm phòng gần đây"
           }
         }
       }
@@ -30584,6 +32816,12 @@
             "state" : "translated",
             "value" : "กำลังเชื่อมต่อกับห้อง…"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang kết nối với phòng…"
+          }
         }
       }
     },
@@ -30665,6 +32903,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังค้นหาห้องใกล้ตัว…\nตรวจดูว่าโฮสต์กด “สร้างห้อง” แล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang tìm phòng gần đây…\nHãy kiểm tra chủ phòng đã nhấn “Tạo phòng” chưa."
           }
         }
       }
@@ -30748,6 +32992,12 @@
             "state" : "translated",
             "value" : "ห้องของ %@"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phòng của %@"
+          }
         }
       }
     },
@@ -30829,6 +33079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทุกคนได้คำเดียวกัน มีแค่คนเดียวที่ไม่รู้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mọi người có cùng từ khóa. Chỉ một người không biết."
           }
         }
       }
@@ -30912,6 +33168,12 @@
             "state" : "translated",
             "value" : "การเชื่อมต่อกับโฮสต์หลุด กำลังลองเชื่อมต่อใหม่…"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mất kết nối với chủ phòng. Đang thử kết nối lại…"
+          }
         }
       }
     },
@@ -30993,6 +33255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หมวด: %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chủ đề: %@"
           }
         }
       }
@@ -31076,6 +33344,12 @@
             "state" : "translated",
             "value" : "ทุกคนยกเว้นไลเออร์ได้คำเดียวกัน ดูคำของคุณแล้วกด “ถัดไป” เพื่อให้บอตดูเสร็จ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mọi người trừ Kẻ Nói Dối đã nhận cùng một từ khóa. Hãy xem từ khóa của bạn rồi nhấn “Tiếp” để bot xem xong."
+          }
         }
       }
     },
@@ -31157,6 +33431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ขั้นนี้ผลัดกันอธิบายคำด้วยถ้อยคำสั้น ๆ ทุกครั้งที่กด “ถัดไป” การพูดของตาปัจจุบันจะจบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đây là giai đoạn lần lượt mô tả từ khóa bằng vài lời. Mỗi lần nhấn “Tiếp”, phần nói của lượt hiện tại kết thúc."
           }
         }
       }
@@ -31240,6 +33520,12 @@
             "state" : "translated",
             "value" : "ใครอธิบายอ้อมแอ้ม? โหวตให้คนที่สงสัยว่าเป็นไลเออร์ก่อน แล้วกด “ถัดไป” เพื่อดูคะแนนของบอต"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ai đã mô tả mập mờ? Hãy bỏ phiếu trước cho người bạn nghi là Kẻ Nói Dối rồi nhấn “Tiếp” để xem phiếu của bot."
+          }
         }
       }
     },
@@ -31321,6 +33607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จับไลเออร์ได้แล้ว! แต่ถ้าไลเออร์ทายคำถูกก็พลิกชนะ — กด “ถัดไป” เพื่อดูการทายของไลเออร์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kẻ Nói Dối bị bắt rồi! Nhưng nếu đoán đúng từ khóa thì lật ngược thế cờ — nhấn “Tiếp” để xem lượt đoán của Kẻ Nói Dối."
           }
         }
       }
@@ -31404,6 +33696,12 @@
             "state" : "translated",
             "value" : "คุณคือไลเออร์!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn là Kẻ Nói Dối!"
+          }
         }
       }
     },
@@ -31485,6 +33783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คุณไม่รู้คำ แต่ต้องอธิบายเหมือนรู้ อย่าให้ถูกจับได้!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn không biết từ khóa nhưng phải mô tả như thể biết. Đừng để bị phát hiện!"
           }
         }
       }
@@ -31568,6 +33872,12 @@
             "state" : "translated",
             "value" : "คำ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Từ khóa"
+          }
         }
       }
     },
@@ -31649,6 +33959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ได้รับคำแล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Từ khóa đã đến"
           }
         }
       }
@@ -31732,6 +34048,12 @@
             "state" : "translated",
             "value" : "เสร็จแล้ว! รอผู้เล่นคนอื่น…"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xong rồi! Đang chờ những người chơi khác…"
+          }
         }
       }
     },
@@ -31813,6 +34135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูแล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã xem"
           }
         }
       }
@@ -31896,6 +34224,12 @@
             "state" : "translated",
             "value" : "ดูในที่ที่ไม่มีใครเห็นหน้าจอ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy xem ở nơi không ai nhìn thấy màn hình"
+          }
         }
       }
     },
@@ -31977,6 +34311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แอบดู"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem lén"
           }
         }
       }
@@ -32060,6 +34400,12 @@
             "state" : "translated",
             "value" : "ยืนยันแล้ว: %lld/%lld"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã xác nhận: %lld/%lld"
+          }
         }
       }
     },
@@ -32141,6 +34487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ผลัดกันอธิบายคำด้วยถ้อยคำสั้น ๆ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lần lượt mô tả từ khóa bằng vài lời"
           }
         }
       }
@@ -32224,6 +34576,12 @@
             "state" : "translated",
             "value" : "พูดละเอียดเกินไปจะเป็นคำใบ้ให้ไลเออร์\nพูดคลุมเครือเกินไปคุณจะถูกสงสัย!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nói quá chi tiết sẽ gợi ý cho Kẻ Nói Dối,\nnói quá mơ hồ thì bạn sẽ bị nghi ngờ!"
+          }
         }
       }
     },
@@ -32305,6 +34663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังพูด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang nói"
           }
         }
       }
@@ -32388,6 +34752,12 @@
             "state" : "translated",
             "value" : "พูดเสร็จแล้ว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã nói xong"
+          }
         }
       }
     },
@@ -32469,6 +34839,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใครคือไลเออร์?"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ai là Kẻ Nói Dối?"
           }
         }
       }
@@ -32552,6 +34928,12 @@
             "state" : "translated",
             "value" : "โหวตให้คนที่น่าสงสัยที่สุด · ถ้าคะแนนแตก ไลเออร์ชนะ!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy bỏ phiếu cho người đáng ngờ nhất · Nếu phiếu bị chia, Kẻ Nói Dối thắng!"
+          }
         }
       }
     },
@@ -32633,6 +35015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โหวตแล้ว! รอการนับคะแนน…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã bỏ phiếu! Đang chờ kiểm phiếu…"
           }
         }
       }
@@ -32716,6 +35104,12 @@
             "state" : "translated",
             "value" : "โหวตแล้ว: %lld/%lld"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã bỏ phiếu: %lld/%lld"
+          }
         }
       }
     },
@@ -32797,6 +35191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ชี้ “%@” ว่าเป็นไลเออร์ไหม?"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chỉ “%@” là Kẻ Nói Dối?"
           }
         }
       }
@@ -32880,6 +35280,12 @@
             "state" : "translated",
             "value" : "ยืนยันการโหวต"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xác nhận phiếu"
+          }
         }
       }
     },
@@ -32961,6 +35367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โหวตที่ส่งแล้วเปลี่ยนไม่ได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể đổi phiếu đã nộp."
           }
         }
       }
@@ -33044,6 +35456,12 @@
             "state" : "translated",
             "value" : "จับไลเออร์ได้!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bắt được Kẻ Nói Dối!"
+          }
         }
       }
     },
@@ -33125,6 +35543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "“%@” คือไลเออร์!\nแต่ถ้าทายคำถูก ไลเออร์จะพลิกชนะ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” là Kẻ Nói Dối!\nNhưng nếu đoán đúng từ khóa, Kẻ Nói Dối sẽ lật ngược thế cờ."
           }
         }
       }
@@ -33208,6 +35632,12 @@
             "state" : "translated",
             "value" : "เลือกคำเลย — มีโอกาสแค่ครั้งเดียว!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy chọn từ khóa — chỉ có một cơ hội!"
+          }
         }
       }
     },
@@ -33289,6 +35719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไลเออร์กำลังทายคำ…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kẻ Nói Dối đang đoán từ khóa…"
           }
         }
       }
@@ -33372,6 +35808,12 @@
             "state" : "translated",
             "value" : "ทายว่าคำคือ “%@” ไหม?"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đoán từ khóa là “%@”?"
+          }
         }
       }
     },
@@ -33453,6 +35895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยืนยันคำนี้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xác nhận từ này"
           }
         }
       }
@@ -33536,6 +35984,12 @@
             "state" : "translated",
             "value" : "มีโอกาสแค่ครั้งเดียว!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chỉ có một cơ hội!"
+          }
         }
       }
     },
@@ -33617,6 +36071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไลเออร์ชนะ!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kẻ Nói Dối thắng!"
           }
         }
       }
@@ -33700,6 +36160,12 @@
             "state" : "translated",
             "value" : "ฝ่ายพลเมืองชนะ!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phe công dân thắng!"
+          }
         }
       }
     },
@@ -33781,6 +36247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คำทายของไลเออร์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lượt đoán của Kẻ Nói Dối"
           }
         }
       }
@@ -33864,6 +36336,12 @@
             "state" : "translated",
             "value" : "ผลโหวต"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết quả bỏ phiếu"
+          }
         }
       }
     },
@@ -33945,6 +36423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ปิดห้อง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đóng phòng"
           }
         }
       }
@@ -34028,6 +36512,12 @@
             "state" : "translated",
             "value" : "ห้องของฉัน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phòng của tôi"
+          }
         }
       }
     },
@@ -34109,6 +36599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ห้องรอ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phòng chờ"
           }
         }
       }
@@ -34192,6 +36688,12 @@
             "state" : "translated",
             "value" : "ผู้เล่น: %1$lld · ต้องมี %2$lld–%3$lld"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Người chơi: %1$lld · cần %2$lld–%3$lld"
+          }
         }
       }
     },
@@ -34273,6 +36775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เรียนรู้วิธีเล่น: บอตกำลังเข้าห้อง\nเมื่อคนครบ กด “เริ่มเกม”"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Học cách chơi: bot đang vào phòng.\nKhi đủ người, hãy nhấn “Bắt đầu”."
           }
         }
       }
@@ -34356,6 +36864,12 @@
             "state" : "translated",
             "value" : "เริ่มเกม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bắt đầu"
+          }
         }
       }
     },
@@ -34437,6 +36951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จำนวนผู้เล่นขั้นต่ำ: %lld"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Số người chơi tối thiểu: %lld"
           }
         }
       }
@@ -34520,6 +37040,12 @@
             "state" : "translated",
             "value" : "รอโฮสต์เริ่มเกม…"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang chờ chủ phòng bắt đầu ván…"
+          }
         }
       }
     },
@@ -34601,6 +37127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถ้ามีผู้เล่นเท่านี้: เงามืด %1$lld · ภาคีแสงจันทร์ %2$lld"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Với số người này: Bóng Tối %1$lld · Hội Ánh Trăng %2$lld"
           }
         }
       }
@@ -34684,6 +37216,12 @@
             "state" : "translated",
             "value" : "[ห้องเกมแสงจันทร์ %@] สอบถาม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[Phòng Game Ánh Trăng %@] Liên hệ"
+          }
         }
       }
     },
@@ -34765,6 +37303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ช่วยเหลือ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hỗ trợ"
           }
         }
       }
@@ -34848,6 +37392,12 @@
             "state" : "translated",
             "value" : "สอบถามทางอีเมล"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liên hệ qua email"
+          }
         }
       }
     },
@@ -34926,6 +37476,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM (@lee25_ios)"
+          }
+        },
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram DM (@lee25_ios)"
@@ -35012,6 +37568,12 @@
             "state" : "translated",
             "value" : "ติดต่อนักพัฒนา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liên hệ nhà phát triển"
+          }
         }
       }
     },
@@ -35093,6 +37655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถ้าพบบั๊กหรืออยากให้มีเกมไหน บอกเราได้เลย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nếu có lỗi cần báo hoặc trò chơi bạn muốn có, cứ thoải mái cho chúng tôi biết."
           }
         }
       }
@@ -35176,6 +37744,12 @@
             "state" : "translated",
             "value" : "เปิดแอปเมลไม่ได้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không thể mở ứng dụng Mail"
+          }
         }
       }
     },
@@ -35257,6 +37831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คัดลอกที่อยู่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao chép địa chỉ"
           }
         }
       }
@@ -35340,6 +37920,12 @@
             "state" : "translated",
             "value" : "ปิด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đóng"
+          }
         }
       }
     },
@@ -35421,6 +38007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โปรดส่งอีเมลไปที่ที่อยู่ด้านล่าง\n%@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vui lòng gửi email đến địa chỉ bên dưới.\n%@"
           }
         }
       }
@@ -35504,6 +38096,12 @@
             "state" : "translated",
             "value" : "ยินดีต้อนรับสู่ห้องเกมแสงจันทร์"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chào mừng đến với Phòng Game Ánh Trăng"
+          }
         }
       }
     },
@@ -35585,6 +38183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รวมเกมปาร์ตี้ที่เล่นบน iPhone กับเพื่อนที่อยู่ที่เดียวกัน\nไม่ต้องใช้อินเทอร์เน็ต ไม่ต้องสมัครสมาชิก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bộ sưu tập trò chơi tiệc tùng chơi trên iPhone cùng bạn bè ở chung một nơi.\nKhông cần Internet hay đăng ký."
           }
         }
       }
@@ -35668,6 +38272,12 @@
             "state" : "translated",
             "value" : "คนหนึ่งสร้างห้อง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Một người tạo phòng"
+          }
         }
       }
     },
@@ -35749,6 +38359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อทุกคนติดตั้งแอปแล้ว ให้คนหนึ่งเลือกเกมแล้วกด “สร้างห้อง”\nคนอื่นกด “เข้าร่วมเกม” เพื่อเข้าห้องนั้น แค่นี้เอง!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sau khi mọi người cài ứng dụng, một người chọn trò chơi rồi nhấn “Tạo phòng”.\nNhững người còn lại vào phòng bằng “Tham gia ván chơi” là xong!"
           }
         }
       }
@@ -35832,6 +38448,12 @@
             "state" : "translated",
             "value" : "มารวมกันใกล้ ๆ แล้วอนุญาตการเชื่อมต่อ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tụ lại gần nhau và cho phép kết nối"
+          }
         }
       }
     },
@@ -35913,6 +38535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พวกคุณหากันเจอใน Wi-Fi เดียวกันหรือในระยะบลูทูธ\nโปรดอนุญาตคำขอเข้าถึง “เครือข่ายในพื้นที่” ที่ปรากฏตอนแรก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mọi người tìm thấy nhau trong cùng Wi-Fi hoặc trong tầm Bluetooth.\nNhớ cho phép yêu cầu truy cập “Mạng cục bộ” xuất hiện lần đầu."
           }
         }
       }
@@ -35996,6 +38624,12 @@
             "state" : "translated",
             "value" : "ยังไม่คุ้นกติกา? ฝึกก่อน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa quen luật? Luyện tập trước"
+          }
         }
       }
     },
@@ -36077,6 +38711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทุกเกมมี “วิธีเล่น (ฝึกกับบอต)”\nเล่นหนึ่งตาคนเดียวกับบอตเพื่อเรียนรู้กติกาได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trò nào cũng có “Cách chơi (luyện tập với bot)”.\nBạn có thể chơi một ván một mình với bot để học luật."
           }
         }
       }
@@ -36160,6 +38800,12 @@
             "state" : "translated",
             "value" : "ข้าม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bỏ qua"
+          }
         }
       }
     },
@@ -36241,6 +38887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เริ่มเลย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bắt đầu"
           }
         }
       }
@@ -36324,6 +38976,12 @@
             "state" : "translated",
             "value" : "ผู้เล่น: %1$lld (%2$lld–%3$lld)"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Người chơi: %1$lld (%2$lld–%3$lld)"
+          }
         }
       }
     },
@@ -36405,6 +39063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แจกบทบาทแล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã chia vai"
           }
         }
       }
@@ -36488,6 +39152,12 @@
             "state" : "translated",
             "value" : "ดูแล้ว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tôi đã xem"
+          }
         }
       }
     },
@@ -36569,6 +39239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังรับข้อมูลบทบาท…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang nhận thông tin vai…"
           }
         }
       }
@@ -36652,6 +39328,12 @@
             "state" : "translated",
             "value" : "ดูบทบาทแล้ว: %lld/%lld"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã xem vai: %lld/%lld"
+          }
         }
       }
     },
@@ -36733,6 +39415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตรวจดูให้แน่ใจว่าไม่มีใครรอบตัวเห็น\nแล้วกดปุ่มเพื่อดูบทบาทของคุณ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy đảm bảo không ai gần đó nhìn thấy,\nrồi nhấn nút để xem vai của bạn"
           }
         }
       }
@@ -36816,6 +39504,12 @@
             "state" : "translated",
             "value" : "ดูบทบาทของฉัน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem vai của tôi"
+          }
         }
       }
     },
@@ -36897,6 +39591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เสร็จแล้ว!\nรอผู้เล่นคนอื่น…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xong rồi!\nĐang chờ những người chơi khác…"
           }
         }
       }
@@ -36980,6 +39680,12 @@
             "state" : "translated",
             "value" : "คุณคือหัวหน้า!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn là đội trưởng!"
+          }
         }
       }
     },
@@ -37061,6 +39767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือก %1$lld คนสำหรับภารกิจนี้ (%2$lld/%3$lld)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn %1$lld người cho nhiệm vụ này (%2$lld/%3$lld)"
           }
         }
       }
@@ -37144,6 +39856,12 @@
             "state" : "translated",
             "value" : "ยืนยันทีม → ทุกคนโหวต"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chốt đội → mọi người bỏ phiếu"
+          }
         }
       }
     },
@@ -37225,6 +39943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หัวหน้า %1$@\nกำลังเลือกสมาชิกทีม %2$lld คน…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đội trưởng %1$@\nđang chọn %2$lld thành viên đội…"
           }
         }
       }
@@ -37308,6 +40032,12 @@
             "state" : "translated",
             "value" : "อภิปรายกันได้เต็มที่ว่าจะส่งใครไป!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy thoải mái thảo luận xem nên cử ai đi!"
+          }
         }
       }
     },
@@ -37389,6 +40119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โหวตทีม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bỏ phiếu cho đội"
           }
         }
       }
@@ -37472,6 +40208,12 @@
             "state" : "translated",
             "value" : "โหวตแล้ว — รอผล (%lld/%lld)"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã bỏ phiếu — đang chờ kết quả (%lld/%lld)"
+          }
         }
       }
     },
@@ -37553,6 +40295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คุณเห็นด้วยกับทีมนี้ไหม?\n(คะแนนโหวตของทุกคนจะเปิดเผย · ถ้าเท่ากันถือว่าไม่ผ่าน)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn có đồng ý với đội hình này không?\n(Phiếu của mọi người sẽ được công khai · hòa là bị từ chối)"
           }
         }
       }
@@ -37636,6 +40384,12 @@
             "state" : "translated",
             "value" : "เห็นด้วย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồng ý"
+          }
         }
       }
     },
@@ -37717,6 +40471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่เห็นด้วย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phản đối"
           }
         }
       }
@@ -37800,6 +40560,12 @@
             "state" : "translated",
             "value" : "โหวต “เห็นด้วย” กับทีมไหม?"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bỏ phiếu “đồng ý” cho đội?"
+          }
         }
       }
     },
@@ -37881,6 +40647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โหวต “ไม่เห็นด้วย” กับทีมไหม?"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bỏ phiếu “phản đối” đội?"
           }
         }
       }
@@ -37964,6 +40736,12 @@
             "state" : "translated",
             "value" : "ตัวเลือกของหัวหน้า %@"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lựa chọn của đội trưởng %@"
+          }
         }
       }
     },
@@ -38045,6 +40823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ผ่าน! ทีมออกเดินทางปฏิบัติภารกิจ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Được thông qua! Đội lên đường"
           }
         }
       }
@@ -38128,6 +40912,12 @@
             "state" : "translated",
             "value" : "ไม่ผ่าน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bị từ chối"
+          }
         }
       }
     },
@@ -38209,6 +40999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หัวหน้าส่งต่อให้คนถัดไป · ไม่ผ่านติดกัน %lld/%lld"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đội trưởng chuyển cho người tiếp theo · bị từ chối liên tiếp: %lld/%lld"
           }
         }
       }
@@ -38292,6 +41088,12 @@
             "state" : "translated",
             "value" : "⚠️ ถ้าไม่ผ่านอีกครั้ง ฝ่ายเงามืดจะชนะ!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⚠️ Bị từ chối thêm một lần nữa là phe Bóng Tối thắng!"
+          }
         }
       }
     },
@@ -38373,6 +41175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไปต่อ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếp tục"
           }
         }
       }
@@ -38456,6 +41264,12 @@
             "state" : "translated",
             "value" : "รอโฮสต์ไปต่อ…"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang chờ chủ phòng tiếp tục…"
+          }
         }
       }
     },
@@ -38537,6 +41351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เห็นด้วย 👍"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đồng ý 👍"
           }
         }
       }
@@ -38620,6 +41440,12 @@
             "state" : "translated",
             "value" : "ไม่เห็นด้วย 👎"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phản đối 👎"
+          }
         }
       }
     },
@@ -38701,6 +41527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภารกิจที่ %lld กำลังดำเนินอยู่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhiệm vụ số %lld đang diễn ra"
           }
         }
       }
@@ -38784,6 +41616,12 @@
             "state" : "translated",
             "value" : "ทีม: %@"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đội: %@"
+          }
         }
       }
     },
@@ -38865,6 +41703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทีมกำลังปฏิบัติภารกิจ…\n(ส่งแล้ว %lld/%lld)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đội đang thực hiện nhiệm vụ…\n(đã nộp %lld/%lld)"
           }
         }
       }
@@ -38948,6 +41792,12 @@
             "state" : "translated",
             "value" : "จำนวนการ์ดล้มเหลวที่ทำให้ภารกิจนี้ล้มเหลว: %lld"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Số bài thất bại để nhiệm vụ này thất bại: %lld"
+          }
         }
       }
     },
@@ -39029,6 +41879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือกการ์ด (ไม่มีใครรู้ว่าใครส่งอะไร)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy chọn một lá bài (không ai biết ai đã ra gì)"
           }
         }
       }
@@ -39112,6 +41968,12 @@
             "state" : "translated",
             "value" : "คุณคือเงามืด — การ์ดล้มเหลวทำให้ภารกิจพังได้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn là Bóng Tối — bài thất bại có thể phá hỏng nhiệm vụ"
+          }
         }
       }
     },
@@ -39193,6 +42055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ส่งการ์ด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nộp bài"
           }
         }
       }
@@ -39276,6 +42144,12 @@
             "state" : "translated",
             "value" : "สำเร็จ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thành công"
+          }
         }
       }
     },
@@ -39357,6 +42231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ล้มเหลว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thất bại"
           }
         }
       }
@@ -39440,6 +42320,12 @@
             "state" : "translated",
             "value" : "สมาชิกภาคี\nส่งได้แค่สำเร็จ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thành viên Hội\nchỉ ra được thành công"
+          }
         }
       }
     },
@@ -39521,6 +42407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ส่งการ์ดแล้ว\nรอสมาชิกคนอื่น… (%lld/%lld)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã nộp bài\nĐang chờ các thành viên khác… (%lld/%lld)"
           }
         }
       }
@@ -39604,6 +42496,12 @@
             "state" : "translated",
             "value" : "ภารกิจสำเร็จ!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhiệm vụ thành công!"
+          }
         }
       }
     },
@@ -39685,6 +42583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภารกิจล้มเหลว…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhiệm vụ thất bại…"
           }
         }
       }
@@ -39768,6 +42672,12 @@
             "state" : "translated",
             "value" : "การ์ดสำเร็จ: %1$lld · การ์ดล้มเหลว: %2$lld"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bài thành công: %1$lld · bài thất bại: %2$lld"
+          }
         }
       }
     },
@@ -39849,6 +42759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "มีการ์ดล้มเหลวออกมา แต่ภารกิจนี้ต้องใช้ %lld จึงรอดไปได้!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Có bài thất bại nhưng nhiệm vụ này cần %lld nên vẫn trụ được!"
           }
         }
       }
@@ -39932,6 +42848,12 @@
             "state" : "translated",
             "value" : "สำเร็จ %lld : %lld ล้มเหลว — ใครชนะครบ 3 ก่อนเป็นฝ่ายชนะ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thành công %lld : %lld Thất bại — ai thắng 3 trận trước sẽ thắng"
+          }
         }
       }
     },
@@ -40013,6 +42935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดำ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đen"
           }
         }
       }
@@ -40096,6 +43024,12 @@
             "state" : "translated",
             "value" : "แดง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đỏ"
+          }
         }
       }
     },
@@ -40177,6 +43111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ส้ม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cam"
           }
         }
       }
@@ -40260,6 +43200,12 @@
             "state" : "translated",
             "value" : "เหลือง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vàng"
+          }
         }
       }
     },
@@ -40341,6 +43287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เขียว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xanh lá"
           }
         }
       }
@@ -40424,6 +43376,12 @@
             "state" : "translated",
             "value" : "น้ำเงิน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xanh dương"
+          }
         }
       }
     },
@@ -40505,6 +43463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ม่วง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tím"
           }
         }
       }
@@ -40588,6 +43552,12 @@
             "state" : "translated",
             "value" : "น้ำตาล"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nâu"
+          }
         }
       }
     },
@@ -40669,6 +43639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยางลบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cục tẩy"
           }
         }
       }
@@ -40752,6 +43728,12 @@
             "state" : "translated",
             "value" : "สี %lld"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màu %lld"
+          }
         }
       }
     },
@@ -40833,6 +43815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พู่กันเส้นบาง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cọ nhỏ"
           }
         }
       }
@@ -40916,6 +43904,12 @@
             "state" : "translated",
             "value" : "พู่กันขนาดกลาง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cọ vừa"
+          }
         }
       }
     },
@@ -40997,6 +43991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พู่กันเส้นหนา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cọ to"
           }
         }
       }
@@ -41080,6 +44080,12 @@
             "state" : "translated",
             "value" : "คนหนึ่งวาด คนอื่นทาย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Một người vẽ, những người còn lại đoán"
+          }
         }
       }
     },
@@ -41161,6 +44167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รอบที่ %1$lld / %2$lld"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vòng %1$lld / %2$lld"
           }
         }
       }
@@ -41244,6 +44256,12 @@
             "state" : "translated",
             "value" : "ฉันคือผู้วาด!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tôi là Họa sĩ!"
+          }
         }
       }
     },
@@ -41325,6 +44343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ผู้วาด: %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Họa sĩ: %@"
           }
         }
       }
@@ -41408,6 +44432,12 @@
             "state" : "translated",
             "value" : "วาดเสร็จแล้ว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vẽ xong rồi"
+          }
         }
       }
     },
@@ -41489,6 +44519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ข้ามรอบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bỏ qua vòng"
           }
         }
       }
@@ -41572,6 +44608,12 @@
             "state" : "translated",
             "value" : "รอบนี้คุณเป็นผู้วาด! เลือกคำที่วาดง่ายที่สุดจาก 3 คำ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vòng này bạn là Họa sĩ! Hãy chọn từ dễ vẽ nhất trong 3 từ."
+          }
         }
       }
     },
@@ -41653,6 +44695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วาดคำให้เป็นภาพ ห้ามใช้ตัวอักษรหรือตัวเลข! เมื่อวาดเสร็จ กด “ถัดไป” เพื่อดูคำทายของบอต"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy diễn tả từ khóa bằng tranh. Cấm chữ và số! Vẽ xong hãy nhấn “Tiếp” để xem bot đoán."
           }
         }
       }
@@ -41736,6 +44784,12 @@
             "state" : "translated",
             "value" : "ผลของรอบนี้ ยิ่งทายเร็วยิ่งได้คะแนนสูง ผู้วาดได้คะแนนมากขึ้นเมื่อมีคนทายถูกมากขึ้น กด “ถัดไป” เพื่อดูอันดับสุดท้าย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết quả vòng. Đoán càng nhanh càng được nhiều điểm; Họa sĩ càng được điểm khi càng nhiều người đoán đúng. Nhấn “Tiếp” để xem xếp hạng cuối."
+          }
         }
       }
     },
@@ -41817,6 +44871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือกคำ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn một từ"
           }
         }
       }
@@ -41900,6 +44960,12 @@
             "state" : "translated",
             "value" : "อย่าให้คนอื่นเห็น! เลือกคำที่วาดง่ายจะได้เปรียบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đừng để người khác thấy! Chọn từ dễ vẽ sẽ có lợi."
+          }
         }
       }
     },
@@ -41981,6 +45047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ กำลังเลือกคำ…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ đang chọn từ…"
           }
         }
       }
@@ -42064,6 +45136,12 @@
             "state" : "translated",
             "value" : "อีกสักครู่จะเริ่มวาด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lát nữa tranh sẽ bắt đầu được vẽ."
+          }
         }
       }
     },
@@ -42145,6 +45223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จำนวนตัวอักษร: %lld"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Số chữ: %lld"
           }
         }
       }
@@ -42228,6 +45312,12 @@
             "state" : "translated",
             "value" : "ทายถูก: %1$lld/%2$lld"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đoán đúng: %1$lld/%2$lld"
+          }
         }
       }
     },
@@ -42309,6 +45399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คำทายของทุกคนจะแสดงที่นี่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lượt đoán của mọi người sẽ hiện ở đây."
           }
         }
       }
@@ -42392,6 +45488,12 @@
             "state" : "translated",
             "value" : "ดูภาพแล้วทายคำตอบ!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy xem tranh và đoán đáp án!"
+          }
         }
       }
     },
@@ -42473,6 +45575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ย้อนกลับหนึ่งเส้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoàn tác một nét"
           }
         }
       }
@@ -42556,6 +45664,12 @@
             "state" : "translated",
             "value" : "ลบภาพทั้งหมด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa toàn bộ tranh"
+          }
         }
       }
     },
@@ -42637,6 +45751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถูกต้อง! รอคนอื่น…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đúng rồi! Đang chờ những người khác…"
           }
         }
       }
@@ -42720,6 +45840,12 @@
             "state" : "translated",
             "value" : "พิมพ์คำตอบ…"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhập đáp án…"
+          }
         }
       }
     },
@@ -42801,6 +45927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ซ่อนแป้นพิมพ์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ẩn bàn phím"
           }
         }
       }
@@ -42884,6 +46016,12 @@
             "state" : "translated",
             "value" : "คำคือ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Từ khóa là"
+          }
         }
       }
     },
@@ -42965,6 +46103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถูกต้อง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đúng"
           }
         }
       }
@@ -43048,6 +46192,12 @@
             "state" : "translated",
             "value" : "ดูอันดับสุดท้าย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem xếp hạng cuối"
+          }
         }
       }
     },
@@ -43129,6 +46279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รอบถัดไป"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vòng tiếp theo"
           }
         }
       }
@@ -43212,6 +46368,12 @@
             "state" : "translated",
             "value" : "รอโฮสต์ไปต่อ…"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang chờ chủ phòng tiếp tục…"
+          }
         }
       }
     },
@@ -43293,6 +46455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คะแนนสูงสุด: %lld"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điểm cao nhất: %lld"
           }
         }
       }
@@ -43376,6 +46544,12 @@
             "state" : "translated",
             "value" : "คะแนน: %lld"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điểm: %lld"
+          }
         }
       }
     },
@@ -43457,6 +46631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เล่นอีกครั้งกับสมาชิกเดิม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chơi lại với cùng thành viên"
           }
         }
       }
@@ -43540,6 +46720,12 @@
             "state" : "translated",
             "value" : "การเชื่อมต่อหลุด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mất kết nối"
+          }
         }
       }
     },
@@ -43621,6 +46807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รอ %@ เชื่อมต่อใหม่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang chờ %@ kết nối lại."
           }
         }
       }
@@ -43704,6 +46896,12 @@
             "state" : "translated",
             "value" : "นำ %@ ออก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đưa %@ ra khỏi phòng"
+          }
         }
       }
     },
@@ -43785,6 +46983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่ผ่าน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bị từ chối"
           }
         }
       }
@@ -43868,6 +47072,12 @@
             "state" : "translated",
             "value" : "ต้องล้มเหลว 2 ใบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cần 2 bài thất bại"
+          }
         }
       }
     },
@@ -43949,6 +47159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หนึ่งคืนที่มีก็อบลินในหมู่บ้าน โหวตครั้งเดียว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Một đêm có Yêu tinh trong làng, chỉ một lần bỏ phiếu"
           }
         }
       }
@@ -44032,6 +47248,12 @@
             "state" : "translated",
             "value" : "🌙 กลางคืน — การกระทำลับ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🌙 Ban đêm — Hành động bí mật"
+          }
         }
       }
     },
@@ -44113,6 +47335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "☀️ กลางวัน — อภิปราย"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "☀️ Ban ngày — Thảo luận"
           }
         }
       }
@@ -44196,6 +47424,12 @@
             "state" : "translated",
             "value" : "🗳️ โหวตขับไล่"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🗳️ Bỏ phiếu trục xuất"
+          }
         }
       }
     },
@@ -44277,6 +47511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ผล"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kết quả"
           }
         }
       }
@@ -44360,6 +47600,12 @@
             "state" : "translated",
             "value" : "กลางคืนทุกคนทำการกระทำแบบลับ ๆ ดูบทบาทและทำให้เสร็จ แล้วกด “ถัดไป” เพื่อให้บอตทำการกระทำตอนกลางคืน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ban đêm mỗi người hành động bí mật. Hãy xem vai và hoàn tất hành động, rồi nhấn “Tiếp” để bot thực hiện hành động ban đêm."
+          }
         }
       }
     },
@@ -44441,6 +47687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ระหว่างคืน โจรราตรีกับจอมซนอาจสลับการ์ดกันแล้ว! ในเกมจริงตรงนี้คือช่วงอภิปราย กด “ถัดไป” เพื่อเริ่มโหวต"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trong đêm, Kẻ trộm đêm và Kẻ tinh nghịch có thể đã đổi bài! Trong ván thật, đây là lúc thảo luận. Nhấn “Tiếp” để bắt đầu bỏ phiếu."
           }
         }
       }
@@ -44524,6 +47776,12 @@
             "state" : "translated",
             "value" : "ชี้คนที่สงสัยว่าเป็นก็อบลินก่อน แล้วกด “ถัดไป” เพื่อดูคะแนนของบอต ผู้ได้คะแนนโหวตมากที่สุดจะถูกขับไล่"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy chỉ người bạn nghi là Yêu tinh trước, rồi nhấn “Tiếp” để xem phiếu của bot. Người nhiều phiếu nhất sẽ bị trục xuất."
+          }
         }
       }
     },
@@ -44605,6 +47863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ก็อบลินพวกเดียวกัน: %@"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yêu tinh đồng đội: %@"
           }
         }
       }
@@ -44688,6 +47952,12 @@
             "state" : "translated",
             "value" : "กลางคืนมาถึงแล้ว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đêm đã xuống"
+          }
         }
       }
     },
@@ -44769,6 +48039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูบทบาทในที่ที่ไม่มีใครเห็นหน้าจอ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy xem vai ở nơi không ai nhìn thấy màn hình"
           }
         }
       }
@@ -44852,6 +48128,12 @@
             "state" : "translated",
             "value" : "ทำเสร็จแล้ว! รอผู้เล่นคนอื่น… %lld/%lld"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã hành động xong! Đang chờ những người chơi khác… %lld/%lld"
+          }
         }
       }
     },
@@ -44933,6 +48215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คุณคือก็อบลินคนเดียว! ดูการ์ดกลางได้ 1 ใบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn là Yêu tinh duy nhất! Bạn được xem 1 lá bài giữa"
           }
         }
       }
@@ -45016,6 +48304,12 @@
             "state" : "translated",
             "value" : "กลางใบที่ %lld"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giữa số %lld"
+          }
         }
       }
     },
@@ -45097,6 +48391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูการ์ดกลางใบที่ %lld"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem lá bài giữa số %lld"
           }
         }
       }
@@ -45180,6 +48480,12 @@
             "state" : "translated",
             "value" : "เห็นพวกเดียวกันแล้ว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã thấy đồng đội"
+          }
         }
       }
     },
@@ -45261,6 +48567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูผู้เล่น 1 คน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem 1 người chơi"
           }
         }
       }
@@ -45344,6 +48656,12 @@
             "state" : "translated",
             "value" : "ดูการ์ดกลาง 2 ใบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem 2 lá bài giữa"
+          }
         }
       }
     },
@@ -45425,6 +48743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ดูการ์ดของ “%@”"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem bài của “%@”"
           }
         }
       }
@@ -45508,6 +48832,12 @@
             "state" : "translated",
             "value" : "ดูการ์ดกลาง 2 ใบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xem 2 lá bài giữa"
+          }
         }
       }
     },
@@ -45589,6 +48919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือกคนที่จะขโมยการ์ด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn người để trộm bài"
           }
         }
       }
@@ -45672,6 +49008,12 @@
             "state" : "translated",
             "value" : "ขโมยการ์ดของ “%@”"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trộm bài của “%@”"
+          }
         }
       }
     },
@@ -45753,6 +49095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือกผู้เล่นสองคนที่จะสลับการ์ด (%lld/2)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn hai người để đổi bài (%lld/2)"
           }
         }
       }
@@ -45836,6 +49184,12 @@
             "state" : "translated",
             "value" : "สลับการ์ดของสองคนนี้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đổi bài của hai người này"
+          }
         }
       }
     },
@@ -45917,6 +49271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เช้าแล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trời đã sáng"
           }
         }
       }
@@ -46000,6 +49360,12 @@
             "state" : "translated",
             "value" : "การ์ดอาจเปลี่ยนไประหว่างคืน!\nหาก็อบลิน (ตามการ์ดปัจจุบัน) ด้วยการอภิปราย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bài có thể đã thay đổi trong đêm!\nHãy tìm ra Yêu tinh (theo lá bài hiện tại) bằng thảo luận."
+          }
         }
       }
     },
@@ -46081,6 +49447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "(ตามบทบาทของคุณตอนเริ่มคืน)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(Theo vai của bạn lúc bắt đầu đêm)"
           }
         }
       }
@@ -46164,6 +49536,12 @@
             "state" : "translated",
             "value" : "สิ่งที่เกิดขึ้นระหว่างคืน (เปิดเผยเฉพาะตอนฝึก)"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chuyện xảy ra trong đêm (chỉ công khai khi luyện tập)"
+          }
         }
       }
     },
@@ -46245,6 +49623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ในเกมจริงจะไม่มีอะไรถูกเปิดเผย เพราะอย่างนี้การอภิปรายจึงสำคัญ!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trong ván thật sẽ không có gì được công khai. Vì vậy thảo luận mới quan trọng!"
           }
         }
       }
@@ -46328,6 +49712,12 @@
             "state" : "translated",
             "value" : "อภิปรายจบแล้ว! เริ่มโหวต"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hết thảo luận! Bắt đầu bỏ phiếu"
+          }
         }
       }
     },
@@ -46409,6 +49799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รอโฮสต์เริ่มโหวต…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang chờ chủ phòng bắt đầu bỏ phiếu…"
           }
         }
       }
@@ -46492,6 +49888,12 @@
             "state" : "translated",
             "value" : "ชี้คนที่คุณคิดว่าเป็นก็อบลิน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy chỉ người bạn nghĩ là Yêu tinh"
+          }
         }
       }
     },
@@ -46573,6 +49975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ผู้ได้คะแนนโหวตมากที่สุดถูกขับไล่ · ถ้าเท่ากัน ขับไล่ทุกคนที่เท่ากัน · ถ้าทุกคนได้ไม่เกิน 1 คะแนน จะไม่มีใครถูกขับไล่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Người nhiều phiếu nhất bị trục xuất · hòa thì tất cả người hòa · nếu ai cũng có từ 1 phiếu trở xuống, không ai bị trục xuất"
           }
         }
       }
@@ -46656,6 +50064,12 @@
             "state" : "translated",
             "value" : "โหวตขับไล่ “%@” ไหม?"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bỏ phiếu trục xuất “%@”?"
+          }
         }
       }
     },
@@ -46737,6 +50151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หมู่บ้านชนะ!"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dân làng thắng!"
           }
         }
       }
@@ -46820,6 +50240,12 @@
             "state" : "translated",
             "value" : "ฝ่ายก็อบลินชนะ!"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phe Yêu tinh thắng!"
+          }
         }
       }
     },
@@ -46901,6 +50327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คะแนนโหวต: %lld"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Số phiếu: %lld"
           }
         }
       }
@@ -46985,6 +50417,12 @@
             "state" : "translated",
             "value" : "VoiceOver ใช้ง่ายขึ้น"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver dễ dùng hơn"
+          }
         }
       }
     },
@@ -47067,6 +50505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อขยายตัวอักษร หน้าจอจะจัดวางใหม่แทนที่จะถูกตัด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khi phóng to chữ, màn hình sẽ sắp xếp lại gọn gàng thay vì bị cắt."
           }
         }
       }
@@ -47151,6 +50595,12 @@
             "state" : "translated",
             "value" : "แจ้งเตือนเมื่อถึงตาคุณ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhắc khi đến lượt bạn"
+          }
         }
       }
     },
@@ -47233,6 +50683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แม้เพิ่มคอนทราสต์หรือแยกสีได้ยาก คุณก็ยังดูฝ่ายและผลได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dù tăng độ tương phản hay khó phân biệt màu, bạn vẫn nhận ra các phe và kết quả."
           }
         }
       }
@@ -47317,6 +50773,12 @@
             "state" : "translated",
             "value" : "ใช้แอปได้หลายภาษามากขึ้น"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng ứng dụng bằng nhiều ngôn ngữ hơn."
+          }
         }
       }
     },
@@ -47399,6 +50861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ภาษาเพิ่มเติม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm ngôn ngữ"
           }
         }
       }
@@ -47483,6 +50951,12 @@
             "state" : "translated",
             "value" : "สีและคอนทราสต์ที่สบายตา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màu sắc và độ tương phản dễ nhìn"
+          }
         }
       }
     },
@@ -47565,6 +51039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การตอบสนองที่สัมผัสได้ที่ปลายนิ้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phản hồi bạn cảm nhận được ở đầu ngón tay"
           }
         }
       }
@@ -47649,6 +51129,12 @@
             "state" : "translated",
             "value" : "เมื่อเปิดแอปครั้งแรกหลังอัปเดต จะบอกว่ามีอะไรใหม่"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lần đầu mở sau khi cập nhật, bạn sẽ biết có gì mới."
+          }
         }
       }
     },
@@ -47731,6 +51217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "มีอะไรใหม่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Có gì mới"
           }
         }
       }
@@ -47815,6 +51307,12 @@
             "state" : "translated",
             "value" : "สั่นเบา ๆ เมื่อได้รับบทบาทหรือโหวตจบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rung nhẹ khi bạn nhận vai hoặc khi bỏ phiếu xong."
+          }
         }
       }
     },
@@ -47897,6 +51395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รองรับภาษาอังกฤษ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hỗ trợ tiếng Anh"
           }
         }
       }
@@ -47981,6 +51485,12 @@
             "state" : "translated",
             "value" : "เพื่อเล่นกับเพื่อนต่างชาติ ใช้แอปเป็นภาษาอังกฤษได้ด้วย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Để chơi cùng bạn bè nước ngoài, ứng dụng cũng dùng được bằng tiếng Anh."
+          }
         }
       }
     },
@@ -48063,6 +51573,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลดการเคลื่อนไหว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giảm chuyển động"
           }
         }
       }
@@ -48147,6 +51663,12 @@
             "state" : "translated",
             "value" : "เมื่อเปิด “ลดการเคลื่อนไหว” เอฟเฟกต์บนหน้าจอจะนุ่มนวลขึ้น"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khi bật “Giảm chuyển động”, hiệu ứng trên màn hình sẽ dịu hơn."
+          }
         }
       }
     },
@@ -48229,6 +51751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หน้าจอสำหรับตัวอักษรขนาดใหญ่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màn hình cho chữ lớn"
           }
         }
       }
@@ -48313,6 +51841,12 @@
             "state" : "translated",
             "value" : "หน้าจอสำหรับ iPhone แบบพับได้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màn hình cho iPhone gập"
+          }
         }
       }
     },
@@ -48395,6 +51929,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บน iPhone แบบพับได้ แบ่งหน้าจอกว้างเป็นสองส่วนได้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trên iPhone gập, màn hình rộng được chia thành hai phần."
           }
         }
       }
@@ -48479,6 +52019,12 @@
             "state" : "translated",
             "value" : "วิดเจ็ตหน้าจอโฮม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widget màn hình chính"
+          }
         }
       }
     },
@@ -48561,6 +52107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปิดห้องเกมได้ทันทีจากหน้าจอโฮม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mở phòng chơi ngay từ màn hình chính."
           }
         }
       }
@@ -48645,6 +52197,12 @@
             "state" : "translated",
             "value" : "VoiceOver อ่านการ์ดบทบาทและปุ่มโหวตครบถ้วนตามลำดับที่ถูกต้อง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver đọc đầy đủ các thẻ vai và nút bỏ phiếu theo đúng thứ tự."
+          }
         }
       }
     },
@@ -48727,6 +52285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แม้ปิดหน้าจออยู่ ก็มีการแจ้งเตือนเมื่อถึงตาคุณ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngay cả khi tắt màn hình, bạn vẫn nhận thông báo khi đến lượt."
           }
         }
       }

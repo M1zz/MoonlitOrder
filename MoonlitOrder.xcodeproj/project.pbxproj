@@ -179,6 +179,7 @@
 				it,
 				"pt-BR",
 				th,
+				vi,
 				Base,
 			);
 			mainGroup = D0B000000000000000000A61;

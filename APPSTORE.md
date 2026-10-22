@@ -753,3 +753,61 @@ https://m1zz.github.io/MoonlitOrder/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/MoonlitOrder/
+
+## vi
+
+### 이름
+
+Phòng Game Ánh Trăng: Offline
+
+### 부제
+
+Chơi offline cùng bạn bè
+
+### 키워드
+
+kẻ nói dối,ma sói,mafia,board game,suy luận,vẽ tranh,đoán chữ,bluetooth,wifi,gia đình,cắm trại
+
+### 프로모션 텍스트
+
+Đông đủ mà chưa biết chơi gì? Kết nối các iPhone ở gần nhau mà không cần Internet và chơi 4 trò chơi tiệc tùng cho tối đa 15 người.
+
+### 설명
+
+Những trò chơi tiệc tùng bạn có thể bắt đầu ngay trên iPhone của mình khi bạn bè tụ họp.
+Không cần Internet, các iPhone cùng Wi-Fi hoặc ở gần nhau sẽ kết nối với nhau và có thể chơi tối đa 15 người.
+
+Bốn trò chơi
+Hội Ánh Trăng (5–15 người): trò chơi suy luận thân phận, nơi bạn tìm ra Bóng Tối đang lẫn trong các thành viên Hội. Đội trưởng chọn đội, mọi người bỏ phiếu đồng ý hoặc phản đối, rồi đội lén ra bài thành công hoặc thất bại. Bên nào đạt 3 nhiệm vụ trước, thành công hay thất bại?
+Trò Kẻ Nói Dối (3–15 người): mọi người nhận cùng một từ khóa bí mật, trừ một người. Nghe cuộc trò chuyện để tìm ra Kẻ Nói Dối không biết từ khóa.
+Đêm Không Trăng (3–15 người): một đêm có Yêu tinh lẻn vào làng. Ban đêm mỗi người hành động bí mật theo vai, khi trời sáng thì thảo luận và bỏ phiếu để tìm Yêu tinh.
+Xưởng Vẽ Ánh Trăng (3–15 người): một người vẽ từ khóa bí mật, những người còn lại đoán. Đoán càng nhanh, điểm càng cao.
+
+Trên màn hình riêng, kín đáo
+Vai và từ khóa chỉ hiện trên iPhone của mỗi người. Không cần chia bài hay nhắm mắt.
+Khi bỏ phiếu, bạn thấy ngay ai đã bỏ xong. Ai bỏ cho ai vẫn là bí mật cho đến khi công bố.
+
+Dễ cho người mới
+Mỗi trò chơi đều có chế độ hướng dẫn. Làm quen luật bằng cách chơi từng bước cùng bot.
+
+Mất kết nối vẫn chơi tiếp được
+Nếu ứng dụng tắt hoặc kết nối bị ngắt, “Chơi tiếp” trên màn hình chính đưa bạn về đúng ván đang chơi, vai và điểm vẫn nguyên.
+Các thiết bị chuyển tiếp cho nhau nên chơi ổn định ngay cả khi đông người.
+
+Công cụ cho chủ phòng
+Chủ phòng có thể đưa người chơi không phản hồi ra bất cứ lúc nào, và ván chơi được xét lại với những người còn lại để không bao giờ bị đứng.
+Chế độ chủ phòng cho phép đẩy tiếp giai đoạn bị kẹt và quản lý người chơi.
+
+Mọi trò chơi đều miễn phí và bắt đầu mà không cần tài khoản.
+
+### 지원 URL
+
+https://m1zz.github.io/MoonlitOrder/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/MoonlitOrder/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/MoonlitOrder/

@@ -80,6 +80,12 @@ Avalie o app e confira a versão
 ส่งความเห็นถึงนักพัฒนาได้ทันที
 ให้คะแนนแอปและเช็กเวอร์ชันได้
 
+### 앱스토어 (Tiếng Việt)
+
+Mở Cài đặt bằng bánh răng ở màn hình chính
+Gửi góp ý cho nhà phát triển ngay
+Đánh giá ứng dụng và xem phiên bản
+
 ## 1.0.1 (2026-07-17)
 
 ### 새로운 기능

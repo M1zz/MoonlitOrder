@@ -24,9 +24,9 @@ OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 # 문구 언어 → App Store Connect 로케일
-STORE = {"en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th"}
+STORE = {"en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi"}
 # 문구 언어 → 기기 화면 캡처 폴더
-SCREEN = {"ko": "ko", "en": "en", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th"}   # en 캡처는 Mac 시뮬레이터에서 docs/screenshots/raw/creative/en/ 에 만든다
+SCREEN = {"ko": "ko", "en": "en", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi"}   # en 캡처는 Mac 시뮬레이터에서 docs/screenshots/raw/creative/en/ 에 만든다
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -50,6 +50,7 @@ SEARCH = {
     "it": ("Giochi di società", "Ci si ritrova,<br>si parte subito", "Dal Gioco del Bugiardo al disegno<br>senza Internet"),
     "pt-BR": ("Jogos de festa", "Reuniu o pessoal,<br>já começa a partida", "Do Jogo do Mentiroso ao desenho<br>sem precisar de internet"),
     "th": ("เกมปาร์ตี้", "มารวมกัน<br>แล้วเริ่มเล่นได้เลย", "ตั้งแต่เกมไลเออร์ถึงเกมวาดภาพทายคำ<br>เล่นได้โดยไม่ต้องใช้อินเทอร์เน็ต"),
+    "vi": ("Trò chơi tiệc tùng", "Tụ họp là<br>chơi ngay một ván", "Từ Trò Kẻ Nói Dối đến vẽ và đoán<br>không cần Internet"),
 }
 
 # 헤더: 처음 온 사람에게 한 가지 약속.
@@ -67,6 +68,7 @@ HEADER = {
     "it": ("Giochi di società vicini", "Tira fuori il telefono<br>e giocate insieme"),
     "pt-BR": ("Jogos de festa por perto", "Pegue o celular<br>e jogue com todo mundo"),
     "th": ("เกมปาร์ตี้ใกล้ตัว", "หยิบโทรศัพท์ขึ้นมา<br>แล้วเล่นด้วยกัน"),
+    "vi": ("Trò chơi tiệc tùng gần bạn", "Lấy điện thoại ra<br>là cùng chơi"),
 }
 
 # 바탕 · 글자색은 앱의 색이다(Views/Theme.swift): 남색→보라 그라데이션 배경, 포인트 금색(Theme.gold).
