@@ -20,6 +20,12 @@
             "state" : "translated",
             "value" : "Moonlit Arcade"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月明かりアーケード"
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Local network access is needed to connect directly with the iPhones of friends nearby and play party games together."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "近くの友だちのiPhoneと直接つないでパーティゲームを一緒に遊ぶために、ローカルネットワークへのアクセスが必要です。"
           }
         }
       }

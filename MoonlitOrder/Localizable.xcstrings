@@ -20,6 +20,12 @@
             "state" : "translated",
             "value" : "Moonbunny"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "つきうさぎ"
+          }
         }
       }
     },
@@ -41,6 +47,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nightbreeze"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜風"
           }
         }
       }
@@ -64,6 +76,12 @@
             "state" : "translated",
             "value" : "Milky Way"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "天の川"
+          }
         }
       }
     },
@@ -85,6 +103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Waning Moon"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "三日月"
           }
         }
       }
@@ -108,6 +132,12 @@
             "state" : "translated",
             "value" : "Stargazer"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "星守"
+          }
         }
       }
     },
@@ -129,6 +159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dawn"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あけぼの"
           }
         }
       }
@@ -152,6 +188,12 @@
             "state" : "translated",
             "value" : "The Assassin left the room. The Moonlit Order wins."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暗殺者が部屋を出たため、月光結社の勝利で終わりました。"
+          }
         }
       }
     },
@@ -173,6 +215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Player"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プレイヤー"
           }
         }
       }
@@ -196,6 +244,12 @@
             "state" : "translated",
             "value" : "The team was rejected %lld times in a row. The Shadows win."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠征隊の編成が%lld回連続で否決され、影陣営が勝利しました。"
+          }
         }
       }
     },
@@ -217,6 +271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Three missions failed. The Shadows win."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ミッションが3回失敗し、影陣営が勝利しました。"
           }
         }
       }
@@ -240,6 +300,12 @@
             "state" : "translated",
             "value" : "The Assassin correctly found the Seer, '%@'. The Shadows turn the tables!"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暗殺者が予言者「%@」を見事に見抜きました。影陣営の逆転勝利!"
+          }
         }
       }
     },
@@ -261,6 +327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The Assassin missed. '%@' was not the Seer. The Moonlit Order wins!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暗殺者の刃は外れました。「%@」は予言者ではありませんでした。月光結社の勝利!"
           }
         }
       }
@@ -284,6 +356,12 @@
             "state" : "translated",
             "value" : "Everyone is treated as having seen their role. Moving on to team selection."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全員が役職を確認したものとして、遠征隊の指名に進みます。"
+          }
         }
       }
     },
@@ -305,6 +383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skipping the leader who did not choose a team. Passing the lead to the next player."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "指名しないリーダーを飛ばして、次のリーダーに交代します。"
           }
         }
       }
@@ -328,6 +412,12 @@
             "state" : "translated",
             "value" : "Players who have not voted are counted as approving. Counting the votes now."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだ投票していない人を賛成として扱い、開票します。"
+          }
         }
       }
     },
@@ -349,6 +439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Team members who did not play a card are counted as a success."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カードを出していない隊員は成功として扱います。"
           }
         }
       }
@@ -372,6 +468,12 @@
             "state" : "translated",
             "value" : "Moving on to the next phase."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次の段階に進みます。"
+          }
         }
       }
     },
@@ -393,6 +495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The Assassin is treated as having passed. The Moonlit Order wins."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暗殺を放棄したものとして扱い、月光結社の勝利で終わります。"
           }
         }
       }
@@ -416,6 +524,12 @@
             "state" : "translated",
             "value" : "The Assassin did not name the Seer. The Moonlit Order wins."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暗殺者が予言者を指名できず、月光結社の勝利で終わりました。"
+          }
         }
       }
     },
@@ -437,6 +551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The Liar left the room. The Citizens win!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライアーが部屋を出ました。市民の勝利!"
           }
         }
       }
@@ -460,6 +580,12 @@
             "state" : "translated",
             "value" : "The votes were split and the Liar got away!"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "票が割れて、ライアーを捕まえられませんでした!"
+          }
         }
       }
     },
@@ -481,6 +607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The wrong person was accused!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "違う人を指名してしまいました!"
           }
         }
       }
@@ -504,6 +636,12 @@
             "state" : "translated",
             "value" : "The Liar guessed the secret word! The Liar turns the tables!"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライアーがお題を的中させました!ライアーの逆転勝利!"
+          }
         }
       }
     },
@@ -525,6 +663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The Liar missed the secret word. The Citizens win!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライアーはお題を当てられませんでした。市民の勝利!"
           }
         }
       }
@@ -548,6 +692,12 @@
             "state" : "translated",
             "value" : "Liar"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライアー"
+          }
         }
       }
     },
@@ -569,6 +719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Citizen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "市民"
           }
         }
       }
@@ -592,6 +748,12 @@
             "state" : "translated",
             "value" : "Word: %@ · Category: %@"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お題:%@ ・ カテゴリー:%@"
+          }
         }
       }
     },
@@ -613,6 +775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Everyone is treated as having seen the word. Moving on to the description phase."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全員がお題を確認したものとして、説明の段階に進みます。"
           }
         }
       }
@@ -636,6 +804,12 @@
             "state" : "translated",
             "value" : "Ending the current speaker's turn and passing to the next."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今の発言者の番を終えて、次の人に進めます。"
+          }
         }
       }
     },
@@ -657,6 +831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Players who have not voted are counted as abstaining. Counting the votes now."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだ投票していない人は棄権として扱い、開票します。"
           }
         }
       }
@@ -680,6 +860,12 @@
             "state" : "translated",
             "value" : "The Liar is treated as having given up guessing. The Citizens win."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライアーが推測を放棄したものとして扱い、市民の勝利で終わります。"
+          }
         }
       }
     },
@@ -701,6 +887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The Liar could not answer. The Citizens win!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライアーは答えられませんでした。市民の勝利!"
           }
         }
       }
@@ -724,6 +916,12 @@
             "state" : "translated",
             "value" : "A puppy?"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いぬ?"
+          }
         }
       }
     },
@@ -745,6 +943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hmm… a car"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "うーん… くるま"
           }
         }
       }
@@ -768,6 +972,12 @@
             "state" : "translated",
             "value" : "Maybe a bear?"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "もしかしてくま?"
+          }
         }
       }
     },
@@ -789,6 +999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No idea lol"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "わかんない笑"
           }
         }
       }
@@ -812,6 +1028,12 @@
             "state" : "translated",
             "value" : "An apple?"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "りんご?"
+          }
         }
       }
     },
@@ -833,6 +1055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hmm…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "うーん…"
           }
         }
       }
@@ -856,6 +1084,12 @@
             "state" : "translated",
             "value" : "You got it right! 🎉"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正解です!🎉"
+          }
         }
       }
     },
@@ -877,6 +1111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Artist"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絵描き"
           }
         }
       }
@@ -900,6 +1140,12 @@
             "state" : "translated",
             "value" : "Word: %@"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お題:%@"
+          }
         }
       }
     },
@@ -921,6 +1167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Word options: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お題の候補:%@"
           }
         }
       }
@@ -944,6 +1196,12 @@
             "state" : "translated",
             "value" : "Picking a word at random for the Artist and starting the drawing."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絵描きの代わりにお題をランダムに選んで、描き始めます。"
+          }
         }
       }
     },
@@ -965,6 +1223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ending this round and tallying the scores."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このラウンドを終了して、得点を集計します。"
           }
         }
       }
@@ -988,6 +1252,12 @@
             "state" : "translated",
             "value" : "Moving on to the next round."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次のラウンドに進みます。"
+          }
         }
       }
     },
@@ -1009,6 +1279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🔥 Goblin %@ opened their eyes in the dark."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔥 鬼の%@が暗闇の中で目を開けました。"
           }
         }
       }
@@ -1032,6 +1308,12 @@
             "state" : "translated",
             "value" : "👁 Shaman %@ secretly checked a card."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "👁 シャーマンの%@がこっそりカードを確認しました。"
+          }
         }
       }
     },
@@ -1053,6 +1335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🤝 Night Thief %@ stole %@'s card and they swapped!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🤝 夜泥棒の%@が%@のカードを盗んで、入れ替わりました!"
           }
         }
       }
@@ -1076,6 +1364,12 @@
             "state" : "translated",
             "value" : "🔀 Prankster %@ swapped the cards of %@ and %@!"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔀 いたずら者の%@が%@と%@のカードを入れ替えました!"
+          }
         }
       }
     },
@@ -1097,6 +1391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Centre card %lld is '%@'."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中央の%lld番のカードは「%@」です。"
           }
         }
       }
@@ -1120,6 +1420,12 @@
             "state" : "translated",
             "value" : "%@'s card is '%@'."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@のカードは「%@」です。"
+          }
         }
       }
     },
@@ -1141,6 +1447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The 2 centre cards: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中央のカード2枚:%@"
           }
         }
       }
@@ -1164,6 +1476,12 @@
             "state" : "translated",
             "value" : "You stole %@'s card. You are now '%@'."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@のカードを盗みました。あなたは今「%@」です。"
+          }
         }
       }
     },
@@ -1185,6 +1503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You swapped the cards of %@ and %@."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@と%@のカードを入れ替えました。"
           }
         }
       }
@@ -1208,6 +1532,12 @@
             "state" : "translated",
             "value" : "A Goblin was banished. The Village wins!"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鬼が追放されました。村の勝利!"
+          }
         }
       }
     },
@@ -1229,6 +1559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "All the Goblins were in the centre, and nobody was banished. The Village wins!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鬼はすべて中央にいて、誰も追放されませんでした。村の勝利!"
           }
         }
       }
@@ -1252,6 +1588,12 @@
             "state" : "translated",
             "value" : "Nobody was banished, but a Goblin was hiding among you. The Goblins win!"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "誰も追放されませんでしたが、鬼が潜んでいました。鬼の勝利!"
+          }
         }
       }
     },
@@ -1273,6 +1615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "An innocent player was banished. The Goblins win!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無実の人が追放されました。鬼の勝利!"
           }
         }
       }
@@ -1296,6 +1644,12 @@
             "state" : "translated",
             "value" : "Centre cards: %@"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中央のカード:%@"
+          }
         }
       }
     },
@@ -1317,6 +1671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Players who did not act end the night without using a power."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "行動しなかった人は、能力を使わずに夜を終えます。"
           }
         }
       }
@@ -1340,6 +1700,12 @@
             "state" : "translated",
             "value" : "Ending the discussion and starting the banishment vote."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "議論を終えて、追放の投票を始めます。"
+          }
         }
       }
     },
@@ -1361,6 +1727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Moonlit Order"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月光結社"
           }
         }
       }
@@ -1384,6 +1756,12 @@
             "state" : "translated",
             "value" : "Shadows"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "影"
+          }
         }
       }
     },
@@ -1405,6 +1783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "予言者"
           }
         }
       }
@@ -1428,6 +1812,12 @@
             "state" : "translated",
             "value" : "Order Member"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結社員"
+          }
         }
       }
     },
@@ -1449,6 +1839,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Assassin"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暗殺者"
           }
         }
       }
@@ -1472,6 +1868,12 @@
             "state" : "translated",
             "value" : "Shadow Agent"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "影の団員"
+          }
         }
       }
     },
@@ -1493,6 +1895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You know who the Shadow Agents are. But if you give yourself away, you can be assassinated at the end, so lead the teams discreetly."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あなたは影の団員が誰かを知っています。ただし正体がばれると最後に暗殺される恐れがあるので、気づかれないよう密かに遠征隊を導いてください。"
           }
         }
       }
@@ -1516,6 +1924,12 @@
             "state" : "translated",
             "value" : "You are a loyal member of the Moonlit Order. Use the discussion and voting record to uncover the Shadow Agents and make 3 missions succeed."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あなたは月光結社の忠実な一員です。議論と投票の記録を手がかりに影の団員を見つけ出し、ミッションを3回成功させましょう。"
+          }
         }
       }
     },
@@ -1537,6 +1951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You are the Shadows' blade. You know your fellow Shadow Agents, and even if the Order succeeds at 3 missions, you win if you correctly name the Seer."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あなたは影の刃です。仲間の影の団員を知っていて、結社がミッションを3回成功させても、予言者を正しく指名すれば逆転勝利です。"
           }
         }
       }
@@ -1560,6 +1980,12 @@
             "state" : "translated",
             "value" : "You are a traitor hiding in the dark. You know your fellow Shadows. Hide your identity, infiltrate the teams and make missions fail."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あなたは闇に潜む裏切り者です。仲間の影を知っています。正体を隠して遠征隊に紛れ込み、ミッションを失敗させましょう。"
+          }
         }
       }
     },
@@ -1581,6 +2007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 missions succeed (but you lose if the Seer is assassinated)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ミッション3回成功(ただし予言者が暗殺されると敗北)"
           }
         }
       }
@@ -1604,6 +2036,12 @@
             "state" : "translated",
             "value" : "3 missions fail · 5 teams in a row rejected · the Seer is assassinated"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ミッション3回失敗 ・ 遠征隊5回連続否決 ・ 予言者の暗殺"
+          }
         }
       }
     },
@@ -1625,6 +2063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Food"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "食べ物"
           }
         }
       }
@@ -1648,6 +2092,12 @@
             "state" : "translated",
             "value" : "Kimchi stew"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キムチチゲ"
+          }
         }
       }
     },
@@ -1669,6 +2119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Grilled pork belly"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サムギョプサル"
           }
         }
       }
@@ -1692,6 +2148,12 @@
             "state" : "translated",
             "value" : "Tteokbokki"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "トッポッキ"
+          }
         }
       }
     },
@@ -1713,6 +2175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fried chicken"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フライドチキン"
           }
         }
       }
@@ -1736,6 +2204,12 @@
             "state" : "translated",
             "value" : "Pizza"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ピザ"
+          }
         }
       }
     },
@@ -1757,6 +2231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sushi"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "寿司"
           }
         }
       }
@@ -1780,6 +2260,12 @@
             "state" : "translated",
             "value" : "Ramen"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ラーメン"
+          }
         }
       }
     },
@@ -1801,6 +2287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bibimbap"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ビビンバ"
           }
         }
       }
@@ -1824,6 +2316,12 @@
             "state" : "translated",
             "value" : "Cold noodles"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷麺"
+          }
         }
       }
     },
@@ -1845,6 +2343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beef rib soup"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カルビタン"
           }
         }
       }
@@ -1868,6 +2372,12 @@
             "state" : "translated",
             "value" : "Pasta"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パスタ"
+          }
         }
       }
     },
@@ -1889,6 +2399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hamburger"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ハンバーガー"
           }
         }
       }
@@ -1912,6 +2428,12 @@
             "state" : "translated",
             "value" : "Gimbap"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キンパ"
+          }
         }
       }
     },
@@ -1933,6 +2455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blood sausage"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スンデ"
           }
         }
       }
@@ -1956,6 +2484,12 @@
             "state" : "translated",
             "value" : "Pig's trotters"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "チョッパル"
+          }
         }
       }
     },
@@ -1977,6 +2511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Salad"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サラダ"
           }
         }
       }
@@ -2000,6 +2540,12 @@
             "state" : "translated",
             "value" : "Animals"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "動物"
+          }
         }
       }
     },
@@ -2021,6 +2567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elephant"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゾウ"
           }
         }
       }
@@ -2044,6 +2596,12 @@
             "state" : "translated",
             "value" : "Giraffe"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キリン"
+          }
         }
       }
     },
@@ -2065,6 +2623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Penguin"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ペンギン"
           }
         }
       }
@@ -2088,6 +2652,12 @@
             "state" : "translated",
             "value" : "Tiger"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "トラ"
+          }
         }
       }
     },
@@ -2109,6 +2679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Panda"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パンダ"
           }
         }
       }
@@ -2132,6 +2708,12 @@
             "state" : "translated",
             "value" : "Hedgehog"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ハリネズミ"
+          }
         }
       }
     },
@@ -2153,6 +2735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kangaroo"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カンガルー"
           }
         }
       }
@@ -2176,6 +2764,12 @@
             "state" : "translated",
             "value" : "Owl"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フクロウ"
+          }
         }
       }
     },
@@ -2197,6 +2791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dolphin"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イルカ"
           }
         }
       }
@@ -2220,6 +2820,12 @@
             "state" : "translated",
             "value" : "Octopus"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タコ"
+          }
         }
       }
     },
@@ -2241,6 +2847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Squirrel"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リス"
           }
         }
       }
@@ -2264,6 +2876,12 @@
             "state" : "translated",
             "value" : "Crocodile"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ワニ"
+          }
         }
       }
     },
@@ -2285,6 +2903,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Camel"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ラクダ"
           }
         }
       }
@@ -2308,6 +2932,12 @@
             "state" : "translated",
             "value" : "Otter"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カワウソ"
+          }
         }
       }
     },
@@ -2329,6 +2959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Parrot"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "オウム"
           }
         }
       }
@@ -2352,6 +2988,12 @@
             "state" : "translated",
             "value" : "Mole"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "モグラ"
+          }
         }
       }
     },
@@ -2373,6 +3015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Places"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "場所"
           }
         }
       }
@@ -2396,6 +3044,12 @@
             "state" : "translated",
             "value" : "Amusement park"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遊園地"
+          }
         }
       }
     },
@@ -2417,6 +3071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Library"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "図書館"
           }
         }
       }
@@ -2440,6 +3100,12 @@
             "state" : "translated",
             "value" : "Spa"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "チムジルバン"
+          }
         }
       }
     },
@@ -2461,6 +3127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cinema"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "映画館"
           }
         }
       }
@@ -2484,6 +3156,12 @@
             "state" : "translated",
             "value" : "Convenience store"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コンビニ"
+          }
         }
       }
     },
@@ -2505,6 +3183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Underground station"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "地下鉄の駅"
           }
         }
       }
@@ -2528,6 +3212,12 @@
             "state" : "translated",
             "value" : "Hair salon"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "美容院"
+          }
         }
       }
     },
@@ -2549,6 +3239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hospital"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "病院"
           }
         }
       }
@@ -2572,6 +3268,12 @@
             "state" : "translated",
             "value" : "School"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "学校"
+          }
         }
       }
     },
@@ -2593,6 +3295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Campsite"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャンプ場"
           }
         }
       }
@@ -2616,6 +3324,12 @@
             "state" : "translated",
             "value" : "Swimming pool"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プール"
+          }
         }
       }
     },
@@ -2637,6 +3351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Airport"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "空港"
           }
         }
       }
@@ -2660,6 +3380,12 @@
             "state" : "translated",
             "value" : "Market"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "市場"
+          }
         }
       }
     },
@@ -2681,6 +3407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Café"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カフェ"
           }
         }
       }
@@ -2704,6 +3436,12 @@
             "state" : "translated",
             "value" : "Karaoke room"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カラオケ"
+          }
         }
       }
     },
@@ -2725,6 +3463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gym"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ジム"
           }
         }
       }
@@ -2748,6 +3492,12 @@
             "state" : "translated",
             "value" : "Jobs"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "職業"
+          }
         }
       }
     },
@@ -2769,6 +3519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Firefighter"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "消防士"
           }
         }
       }
@@ -2792,6 +3548,12 @@
             "state" : "translated",
             "value" : "Doctor"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "医者"
+          }
         }
       }
     },
@@ -2813,6 +3575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chef"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "料理人"
           }
         }
       }
@@ -2836,6 +3604,12 @@
             "state" : "translated",
             "value" : "Programmer"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プログラマー"
+          }
         }
       }
     },
@@ -2857,6 +3631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "YouTuber"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ユーチューバー"
           }
         }
       }
@@ -2880,6 +3660,12 @@
             "state" : "translated",
             "value" : "Teacher"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先生"
+          }
         }
       }
     },
@@ -2901,6 +3687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Police officer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "警察官"
           }
         }
       }
@@ -2924,6 +3716,12 @@
             "state" : "translated",
             "value" : "Farmer"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "農家"
+          }
         }
       }
     },
@@ -2945,6 +3743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pilot"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パイロット"
           }
         }
       }
@@ -2968,6 +3772,12 @@
             "state" : "translated",
             "value" : "Hairdresser"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "美容師"
+          }
         }
       }
     },
@@ -2989,6 +3799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Singer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "歌手"
           }
         }
       }
@@ -3012,6 +3828,12 @@
             "state" : "translated",
             "value" : "Athlete"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アスリート"
+          }
         }
       }
     },
@@ -3033,6 +3855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photographer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真家"
           }
         }
       }
@@ -3056,6 +3884,12 @@
             "state" : "translated",
             "value" : "Lawyer"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "弁護士"
+          }
         }
       }
     },
@@ -3077,6 +3911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fisherman"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "漁師"
           }
         }
       }
@@ -3100,6 +3940,12 @@
             "state" : "translated",
             "value" : "Barista"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バリスタ"
+          }
         }
       }
     },
@@ -3121,6 +3967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Objects"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "物"
           }
         }
       }
@@ -3144,6 +3996,12 @@
             "state" : "translated",
             "value" : "Umbrella"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "傘"
+          }
         }
       }
     },
@@ -3165,6 +4023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Electric fan"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "扇風機"
           }
         }
       }
@@ -3188,6 +4052,12 @@
             "state" : "translated",
             "value" : "Fridge"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷蔵庫"
+          }
         }
       }
     },
@@ -3209,6 +4079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toothbrush"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "歯ブラシ"
           }
         }
       }
@@ -3232,6 +4108,12 @@
             "state" : "translated",
             "value" : "Pillow"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "枕"
+          }
         }
       }
     },
@@ -3253,6 +4135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remote control"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リモコン"
           }
         }
       }
@@ -3276,6 +4164,12 @@
             "state" : "translated",
             "value" : "Tumbler"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タンブラー"
+          }
         }
       }
     },
@@ -3297,6 +4191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Earphones"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "イヤホン"
           }
         }
       }
@@ -3320,6 +4220,12 @@
             "state" : "translated",
             "value" : "Scissors"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "はさみ"
+          }
         }
       }
     },
@@ -3341,6 +4247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blanket"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "毛布"
           }
         }
       }
@@ -3364,6 +4276,12 @@
             "state" : "translated",
             "value" : "Mirror"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鏡"
+          }
         }
       }
     },
@@ -3385,6 +4303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Clock"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "時計"
           }
         }
       }
@@ -3408,6 +4332,12 @@
             "state" : "translated",
             "value" : "Charger"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電器"
+          }
         }
       }
     },
@@ -3429,6 +4359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slippers"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スリッパ"
           }
         }
       }
@@ -3452,6 +4388,12 @@
             "state" : "translated",
             "value" : "Face mask"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マスク"
+          }
         }
       }
     },
@@ -3473,6 +4415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wallet"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "財布"
           }
         }
       }
@@ -3496,6 +4444,12 @@
             "state" : "translated",
             "value" : "Sports"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スポーツ"
+          }
         }
       }
     },
@@ -3517,6 +4471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Football"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サッカー"
           }
         }
       }
@@ -3540,6 +4500,12 @@
             "state" : "translated",
             "value" : "Baseball"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "野球"
+          }
         }
       }
     },
@@ -3561,6 +4527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Basketball"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バスケットボール"
           }
         }
       }
@@ -3584,6 +4556,12 @@
             "state" : "translated",
             "value" : "Badminton"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バドミントン"
+          }
         }
       }
     },
@@ -3605,6 +4583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Swimming"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "水泳"
           }
         }
       }
@@ -3628,6 +4612,12 @@
             "state" : "translated",
             "value" : "Bowling"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ボウリング"
+          }
         }
       }
     },
@@ -3649,6 +4639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taekwondo"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テコンドー"
           }
         }
       }
@@ -3672,6 +4668,12 @@
             "state" : "translated",
             "value" : "Golf"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゴルフ"
+          }
         }
       }
     },
@@ -3693,6 +4695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Table tennis"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "卓球"
           }
         }
       }
@@ -3716,6 +4724,12 @@
             "state" : "translated",
             "value" : "Skiing"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スキー"
+          }
         }
       }
     },
@@ -3737,6 +4751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Climbing"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クライミング"
           }
         }
       }
@@ -3760,6 +4780,12 @@
             "state" : "translated",
             "value" : "Yoga"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヨガ"
+          }
         }
       }
     },
@@ -3781,6 +4807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Boxing"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ボクシング"
           }
         }
       }
@@ -3804,6 +4836,12 @@
             "state" : "translated",
             "value" : "Archery"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アーチェリー"
+          }
         }
       }
     },
@@ -3825,6 +4863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fencing"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フェンシング"
           }
         }
       }
@@ -3848,6 +4892,12 @@
             "state" : "translated",
             "value" : "Marathon"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マラソン"
+          }
         }
       }
     },
@@ -3869,6 +4919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rabbit"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "うさぎ"
           }
         }
       }
@@ -3892,6 +4948,12 @@
             "state" : "translated",
             "value" : "Cat"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ねこ"
+          }
         }
       }
     },
@@ -3913,6 +4975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Puppy"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いぬ"
           }
         }
       }
@@ -3936,6 +5004,12 @@
             "state" : "translated",
             "value" : "Lion"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライオン"
+          }
         }
       }
     },
@@ -3957,6 +5031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bear"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "くま"
           }
         }
       }
@@ -3980,6 +5060,12 @@
             "state" : "translated",
             "value" : "Snail"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "かたつむり"
+          }
         }
       }
     },
@@ -4001,6 +5087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Snake"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "へび"
           }
         }
       }
@@ -4024,6 +5116,12 @@
             "state" : "translated",
             "value" : "Turtle"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "かめ"
+          }
         }
       }
     },
@@ -4045,6 +5143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Butterfly"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ちょうちょ"
           }
         }
       }
@@ -4068,6 +5172,12 @@
             "state" : "translated",
             "value" : "Fish"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "さかな"
+          }
         }
       }
     },
@@ -4089,6 +5199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ice cream"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アイスクリーム"
           }
         }
       }
@@ -4112,6 +5228,12 @@
             "state" : "translated",
             "value" : "Cake"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ケーキ"
+          }
         }
       }
     },
@@ -4133,6 +5255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Banana"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バナナ"
           }
         }
       }
@@ -4156,6 +5284,12 @@
             "state" : "translated",
             "value" : "Watermelon"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スイカ"
+          }
         }
       }
     },
@@ -4177,6 +5311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fried egg"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目玉焼き"
           }
         }
       }
@@ -4200,6 +5340,12 @@
             "state" : "translated",
             "value" : "Doughnut"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ドーナツ"
+          }
         }
       }
     },
@@ -4221,6 +5367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Apple"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "りんご"
           }
         }
       }
@@ -4244,6 +5396,12 @@
             "state" : "translated",
             "value" : "Hot dog"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホットドッグ"
+          }
         }
       }
     },
@@ -4265,6 +5423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Grapes"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ぶどう"
           }
         }
       }
@@ -4288,6 +5452,12 @@
             "state" : "translated",
             "value" : "Carrot"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "にんじん"
+          }
         }
       }
     },
@@ -4309,6 +5479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Things"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "もの"
           }
         }
       }
@@ -4332,6 +5508,12 @@
             "state" : "translated",
             "value" : "Glasses"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "めがね"
+          }
         }
       }
     },
@@ -4353,6 +5535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bicycle"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自転車"
           }
         }
       }
@@ -4376,6 +5564,12 @@
             "state" : "translated",
             "value" : "Chair"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いす"
+          }
         }
       }
     },
@@ -4397,6 +5591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Key"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "かぎ"
           }
         }
       }
@@ -4420,6 +5620,12 @@
             "state" : "translated",
             "value" : "Light bulb"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電球"
+          }
         }
       }
     },
@@ -4441,6 +5647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Balloon"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "風船"
           }
         }
       }
@@ -4464,6 +5676,12 @@
             "state" : "translated",
             "value" : "Candle"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ろうそく"
+          }
         }
       }
     },
@@ -4485,6 +5703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gift box"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プレゼント"
           }
         }
       }
@@ -4508,6 +5732,12 @@
             "state" : "translated",
             "value" : "Broom"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ほうき"
+          }
         }
       }
     },
@@ -4529,6 +5759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hammer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "金づち"
           }
         }
       }
@@ -4552,6 +5788,12 @@
             "state" : "translated",
             "value" : "Pencil"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "えんぴつ"
+          }
         }
       }
     },
@@ -4573,6 +5815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cup"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コップ"
           }
         }
       }
@@ -4596,6 +5844,12 @@
             "state" : "translated",
             "value" : "Vehicles"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "乗り物"
+          }
         }
       }
     },
@@ -4617,6 +5871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Car"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "くるま"
           }
         }
       }
@@ -4640,6 +5900,12 @@
             "state" : "translated",
             "value" : "Airplane"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "飛行機"
+          }
         }
       }
     },
@@ -4661,6 +5927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ship"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "船"
           }
         }
       }
@@ -4684,6 +5956,12 @@
             "state" : "translated",
             "value" : "Train"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電車"
+          }
         }
       }
     },
@@ -4705,6 +5983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rocket"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ロケット"
           }
         }
       }
@@ -4728,6 +6012,12 @@
             "state" : "translated",
             "value" : "Helicopter"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ヘリコプター"
+          }
         }
       }
     },
@@ -4749,6 +6039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Submarine"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "潜水艦"
           }
         }
       }
@@ -4772,6 +6068,12 @@
             "state" : "translated",
             "value" : "Hot air balloon"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "気球"
+          }
         }
       }
     },
@@ -4793,6 +6095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nature"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自然"
           }
         }
       }
@@ -4816,6 +6124,12 @@
             "state" : "translated",
             "value" : "Tree"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "木"
+          }
         }
       }
     },
@@ -4837,6 +6151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flower"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "花"
           }
         }
       }
@@ -4860,6 +6180,12 @@
             "state" : "translated",
             "value" : "Sun"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "太陽"
+          }
         }
       }
     },
@@ -4881,6 +6207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cloud"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "雲"
           }
         }
       }
@@ -4904,6 +6236,12 @@
             "state" : "translated",
             "value" : "Rainbow"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "虹"
+          }
         }
       }
     },
@@ -4925,6 +6263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mountain"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "山"
           }
         }
       }
@@ -4948,6 +6292,12 @@
             "state" : "translated",
             "value" : "Star"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "星"
+          }
         }
       }
     },
@@ -4969,6 +6319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Snowman"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "雪だるま"
           }
         }
       }
@@ -4992,6 +6348,12 @@
             "state" : "translated",
             "value" : "Lightning"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いなずま"
+          }
         }
       }
     },
@@ -5013,6 +6375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Volcano"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "火山"
           }
         }
       }
@@ -5036,6 +6404,12 @@
             "state" : "translated",
             "value" : "Island"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "島"
+          }
         }
       }
     },
@@ -5057,6 +6431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Moon"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月"
           }
         }
       }
@@ -5080,6 +6460,12 @@
             "state" : "translated",
             "value" : "Characters"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャラクター"
+          }
         }
       }
     },
@@ -5101,6 +6487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Robot"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ロボット"
           }
         }
       }
@@ -5124,6 +6516,12 @@
             "state" : "translated",
             "value" : "Ghost"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "おばけ"
+          }
         }
       }
     },
@@ -5145,6 +6543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Crown"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "王冠"
           }
         }
       }
@@ -5168,6 +6572,12 @@
             "state" : "translated",
             "value" : "Pirate"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "海賊"
+          }
         }
       }
     },
@@ -5189,6 +6599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Angel"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "天使"
           }
         }
       }
@@ -5212,6 +6628,12 @@
             "state" : "translated",
             "value" : "Wizard"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "魔法使い"
+          }
         }
       }
     },
@@ -5233,6 +6655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dinosaur"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恐竜"
           }
         }
       }
@@ -5256,6 +6684,12 @@
             "state" : "translated",
             "value" : "Alien"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "宇宙人"
+          }
         }
       }
     },
@@ -5277,6 +6711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mermaid"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "人魚"
           }
         }
       }
@@ -5300,6 +6740,12 @@
             "state" : "translated",
             "value" : "Santa"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サンタ"
+          }
         }
       }
     },
@@ -5321,6 +6767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Goblin"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鬼"
           }
         }
       }
@@ -5344,6 +6796,12 @@
             "state" : "translated",
             "value" : "Shaman"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "シャーマン"
+          }
         }
       }
     },
@@ -5365,6 +6823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Night Thief"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜泥棒"
           }
         }
       }
@@ -5388,6 +6852,12 @@
             "state" : "translated",
             "value" : "Prankster"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いたずら者"
+          }
         }
       }
     },
@@ -5409,6 +6879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Villager"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "村人"
           }
         }
       }
@@ -5432,6 +6908,12 @@
             "state" : "translated",
             "value" : "Meet your fellow Goblins. If you are the only Goblin, you may look at 1 centre card. When day breaks, hide your identity and act human."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仲間の鬼を確認します。鬼があなた一人なら、中央のカードを1枚見られます。夜が明けたら、人間のふりをして正体を隠しましょう。"
+          }
         }
       }
     },
@@ -5453,6 +6935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "With your supernatural sight, look at 1 other player's card or the 2 centre cards."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不思議な力で、ほかのプレイヤー1人のカード、または中央のカード2枚を見られます。"
           }
         }
       }
@@ -5476,6 +6964,12 @@
             "state" : "translated",
             "value" : "Secretly swap cards with 1 other player and look at your new card. From then on, your team follows the new card."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ほかのプレイヤー1人とこっそりカードを交換し、手に入れたカードを確認します。以後、あなたの陣営は新しいカードに従います。"
+          }
         }
       }
     },
@@ -5497,6 +6991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mischief time! Swap the cards of two other players. You cannot see what they were."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いたずら心が発動!ほかの2人のカードを入れ替えます。中身は見られません。"
           }
         }
       }
@@ -5520,6 +7020,12 @@
             "state" : "translated",
             "value" : "There is nothing to do at night. Find the hidden Goblins through daytime reasoning and discussion."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜にやることはありません。昼の推理と議論で、潜んだ鬼を見つけ出しましょう。"
+          }
         }
       }
     },
@@ -5541,6 +7047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connecting…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接続中…"
           }
         }
       }
@@ -5564,6 +7076,12 @@
             "state" : "translated",
             "value" : "Settings"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
+          }
         }
       }
     },
@@ -5586,6 +7104,12 @@
             "state" : "translated",
             "value" : "Notice"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お知らせ"
+          }
         }
       }
     },
@@ -5604,6 +7128,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -5630,6 +7160,12 @@
             "state" : "translated",
             "value" : "%@ is down for maintenance. Please pick another game."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@は少しメンテナンス中です。ほかのゲームを選んでください。"
+          }
         }
       }
     },
@@ -5651,6 +7187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Game"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゲーム"
           }
         }
       }
@@ -5674,6 +7216,12 @@
             "state" : "translated",
             "value" : "Liar Game"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライアーゲーム"
+          }
         }
       }
     },
@@ -5695,6 +7243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Moonless Night"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月なき夜"
           }
         }
       }
@@ -5718,6 +7272,12 @@
             "state" : "translated",
             "value" : "Moonlit Studio"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月光アトリエ"
+          }
         }
       }
     },
@@ -5739,6 +7299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Create a Room"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "部屋を作る"
           }
         }
       }
@@ -5762,6 +7328,12 @@
             "state" : "translated",
             "value" : "Open a room for the chosen game so your friends can join."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選んだゲームの部屋を開いて、友だちが入れるようにします。"
+          }
         }
       }
     },
@@ -5783,6 +7355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Find Nearby Rooms"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "近くの部屋を探す"
           }
         }
       }
@@ -5806,6 +7384,12 @@
             "state" : "translated",
             "value" : "Find a room a friend nearby created and join it."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "近くの友だちが作った部屋を探して参加します。"
+          }
         }
       }
     },
@@ -5827,6 +7411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Practise with Bots"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ボットと練習する"
           }
         }
       }
@@ -5850,6 +7440,12 @@
             "state" : "translated",
             "value" : "Play a round alone with bots to learn the rules."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ひとりでボットと1戦して、ルールを覚えましょう。"
+          }
         }
       }
     },
@@ -5871,6 +7467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The room is full. (Maximum players: %lld)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "満員です。(最大%lld人)"
           }
         }
       }
@@ -5894,6 +7496,12 @@
             "state" : "translated",
             "value" : "A game is already in progress in this room."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すでにゲームが進行中の部屋です。"
+          }
         }
       }
     },
@@ -5915,6 +7523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Luna"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ルナ"
           }
         }
       }
@@ -5938,6 +7552,12 @@
             "state" : "translated",
             "value" : "Orion"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "オリオン"
+          }
         }
       }
     },
@@ -5959,6 +7579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nova"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ノヴァ"
           }
         }
       }
@@ -5982,6 +7608,12 @@
             "state" : "translated",
             "value" : "Sol"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソル"
+          }
         }
       }
     },
@@ -6003,6 +7635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The host removed you from the room."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホストにより退出させられました。"
           }
         }
       }
@@ -6026,6 +7664,12 @@
             "state" : "translated",
             "value" : "The host closed the room."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホストが部屋を閉じました。"
+          }
         }
       }
     },
@@ -6047,6 +7691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Could not reconnect to the host. You can rejoin from 'Resume' on the home screen."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホストに再接続できませんでした。ホームの「続きから」から再び参加できます。"
           }
         }
       }
@@ -6070,6 +7720,12 @@
             "state" : "translated",
             "value" : "Every player is secretly assigned to the Moonlit Order (good) or the Shadows (evil). Over up to 5 missions, you must work out who the Shadows are from the conversation and voting record alone."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべてのプレイヤーは、月光結社(善)または影(悪)の陣営にこっそり割り当てられます。最大5回の遠征ミッションの間、会話と投票の記録だけをもとに誰が影かを推理します。"
+          }
         }
       }
     },
@@ -6091,6 +7747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Everyone except one Liar receives the same secret word. Take turns describing the word in a few words and check who is the real deal. The Liar has to bluff without knowing the word."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライアー1人を除いて全員が同じお題を受け取ります。順番にお題をひと言ずつ説明して、互いに本物かどうか確かめましょう。ライアーはお題を知らないまま、知っているふりをしなければなりません。"
           }
         }
       }
@@ -6114,6 +7776,12 @@
             "state" : "translated",
             "value" : "Goblins have slipped into the village! At night, everyone uses a secret action to gather information or secretly swap cards. By day you discuss, then a single vote decides who is banished. Cards can change overnight, so the result is judged by the 'final card'."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "村に鬼が忍び込みました!夜はそれぞれ秘密の行動で情報を得たり、カードをこっそり入れ替えたりし、昼は議論したあと、たった一度の投票で追放する人を決めます。夜のあいだにカードが入れ替わることがあるので、勝敗は「最終カード」で決まります。"
+          }
         }
       }
     },
@@ -6135,6 +7803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Each round, one player becomes the 'Artist' and expresses the secret word only through a drawing. Everyone else watches the drawing and guesses in chat. No letters or numbers allowed. The game ends once every player has been the Artist."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "毎ラウンド1人が「絵描き」になり、お題を絵だけで表現します。ほかの人は絵を見て、チャットで答えを当てます。文字や数字は使えません。全員が一度ずつ絵描きを務めるとゲーム終了です。"
           }
         }
       }
@@ -6158,6 +7832,12 @@
             "state" : "translated",
             "value" : "Moonlit Order (Good)"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月光結社(善)"
+          }
         }
       }
     },
@@ -6179,6 +7859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 missions succeed. But if the Assassin correctly names the Seer at the end, you lose, so the Seer must hide their identity to the very end."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ミッション3回成功。ただし最後に暗殺者が予言者を正しく指名すると逆転負けなので、予言者は最後まで正体を隠さなければなりません。"
           }
         }
       }
@@ -6202,6 +7888,12 @@
             "state" : "translated",
             "value" : "Shadows (Evil)"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "影(悪)"
+          }
         }
       }
     },
@@ -6223,6 +7915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 missions fail · 5 teams in a row rejected · the Seer is assassinated. Any one of the three wins."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ミッション3回失敗 ・ 遠征隊5回連続否決 ・ 予言者の暗殺成功 — この3つのうちどれかで勝利。"
           }
         }
       }
@@ -6246,6 +7944,12 @@
             "state" : "translated",
             "value" : "You win if the vote correctly names the Liar and the Liar then fails to guess the word."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "投票でライアーを正しく指名し、ライアーがお題の推測に失敗すれば勝利。"
+          }
         }
       }
     },
@@ -6267,6 +7971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You win if the votes are split or the wrong person is accused. Even if caught, guessing the word turns the game around!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "票が割れる、または違う人が指名されたら勝利。捕まっても、お題を当てれば逆転勝利!"
           }
         }
       }
@@ -6290,6 +8000,12 @@
             "state" : "translated",
             "value" : "Village"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "村"
+          }
         }
       }
     },
@@ -6311,6 +8027,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You win by banishing a Goblin (by final card). If every Goblin is among the centre cards, you win only if nobody is banished."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鬼(最終カード基準)を追放すれば勝利。鬼がすべて中央のカードにある場合は、誰も追放しなければ勝利。"
           }
         }
       }
@@ -6334,6 +8056,12 @@
             "state" : "translated",
             "value" : "You win if no Goblin is banished. You win even if an innocent player is banished."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鬼が一人も追放されなければ勝利 — 無実の人が追放されても勝ちです。"
+          }
         }
       }
     },
@@ -6355,6 +8083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guessers"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当てる人"
           }
         }
       }
@@ -6378,6 +8112,12 @@
             "state" : "translated",
             "value" : "The faster you guess the word from the drawing, the more points you get. Guess correctly to score."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絵を見てお題を早く当てるほど高得点!正解すると点が入ります。"
+          }
         }
       }
     },
@@ -6399,6 +8139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You score when many people guess your drawing. The key is drawing so that anyone can recognise it!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分の絵を当てる人が多いほど得点になります。誰が見てもわかるように描くのがコツ!"
           }
         }
       }
@@ -6422,6 +8168,12 @@
             "state" : "translated",
             "value" : "How to Play"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遊び方"
+          }
         }
       }
     },
@@ -6443,6 +8195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Goal of the Game"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゲームの目的"
           }
         }
       }
@@ -6466,6 +8224,12 @@
             "state" : "translated",
             "value" : "Win Conditions"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "勝利条件"
+          }
         }
       }
     },
@@ -6487,6 +8251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Now you will play through it step by step with bots.\nTips appear at each step, and you advance with the 'Next' button."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "これからボットと一緒に、ひとつずつ実際に試しながら覚えていきます。\n各段階で説明が表示され、「次へ」ボタンで進みます。"
           }
         }
       }
@@ -6510,6 +8280,12 @@
             "state" : "translated",
             "value" : "Start Practice"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "練習を始める"
+          }
         }
       }
     },
@@ -6531,6 +8307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Back to Home"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホームへ"
           }
         }
       }
@@ -6554,6 +8336,12 @@
             "state" : "translated",
             "value" : "Time to Assassinate"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暗殺の時間"
+          }
         }
       }
     },
@@ -6575,6 +8363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The Moonlit Order has succeeded at 3 missions.\nBut if the Assassin finds the Seer, the Shadows turn the tables!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月光結社が遠征ミッションを3回成功させました。\nただし暗殺者が予言者を見抜けば、影の逆転勝利です!"
           }
         }
       }
@@ -6598,6 +8392,12 @@
             "state" : "translated",
             "value" : "Pick the player you think is the Seer"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "予言者だと思うプレイヤーを指名してください"
+          }
         }
       }
     },
@@ -6619,6 +8419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Assassinate"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暗殺を実行"
           }
         }
       }
@@ -6642,6 +8448,12 @@
             "state" : "translated",
             "value" : "The Assassin is choosing a final target…"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暗殺者が最後の標的を選んでいます…"
+          }
         }
       }
     },
@@ -6663,6 +8475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ wins!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@の勝利!"
           }
         }
       }
@@ -6686,6 +8504,12 @@
             "state" : "translated",
             "value" : "Roles Revealed"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "役職の公開"
+          }
         }
       }
     },
@@ -6707,6 +8531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Me"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分"
           }
         }
       }
@@ -6730,6 +8560,12 @@
             "state" : "translated",
             "value" : "Play Again with the Same Players"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同じメンバーでもう一度"
+          }
         }
       }
     },
@@ -6751,6 +8587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The host can restart the game"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホストが再開できます"
           }
         }
       }
@@ -6774,6 +8616,12 @@
             "state" : "translated",
             "value" : "Leave"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出"
+          }
         }
       }
     },
@@ -6795,6 +8643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "New here? Practice with bots first"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "はじめてなら、まずボットと練習してみましょう"
           }
         }
       }
@@ -6818,6 +8672,12 @@
             "state" : "translated",
             "value" : "You can play a full round alone with bots to learn the rules."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ひとりでもボットと最後まで1戦して、ルールを覚えられます。"
+          }
         }
       }
     },
@@ -6839,6 +8699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Force the phase forward?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "段階を強制的に進めますか?"
           }
         }
       }
@@ -6862,6 +8728,12 @@
             "state" : "translated",
             "value" : "Force Advance"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "強制的に進める"
+          }
         }
       }
     },
@@ -6883,6 +8755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancel"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャンセル"
           }
         }
       }
@@ -6906,6 +8784,12 @@
             "state" : "translated",
             "value" : "Remove %@?"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@さんを退出させますか?"
+          }
         }
       }
     },
@@ -6927,6 +8811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remove"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出させる"
           }
         }
       }
@@ -6950,6 +8840,12 @@
             "state" : "translated",
             "value" : "A game in progress continues with the remaining players."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出させたあとも、進行中のゲームは残りの人数で続きます。"
+          }
         }
       }
     },
@@ -6971,6 +8867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "GM Host Mode"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GM進行役モード"
           }
         }
       }
@@ -6994,6 +8896,12 @@
             "state" : "translated",
             "value" : "If the game gets stuck, you can keep it going from here."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進行が止まったら、ここからゲームを動かし続けられます。"
+          }
         }
       }
     },
@@ -7015,6 +8923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Game Controls"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進行の操作"
           }
         }
       }
@@ -7038,6 +8952,12 @@
             "state" : "translated",
             "value" : "Force Phase Forward"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "段階を強制的に進める"
+          }
         }
       }
     },
@@ -7059,6 +8979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "There is nothing to force in the current phase."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今の段階には、強制的に進めるものがありません。"
           }
         }
       }
@@ -7082,6 +9008,12 @@
             "state" : "translated",
             "value" : "Manage Players"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "参加者の管理"
+          }
         }
       }
     },
@@ -7103,6 +9035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Private Information"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "非公開の情報"
           }
         }
       }
@@ -7126,6 +9064,12 @@
             "state" : "translated",
             "value" : "Reveal Roles & Answers"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "役職・答えを公開"
+          }
         }
       }
     },
@@ -7147,6 +9091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Looking will make fair play hard for the GM. Use this only when the game is stuck."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認すると、GM自身が公平にプレイするのは難しくなります。進行が詰まったときだけ使ってください。"
           }
         }
       }
@@ -7170,6 +9120,12 @@
             "state" : "translated",
             "value" : "Leave the game?"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゲームを退出しますか?"
+          }
         }
       }
     },
@@ -7191,6 +9147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stop the game and return to the lobby"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゲームを中断してロビーへ"
           }
         }
       }
@@ -7214,6 +9176,12 @@
             "state" : "translated",
             "value" : "Close the room (ends the game for everyone)"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "部屋を閉じる(全員終了)"
+          }
         }
       }
     },
@@ -7235,6 +9203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Host Panel"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進行役パネル"
           }
         }
       }
@@ -7258,6 +9232,12 @@
             "state" : "translated",
             "value" : "Mission %lld"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld回目の遠征"
+          }
         }
       }
     },
@@ -7279,6 +9259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leader: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リーダー:%@"
           }
         }
       }
@@ -7302,6 +9288,12 @@
             "state" : "translated",
             "value" : "Game Over"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゲーム終了"
+          }
         }
       }
     },
@@ -7323,6 +9315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "View My Role"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分の役職を見る"
           }
         }
       }
@@ -7346,6 +9344,12 @@
             "state" : "translated",
             "value" : "Next"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次へ"
+          }
         }
       }
     },
@@ -7367,6 +9371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "In this phase, everyone secretly checks their own role. After you check yours and tap 'Next', the bots will finish checking too."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "それぞれがこっそり自分の役職を確認する段階です。役職を確認して「次へ」を押すと、ボットも確認を終えます。"
           }
         }
       }
@@ -7390,6 +9400,12 @@
             "state" : "translated",
             "value" : "The leader picks the team for this mission. Tap 'Next' and the leader chooses a team. (If you are the leader, pick it yourself!)"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リーダーが今回の遠征に向かう遠征隊を指名します。「次へ」を押すとリーダーがチームを選びます。(自分がリーダーなら、自分で選んでみましょう!)"
+          }
         }
       }
     },
@@ -7411,6 +9427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Everyone votes to approve or reject the team. A tie means rejection! Vote first, then tap 'Next' to see the bots' votes."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全員が遠征隊の編成に賛成か反対かを投票します。同数なら否決!先に投票してから、「次へ」でボットの票を確認しましょう。"
           }
         }
       }
@@ -7434,6 +9456,12 @@
             "state" : "translated",
             "value" : "These are the vote results. If the team is rejected 5 times in a row, the Shadows win, so you cannot just reject everything."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "投票結果です。遠征隊が5回連続で否決されると影陣営が勝つので、むやみに反対ばかりはできません。"
+          }
         }
       }
     },
@@ -7455,6 +9483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Only team members play a success or fail card. The Moonlit Order can only play success; only the Shadows can secretly play fail. Tap 'Next' to watch the team submit cards."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠征隊員だけが成功か失敗のカードを出します。月光結社は成功しか出せず、影だけがこっそり失敗を出せます。「次へ」で遠征隊のカード提出を見守りましょう。"
           }
         }
       }
@@ -7478,6 +9512,12 @@
             "state" : "translated",
             "value" : "If the fail cards reach the required number, the mission fails! The first side to win 3 missions ends the game."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失敗カードが基準枚数以上なら遠征は失敗!どちらの陣営でも先に3勝すればゲーム終了です。"
+          }
         }
       }
     },
@@ -7499,6 +9539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Even if 3 missions succeed, there is a final twist: if the Assassin correctly names the Seer, the Shadows turn the tables."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ミッションが3回成功しても、最後のどんでん返しが残っています — 暗殺者が予言者を正しく指名すれば、影が逆転勝利します。"
           }
         }
       }
@@ -7522,6 +9568,12 @@
             "state" : "translated",
             "value" : "Lost connection to the host. Trying to reconnect automatically…"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホストとの接続が切れました。自動で再接続を試みています…"
+          }
         }
       }
     },
@@ -7543,6 +9595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Time's up"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "時間切れ"
           }
         }
       }
@@ -7566,6 +9624,12 @@
             "state" : "translated",
             "value" : "Check where nobody else can see"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ほかの人に見えないように確認してください"
+          }
         }
       }
     },
@@ -7587,6 +9651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ team"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@陣営"
           }
         }
       }
@@ -7610,6 +9680,12 @@
             "state" : "translated",
             "value" : "Those who appear to be Shadow Agents"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "影の団員に見える人たち"
+          }
         }
       }
     },
@@ -7631,6 +9707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Your fellow Shadows"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あなたの仲間の影"
           }
         }
       }
@@ -7654,6 +9736,12 @@
             "state" : "translated",
             "value" : "Goal: %@"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目標:%@"
+          }
         }
       }
     },
@@ -7675,6 +9763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Under maintenance for a moment. It will reopen soon."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ただいまメンテナンス中です。まもなく再開します。"
           }
         }
       }
@@ -7698,6 +9792,12 @@
             "state" : "translated",
             "value" : "3 party games to enjoy with friends nearby"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "近くの友だちと楽しむパーティゲーム3種"
+          }
         }
       }
     },
@@ -7719,6 +9819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nickname"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ニックネーム"
           }
         }
       }
@@ -7742,6 +9848,12 @@
             "state" : "translated",
             "value" : "Enter your name"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名前を入力してください"
+          }
         }
       }
     },
@@ -7763,6 +9875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pick a game"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゲームを選んでください"
           }
         }
       }
@@ -7786,6 +9904,12 @@
             "state" : "translated",
             "value" : "5–15 players · Find the hidden Shadows"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5〜15人 ・ 潜んだ影を探す正体推理"
+          }
         }
       }
     },
@@ -7807,6 +9931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3–15 players · Find the one who doesn't know the word"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3〜15人 ・ お題を知らない1人を見つけ出せ"
           }
         }
       }
@@ -7830,6 +9960,12 @@
             "state" : "translated",
             "value" : "3–15 players · One night with a Goblin among you"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3〜15人 ・ 鬼が忍び込んだ一夜の推理"
+          }
         }
       }
     },
@@ -7851,6 +9987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3–15 players · One draws, the rest guess"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3〜15人 ・ 1人が描いて残りが当てるお絵かき"
           }
         }
       }
@@ -7874,6 +10016,12 @@
             "state" : "translated",
             "value" : "Find All Nearby Rooms"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "近くの部屋をすべて探す"
+          }
         }
       }
     },
@@ -7895,6 +10043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "iPhones on the same Wi-Fi or nearby connect automatically.\nYou can play without internet."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同じWi-Fiまたは近くにあるiPhone同士が自動でつながります。\nインターネットなしでも遊べます。"
           }
         }
       }
@@ -7918,6 +10072,12 @@
             "state" : "translated",
             "value" : "Resume"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "続きから"
+          }
         }
       }
     },
@@ -7939,6 +10099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@'s room%2$@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@の部屋%2$@"
           }
         }
       }
@@ -7962,6 +10128,12 @@
             "state" : "translated",
             "value" : "Clear resume history"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「続きから」の履歴を消去"
+          }
         }
       }
     },
@@ -7983,6 +10155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A 5–15 player hidden-identity game of finding the Shadows among the team. The side that first succeeds (or fails) 3 missions wins."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠征隊に潜む影陣営を探し出す、5〜15人の正体推理ゲーム。ミッションを先に3回成功(または失敗)させた陣営の勝ちです。"
           }
         }
       }
@@ -8006,6 +10184,12 @@
             "state" : "translated",
             "value" : "A 3–15 player bluffing game where everyone except the Liar gets the same word. Describe it in a few words, then find the Liar. Even if caught, the Liar wins by guessing the word!"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライアー以外の全員が同じお題を受け取る、3〜15人の駆け引きゲーム。ひと言ずつ説明してからライアーを探し出しましょう。ライアーは捕まってもお題を当てれば逆転勝利!"
+          }
         }
       }
     },
@@ -8027,6 +10211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A 3–15 player deduction game about one night with a Goblin among you. Cards get swapped overnight, and a single vote decides the winner."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鬼が忍び込んだ一夜を描く、3〜15人の推理ゲーム。夜のあいだにカードが入れ替わり、たった一度の投票で勝敗が決まります。"
           }
         }
       }
@@ -8050,6 +10240,12 @@
             "state" : "translated",
             "value" : "A 3–15 player drawing game: each round one person draws the word and the rest guess in chat. The faster you guess, the more points! Once everyone has drawn, the top scorer wins."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "毎ラウンド1人がお題を絵に描き、残りがチャットで当てる3〜15人のお絵かきゲーム。早く当てるほど高得点!全員が一度ずつ描いたら、最高得点の人が勝ちです。"
+          }
         }
       }
     },
@@ -8071,6 +10267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Create a Room (Host)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "部屋を作る(ホスト)"
           }
         }
       }
@@ -8094,6 +10296,12 @@
             "state" : "translated",
             "value" : "Join a Game"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゲームに参加"
+          }
         }
       }
     },
@@ -8115,6 +10323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "How to Play (Practise with Bots)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遊び方(ボットと練習)"
           }
         }
       }
@@ -8138,6 +10352,12 @@
             "state" : "translated",
             "value" : "Back"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "戻る"
+          }
         }
       }
     },
@@ -8159,6 +10379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Find %@ Rooms"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@の部屋を探す"
           }
         }
       }
@@ -8182,6 +10408,12 @@
             "state" : "translated",
             "value" : "Find Nearby Rooms"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "近くの部屋を探す"
+          }
         }
       }
     },
@@ -8203,6 +10435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connecting to the room…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "部屋に接続中…"
           }
         }
       }
@@ -8226,6 +10464,12 @@
             "state" : "translated",
             "value" : "Looking for rooms nearby…\nMake sure the host has tapped 'Create a Room'."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "近くの部屋を探しています…\nホストが「部屋を作る」を押したか確認してください。"
+          }
         }
       }
     },
@@ -8247,6 +10491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@'s room"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@の部屋"
           }
         }
       }
@@ -8270,6 +10520,12 @@
             "state" : "translated",
             "value" : "Everyone has the same word. Only one doesn't know it."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全員が同じお題。知らないのはたった1人"
+          }
         }
       }
     },
@@ -8291,6 +10547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lost connection to the host. Trying to reconnect…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホストとの接続が切れました。再接続を試みています…"
           }
         }
       }
@@ -8314,6 +10576,12 @@
             "state" : "translated",
             "value" : "Category: %@"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カテゴリー:%@"
+          }
         }
       }
     },
@@ -8335,6 +10603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Everyone except the Liar received the same word. Check your word, then tap 'Next' to let the bots finish checking."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライアー以外の全員が同じお題を受け取りました。自分のお題を確認して、「次へ」でボットの確認を終わらせましょう。"
           }
         }
       }
@@ -8358,6 +10632,12 @@
             "state" : "translated",
             "value" : "Everyone describes the word in turn, in a few words. Each tap of 'Next' ends the current turn."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "順番にお題をひと言ずつ説明する段階です。「次へ」を押すたびに、今の番の発言が終わります。"
+          }
         }
       }
     },
@@ -8379,6 +10659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Who was vague in their description? Vote first for who you suspect is the Liar, then tap 'Next' to see the bots' votes."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "説明をごまかしたのは誰でしょう?ライアーだと思う人にまず投票して、「次へ」でボットの票を確認しましょう。"
           }
         }
       }
@@ -8402,6 +10688,12 @@
             "state" : "translated",
             "value" : "The Liar is caught! But if the Liar guesses the word, they turn the tables. Tap 'Next' to watch the Liar's guess."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライアーが捕まりました!でもライアーがお題を当てれば逆転勝利 — 「次へ」でライアーの推測を見守りましょう。"
+          }
         }
       }
     },
@@ -8423,6 +10715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You are the Liar!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あなたがライアーです!"
           }
         }
       }
@@ -8446,6 +10744,12 @@
             "state" : "translated",
             "value" : "You don't know the word, but you have to describe it as if you do. Don't get caught!"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お題を知らなくても、知っているふりで説明しなければなりません。ばれないように!"
+          }
         }
       }
     },
@@ -8467,6 +10771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Word"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お題"
           }
         }
       }
@@ -8490,6 +10800,12 @@
             "state" : "translated",
             "value" : "Your word has arrived"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お題が届きました"
+          }
         }
       }
     },
@@ -8511,6 +10827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Done! Waiting for the other players…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認完了!ほかのプレイヤーを待っています…"
           }
         }
       }
@@ -8534,6 +10856,12 @@
             "state" : "translated",
             "value" : "Got it"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認しました"
+          }
         }
       }
     },
@@ -8555,6 +10883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Check where nobody else can see the screen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ほかの人に画面が見えないように確認してください"
           }
         }
       }
@@ -8578,6 +10912,12 @@
             "state" : "translated",
             "value" : "Take a peek"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "そっと確認する"
+          }
         }
       }
     },
@@ -8599,6 +10939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Confirmed: %lld/%lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認済み:%lld/%lld"
           }
         }
       }
@@ -8622,6 +10968,12 @@
             "state" : "translated",
             "value" : "Describe the word in a few words, in turn"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "順番にお題をひと言ずつ説明してください"
+          }
         }
       }
     },
@@ -8643,6 +10995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Say too much and you help the Liar.\nSay too little and you look suspicious!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "詳しく言いすぎるとライアーのヒントになり、\nあいまいすぎるとあなたが疑われます!"
           }
         }
       }
@@ -8666,6 +11024,12 @@
             "state" : "translated",
             "value" : "Speaking"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "発言中"
+          }
         }
       }
     },
@@ -8687,6 +11051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Done speaking"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "発言完了"
           }
         }
       }
@@ -8710,6 +11080,12 @@
             "state" : "translated",
             "value" : "Who is the Liar?"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライアーは誰でしょう?"
+          }
         }
       }
     },
@@ -8731,6 +11107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vote for the most suspicious player · If votes are split, the Liar wins!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いちばん怪しい人に投票してください ・ 票が割れたらライアーの勝ち!"
           }
         }
       }
@@ -8754,6 +11136,12 @@
             "state" : "translated",
             "value" : "Vote cast! Waiting for the count…"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "投票完了!開票を待っています…"
+          }
         }
       }
     },
@@ -8775,6 +11163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voted: %lld/%lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "投票済み:%lld/%lld"
           }
         }
       }
@@ -8798,6 +11192,12 @@
             "state" : "translated",
             "value" : "Accuse '%@' of being the Liar?"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」をライアーとして指名しますか?"
+          }
         }
       }
     },
@@ -8819,6 +11219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Confirm Vote"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "投票を確定"
           }
         }
       }
@@ -8842,6 +11248,12 @@
             "state" : "translated",
             "value" : "A submitted vote cannot be changed."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提出した票は変更できません。"
+          }
         }
       }
     },
@@ -8863,6 +11275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Liar caught!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライアー逮捕!"
           }
         }
       }
@@ -8886,6 +11304,12 @@
             "state" : "translated",
             "value" : "'%@' was the Liar!\nBut if the Liar guesses the word, the Liar turns the tables."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」がライアーでした!\nでもお題を当てればライアーの逆転勝利です。"
+          }
         }
       }
     },
@@ -8907,6 +11331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pick the word — you only get one chance!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お題を選んでください — チャンスはたった一度!"
           }
         }
       }
@@ -8930,6 +11360,12 @@
             "state" : "translated",
             "value" : "The Liar is guessing the word…"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライアーがお題を推測しています…"
+          }
         }
       }
     },
@@ -8951,6 +11387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guess '%@' as the word?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お題を「%@」と推測しますか?"
           }
         }
       }
@@ -8974,6 +11416,12 @@
             "state" : "translated",
             "value" : "Lock in This Word"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この言葉で確定"
+          }
         }
       }
     },
@@ -8995,6 +11443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You only get one chance!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "チャンスはたった一度です!"
           }
         }
       }
@@ -9018,6 +11472,12 @@
             "state" : "translated",
             "value" : "Liar wins!"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライアーの勝利!"
+          }
         }
       }
     },
@@ -9039,6 +11499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Citizens win!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "市民の勝利!"
           }
         }
       }
@@ -9062,6 +11528,12 @@
             "state" : "translated",
             "value" : "The Liar's Guess"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライアーの推測"
+          }
         }
       }
     },
@@ -9083,6 +11555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vote Results"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "投票結果"
           }
         }
       }
@@ -9106,6 +11584,12 @@
             "state" : "translated",
             "value" : "Close Room"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "部屋を閉じる"
+          }
         }
       }
     },
@@ -9127,6 +11611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "My Room"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分の部屋"
           }
         }
       }
@@ -9150,6 +11640,12 @@
             "state" : "translated",
             "value" : "Lobby"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ロビー"
+          }
         }
       }
     },
@@ -9171,6 +11667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Players: %1$lld · %2$lld–%3$lld needed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "参加者:%1$lld人 ・ 必要人数:%2$lld〜%3$lld人"
           }
         }
       }
@@ -9194,6 +11696,12 @@
             "state" : "translated",
             "value" : "Learning to play: the bots are joining.\nWhen enough players have joined, tap 'Start Game'."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遊び方を学ぶ:ボットが入室しています。\n人数がそろったら「ゲーム開始」を押してください。"
+          }
         }
       }
     },
@@ -9215,6 +11723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start Game"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ゲーム開始"
           }
         }
       }
@@ -9238,6 +11752,12 @@
             "state" : "translated",
             "value" : "At least %lld players are needed"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最低人数:%lld人"
+          }
         }
       }
     },
@@ -9259,6 +11779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Waiting for the host to start the game…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホストがゲームを始めるのを待っています…"
           }
         }
       }
@@ -9282,6 +11808,12 @@
             "state" : "translated",
             "value" : "With this many players: %1$lld Shadows · %2$lld Moonlit Order"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この人数なら影陣営%1$lld人 ・ 月光結社%2$lld人"
+          }
         }
       }
     },
@@ -9303,6 +11835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[Moonlit Arcade %@] Inquiry"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[月明かりアーケード %@] お問い合わせ"
           }
         }
       }
@@ -9326,6 +11864,12 @@
             "state" : "translated",
             "value" : "Support"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サポート"
+          }
         }
       }
     },
@@ -9347,6 +11891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contact by Email"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メールで問い合わせる"
           }
         }
       }
@@ -9370,6 +11920,12 @@
             "state" : "translated",
             "value" : "Instagram DM (@lee25_ios)"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM(@lee25_ios)"
+          }
         }
       }
     },
@@ -9391,6 +11947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contact the Developer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開発者に連絡する"
           }
         }
       }
@@ -9414,6 +11976,12 @@
             "state" : "translated",
             "value" : "Feel free to tell us about bugs or games you would like to see."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バグの報告や遊びたいゲームがあれば、気軽に教えてください。"
+          }
         }
       }
     },
@@ -9435,6 +12003,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Can't open the Mail app"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メールアプリを開けません"
           }
         }
       }
@@ -9458,6 +12032,12 @@
             "state" : "translated",
             "value" : "Copy Address"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アドレスをコピー"
+          }
         }
       }
     },
@@ -9479,6 +12059,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Close"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "閉じる"
           }
         }
       }
@@ -9502,6 +12088,12 @@
             "state" : "translated",
             "value" : "Please send an email to the address below.\n%@"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下のアドレスにメールを送ってください。\n%@"
+          }
         }
       }
     },
@@ -9523,6 +12115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Welcome to Moonlit Arcade"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月明かりアーケードへようこそ"
           }
         }
       }
@@ -9546,6 +12144,12 @@
             "state" : "translated",
             "value" : "A collection of party games to play on iPhones with friends in the same place.\nNo internet or sign-up needed."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同じ場所に集まった友だちと、iPhoneで楽しむパーティゲーム集です。\nインターネットも会員登録も不要です。"
+          }
         }
       }
     },
@@ -9567,6 +12171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "One Person Creates a Room"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1人が部屋を作ります"
           }
         }
       }
@@ -9590,6 +12200,12 @@
             "state" : "translated",
             "value" : "After everyone installs the app, one person picks a game and taps 'Create a Room'.\nEveryone else taps 'Join a Game' and they're in!"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全員がアプリをインストールしたら、1人がゲームを選んで「部屋を作る」を押します。\n残りの人は「ゲームに参加」でその部屋に入れば完了!"
+          }
         }
       }
     },
@@ -9611,6 +12227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gather Close and Allow Connections"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "近くに集まって、接続を許可してください"
           }
         }
       }
@@ -9634,6 +12256,12 @@
             "state" : "translated",
             "value" : "You find each other over the same Wi-Fi or within Bluetooth range.\nBe sure to allow the 'Local Network' access request that appears at first."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同じWi-Fiやブルートゥースの届く範囲で、お互いを見つけます。\n最初に表示される「ローカルネットワーク」へのアクセス要求は、必ず許可してください。"
+          }
         }
       }
     },
@@ -9655,6 +12283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Unsure of the Rules? Practise First"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ルールがわからなければ、まず練習から"
           }
         }
       }
@@ -9678,6 +12312,12 @@
             "state" : "translated",
             "value" : "Every game has 'How to Play (Practise with Bots)'.\nYou can play a round alone with bots to learn the rules."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "どのゲームにも「遊び方(ボットと練習)」があります。\nひとりでボットと1戦して、ルールを覚えられます。"
+          }
         }
       }
     },
@@ -9699,6 +12339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skip"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "スキップ"
           }
         }
       }
@@ -9722,6 +12368,12 @@
             "state" : "translated",
             "value" : "Get Started"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "はじめる"
+          }
         }
       }
     },
@@ -9743,6 +12395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Players joined: %1$lld (%2$lld–%3$lld)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "参加者:%1$lld人(%2$lld〜%3$lld人)"
           }
         }
       }
@@ -9766,6 +12424,12 @@
             "state" : "translated",
             "value" : "Roles have been assigned"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "役職が割り当てられました"
+          }
         }
       }
     },
@@ -9787,6 +12451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I've checked"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認しました"
           }
         }
       }
@@ -9810,6 +12480,12 @@
             "state" : "translated",
             "value" : "Receiving role information…"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "役職の情報を受け取っています…"
+          }
         }
       }
     },
@@ -9831,6 +12507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Roles checked: %lld/%lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "役職の確認:%lld/%lld"
           }
         }
       }
@@ -9854,6 +12536,12 @@
             "state" : "translated",
             "value" : "Make sure no one nearby can see,\nthen tap the button to check your role"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "周りに見えないようにしてから、\nボタンを押して役職を確認してください"
+          }
         }
       }
     },
@@ -9875,6 +12563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Check My Role"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分の役職を確認する"
           }
         }
       }
@@ -9898,6 +12592,12 @@
             "state" : "translated",
             "value" : "Done!\nWaiting for the other players…"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認完了!\nほかのプレイヤーを待っています…"
+          }
         }
       }
     },
@@ -9919,6 +12619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You are the leader!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あなたがリーダーです!"
           }
         }
       }
@@ -9942,6 +12648,12 @@
             "state" : "translated",
             "value" : "Select %1$lld for this mission (%2$lld/%3$lld)"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今回の遠征に送る人を%1$lld人選んでください(%2$lld/%3$lld)"
+          }
         }
       }
     },
@@ -9963,6 +12675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Confirm Team → Everyone Votes"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠征隊を確定 → 全員で投票"
           }
         }
       }
@@ -9986,6 +12704,12 @@
             "state" : "translated",
             "value" : "Leader %1$@ is\nchoosing %2$lld team members…"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リーダーの%1$@さんが\n遠征隊%2$lld人を選んでいます…"
+          }
         }
       }
     },
@@ -10007,6 +12731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Discuss freely who to send!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "誰を送るか、自由に議論しましょう!"
           }
         }
       }
@@ -10030,6 +12760,12 @@
             "state" : "translated",
             "value" : "Team Vote"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠征隊の賛否投票"
+          }
         }
       }
     },
@@ -10051,6 +12787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vote cast — waiting for the result (%lld/%lld)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "投票完了 — 結果を待っています(%lld/%lld)"
           }
         }
       }
@@ -10074,6 +12816,12 @@
             "state" : "translated",
             "value" : "Do you approve of this team?\n(Everyone's votes are revealed · a tie means rejection)"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この遠征隊の編成に賛成しますか?\n(全員の票が公開されます ・ 同数なら否決)"
+          }
         }
       }
     },
@@ -10095,6 +12843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Approve"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "賛成"
           }
         }
       }
@@ -10118,6 +12872,12 @@
             "state" : "translated",
             "value" : "Reject"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "反対"
+          }
         }
       }
     },
@@ -10139,6 +12899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vote to 'approve' the team?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠征隊に「賛成」で投票しますか?"
           }
         }
       }
@@ -10162,6 +12928,12 @@
             "state" : "translated",
             "value" : "Vote to 'reject' the team?"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠征隊に「反対」で投票しますか?"
+          }
         }
       }
     },
@@ -10183,6 +12955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leader %@'s pick"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リーダー%@の選択"
           }
         }
       }
@@ -10206,6 +12984,12 @@
             "state" : "translated",
             "value" : "Approved! The team sets out"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可決!遠征に出発します"
+          }
         }
       }
     },
@@ -10227,6 +13011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rejected"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "否決されました"
           }
         }
       }
@@ -10250,6 +13040,12 @@
             "state" : "translated",
             "value" : "The lead passes to the next player · Rejections in a row: %lld/%lld"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "リーダーが次の人に移ります ・ 連続否決 %lld/%lld"
+          }
         }
       }
     },
@@ -10271,6 +13067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "⚠️ One more rejection and the Shadows win!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⚠️ もう一度否決されると、影陣営が勝利します!"
           }
         }
       }
@@ -10294,6 +13096,12 @@
             "state" : "translated",
             "value" : "Continue"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次へ進む"
+          }
         }
       }
     },
@@ -10315,6 +13123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Waiting for the host to continue…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホストが進めるのを待っています…"
           }
         }
       }
@@ -10338,6 +13152,12 @@
             "state" : "translated",
             "value" : "Approve 👍"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "賛成 👍"
+          }
         }
       }
     },
@@ -10359,6 +13179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reject 👎"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "反対 👎"
           }
         }
       }
@@ -10382,6 +13208,12 @@
             "state" : "translated",
             "value" : "Mission %lld in progress"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld回目の遠征を実行中"
+          }
         }
       }
     },
@@ -10403,6 +13235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Team: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠征隊:%@"
           }
         }
       }
@@ -10426,6 +13264,12 @@
             "state" : "translated",
             "value" : "The team is carrying out the mission…\n(%lld/%lld submitted)"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠征隊が任務を遂行しています…\n(%lld/%lld 提出)"
+          }
         }
       }
     },
@@ -10447,6 +13291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fail cards needed for this mission to fail: %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今回の遠征が失敗になる失敗カードの枚数:%lld"
           }
         }
       }
@@ -10470,6 +13320,12 @@
             "state" : "translated",
             "value" : "Choose a card (nobody can tell who played what)"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カードを選んでください(誰が出したかは誰にもわかりません)"
+          }
         }
       }
     },
@@ -10491,6 +13347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You are a Shadow — a fail card can sabotage the mission"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あなたは影 — 失敗カードで遠征を台なしにできます"
           }
         }
       }
@@ -10514,6 +13376,12 @@
             "state" : "translated",
             "value" : "Submit Card"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カードを提出"
+          }
         }
       }
     },
@@ -10535,6 +13403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Success"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "成功"
           }
         }
       }
@@ -10558,6 +13432,12 @@
             "state" : "translated",
             "value" : "Fail"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失敗"
+          }
         }
       }
     },
@@ -10579,6 +13459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Order members\ncan only succeed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結社員は\n成功のみ"
           }
         }
       }
@@ -10602,6 +13488,12 @@
             "state" : "translated",
             "value" : "Card submitted\nWaiting for the other members… (%lld/%lld)"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カード提出完了\nほかの隊員を待っています…(%lld/%lld)"
+          }
         }
       }
     },
@@ -10623,6 +13515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mission succeeded!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠征成功!"
           }
         }
       }
@@ -10646,6 +13544,12 @@
             "state" : "translated",
             "value" : "Mission failed…"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠征失敗…"
+          }
         }
       }
     },
@@ -10667,6 +13571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Success cards: %1$lld · Fail cards: %2$lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "成功カード%1$lld枚 ・ 失敗カード%2$lld枚"
           }
         }
       }
@@ -10690,6 +13600,12 @@
             "state" : "translated",
             "value" : "A fail card was played, but this mission needed %lld, so it held!"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失敗カードが出ましたが、今回の遠征は%lld枚必要なので持ちこたえました!"
+          }
         }
       }
     },
@@ -10711,6 +13627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Success %lld : %lld Fail — first to 3 wins"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "成功 %lld : %lld 失敗 — 先に3勝で勝利"
           }
         }
       }
@@ -10734,6 +13656,12 @@
             "state" : "translated",
             "value" : "Black"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "黒"
+          }
         }
       }
     },
@@ -10755,6 +13683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Red"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "赤"
           }
         }
       }
@@ -10778,6 +13712,12 @@
             "state" : "translated",
             "value" : "Orange"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "オレンジ"
+          }
         }
       }
     },
@@ -10799,6 +13739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yellow"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "黄"
           }
         }
       }
@@ -10822,6 +13768,12 @@
             "state" : "translated",
             "value" : "Green"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "緑"
+          }
         }
       }
     },
@@ -10843,6 +13795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blue"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "青"
           }
         }
       }
@@ -10866,6 +13824,12 @@
             "state" : "translated",
             "value" : "Purple"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "紫"
+          }
         }
       }
     },
@@ -10887,6 +13851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brown"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "茶"
           }
         }
       }
@@ -10910,6 +13880,12 @@
             "state" : "translated",
             "value" : "Eraser"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "消しゴム"
+          }
         }
       }
     },
@@ -10931,6 +13907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Colour %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "色 %lld"
           }
         }
       }
@@ -10954,6 +13936,12 @@
             "state" : "translated",
             "value" : "Thin brush"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "細い筆"
+          }
         }
       }
     },
@@ -10975,6 +13963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Medium brush"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中くらいの筆"
           }
         }
       }
@@ -10998,6 +13992,12 @@
             "state" : "translated",
             "value" : "Thick brush"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "太い筆"
+          }
         }
       }
     },
@@ -11019,6 +14019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "One draws, the rest guess"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1人が描いて、残りが当てるお絵かき"
           }
         }
       }
@@ -11042,6 +14048,12 @@
             "state" : "translated",
             "value" : "Round %1$lld / %2$lld"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld / %2$lld ラウンド"
+          }
         }
       }
     },
@@ -11063,6 +14075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I'm the Artist!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "私が絵描き!"
           }
         }
       }
@@ -11086,6 +14104,12 @@
             "state" : "translated",
             "value" : "Artist: %@"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絵描き:%@"
+          }
         }
       }
     },
@@ -11107,6 +14131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Done drawing"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "描けました"
           }
         }
       }
@@ -11130,6 +14160,12 @@
             "state" : "translated",
             "value" : "Skip Round"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ラウンドをスキップ"
+          }
         }
       }
     },
@@ -11151,6 +14187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You are the Artist this round! Pick the easiest of the 3 words to draw."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今回の絵描きはあなたです!お題3つのうち、描きやすいものを1つ選んでください。"
           }
         }
       }
@@ -11174,6 +14216,12 @@
             "state" : "translated",
             "value" : "Draw the word. No letters or numbers! When you're done, tap 'Next' to watch the bots guess."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お題を絵で表現してください。文字・数字は禁止!描き終えたら「次へ」を押して、ボットの推測を見守りましょう。"
+          }
         }
       }
     },
@@ -11195,6 +14243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Round results. The faster you guess, the more points; the Artist earns more the more people guess. Tap 'Next' for the final standings."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ラウンドの結果です。早く当てた人ほど高得点、絵描きは当てた人が多いほど得点が入ります。「次へ」で最終順位を確認しましょう。"
           }
         }
       }
@@ -11218,6 +14272,12 @@
             "state" : "translated",
             "value" : "Pick a word"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お題を選んでください"
+          }
         }
       }
     },
@@ -11239,6 +14299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keep it hidden from others! Picking something easy to draw helps."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ほかの人に見えないように!描きやすいものを選ぶと有利です。"
           }
         }
       }
@@ -11262,6 +14328,12 @@
             "state" : "translated",
             "value" : "%@ is picking a word…"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@さんがお題を選んでいます…"
+          }
         }
       }
     },
@@ -11283,6 +14355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The drawing will start in a moment."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まもなく絵の描画が始まります。"
           }
         }
       }
@@ -11306,6 +14384,12 @@
             "state" : "translated",
             "value" : "Letters: %lld"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字数:%lld"
+          }
         }
       }
     },
@@ -11327,6 +14411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Correct: %1$lld/%2$lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正解:%1$lld/%2$lld"
           }
         }
       }
@@ -11350,6 +14440,12 @@
             "state" : "translated",
             "value" : "Everyone's guesses will appear here."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "みんなの推測がここに表示されます。"
+          }
         }
       }
     },
@@ -11371,6 +14467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Look at the drawing and guess the answer!"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絵を見て答えを当ててみましょう!"
           }
         }
       }
@@ -11394,6 +14496,12 @@
             "state" : "translated",
             "value" : "Undo one stroke"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ひと筆戻す"
+          }
         }
       }
     },
@@ -11415,6 +14523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Clear the drawing"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絵をすべて消す"
           }
         }
       }
@@ -11438,6 +14552,12 @@
             "state" : "translated",
             "value" : "Correct! Waiting for the others…"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正解!ほかの人を待っています…"
+          }
         }
       }
     },
@@ -11459,6 +14579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Type your guess…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "答えを入力…"
           }
         }
       }
@@ -11482,6 +14608,12 @@
             "state" : "translated",
             "value" : "Dismiss keyboard"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キーボードを閉じる"
+          }
         }
       }
     },
@@ -11503,6 +14635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The word was"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お題は"
           }
         }
       }
@@ -11526,6 +14664,12 @@
             "state" : "translated",
             "value" : "Correct"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正解"
+          }
         }
       }
     },
@@ -11547,6 +14691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "See Final Standings"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最終順位を見る"
           }
         }
       }
@@ -11570,6 +14720,12 @@
             "state" : "translated",
             "value" : "Next Round"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次のラウンド"
+          }
         }
       }
     },
@@ -11591,6 +14747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Waiting for the host to continue…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホストが次へ進めるのを待っています…"
           }
         }
       }
@@ -11614,6 +14776,12 @@
             "state" : "translated",
             "value" : "Top score: %lld"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最高得点:%lld点"
+          }
         }
       }
     },
@@ -11635,6 +14803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Score: %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld点"
           }
         }
       }
@@ -11658,6 +14832,12 @@
             "state" : "translated",
             "value" : "Play Again with the Same Players"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同じメンバーでもう一度"
+          }
         }
       }
     },
@@ -11679,6 +14859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Disconnected"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接続が切れました"
           }
         }
       }
@@ -11702,6 +14888,12 @@
             "state" : "translated",
             "value" : "Waiting for %@ to reconnect."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@さんの再接続を待っています。"
+          }
         }
       }
     },
@@ -11723,6 +14915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remove %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@を退出させる"
           }
         }
       }
@@ -11746,6 +14944,12 @@
             "state" : "translated",
             "value" : "Rejected"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "否決"
+          }
         }
       }
     },
@@ -11767,6 +14971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fails needed: 2"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失敗2枚"
           }
         }
       }
@@ -11790,6 +15000,12 @@
             "state" : "translated",
             "value" : "One night with a Goblin among you, one single vote"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鬼が忍び込んだ一夜、たった一度の投票"
+          }
         }
       }
     },
@@ -11811,6 +15027,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🌙 Night — Secret Action"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🌙 夜 — 秘密の行動"
           }
         }
       }
@@ -11834,6 +15056,12 @@
             "state" : "translated",
             "value" : "☀️ Day — Discussion"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "☀️ 昼 — 議論"
+          }
         }
       }
     },
@@ -11855,6 +15083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🗳️ Banishment Vote"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🗳️ 追放の投票"
           }
         }
       }
@@ -11878,6 +15112,12 @@
             "state" : "translated",
             "value" : "Result"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結果"
+          }
         }
       }
     },
@@ -11899,6 +15139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "At night everyone acts in secret. Check your role and finish your action, then tap 'Next' to run the bots' night actions."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜はそれぞれこっそり行動します。自分の役職を確認して行動を終えたら、「次へ」でボットの夜の行動を進めましょう。"
           }
         }
       }
@@ -11922,6 +15168,12 @@
             "state" : "translated",
             "value" : "The Night Thief and Prankster may have swapped cards overnight! In a real game, this is where you discuss. Tap 'Next' to start the vote."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜のあいだに夜泥棒といたずら者がカードを入れ替えたかもしれません!実際のゲームではここで議論します。「次へ」を押すと投票が始まります。"
+          }
         }
       }
     },
@@ -11943,6 +15195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Point first at who you suspect is a Goblin, then tap 'Next' to see the bots' votes. The player with the most votes is banished."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鬼だと思う人をまず指名して、「次へ」でボットの票を確認しましょう。最多得票者が追放されます。"
           }
         }
       }
@@ -11966,6 +15224,12 @@
             "state" : "translated",
             "value" : "Fellow Goblins: %@"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仲間の鬼:%@"
+          }
         }
       }
     },
@@ -11987,6 +15251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Night has fallen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜になりました"
           }
         }
       }
@@ -12010,6 +15280,12 @@
             "state" : "translated",
             "value" : "Check your role where nobody else can see the screen"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ほかの人に画面が見えないように役職を確認してください"
+          }
         }
       }
     },
@@ -12031,6 +15307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Action done! Waiting for the other players… %lld/%lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "行動完了!ほかのプレイヤーを待っています… %lld/%lld"
           }
         }
       }
@@ -12054,6 +15336,12 @@
             "state" : "translated",
             "value" : "You are the only Goblin! You may look at 1 centre card"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "あなたはただ一人の鬼!中央のカードを1枚見られます"
+          }
         }
       }
     },
@@ -12075,6 +15363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Centre %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中央 %lld"
           }
         }
       }
@@ -12098,6 +15392,12 @@
             "state" : "translated",
             "value" : "Look at centre card %lld"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中央の%lld番のカードを確認する"
+          }
         }
       }
     },
@@ -12119,6 +15419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "I've seen my fellow Goblins"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仲間を確認しました"
           }
         }
       }
@@ -12142,6 +15448,12 @@
             "state" : "translated",
             "value" : "Look at 1 player"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プレイヤー1人を見る"
+          }
         }
       }
     },
@@ -12163,6 +15475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Look at 2 centre cards"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中央の2枚を見る"
           }
         }
       }
@@ -12186,6 +15504,12 @@
             "state" : "translated",
             "value" : "Look at %@'s card"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」のカードを見る"
+          }
         }
       }
     },
@@ -12207,6 +15531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Look at the 2 centre cards"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中央のカード2枚を確認"
           }
         }
       }
@@ -12230,6 +15560,12 @@
             "state" : "translated",
             "value" : "Choose whose card to steal"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カードを盗む相手を選んでください"
+          }
         }
       }
     },
@@ -12251,6 +15587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Steal %@'s card"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」のカードを盗む"
           }
         }
       }
@@ -12274,6 +15616,12 @@
             "state" : "translated",
             "value" : "Choose two players to swap cards (%lld/2)"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カードを入れ替える2人を選んでください(%lld/2)"
+          }
         }
       }
     },
@@ -12295,6 +15643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Swap these two cards"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この2人のカードを入れ替える"
           }
         }
       }
@@ -12318,6 +15672,12 @@
             "state" : "translated",
             "value" : "Morning has come"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "朝になりました"
+          }
         }
       }
     },
@@ -12339,6 +15699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cards may have changed overnight!\nFind the Goblin (by current card) through discussion."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜のあいだにカードが入れ替わったかもしれません!\n議論で鬼(現在のカード基準)を見つけ出しましょう。"
           }
         }
       }
@@ -12362,6 +15728,12 @@
             "state" : "translated",
             "value" : "(Based on your role at the start of the night)"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(夜が始まったときのあなたの役職が基準です)"
+          }
         }
       }
     },
@@ -12383,6 +15755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What happened overnight (shown in practice only)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜のあいだの出来事(練習でのみ公開)"
           }
         }
       }
@@ -12406,6 +15784,12 @@
             "state" : "translated",
             "value" : "In a real game, nothing is revealed. That's why the discussion matters!"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実際のゲームでは何も公開されません。だから議論が大切なのです!"
+          }
         }
       }
     },
@@ -12427,6 +15811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Discussion over! Start the vote"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "議論終了!投票開始"
           }
         }
       }
@@ -12450,6 +15840,12 @@
             "state" : "translated",
             "value" : "Waiting for the host to start the vote…"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホストが投票を始めるのを待っています…"
+          }
         }
       }
     },
@@ -12471,6 +15867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Point to who you think is the Goblin"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鬼だと思う人を指名してください"
           }
         }
       }
@@ -12494,6 +15896,12 @@
             "state" : "translated",
             "value" : "The player with the most votes is banished · A tie banishes everyone tied · If everyone has 1 vote or fewer, nobody is banished"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最多得票者が追放されます ・ 同数なら全員 ・ 全員が1票以下なら誰も追放されません"
+          }
         }
       }
     },
@@ -12515,6 +15923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vote to banish '%@'?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」を追放する投票をしますか?"
           }
         }
       }
@@ -12538,6 +15952,12 @@
             "state" : "translated",
             "value" : "The Village wins!"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "村の勝利!"
+          }
         }
       }
     },
@@ -12560,6 +15980,12 @@
             "state" : "translated",
             "value" : "The Goblins win!"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鬼の勝利!"
+          }
         }
       }
     },
@@ -12581,6 +16007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Votes: %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "票数:%lld"
           }
         }
       }
@@ -12605,6 +16037,12 @@
             "state" : "translated",
             "value" : "Better VoiceOver support"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOverをもっと使いやすく"
+          }
         }
       }
     },
@@ -12627,6 +16065,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Screens rearrange neatly instead of getting cut off when you enlarge text."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字サイズを大きくしても切れずに、見やすく並べ直されます。"
           }
         }
       }
@@ -12651,6 +16095,12 @@
             "state" : "translated",
             "value" : "Your-turn alerts"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分の番の通知"
+          }
         }
       }
     },
@@ -12673,6 +16123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tell teams and results apart, even with Increase Contrast on or if colours are hard to tell apart."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コントラストを上げたり色の区別がつきにくくても、陣営や結果がわかります。"
           }
         }
       }
@@ -12697,6 +16153,12 @@
             "state" : "translated",
             "value" : "Use the app in more languages."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "もっと多くの言語でアプリを使えるようにします。"
+          }
         }
       }
     },
@@ -12719,6 +16181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "More languages"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "対応言語を増やす"
           }
         }
       }
@@ -12743,6 +16211,12 @@
             "state" : "translated",
             "value" : "Easier colours and contrast"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "見やすい色とコントラスト"
+          }
         }
       }
     },
@@ -12765,6 +16239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Haptic feedback"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "指先で感じる反応"
           }
         }
       }
@@ -12789,6 +16269,12 @@
             "state" : "translated",
             "value" : "The first time you open the app after an update, see what’s new."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート後の初回起動で、何が新しくなったかをお知らせします。"
+          }
         }
       }
     },
@@ -12811,6 +16297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What’s new"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート情報"
           }
         }
       }
@@ -12835,6 +16327,12 @@
             "state" : "translated",
             "value" : "A gentle tap when you get your role or a vote ends."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "役職を受け取ったり投票が終わったりすると、軽く振動してお知らせします。"
+          }
         }
       }
     },
@@ -12857,6 +16355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Full English support"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "英語に対応"
           }
         }
       }
@@ -12881,6 +16385,12 @@
             "state" : "translated",
             "value" : "Use the whole app in English, so friends from abroad can play too."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "海外の友だちとも遊べるように、アプリを英語でも使えます。"
+          }
         }
       }
     },
@@ -12903,6 +16413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reduce Motion"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "視差効果を減らす"
           }
         }
       }
@@ -12927,6 +16443,12 @@
             "state" : "translated",
             "value" : "With Reduce Motion on, screen effects calm down."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "視差効果を減らすをオンにすると、画面の動きが穏やかになります。"
+          }
         }
       }
     },
@@ -12949,6 +16471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Layouts for larger text"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大きな文字に合わせた画面"
           }
         }
       }
@@ -12973,6 +16501,12 @@
             "state" : "translated",
             "value" : "Foldable iPhone layout"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "折りたたみiPhone向けの画面"
+          }
         }
       }
     },
@@ -12995,6 +16529,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use the wide screen of a foldable iPhone as two side-by-side panes."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "折りたたみiPhoneでは、広い画面を2つに分けて使えます。"
           }
         }
       }
@@ -13019,6 +16559,12 @@
             "state" : "translated",
             "value" : "Home Screen widgets"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホーム画面ウィジェット"
+          }
         }
       }
     },
@@ -13041,6 +16587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open a game room straight from your Home Screen."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ホーム画面からすぐにゲームの部屋を開けます。"
           }
         }
       }
@@ -13065,6 +16617,12 @@
             "state" : "translated",
             "value" : "VoiceOver reads every role card and vote button, in the right order."
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画面読み上げが、役職カードと投票ボタンをもれなく、正しい順番で読み上げます。"
+          }
         }
       }
     },
@@ -13087,6 +16645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Get a notification when it’s your turn, even with the screen off."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画面を消していても、自分の番が来たら通知でお知らせします。"
           }
         }
       }

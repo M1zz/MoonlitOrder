@@ -20,6 +20,12 @@ Open Settings from the home screen gear
 Send feedback straight to the developer
 Rate the app and check your version
 
+### 앱스토어 (日本語)
+
+ホーム画面右上の歯車から設定を開けます
+開発者へ意見をすぐに送れます
+アプリを評価し、バージョンを確認できます
+
 ## 1.0.1 (2026-07-17)
 
 ### 새로운 기능

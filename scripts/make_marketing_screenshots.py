@@ -15,7 +15,7 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "marketing"
 WORK = pathlib.Path("/tmp") / "moonlit-marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB"}
+STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja"}
 
 # (원본 파일, 헤드라인, 서브카피) — 언어마다 따로 쓴다.
 SHOTS = {
@@ -39,6 +39,13 @@ SHOTS = {
         ("03-vote.png", "Approve<br>or reject?", "The moment everyone's votes are revealed, the game flips"),
         ("04-draw.png", "Draw it,<br>guess it", "One draws, the rest guess, in Moonlit Studio"),
         ("05-result.png", "Guess faster,<br>score higher", "Play with up to 15 friends"),
+    ],
+    "ja": [
+        ("01-home.png", "集まったらすぐ<br>パーティゲーム", "インターネットなしで近くのiPhone同士がつながります"),
+        ("02-role.png", "自分の役職は<br>自分だけが知っている", "潜んだ影を探す正体推理「月光結社」"),
+        ("03-vote.png", "賛成か、<br>反対か", "みんなの票が公開された瞬間、形勢が逆転します"),
+        ("04-draw.png", "描いて、<br>当てて", "1人が描いて、残りが当てる「月光アトリエ」"),
+        ("05-result.png", "早く当てるほど<br>高得点", "最大15人まで一緒に楽しめます"),
     ],
 }
 
