@@ -15,7 +15,7 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "marketing"
 WORK = pathlib.Path("/tmp") / "moonlit-marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR"}
+STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it"}
 
 # (원본 파일, 헤드라인, 서브카피) — 언어마다 따로 쓴다.
 SHOTS = {
@@ -88,6 +88,13 @@ SHOTS = {
         ("03-vote.png", "Pour<br>ou contre ?", "Quand les votes de chacun sont révélés, tout bascule"),
         ("04-draw.png", "Dessinez,<br>devinez", "Un dessine, les autres devinent dans Atelier Lunaire"),
         ("05-result.png", "Plus on devine vite,<br>plus on marque", "Jusqu’à 15 amis pour jouer ensemble"),
+    ],
+    "it": [
+        ("01-home.png", "Ci si ritrova,<br>si gioca subito", "Gli iPhone vicini si collegano senza Internet"),
+        ("02-role.png", "Il tuo ruolo<br>lo sai solo tu", "Trova le Ombre nascoste nell’Ordine Lunare"),
+        ("03-vote.png", "A favore<br>o contro?", "Nel momento in cui i voti vengono svelati, tutto si ribalta"),
+        ("04-draw.png", "Disegna<br>e indovina", "Uno disegna, gli altri indovinano in Studio Lunare"),
+        ("05-result.png", "Più veloce indovini,<br>più punti fai", "Gioca con un massimo di 15 amici"),
     ],
 }
 

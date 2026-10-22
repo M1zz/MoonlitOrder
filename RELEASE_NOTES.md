@@ -62,6 +62,12 @@ Ouvrez les Réglages via l’engrenage
 Envoyez un avis au développeur
 Notez l’app et vérifiez la version
 
+### 앱스토어 (Italiano)
+
+Apri le Impostazioni dall’ingranaggio
+Invia un parere allo sviluppatore
+Valuta l’app e controlla la versione
+
 ## 1.0.1 (2026-07-17)
 
 ### 새로운 기능

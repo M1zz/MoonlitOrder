@@ -39,6 +39,12 @@
             "value" : "Arcade Lunaire"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sala Giochi Lunare"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -101,6 +107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L’accès au réseau local est nécessaire pour se connecter directement aux iPhone de vos amis à proximité et jouer ensemble à des jeux de soirée."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’accesso alla rete locale serve per collegarti direttamente agli iPhone degli amici vicini e giocare insieme."
           }
         },
         "ja" : {

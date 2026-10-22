@@ -579,3 +579,61 @@ https://m1zz.github.io/MoonlitOrder/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/MoonlitOrder/
+
+## it
+
+### 이름
+
+Sala Giochi Lunare: Party
+
+### 부제
+
+Giochi offline tra amici
+
+### 키워드
+
+bugiardo,mafia,lupus,deduzione,disegnare,indovinare,bluff,bluetooth,wifi,multiplayer,famiglia,tavolo
+
+### 프로모션 텍스트
+
+Tutti insieme ma senza idee? Collega gli iPhone vicini senza Internet e goditi quattro giochi di società fino a 15 giocatori.
+
+### 설명
+
+Giochi di società che puoi avviare subito con il tuo iPhone quando gli amici si ritrovano.
+Senza Internet, gli iPhone sulla stessa rete Wi-Fi o vicini si collegano tra loro e possono giocare fino a 15 persone.
+
+Quattro giochi
+Ordine Lunare (5–15 giocatori): un gioco di identità nascoste in cui scovi le Ombre infiltrate tra i membri dell’Ordine. Il capo sceglie un gruppo, tutti votano a favore o contro, e il gruppo gioca di nascosto successo o fallimento. Chi arriverà prima a 3 missioni, per successo o per fallimento?
+Gioco del Bugiardo (3–15 giocatori): tutti ricevono la stessa parola segreta, tranne una persona. Trova il Bugiardo che non la conosce ascoltando la conversazione.
+Notte senza Luna (3–15 giocatori): una notte con un Goblin nel villaggio. Di notte ognuno agisce di nascosto in base al ruolo e all’alba si discute e si vota per trovare il Goblin.
+Studio Lunare (3–15 giocatori): una persona disegna la parola segreta e gli altri indovinano. Più in fretta indovini, più punti ottieni.
+
+Sul tuo schermo, di nascosto
+Ruoli e parole compaiono solo sul tuo iPhone. Non serve distribuire carte né chiudere gli occhi.
+Durante il voto vedi subito chi ha finito di votare. Chi ha votato chi resta segreto fino alla rivelazione.
+
+Facile per chi comincia
+Ogni gioco ha una modalità di apprendimento. Impara le regole giocando passo dopo passo con i bot.
+
+Riparti da dove eri rimasto
+Se l’app si chiude o la connessione cade, «Riprendi» nella schermata Home ti riporta alla tua partita, con ruolo e punteggio intatti.
+I dispositivi si collegano tra loro, quindi si gioca in modo stabile anche in tanti.
+
+Strumenti per l’host
+L’host può rimuovere in qualsiasi momento un giocatore che non risponde, e la partita viene rivalutata con i giocatori rimasti per non bloccarsi mai.
+Con la modalità host puoi far avanzare una fase bloccata e gestire i giocatori.
+
+Tutti i giochi sono gratuiti e si avviano senza account.
+
+### 지원 URL
+
+https://m1zz.github.io/MoonlitOrder/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/MoonlitOrder/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/MoonlitOrder/
