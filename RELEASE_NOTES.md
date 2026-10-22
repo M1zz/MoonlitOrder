@@ -104,6 +104,12 @@ Bedøm appen og tjek versionen
 Στείλε σχόλια στον προγραμματιστή
 Βαθμολόγησε την εφαρμογή και δες έκδοση
 
+### 앱스토어 (Suomi)
+
+Avaa asetukset hammasrattaasta
+Lähetä palautetta kehittäjälle suoraan
+Arvioi sovellus ja tarkista versio
+
 ## 1.0.1 (2026-07-17)
 
 ### 새로운 기능

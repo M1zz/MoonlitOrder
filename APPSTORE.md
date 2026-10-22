@@ -985,3 +985,61 @@ https://m1zz.github.io/MoonlitOrder/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/MoonlitOrder/
+
+## fi
+
+### 이름
+
+Kuupeliareena: Bilepelit
+
+### 부제
+
+Offline-hauskuutta kavereille
+
+### 키워드
+
+valehtelija,mafia,ihmissusi,lautapeli,päättely,piirtäminen,arvaus,bluffi,bluetooth,wifi,perhe,leiri
+
+### 프로모션 텍스트
+
+Porukka koolla, mutta ei tekemistä? Yhdistä lähellä olevat iPhonet ilman internetiä ja pelaa neljää bilepeliä jopa 15 pelaajan voimin.
+
+### 설명
+
+Bilepelit, jotka voit aloittaa heti omalla iPhonellasi, kun kaverit kokoontuvat.
+Ilman internetiä samassa Wi-Fi-verkossa tai lähellä olevat iPhonet yhdistyvät toisiinsa, ja mukana voi olla jopa 15 pelaajaa.
+
+Neljä peliä
+Kuuordo (5–15 pelaajaa): piilotettujen henkilöllisyyksien peli, jossa paljastat ordon jäsenten joukkoon soluttautuneet Varjot. Johtaja valitsee ryhmän, kaikki äänestävät puolesta tai vastaan, ja ryhmä pelaa salaa onnistumisen tai epäonnistumisen. Kumpi saa ensin 3 tehtävää, onnistuminen vai epäonnistuminen?
+Valehtelijapeli (3–15 pelaajaa): kaikki saavat saman salaisen sanan, yhtä lukuun ottamatta. Etsi sanaa tuntematon Valehtelija kuuntelemalla keskustelua.
+Yö ilman kuuta (3–15 pelaajaa): yksi yö menninkäisen kanssa kylässä. Yöllä jokainen toimii salaa roolinsa mukaan, ja aamun koittaessa keskustelette ja äänestätte löytääksenne menninkäisen.
+Kuuateljee (3–15 pelaajaa): yksi piirtää salaisen sanan ja muut arvaavat. Mitä nopeammin arvaat, sitä enemmän pisteitä saat.
+
+Omalla ruudulla, salassa
+Roolit ja sanat näkyvät vain omalla iPhonellasi. Kortteja ei tarvitse jakaa eikä silmiä sulkea.
+Äänestyksessä näet heti, kuka on äänestänyt. Kuka äänesti ketä, pysyy salassa paljastukseen asti.
+
+Helppo aloittelijoille
+Jokaisessa pelissä on opetustila. Opettele säännöt pelaamalla askel kerrallaan bottien kanssa.
+
+Jatka siitä, mihin jäit
+Jos sovellus sulkeutuu tai yhteys katkeaa, aloitusnäytön ”Jatka” vie sinut takaisin peliin, rooli ja pisteet säilyen.
+Laitteet välittävät toisilleen, joten peli pysyy vakaana isollakin porukalla.
+
+Työkaluja isännälle
+Isäntä voi poistaa vastaamattoman pelaajan milloin tahansa, ja peli arvioidaan uudelleen jäljellä olevilla pelaajilla, jotta se ei koskaan jumiudu.
+Isäntätilassa voit viedä jumiutuneen vaiheen eteenpäin ja hallita pelaajia.
+
+Kaikki pelit ovat ilmaisia ja alkavat ilman tiliä.
+
+### 지원 URL
+
+https://m1zz.github.io/MoonlitOrder/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/MoonlitOrder/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/MoonlitOrder/

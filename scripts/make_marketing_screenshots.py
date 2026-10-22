@@ -15,7 +15,7 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "marketing"
 WORK = pathlib.Path("/tmp") / "moonlit-marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el"}
+STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi"}
 
 # (원본 파일, 헤드라인, 서브카피) — 언어마다 따로 쓴다.
 SHOTS = {
@@ -137,6 +137,13 @@ SHOTS = {
         ("03-vote.png", "Υπέρ<br>ή κατά;", "Τη στιγμή που αποκαλύπτονται οι ψήφοι, το παιχνίδι αλλάζει"),
         ("04-draw.png", "Ζωγράφισε<br>και μάντεψε", "Ένας ζωγραφίζει, οι άλλοι μαντεύουν στο Εργαστήρι του Φεγγαριού"),
         ("05-result.png", "Όσο πιο γρήγορα,<br>τόσο περισσότεροι πόντοι", "Παίξτε μαζί έως και 15 φίλοι"),
+    ],
+    "fi": [
+        ("01-home.png", "Kokoonnutte,<br>pelaatte heti", "Lähellä olevat iPhonet yhdistyvät ilman internetiä"),
+        ("02-role.png", "Roolisi tiedät<br>vain sinä", "Etsi piileskelevät Varjot Kuuordosta"),
+        ("03-vote.png", "Puolesta<br>vai vastaan?", "Kun kaikkien äänet paljastuvat, peli kääntyy"),
+        ("04-draw.png", "Piirrä<br>ja arvaa", "Yksi piirtää, muut arvaavat Kuuateljeessa"),
+        ("05-result.png", "Mitä nopeammin,<br>sitä enemmän pisteitä", "Pelaa jopa 15 kaverin kanssa"),
     ],
 }
 

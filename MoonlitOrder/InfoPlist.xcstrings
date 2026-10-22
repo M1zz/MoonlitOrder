@@ -51,6 +51,12 @@
             "value" : "Arcade Lunar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuupeliareena"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -155,6 +161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se necesita acceso a la red local para conectarte directamente con los iPhone de tus amigos cercanos y jugar juntos."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paikallisverkon käyttö tarvitaan, jotta voit yhdistää suoraan lähellä olevien kavereiden iPhoneihin ja pelata bilepelejä yhdessä."
           }
         },
         "fr" : {
