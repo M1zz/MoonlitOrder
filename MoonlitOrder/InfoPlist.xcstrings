@@ -111,6 +111,12 @@
             "value" : "Лунная аркада"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Månarkaden"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -245,6 +251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нужен доступ к локальной сети, чтобы напрямую подключаться к iPhone друзей рядом и играть вместе."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åtkomst till lokalt nätverk behövs för att ansluta direkt till vännernas iPhones i närheten och spela festspel tillsammans."
           }
         },
         "th" : {

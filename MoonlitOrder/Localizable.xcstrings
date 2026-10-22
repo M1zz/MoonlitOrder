@@ -134,6 +134,12 @@
             "state" : "translated",
             "value" : "Księżycowy Zając"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Månharen"
+          }
         }
       }
     },
@@ -269,6 +275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nocna Bryza"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nattbris"
           }
         }
       }
@@ -406,6 +418,12 @@
             "state" : "translated",
             "value" : "Droga Mleczna"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vintergatan"
+          }
         }
       }
     },
@@ -541,6 +559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Księżyc w Ostatniej Kwadrze"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avtagande måne"
           }
         }
       }
@@ -678,6 +702,12 @@
             "state" : "translated",
             "value" : "Strażnik Gwiazd"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stjärnväktaren"
+          }
         }
       }
     },
@@ -813,6 +843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Świt"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gryning"
           }
         }
       }
@@ -950,6 +986,12 @@
             "state" : "translated",
             "value" : "Zabójca opuścił pokój. Zakon Księżyca wygrywa."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lönnmördaren lämnade rummet. Månorden vinner."
+          }
         }
       }
     },
@@ -1085,6 +1127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gracz"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spelare"
           }
         }
       }
@@ -1222,6 +1270,12 @@
             "state" : "translated",
             "value" : "Drużyna została odrzucona %lld razy z rzędu. Cienie wygrywają."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laget avvisades %lld gånger i rad. Skuggorna vinner."
+          }
         }
       }
     },
@@ -1357,6 +1411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trzy misje zakończyły się porażką. Cienie wygrywają."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tre uppdrag misslyckades. Skuggorna vinner."
           }
         }
       }
@@ -1494,6 +1554,12 @@
             "state" : "translated",
             "value" : "Zabójca trafnie wskazał Wieszcza — „%@”. Cienie odwracają losy gry!"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lönnmördaren hittade Siaren, ”%@”, med precision. Skuggorna vänder spelet!"
+          }
         }
       }
     },
@@ -1629,6 +1695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zabójca chybił. „%@” nie był Wieszczem. Zakon Księżyca wygrywa!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lönnmördaren missade. ”%@” var inte Siaren. Månorden vinner!"
           }
         }
       }
@@ -1766,6 +1838,12 @@
             "state" : "translated",
             "value" : "Uznajemy, że wszyscy zobaczyli swoją rolę. Przechodzimy do wyboru drużyny."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla anses ha sett sin roll. Vi går vidare till lagval."
+          }
         }
       }
     },
@@ -1901,6 +1979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lider, który nie wybrał drużyny, zostaje pominięty, a kolej przechodzi na następnego."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ledaren som inte valde lag hoppas över och turen går vidare till nästa."
           }
         }
       }
@@ -2038,6 +2122,12 @@
             "state" : "translated",
             "value" : "Kto nie zagłosował, liczy się jako głos za. Liczymy głosy."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De som inte har röstat räknas som för. Rösterna räknas."
+          }
         }
       }
     },
@@ -2173,6 +2263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Członkowie drużyny, którzy nie zagrali karty, liczą się jako sukces."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagmedlemmar som inte spelade ett kort räknas som lyckat."
           }
         }
       }
@@ -2310,6 +2406,12 @@
             "state" : "translated",
             "value" : "Przechodzimy do następnej fazy."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi går vidare till nästa fas."
+          }
         }
       }
     },
@@ -2445,6 +2547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zabójca uznany za rezygnującego. Zakon Księżyca wygrywa."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lönnmördaren anses ha gett upp. Månorden vinner."
           }
         }
       }
@@ -2582,6 +2690,12 @@
             "state" : "translated",
             "value" : "Zabójca nie wskazał Wieszcza. Zakon Księżyca wygrywa."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lönnmördaren pekade inte ut Siaren. Månorden vinner."
+          }
         }
       }
     },
@@ -2717,6 +2831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kłamca opuścił pokój. Obywatele wygrywają!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lögnaren lämnade rummet. Medborgarna vinner!"
           }
         }
       }
@@ -2854,6 +2974,12 @@
             "state" : "translated",
             "value" : "Głosy się rozdzieliły i Kłamca się wywinął!"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rösterna delades och Lögnaren kom undan!"
+          }
         }
       }
     },
@@ -2989,6 +3115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wskazano niewłaściwą osobę!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fel person pekades ut!"
           }
         }
       }
@@ -3126,6 +3258,12 @@
             "state" : "translated",
             "value" : "Kłamca odgadł hasło! Kłamca odwraca losy gry!"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lögnaren gissade ordet! Lögnaren vänder spelet!"
+          }
         }
       }
     },
@@ -3261,6 +3399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kłamca nie odgadł hasła. Obywatele wygrywają!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lögnaren gissade inte ordet. Medborgarna vinner!"
           }
         }
       }
@@ -3398,6 +3542,12 @@
             "state" : "translated",
             "value" : "Kłamca"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lögnare"
+          }
         }
       }
     },
@@ -3533,6 +3683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Obywatel"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medborgare"
           }
         }
       }
@@ -3670,6 +3826,12 @@
             "state" : "translated",
             "value" : "Hasło: %@ · Kategoria: %@"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ord: %@ · Kategori: %@"
+          }
         }
       }
     },
@@ -3805,6 +3967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uznajemy, że wszyscy zobaczyli hasło. Przechodzimy do fazy opisów."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla anses ha sett ordet. Vi går vidare till beskrivningsfasen."
           }
         }
       }
@@ -3942,6 +4110,12 @@
             "state" : "translated",
             "value" : "Tura obecnego mówcy się kończy i kolej przechodzi na następnego."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den nuvarande talarens tur tar slut och turen går vidare till nästa."
+          }
         }
       }
     },
@@ -4077,6 +4251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kto nie zagłosował, liczy się jako wstrzymujący się. Liczymy głosy."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De som inte har röstat räknas som blanka. Rösterna räknas."
           }
         }
       }
@@ -4214,6 +4394,12 @@
             "state" : "translated",
             "value" : "Kłamca uznany za rezygnującego z zgadywania. Obywatele wygrywają."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lögnaren anses ha gett upp gissningen. Medborgarna vinner."
+          }
         }
       }
     },
@@ -4349,6 +4535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kłamca nie potrafił odpowiedzieć. Obywatele wygrywają!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lögnaren kunde inte svara. Medborgarna vinner!"
           }
         }
       }
@@ -4486,6 +4678,12 @@
             "state" : "translated",
             "value" : "Piesek?"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En valp?"
+          }
         }
       }
     },
@@ -4621,6 +4819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hmm… samochód"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hmm… en bil"
           }
         }
       }
@@ -4758,6 +4962,12 @@
             "state" : "translated",
             "value" : "Może niedźwiedź?"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kanske en björn?"
+          }
         }
       }
     },
@@ -4893,6 +5103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nie wiem, haha"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen aning, haha"
           }
         }
       }
@@ -5030,6 +5246,12 @@
             "state" : "translated",
             "value" : "Jabłko?"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ett äpple?"
+          }
         }
       }
     },
@@ -5162,6 +5384,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hmm…"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hmm…"
@@ -5302,6 +5530,12 @@
             "state" : "translated",
             "value" : "Zgadłeś! 🎉"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du gissade rätt! 🎉"
+          }
         }
       }
     },
@@ -5437,6 +5671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rysownik"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tecknare"
           }
         }
       }
@@ -5574,6 +5814,12 @@
             "state" : "translated",
             "value" : "Hasło: %@"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ord: %@"
+          }
         }
       }
     },
@@ -5709,6 +5955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Propozycje haseł: %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordförslag: %@"
           }
         }
       }
@@ -5846,6 +6098,12 @@
             "state" : "translated",
             "value" : "Zamiast Rysownika losowane jest hasło i zaczyna się rysowanie."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ett ord väljs slumpmässigt i stället för tecknaren och ritandet börjar."
+          }
         }
       }
     },
@@ -5981,6 +6239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Runda się kończy i podliczane są punkty."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ronden avslutas och poängen räknas ihop."
           }
         }
       }
@@ -6118,6 +6382,12 @@
             "state" : "translated",
             "value" : "Przechodzimy do następnej rundy."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vi går vidare till nästa rond."
+          }
         }
       }
     },
@@ -6253,6 +6523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🔥 Goblin %@ otworzył oczy w ciemności."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔥 Goblinen %@ öppnade ögonen i mörkret."
           }
         }
       }
@@ -6390,6 +6666,12 @@
             "state" : "translated",
             "value" : "👁 Szaman %@ po cichu zerknął na kartę."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "👁 Shamanen %@ kikade i hemlighet på ett kort."
+          }
         }
       }
     },
@@ -6525,6 +6807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🤝 Nocny złodziej %@ ukradł kartę gracza %@ i zamienili się!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🤝 Nattjuven %@ stal %@s kort och de bytte!"
           }
         }
       }
@@ -6662,6 +6950,12 @@
             "state" : "translated",
             "value" : "🔀 Psotnik %@ zamienił karty graczy %@ i %@!"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔀 Skojaren %@ bytte kort mellan %@ och %@!"
+          }
         }
       }
     },
@@ -6797,6 +7091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Karta środkowa nr %lld to „%@”."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mittenkort nr %lld är ”%@”."
           }
         }
       }
@@ -6934,6 +7234,12 @@
             "state" : "translated",
             "value" : "Karta gracza %@ to „%@”."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@s kort är ”%@”."
+          }
         }
       }
     },
@@ -7069,6 +7375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dwie karty środkowe: %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De 2 mittenkorten: %@"
           }
         }
       }
@@ -7206,6 +7518,12 @@
             "state" : "translated",
             "value" : "Ukradłeś kartę gracza %@. Teraz jesteś „%@”."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du stal %@s kort. Nu är du ”%@”."
+          }
         }
       }
     },
@@ -7341,6 +7659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zamieniłeś karty graczy %@ i %@."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du bytte kort mellan %@ och %@."
           }
         }
       }
@@ -7478,6 +7802,12 @@
             "state" : "translated",
             "value" : "Goblin został wygnany. Wioska wygrywa!"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En goblin förvisades. Byn vinner!"
+          }
         }
       }
     },
@@ -7613,6 +7943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wszystkie gobliny były w środku i nikt nie został wygnany. Wioska wygrywa!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla goblins låg i mitten och ingen förvisades. Byn vinner!"
           }
         }
       }
@@ -7750,6 +8086,12 @@
             "state" : "translated",
             "value" : "Nikt nie został wygnany, ale goblin się ukrywał. Gobliny wygrywają!"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen förvisades, men en goblin gömde sig. Goblinerna vinner!"
+          }
         }
       }
     },
@@ -7885,6 +8227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wygnano niewinnego. Gobliny wygrywają!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En oskyldig förvisades. Goblinerna vinner!"
           }
         }
       }
@@ -8022,6 +8370,12 @@
             "state" : "translated",
             "value" : "Karty środkowe: %@"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mittenkort: %@"
+          }
         }
       }
     },
@@ -8157,6 +8511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kto nie działał, kończy noc bez użycia mocy."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den som inte agerade avslutar natten utan att använda sin förmåga."
           }
         }
       }
@@ -8294,6 +8654,12 @@
             "state" : "translated",
             "value" : "Dyskusja się kończy i zaczyna się głosowanie nad wygnaniem."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Debatten avslutas och omröstningen om förvisning börjar."
+          }
         }
       }
     },
@@ -8429,6 +8795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zakon Księżyca"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Månorden"
           }
         }
       }
@@ -8566,6 +8938,12 @@
             "state" : "translated",
             "value" : "Cienie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skuggorna"
+          }
         }
       }
     },
@@ -8701,6 +9079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wieszcz"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siare"
           }
         }
       }
@@ -8838,6 +9222,12 @@
             "state" : "translated",
             "value" : "Członek Zakonu"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordensmedlem"
+          }
         }
       }
     },
@@ -8973,6 +9363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zabójca"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lönnmördare"
           }
         }
       }
@@ -9110,6 +9506,12 @@
             "state" : "translated",
             "value" : "Agent Cieni"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skuggagent"
+          }
         }
       }
     },
@@ -9245,6 +9647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wiesz, kim są agenci Cieni. Ale jeśli się zdradzisz, na końcu możesz zostać zamordowany, więc prowadź drużyny dyskretnie."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du vet vilka skuggagenterna är. Men avslöjas du kan du bli mördad på slutet, så led lagen diskret."
           }
         }
       }
@@ -9382,6 +9790,12 @@
             "state" : "translated",
             "value" : "Jesteś lojalnym członkiem Zakonu Księżyca. Na podstawie dyskusji i historii głosowań znajdź agentów Cieni i doprowadź do sukcesu 3 misji."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du är en lojal medlem av Månorden. Använd debatten och röstningshistoriken för att hitta skuggagenterna och få 3 uppdrag att lyckas."
+          }
         }
       }
     },
@@ -9517,6 +9931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jesteś ostrzem Cieni. Znasz innych agentów, a nawet jeśli Zakon zaliczy 3 misje, wygrasz, trafnie wskazując Wieszcza."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du är Skuggornas klinga. Du känner de andra agenterna, och även om orden klarar 3 uppdrag vinner du om du pekar ut Siaren rätt."
           }
         }
       }
@@ -9654,6 +10074,12 @@
             "state" : "translated",
             "value" : "Jesteś zdrajcą ukrytym w mroku. Znasz pozostałe Cienie. Ukryj swoją tożsamość, wniknij do drużyn i doprowadź misje do porażki."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du är en förrädare som gömmer sig i mörkret. Du känner de andra skuggorna. Dölj din identitet, infiltrera lagen och låt uppdragen misslyckas."
+          }
         }
       }
     },
@@ -9789,6 +10215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 udane misje (ale przegrana, jeśli Wieszcz zostanie zamordowany)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 lyckade uppdrag (men du förlorar om Siaren mördas)"
           }
         }
       }
@@ -9926,6 +10358,12 @@
             "state" : "translated",
             "value" : "3 nieudane misje · 5 odrzuconych drużyn z rzędu · zabójstwo Wieszcza"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 misslyckade uppdrag · 5 avvisade lag i rad · mord på Siaren"
+          }
         }
       }
     },
@@ -10061,6 +10499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jedzenie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mat"
           }
         }
       }
@@ -10198,6 +10642,12 @@
             "state" : "translated",
             "value" : "Gulasz kimchi"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kimchigryta"
+          }
         }
       }
     },
@@ -10334,6 +10784,12 @@
             "state" : "translated",
             "value" : "Grillowany boczek"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grillat fläsksida"
+          }
         }
       }
     },
@@ -10466,6 +10922,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tteokbokki"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tteokbokki"
@@ -10606,6 +11068,12 @@
             "state" : "translated",
             "value" : "Smażony kurczak"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stekt kyckling"
+          }
         }
       }
     },
@@ -10738,6 +11206,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pizza"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pizza"
@@ -10878,6 +11352,12 @@
             "state" : "translated",
             "value" : "Sushi"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sushi"
+          }
         }
       }
     },
@@ -11010,6 +11490,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ramen"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ramen"
@@ -11150,6 +11636,12 @@
             "state" : "translated",
             "value" : "Bibimbap"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibimbap"
+          }
         }
       }
     },
@@ -11285,6 +11777,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zimny makaron"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalla nudlar"
           }
         }
       }
@@ -11422,6 +11920,12 @@
             "state" : "translated",
             "value" : "Zupa z żeberek"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Revbenssoppa"
+          }
         }
       }
     },
@@ -11557,6 +12061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Makaron"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasta"
           }
         }
       }
@@ -11694,6 +12204,12 @@
             "state" : "translated",
             "value" : "Hamburger"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamburgare"
+          }
         }
       }
     },
@@ -11826,6 +12342,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gimbap"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gimbap"
@@ -11966,6 +12488,12 @@
             "state" : "translated",
             "value" : "Koreańska kaszanka"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koreansk blodkorv"
+          }
         }
       }
     },
@@ -12101,6 +12629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nóżki wieprzowe"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grisfötter"
           }
         }
       }
@@ -12238,6 +12772,12 @@
             "state" : "translated",
             "value" : "Sałatka"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sallad"
+          }
         }
       }
     },
@@ -12373,6 +12913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zwierzęta"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Djur"
           }
         }
       }
@@ -12510,6 +13056,12 @@
             "state" : "translated",
             "value" : "Słoń"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elefant"
+          }
         }
       }
     },
@@ -12645,6 +13197,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Żyrafa"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giraff"
           }
         }
       }
@@ -12782,6 +13340,12 @@
             "state" : "translated",
             "value" : "Pingwin"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pingvin"
+          }
         }
       }
     },
@@ -12918,6 +13482,12 @@
             "state" : "translated",
             "value" : "Tygrys"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiger"
+          }
         }
       }
     },
@@ -13050,6 +13620,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panda"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Panda"
@@ -13190,6 +13766,12 @@
             "state" : "translated",
             "value" : "Jeż"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Igelkott"
+          }
         }
       }
     },
@@ -13325,6 +13907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kangur"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Känguru"
           }
         }
       }
@@ -13462,6 +14050,12 @@
             "state" : "translated",
             "value" : "Sowa"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uggla"
+          }
         }
       }
     },
@@ -13594,6 +14188,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delfin"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delfin"
@@ -13734,6 +14334,12 @@
             "state" : "translated",
             "value" : "Ośmiornica"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bläckfisk"
+          }
         }
       }
     },
@@ -13869,6 +14475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wiewiórka"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ekorre"
           }
         }
       }
@@ -14006,6 +14618,12 @@
             "state" : "translated",
             "value" : "Krokodyl"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krokodil"
+          }
         }
       }
     },
@@ -14141,6 +14759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wielbłąd"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamel"
           }
         }
       }
@@ -14278,6 +14902,12 @@
             "state" : "translated",
             "value" : "Wydra"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utter"
+          }
         }
       }
     },
@@ -14413,6 +15043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Papuga"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papegoja"
           }
         }
       }
@@ -14550,6 +15186,12 @@
             "state" : "translated",
             "value" : "Kret"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mullvad"
+          }
         }
       }
     },
@@ -14685,6 +15327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Miejsca"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Platser"
           }
         }
       }
@@ -14822,6 +15470,12 @@
             "state" : "translated",
             "value" : "Park rozrywki"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nöjespark"
+          }
         }
       }
     },
@@ -14957,6 +15611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Biblioteka"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliotek"
           }
         }
       }
@@ -15094,6 +15754,12 @@
             "state" : "translated",
             "value" : "Koreańska sauna"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koreanskt spa"
+          }
         }
       }
     },
@@ -15229,6 +15895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kino"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bio"
           }
         }
       }
@@ -15366,6 +16038,12 @@
             "state" : "translated",
             "value" : "Sklep całodobowy"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Närbutik"
+          }
         }
       }
     },
@@ -15501,6 +16179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stacja metra"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunnelbanestation"
           }
         }
       }
@@ -15638,6 +16322,12 @@
             "state" : "translated",
             "value" : "Salon fryzjerski"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frisörsalong"
+          }
         }
       }
     },
@@ -15773,6 +16463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Szpital"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sjukhus"
           }
         }
       }
@@ -15910,6 +16606,12 @@
             "state" : "translated",
             "value" : "Szkoła"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skola"
+          }
         }
       }
     },
@@ -16045,6 +16747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kemping"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Campingplats"
           }
         }
       }
@@ -16182,6 +16890,12 @@
             "state" : "translated",
             "value" : "Basen"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simhall"
+          }
         }
       }
     },
@@ -16317,6 +17031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lotnisko"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flygplats"
           }
         }
       }
@@ -16454,6 +17174,12 @@
             "state" : "translated",
             "value" : "Targ"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marknad"
+          }
         }
       }
     },
@@ -16590,6 +17316,12 @@
             "state" : "translated",
             "value" : "Kawiarnia"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Café"
+          }
         }
       }
     },
@@ -16722,6 +17454,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karaoke"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Karaoke"
@@ -16862,6 +17600,12 @@
             "state" : "translated",
             "value" : "Siłownia"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gym"
+          }
         }
       }
     },
@@ -16997,6 +17741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zawody"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yrken"
           }
         }
       }
@@ -17134,6 +17884,12 @@
             "state" : "translated",
             "value" : "Strażak"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brandman"
+          }
         }
       }
     },
@@ -17269,6 +18025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lekarz"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Läkare"
           }
         }
       }
@@ -17406,6 +18168,12 @@
             "state" : "translated",
             "value" : "Kucharz"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kock"
+          }
         }
       }
     },
@@ -17541,6 +18309,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Programista"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programmerare"
           }
         }
       }
@@ -17678,6 +18452,12 @@
             "state" : "translated",
             "value" : "Youtuber"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Youtubare"
+          }
         }
       }
     },
@@ -17813,6 +18593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nauczyciel"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lärare"
           }
         }
       }
@@ -17950,6 +18736,12 @@
             "state" : "translated",
             "value" : "Policjant"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polis"
+          }
         }
       }
     },
@@ -18086,6 +18878,12 @@
             "state" : "translated",
             "value" : "Rolnik"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bonde"
+          }
         }
       }
     },
@@ -18218,6 +19016,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilot"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pilot"
@@ -18358,6 +19162,12 @@
             "state" : "translated",
             "value" : "Fryzjer"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frisör"
+          }
         }
       }
     },
@@ -18493,6 +19303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Piosenkarz"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sångare"
           }
         }
       }
@@ -18630,6 +19446,12 @@
             "state" : "translated",
             "value" : "Sportowiec"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idrottare"
+          }
         }
       }
     },
@@ -18762,6 +19584,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotograf"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotograf"
@@ -18902,6 +19730,12 @@
             "state" : "translated",
             "value" : "Adwokat"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Advokat"
+          }
         }
       }
     },
@@ -19038,6 +19872,12 @@
             "state" : "translated",
             "value" : "Rybak"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fiskare"
+          }
         }
       }
     },
@@ -19170,6 +20010,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barista"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Barista"
@@ -19310,6 +20156,12 @@
             "state" : "translated",
             "value" : "Przedmioty"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saker"
+          }
         }
       }
     },
@@ -19445,6 +20297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Parasol"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paraply"
           }
         }
       }
@@ -19582,6 +20440,12 @@
             "state" : "translated",
             "value" : "Wiatrak"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fläkt"
+          }
         }
       }
     },
@@ -19717,6 +20581,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lodówka"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kylskåp"
           }
         }
       }
@@ -19854,6 +20724,12 @@
             "state" : "translated",
             "value" : "Szczoteczka do zębów"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tandborste"
+          }
         }
       }
     },
@@ -19989,6 +20865,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poduszka"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kudde"
           }
         }
       }
@@ -20126,6 +21008,12 @@
             "state" : "translated",
             "value" : "Pilot do telewizora"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjärrkontroll"
+          }
         }
       }
     },
@@ -20261,6 +21149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kubek termiczny"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Termosmugg"
           }
         }
       }
@@ -20398,6 +21292,12 @@
             "state" : "translated",
             "value" : "Słuchawki"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hörlurar"
+          }
         }
       }
     },
@@ -20533,6 +21433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nożyczki"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sax"
           }
         }
       }
@@ -20670,6 +21576,12 @@
             "state" : "translated",
             "value" : "Koc"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filt"
+          }
         }
       }
     },
@@ -20805,6 +21717,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lustro"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spegel"
           }
         }
       }
@@ -20942,6 +21860,12 @@
             "state" : "translated",
             "value" : "Zegar"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klocka"
+          }
         }
       }
     },
@@ -21077,6 +22001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ładowarka"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laddare"
           }
         }
       }
@@ -21214,6 +22144,12 @@
             "state" : "translated",
             "value" : "Kapcie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tofflor"
+          }
         }
       }
     },
@@ -21349,6 +22285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maseczka"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Munskydd"
           }
         }
       }
@@ -21486,6 +22428,12 @@
             "state" : "translated",
             "value" : "Portfel"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plånbok"
+          }
         }
       }
     },
@@ -21621,6 +22569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sporty"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sport"
           }
         }
       }
@@ -21758,6 +22712,12 @@
             "state" : "translated",
             "value" : "Piłka nożna"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotboll"
+          }
         }
       }
     },
@@ -21893,6 +22853,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Baseball"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baseboll"
           }
         }
       }
@@ -22030,6 +22996,12 @@
             "state" : "translated",
             "value" : "Koszykówka"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basket"
+          }
         }
       }
     },
@@ -22162,6 +23134,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Badminton"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Badminton"
@@ -22302,6 +23280,12 @@
             "state" : "translated",
             "value" : "Pływanie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simning"
+          }
         }
       }
     },
@@ -22438,6 +23422,12 @@
             "state" : "translated",
             "value" : "Kręgle"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bowling"
+          }
         }
       }
     },
@@ -22570,6 +23560,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taekwondo"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taekwondo"
@@ -22710,6 +23706,12 @@
             "state" : "translated",
             "value" : "Golf"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Golf"
+          }
         }
       }
     },
@@ -22845,6 +23847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tenis stołowy"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bordtennis"
           }
         }
       }
@@ -22982,6 +23990,12 @@
             "state" : "translated",
             "value" : "Narciarstwo"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skidåkning"
+          }
         }
       }
     },
@@ -23117,6 +24131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wspinaczka"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klättring"
           }
         }
       }
@@ -23254,6 +24274,12 @@
             "state" : "translated",
             "value" : "Joga"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yoga"
+          }
         }
       }
     },
@@ -23389,6 +24415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Boks"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boxning"
           }
         }
       }
@@ -23526,6 +24558,12 @@
             "state" : "translated",
             "value" : "Łucznictwo"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bågskytte"
+          }
         }
       }
     },
@@ -23662,6 +24700,12 @@
             "state" : "translated",
             "value" : "Szermierka"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fäktning"
+          }
         }
       }
     },
@@ -23794,6 +24838,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maraton"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maraton"
@@ -23934,6 +24984,12 @@
             "state" : "translated",
             "value" : "Królik"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kanin"
+          }
         }
       }
     },
@@ -24069,6 +25125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kot"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katt"
           }
         }
       }
@@ -24206,6 +25268,12 @@
             "state" : "translated",
             "value" : "Pies"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hund"
+          }
         }
       }
     },
@@ -24341,6 +25409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lew"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lejon"
           }
         }
       }
@@ -24478,6 +25552,12 @@
             "state" : "translated",
             "value" : "Niedźwiedź"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Björn"
+          }
         }
       }
     },
@@ -24613,6 +25693,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ślimak"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snigel"
           }
         }
       }
@@ -24750,6 +25836,12 @@
             "state" : "translated",
             "value" : "Wąż"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orm"
+          }
         }
       }
     },
@@ -24885,6 +25977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Żółw"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sköldpadda"
           }
         }
       }
@@ -25022,6 +26120,12 @@
             "state" : "translated",
             "value" : "Motyl"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjäril"
+          }
         }
       }
     },
@@ -25157,6 +26261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ryba"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fisk"
           }
         }
       }
@@ -25294,6 +26404,12 @@
             "state" : "translated",
             "value" : "Lody"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glass"
+          }
         }
       }
     },
@@ -25430,6 +26546,12 @@
             "state" : "translated",
             "value" : "Tort"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tårta"
+          }
         }
       }
     },
@@ -25562,6 +26684,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banan"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Banan"
@@ -25702,6 +26830,12 @@
             "state" : "translated",
             "value" : "Arbuz"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vattenmelon"
+          }
         }
       }
     },
@@ -25837,6 +26971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jajko sadzone"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stekt ägg"
           }
         }
       }
@@ -25974,6 +27114,12 @@
             "state" : "translated",
             "value" : "Pączek"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Munk"
+          }
         }
       }
     },
@@ -26109,6 +27255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jabłko"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Äpple"
           }
         }
       }
@@ -26246,6 +27398,12 @@
             "state" : "translated",
             "value" : "Hot dog"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varmkorv"
+          }
         }
       }
     },
@@ -26381,6 +27539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Winogrona"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vindruvor"
           }
         }
       }
@@ -26518,6 +27682,12 @@
             "state" : "translated",
             "value" : "Marchewka"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morot"
+          }
         }
       }
     },
@@ -26653,6 +27823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rzeczy"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Föremål"
           }
         }
       }
@@ -26790,6 +27966,12 @@
             "state" : "translated",
             "value" : "Okulary"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glasögon"
+          }
         }
       }
     },
@@ -26925,6 +28107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rower"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cykel"
           }
         }
       }
@@ -27062,6 +28250,12 @@
             "state" : "translated",
             "value" : "Krzesło"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stol"
+          }
         }
       }
     },
@@ -27197,6 +28391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Klucz"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyckel"
           }
         }
       }
@@ -27334,6 +28534,12 @@
             "state" : "translated",
             "value" : "Żarówka"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glödlampa"
+          }
         }
       }
     },
@@ -27469,6 +28675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Balon"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ballong"
           }
         }
       }
@@ -27606,6 +28818,12 @@
             "state" : "translated",
             "value" : "Świeca"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ljus"
+          }
         }
       }
     },
@@ -27741,6 +28959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pudełko na prezent"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Presentask"
           }
         }
       }
@@ -27878,6 +29102,12 @@
             "state" : "translated",
             "value" : "Miotła"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kvast"
+          }
         }
       }
     },
@@ -28013,6 +29243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Młotek"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hammare"
           }
         }
       }
@@ -28150,6 +29386,12 @@
             "state" : "translated",
             "value" : "Ołówek"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blyertspenna"
+          }
         }
       }
     },
@@ -28285,6 +29527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kubek"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mugg"
           }
         }
       }
@@ -28422,6 +29670,12 @@
             "state" : "translated",
             "value" : "Pojazdy"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fordon"
+          }
         }
       }
     },
@@ -28557,6 +29811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Samochód"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bil"
           }
         }
       }
@@ -28694,6 +29954,12 @@
             "state" : "translated",
             "value" : "Samolot"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flygplan"
+          }
         }
       }
     },
@@ -28829,6 +30095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Statek"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fartyg"
           }
         }
       }
@@ -28966,6 +30238,12 @@
             "state" : "translated",
             "value" : "Pociąg"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tåg"
+          }
         }
       }
     },
@@ -29102,6 +30380,12 @@
             "state" : "translated",
             "value" : "Rakieta"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raket"
+          }
         }
       }
     },
@@ -29234,6 +30518,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Helikopter"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Helikopter"
@@ -29374,6 +30664,12 @@
             "state" : "translated",
             "value" : "Łódź podwodna"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ubåt"
+          }
         }
       }
     },
@@ -29509,6 +30805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Balon na ogrzane powietrze"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luftballong"
           }
         }
       }
@@ -29646,6 +30948,12 @@
             "state" : "translated",
             "value" : "Przyroda"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natur"
+          }
         }
       }
     },
@@ -29781,6 +31089,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Drzewo"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Träd"
           }
         }
       }
@@ -29918,6 +31232,12 @@
             "state" : "translated",
             "value" : "Kwiat"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blomma"
+          }
         }
       }
     },
@@ -30053,6 +31373,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Słońce"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sol"
           }
         }
       }
@@ -30190,6 +31516,12 @@
             "state" : "translated",
             "value" : "Chmura"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moln"
+          }
         }
       }
     },
@@ -30325,6 +31657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tęcza"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regnbåge"
           }
         }
       }
@@ -30462,6 +31800,12 @@
             "state" : "translated",
             "value" : "Góra"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berg"
+          }
         }
       }
     },
@@ -30597,6 +31941,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gwiazda"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stjärna"
           }
         }
       }
@@ -30734,6 +32084,12 @@
             "state" : "translated",
             "value" : "Bałwan"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snögubbe"
+          }
         }
       }
     },
@@ -30869,6 +32225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Błyskawica"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blixt"
           }
         }
       }
@@ -31006,6 +32368,12 @@
             "state" : "translated",
             "value" : "Wulkan"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vulkan"
+          }
         }
       }
     },
@@ -31141,6 +32509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wyspa"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ö"
           }
         }
       }
@@ -31278,6 +32652,12 @@
             "state" : "translated",
             "value" : "Księżyc"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Måne"
+          }
         }
       }
     },
@@ -31414,6 +32794,12 @@
             "state" : "translated",
             "value" : "Postacie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Figurer"
+          }
         }
       }
     },
@@ -31546,6 +32932,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Robot"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Robot"
@@ -31686,6 +33078,12 @@
             "state" : "translated",
             "value" : "Duch"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spöke"
+          }
         }
       }
     },
@@ -31822,6 +33220,12 @@
             "state" : "translated",
             "value" : "Korona"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krona"
+          }
         }
       }
     },
@@ -31954,6 +33358,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pirat"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pirat"
@@ -32094,6 +33504,12 @@
             "state" : "translated",
             "value" : "Anioł"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ängel"
+          }
         }
       }
     },
@@ -32229,6 +33645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Czarodziej"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trollkarl"
           }
         }
       }
@@ -32366,6 +33788,12 @@
             "state" : "translated",
             "value" : "Dinozaur"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dinosaurie"
+          }
         }
       }
     },
@@ -32501,6 +33929,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kosmita"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utomjording"
           }
         }
       }
@@ -32638,6 +34072,12 @@
             "state" : "translated",
             "value" : "Syrena"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sjöjungfru"
+          }
         }
       }
     },
@@ -32774,6 +34214,12 @@
             "state" : "translated",
             "value" : "Święty Mikołaj"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tomte"
+          }
         }
       }
     },
@@ -32906,6 +34352,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goblin"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Goblin"
@@ -33046,6 +34498,12 @@
             "state" : "translated",
             "value" : "Szaman"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shaman"
+          }
         }
       }
     },
@@ -33181,6 +34639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nocny złodziej"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nattjuv"
           }
         }
       }
@@ -33318,6 +34782,12 @@
             "state" : "translated",
             "value" : "Psotnik"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skojare"
+          }
         }
       }
     },
@@ -33453,6 +34923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wieśniak"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bybo"
           }
         }
       }
@@ -33590,6 +35066,12 @@
             "state" : "translated",
             "value" : "Poznajesz swoich kompanów goblinów. Jeśli jesteś jedynym goblinem, możesz zerknąć na 1 kartę środkową. Gdy nastanie świt, ukryj tożsamość i udawaj człowieka."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du känner dina goblinkamrater. Om du är den enda goblinen får du titta på 1 mittenkort. När det gryr döljer du din identitet och låtsas vara människa."
+          }
         }
       }
     },
@@ -33725,6 +35207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dzięki nadprzyrodzonej mocy możesz zobaczyć kartę 1 innego gracza albo 2 karty środkowe."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med övernaturlig kraft kan du titta på 1 annan spelares kort eller 2 mittenkort."
           }
         }
       }
@@ -33862,6 +35350,12 @@
             "state" : "translated",
             "value" : "Po cichu zamień się kartą z 1 innym graczem i zobacz nową kartę. Od tej chwili twoja strona idzie za nową kartą."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Byt kort i hemlighet med 1 annan spelare och titta på det nya kortet. Efter det följer ditt lag det nya kortet."
+          }
         }
       }
     },
@@ -33997,6 +35491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Psota się zaczyna! Zamień karty dwóch innych graczy. Nie zobaczysz, jakie to były karty."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skojet börjar! Byt kort mellan två andra spelare. Du får inte se vad det var."
           }
         }
       }
@@ -34134,6 +35634,12 @@
             "state" : "translated",
             "value" : "W nocy nie masz nic do zrobienia. Znajdź ukryte gobliny dzięki rozumowaniu i dyskusji w dzień."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På natten finns inget att göra. Hitta de gömda goblinerna genom att resonera och diskutera på dagen."
+          }
         }
       }
     },
@@ -34269,6 +35775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Łączenie…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ansluter …"
           }
         }
       }
@@ -34406,6 +35918,12 @@
             "state" : "translated",
             "value" : "Ustawienia"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inställningar"
+          }
         }
       }
     },
@@ -34542,6 +36060,12 @@
             "state" : "translated",
             "value" : "Powiadomienie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meddelande"
+          }
         }
       }
     },
@@ -34674,6 +36198,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -34814,6 +36344,12 @@
             "state" : "translated",
             "value" : "Gra „%@” jest w trakcie konserwacji. Wybierz inną grę."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%@” är under underhåll. Välj ett annat spel."
+          }
         }
       }
     },
@@ -34949,6 +36485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gra"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spel"
           }
         }
       }
@@ -35086,6 +36628,12 @@
             "state" : "translated",
             "value" : "Gra w Kłamcę"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lögnarspelet"
+          }
         }
       }
     },
@@ -35221,6 +36769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noc bez Księżyca"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natt utan måne"
           }
         }
       }
@@ -35358,6 +36912,12 @@
             "state" : "translated",
             "value" : "Księżycowa Pracownia"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Månateljén"
+          }
         }
       }
     },
@@ -35493,6 +37053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utwórz pokój"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skapa rum"
           }
         }
       }
@@ -35630,6 +37196,12 @@
             "state" : "translated",
             "value" : "Otwórz pokój dla wybranej gry, aby znajomi mogli dołączyć."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öppna ett rum för det valda spelet så att dina vänner kan gå med."
+          }
         }
       }
     },
@@ -35765,6 +37337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Szukaj pokoi w pobliżu"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hitta rum i närheten"
           }
         }
       }
@@ -35902,6 +37480,12 @@
             "state" : "translated",
             "value" : "Znajdź pokój stworzony przez znajomego w pobliżu i dołącz."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hitta rummet som en vän i närheten har skapat och gå med."
+          }
         }
       }
     },
@@ -36037,6 +37621,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ćwicz z botami"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öva med botar"
           }
         }
       }
@@ -36174,6 +37764,12 @@
             "state" : "translated",
             "value" : "Zagraj jedną rundę samotnie z botami, aby poznać zasady."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spela en omgång själv mot botar för att lära dig reglerna."
+          }
         }
       }
     },
@@ -36309,6 +37905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pokój jest pełny. (Maks. liczba graczy: %lld)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rummet är fullt. (Högsta antal spelare: %lld)"
           }
         }
       }
@@ -36446,6 +38048,12 @@
             "state" : "translated",
             "value" : "W tym pokoju gra już trwa."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ett spel pågår redan i det här rummet."
+          }
         }
       }
     },
@@ -36578,6 +38186,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luna"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Luna"
@@ -36718,6 +38332,12 @@
             "state" : "translated",
             "value" : "Orion"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orion"
+          }
         }
       }
     },
@@ -36850,6 +38470,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nova"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nova"
@@ -36990,6 +38616,12 @@
             "state" : "translated",
             "value" : "Sol"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sol"
+          }
         }
       }
     },
@@ -37125,6 +38757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gospodarz usunął cię z pokoju."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Värden tog bort dig från rummet."
           }
         }
       }
@@ -37262,6 +38900,12 @@
             "state" : "translated",
             "value" : "Gospodarz zamknął pokój."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Värden stängde rummet."
+          }
         }
       }
     },
@@ -37397,6 +39041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nie udało się ponownie połączyć z gospodarzem. Możesz dołączyć ponownie przez „Kontynuuj” na ekranie głównym."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det gick inte att ansluta till värden igen. Du kan gå med igen via ”Fortsätt” på startskärmen."
           }
         }
       }
@@ -37534,6 +39184,12 @@
             "state" : "translated",
             "value" : "Każdy gracz jest po cichu przypisywany do Zakonu Księżyca (dobrzy) albo Cieni (źli). W trakcie maksymalnie 5 misji musisz wydedukować, kim są Cienie, wyłącznie z rozmów i historii głosowań."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varje spelare tilldelas i hemlighet Månorden (de goda) eller Skuggorna (de onda). Under upp till 5 uppdrag måste du bara utifrån samtal och röstningshistorik lista ut vilka Skuggorna är."
+          }
         }
       }
     },
@@ -37669,6 +39325,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wszyscy dostają to samo tajne hasło, oprócz jednego Kłamcy. Opisujcie hasło po kolei kilkoma słowami i sprawdzajcie, kto naprawdę je zna. Kłamca musi blefować, nie znając hasła."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla får samma hemliga ord, utom en Lögnare. Beskriv ordet i tur och ordning med några få ord och kolla vem som verkligen känner till det. Lögnaren måste bluffa utan att känna till ordet."
           }
         }
       }
@@ -37806,6 +39468,12 @@
             "state" : "translated",
             "value" : "Gobliny wkradły się do wioski! W nocy każdy wykonuje tajną akcję, by zdobyć informacje lub po cichu zamienić karty; w dzień toczy się dyskusja, a jedno głosowanie decyduje, kto zostanie wygnany. Karty mogą zmienić się w nocy, więc o wyniku decyduje „karta końcowa”."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goblins har smugit sig in i byn! På natten använder alla en hemlig handling för att få information eller i hemlighet byta kort; på dagen diskuterar man och en enda omröstning avgör vem som förvisas. Korten kan ändras under natten, så resultatet avgörs av ”slutkortet”."
+          }
         }
       }
     },
@@ -37941,6 +39609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "W każdej rundzie jeden gracz zostaje „Rysownikiem” i przedstawia tajne hasło wyłącznie rysunkiem. Pozostali patrzą na rysunek i zgadują na czacie. Litery i cyfry są zabronione. Gra kończy się, gdy każdy był Rysownikiem."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I varje rond blir en spelare ”Tecknare” och uttrycker det hemliga ordet bara med en teckning. De andra tittar på teckningen och gissar i chatten. Bokstäver och siffror är förbjudna. Spelet slutar när alla har varit Tecknare."
           }
         }
       }
@@ -38078,6 +39752,12 @@
             "state" : "translated",
             "value" : "Zakon Księżyca (dobrzy)"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Månorden (de goda)"
+          }
         }
       }
     },
@@ -38213,6 +39893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 udane misje. Ale jeśli na końcu Zabójca trafnie wskaże Wieszcza, przegrywasz, więc Wieszcz musi ukrywać tożsamość do końca."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 lyckade uppdrag. Men om Lönnmördaren pekar ut Siaren rätt på slutet förlorar du, så Siaren måste dölja sin identitet in i det sista."
           }
         }
       }
@@ -38350,6 +40036,12 @@
             "state" : "translated",
             "value" : "Cienie (źli)"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skuggorna (de onda)"
+          }
         }
       }
     },
@@ -38485,6 +40177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 nieudane misje · 5 odrzuconych drużyn z rzędu · udane zabójstwo Wieszcza — wystarczy jedno z trzech."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 misslyckade uppdrag · 5 avvisade lag i rad · lyckat mord på Siaren — ett av de tre räcker för att vinna."
           }
         }
       }
@@ -38622,6 +40320,12 @@
             "state" : "translated",
             "value" : "Wygrywasz, jeśli głosowanie trafnie wskaże Kłamcę, a Kłamca nie odgadnie hasła."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du vinner om omröstningen pekar ut Lögnaren rätt och Lögnaren inte gissar ordet."
+          }
         }
       }
     },
@@ -38757,6 +40461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wygrywasz, jeśli głosy się rozdzielą albo wskazana zostanie niewłaściwa osoba. Nawet złapany Kłamca odwraca losy gry, jeśli odgadnie hasło!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du vinner om rösterna delas eller fel person pekas ut. Även om Lögnaren åker fast vänder han spelet genom att gissa ordet!"
           }
         }
       }
@@ -38894,6 +40604,12 @@
             "state" : "translated",
             "value" : "Wioska"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "By"
+          }
         }
       }
     },
@@ -39029,6 +40745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wygrywasz, wygnawszy goblina (według karty końcowej). Jeśli wszystkie gobliny są w kartach środkowych, wygrywasz tylko wtedy, gdy nikt nie zostanie wygnany."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du vinner om du förvisar en goblin (enligt slutkortet). Ligger alla goblins bland mittenkorten vinner du bara om ingen förvisas."
           }
         }
       }
@@ -39166,6 +40888,12 @@
             "state" : "translated",
             "value" : "Wygrywasz, jeśli żaden goblin nie zostanie wygnany — wygrywasz też, gdy wygnany zostanie niewinny."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du vinner om ingen goblin förvisas — du vinner även om en oskyldig förvisas."
+          }
         }
       }
     },
@@ -39301,6 +41029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zgadujący"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gissare"
           }
         }
       }
@@ -39438,6 +41172,12 @@
             "state" : "translated",
             "value" : "Im szybciej odgadniesz hasło z rysunku, tym więcej punktów! Za dobrą odpowiedź dostajesz punkty."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ju snabbare du gissar ordet utifrån teckningen, desto fler poäng! Rätt svar ger poäng."
+          }
         }
       }
     },
@@ -39573,6 +41313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zdobywasz punkty, gdy wiele osób odgadnie twój rysunek. Kluczem jest rysować tak, by każdy poznał!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du får poäng när många gissar din teckning. Nyckeln är att rita så att alla känner igen det!"
           }
         }
       }
@@ -39710,6 +41456,12 @@
             "state" : "translated",
             "value" : "Jak grać"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Så spelar du"
+          }
         }
       }
     },
@@ -39845,6 +41597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cel gry"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spelets mål"
           }
         }
       }
@@ -39982,6 +41740,12 @@
             "state" : "translated",
             "value" : "Warunki zwycięstwa"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vinstvillkor"
+          }
         }
       }
     },
@@ -40117,6 +41881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Teraz wypróbujesz wszystko krok po kroku razem z botami.\nW każdej fazie pojawia się podpowiedź, a dalej idziesz przyciskiem „Dalej”."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nu provar du steg för steg tillsammans med botar.\nI varje fas visas en guide och du går vidare med ”Nästa”."
           }
         }
       }
@@ -40254,6 +42024,12 @@
             "state" : "translated",
             "value" : "Rozpocznij ćwiczenie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starta övningen"
+          }
         }
       }
     },
@@ -40389,6 +42165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Na ekran główny"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Till startskärmen"
           }
         }
       }
@@ -40526,6 +42308,12 @@
             "state" : "translated",
             "value" : "Czas na zabójstwo"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dags för mord"
+          }
         }
       }
     },
@@ -40661,6 +42449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zakon Księżyca zaliczył 3 misje.\nAle jeśli Zabójca znajdzie Wieszcza, Cienie odwrócą losy gry!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Månorden har klarat 3 uppdrag.\nMen om Lönnmördaren hittar Siaren vänder Skuggorna spelet!"
           }
         }
       }
@@ -40798,6 +42592,12 @@
             "state" : "translated",
             "value" : "Wskaż gracza, który według ciebie jest Wieszczem"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peka ut spelaren du tror är Siaren"
+          }
         }
       }
     },
@@ -40933,6 +42733,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wykonaj zabójstwo"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utför mordet"
           }
         }
       }
@@ -41070,6 +42876,12 @@
             "state" : "translated",
             "value" : "Zabójca wybiera ostatni cel…"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lönnmördaren väljer sitt sista mål …"
+          }
         }
       }
     },
@@ -41205,6 +43017,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wygrywa: %@!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ vinner!"
           }
         }
       }
@@ -41342,6 +43160,12 @@
             "state" : "translated",
             "value" : "Ujawnione role"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roller avslöjade"
+          }
         }
       }
     },
@@ -41477,6 +43301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ja"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag"
           }
         }
       }
@@ -41614,6 +43444,12 @@
             "state" : "translated",
             "value" : "Zagraj jeszcze raz w tym samym składzie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spela igen med samma spelare"
+          }
         }
       }
     },
@@ -41749,6 +43585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gospodarz może zacząć od nowa"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Värden kan starta om"
           }
         }
       }
@@ -41886,6 +43728,12 @@
             "state" : "translated",
             "value" : "Wyjdź"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lämna"
+          }
         }
       }
     },
@@ -42021,6 +43869,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pierwszy raz? Najpierw poćwicz z botami"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Första gången? Öva med botar först"
           }
         }
       }
@@ -42158,6 +44012,12 @@
             "state" : "translated",
             "value" : "Możesz zagrać samotnie całą partię z botami, aby poznać zasady."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du kan spela ett helt spel själv mot botar för att lära dig reglerna."
+          }
         }
       }
     },
@@ -42293,6 +44153,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wymusić przejście do kolejnej fazy?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tvinga fasen vidare?"
           }
         }
       }
@@ -42430,6 +44296,12 @@
             "state" : "translated",
             "value" : "Wymuś przejście"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tvinga vidare"
+          }
         }
       }
     },
@@ -42565,6 +44437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anuluj"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
           }
         }
       }
@@ -42702,6 +44580,12 @@
             "state" : "translated",
             "value" : "Usunąć gracza %@?"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort %@?"
+          }
         }
       }
     },
@@ -42837,6 +44721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usuń"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort"
           }
         }
       }
@@ -42974,6 +44864,12 @@
             "state" : "translated",
             "value" : "Trwająca gra będzie kontynuowana z pozostałymi graczami."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ett pågående spel fortsätter med de kvarvarande spelarna."
+          }
         }
       }
     },
@@ -43109,6 +45005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tryb gospodarza GM"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GM-värdläge"
           }
         }
       }
@@ -43246,6 +45148,12 @@
             "state" : "translated",
             "value" : "Jeśli gra się zawiesi, możesz stąd ją ruszyć dalej."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om spelet fastnar kan du hålla det igång härifrån."
+          }
         }
       }
     },
@@ -43381,6 +45289,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sterowanie grą"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spelkontroll"
           }
         }
       }
@@ -43518,6 +45432,12 @@
             "state" : "translated",
             "value" : "Wymuś przejście fazy"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tvinga fasen vidare"
+          }
         }
       }
     },
@@ -43653,6 +45573,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "W obecnej fazie nie ma czego wymuszać."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det finns inget att tvinga i den nuvarande fasen."
           }
         }
       }
@@ -43790,6 +45716,12 @@
             "state" : "translated",
             "value" : "Zarządzaj graczami"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hantera spelare"
+          }
         }
       }
     },
@@ -43925,6 +45857,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Informacje prywatne"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privat information"
           }
         }
       }
@@ -44062,6 +46000,12 @@
             "state" : "translated",
             "value" : "Ujawnij role i odpowiedzi"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avslöja roller och svar"
+          }
         }
       }
     },
@@ -44197,6 +46141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeśli spojrzysz, GM trudno będzie grać uczciwie. Używaj tylko wtedy, gdy gra się zawiesi."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om du tittar blir det svårt för GM att spela rättvist. Använd bara när spelet fastnar."
           }
         }
       }
@@ -44334,6 +46284,12 @@
             "state" : "translated",
             "value" : "Opuścić grę?"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lämna spelet?"
+          }
         }
       }
     },
@@ -44469,6 +46425,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Przerwij grę i wróć do poczekalni"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt spelet och gå till lobbyn"
           }
         }
       }
@@ -44606,6 +46568,12 @@
             "state" : "translated",
             "value" : "Zamknij pokój (koniec dla wszystkich)"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stäng rummet (avslutas för alla)"
+          }
         }
       }
     },
@@ -44741,6 +46709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Panel gospodarza"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Värdpanel"
           }
         }
       }
@@ -44878,6 +46852,12 @@
             "state" : "translated",
             "value" : "Misja nr %lld"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uppdrag nr %lld"
+          }
         }
       }
     },
@@ -45013,6 +46993,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lider: %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ledare: %@"
           }
         }
       }
@@ -45150,6 +47136,12 @@
             "state" : "translated",
             "value" : "Koniec gry"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spelet är slut"
+          }
         }
       }
     },
@@ -45285,6 +47277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zobacz moją rolę"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se min roll"
           }
         }
       }
@@ -45422,6 +47420,12 @@
             "state" : "translated",
             "value" : "Dalej"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nästa"
+          }
         }
       }
     },
@@ -45557,6 +47561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "W tej fazie każdy po cichu sprawdza swoją rolę. Gdy sprawdzisz swoją i dotkniesz „Dalej”, boty też skończą."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I den här fasen tittar alla i hemlighet på sin egen roll. När du har tittat på din och tryckt på ”Nästa” blir botarna också klara."
           }
         }
       }
@@ -45694,6 +47704,12 @@
             "state" : "translated",
             "value" : "Lider wyznacza drużynę na tę misję. Dotknij „Dalej”, a lider wybierze skład. (Jeśli jesteś liderem, wybierz sam!)"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ledaren utser laget för det här uppdraget. Tryck på ”Nästa” så väljer ledaren lag. (Är du ledare, välj själv!)"
+          }
         }
       }
     },
@@ -45829,6 +47845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wszyscy głosują za lub przeciw składowi drużyny. Przy remisie jest odrzucona! Zagłosuj najpierw, potem dotknij „Dalej”, aby zobaczyć głosy botów."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla röstar för eller emot lagets sammansättning. Vid lika avvisas det! Rösta först och tryck sedan på ”Nästa” för att se botarnas röster."
           }
         }
       }
@@ -45966,6 +47988,12 @@
             "state" : "translated",
             "value" : "To wynik głosowania. Jeśli drużyna zostanie odrzucona 5 razy z rzędu, wygrywają Cienie, więc nie możesz po prostu zawsze głosować przeciw."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det här är omröstningens resultat. Avvisas laget 5 gånger i rad vinner Skuggorna, så du kan inte bara rösta emot hela tiden."
+          }
         }
       }
     },
@@ -46101,6 +48129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tylko członkowie drużyny grają kartę sukcesu lub porażki. Zakon Księżyca może zagrać tylko sukces; tylko Cienie mogą po cichu zagrać porażkę. Dotknij „Dalej”, aby zobaczyć oddawanie kart."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bara lagmedlemmar spelar ett lyckat- eller misslyckatkort. Månorden kan bara spela lyckat; bara Skuggorna kan i hemlighet spela misslyckat. Tryck på ”Nästa” för att följa kortinlämningen."
           }
         }
       }
@@ -46238,6 +48272,12 @@
             "state" : "translated",
             "value" : "Jeśli kart porażki jest wymagana liczba, misja kończy się porażką! Kto pierwszy zdobędzie 3 zwycięstwa, kończy grę."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När misslyckatkorten når det krävda antalet misslyckas uppdraget! Den som först får 3 segrar avslutar spelet."
+          }
         }
       }
     },
@@ -46373,6 +48413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nawet jeśli 3 misje się powiodą, zostaje ostatni zwrot: jeśli Zabójca trafnie wskaże Wieszcza, Cienie odwrócą losy gry."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Även om 3 uppdrag lyckas finns en sista vändning: pekar Lönnmördaren ut Siaren rätt vänder Skuggorna spelet."
           }
         }
       }
@@ -46510,6 +48556,12 @@
             "state" : "translated",
             "value" : "Utracono połączenie z gospodarzem. Próbuję automatycznie połączyć ponownie…"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anslutningen till värden bröts. Försöker ansluta igen automatiskt …"
+          }
         }
       }
     },
@@ -46645,6 +48697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Czas minął"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiden är ute"
           }
         }
       }
@@ -46782,6 +48840,12 @@
             "state" : "translated",
             "value" : "Sprawdź tam, gdzie nikt nie widzi"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titta där ingen annan kan se"
+          }
         }
       }
     },
@@ -46917,6 +48981,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Strona: %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lag: %@"
           }
         }
       }
@@ -47054,6 +49124,12 @@
             "state" : "translated",
             "value" : "Ci, którzy wyglądają na agentów Cieni"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De som verkar vara skuggagenter"
+          }
         }
       }
     },
@@ -47189,6 +49265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Twoi sojusznicy z Cieni"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dina allierade bland Skuggorna"
           }
         }
       }
@@ -47326,6 +49408,12 @@
             "state" : "translated",
             "value" : "Cel: %@"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mål: %@"
+          }
         }
       }
     },
@@ -47461,6 +49549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chwilowo w konserwacji. Wkrótce znów ruszy."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Under underhåll en liten stund. Öppnar snart igen."
           }
         }
       }
@@ -47598,6 +49692,12 @@
             "state" : "translated",
             "value" : "3 gry imprezowe dla znajomych w pobliżu"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 festspel att njuta av med vänner i närheten"
+          }
         }
       }
     },
@@ -47733,6 +49833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pseudonim"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smeknamn"
           }
         }
       }
@@ -47870,6 +49976,12 @@
             "state" : "translated",
             "value" : "Wpisz swoje imię"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ditt namn"
+          }
         }
       }
     },
@@ -48005,6 +50117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wybierz grę"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj ett spel"
           }
         }
       }
@@ -48142,6 +50260,12 @@
             "state" : "translated",
             "value" : "5–15 graczy · Znajdź ukryte Cienie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5–15 spelare · Hitta de gömda Skuggorna"
+          }
         }
       }
     },
@@ -48277,6 +50401,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3–15 graczy · Znajdź tego, kto nie zna hasła"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 spelare · Hitta den som inte känner till ordet"
           }
         }
       }
@@ -48414,6 +50544,12 @@
             "state" : "translated",
             "value" : "3–15 graczy · Jedna noc z goblinem w wiosce"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 spelare · En natt med en goblin i byn"
+          }
         }
       }
     },
@@ -48549,6 +50685,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3–15 graczy · Jeden rysuje, reszta zgaduje"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 spelare · En ritar, de andra gissar"
           }
         }
       }
@@ -48686,6 +50828,12 @@
             "state" : "translated",
             "value" : "Szukaj wszystkich pokoi w pobliżu"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hitta alla rum i närheten"
+          }
         }
       }
     },
@@ -48821,6 +50969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "iPhone’y w tej samej sieci Wi-Fi lub w pobliżu łączą się automatycznie.\nMożesz grać bez internetu."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhones på samma Wi-Fi eller i närheten ansluter automatiskt.\nDu kan spela utan internet."
           }
         }
       }
@@ -48958,6 +51112,12 @@
             "state" : "translated",
             "value" : "Kontynuuj"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsätt"
+          }
         }
       }
     },
@@ -49093,6 +51253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pokój — %1$@%2$@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rum: %1$@%2$@"
           }
         }
       }
@@ -49230,6 +51396,12 @@
             "state" : "translated",
             "value" : "Wyczyść historię „Kontynuuj”"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rensa historiken för ”Fortsätt”"
+          }
         }
       }
     },
@@ -49365,6 +51537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gra o ukrytych tożsamościach dla 5–15 graczy: znajdź Cienie ukryte w drużynie. Wygrywa strona, która pierwsza zaliczy (lub zepsuje) 3 misje."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ett spel om dolda identiteter för 5–15 spelare: hitta Skuggorna som gömmer sig i laget. Den sida som först får 3 uppdrag att lyckas (eller misslyckas) vinner."
           }
         }
       }
@@ -49502,6 +51680,12 @@
             "state" : "translated",
             "value" : "Gra w blef dla 3–15 graczy: wszyscy oprócz Kłamcy dostają to samo hasło. Opiszcie je kilkoma słowami, a potem znajdźcie Kłamcę. Nawet złapany Kłamca wygrywa, jeśli odgadnie hasło!"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ett bluffspel för 3–15 spelare: alla utom Lögnaren får samma ord. Beskriv det med några få ord och hitta sedan Lögnaren. Även om Lögnaren åker fast vinner han genom att gissa ordet!"
+          }
         }
       }
     },
@@ -49637,6 +51821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gra dedukcyjna dla 3–15 graczy o jednej nocy z goblinem w wiosce. W nocy karty są zamieniane, a jedno głosowanie rozstrzyga o zwycięstwie."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ett deduktionsspel för 3–15 spelare om en natt med en goblin i byn. På natten byts kort och en enda omröstning avgör vinnaren."
           }
         }
       }
@@ -49774,6 +51964,12 @@
             "state" : "translated",
             "value" : "Gra rysunkowa dla 3–15 graczy: w każdej rundzie jeden rysuje hasło, a reszta zgaduje na czacie. Im szybciej zgadniesz, tym więcej punktów! Gdy wszyscy narysują, wygrywa ten z największą liczbą punktów."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ett ritspel för 3–15 spelare: i varje rond ritar en person ordet och de andra gissar i chatten. Ju snabbare du gissar, desto fler poäng! När alla har ritat vinner den med flest poäng."
+          }
         }
       }
     },
@@ -49909,6 +52105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utwórz pokój (gospodarz)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skapa rum (värd)"
           }
         }
       }
@@ -50046,6 +52248,12 @@
             "state" : "translated",
             "value" : "Dołącz do gry"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gå med i ett spel"
+          }
         }
       }
     },
@@ -50181,6 +52389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jak grać (ćwiczenie z botami)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Så spelar du (öva med botar)"
           }
         }
       }
@@ -50318,6 +52532,12 @@
             "state" : "translated",
             "value" : "Wstecz"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tillbaka"
+          }
         }
       }
     },
@@ -50453,6 +52673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Szukaj pokoi: %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hitta rum: %@"
           }
         }
       }
@@ -50590,6 +52816,12 @@
             "state" : "translated",
             "value" : "Szukaj pokoi w pobliżu"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hitta rum i närheten"
+          }
         }
       }
     },
@@ -50725,6 +52957,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Łączenie z pokojem…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ansluter till rummet …"
           }
         }
       }
@@ -50862,6 +53100,12 @@
             "state" : "translated",
             "value" : "Szukam pokoi w pobliżu…\nSprawdź, czy gospodarz dotknął „Utwórz pokój”."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letar efter rum i närheten …\nKontrollera att värden har tryckt på ”Skapa rum”."
+          }
         }
       }
     },
@@ -50997,6 +53241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pokój — %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rum: %@"
           }
         }
       }
@@ -51134,6 +53384,12 @@
             "state" : "translated",
             "value" : "Wszyscy mają to samo hasło. Tylko jedna osoba go nie zna."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla har samma ord. Bara en person känner inte till det."
+          }
         }
       }
     },
@@ -51269,6 +53525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utracono połączenie z gospodarzem. Próbuję połączyć ponownie…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anslutningen till värden bröts. Försöker ansluta igen …"
           }
         }
       }
@@ -51406,6 +53668,12 @@
             "state" : "translated",
             "value" : "Kategoria: %@"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategori: %@"
+          }
         }
       }
     },
@@ -51541,6 +53809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wszyscy oprócz Kłamcy dostali to samo hasło. Sprawdź swoje i dotknij „Dalej”, aby boty też skończyły."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla utom Lögnaren fick samma ord. Titta på ditt och tryck på ”Nästa” så blir botarna också klara."
           }
         }
       }
@@ -51678,6 +53952,12 @@
             "state" : "translated",
             "value" : "To faza, w której po kolei opisuje się hasło kilkoma słowami. Każde dotknięcie „Dalej” kończy wypowiedź bieżącej osoby."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I den här fasen beskriver alla ordet i tur och ordning med några få ord. Varje tryck på ”Nästa” avslutar den nuvarande turen."
+          }
         }
       }
     },
@@ -51813,6 +54093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kto był wymijający w opisie? Najpierw zagłosuj na tego, kogo podejrzewasz o bycie Kłamcą, potem dotknij „Dalej”, aby zobaczyć głosy botów."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vem var undvikande i sin beskrivning? Rösta först på den du misstänker är Lögnaren och tryck sedan på ”Nästa” för att se botarnas röster."
           }
         }
       }
@@ -51950,6 +54236,12 @@
             "state" : "translated",
             "value" : "Kłamca został złapany! Ale jeśli odgadnie hasło, odwróci losy gry — dotknij „Dalej”, aby zobaczyć jego zgadywanie."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lögnaren åkte fast! Men gissar han ordet vänder han spelet — tryck på ”Nästa” för att följa hans gissning."
+          }
         }
       }
     },
@@ -52085,6 +54377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jesteś Kłamcą!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du är Lögnaren!"
           }
         }
       }
@@ -52222,6 +54520,12 @@
             "state" : "translated",
             "value" : "Nie znasz hasła, ale musisz je opisywać, jakbyś znał. Nie daj się przyłapać!"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du känner inte till ordet, men måste beskriva det som om du gjorde det. Låt dig inte avslöjas!"
+          }
         }
       }
     },
@@ -52357,6 +54661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hasło"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ord"
           }
         }
       }
@@ -52494,6 +54804,12 @@
             "state" : "translated",
             "value" : "Hasło dotarło"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordet har kommit"
+          }
         }
       }
     },
@@ -52629,6 +54945,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gotowe! Czekam na pozostałych graczy…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klart! Väntar på de andra spelarna …"
           }
         }
       }
@@ -52766,6 +55088,12 @@
             "state" : "translated",
             "value" : "Zobaczyłem"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sett"
+          }
         }
       }
     },
@@ -52901,6 +55229,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sprawdź tam, gdzie nikt nie widzi ekranu"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titta där ingen annan kan se skärmen"
           }
         }
       }
@@ -53038,6 +55372,12 @@
             "state" : "translated",
             "value" : "Zerknij"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta en liten titt"
+          }
         }
       }
     },
@@ -53173,6 +55513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Potwierdzone: %lld/%lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekräftade: %lld/%lld"
           }
         }
       }
@@ -53310,6 +55656,12 @@
             "state" : "translated",
             "value" : "Opisz po kolei hasło kilkoma słowami"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beskriv ordet i tur och ordning med några få ord"
+          }
         }
       }
     },
@@ -53445,6 +55797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeśli powiesz za dużo, pomożesz Kłamcy;\njeśli za mało, będą cię podejrzewać!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Säger du för mycket hjälper du Lögnaren;\nsäger du för lite blir du misstänkt!"
           }
         }
       }
@@ -53582,6 +55940,12 @@
             "state" : "translated",
             "value" : "Mówi"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pratar"
+          }
         }
       }
     },
@@ -53717,6 +56081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skończył mówić"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klar med att prata"
           }
         }
       }
@@ -53854,6 +56224,12 @@
             "state" : "translated",
             "value" : "Kto jest Kłamcą?"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vem är Lögnaren?"
+          }
         }
       }
     },
@@ -53989,6 +56365,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zagłosuj na najbardziej podejrzanego · Jeśli głosy się rozdzielą, wygrywa Kłamca!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rösta på den mest misstänkta · Om rösterna delas vinner Lögnaren!"
           }
         }
       }
@@ -54126,6 +56508,12 @@
             "state" : "translated",
             "value" : "Głos oddany! Czekam na podliczenie…"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rösten är lagd! Väntar på räkningen …"
+          }
         }
       }
     },
@@ -54261,6 +56649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zagłosowało: %lld/%lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Har röstat: %lld/%lld"
           }
         }
       }
@@ -54398,6 +56792,12 @@
             "state" : "translated",
             "value" : "Wskazać „%@” jako Kłamcę?"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peka ut ”%@” som Lögnaren?"
+          }
         }
       }
     },
@@ -54533,6 +56933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Potwierdź głos"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekräfta röst"
           }
         }
       }
@@ -54670,6 +57076,12 @@
             "state" : "translated",
             "value" : "Oddanego głosu nie można zmienić."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En skickad röst kan inte ändras."
+          }
         }
       }
     },
@@ -54805,6 +57217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kłamca złapany!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lögnaren åkte fast!"
           }
         }
       }
@@ -54942,6 +57360,12 @@
             "state" : "translated",
             "value" : "„%@” był Kłamcą!\nAle jeśli odgadnie hasło, Kłamca odwróci losy gry."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "”%@” var Lögnaren!\nMen gissar han ordet vänder Lögnaren spelet."
+          }
         }
       }
     },
@@ -55077,6 +57501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wybierz hasło — masz tylko jedną szansę!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj ordet — du har bara ett försök!"
           }
         }
       }
@@ -55214,6 +57644,12 @@
             "state" : "translated",
             "value" : "Kłamca zgaduje hasło…"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lögnaren gissar ordet …"
+          }
         }
       }
     },
@@ -55349,6 +57785,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zgadnąć „%@” jako hasło?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gissa ”%@” som ordet?"
           }
         }
       }
@@ -55486,6 +57928,12 @@
             "state" : "translated",
             "value" : "Potwierdź to hasło"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekräfta det här ordet"
+          }
         }
       }
     },
@@ -55621,6 +58069,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Masz tylko jedną szansę!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du har bara ett försök!"
           }
         }
       }
@@ -55758,6 +58212,12 @@
             "state" : "translated",
             "value" : "Kłamca wygrywa!"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lögnaren vinner!"
+          }
         }
       }
     },
@@ -55893,6 +58353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Obywatele wygrywają!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medborgarna vinner!"
           }
         }
       }
@@ -56030,6 +58496,12 @@
             "state" : "translated",
             "value" : "Zgadywanie Kłamcy"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lögnarens gissning"
+          }
         }
       }
     },
@@ -56165,6 +58637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wyniki głosowania"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omröstningens resultat"
           }
         }
       }
@@ -56302,6 +58780,12 @@
             "state" : "translated",
             "value" : "Zamknij pokój"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stäng rummet"
+          }
         }
       }
     },
@@ -56437,6 +58921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mój pokój"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitt rum"
           }
         }
       }
@@ -56574,6 +59064,12 @@
             "state" : "translated",
             "value" : "Poczekalnia"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lobby"
+          }
         }
       }
     },
@@ -56709,6 +59205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Graczy: %1$lld · potrzeba %2$lld–%3$lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spelare: %1$lld · det behövs %2$lld–%3$lld"
           }
         }
       }
@@ -56846,6 +59348,12 @@
             "state" : "translated",
             "value" : "Nauka gry: boty wchodzą do pokoju.\nGdy będzie dość graczy, dotknij „Rozpocznij grę”."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lär dig spela: botarna kommer in.\nNär det finns tillräckligt många spelare trycker du på ”Starta spelet”."
+          }
         }
       }
     },
@@ -56981,6 +59489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozpocznij grę"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starta spelet"
           }
         }
       }
@@ -57118,6 +59632,12 @@
             "state" : "translated",
             "value" : "Minimalna liczba graczy: %lld"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minsta antal spelare: %lld"
+          }
         }
       }
     },
@@ -57253,6 +59773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Czekam, aż gospodarz rozpocznie grę…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Väntar på att värden startar spelet …"
           }
         }
       }
@@ -57390,6 +59916,12 @@
             "state" : "translated",
             "value" : "Przy takiej liczbie graczy: Cienie %1$lld · Zakon Księżyca %2$lld"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med det här antalet spelare: Skuggorna %1$lld · Månorden %2$lld"
+          }
         }
       }
     },
@@ -57525,6 +60057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[Księżycowa Arkada %@] Zapytanie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[Månarkaden %@] Fråga"
           }
         }
       }
@@ -57662,6 +60200,12 @@
             "state" : "translated",
             "value" : "Pomoc"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
+          }
         }
       }
     },
@@ -57797,6 +60341,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Napisz e-mail"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakta via e-post"
           }
         }
       }
@@ -57934,6 +60484,12 @@
             "state" : "translated",
             "value" : "DM na Instagramie (@lee25_ios)"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM (@lee25_ios)"
+          }
         }
       }
     },
@@ -58069,6 +60625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skontaktuj się z twórcą"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontakta utvecklaren"
           }
         }
       }
@@ -58206,6 +60768,12 @@
             "state" : "translated",
             "value" : "Daj znać o błędach lub grach, które chciałbyś zobaczyć."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hör gärna av dig om buggar eller spel du skulle vilja ha."
+          }
         }
       }
     },
@@ -58341,6 +60909,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nie można otworzyć aplikacji Mail"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det går inte att öppna Mail-appen"
           }
         }
       }
@@ -58478,6 +61052,12 @@
             "state" : "translated",
             "value" : "Kopiuj adres"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiera adress"
+          }
         }
       }
     },
@@ -58613,6 +61193,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zamknij"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stäng"
           }
         }
       }
@@ -58750,6 +61336,12 @@
             "state" : "translated",
             "value" : "Wyślij e-mail na poniższy adres.\n%@"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skicka ett e-postmeddelande till adressen nedan.\n%@"
+          }
         }
       }
     },
@@ -58885,6 +61477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Witaj w Księżycowej Arkadzie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välkommen till Månarkaden"
           }
         }
       }
@@ -59022,6 +61620,12 @@
             "state" : "translated",
             "value" : "Zbiór gier imprezowych na iPhone’a dla znajomych w jednym miejscu.\nNie potrzeba internetu ani rejestracji."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En samling festspel för iPhone att spela med vänner på samma plats.\nDu behöver varken internet eller registrering."
+          }
         }
       }
     },
@@ -59157,6 +61761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jedna osoba tworzy pokój"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En person skapar rummet"
           }
         }
       }
@@ -59294,6 +61904,12 @@
             "state" : "translated",
             "value" : "Gdy wszyscy zainstalują aplikację, jedna osoba wybiera grę i dotyka „Utwórz pokój”.\nPozostali wchodzą przez „Dołącz do gry” — i gotowe!"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När alla har installerat appen väljer en person ett spel och trycker på ”Skapa rum”.\nDe andra går med via ”Gå med i ett spel” — klart!"
+          }
         }
       }
     },
@@ -59429,6 +62045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zbliżcie się i zezwólcie na połączenie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Samlas nära varandra och tillåt anslutningen"
           }
         }
       }
@@ -59566,6 +62188,12 @@
             "state" : "translated",
             "value" : "Znajdujecie się nawzajem w tej samej sieci Wi-Fi lub w zasięgu Bluetooth.\nKoniecznie zezwól na prośbę o dostęp do „Sieci lokalnej”, która pojawi się na początku."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ni hittar varandra på samma Wi-Fi eller inom Bluetooth-räckvidd.\nTillåt förfrågan om åtkomst till ”Lokalt nätverk” som visas första gången."
+          }
         }
       }
     },
@@ -59701,6 +62329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nie znasz zasad? Najpierw poćwicz"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kan du inte reglerna? Öva först"
           }
         }
       }
@@ -59838,6 +62472,12 @@
             "state" : "translated",
             "value" : "Każda gra ma „Jak grać (ćwiczenie z botami)”.\nMożesz zagrać samotnie rundę z botami, aby poznać zasady."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varje spel har ”Så spelar du (öva med botar)”.\nDu kan spela en omgång själv mot botar för att lära dig reglerna."
+          }
         }
       }
     },
@@ -59973,6 +62613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pomiń"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoppa över"
           }
         }
       }
@@ -60110,6 +62756,12 @@
             "state" : "translated",
             "value" : "Zaczynamy"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kom igång"
+          }
         }
       }
     },
@@ -60245,6 +62897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Graczy: %1$lld (%2$lld–%3$lld)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spelare: %1$lld (%2$lld–%3$lld)"
           }
         }
       }
@@ -60382,6 +63040,12 @@
             "state" : "translated",
             "value" : "Role zostały przydzielone"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rollerna har delats ut"
+          }
         }
       }
     },
@@ -60517,6 +63181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zobaczyłem"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag har sett"
           }
         }
       }
@@ -60654,6 +63324,12 @@
             "state" : "translated",
             "value" : "Odbieram informacje o roli…"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tar emot rollinformation …"
+          }
         }
       }
     },
@@ -60789,6 +63465,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Role sprawdzone: %lld/%lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roller sedda: %lld/%lld"
           }
         }
       }
@@ -60926,6 +63608,12 @@
             "state" : "translated",
             "value" : "Upewnij się, że nikt w pobliżu nie widzi,\ni dotknij przycisku, aby zobaczyć swoją rolę"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se till att ingen i närheten kan se,\noch tryck på knappen för att se din roll"
+          }
         }
       }
     },
@@ -61061,6 +63749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zobacz moją rolę"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se min roll"
           }
         }
       }
@@ -61198,6 +63892,12 @@
             "state" : "translated",
             "value" : "Gotowe!\nCzekam na pozostałych graczy…"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klart!\nVäntar på de andra spelarna …"
+          }
         }
       }
     },
@@ -61333,6 +64033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jesteś liderem!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du är ledare!"
           }
         }
       }
@@ -61470,6 +64176,12 @@
             "state" : "translated",
             "value" : "Wybierz na tę misję: %1$lld (%2$lld/%3$lld)"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj till det här uppdraget: %1$lld (%2$lld/%3$lld)"
+          }
         }
       }
     },
@@ -61605,6 +64317,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zatwierdź drużynę → wszyscy głosują"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bekräfta lag → alla röstar"
           }
         }
       }
@@ -61742,6 +64460,12 @@
             "state" : "translated",
             "value" : "Lider %1$@\nwybiera członków drużyny: %2$lld…"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ledare %1$@\nväljer lagmedlemmar: %2$lld …"
+          }
         }
       }
     },
@@ -61877,6 +64601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Porozmawiajcie swobodnie, kogo wysłać!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diskutera fritt vem som ska skickas!"
           }
         }
       }
@@ -62014,6 +64744,12 @@
             "state" : "translated",
             "value" : "Głosowanie nad drużyną"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omröstning om laget"
+          }
         }
       }
     },
@@ -62149,6 +64885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Głos oddany — czekam na wynik (%lld/%lld)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rösten är lagd — väntar på resultatet (%lld/%lld)"
           }
         }
       }
@@ -62286,6 +65028,12 @@
             "state" : "translated",
             "value" : "Zgadzasz się na ten skład drużyny?\n(Głosy wszystkich zostaną ujawnione · remis = odrzucona)"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Godkänner du lagets sammansättning?\n(Allas röster avslöjas · lika = avvisat)"
+          }
         }
       }
     },
@@ -62421,6 +65169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Za"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "För"
           }
         }
       }
@@ -62558,6 +65312,12 @@
             "state" : "translated",
             "value" : "Przeciw"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emot"
+          }
         }
       }
     },
@@ -62693,6 +65453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zagłosować „za” drużyną?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rösta ”för” laget?"
           }
         }
       }
@@ -62830,6 +65596,12 @@
             "state" : "translated",
             "value" : "Zagłosować „przeciw” drużynie?"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rösta ”emot” laget?"
+          }
         }
       }
     },
@@ -62965,6 +65737,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wybór lidera %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ledare %@s val"
           }
         }
       }
@@ -63102,6 +65880,12 @@
             "state" : "translated",
             "value" : "Przyjęta! Drużyna rusza na misję"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Godkänt! Laget ger sig av på uppdraget"
+          }
         }
       }
     },
@@ -63237,6 +66021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odrzucona"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avvisat"
           }
         }
       }
@@ -63374,6 +66164,12 @@
             "state" : "translated",
             "value" : "Przywództwo przechodzi na następnego · odrzucenia z rzędu: %lld/%lld"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ledarskapet går till nästa · avvisningar i rad: %lld/%lld"
+          }
         }
       }
     },
@@ -63509,6 +66305,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "⚠️ Jeszcze jedno odrzucenie i wygrywają Cienie!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⚠️ Ytterligare en avvisning och Skuggorna vinner!"
           }
         }
       }
@@ -63646,6 +66448,12 @@
             "state" : "translated",
             "value" : "Kontynuuj"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsätt"
+          }
         }
       }
     },
@@ -63781,6 +66589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Czekam, aż gospodarz przejdzie dalej…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Väntar på att värden går vidare …"
           }
         }
       }
@@ -63918,6 +66732,12 @@
             "state" : "translated",
             "value" : "Za 👍"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "För 👍"
+          }
         }
       }
     },
@@ -64053,6 +66873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Przeciw 👎"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emot 👎"
           }
         }
       }
@@ -64190,6 +67016,12 @@
             "state" : "translated",
             "value" : "Misja nr %lld w toku"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uppdrag nr %lld pågår"
+          }
         }
       }
     },
@@ -64325,6 +67157,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Drużyna: %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lag: %@"
           }
         }
       }
@@ -64462,6 +67300,12 @@
             "state" : "translated",
             "value" : "Drużyna wykonuje misję…\n(oddano %lld/%lld)"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laget genomför uppdraget …\n(%lld/%lld inlämnade)"
+          }
         }
       }
     },
@@ -64597,6 +67441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kart porażki potrzebnych do porażki misji: %lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Misslyckatkort som krävs för att uppdraget ska misslyckas: %lld"
           }
         }
       }
@@ -64734,6 +67584,12 @@
             "state" : "translated",
             "value" : "Wybierz kartę (nikt nie dowie się, kto co zagrał)"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj ett kort (ingen får veta vem som spelade vad)"
+          }
         }
       }
     },
@@ -64869,6 +67725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jesteś Cieniem — kartą porażki możesz zepsuć misję"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du är en Skugga — ett misslyckatkort kan sabotera uppdraget"
           }
         }
       }
@@ -65006,6 +67868,12 @@
             "state" : "translated",
             "value" : "Oddaj kartę"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lämna in kort"
+          }
         }
       }
     },
@@ -65141,6 +68009,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sukces"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyckat"
           }
         }
       }
@@ -65278,6 +68152,12 @@
             "state" : "translated",
             "value" : "Porażka"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Misslyckat"
+          }
         }
       }
     },
@@ -65413,6 +68293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Członkowie Zakonu\nmogą zagrać tylko sukces"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordensmedlemmar\nkan bara spela lyckat"
           }
         }
       }
@@ -65550,6 +68436,12 @@
             "state" : "translated",
             "value" : "Karta oddana\nCzekam na pozostałych członków… (%lld/%lld)"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kort inlämnat\nVäntar på de andra medlemmarna … (%lld/%lld)"
+          }
         }
       }
     },
@@ -65685,6 +68577,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Misja zakończona sukcesem!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uppdraget lyckades!"
           }
         }
       }
@@ -65822,6 +68720,12 @@
             "state" : "translated",
             "value" : "Misja zakończona porażką…"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uppdraget misslyckades …"
+          }
         }
       }
     },
@@ -65957,6 +68861,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Karty sukcesu: %1$lld · karty porażki: %2$lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyckatkort: %1$lld · misslyckatkort: %2$lld"
           }
         }
       }
@@ -66094,6 +69004,12 @@
             "state" : "translated",
             "value" : "Pojawiła się karta porażki, ale ta misja wymagała ich %lld, więc się utrzymała!"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ett misslyckatkort kom upp, men det här uppdraget krävde %lld, så det höll!"
+          }
         }
       }
     },
@@ -66229,6 +69145,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sukces %lld : %lld Porażka — kto pierwszy zdobędzie 3 zwycięstwa, wygrywa"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyckat %lld : %lld Misslyckat — först till 3 vinner"
           }
         }
       }
@@ -66366,6 +69288,12 @@
             "state" : "translated",
             "value" : "Czarny"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svart"
+          }
         }
       }
     },
@@ -66501,6 +69429,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Czerwony"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Röd"
           }
         }
       }
@@ -66638,6 +69572,12 @@
             "state" : "translated",
             "value" : "Pomarańczowy"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orange"
+          }
         }
       }
     },
@@ -66773,6 +69713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Żółty"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gul"
           }
         }
       }
@@ -66910,6 +69856,12 @@
             "state" : "translated",
             "value" : "Zielony"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grön"
+          }
         }
       }
     },
@@ -67045,6 +69997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Niebieski"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blå"
           }
         }
       }
@@ -67182,6 +70140,12 @@
             "state" : "translated",
             "value" : "Fioletowy"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lila"
+          }
         }
       }
     },
@@ -67317,6 +70281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brązowy"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brun"
           }
         }
       }
@@ -67454,6 +70424,12 @@
             "state" : "translated",
             "value" : "Gumka"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suddgummi"
+          }
         }
       }
     },
@@ -67589,6 +70565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kolor %lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Färg %lld"
           }
         }
       }
@@ -67726,6 +70708,12 @@
             "state" : "translated",
             "value" : "Cienki pędzel"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunn pensel"
+          }
         }
       }
     },
@@ -67861,6 +70849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Średni pędzel"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mellanpensel"
           }
         }
       }
@@ -67998,6 +70992,12 @@
             "state" : "translated",
             "value" : "Gruby pędzel"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tjock pensel"
+          }
         }
       }
     },
@@ -68133,6 +71133,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeden rysuje, reszta zgaduje"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En ritar, de andra gissar"
           }
         }
       }
@@ -68270,6 +71276,12 @@
             "state" : "translated",
             "value" : "Runda %1$lld / %2$lld"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rond %1$lld / %2$lld"
+          }
         }
       }
     },
@@ -68405,6 +71417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jestem Rysownikiem!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag är Tecknaren!"
           }
         }
       }
@@ -68542,6 +71560,12 @@
             "state" : "translated",
             "value" : "Rysownik: %@"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tecknare: %@"
+          }
         }
       }
     },
@@ -68677,6 +71701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skończyłem rysować"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klar med ritandet"
           }
         }
       }
@@ -68814,6 +71844,12 @@
             "state" : "translated",
             "value" : "Pomiń rundę"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hoppa över ronden"
+          }
         }
       }
     },
@@ -68949,6 +71985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "W tej rundzie jesteś Rysownikiem! Wybierz z 3 haseł to, które najłatwiej narysować."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I den här ronden är du Tecknare! Välj det av de 3 orden som är lättast att rita."
           }
         }
       }
@@ -69086,6 +72128,12 @@
             "state" : "translated",
             "value" : "Przedstaw hasło rysunkiem. Bez liter i cyfr! Gdy skończysz, dotknij „Dalej”, aby zobaczyć zgadywanie botów."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uttryck ordet med en teckning. Inga bokstäver eller siffror! När du är klar trycker du på ”Nästa” för att se botarnas gissningar."
+          }
         }
       }
     },
@@ -69221,6 +72269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wynik rundy. Im szybciej zgadniesz, tym więcej punktów; Rysownik dostaje tym więcej, im więcej osób zgadnie. Dotknij „Dalej”, aby zobaczyć ranking końcowy."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rondens resultat. Ju snabbare du gissar, desto fler poäng; Tecknaren får fler poäng ju fler som gissar. Tryck på ”Nästa” för slutställningen."
           }
         }
       }
@@ -69358,6 +72412,12 @@
             "state" : "translated",
             "value" : "Wybierz hasło"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj ett ord"
+          }
         }
       }
     },
@@ -69493,6 +72553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Niech nikt nie widzi! Wybranie czegoś łatwego do narysowania daje przewagę."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Låt ingen se det! Att välja något som är lätt att rita ger en fördel."
           }
         }
       }
@@ -69630,6 +72696,12 @@
             "state" : "translated",
             "value" : "%@ wybiera hasło…"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ väljer ett ord …"
+          }
         }
       }
     },
@@ -69765,6 +72837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Za chwilę zacznie się rysowanie."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Om en stund börjar ritandet."
           }
         }
       }
@@ -69902,6 +72980,12 @@
             "state" : "translated",
             "value" : "Liter: %lld"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bokstäver: %lld"
+          }
         }
       }
     },
@@ -70037,6 +73121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poprawnych: %1$lld/%2$lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rätt: %1$lld/%2$lld"
           }
         }
       }
@@ -70174,6 +73264,12 @@
             "state" : "translated",
             "value" : "Tu pojawią się zgadywania wszystkich."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allas gissningar visas här."
+          }
         }
       }
     },
@@ -70309,6 +73405,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spójrz na rysunek i zgadnij odpowiedź!"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titta på teckningen och gissa svaret!"
           }
         }
       }
@@ -70446,6 +73548,12 @@
             "state" : "translated",
             "value" : "Cofnij jedną kreskę"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ångra ett streck"
+          }
         }
       }
     },
@@ -70581,6 +73689,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wyczyść cały rysunek"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rensa hela teckningen"
           }
         }
       }
@@ -70718,6 +73832,12 @@
             "state" : "translated",
             "value" : "Dobrze! Czekam na pozostałych…"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rätt! Väntar på de andra …"
+          }
         }
       }
     },
@@ -70853,6 +73973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wpisz odpowiedź…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv ditt svar …"
           }
         }
       }
@@ -70990,6 +74116,12 @@
             "state" : "translated",
             "value" : "Ukryj klawiaturę"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dölj tangentbord"
+          }
         }
       }
     },
@@ -71125,6 +74257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hasło brzmiało"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordet var"
           }
         }
       }
@@ -71262,6 +74400,12 @@
             "state" : "translated",
             "value" : "Dobrze"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rätt"
+          }
         }
       }
     },
@@ -71397,6 +74541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zobacz ranking końcowy"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se slutställningen"
           }
         }
       }
@@ -71534,6 +74684,12 @@
             "state" : "translated",
             "value" : "Następna runda"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nästa rond"
+          }
         }
       }
     },
@@ -71669,6 +74825,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Czekam, aż gospodarz przejdzie dalej…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Väntar på att värden går vidare …"
           }
         }
       }
@@ -71806,6 +74968,12 @@
             "state" : "translated",
             "value" : "Najwyższy wynik: %lld"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Högsta poäng: %lld"
+          }
         }
       }
     },
@@ -71941,6 +75109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Punkty: %lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poäng: %lld"
           }
         }
       }
@@ -72078,6 +75252,12 @@
             "state" : "translated",
             "value" : "Zagraj jeszcze raz w tym samym składzie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spela igen med samma spelare"
+          }
         }
       }
     },
@@ -72213,6 +75393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rozłączono"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frånkopplad"
           }
         }
       }
@@ -72350,6 +75536,12 @@
             "state" : "translated",
             "value" : "Czekam, aż %@ połączy się ponownie."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Väntar på att %@ ska ansluta igen."
+          }
         }
       }
     },
@@ -72485,6 +75677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usuń gracza %@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort %@"
           }
         }
       }
@@ -72622,6 +75820,12 @@
             "state" : "translated",
             "value" : "Odrzucona"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avvisat"
+          }
         }
       }
     },
@@ -72757,6 +75961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Potrzeba 2 porażek"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kräver 2 misslyckanden"
           }
         }
       }
@@ -72894,6 +76104,12 @@
             "state" : "translated",
             "value" : "Jedna noc z goblinem w wiosce, jedno głosowanie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En natt med en goblin i byn, en enda omröstning"
+          }
         }
       }
     },
@@ -73029,6 +76245,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🌙 Noc — tajna akcja"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🌙 Natt — hemlig handling"
           }
         }
       }
@@ -73166,6 +76388,12 @@
             "state" : "translated",
             "value" : "☀️ Dzień — dyskusja"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "☀️ Dag — debatt"
+          }
         }
       }
     },
@@ -73301,6 +76529,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🗳️ Głosowanie nad wygnaniem"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🗳️ Omröstning om förvisning"
           }
         }
       }
@@ -73438,6 +76672,12 @@
             "state" : "translated",
             "value" : "Wynik"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resultat"
+          }
         }
       }
     },
@@ -73573,6 +76813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "W nocy każdy działa po cichu. Sprawdź swoją rolę i dokończ akcję, potem dotknij „Dalej”, aby wykonać nocne akcje botów."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På natten agerar alla i hemlighet. Titta på din roll och slutför din handling, tryck sedan på ”Nästa” för att köra botarnas nattliga handlingar."
           }
         }
       }
@@ -73710,6 +76956,12 @@
             "state" : "translated",
             "value" : "W nocy Nocny złodziej i Psotnik mogli zamienić karty! W prawdziwej grze tu toczy się dyskusja. Dotknij „Dalej”, aby rozpocząć głosowanie."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Under natten kan Nattjuven och Skojaren ha bytt kort! I ett riktigt spel diskuterar man här. Tryck på ”Nästa” för att starta omröstningen."
+          }
         }
       }
     },
@@ -73845,6 +77097,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Najpierw wskaż tego, kogo podejrzewasz o bycie goblinem, potem dotknij „Dalej”, aby zobaczyć głosy botów. Kto dostanie najwięcej głosów, zostanie wygnany."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peka först ut den du misstänker är en goblin och tryck sedan på ”Nästa” för att se botarnas röster. Den med flest röster förvisas."
           }
         }
       }
@@ -73982,6 +77240,12 @@
             "state" : "translated",
             "value" : "Pozostałe gobliny: %@"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andra goblins: %@"
+          }
         }
       }
     },
@@ -74117,6 +77381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zapadła noc"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Natten har fallit"
           }
         }
       }
@@ -74254,6 +77524,12 @@
             "state" : "translated",
             "value" : "Sprawdź swoją rolę tam, gdzie nikt nie widzi ekranu"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titta på din roll där ingen annan kan se skärmen"
+          }
         }
       }
     },
@@ -74389,6 +77665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Akcja wykonana! Czekam na pozostałych graczy… %lld/%lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handlingen är klar! Väntar på de andra spelarna … %lld/%lld"
           }
         }
       }
@@ -74526,6 +77808,12 @@
             "state" : "translated",
             "value" : "Jesteś jedynym goblinem! Możesz zerknąć na 1 kartę środkową"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du är den enda goblinen! Du får titta på 1 mittenkort"
+          }
         }
       }
     },
@@ -74661,6 +77949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Środek nr %lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitten nr %lld"
           }
         }
       }
@@ -74798,6 +78092,12 @@
             "state" : "translated",
             "value" : "Zobacz kartę środkową nr %lld"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titta på mittenkort nr %lld"
+          }
         }
       }
     },
@@ -74933,6 +78233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zobaczyłem kompanów"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jag har sett kamraterna"
           }
         }
       }
@@ -75070,6 +78376,12 @@
             "state" : "translated",
             "value" : "Zobacz 1 gracza"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titta på 1 spelare"
+          }
         }
       }
     },
@@ -75205,6 +78517,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zobacz 2 karty środkowe"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titta på 2 mittenkort"
           }
         }
       }
@@ -75342,6 +78660,12 @@
             "state" : "translated",
             "value" : "Zobacz kartę gracza „%@”"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titta på ”%@”s kort"
+          }
         }
       }
     },
@@ -75477,6 +78801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zobacz 2 karty środkowe"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titta på de 2 mittenkorten"
           }
         }
       }
@@ -75614,6 +78944,12 @@
             "state" : "translated",
             "value" : "Wybierz, komu ukraść kartę"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj vems kort du ska stjäla"
+          }
         }
       }
     },
@@ -75749,6 +79085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ukradnij kartę gracza „%@”"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stjäl ”%@”s kort"
           }
         }
       }
@@ -75886,6 +79228,12 @@
             "state" : "translated",
             "value" : "Wybierz dwóch graczy, których karty zostaną zamienione (%lld/2)"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj två spelare vars kort ska bytas (%lld/2)"
+          }
         }
       }
     },
@@ -76021,6 +79369,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zamień karty tych dwóch"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Byt kort mellan dessa två"
           }
         }
       }
@@ -76158,6 +79512,12 @@
             "state" : "translated",
             "value" : "Nastał poranek"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morgonen har kommit"
+          }
         }
       }
     },
@@ -76293,6 +79653,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Karty mogły się zmienić w nocy!\nZnajdź goblina (według obecnej karty) w dyskusji."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korten kan ha ändrats under natten!\nHitta goblinen (enligt nuvarande kort) genom att diskutera."
           }
         }
       }
@@ -76430,6 +79796,12 @@
             "state" : "translated",
             "value" : "(Według twojej roli na początku nocy)"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(Enligt din roll i början av natten)"
+          }
         }
       }
     },
@@ -76565,6 +79937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Co wydarzyło się w nocy (widoczne tylko w ćwiczeniu)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vad som hände under natten (syns bara i övningen)"
           }
         }
       }
@@ -76702,6 +80080,12 @@
             "state" : "translated",
             "value" : "W prawdziwej grze nic nie jest ujawniane. Dlatego dyskusja jest ważna!"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I ett riktigt spel avslöjas inget. Därför är debatten viktig!"
+          }
         }
       }
     },
@@ -76837,6 +80221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dyskusja skończona! Rozpocznij głosowanie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Debatten är slut! Starta omröstningen"
           }
         }
       }
@@ -76974,6 +80364,12 @@
             "state" : "translated",
             "value" : "Czekam, aż gospodarz rozpocznie głosowanie…"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Väntar på att värden startar omröstningen …"
+          }
         }
       }
     },
@@ -77109,6 +80505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wskaż osobę, którą uważasz za goblina"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peka ut den du tror är goblinen"
           }
         }
       }
@@ -77246,6 +80648,12 @@
             "state" : "translated",
             "value" : "Kto ma najwięcej głosów, zostaje wygnany · przy remisie wszyscy remisujący · jeśli wszyscy mają najwyżej 1 głos, nikt nie zostaje wygnany"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den med flest röster förvisas · vid lika alla som delar · om alla har högst 1 röst förvisas ingen"
+          }
         }
       }
     },
@@ -77381,6 +80789,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zagłosować za wygnaniem „%@”?"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rösta för att förvisa ”%@”?"
           }
         }
       }
@@ -77518,6 +80932,12 @@
             "state" : "translated",
             "value" : "Wioska wygrywa!"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Byn vinner!"
+          }
         }
       }
     },
@@ -77654,6 +81074,12 @@
             "state" : "translated",
             "value" : "Gobliny wygrywają!"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goblinerna vinner!"
+          }
         }
       }
     },
@@ -77789,6 +81215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Głosów: %lld"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Röster: %lld"
           }
         }
       }
@@ -77927,6 +81359,12 @@
             "state" : "translated",
             "value" : "Wygodniejszy VoiceOver"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bättre VoiceOver"
+          }
         }
       }
     },
@@ -78063,6 +81501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Po powiększeniu tekstu ekrany układają się na nowo, zamiast być obcinane."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När du förstorar texten ordnas skärmarna om i stället för att kapas."
           }
         }
       }
@@ -78201,6 +81645,12 @@
             "state" : "translated",
             "value" : "Powiadomienie o twojej kolejce"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avisering när det är din tur"
+          }
         }
       }
     },
@@ -78337,6 +81787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nawet przy zwiększonym kontraście lub trudnościach z odróżnianiem kolorów rozpoznasz strony i wyniki."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Även med ökad kontrast eller svårt att skilja färger kan du känna igen lagen och resultaten."
           }
         }
       }
@@ -78475,6 +81931,12 @@
             "state" : "translated",
             "value" : "Używaj aplikacji w większej liczbie języków."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använd appen på fler språk."
+          }
         }
       }
     },
@@ -78611,6 +82073,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Więcej języków"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fler språk"
           }
         }
       }
@@ -78749,6 +82217,12 @@
             "state" : "translated",
             "value" : "Wygodne kolory i kontrast"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sköna färger och kontrast"
+          }
         }
       }
     },
@@ -78885,6 +82359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odczuwalna pod palcami reakcja"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Respons du känner i fingrarna"
           }
         }
       }
@@ -79023,6 +82503,12 @@
             "state" : "translated",
             "value" : "Przy pierwszym otwarciu po aktualizacji zobaczysz, co nowego."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Första gången du öppnar appen efter en uppdatering ser du vad som är nytt."
+          }
         }
       }
     },
@@ -79159,6 +82645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Co nowego"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyheter"
           }
         }
       }
@@ -79297,6 +82789,12 @@
             "state" : "translated",
             "value" : "Lekka wibracja, gdy dostajesz rolę lub kończy się głosowanie."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En lätt vibration när du får din roll eller en omröstning är över."
+          }
         }
       }
     },
@@ -79433,6 +82931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Obsługa angielskiego"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stöd för engelska"
           }
         }
       }
@@ -79571,6 +83075,12 @@
             "state" : "translated",
             "value" : "Aby grać także ze znajomymi z zagranicy, aplikacji można używać po angielsku."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "För att kunna spela även med vänner från utlandet kan appen också användas på engelska."
+          }
         }
       }
     },
@@ -79707,6 +83217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ogranicz ruch"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minska rörelse"
           }
         }
       }
@@ -79845,6 +83361,12 @@
             "state" : "translated",
             "value" : "Gdy włączone jest „Ogranicz ruch”, efekty na ekranie stają się spokojniejsze."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med ”Minska rörelse” på blir skärmeffekterna lugnare."
+          }
         }
       }
     },
@@ -79981,6 +83503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ekrany dla dużego tekstu"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skärmar för stor text"
           }
         }
       }
@@ -80119,6 +83647,12 @@
             "state" : "translated",
             "value" : "Ekran dla składanego iPhone’a"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skärm för vikbar iPhone"
+          }
         }
       }
     },
@@ -80255,6 +83789,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Na składanym iPhonie szeroki ekran dzieli się na dwie części."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På en vikbar iPhone delas den breda skärmen i två delar."
           }
         }
       }
@@ -80393,6 +83933,12 @@
             "state" : "translated",
             "value" : "Widżety na ekranie początkowym"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgets på hemskärmen"
+          }
         }
       }
     },
@@ -80529,6 +84075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otwórz pokój gry prosto z ekranu początkowego."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öppna ett spelrum direkt från hemskärmen."
           }
         }
       }
@@ -80667,6 +84219,12 @@
             "state" : "translated",
             "value" : "VoiceOver czyta wszystkie karty ról i przyciski głosowania w pełni i we właściwej kolejności."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver läser upp alla rollkort och röstknappar, fullständigt och i rätt ordning."
+          }
         }
       }
     },
@@ -80803,6 +84361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nawet przy wyłączonym ekranie dostaniesz powiadomienie, gdy przyjdzie twoja kolej."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Även med avstängd skärm får du en avisering när det är din tur."
           }
         }
       }

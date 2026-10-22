@@ -134,6 +134,12 @@ Ustawienia otworzysz kołem zębatym
 Opinię wyślesz twórcy od ręki
 Oceń aplikację i sprawdź wersję
 
+### 앱스토어 (Svenska)
+
+Öppna Inställningar via kugghjulet
+Skicka feedback direkt till utvecklaren
+Betygsätt appen och se versionen
+
 ## 1.0.1 (2026-07-17)
 
 ### 새로운 기능
