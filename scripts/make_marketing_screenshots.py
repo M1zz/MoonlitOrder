@@ -15,7 +15,7 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "marketing"
 WORK = pathlib.Path("/tmp") / "moonlit-marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi"}
+STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id"}
 
 # (원본 파일, 헤드라인, 서브카피) — 언어마다 따로 쓴다.
 SHOTS = {
@@ -144,6 +144,13 @@ SHOTS = {
         ("03-vote.png", "Puolesta<br>vai vastaan?", "Kun kaikkien äänet paljastuvat, peli kääntyy"),
         ("04-draw.png", "Piirrä<br>ja arvaa", "Yksi piirtää, muut arvaavat Kuuateljeessa"),
         ("05-result.png", "Mitä nopeammin,<br>sitä enemmän pisteitä", "Pelaa jopa 15 kaverin kanssa"),
+    ],
+    "id": [
+        ("01-home.png", "Berkumpul,<br>langsung main game pesta", "iPhone terdekat tersambung tanpa internet"),
+        ("02-role.png", "Perannya<br>cuma kamu yang tahu", "Temukan Bayangan yang bersembunyi di Ordo Cahaya Bulan"),
+        ("03-vote.png", "Setuju<br>atau tolak?", "Saat suara semua orang dibuka, permainan berbalik"),
+        ("04-draw.png", "Gambar<br>dan tebak", "Satu menggambar, yang lain menebak di Studio Cahaya Bulan"),
+        ("05-result.png", "Makin cepat,<br>makin tinggi skor", "Main bareng hingga 15 teman"),
     ],
 }
 

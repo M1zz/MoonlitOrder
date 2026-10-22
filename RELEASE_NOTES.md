@@ -110,6 +110,12 @@ Avaa asetukset hammasrattaasta
 Lähetä palautetta kehittäjälle suoraan
 Arvioi sovellus ja tarkista versio
 
+### 앱스토어 (Indonesia)
+
+Buka Pengaturan lewat ikon roda gigi
+Kirim masukan langsung ke pengembang
+Nilai aplikasi dan cek versinya
+
 ## 1.0.1 (2026-07-17)
 
 ### 새로운 기능

@@ -63,6 +63,12 @@
             "value" : "Arcade Lunaire"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arena Game Cahaya Bulan"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -173,6 +179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L’accès au réseau local est nécessaire pour se connecter directement aux iPhone de vos amis à proximité et jouer ensemble à des jeux de soirée."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akses jaringan lokal diperlukan untuk terhubung langsung dengan iPhone teman di dekatmu dan bermain game pesta bersama."
           }
         },
         "it" : {

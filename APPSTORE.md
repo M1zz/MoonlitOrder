@@ -1043,3 +1043,61 @@ https://m1zz.github.io/MoonlitOrder/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/MoonlitOrder/
+
+## id
+
+### 이름
+
+Arena Game Cahaya Bulan: Pesta
+
+### 부제
+
+Seru offline bareng teman
+
+### 키워드
+
+pembohong,mafia,werewolf,boardgame,deduksi,gambar,tebak,blufing,bluetooth,wifi,keluarga,kemah
+
+### 프로모션 텍스트
+
+Kumpul tapi bingung main apa? Sambungkan iPhone terdekat tanpa internet dan mainkan empat game pesta untuk hingga 15 pemain.
+
+### 설명
+
+Game pesta yang bisa langsung kamu mulai di iPhone sendiri saat teman-teman berkumpul.
+Tanpa internet, iPhone di Wi-Fi yang sama atau berdekatan saling tersambung, dan hingga 15 orang bisa ikut main.
+
+Empat permainan
+Ordo Cahaya Bulan (5–15 pemain): permainan identitas tersembunyi untuk menemukan Bayangan yang menyusup di antara anggota Ordo. Pemimpin memilih tim, semua memilih setuju atau tolak, lalu tim diam-diam memainkan sukses atau gagal. Mana yang lebih dulu mencapai 3 misi, sukses atau gagal?
+Permainan Si Pembohong (3–15 pemain): semua orang mendapat kata rahasia yang sama, kecuali satu orang. Temukan Si Pembohong yang tidak tahu katanya dengan menyimak percakapan.
+Malam Tanpa Bulan (3–15 pemain): satu malam dengan Goblin di desa. Pada malam hari setiap orang beraksi rahasia sesuai perannya, dan saat fajar kalian berdiskusi serta memilih untuk menemukan Goblin.
+Studio Cahaya Bulan (3–15 pemain): satu orang menggambar kata rahasia dan yang lain menebak. Makin cepat menebak, makin banyak skor yang didapat.
+
+Di layar sendiri, serba rahasia
+Peran dan kata hanya muncul di iPhone masing-masing. Tidak perlu membagi kartu atau menutup mata.
+Saat pemungutan suara, kamu langsung melihat siapa yang sudah selesai memilih. Siapa memilih siapa tetap rahasia sampai diungkap.
+
+Mudah untuk pemula
+Setiap permainan punya mode panduan. Pelajari aturan dengan bermain langkah demi langkah bersama bot.
+
+Lanjut dari tempat terakhir
+Jika aplikasi tertutup atau koneksi terputus, “Lanjutkan” di layar utama membawamu kembali ke permainan, dengan peran dan skor tetap utuh.
+Perangkat saling meneruskan, sehingga permainan tetap stabil meski banyak orang.
+
+Alat untuk host
+Host bisa mengeluarkan pemain yang tidak merespons kapan saja, dan permainan dinilai ulang dengan pemain yang tersisa agar tidak pernah macet.
+Dalam mode host, kamu bisa melanjutkan tahap yang macet dan mengelola pemain.
+
+Semua permainan gratis dan bisa dimulai tanpa akun.
+
+### 지원 URL
+
+https://m1zz.github.io/MoonlitOrder/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/MoonlitOrder/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/MoonlitOrder/
