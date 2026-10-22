@@ -463,3 +463,61 @@ https://m1zz.github.io/MoonlitOrder/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/MoonlitOrder/
+
+## de
+
+### 이름
+
+Mondlicht-Arcade: Partyspiele
+
+### 부제
+
+Offline spielen mit Freunden
+
+### 키워드
+
+lügner,mafia,werwolf,brettspiel,rätsel,zeichnen,raten,bluff,bluetooth,wlan,multiplayer,familie,camping
+
+### 프로모션 텍스트
+
+Alle zusammen und keiner weiß, was man spielen soll? Verbinde iPhones in der Nähe ohne Internet und spiele vier Partyspiele mit bis zu 15 Leuten.
+
+### 설명
+
+Partyspiele, die du mit deinem eigenen iPhone sofort starten kannst, wenn Freunde zusammenkommen.
+Ohne Internet verbinden sich iPhones im selben WLAN oder in der Nähe miteinander, und bis zu 15 Leute können mitspielen.
+
+Vier Spiele
+Mondorden (5–15 Spieler): ein Spiel um verborgene Identitäten, in dem du die Schatten aufspürst, die sich unter die Ordensmitglieder gemischt haben. Der Anführer wählt ein Team, alle stimmen dafür oder dagegen, und das Team spielt heimlich Erfolg oder Fehlschlag. Wer schafft zuerst 3 Missionen – Erfolg oder Fehlschlag?
+Das Lügner-Spiel (3–15 Spieler): Alle erhalten dasselbe geheime Wort, nur eine Person nicht. Finde den Lügner, der es nicht kennt, anhand des Gesprächs.
+Nacht ohne Mond (3–15 Spieler): eine Nacht mit einem Kobold im Dorf. Nachts handelt jeder heimlich nach seiner Rolle, und bei Tagesanbruch findet ihr den Kobold durch Diskussion und Abstimmung.
+Mondlicht-Atelier (3–15 Spieler): Eine Person zeichnet das geheime Wort, alle anderen raten. Je schneller du errätst, desto mehr Punkte bekommst du.
+
+Auf dem eigenen Bildschirm, heimlich
+Rollen und Wörter erscheinen nur auf deinem eigenen iPhone. Karten austeilen oder die Augen schließen ist nicht nötig.
+Bei der Abstimmung siehst du sofort, wer schon abgestimmt hat. Wofür jemand gestimmt hat, bleibt bis zur Aufdeckung geheim.
+
+Leicht für Einsteiger
+Jedes Spiel hat einen Erklärmodus. Lerne die Regeln, indem du Schritt für Schritt mit Bots spielst.
+
+Weiter, wo du aufgehört hast
+Wird die App beendet oder bricht die Verbindung ab, bringt dich „Fortsetzen“ auf dem Startbildschirm direkt zurück ins Spiel – mit deiner Rolle und deinen Punkten.
+Die Geräte vermitteln untereinander, deshalb läuft das Spiel auch in großer Runde stabil.
+
+Werkzeuge für den Host
+Der Host kann einen nicht reagierenden Spieler jederzeit entfernen, und das Spiel wird mit den übrigen Spielern neu bewertet, damit es nie stehen bleibt.
+Im Spielleiter-Modus kannst du eine hängende Phase weiterschalten und Spieler verwalten.
+
+Alle Spiele sind kostenlos und starten ohne Konto.
+
+### 지원 URL
+
+https://m1zz.github.io/MoonlitOrder/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/MoonlitOrder/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/MoonlitOrder/

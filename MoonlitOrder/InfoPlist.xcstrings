@@ -9,6 +9,12 @@
             "value" : "달빛 오락실"
           }
         },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mondlicht-Arcade"
+          }
+        },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
@@ -59,6 +65,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "주변 친구들의 아이폰과 직접 연결해 보드게임을 함께 플레이하기 위해 로컬 네트워크 접근이 필요합니다."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Zugriff auf das lokale Netzwerk wird benötigt, um dich direkt mit den iPhones deiner Freunde in der Nähe zu verbinden und gemeinsam Partyspiele zu spielen."
           }
         },
         "en-GB" : {

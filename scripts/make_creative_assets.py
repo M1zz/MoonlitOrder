@@ -24,9 +24,9 @@ OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 # 문구 언어 → App Store Connect 로케일
-STORE = {"en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES"}
+STORE = {"en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE"}
 # 문구 언어 → 기기 화면 캡처 폴더
-SCREEN = {"ko": "ko", "en": "en", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es"}   # en 캡처는 Mac 시뮬레이터에서 docs/screenshots/raw/creative/en/ 에 만든다
+SCREEN = {"ko": "ko", "en": "en", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es", "de": "de"}   # en 캡처는 Mac 시뮬레이터에서 docs/screenshots/raw/creative/en/ 에 만든다
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -45,6 +45,7 @@ SEARCH = {
     "zh-Hant": ("派對遊戲", "聚在一起<br>馬上開一局", "從說謊者遊戲到你畫我猜<br>不用網路就能玩"),
     "ru": ("Вечеринки-игры", "Собрались —<br>играем сразу", "От «Лжеца» до рисования<br>без интернета"),
     "es": ("Juegos de fiesta", "Se juntan y<br>empieza la partida", "Del Mentiroso al dibujo y la adivinanza<br>sin necesidad de internet"),
+    "de": ("Partyspiele", "Zusammenkommen,<br>sofort losspielen", "Vom Lügner-Spiel bis Zeichnen und Raten<br>ganz ohne Internet"),
 }
 
 # 헤더: 처음 온 사람에게 한 가지 약속.
@@ -57,6 +58,7 @@ HEADER = {
     "zh-Hant": ("近距離派對遊戲", "拿出手機<br>大家一起玩"),
     "ru": ("Игры для компании рядом", "Достаньте телефон —<br>и играйте вместе"),
     "es": ("Juegos de fiesta cercanos", "Saca el teléfono<br>y juega con todos"),
+    "de": ("Partyspiele für die Nähe", "Handy raus<br>und alle spielen mit"),
 }
 
 # 바탕 · 글자색은 앱의 색이다(Views/Theme.swift): 남색→보라 그라데이션 배경, 포인트 금색(Theme.gold).
