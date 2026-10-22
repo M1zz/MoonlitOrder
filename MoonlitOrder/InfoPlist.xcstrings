@@ -14,6 +14,12 @@
             "state" : "translated",
             "value" : "Moonlit Arcade"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moonlit Arcade"
+          }
         }
       }
     },
@@ -26,6 +32,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Local network access is needed to connect directly with the iPhones of friends nearby and play party games together."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Local network access is needed to connect directly with the iPhones of friends nearby and play party games together."

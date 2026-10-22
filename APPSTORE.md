@@ -115,3 +115,61 @@ https://m1zz.github.io/MoonlitOrder/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/MoonlitOrder/
+
+## en-GB
+
+### 이름
+
+Moonlit Arcade: Party Games
+
+### 부제
+
+Offline fun for nearby friends
+
+### 키워드
+
+bluetooth,wifi,multiplayer,deduction,werewolf,mafia,drawing,guessing,bluffing,sleepover,camp,family
+
+### 프로모션 텍스트
+
+Got friends round and nothing to play? Connect nearby iPhones with no internet and enjoy four party games for up to 15 players.
+
+### 설명
+
+Party games you can start right away on your own iPhones whenever friends get together.
+iPhones on the same Wi-Fi or close by connect to each other with no internet, and up to 15 players can join.
+
+Four games
+Moonlit Order (5-15 players): A hidden-identity game where you uncover the Shadows hiding among the Order. The leader picks a team, everyone votes to approve or reject it, and the team secretly plays success or fail. Will three missions succeed first, or fail first?
+Liar Game (3-15 players): Everyone gets the same secret word except one person. Find the Liar who doesn't know it by listening to the conversation.
+Moonless Night (3-15 players): One night with a Goblin among you. Everyone acts in secret by role, and when day breaks you discuss and vote to find the Goblin.
+Moonlit Studio (3-15 players): One player draws the secret word and everyone else guesses. The faster you guess, the more points you score.
+
+On your own screen, in secret
+Roles and words show only on your own iPhone. No need to deal cards or close your eyes.
+During a vote you can see who has finished voting. Who voted for what stays secret until the reveal.
+
+Easy for first-timers
+Every game has a how-to-play mode. Play it step by step with bots and learn the rules by doing.
+
+Pick up where you left off
+If the app closes or the connection drops, Resume on the home screen takes you straight back to your game, with your role and score intact.
+Devices relay to one another, so play stays stable even with a big group.
+
+Tools for the host
+The host can remove an unresponsive player at any time, and the game is judged again with the remaining players so it never stalls.
+Host mode lets you move a stuck phase along and manage players.
+
+All games are free, and you start without an account.
+
+### 지원 URL
+
+https://m1zz.github.io/MoonlitOrder/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/MoonlitOrder/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/MoonlitOrder/

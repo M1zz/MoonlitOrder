@@ -15,7 +15,7 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "marketing"
 WORK = pathlib.Path("/tmp") / "moonlit-marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-STORE = {"ko": "ko", "en": "en-US"}
+STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB"}
 
 # (원본 파일, 헤드라인, 서브카피) — 언어마다 따로 쓴다.
 SHOTS = {
@@ -31,6 +31,13 @@ SHOTS = {
         ("02-role.png",   "Only you<br>know your role", "Find the hidden Shadows in Moonlit Order"),
         ("03-vote.png",   "Approve<br>or reject?", "The moment everyone's votes are revealed, the game flips"),
         ("04-draw.png",   "Draw it,<br>guess it", "One draws, the rest guess, in Moonlit Studio"),
+        ("05-result.png", "Guess faster,<br>score higher", "Play with up to 15 friends"),
+    ],
+    "en-GB": [
+        ("01-home.png", "Gather round,<br>start a party game", "Nearby iPhones connect with no internet"),
+        ("02-role.png", "Only you<br>know your role", "Find the hidden Shadows in Moonlit Order"),
+        ("03-vote.png", "Approve<br>or reject?", "The moment everyone's votes are revealed, the game flips"),
+        ("04-draw.png", "Draw it,<br>guess it", "One draws, the rest guess, in Moonlit Studio"),
         ("05-result.png", "Guess faster,<br>score higher", "Play with up to 15 friends"),
     ],
 }

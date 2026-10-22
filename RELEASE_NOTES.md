@@ -14,6 +14,12 @@ Open Settings from the home screen gear
 Send feedback straight to the developer
 Rate the app and check your version
 
+### 앱스토어 (en-GB)
+
+Open Settings from the home screen gear
+Send feedback straight to the developer
+Rate the app and check your version
+
 ## 1.0.1 (2026-07-17)
 
 ### 새로운 기능
