@@ -811,3 +811,61 @@ https://m1zz.github.io/MoonlitOrder/privacy.html
 ### 마케팅 URL
 
 https://m1zz.github.io/MoonlitOrder/
+
+## cs
+
+### 이름
+
+Měsíční herna: Párty hry
+
+### 부제
+
+Hry offline s kamarády poblíž
+
+### 키워드
+
+lhář,mafie,vlkodlak,stolní,dedukce,kreslení,hádání,blaf,bluetooth,wifi,multiplayer,rodina,kemp,parta
+
+### 프로모션 텍스트
+
+Sešli jste se a nevíte, co hrát? Propoj iPhony poblíž bez internetu a užij si čtyři párty hry až pro 15 hráčů.
+
+### 설명
+
+Párty hry, které můžeš hned spustit na svém iPhonu, když se sejdou kamarádi.
+Bez internetu se iPhony ve stejné síti Wi-Fi nebo poblíž propojí mezi sebou a hrát může až 15 lidí.
+
+Čtyři hry
+Měsíční řád (5–15 hráčů): hra o skrytých identitách, ve které odhalíš Stíny ukryté mezi členy řádu. Vůdce vybere tým, všichni hlasují pro nebo proti a tým tajně zahraje úspěch nebo neúspěch. Kdo první dosáhne 3 misí — úspěch, nebo neúspěch?
+Hra na lháře (3–15 hráčů): všichni dostanou stejné tajné slovo, kromě jednoho člověka. Z rozhovoru vypátrej Lháře, který slovo nezná.
+Noc bez měsíce (3–15 hráčů): jedna noc se skřetem ve vsi. V noci každý tajně jedná podle své role a po rozednění diskutujete a hlasováním skřeta hledáte.
+Měsíční ateliér (3–15 hráčů): jeden kreslí tajné slovo a ostatní hádají. Čím rychleji uhodneš, tím víc bodů získáš.
+
+Na vlastní obrazovce, tajně
+Role a slova se zobrazují jen na tvém iPhonu. Není třeba rozdávat karty ani zavírat oči.
+Při hlasování hned vidíš, kdo už odhlasoval. Pro koho kdo hlasoval, zůstává tajné až do odhalení.
+
+Snadné i pro nováčky
+Každá hra má výukový režim. Pravidla se naučíš krok za krokem s boty.
+
+Pokračuj tam, kde jsi skončil
+Když se aplikace zavře nebo přeruší spojení, „Pokračovat“ na domovské obrazovce tě vrátí do hry, s rolí i body beze změny.
+Zařízení si data předávají navzájem, takže hra běží stabilně i ve větší partě.
+
+Nástroje pro hostitele
+Hostitel může kdykoli odebrat hráče, který nereaguje, a hra se přehodnotí s ostatními, takže se nikdy nezasekne.
+V režimu hostitele můžeš posunout zaseknutou fázi a spravovat hráče.
+
+Všechny hry jsou zdarma a spouštějí se bez účtu.
+
+### 지원 URL
+
+https://m1zz.github.io/MoonlitOrder/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/MoonlitOrder/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/MoonlitOrder/

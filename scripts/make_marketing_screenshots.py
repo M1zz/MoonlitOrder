@@ -15,7 +15,7 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "marketing"
 WORK = pathlib.Path("/tmp") / "moonlit-marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi"}
+STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs"}
 
 # (원본 파일, 헤드라인, 서브카피) — 언어마다 따로 쓴다.
 SHOTS = {
@@ -116,6 +116,13 @@ SHOTS = {
         ("03-vote.png", "Đồng ý<br>hay phản đối?", "Khoảnh khắc phiếu của mọi người được công khai, ván chơi lật ngược"),
         ("04-draw.png", "Vẽ đi,<br>đoán đi", "Một người vẽ, những người còn lại đoán trong Xưởng Vẽ Ánh Trăng"),
         ("05-result.png", "Đoán càng nhanh<br>điểm càng cao", "Cùng chơi với tối đa 15 người"),
+    ],
+    "cs": [
+        ("01-home.png", "Sejdete se<br>a hned hrajete", "iPhony poblíž se propojí bez internetu"),
+        ("02-role.png", "Svou roli<br>znáš jen ty", "Najdi ukryté Stíny v Měsíčním řádu"),
+        ("03-vote.png", "Pro<br>nebo proti?", "V okamžiku, kdy se hlasy odhalí, se hra obrátí"),
+        ("04-draw.png", "Kresli<br>a hádej", "Jeden kreslí, ostatní hádají v Měsíčním ateliéru"),
+        ("05-result.png", "Čím rychleji,<br>tím víc bodů", "Hrajte spolu až s 15 kamarády"),
     ],
 }
 

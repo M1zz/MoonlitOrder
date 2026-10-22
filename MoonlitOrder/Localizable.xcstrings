@@ -86,6 +86,12 @@
             "state" : "translated",
             "value" : "Thỏ Ngọc"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Měsíční Zajíc"
+          }
         }
       }
     },
@@ -173,6 +179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gió Đêm"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noční Vánek"
           }
         }
       }
@@ -262,6 +274,12 @@
             "state" : "translated",
             "value" : "Dải Ngân Hà"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mléčná dráha"
+          }
         }
       }
     },
@@ -349,6 +367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trăng Khuyết"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couvající Měsíc"
           }
         }
       }
@@ -438,6 +462,12 @@
             "state" : "translated",
             "value" : "Người Giữ Sao"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strážce hvězd"
+          }
         }
       }
     },
@@ -525,6 +555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rạng Đông"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svítání"
           }
         }
       }
@@ -614,6 +650,12 @@
             "state" : "translated",
             "value" : "Sát Thủ đã rời phòng. Hội Ánh Trăng thắng."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vrah opustil místnost. Měsíční řád vyhrává."
+          }
         }
       }
     },
@@ -701,6 +743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Người chơi"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hráč"
           }
         }
       }
@@ -790,6 +838,12 @@
             "state" : "translated",
             "value" : "Đội bị từ chối %lld lần liên tiếp. Phe Bóng Tối thắng."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tým byl %lld× po sobě zamítnut. Stíny vyhrávají."
+          }
         }
       }
     },
@@ -877,6 +931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nhiệm vụ thất bại 3 lần. Phe Bóng Tối thắng."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tři mise selhaly. Stíny vyhrávají."
           }
         }
       }
@@ -966,6 +1026,12 @@
             "state" : "translated",
             "value" : "Sát Thủ đã tìm đúng Nhà Tiên Tri “%@”. Phe Bóng Tối lật ngược thế cờ!"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vrah přesně našel Věštce „%@“. Stíny otáčejí hru!"
+          }
         }
       }
     },
@@ -1053,6 +1119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sát Thủ đã đoán sai. “%@” không phải Nhà Tiên Tri. Hội Ánh Trăng thắng!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vrah se netrefil. „%@“ nebyl Věštec. Měsíční řád vyhrává!"
           }
         }
       }
@@ -1142,6 +1214,12 @@
             "state" : "translated",
             "value" : "Coi như mọi người đã xem vai. Chuyển sang chọn đội."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Všichni se považují za ty, kdo viděli svou roli. Přecházíme k výběru týmu."
+          }
         }
       }
     },
@@ -1229,6 +1307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bỏ qua đội trưởng không chọn đội, chuyển lượt cho người kế tiếp."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vůdce, který nevybral tým, je přeskočen a řada přechází na dalšího."
           }
         }
       }
@@ -1318,6 +1402,12 @@
             "state" : "translated",
             "value" : "Người chưa bỏ phiếu được tính là đồng ý. Đang kiểm phiếu."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kdo nehlasoval, počítá se jako pro. Sčítají se hlasy."
+          }
         }
       }
     },
@@ -1405,6 +1495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thành viên đội chưa ra bài được tính là thành công."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Členové týmu, kteří nezahráli kartu, se počítají jako úspěch."
           }
         }
       }
@@ -1494,6 +1590,12 @@
             "state" : "translated",
             "value" : "Chuyển sang giai đoạn tiếp theo."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přecházíme do další fáze."
+          }
         }
       }
     },
@@ -1581,6 +1683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coi như Sát Thủ bỏ cuộc. Hội Ánh Trăng thắng."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vrah se považuje za toho, kdo to vzdal. Měsíční řád vyhrává."
           }
         }
       }
@@ -1670,6 +1778,12 @@
             "state" : "translated",
             "value" : "Sát Thủ không chỉ ra được Nhà Tiên Tri. Hội Ánh Trăng thắng."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vrah neurčil Věštce. Měsíční řád vyhrává."
+          }
         }
       }
     },
@@ -1757,6 +1871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kẻ Nói Dối đã rời phòng. Phe công dân thắng!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lhář opustil místnost. Občané vyhrávají!"
           }
         }
       }
@@ -1846,6 +1966,12 @@
             "state" : "translated",
             "value" : "Phiếu bị chia đều nên Kẻ Nói Dối thoát được!"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hlasy se rozdělily a Lhář unikl!"
+          }
         }
       }
     },
@@ -1933,6 +2059,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đã chỉ nhầm người!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Označen byl špatný člověk!"
           }
         }
       }
@@ -2022,6 +2154,12 @@
             "state" : "translated",
             "value" : "Kẻ Nói Dối đoán đúng từ khóa! Kẻ Nói Dối lật ngược thế cờ!"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lhář uhodl slovo! Lhář otáčí hru!"
+          }
         }
       }
     },
@@ -2109,6 +2247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kẻ Nói Dối không đoán được từ khóa. Phe công dân thắng!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lhář slovo neuhodl. Občané vyhrávají!"
           }
         }
       }
@@ -2198,6 +2342,12 @@
             "state" : "translated",
             "value" : "Kẻ Nói Dối"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lhář"
+          }
         }
       }
     },
@@ -2285,6 +2435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Công dân"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Občan"
           }
         }
       }
@@ -2374,6 +2530,12 @@
             "state" : "translated",
             "value" : "Từ khóa: %@ · Chủ đề: %@"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slovo: %@ · Kategorie: %@"
+          }
         }
       }
     },
@@ -2461,6 +2623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coi như mọi người đã xem từ khóa. Chuyển sang giai đoạn mô tả."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Všichni se považují za ty, kdo viděli slovo. Přecházíme k fázi popisování."
           }
         }
       }
@@ -2550,6 +2718,12 @@
             "state" : "translated",
             "value" : "Kết thúc lượt người đang nói và chuyển cho người tiếp theo."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tah aktuálního mluvčího končí a řada přechází na dalšího."
+          }
         }
       }
     },
@@ -2637,6 +2811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Người chưa bỏ phiếu được tính là bỏ phiếu trắng. Đang kiểm phiếu."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kdo nehlasoval, počítá se jako zdržel se. Sčítají se hlasy."
           }
         }
       }
@@ -2726,6 +2906,12 @@
             "state" : "translated",
             "value" : "Coi như Kẻ Nói Dối bỏ cuộc đoán. Phe công dân thắng."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lhář se považuje za toho, kdo se vzdal hádání. Občané vyhrávají."
+          }
         }
       }
     },
@@ -2813,6 +2999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kẻ Nói Dối không trả lời được. Phe công dân thắng!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lhář nedokázal odpovědět. Občané vyhrávají!"
           }
         }
       }
@@ -2902,6 +3094,12 @@
             "state" : "translated",
             "value" : "Con chó à?"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pejsek?"
+          }
         }
       }
     },
@@ -2989,6 +3187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ừm… xe hơi"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hmm… auto"
           }
         }
       }
@@ -3078,6 +3282,12 @@
             "state" : "translated",
             "value" : "Hay là con gấu?"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Že by medvěd?"
+          }
         }
       }
     },
@@ -3165,6 +3375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không biết luôn haha"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Netuším, haha"
           }
         }
       }
@@ -3254,6 +3470,12 @@
             "state" : "translated",
             "value" : "Quả táo à?"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jablko?"
+          }
         }
       }
     },
@@ -3341,6 +3563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ừm…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hmm…"
           }
         }
       }
@@ -3430,6 +3658,12 @@
             "state" : "translated",
             "value" : "Đoán đúng rồi! 🎉"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uhodl jsi! 🎉"
+          }
         }
       }
     },
@@ -3517,6 +3751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Họa sĩ"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Malíř"
           }
         }
       }
@@ -3606,6 +3846,12 @@
             "state" : "translated",
             "value" : "Từ khóa: %@"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slovo: %@"
+          }
         }
       }
     },
@@ -3693,6 +3939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Từ khóa gợi ý: %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nabízená slova: %@"
           }
         }
       }
@@ -3782,6 +4034,12 @@
             "state" : "translated",
             "value" : "Chọn ngẫu nhiên một từ thay cho Họa sĩ và bắt đầu vẽ."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Místo malíře se náhodně vybere slovo a začíná kreslení."
+          }
         }
       }
     },
@@ -3869,6 +4127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kết thúc vòng này và tính điểm."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kolo končí a počítají se body."
           }
         }
       }
@@ -3958,6 +4222,12 @@
             "state" : "translated",
             "value" : "Chuyển sang vòng tiếp theo."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přecházíme do dalšího kola."
+          }
         }
       }
     },
@@ -4045,6 +4315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🔥 Yêu tinh %@ đã mở mắt trong bóng tối."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔥 Skřet %@ otevřel oči ve tmě."
           }
         }
       }
@@ -4134,6 +4410,12 @@
             "state" : "translated",
             "value" : "👁 Pháp sư %@ đã lén xem một lá bài."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "👁 Šaman %@ tajně nahlédl do karty."
+          }
         }
       }
     },
@@ -4221,6 +4503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🤝 Kẻ trộm đêm %@ đã trộm lá bài của %@ và hai người đổi bài cho nhau!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🤝 Noční zloděj %@ ukradl kartu hráči %@ a vyměnili si je!"
           }
         }
       }
@@ -4310,6 +4598,12 @@
             "state" : "translated",
             "value" : "🔀 Kẻ tinh nghịch %@ đã đổi bài của %@ và %@!"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔀 Šprýmař %@ vyměnil karty hráčů %@ a %@!"
+          }
         }
       }
     },
@@ -4397,6 +4691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lá bài giữa số %lld là “%@”."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prostřední karta č. %lld je „%@“."
           }
         }
       }
@@ -4486,6 +4786,12 @@
             "state" : "translated",
             "value" : "Lá bài của %@ là “%@”."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karta hráče %@ je „%@“."
+          }
         }
       }
     },
@@ -4573,6 +4879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "2 lá bài giữa: %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prostřední 2 karty: %@"
           }
         }
       }
@@ -4662,6 +4974,12 @@
             "state" : "translated",
             "value" : "Bạn đã trộm lá bài của %@. Bây giờ bạn là “%@”."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukradl jsi kartu hráči %@. Nyní jsi „%@“."
+          }
         }
       }
     },
@@ -4749,6 +5067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bạn đã đổi bài của %@ và %@ cho nhau."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyměnil jsi karty hráčů %@ a %@."
           }
         }
       }
@@ -4838,6 +5162,12 @@
             "state" : "translated",
             "value" : "Một Yêu tinh bị trục xuất. Dân làng thắng!"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skřet byl vyhnán. Vesnice vyhrává!"
+          }
         }
       }
     },
@@ -4925,6 +5255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tất cả Yêu tinh đều ở giữa và không ai bị trục xuất. Dân làng thắng!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Všichni skřeti byli uprostřed a nikdo nebyl vyhnán. Vesnice vyhrává!"
           }
         }
       }
@@ -5014,6 +5350,12 @@
             "state" : "translated",
             "value" : "Không ai bị trục xuất nhưng có Yêu tinh ẩn nấp. Phe Yêu tinh thắng!"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nikdo nebyl vyhnán, ale skřet se ukrýval. Skřeti vyhrávají!"
+          }
         }
       }
     },
@@ -5101,6 +5443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Một người vô tội bị trục xuất. Phe Yêu tinh thắng!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Byl vyhnán nevinný. Skřeti vyhrávají!"
           }
         }
       }
@@ -5190,6 +5538,12 @@
             "state" : "translated",
             "value" : "Các lá bài giữa: %@"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prostřední karty: %@"
+          }
         }
       }
     },
@@ -5277,6 +5631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Người không hành động sẽ kết thúc đêm mà không dùng năng lực."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kdo nejednal, končí noc bez použití schopnosti."
           }
         }
       }
@@ -5366,6 +5726,12 @@
             "state" : "translated",
             "value" : "Kết thúc thảo luận và bắt đầu bỏ phiếu trục xuất."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diskuse končí a začíná hlasování o vyhnání."
+          }
         }
       }
     },
@@ -5453,6 +5819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hội Ánh Trăng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Měsíční řád"
           }
         }
       }
@@ -5542,6 +5914,12 @@
             "state" : "translated",
             "value" : "Bóng Tối"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stíny"
+          }
         }
       }
     },
@@ -5629,6 +6007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nhà Tiên Tri"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Věštec"
           }
         }
       }
@@ -5718,6 +6102,12 @@
             "state" : "translated",
             "value" : "Thành viên Hội"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Člen řádu"
+          }
         }
       }
     },
@@ -5805,6 +6195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sát Thủ"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vrah"
           }
         }
       }
@@ -5894,6 +6290,12 @@
             "state" : "translated",
             "value" : "Đặc vụ Bóng Tối"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agent Stínů"
+          }
         }
       }
     },
@@ -5981,6 +6383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bạn biết ai là đặc vụ Bóng Tối. Nhưng nếu lộ danh tính, bạn có thể bị ám sát vào cuối, nên hãy dẫn dắt các đội thật kín đáo."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Víš, kdo jsou agenti Stínů. Pokud se ale prozradíš, na konci tě mohou zavraždit, takže týmy veď nenápadně."
           }
         }
       }
@@ -6070,6 +6478,12 @@
             "state" : "translated",
             "value" : "Bạn là thành viên trung thành của Hội Ánh Trăng. Dựa vào thảo luận và lịch sử bỏ phiếu để tìm ra đặc vụ Bóng Tối và làm 3 nhiệm vụ thành công."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jsi věrný člen Měsíčního řádu. Z diskuse a záznamů hlasování vypátrej agenty Stínů a dokonči 3 mise."
+          }
         }
       }
     },
@@ -6157,6 +6571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bạn là lưỡi dao của Bóng Tối. Bạn biết các đặc vụ khác và dù Hội hoàn thành 3 nhiệm vụ, bạn vẫn thắng nếu chỉ đúng Nhà Tiên Tri."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jsi čepel Stínů. Znáš ostatní agenty, a i když řád zvládne 3 mise, vyhraješ, pokud správně určíš Věštce."
           }
         }
       }
@@ -6246,6 +6666,12 @@
             "state" : "translated",
             "value" : "Bạn là kẻ phản bội ẩn trong bóng tối. Bạn biết những người Bóng Tối khác. Hãy giấu danh tính, lọt vào các đội và làm nhiệm vụ thất bại."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jsi zrádce ukrytý ve tmě. Znáš ostatní Stíny. Skryj svou totožnost, infiltruj týmy a zmař mise."
+          }
         }
       }
     },
@@ -6333,6 +6759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 nhiệm vụ thành công (nhưng thua nếu Nhà Tiên Tri bị ám sát)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 úspěšné mise (prohra, pokud je Věštec zavražděn)"
           }
         }
       }
@@ -6422,6 +6854,12 @@
             "state" : "translated",
             "value" : "3 nhiệm vụ thất bại · 5 đội bị từ chối liên tiếp · ám sát Nhà Tiên Tri"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 neúspěšné mise · 5 zamítnutých týmů po sobě · vražda Věštce"
+          }
         }
       }
     },
@@ -6509,6 +6947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Món ăn"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jídlo"
           }
         }
       }
@@ -6598,6 +7042,12 @@
             "state" : "translated",
             "value" : "Canh kimchi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kimči guláš"
+          }
         }
       }
     },
@@ -6686,6 +7136,12 @@
             "state" : "translated",
             "value" : "Ba chỉ nướng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grilovaný vepřový bůček"
+          }
         }
       }
     },
@@ -6770,6 +7226,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tteokbokki"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tteokbokki"
@@ -6862,6 +7324,12 @@
             "state" : "translated",
             "value" : "Gà rán"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smažené kuře"
+          }
         }
       }
     },
@@ -6946,6 +7414,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pizza"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pizza"
@@ -7038,6 +7512,12 @@
             "state" : "translated",
             "value" : "Sushi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sushi"
+          }
         }
       }
     },
@@ -7125,6 +7605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mì ramen"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ramen"
           }
         }
       }
@@ -7214,6 +7700,12 @@
             "state" : "translated",
             "value" : "Cơm trộn bibimbap"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibimbap"
+          }
         }
       }
     },
@@ -7301,6 +7793,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mì lạnh"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Studené nudle"
           }
         }
       }
@@ -7390,6 +7888,12 @@
             "state" : "translated",
             "value" : "Canh sườn bò"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polévka z hovězích žeber"
+          }
         }
       }
     },
@@ -7478,6 +7982,12 @@
             "state" : "translated",
             "value" : "Mì Ý"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Těstoviny"
+          }
         }
       }
     },
@@ -7562,6 +8072,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hamburger"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hamburger"
@@ -7654,6 +8170,12 @@
             "state" : "translated",
             "value" : "Kimbap"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gimbap"
+          }
         }
       }
     },
@@ -7741,6 +8263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dồi Hàn Quốc"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korejská krvavá klobása"
           }
         }
       }
@@ -7830,6 +8358,12 @@
             "state" : "translated",
             "value" : "Chân giò heo"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vepřové nožičky"
+          }
         }
       }
     },
@@ -7917,6 +8451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Salad"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salát"
           }
         }
       }
@@ -8006,6 +8546,12 @@
             "state" : "translated",
             "value" : "Động vật"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zvířata"
+          }
         }
       }
     },
@@ -8093,6 +8639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voi"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slon"
           }
         }
       }
@@ -8182,6 +8734,12 @@
             "state" : "translated",
             "value" : "Hươu cao cổ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Žirafa"
+          }
         }
       }
     },
@@ -8269,6 +8827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chim cánh cụt"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tučňák"
           }
         }
       }
@@ -8358,6 +8922,12 @@
             "state" : "translated",
             "value" : "Hổ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tygr"
+          }
         }
       }
     },
@@ -8445,6 +9015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gấu trúc"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panda"
           }
         }
       }
@@ -8534,6 +9110,12 @@
             "state" : "translated",
             "value" : "Nhím"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ježek"
+          }
         }
       }
     },
@@ -8621,6 +9203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chuột túi"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klokan"
           }
         }
       }
@@ -8710,6 +9298,12 @@
             "state" : "translated",
             "value" : "Cú mèo"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sova"
+          }
         }
       }
     },
@@ -8797,6 +9391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cá heo"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delfín"
           }
         }
       }
@@ -8886,6 +9486,12 @@
             "state" : "translated",
             "value" : "Bạch tuộc"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chobotnice"
+          }
         }
       }
     },
@@ -8973,6 +9579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sóc"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veverka"
           }
         }
       }
@@ -9062,6 +9674,12 @@
             "state" : "translated",
             "value" : "Cá sấu"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krokodýl"
+          }
         }
       }
     },
@@ -9149,6 +9767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lạc đà"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velbloud"
           }
         }
       }
@@ -9238,6 +9862,12 @@
             "state" : "translated",
             "value" : "Rái cá"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vydra"
+          }
         }
       }
     },
@@ -9325,6 +9955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vẹt"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Papoušek"
           }
         }
       }
@@ -9414,6 +10050,12 @@
             "state" : "translated",
             "value" : "Chuột chũi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krtek"
+          }
         }
       }
     },
@@ -9501,6 +10143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Địa điểm"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Místa"
           }
         }
       }
@@ -9590,6 +10238,12 @@
             "state" : "translated",
             "value" : "Công viên giải trí"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zábavní park"
+          }
         }
       }
     },
@@ -9677,6 +10331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thư viện"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knihovna"
           }
         }
       }
@@ -9766,6 +10426,12 @@
             "state" : "translated",
             "value" : "Phòng xông hơi Hàn Quốc"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korejská sauna"
+          }
         }
       }
     },
@@ -9853,6 +10519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rạp chiếu phim"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kino"
           }
         }
       }
@@ -9942,6 +10614,12 @@
             "state" : "translated",
             "value" : "Cửa hàng tiện lợi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Večerka"
+          }
         }
       }
     },
@@ -10029,6 +10707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ga tàu điện ngầm"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stanice metra"
           }
         }
       }
@@ -10118,6 +10802,12 @@
             "state" : "translated",
             "value" : "Tiệm làm tóc"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kadeřnictví"
+          }
         }
       }
     },
@@ -10205,6 +10895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bệnh viện"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nemocnice"
           }
         }
       }
@@ -10294,6 +10990,12 @@
             "state" : "translated",
             "value" : "Trường học"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Škola"
+          }
         }
       }
     },
@@ -10381,6 +11083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Khu cắm trại"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kemp"
           }
         }
       }
@@ -10470,6 +11178,12 @@
             "state" : "translated",
             "value" : "Hồ bơi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bazén"
+          }
         }
       }
     },
@@ -10557,6 +11271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sân bay"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letiště"
           }
         }
       }
@@ -10646,6 +11366,12 @@
             "state" : "translated",
             "value" : "Chợ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trh"
+          }
         }
       }
     },
@@ -10733,6 +11459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quán cà phê"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kavárna"
           }
         }
       }
@@ -10822,6 +11554,12 @@
             "state" : "translated",
             "value" : "Phòng karaoke"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karaoke"
+          }
         }
       }
     },
@@ -10909,6 +11647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Phòng gym"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posilovna"
           }
         }
       }
@@ -10998,6 +11742,12 @@
             "state" : "translated",
             "value" : "Nghề nghiệp"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Povolání"
+          }
         }
       }
     },
@@ -11085,6 +11835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lính cứu hỏa"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hasič"
           }
         }
       }
@@ -11174,6 +11930,12 @@
             "state" : "translated",
             "value" : "Bác sĩ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lékař"
+          }
         }
       }
     },
@@ -11261,6 +12023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đầu bếp"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuchař"
           }
         }
       }
@@ -11350,6 +12118,12 @@
             "state" : "translated",
             "value" : "Lập trình viên"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Programátor"
+          }
         }
       }
     },
@@ -11437,6 +12211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "YouTuber"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Youtuber"
           }
         }
       }
@@ -11526,6 +12306,12 @@
             "state" : "translated",
             "value" : "Giáo viên"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Učitel"
+          }
         }
       }
     },
@@ -11613,6 +12399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cảnh sát"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Policista"
           }
         }
       }
@@ -11702,6 +12494,12 @@
             "state" : "translated",
             "value" : "Nông dân"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farmář"
+          }
         }
       }
     },
@@ -11789,6 +12587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Phi công"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilot"
           }
         }
       }
@@ -11878,6 +12682,12 @@
             "state" : "translated",
             "value" : "Thợ làm tóc"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kadeřník"
+          }
         }
       }
     },
@@ -11965,6 +12775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ca sĩ"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zpěvák"
           }
         }
       }
@@ -12054,6 +12870,12 @@
             "state" : "translated",
             "value" : "Vận động viên"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sportovec"
+          }
         }
       }
     },
@@ -12141,6 +12963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nhiếp ảnh gia"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotograf"
           }
         }
       }
@@ -12230,6 +13058,12 @@
             "state" : "translated",
             "value" : "Luật sư"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Právník"
+          }
         }
       }
     },
@@ -12318,6 +13152,12 @@
             "state" : "translated",
             "value" : "Ngư dân"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rybář"
+          }
         }
       }
     },
@@ -12402,6 +13242,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barista"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Barista"
@@ -12494,6 +13340,12 @@
             "state" : "translated",
             "value" : "Đồ vật"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Věci"
+          }
         }
       }
     },
@@ -12581,6 +13433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cái ô"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deštník"
           }
         }
       }
@@ -12670,6 +13528,12 @@
             "state" : "translated",
             "value" : "Quạt điện"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Větrák"
+          }
         }
       }
     },
@@ -12757,6 +13621,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tủ lạnh"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lednice"
           }
         }
       }
@@ -12846,6 +13716,12 @@
             "state" : "translated",
             "value" : "Bàn chải đánh răng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zubní kartáček"
+          }
         }
       }
     },
@@ -12933,6 +13809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cái gối"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polštář"
           }
         }
       }
@@ -13022,6 +13904,12 @@
             "state" : "translated",
             "value" : "Điều khiển từ xa"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dálkový ovladač"
+          }
         }
       }
     },
@@ -13109,6 +13997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bình giữ nhiệt"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Termohrnek"
           }
         }
       }
@@ -13198,6 +14092,12 @@
             "state" : "translated",
             "value" : "Tai nghe"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sluchátka"
+          }
         }
       }
     },
@@ -13285,6 +14185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cái kéo"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nůžky"
           }
         }
       }
@@ -13374,6 +14280,12 @@
             "state" : "translated",
             "value" : "Cái chăn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deka"
+          }
         }
       }
     },
@@ -13461,6 +14373,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cái gương"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrcadlo"
           }
         }
       }
@@ -13550,6 +14468,12 @@
             "state" : "translated",
             "value" : "Đồng hồ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hodiny"
+          }
         }
       }
     },
@@ -13637,6 +14561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sạc điện thoại"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nabíječka"
           }
         }
       }
@@ -13726,6 +14656,12 @@
             "state" : "translated",
             "value" : "Dép đi trong nhà"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pantofle"
+          }
         }
       }
     },
@@ -13813,6 +14749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Khẩu trang"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rouška"
           }
         }
       }
@@ -13902,6 +14844,12 @@
             "state" : "translated",
             "value" : "Cái ví"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peněženka"
+          }
         }
       }
     },
@@ -13989,6 +14937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thể thao"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sporty"
           }
         }
       }
@@ -14078,6 +15032,12 @@
             "state" : "translated",
             "value" : "Bóng đá"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotbal"
+          }
         }
       }
     },
@@ -14165,6 +15125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bóng chày"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baseball"
           }
         }
       }
@@ -14254,6 +15220,12 @@
             "state" : "translated",
             "value" : "Bóng rổ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basketbal"
+          }
         }
       }
     },
@@ -14341,6 +15313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cầu lông"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Badminton"
           }
         }
       }
@@ -14430,6 +15408,12 @@
             "state" : "translated",
             "value" : "Bơi lội"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plavání"
+          }
         }
       }
     },
@@ -14514,6 +15498,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bowling"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bowling"
@@ -14606,6 +15596,12 @@
             "state" : "translated",
             "value" : "Taekwondo"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taekwondo"
+          }
         }
       }
     },
@@ -14690,6 +15686,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Golf"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Golf"
@@ -14782,6 +15784,12 @@
             "state" : "translated",
             "value" : "Bóng bàn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stolní tenis"
+          }
         }
       }
     },
@@ -14869,6 +15877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trượt tuyết"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyžování"
           }
         }
       }
@@ -14958,6 +15972,12 @@
             "state" : "translated",
             "value" : "Leo núi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lezení"
+          }
         }
       }
     },
@@ -15045,6 +16065,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yoga"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jóga"
           }
         }
       }
@@ -15134,6 +16160,12 @@
             "state" : "translated",
             "value" : "Quyền Anh"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Box"
+          }
         }
       }
     },
@@ -15221,6 +16253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bắn cung"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lukostřelba"
           }
         }
       }
@@ -15310,6 +16348,12 @@
             "state" : "translated",
             "value" : "Đấu kiếm"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Šerm"
+          }
         }
       }
     },
@@ -15397,6 +16441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Marathon"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maraton"
           }
         }
       }
@@ -15486,6 +16536,12 @@
             "state" : "translated",
             "value" : "Con thỏ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Králík"
+          }
         }
       }
     },
@@ -15573,6 +16629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Con mèo"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kočka"
           }
         }
       }
@@ -15662,6 +16724,12 @@
             "state" : "translated",
             "value" : "Con chó"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pes"
+          }
         }
       }
     },
@@ -15749,6 +16817,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Con sư tử"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lev"
           }
         }
       }
@@ -15838,6 +16912,12 @@
             "state" : "translated",
             "value" : "Con gấu"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medvěd"
+          }
         }
       }
     },
@@ -15925,6 +17005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Con ốc sên"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Šnek"
           }
         }
       }
@@ -16014,6 +17100,12 @@
             "state" : "translated",
             "value" : "Con rắn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Had"
+          }
         }
       }
     },
@@ -16101,6 +17193,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Con rùa"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Želva"
           }
         }
       }
@@ -16190,6 +17288,12 @@
             "state" : "translated",
             "value" : "Con bướm"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Motýl"
+          }
         }
       }
     },
@@ -16277,6 +17381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Con cá"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ryba"
           }
         }
       }
@@ -16366,6 +17476,12 @@
             "state" : "translated",
             "value" : "Kem"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zmrzlina"
+          }
         }
       }
     },
@@ -16453,6 +17569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bánh kem"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dort"
           }
         }
       }
@@ -16542,6 +17664,12 @@
             "state" : "translated",
             "value" : "Chuối"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Banán"
+          }
         }
       }
     },
@@ -16629,6 +17757,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dưa hấu"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meloun"
           }
         }
       }
@@ -16718,6 +17852,12 @@
             "state" : "translated",
             "value" : "Trứng ốp la"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volské oko"
+          }
         }
       }
     },
@@ -16805,6 +17945,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bánh donut"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Donut"
           }
         }
       }
@@ -16894,6 +18040,12 @@
             "state" : "translated",
             "value" : "Quả táo"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jablko"
+          }
         }
       }
     },
@@ -16981,6 +18133,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xúc xích kẹp bánh"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hot dog"
           }
         }
       }
@@ -17070,6 +18228,12 @@
             "state" : "translated",
             "value" : "Nho"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hrozny"
+          }
         }
       }
     },
@@ -17157,6 +18321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cà rốt"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mrkev"
           }
         }
       }
@@ -17246,6 +18416,12 @@
             "state" : "translated",
             "value" : "Đồ dùng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Předměty"
+          }
         }
       }
     },
@@ -17333,6 +18509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kính mắt"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brýle"
           }
         }
       }
@@ -17422,6 +18604,12 @@
             "state" : "translated",
             "value" : "Xe đạp"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kolo"
+          }
         }
       }
     },
@@ -17509,6 +18697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cái ghế"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Židle"
           }
         }
       }
@@ -17598,6 +18792,12 @@
             "state" : "translated",
             "value" : "Chìa khóa"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klíč"
+          }
         }
       }
     },
@@ -17685,6 +18885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bóng đèn"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Žárovka"
           }
         }
       }
@@ -17774,6 +18980,12 @@
             "state" : "translated",
             "value" : "Bóng bay"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Balonek"
+          }
         }
       }
     },
@@ -17861,6 +19073,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cây nến"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svíčka"
           }
         }
       }
@@ -17950,6 +19168,12 @@
             "state" : "translated",
             "value" : "Hộp quà"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dárková krabice"
+          }
         }
       }
     },
@@ -18037,6 +19261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cái chổi"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koště"
           }
         }
       }
@@ -18126,6 +19356,12 @@
             "state" : "translated",
             "value" : "Cái búa"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kladivo"
+          }
         }
       }
     },
@@ -18213,6 +19449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bút chì"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tužka"
           }
         }
       }
@@ -18302,6 +19544,12 @@
             "state" : "translated",
             "value" : "Cái cốc"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hrnek"
+          }
         }
       }
     },
@@ -18389,6 +19637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Phương tiện"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dopravní prostředky"
           }
         }
       }
@@ -18478,6 +19732,12 @@
             "state" : "translated",
             "value" : "Xe hơi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto"
+          }
         }
       }
     },
@@ -18565,6 +19825,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Máy bay"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Letadlo"
           }
         }
       }
@@ -18654,6 +19920,12 @@
             "state" : "translated",
             "value" : "Con tàu"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loď"
+          }
         }
       }
     },
@@ -18741,6 +20013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tàu hỏa"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vlak"
           }
         }
       }
@@ -18830,6 +20108,12 @@
             "state" : "translated",
             "value" : "Tên lửa"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raketa"
+          }
         }
       }
     },
@@ -18917,6 +20201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trực thăng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vrtulník"
           }
         }
       }
@@ -19006,6 +20296,12 @@
             "state" : "translated",
             "value" : "Tàu ngầm"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ponorka"
+          }
         }
       }
     },
@@ -19093,6 +20389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Khinh khí cầu"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Horkovzdušný balon"
           }
         }
       }
@@ -19182,6 +20484,12 @@
             "state" : "translated",
             "value" : "Thiên nhiên"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Příroda"
+          }
         }
       }
     },
@@ -19269,6 +20577,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cái cây"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strom"
           }
         }
       }
@@ -19358,6 +20672,12 @@
             "state" : "translated",
             "value" : "Bông hoa"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Květina"
+          }
         }
       }
     },
@@ -19445,6 +20765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mặt trời"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slunce"
           }
         }
       }
@@ -19534,6 +20860,12 @@
             "state" : "translated",
             "value" : "Đám mây"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mrak"
+          }
         }
       }
     },
@@ -19621,6 +20953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cầu vồng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duha"
           }
         }
       }
@@ -19710,6 +21048,12 @@
             "state" : "translated",
             "value" : "Ngọn núi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hora"
+          }
         }
       }
     },
@@ -19797,6 +21141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ngôi sao"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hvězda"
           }
         }
       }
@@ -19886,6 +21236,12 @@
             "state" : "translated",
             "value" : "Người tuyết"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sněhulák"
+          }
         }
       }
     },
@@ -19973,6 +21329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tia chớp"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blesk"
           }
         }
       }
@@ -20062,6 +21424,12 @@
             "state" : "translated",
             "value" : "Núi lửa"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sopka"
+          }
         }
       }
     },
@@ -20149,6 +21517,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hòn đảo"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ostrov"
           }
         }
       }
@@ -20238,6 +21612,12 @@
             "state" : "translated",
             "value" : "Mặt trăng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Měsíc"
+          }
         }
       }
     },
@@ -20325,6 +21705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nhân vật"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Postavy"
           }
         }
       }
@@ -20414,6 +21800,12 @@
             "state" : "translated",
             "value" : "Người máy"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Robot"
+          }
         }
       }
     },
@@ -20501,6 +21893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Con ma"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duch"
           }
         }
       }
@@ -20590,6 +21988,12 @@
             "state" : "translated",
             "value" : "Vương miện"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koruna"
+          }
         }
       }
     },
@@ -20677,6 +22081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cướp biển"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pirát"
           }
         }
       }
@@ -20766,6 +22176,12 @@
             "state" : "translated",
             "value" : "Thiên thần"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anděl"
+          }
         }
       }
     },
@@ -20853,6 +22269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Phù thủy"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čaroděj"
           }
         }
       }
@@ -20942,6 +22364,12 @@
             "state" : "translated",
             "value" : "Khủng long"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dinosaurus"
+          }
         }
       }
     },
@@ -21029,6 +22457,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Người ngoài hành tinh"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mimozemšťan"
           }
         }
       }
@@ -21118,6 +22552,12 @@
             "state" : "translated",
             "value" : "Nàng tiên cá"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mořská panna"
+          }
         }
       }
     },
@@ -21205,6 +22645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ông già Noel"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Santa Claus"
           }
         }
       }
@@ -21294,6 +22740,12 @@
             "state" : "translated",
             "value" : "Yêu tinh"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skřet"
+          }
         }
       }
     },
@@ -21381,6 +22833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pháp sư"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Šaman"
           }
         }
       }
@@ -21470,6 +22928,12 @@
             "state" : "translated",
             "value" : "Kẻ trộm đêm"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noční zloděj"
+          }
         }
       }
     },
@@ -21557,6 +23021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kẻ tinh nghịch"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Šprýmař"
           }
         }
       }
@@ -21646,6 +23116,12 @@
             "state" : "translated",
             "value" : "Dân làng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vesničan"
+          }
         }
       }
     },
@@ -21733,6 +23209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bạn biết các Yêu tinh đồng đội. Nếu bạn là Yêu tinh duy nhất, bạn được xem 1 lá bài giữa. Khi trời sáng, hãy giấu danh tính và giả làm người thường."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poznáš ostatní skřety. Pokud jsi jediný skřet, můžeš se podívat na 1 prostřední kartu. Až se rozední, skryj totožnost a tvař se jako člověk."
           }
         }
       }
@@ -21822,6 +23304,12 @@
             "state" : "translated",
             "value" : "Bằng năng lực siêu nhiên, bạn có thể xem bài của 1 người chơi khác hoặc 2 lá bài giữa."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nadpřirozenou silou se můžeš podívat na kartu 1 jiného hráče nebo na 2 prostřední karty."
+          }
         }
       }
     },
@@ -21909,6 +23397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lén đổi bài với 1 người chơi khác và xem lá bài mới. Từ đó phe của bạn theo lá bài mới."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tajně si vyměň kartu s 1 jiným hráčem a podívej se na novou. Od té chvíle se tvá strana řídí novou kartou."
           }
         }
       }
@@ -21998,6 +23492,12 @@
             "state" : "translated",
             "value" : "Trò nghịch ngợm bắt đầu! Đổi bài của hai người chơi khác cho nhau. Bạn sẽ không thấy đó là bài gì."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Šprým začíná! Vyměň karty dvou jiných hráčů. Neuvidíš, o jaké karty šlo."
+          }
         }
       }
     },
@@ -22085,6 +23585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ban đêm bạn không có việc gì để làm. Hãy tìm ra các Yêu tinh ẩn nấp bằng suy luận và thảo luận ban ngày."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V noci není co dělat. Skryté skřety vypátrej dedukcí a diskusí ve dne."
           }
         }
       }
@@ -22174,6 +23680,12 @@
             "state" : "translated",
             "value" : "Đang kết nối…"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Připojování…"
+          }
         }
       }
     },
@@ -22261,6 +23773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cài đặt"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nastavení"
           }
         }
       }
@@ -22350,6 +23868,12 @@
             "state" : "translated",
             "value" : "Thông báo"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upozornění"
+          }
         }
       }
     },
@@ -22434,6 +23958,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -22526,6 +24056,12 @@
             "state" : "translated",
             "value" : "“%@” đang bảo trì. Hãy chọn trò chơi khác."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hra „%@“ je v údržbě. Vyber jinou hru."
+          }
         }
       }
     },
@@ -22613,6 +24149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trò chơi"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hra"
           }
         }
       }
@@ -22702,6 +24244,12 @@
             "state" : "translated",
             "value" : "Trò Kẻ Nói Dối"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hra na lháře"
+          }
         }
       }
     },
@@ -22789,6 +24337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đêm Không Trăng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noc bez měsíce"
           }
         }
       }
@@ -22878,6 +24432,12 @@
             "state" : "translated",
             "value" : "Xưởng Vẽ Ánh Trăng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Měsíční ateliér"
+          }
         }
       }
     },
@@ -22965,6 +24525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tạo phòng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vytvořit místnost"
           }
         }
       }
@@ -23054,6 +24620,12 @@
             "state" : "translated",
             "value" : "Mở phòng cho trò chơi đã chọn để bạn bè có thể vào."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otevři místnost pro zvolenou hru, aby se mohli přidat kamarádi."
+          }
         }
       }
     },
@@ -23141,6 +24713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tìm phòng gần đây"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hledat místnosti v okolí"
           }
         }
       }
@@ -23230,6 +24808,12 @@
             "state" : "translated",
             "value" : "Tìm phòng do bạn bè gần đó tạo và tham gia."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Najdi místnost, kterou vytvořil kamarád poblíž, a přidej se."
+          }
         }
       }
     },
@@ -23317,6 +24901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Luyện tập với bot"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trénink s boty"
           }
         }
       }
@@ -23406,6 +24996,12 @@
             "state" : "translated",
             "value" : "Chơi một ván một mình với bot để học luật."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zahraj si jedno kolo sám s boty a nauč se pravidla."
+          }
         }
       }
     },
@@ -23493,6 +25089,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Phòng đã đầy. (Số người chơi tối đa: %lld)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Místnost je plná. (Nejvyšší počet hráčů: %lld)"
           }
         }
       }
@@ -23582,6 +25184,12 @@
             "state" : "translated",
             "value" : "Phòng này đang có ván chơi diễn ra."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V této místnosti už hra probíhá."
+          }
         }
       }
     },
@@ -23666,6 +25274,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luna"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Luna"
@@ -23758,6 +25372,12 @@
             "state" : "translated",
             "value" : "Orion"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orion"
+          }
         }
       }
     },
@@ -23842,6 +25462,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nova"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nova"
@@ -23934,6 +25560,12 @@
             "state" : "translated",
             "value" : "Sol"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sol"
+          }
         }
       }
     },
@@ -24021,6 +25653,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chủ phòng đã đưa bạn ra khỏi phòng."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hostitel tě odebral z místnosti."
           }
         }
       }
@@ -24110,6 +25748,12 @@
             "state" : "translated",
             "value" : "Chủ phòng đã đóng phòng."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hostitel zavřel místnost."
+          }
         }
       }
     },
@@ -24197,6 +25841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không thể kết nối lại với chủ phòng. Bạn có thể vào lại từ “Chơi tiếp” trên màn hình chính."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "K hostiteli se nepodařilo znovu připojit. Můžeš se vrátit přes „Pokračovat“ na domovské obrazovce."
           }
         }
       }
@@ -24286,6 +25936,12 @@
             "state" : "translated",
             "value" : "Mỗi người chơi được bí mật chia vào Hội Ánh Trăng (phe thiện) hoặc Bóng Tối (phe ác). Trong tối đa 5 nhiệm vụ, bạn phải suy ra ai là Bóng Tối chỉ qua trò chuyện và lịch sử bỏ phiếu."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Každý hráč je tajně přiřazen k Měsíčnímu řádu (dobří) nebo ke Stínům (zlí). Během nejvýše 5 misí musíš jen z rozhovorů a záznamů hlasování zjistit, kdo jsou Stíny."
+          }
         }
       }
     },
@@ -24373,6 +26029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tất cả nhận cùng một từ khóa, trừ một Kẻ Nói Dối. Lần lượt mô tả từ khóa bằng vài lời và kiểm tra xem ai thật sự biết. Kẻ Nói Dối phải giả vờ biết dù không biết từ khóa."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Všichni dostanou stejné tajné slovo kromě jednoho Lháře. Střídavě slovo stručně popisujte a ověřujte, kdo ho opravdu zná. Lhář musí blafovat, aniž by slovo znal."
           }
         }
       }
@@ -24462,6 +26124,12 @@
             "state" : "translated",
             "value" : "Yêu tinh đã lẻn vào làng! Ban đêm mỗi người dùng hành động bí mật để lấy thông tin hoặc lén đổi bài; ban ngày thảo luận rồi chỉ một lần bỏ phiếu để quyết định ai bị trục xuất. Bài có thể thay đổi trong đêm nên thắng thua tính theo “lá bài cuối”."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do vesnice se vplížili skřeti! V noci každý tajnou akcí získává informace nebo nenápadně vyměňuje karty, ve dne se diskutuje a jediné hlasování určí, kdo bude vyhnán. Karty se přes noc mohou změnit, proto o výsledku rozhoduje „konečná karta“."
+          }
         }
       }
     },
@@ -24549,6 +26217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mỗi vòng, một người là “Họa sĩ” và chỉ diễn tả từ khóa bằng tranh vẽ. Những người còn lại xem tranh và đoán trong khung chat. Không được dùng chữ hay số. Trò chơi kết thúc khi mọi người đều đã làm Họa sĩ."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V každém kole se jeden hráč stane „Malířem“ a tajné slovo vyjádří jen kresbou. Ostatní kresbu sledují a hádají v chatu. Písmena a číslice jsou zakázány. Hra končí, když byl Malířem každý."
           }
         }
       }
@@ -24638,6 +26312,12 @@
             "state" : "translated",
             "value" : "Hội Ánh Trăng (phe thiện)"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Měsíční řád (dobří)"
+          }
         }
       }
     },
@@ -24725,6 +26405,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 nhiệm vụ thành công. Nhưng nếu cuối cùng Sát Thủ chỉ đúng Nhà Tiên Tri, bạn sẽ thua, nên Nhà Tiên Tri phải giấu danh tính đến phút chót."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 úspěšné mise. Pokud ale na konci Vrah správně určí Věštce, prohráváš, takže Věštec musí svou totožnost skrývat do konce."
           }
         }
       }
@@ -24814,6 +26500,12 @@
             "state" : "translated",
             "value" : "Bóng Tối (phe ác)"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stíny (zlí)"
+          }
         }
       }
     },
@@ -24901,6 +26593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 nhiệm vụ thất bại · 5 đội bị từ chối liên tiếp · ám sát Nhà Tiên Tri thành công — chỉ cần một trong ba là thắng."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 neúspěšné mise · 5 zamítnutých týmů po sobě · úspěšná vražda Věštce — stačí kterákoli z tří."
           }
         }
       }
@@ -24990,6 +26688,12 @@
             "state" : "translated",
             "value" : "Bạn thắng nếu cuộc bỏ phiếu chỉ đúng Kẻ Nói Dối và Kẻ Nói Dối không đoán được từ khóa."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyhráváš, pokud hlasování správně určí Lháře a ten slovo neuhodne."
+          }
         }
       }
     },
@@ -25077,6 +26781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bạn thắng nếu phiếu bị chia đều hoặc chỉ nhầm người. Dù bị bắt, Kẻ Nói Dối vẫn lật ngược thế cờ nếu đoán đúng từ khóa!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyhráváš, pokud se hlasy rozdělí nebo je označen špatný člověk. I když je Lhář chycen, otočí hru, pokud slovo uhodne!"
           }
         }
       }
@@ -25166,6 +26876,12 @@
             "state" : "translated",
             "value" : "Dân làng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vesnice"
+          }
         }
       }
     },
@@ -25253,6 +26969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bạn thắng khi trục xuất được Yêu tinh (theo lá bài cuối). Nếu tất cả Yêu tinh nằm ở bài giữa, bạn chỉ thắng khi không ai bị trục xuất."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyhráváš, pokud vyženeš skřeta (podle konečné karty). Pokud jsou všichni skřeti mezi prostředními kartami, vyhráváš jen tehdy, když nikdo vyhnán není."
           }
         }
       }
@@ -25342,6 +27064,12 @@
             "state" : "translated",
             "value" : "Bạn thắng nếu không có Yêu tinh nào bị trục xuất — thắng cả khi một người vô tội bị trục xuất."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyhráváš, pokud není vyhnán žádný skřet — vyhráváš i tehdy, když je vyhnán nevinný."
+          }
         }
       }
     },
@@ -25429,6 +27157,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Người đoán"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hádající"
           }
         }
       }
@@ -25518,6 +27252,12 @@
             "state" : "translated",
             "value" : "Xem tranh và đoán đúng từ khóa càng nhanh, điểm càng cao! Đoán đúng sẽ được điểm."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čím rychleji podle kresby uhodneš slovo, tím víc bodů! Za správnou odpověď dostaneš body."
+          }
         }
       }
     },
@@ -25605,6 +27345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Càng nhiều người đoán đúng tranh của bạn, bạn càng được điểm. Mấu chốt là vẽ sao cho ai cũng nhận ra!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Body získáváš, když tvou kresbu uhodne hodně lidí. Klíčové je kreslit tak, aby to poznal každý!"
           }
         }
       }
@@ -25694,6 +27440,12 @@
             "state" : "translated",
             "value" : "Cách chơi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jak hrát"
+          }
         }
       }
     },
@@ -25781,6 +27533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mục tiêu của trò chơi"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cíl hry"
           }
         }
       }
@@ -25870,6 +27628,12 @@
             "state" : "translated",
             "value" : "Điều kiện thắng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podmínky vítězství"
+          }
         }
       }
     },
@@ -25957,6 +27721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Giờ bạn sẽ cùng bot tự thử từng bước để làm quen.\nMỗi bước đều có hướng dẫn, và bạn tiếp tục bằng nút “Tiếp”."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teď si to krok za krokem vyzkoušíš s boty.\nV každé fázi se zobrazí nápověda a dál pokračuješ tlačítkem „Další“."
           }
         }
       }
@@ -26046,6 +27816,12 @@
             "state" : "translated",
             "value" : "Bắt đầu luyện tập"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Začít trénink"
+          }
         }
       }
     },
@@ -26133,6 +27909,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Về màn hình chính"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na domovskou obrazovku"
           }
         }
       }
@@ -26222,6 +28004,12 @@
             "state" : "translated",
             "value" : "Giờ ám sát"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čas vraždy"
+          }
         }
       }
     },
@@ -26309,6 +28097,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hội Ánh Trăng đã hoàn thành 3 nhiệm vụ.\nNhưng nếu Sát Thủ tìm ra Nhà Tiên Tri, Bóng Tối sẽ lật ngược thế cờ!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Měsíční řád zvládl 3 mise.\nPokud ale Vrah najde Věštce, Stíny otočí hru!"
           }
         }
       }
@@ -26398,6 +28192,12 @@
             "state" : "translated",
             "value" : "Hãy chỉ người chơi bạn nghĩ là Nhà Tiên Tri"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Označ hráče, o kterém si myslíš, že je Věštec"
+          }
         }
       }
     },
@@ -26485,6 +28285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thực hiện ám sát"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Provést vraždu"
           }
         }
       }
@@ -26574,6 +28380,12 @@
             "state" : "translated",
             "value" : "Sát Thủ đang chọn mục tiêu cuối cùng…"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vrah vybírá poslední cíl…"
+          }
         }
       }
     },
@@ -26661,6 +28473,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ thắng!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyhrává %@!"
           }
         }
       }
@@ -26750,6 +28568,12 @@
             "state" : "translated",
             "value" : "Công bố vai trò"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odhalené role"
+          }
         }
       }
     },
@@ -26837,6 +28661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tôi"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Já"
           }
         }
       }
@@ -26926,6 +28756,12 @@
             "state" : "translated",
             "value" : "Chơi lại với cùng thành viên"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hrát znovu ve stejné sestavě"
+          }
         }
       }
     },
@@ -27013,6 +28849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chủ phòng có thể bắt đầu lại"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hostitel může hru spustit znovu"
           }
         }
       }
@@ -27102,6 +28944,12 @@
             "state" : "translated",
             "value" : "Rời đi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odejít"
+          }
         }
       }
     },
@@ -27189,6 +29037,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lần đầu chơi? Hãy luyện tập với bot trước"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poprvé? Nejdřív si zatrénuj s boty"
           }
         }
       }
@@ -27278,6 +29132,12 @@
             "state" : "translated",
             "value" : "Bạn có thể chơi trọn một ván một mình với bot để học luật."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Můžeš si sám zahrát celou hru s boty a naučit se pravidla."
+          }
         }
       }
     },
@@ -27365,6 +29225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ép chuyển giai đoạn?"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vynutit posun do další fáze?"
           }
         }
       }
@@ -27454,6 +29320,12 @@
             "state" : "translated",
             "value" : "Ép chuyển"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vynutit posun"
+          }
         }
       }
     },
@@ -27541,6 +29413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hủy"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrušit"
           }
         }
       }
@@ -27630,6 +29508,12 @@
             "state" : "translated",
             "value" : "Đưa %@ ra khỏi phòng?"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odebrat hráče %@?"
+          }
         }
       }
     },
@@ -27717,6 +29601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đưa ra"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odebrat"
           }
         }
       }
@@ -27806,6 +29696,12 @@
             "state" : "translated",
             "value" : "Ván đang chơi sẽ tiếp tục với những người còn lại."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozehraná hra pokračuje s ostatními hráči."
+          }
         }
       }
     },
@@ -27893,6 +29789,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chế độ chủ phòng GM"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Režim hostitele GM"
           }
         }
       }
@@ -27982,6 +29884,12 @@
             "state" : "translated",
             "value" : "Nếu ván chơi bị kẹt, bạn có thể làm cho nó tiếp tục từ đây."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokud se hra zasekne, můžeš ji odsud rozběhnout."
+          }
         }
       }
     },
@@ -28069,6 +29977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Điều khiển ván chơi"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Řízení hry"
           }
         }
       }
@@ -28158,6 +30072,12 @@
             "state" : "translated",
             "value" : "Ép chuyển giai đoạn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vynutit posun fáze"
+          }
         }
       }
     },
@@ -28245,6 +30165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Giai đoạn hiện tại không có gì để ép chuyển."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V aktuální fázi není co vynucovat."
           }
         }
       }
@@ -28334,6 +30260,12 @@
             "state" : "translated",
             "value" : "Quản lý người chơi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Správa hráčů"
+          }
         }
       }
     },
@@ -28421,6 +30353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thông tin riêng tư"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soukromé informace"
           }
         }
       }
@@ -28510,6 +30448,12 @@
             "state" : "translated",
             "value" : "Công bố vai trò và đáp án"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odhalit role a odpovědi"
+          }
         }
       }
     },
@@ -28597,6 +30541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nếu xem, GM sẽ khó chơi công bằng. Chỉ dùng khi ván chơi bị kẹt."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokud se podíváš, bude pro GM těžké hrát férově. Použij to, jen když se hra zasekne."
           }
         }
       }
@@ -28686,6 +30636,12 @@
             "state" : "translated",
             "value" : "Rời khỏi ván chơi?"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opustit hru?"
+          }
         }
       }
     },
@@ -28773,6 +30729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dừng ván và về phòng chờ"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přerušit hru a vrátit se do předsíně"
           }
         }
       }
@@ -28862,6 +30824,12 @@
             "state" : "translated",
             "value" : "Đóng phòng (kết thúc với mọi người)"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zavřít místnost (hra skončí pro všechny)"
+          }
         }
       }
     },
@@ -28949,6 +30917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bảng điều khiển chủ phòng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panel hostitele"
           }
         }
       }
@@ -29038,6 +31012,12 @@
             "state" : "translated",
             "value" : "Nhiệm vụ số %lld"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mise č. %lld"
+          }
         }
       }
     },
@@ -29125,6 +31105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đội trưởng: %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vůdce: %@"
           }
         }
       }
@@ -29214,6 +31200,12 @@
             "state" : "translated",
             "value" : "Kết thúc ván"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Konec hry"
+          }
         }
       }
     },
@@ -29301,6 +31293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xem vai của tôi"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zobrazit moji roli"
           }
         }
       }
@@ -29390,6 +31388,12 @@
             "state" : "translated",
             "value" : "Tiếp"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Další"
+          }
         }
       }
     },
@@ -29477,6 +31481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ở giai đoạn này, mỗi người bí mật xem vai của mình. Xem xong hãy nhấn “Tiếp”, bot cũng sẽ xem xong."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V této fázi si každý tajně prohlédne svou roli. Až si ji prohlédneš a klepneš na „Další“, dokončí to i boti."
           }
         }
       }
@@ -29566,6 +31576,12 @@
             "state" : "translated",
             "value" : "Đội trưởng chọn đội cho nhiệm vụ này. Nhấn “Tiếp” rồi đội trưởng sẽ chọn đội. (Nếu bạn là đội trưởng, hãy tự chọn!)"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vůdce vybírá tým pro tuto misi. Klepni na „Další“ a vůdce tým vybere. (Pokud jsi vůdce, vyber ho sám!)"
+          }
         }
       }
     },
@@ -29653,6 +31669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mọi người bỏ phiếu đồng ý hoặc phản đối đội hình. Hòa phiếu là bị từ chối! Hãy bỏ phiếu trước rồi nhấn “Tiếp” để xem phiếu của bot."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Všichni hlasují pro nebo proti složení týmu. Při shodě hlasů je tým zamítnut! Nejdřív hlasuj a pak klepni na „Další“, abys viděl hlasy botů."
           }
         }
       }
@@ -29742,6 +31764,12 @@
             "state" : "translated",
             "value" : "Đây là kết quả bỏ phiếu. Nếu đội bị từ chối 5 lần liên tiếp, phe Bóng Tối thắng nên không thể cứ phản đối bừa."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toto je výsledek hlasování. Pokud je tým 5× po sobě zamítnut, vyhrávají Stíny, takže nelze jen slepě hlasovat proti."
+          }
         }
       }
     },
@@ -29829,6 +31857,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chỉ thành viên đội ra bài thành công hoặc thất bại. Hội Ánh Trăng chỉ ra được thành công; chỉ Bóng Tối mới có thể lén ra thất bại. Nhấn “Tiếp” để xem đội nộp bài."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kartu úspěchu nebo neúspěchu hrají jen členové týmu. Měsíční řád může zahrát jen úspěch; neúspěch mohou tajně zahrát jen Stíny. Klepni na „Další“ a sleduj odevzdávání karet."
           }
         }
       }
@@ -29918,6 +31952,12 @@
             "state" : "translated",
             "value" : "Nếu số bài thất bại đạt mức yêu cầu thì nhiệm vụ thất bại! Phe nào thắng 3 trận trước thì ván kết thúc."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokud karet neúspěchu dosáhne požadovaného počtu, mise selže! Kdo první získá 3 vítězství, ukončí hru."
+          }
         }
       }
     },
@@ -30005,6 +32045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dù 3 nhiệm vụ thành công vẫn còn cú lật cuối: nếu Sát Thủ chỉ đúng Nhà Tiên Tri, Bóng Tối sẽ lật ngược thế cờ."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I když uspějí 3 mise, zbývá poslední zvrat: pokud Vrah správně určí Věštce, Stíny otočí hru."
           }
         }
       }
@@ -30094,6 +32140,12 @@
             "state" : "translated",
             "value" : "Mất kết nối với chủ phòng. Đang thử kết nối lại tự động…"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spojení s hostitelem se přerušilo. Zkouším se automaticky znovu připojit…"
+          }
         }
       }
     },
@@ -30181,6 +32233,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hết giờ"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čas vypršel"
           }
         }
       }
@@ -30270,6 +32328,12 @@
             "state" : "translated",
             "value" : "Hãy xem ở nơi không ai nhìn thấy"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podívej se tam, kde to nikdo nevidí"
+          }
         }
       }
     },
@@ -30357,6 +32421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Phe %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strana: %@"
           }
         }
       }
@@ -30446,6 +32516,12 @@
             "state" : "translated",
             "value" : "Những người có vẻ là đặc vụ Bóng Tối"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ti, kdo vypadají jako agenti Stínů"
+          }
         }
       }
     },
@@ -30533,6 +32609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đồng đội Bóng Tối của bạn"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tvoji spojenci ze Stínů"
           }
         }
       }
@@ -30622,6 +32704,12 @@
             "state" : "translated",
             "value" : "Mục tiêu: %@"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cíl: %@"
+          }
         }
       }
     },
@@ -30709,6 +32797,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang bảo trì một lát. Sẽ mở lại sớm."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chvíli v údržbě. Brzy znovu otevřeme."
           }
         }
       }
@@ -30798,6 +32892,12 @@
             "state" : "translated",
             "value" : "3 trò chơi tiệc tùng cùng bạn bè ở gần"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 párty hry s kamarády poblíž"
+          }
         }
       }
     },
@@ -30885,6 +32985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Biệt danh"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přezdívka"
           }
         }
       }
@@ -30974,6 +33080,12 @@
             "state" : "translated",
             "value" : "Nhập tên của bạn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zadej své jméno"
+          }
         }
       }
     },
@@ -31061,6 +33173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chọn một trò chơi"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyber hru"
           }
         }
       }
@@ -31150,6 +33268,12 @@
             "state" : "translated",
             "value" : "5–15 người · Tìm Bóng Tối ẩn nấp"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5–15 hráčů · Najdi ukryté Stíny"
+          }
         }
       }
     },
@@ -31237,6 +33361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3–15 người · Tìm người không biết từ khóa"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 hráčů · Najdi toho, kdo nezná slovo"
           }
         }
       }
@@ -31326,6 +33456,12 @@
             "state" : "translated",
             "value" : "3–15 người · Một đêm có Yêu tinh trong làng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 hráčů · Jedna noc se skřetem ve vsi"
+          }
         }
       }
     },
@@ -31413,6 +33549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3–15 người · Một người vẽ, những người còn lại đoán"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 hráčů · Jeden kreslí, ostatní hádají"
           }
         }
       }
@@ -31502,6 +33644,12 @@
             "state" : "translated",
             "value" : "Tìm tất cả phòng gần đây"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Najít všechny místnosti v okolí"
+          }
         }
       }
     },
@@ -31589,6 +33737,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Các iPhone cùng Wi-Fi hoặc ở gần nhau sẽ tự kết nối.\nKhông có Internet vẫn chơi được."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhony ve stejné síti Wi-Fi nebo poblíž se propojí automaticky.\nHrát lze i bez internetu."
           }
         }
       }
@@ -31678,6 +33832,12 @@
             "state" : "translated",
             "value" : "Chơi tiếp"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokračovat"
+          }
         }
       }
     },
@@ -31765,6 +33925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Phòng của %1$@%2$@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Místnost hráče %1$@%2$@"
           }
         }
       }
@@ -31854,6 +34020,12 @@
             "state" : "translated",
             "value" : "Xóa lịch sử “Chơi tiếp”"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat historii „Pokračovat“"
+          }
         }
       }
     },
@@ -31941,6 +34113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trò chơi suy luận thân phận cho 5–15 người: tìm ra Bóng Tối lẫn trong đội. Phe nào hoàn thành (hoặc làm thất bại) 3 nhiệm vụ trước sẽ thắng."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hra o skrytých identitách pro 5–15 hráčů: najdi Stíny ukryté v týmu. Vyhrává strana, která jako první splní (nebo zmaří) 3 mise."
           }
         }
       }
@@ -32030,6 +34208,12 @@
             "state" : "translated",
             "value" : "Trò chơi đánh lừa cho 3–15 người: ai cũng nhận cùng một từ khóa trừ Kẻ Nói Dối. Mô tả bằng vài lời rồi tìm Kẻ Nói Dối. Dù bị bắt, Kẻ Nói Dối thắng nếu đoán đúng từ khóa!"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blafovací hra pro 3–15 hráčů: všichni kromě Lháře dostanou stejné slovo. Stručně ho popište a pak najděte Lháře. Ani chycený Lhář nemusí prohrát — když slovo uhodne, vyhrává!"
+          }
         }
       }
     },
@@ -32117,6 +34301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trò chơi suy luận cho 3–15 người về một đêm có Yêu tinh trong làng. Bài bị đổi trong đêm và chỉ một lần bỏ phiếu quyết định thắng thua."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dedukční hra pro 3–15 hráčů o jedné noci se skřetem ve vsi. Přes noc se karty vyměňují a o výsledku rozhoduje jediné hlasování."
           }
         }
       }
@@ -32206,6 +34396,12 @@
             "state" : "translated",
             "value" : "Trò chơi vẽ tranh cho 3–15 người: mỗi vòng một người vẽ từ khóa, những người còn lại đoán trong chat. Đoán càng nhanh càng được nhiều điểm! Khi mọi người đều đã vẽ, ai điểm cao nhất sẽ thắng."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kreslicí hra pro 3–15 hráčů: v každém kole jeden kreslí slovo a ostatní hádají v chatu. Čím rychleji uhodneš, tím víc bodů! Až nakreslí každý, vyhrává ten s nejvíc body."
+          }
         }
       }
     },
@@ -32293,6 +34489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tạo phòng (chủ phòng)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vytvořit místnost (hostitel)"
           }
         }
       }
@@ -32382,6 +34584,12 @@
             "state" : "translated",
             "value" : "Tham gia ván chơi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Připojit se ke hře"
+          }
         }
       }
     },
@@ -32469,6 +34677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cách chơi (luyện tập với bot)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jak hrát (trénink s boty)"
           }
         }
       }
@@ -32558,6 +34772,12 @@
             "state" : "translated",
             "value" : "Quay lại"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zpět"
+          }
         }
       }
     },
@@ -32645,6 +34865,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tìm phòng của %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hledat místnosti: %@"
           }
         }
       }
@@ -32734,6 +34960,12 @@
             "state" : "translated",
             "value" : "Tìm phòng gần đây"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hledat místnosti v okolí"
+          }
         }
       }
     },
@@ -32821,6 +35053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang kết nối với phòng…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Připojování k místnosti…"
           }
         }
       }
@@ -32910,6 +35148,12 @@
             "state" : "translated",
             "value" : "Đang tìm phòng gần đây…\nHãy kiểm tra chủ phòng đã nhấn “Tạo phòng” chưa."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hledám místnosti v okolí…\nZkontroluj, že hostitel klepl na „Vytvořit místnost“."
+          }
         }
       }
     },
@@ -32997,6 +35241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Phòng của %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Místnost hráče %@"
           }
         }
       }
@@ -33086,6 +35336,12 @@
             "state" : "translated",
             "value" : "Mọi người có cùng từ khóa. Chỉ một người không biết."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Všichni mají stejné slovo. Jen jeden ho nezná."
+          }
         }
       }
     },
@@ -33173,6 +35429,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mất kết nối với chủ phòng. Đang thử kết nối lại…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spojení s hostitelem se přerušilo. Zkouším se znovu připojit…"
           }
         }
       }
@@ -33262,6 +35524,12 @@
             "state" : "translated",
             "value" : "Chủ đề: %@"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kategorie: %@"
+          }
         }
       }
     },
@@ -33349,6 +35617,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mọi người trừ Kẻ Nói Dối đã nhận cùng một từ khóa. Hãy xem từ khóa của bạn rồi nhấn “Tiếp” để bot xem xong."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Všichni kromě Lháře dostali stejné slovo. Prohlédni si své a klepni na „Další“, aby dokončili i boti."
           }
         }
       }
@@ -33438,6 +35712,12 @@
             "state" : "translated",
             "value" : "Đây là giai đoạn lần lượt mô tả từ khóa bằng vài lời. Mỗi lần nhấn “Tiếp”, phần nói của lượt hiện tại kết thúc."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je to fáze, kdy se slovo střídavě stručně popisuje. Každé klepnutí na „Další“ ukončí projev aktuálního hráče."
+          }
         }
       }
     },
@@ -33525,6 +35805,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ai đã mô tả mập mờ? Hãy bỏ phiếu trước cho người bạn nghi là Kẻ Nói Dối rồi nhấn “Tiếp” để xem phiếu của bot."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kdo se v popisu vyhýbal? Nejdřív hlasuj pro toho, koho podezíráš, že je Lhář, a klepni na „Další“, abys viděl hlasy botů."
           }
         }
       }
@@ -33614,6 +35900,12 @@
             "state" : "translated",
             "value" : "Kẻ Nói Dối bị bắt rồi! Nhưng nếu đoán đúng từ khóa thì lật ngược thế cờ — nhấn “Tiếp” để xem lượt đoán của Kẻ Nói Dối."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lhář byl chycen! Pokud ale uhodne slovo, otočí hru — klepni na „Další“ a sleduj jeho tip."
+          }
         }
       }
     },
@@ -33701,6 +35993,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bạn là Kẻ Nói Dối!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ty jsi Lhář!"
           }
         }
       }
@@ -33790,6 +36088,12 @@
             "state" : "translated",
             "value" : "Bạn không biết từ khóa nhưng phải mô tả như thể biết. Đừng để bị phát hiện!"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slovo neznáš, ale musíš ho popisovat, jako bys ho znal. Nenech se přistihnout!"
+          }
         }
       }
     },
@@ -33877,6 +36181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Từ khóa"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slovo"
           }
         }
       }
@@ -33966,6 +36276,12 @@
             "state" : "translated",
             "value" : "Từ khóa đã đến"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slovo dorazilo"
+          }
         }
       }
     },
@@ -34053,6 +36369,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xong rồi! Đang chờ những người chơi khác…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hotovo! Čekám na ostatní hráče…"
           }
         }
       }
@@ -34142,6 +36464,12 @@
             "state" : "translated",
             "value" : "Đã xem"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viděl jsem"
+          }
         }
       }
     },
@@ -34229,6 +36557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hãy xem ở nơi không ai nhìn thấy màn hình"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podívej se tam, kde na obrazovku nikdo nevidí"
           }
         }
       }
@@ -34318,6 +36652,12 @@
             "state" : "translated",
             "value" : "Xem lén"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenápadně nahlédnout"
+          }
         }
       }
     },
@@ -34405,6 +36745,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đã xác nhận: %lld/%lld"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potvrzeno: %lld/%lld"
           }
         }
       }
@@ -34494,6 +36840,12 @@
             "state" : "translated",
             "value" : "Lần lượt mô tả từ khóa bằng vài lời"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Střídavě stručně popisujte slovo"
+          }
         }
       }
     },
@@ -34581,6 +36933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nói quá chi tiết sẽ gợi ý cho Kẻ Nói Dối,\nnói quá mơ hồ thì bạn sẽ bị nghi ngờ!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Když řekneš příliš, pomůžeš Lháři;\nkdyž řekneš příliš málo, budou podezírat tebe!"
           }
         }
       }
@@ -34670,6 +37028,12 @@
             "state" : "translated",
             "value" : "Đang nói"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mluví"
+          }
         }
       }
     },
@@ -34757,6 +37121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đã nói xong"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Domluvil"
           }
         }
       }
@@ -34846,6 +37216,12 @@
             "state" : "translated",
             "value" : "Ai là Kẻ Nói Dối?"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kdo je Lhář?"
+          }
         }
       }
     },
@@ -34933,6 +37309,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hãy bỏ phiếu cho người đáng ngờ nhất · Nếu phiếu bị chia, Kẻ Nói Dối thắng!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hlasuj pro nejpodezřelejšího · Když se hlasy rozdělí, vyhrává Lhář!"
           }
         }
       }
@@ -35022,6 +37404,12 @@
             "state" : "translated",
             "value" : "Đã bỏ phiếu! Đang chờ kiểm phiếu…"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hlas odevzdán! Čekám na sečtení…"
+          }
         }
       }
     },
@@ -35109,6 +37497,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đã bỏ phiếu: %lld/%lld"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odhlasovali: %lld/%lld"
           }
         }
       }
@@ -35198,6 +37592,12 @@
             "state" : "translated",
             "value" : "Chỉ “%@” là Kẻ Nói Dối?"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Označit „%@“ za Lháře?"
+          }
         }
       }
     },
@@ -35285,6 +37685,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xác nhận phiếu"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potvrdit hlas"
           }
         }
       }
@@ -35374,6 +37780,12 @@
             "state" : "translated",
             "value" : "Không thể đổi phiếu đã nộp."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odeslaný hlas nelze změnit."
+          }
         }
       }
     },
@@ -35461,6 +37873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bắt được Kẻ Nói Dối!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lhář chycen!"
           }
         }
       }
@@ -35550,6 +37968,12 @@
             "state" : "translated",
             "value" : "“%@” là Kẻ Nói Dối!\nNhưng nếu đoán đúng từ khóa, Kẻ Nói Dối sẽ lật ngược thế cờ."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "„%@“ byl Lhář!\nPokud ale uhodne slovo, Lhář otočí hru."
+          }
         }
       }
     },
@@ -35637,6 +38061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hãy chọn từ khóa — chỉ có một cơ hội!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyber slovo — máš jen jednu šanci!"
           }
         }
       }
@@ -35726,6 +38156,12 @@
             "state" : "translated",
             "value" : "Kẻ Nói Dối đang đoán từ khóa…"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lhář hádá slovo…"
+          }
         }
       }
     },
@@ -35813,6 +38249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đoán từ khóa là “%@”?"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tipnout si „%@“ jako slovo?"
           }
         }
       }
@@ -35902,6 +38344,12 @@
             "state" : "translated",
             "value" : "Xác nhận từ này"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potvrdit toto slovo"
+          }
         }
       }
     },
@@ -35989,6 +38437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chỉ có một cơ hội!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Máš jen jednu šanci!"
           }
         }
       }
@@ -36078,6 +38532,12 @@
             "state" : "translated",
             "value" : "Kẻ Nói Dối thắng!"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyhrává Lhář!"
+          }
         }
       }
     },
@@ -36165,6 +38625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Phe công dân thắng!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyhrávají občané!"
           }
         }
       }
@@ -36254,6 +38720,12 @@
             "state" : "translated",
             "value" : "Lượt đoán của Kẻ Nói Dối"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tip Lháře"
+          }
         }
       }
     },
@@ -36341,6 +38813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kết quả bỏ phiếu"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Výsledky hlasování"
           }
         }
       }
@@ -36430,6 +38908,12 @@
             "state" : "translated",
             "value" : "Đóng phòng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zavřít místnost"
+          }
         }
       }
     },
@@ -36517,6 +39001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Phòng của tôi"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moje místnost"
           }
         }
       }
@@ -36606,6 +39096,12 @@
             "state" : "translated",
             "value" : "Phòng chờ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Předsíň"
+          }
         }
       }
     },
@@ -36693,6 +39189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Người chơi: %1$lld · cần %2$lld–%3$lld"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hráči: %1$lld · potřeba %2$lld–%3$lld"
           }
         }
       }
@@ -36782,6 +39284,12 @@
             "state" : "translated",
             "value" : "Học cách chơi: bot đang vào phòng.\nKhi đủ người, hãy nhấn “Bắt đầu”."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Učení hry: boti vstupují do místnosti.\nAž bude hráčů dost, klepni na „Začít hru“."
+          }
         }
       }
     },
@@ -36869,6 +39377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bắt đầu"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Začít hru"
           }
         }
       }
@@ -36958,6 +39472,12 @@
             "state" : "translated",
             "value" : "Số người chơi tối thiểu: %lld"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nejmenší počet hráčů: %lld"
+          }
         }
       }
     },
@@ -37045,6 +39565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang chờ chủ phòng bắt đầu ván…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čekám, až hostitel začne hru…"
           }
         }
       }
@@ -37134,6 +39660,12 @@
             "state" : "translated",
             "value" : "Với số người này: Bóng Tối %1$lld · Hội Ánh Trăng %2$lld"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Při tomto počtu hráčů: Stíny %1$lld · Měsíční řád %2$lld"
+          }
         }
       }
     },
@@ -37221,6 +39753,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[Phòng Game Ánh Trăng %@] Liên hệ"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[Měsíční herna %@] Dotaz"
           }
         }
       }
@@ -37310,6 +39848,12 @@
             "state" : "translated",
             "value" : "Hỗ trợ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podpora"
+          }
         }
       }
     },
@@ -37398,6 +39942,12 @@
             "state" : "translated",
             "value" : "Liên hệ qua email"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napsat e-mail"
+          }
         }
       }
     },
@@ -37482,6 +40032,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM (@lee25_ios)"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram DM (@lee25_ios)"
@@ -37574,6 +40130,12 @@
             "state" : "translated",
             "value" : "Liên hệ nhà phát triển"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontaktovat vývojáře"
+          }
         }
       }
     },
@@ -37661,6 +40223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nếu có lỗi cần báo hoặc trò chơi bạn muốn có, cứ thoải mái cho chúng tôi biết."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dej nám klidně vědět o chybě nebo o hře, kterou bys rád viděl."
           }
         }
       }
@@ -37750,6 +40318,12 @@
             "state" : "translated",
             "value" : "Không thể mở ứng dụng Mail"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikaci Mail nelze otevřít"
+          }
         }
       }
     },
@@ -37837,6 +40411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sao chép địa chỉ"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopírovat adresu"
           }
         }
       }
@@ -37926,6 +40506,12 @@
             "state" : "translated",
             "value" : "Đóng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zavřít"
+          }
         }
       }
     },
@@ -38013,6 +40599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vui lòng gửi email đến địa chỉ bên dưới.\n%@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pošli e-mail na níže uvedenou adresu.\n%@"
           }
         }
       }
@@ -38102,6 +40694,12 @@
             "state" : "translated",
             "value" : "Chào mừng đến với Phòng Game Ánh Trăng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vítej v Měsíční herně"
+          }
         }
       }
     },
@@ -38189,6 +40787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bộ sưu tập trò chơi tiệc tùng chơi trên iPhone cùng bạn bè ở chung một nơi.\nKhông cần Internet hay đăng ký."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sbírka párty her na iPhony pro kamarády na jednom místě.\nNepotřebuješ internet ani registraci."
           }
         }
       }
@@ -38278,6 +40882,12 @@
             "state" : "translated",
             "value" : "Một người tạo phòng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeden vytvoří místnost"
+          }
         }
       }
     },
@@ -38365,6 +40975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sau khi mọi người cài ứng dụng, một người chọn trò chơi rồi nhấn “Tạo phòng”.\nNhững người còn lại vào phòng bằng “Tham gia ván chơi” là xong!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Až si všichni nainstalují aplikaci, jeden vybere hru a klepne na „Vytvořit místnost“.\nOstatní se přidají přes „Připojit se ke hře“ — hotovo!"
           }
         }
       }
@@ -38454,6 +41070,12 @@
             "state" : "translated",
             "value" : "Tụ lại gần nhau và cho phép kết nối"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sejděte se blízko a povolte připojení"
+          }
         }
       }
     },
@@ -38541,6 +41163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mọi người tìm thấy nhau trong cùng Wi-Fi hoặc trong tầm Bluetooth.\nNhớ cho phép yêu cầu truy cập “Mạng cục bộ” xuất hiện lần đầu."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Najdete se v jedné síti Wi-Fi nebo v dosahu Bluetooth.\nPři prvním spuštění určitě povol žádost o přístup k „Místní síti“."
           }
         }
       }
@@ -38630,6 +41258,12 @@
             "state" : "translated",
             "value" : "Chưa quen luật? Luyện tập trước"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pravidla neznáš? Nejdřív trénuj"
+          }
         }
       }
     },
@@ -38717,6 +41351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trò nào cũng có “Cách chơi (luyện tập với bot)”.\nBạn có thể chơi một ván một mình với bot để học luật."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Každá hra má „Jak hrát (trénink s boty)“.\nMůžeš si sám zahrát jedno kolo s boty a naučit se pravidla."
           }
         }
       }
@@ -38806,6 +41446,12 @@
             "state" : "translated",
             "value" : "Bỏ qua"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přeskočit"
+          }
         }
       }
     },
@@ -38893,6 +41539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bắt đầu"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Začít"
           }
         }
       }
@@ -38982,6 +41634,12 @@
             "state" : "translated",
             "value" : "Người chơi: %1$lld (%2$lld–%3$lld)"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hráči: %1$lld (%2$lld–%3$lld)"
+          }
         }
       }
     },
@@ -39069,6 +41727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đã chia vai"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Role byly rozdány"
           }
         }
       }
@@ -39158,6 +41822,12 @@
             "state" : "translated",
             "value" : "Tôi đã xem"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viděl jsem"
+          }
         }
       }
     },
@@ -39245,6 +41915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang nhận thông tin vai…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přijímám informace o roli…"
           }
         }
       }
@@ -39334,6 +42010,12 @@
             "state" : "translated",
             "value" : "Đã xem vai: %lld/%lld"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Role viděly: %lld/%lld"
+          }
         }
       }
     },
@@ -39421,6 +42103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hãy đảm bảo không ai gần đó nhìn thấy,\nrồi nhấn nút để xem vai của bạn"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zajisti, aby tě nikdo poblíž neviděl,\na klepnutím na tlačítko si zobraz svou roli"
           }
         }
       }
@@ -39510,6 +42198,12 @@
             "state" : "translated",
             "value" : "Xem vai của tôi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zobrazit moji roli"
+          }
         }
       }
     },
@@ -39597,6 +42291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xong rồi!\nĐang chờ những người chơi khác…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hotovo!\nČekám na ostatní hráče…"
           }
         }
       }
@@ -39686,6 +42386,12 @@
             "state" : "translated",
             "value" : "Bạn là đội trưởng!"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jsi vůdce!"
+          }
         }
       }
     },
@@ -39773,6 +42479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chọn %1$lld người cho nhiệm vụ này (%2$lld/%3$lld)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyber členy pro tuto misi: %1$lld (%2$lld/%3$lld)"
           }
         }
       }
@@ -39862,6 +42574,12 @@
             "state" : "translated",
             "value" : "Chốt đội → mọi người bỏ phiếu"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potvrdit tým → hlasují všichni"
+          }
         }
       }
     },
@@ -39949,6 +42667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đội trưởng %1$@\nđang chọn %2$lld thành viên đội…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vůdce %1$@\nvybírá členy týmu: %2$lld…"
           }
         }
       }
@@ -40038,6 +42762,12 @@
             "state" : "translated",
             "value" : "Hãy thoải mái thảo luận xem nên cử ai đi!"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svobodně diskutujte, koho poslat!"
+          }
         }
       }
     },
@@ -40125,6 +42855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bỏ phiếu cho đội"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hlasování o týmu"
           }
         }
       }
@@ -40214,6 +42950,12 @@
             "state" : "translated",
             "value" : "Đã bỏ phiếu — đang chờ kết quả (%lld/%lld)"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hlas odevzdán — čekám na výsledek (%lld/%lld)"
+          }
         }
       }
     },
@@ -40301,6 +43043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bạn có đồng ý với đội hình này không?\n(Phiếu của mọi người sẽ được công khai · hòa là bị từ chối)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Souhlasíš s tímto složením týmu?\n(Hlasy všech budou odhaleny · při shodě je tým zamítnut)"
           }
         }
       }
@@ -40390,6 +43138,12 @@
             "state" : "translated",
             "value" : "Đồng ý"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro"
+          }
         }
       }
     },
@@ -40477,6 +43231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Phản đối"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proti"
           }
         }
       }
@@ -40566,6 +43326,12 @@
             "state" : "translated",
             "value" : "Bỏ phiếu “đồng ý” cho đội?"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hlasovat „pro“ tým?"
+          }
         }
       }
     },
@@ -40653,6 +43419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bỏ phiếu “phản đối” đội?"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hlasovat „proti“ týmu?"
           }
         }
       }
@@ -40742,6 +43514,12 @@
             "state" : "translated",
             "value" : "Lựa chọn của đội trưởng %@"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volba vůdce %@"
+          }
         }
       }
     },
@@ -40829,6 +43607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Được thông qua! Đội lên đường"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schváleno! Tým vyráží na misi"
           }
         }
       }
@@ -40918,6 +43702,12 @@
             "state" : "translated",
             "value" : "Bị từ chối"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zamítnuto"
+          }
         }
       }
     },
@@ -41005,6 +43795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đội trưởng chuyển cho người tiếp theo · bị từ chối liên tiếp: %lld/%lld"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vedení přechází na dalšího · zamítnutí po sobě: %lld/%lld"
           }
         }
       }
@@ -41094,6 +43890,12 @@
             "state" : "translated",
             "value" : "⚠️ Bị từ chối thêm một lần nữa là phe Bóng Tối thắng!"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⚠️ Další zamítnutí a vyhrávají Stíny!"
+          }
         }
       }
     },
@@ -41181,6 +43983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tiếp tục"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokračovat"
           }
         }
       }
@@ -41270,6 +44078,12 @@
             "state" : "translated",
             "value" : "Đang chờ chủ phòng tiếp tục…"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čekám, až hostitel pokračuje…"
+          }
         }
       }
     },
@@ -41357,6 +44171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đồng ý 👍"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro 👍"
           }
         }
       }
@@ -41446,6 +44266,12 @@
             "state" : "translated",
             "value" : "Phản đối 👎"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proti 👎"
+          }
         }
       }
     },
@@ -41533,6 +44359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nhiệm vụ số %lld đang diễn ra"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Probíhá mise č. %lld"
           }
         }
       }
@@ -41622,6 +44454,12 @@
             "state" : "translated",
             "value" : "Đội: %@"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tým: %@"
+          }
         }
       }
     },
@@ -41709,6 +44547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đội đang thực hiện nhiệm vụ…\n(đã nộp %lld/%lld)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tým plní misi…\n(odevzdáno %lld/%lld)"
           }
         }
       }
@@ -41798,6 +44642,12 @@
             "state" : "translated",
             "value" : "Số bài thất bại để nhiệm vụ này thất bại: %lld"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karet neúspěchu potřebných k selhání mise: %lld"
+          }
         }
       }
     },
@@ -41885,6 +44735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hãy chọn một lá bài (không ai biết ai đã ra gì)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyber kartu (nikdo se nedozví, kdo co zahrál)"
           }
         }
       }
@@ -41974,6 +44830,12 @@
             "state" : "translated",
             "value" : "Bạn là Bóng Tối — bài thất bại có thể phá hỏng nhiệm vụ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jsi Stín — kartou neúspěchu můžeš misi zmařit"
+          }
         }
       }
     },
@@ -42061,6 +44923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nộp bài"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odevzdat kartu"
           }
         }
       }
@@ -42150,6 +45018,12 @@
             "state" : "translated",
             "value" : "Thành công"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Úspěch"
+          }
         }
       }
     },
@@ -42237,6 +45111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thất bại"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neúspěch"
           }
         }
       }
@@ -42326,6 +45206,12 @@
             "state" : "translated",
             "value" : "Thành viên Hội\nchỉ ra được thành công"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Členové řádu\nmohou zahrát jen úspěch"
+          }
         }
       }
     },
@@ -42413,6 +45299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đã nộp bài\nĐang chờ các thành viên khác… (%lld/%lld)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karta odevzdána\nČekám na ostatní členy… (%lld/%lld)"
           }
         }
       }
@@ -42502,6 +45394,12 @@
             "state" : "translated",
             "value" : "Nhiệm vụ thành công!"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mise se zdařila!"
+          }
         }
       }
     },
@@ -42589,6 +45487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nhiệm vụ thất bại…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mise selhala…"
           }
         }
       }
@@ -42678,6 +45582,12 @@
             "state" : "translated",
             "value" : "Bài thành công: %1$lld · bài thất bại: %2$lld"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karty úspěchu: %1$lld · karty neúspěchu: %2$lld"
+          }
         }
       }
     },
@@ -42765,6 +45675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Có bài thất bại nhưng nhiệm vụ này cần %lld nên vẫn trụ được!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Padla karta neúspěchu, ale tato mise jich vyžadovala %lld, takže obstála!"
           }
         }
       }
@@ -42854,6 +45770,12 @@
             "state" : "translated",
             "value" : "Thành công %lld : %lld Thất bại — ai thắng 3 trận trước sẽ thắng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Úspěch %lld : %lld Neúspěch — vyhrává ten, kdo první získá 3"
+          }
         }
       }
     },
@@ -42941,6 +45863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đen"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Černá"
           }
         }
       }
@@ -43030,6 +45958,12 @@
             "state" : "translated",
             "value" : "Đỏ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Červená"
+          }
         }
       }
     },
@@ -43117,6 +46051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cam"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oranžová"
           }
         }
       }
@@ -43206,6 +46146,12 @@
             "state" : "translated",
             "value" : "Vàng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Žlutá"
+          }
         }
       }
     },
@@ -43293,6 +46239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xanh lá"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zelená"
           }
         }
       }
@@ -43382,6 +46334,12 @@
             "state" : "translated",
             "value" : "Xanh dương"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modrá"
+          }
         }
       }
     },
@@ -43469,6 +46427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tím"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fialová"
           }
         }
       }
@@ -43558,6 +46522,12 @@
             "state" : "translated",
             "value" : "Nâu"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hnědá"
+          }
         }
       }
     },
@@ -43645,6 +46615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cục tẩy"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guma"
           }
         }
       }
@@ -43734,6 +46710,12 @@
             "state" : "translated",
             "value" : "Màu %lld"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Barva %lld"
+          }
         }
       }
     },
@@ -43821,6 +46803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cọ nhỏ"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tenký štětec"
           }
         }
       }
@@ -43910,6 +46898,12 @@
             "state" : "translated",
             "value" : "Cọ vừa"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Střední štětec"
+          }
         }
       }
     },
@@ -43997,6 +46991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cọ to"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tlustý štětec"
           }
         }
       }
@@ -44086,6 +47086,12 @@
             "state" : "translated",
             "value" : "Một người vẽ, những người còn lại đoán"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeden kreslí, ostatní hádají"
+          }
         }
       }
     },
@@ -44173,6 +47179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vòng %1$lld / %2$lld"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kolo %1$lld / %2$lld"
           }
         }
       }
@@ -44262,6 +47274,12 @@
             "state" : "translated",
             "value" : "Tôi là Họa sĩ!"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Já jsem Malíř!"
+          }
         }
       }
     },
@@ -44349,6 +47367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Họa sĩ: %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Malíř: %@"
           }
         }
       }
@@ -44438,6 +47462,12 @@
             "state" : "translated",
             "value" : "Vẽ xong rồi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dokreslil jsem"
+          }
         }
       }
     },
@@ -44525,6 +47555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bỏ qua vòng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přeskočit kolo"
           }
         }
       }
@@ -44614,6 +47650,12 @@
             "state" : "translated",
             "value" : "Vòng này bạn là Họa sĩ! Hãy chọn từ dễ vẽ nhất trong 3 từ."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V tomto kole jsi Malíř! Vyber ze 3 slov to, které se nejsnáz kreslí."
+          }
         }
       }
     },
@@ -44701,6 +47743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hãy diễn tả từ khóa bằng tranh. Cấm chữ và số! Vẽ xong hãy nhấn “Tiếp” để xem bot đoán."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyjádři slovo kresbou. Písmena a číslice jsou zakázány! Až skončíš, klepni na „Další“ a sleduj tipy botů."
           }
         }
       }
@@ -44790,6 +47838,12 @@
             "state" : "translated",
             "value" : "Kết quả vòng. Đoán càng nhanh càng được nhiều điểm; Họa sĩ càng được điểm khi càng nhiều người đoán đúng. Nhấn “Tiếp” để xem xếp hạng cuối."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Výsledky kola. Čím rychleji uhodneš, tím víc bodů; Malíř získá víc bodů, čím víc lidí uhodne. Klepni na „Další“ a uvidíš konečné pořadí."
+          }
         }
       }
     },
@@ -44877,6 +47931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chọn một từ"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyber slovo"
           }
         }
       }
@@ -44966,6 +48026,12 @@
             "state" : "translated",
             "value" : "Đừng để người khác thấy! Chọn từ dễ vẽ sẽ có lợi."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ať to nikdo nevidí! Když zvolíš něco, co se dobře kreslí, máš výhodu."
+          }
         }
       }
     },
@@ -45053,6 +48119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ đang chọn từ…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ vybírá slovo…"
           }
         }
       }
@@ -45142,6 +48214,12 @@
             "state" : "translated",
             "value" : "Lát nữa tranh sẽ bắt đầu được vẽ."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Za chvíli začne kreslení."
+          }
         }
       }
     },
@@ -45229,6 +48307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Số chữ: %lld"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Počet písmen: %lld"
           }
         }
       }
@@ -45318,6 +48402,12 @@
             "state" : "translated",
             "value" : "Đoán đúng: %1$lld/%2$lld"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Správně: %1$lld/%2$lld"
+          }
         }
       }
     },
@@ -45405,6 +48495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lượt đoán của mọi người sẽ hiện ở đây."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zde se zobrazí tipy všech."
           }
         }
       }
@@ -45494,6 +48590,12 @@
             "state" : "translated",
             "value" : "Hãy xem tranh và đoán đáp án!"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podívej se na kresbu a uhodni odpověď!"
+          }
         }
       }
     },
@@ -45581,6 +48683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoàn tác một nét"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vrátit jeden tah"
           }
         }
       }
@@ -45670,6 +48778,12 @@
             "state" : "translated",
             "value" : "Xóa toàn bộ tranh"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat celou kresbu"
+          }
         }
       }
     },
@@ -45757,6 +48871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đúng rồi! Đang chờ những người khác…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Správně! Čekám na ostatní…"
           }
         }
       }
@@ -45846,6 +48966,12 @@
             "state" : "translated",
             "value" : "Nhập đáp án…"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zadej odpověď…"
+          }
         }
       }
     },
@@ -45933,6 +49059,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ẩn bàn phím"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skrýt klávesnici"
           }
         }
       }
@@ -46022,6 +49154,12 @@
             "state" : "translated",
             "value" : "Từ khóa là"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slovo bylo"
+          }
         }
       }
     },
@@ -46109,6 +49247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đúng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Správně"
           }
         }
       }
@@ -46198,6 +49342,12 @@
             "state" : "translated",
             "value" : "Xem xếp hạng cuối"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zobrazit konečné pořadí"
+          }
         }
       }
     },
@@ -46285,6 +49435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vòng tiếp theo"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Další kolo"
           }
         }
       }
@@ -46374,6 +49530,12 @@
             "state" : "translated",
             "value" : "Đang chờ chủ phòng tiếp tục…"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čekám, až hostitel pokračuje…"
+          }
         }
       }
     },
@@ -46461,6 +49623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Điểm cao nhất: %lld"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nejvyšší skóre: %lld"
           }
         }
       }
@@ -46550,6 +49718,12 @@
             "state" : "translated",
             "value" : "Điểm: %lld"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Body: %lld"
+          }
         }
       }
     },
@@ -46637,6 +49811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chơi lại với cùng thành viên"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hrát znovu ve stejné sestavě"
           }
         }
       }
@@ -46726,6 +49906,12 @@
             "state" : "translated",
             "value" : "Mất kết nối"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odpojeno"
+          }
         }
       }
     },
@@ -46813,6 +49999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang chờ %@ kết nối lại."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čekám, až se hráč %@ znovu připojí."
           }
         }
       }
@@ -46902,6 +50094,12 @@
             "state" : "translated",
             "value" : "Đưa %@ ra khỏi phòng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odebrat hráče %@"
+          }
         }
       }
     },
@@ -46989,6 +50187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bị từ chối"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zamítnuto"
           }
         }
       }
@@ -47078,6 +50282,12 @@
             "state" : "translated",
             "value" : "Cần 2 bài thất bại"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Potřeba 2 neúspěchů"
+          }
         }
       }
     },
@@ -47165,6 +50375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Một đêm có Yêu tinh trong làng, chỉ một lần bỏ phiếu"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jedna noc se skřetem ve vsi a jediné hlasování"
           }
         }
       }
@@ -47254,6 +50470,12 @@
             "state" : "translated",
             "value" : "🌙 Ban đêm — Hành động bí mật"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🌙 Noc — tajná akce"
+          }
         }
       }
     },
@@ -47341,6 +50563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "☀️ Ban ngày — Thảo luận"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "☀️ Den — diskuse"
           }
         }
       }
@@ -47430,6 +50658,12 @@
             "state" : "translated",
             "value" : "🗳️ Bỏ phiếu trục xuất"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🗳️ Hlasování o vyhnání"
+          }
         }
       }
     },
@@ -47517,6 +50751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kết quả"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Výsledek"
           }
         }
       }
@@ -47606,6 +50846,12 @@
             "state" : "translated",
             "value" : "Ban đêm mỗi người hành động bí mật. Hãy xem vai và hoàn tất hành động, rồi nhấn “Tiếp” để bot thực hiện hành động ban đêm."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V noci jedná každý tajně. Prohlédni si svou roli, dokonči akci a klepni na „Další“, aby boti provedli své noční akce."
+          }
         }
       }
     },
@@ -47693,6 +50939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trong đêm, Kẻ trộm đêm và Kẻ tinh nghịch có thể đã đổi bài! Trong ván thật, đây là lúc thảo luận. Nhấn “Tiếp” để bắt đầu bỏ phiếu."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přes noc mohli Noční zloděj a Šprýmař vyměnit karty! V opravdové hře se tady diskutuje. Klepnutím na „Další“ začne hlasování."
           }
         }
       }
@@ -47782,6 +51034,12 @@
             "state" : "translated",
             "value" : "Hãy chỉ người bạn nghi là Yêu tinh trước, rồi nhấn “Tiếp” để xem phiếu của bot. Người nhiều phiếu nhất sẽ bị trục xuất."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nejdřív označ, koho podezíráš, že je skřet, a klepni na „Další“, abys viděl hlasy botů. Kdo má nejvíc hlasů, bude vyhnán."
+          }
         }
       }
     },
@@ -47869,6 +51127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yêu tinh đồng đội: %@"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Další skřeti: %@"
           }
         }
       }
@@ -47958,6 +51222,12 @@
             "state" : "translated",
             "value" : "Đêm đã xuống"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nastala noc"
+          }
         }
       }
     },
@@ -48045,6 +51315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hãy xem vai ở nơi không ai nhìn thấy màn hình"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prohlédni si svou roli tam, kde na obrazovku nikdo nevidí"
           }
         }
       }
@@ -48134,6 +51410,12 @@
             "state" : "translated",
             "value" : "Đã hành động xong! Đang chờ những người chơi khác… %lld/%lld"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akce hotova! Čekám na ostatní hráče… %lld/%lld"
+          }
         }
       }
     },
@@ -48221,6 +51503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bạn là Yêu tinh duy nhất! Bạn được xem 1 lá bài giữa"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jsi jediný skřet! Můžeš se podívat na 1 prostřední kartu"
           }
         }
       }
@@ -48310,6 +51598,12 @@
             "state" : "translated",
             "value" : "Giữa số %lld"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Střed č. %lld"
+          }
         }
       }
     },
@@ -48397,6 +51691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xem lá bài giữa số %lld"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podívat se na prostřední kartu č. %lld"
           }
         }
       }
@@ -48486,6 +51786,12 @@
             "state" : "translated",
             "value" : "Đã thấy đồng đội"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viděl jsem spojence"
+          }
         }
       }
     },
@@ -48573,6 +51879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xem 1 người chơi"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podívat se na 1 hráče"
           }
         }
       }
@@ -48662,6 +51974,12 @@
             "state" : "translated",
             "value" : "Xem 2 lá bài giữa"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podívat se na 2 prostřední karty"
+          }
         }
       }
     },
@@ -48749,6 +52067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xem bài của “%@”"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podívat se na kartu hráče „%@“"
           }
         }
       }
@@ -48838,6 +52162,12 @@
             "state" : "translated",
             "value" : "Xem 2 lá bài giữa"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podívat se na 2 prostřední karty"
+          }
         }
       }
     },
@@ -48925,6 +52255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chọn người để trộm bài"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyber, komu kartu ukradneš"
           }
         }
       }
@@ -49014,6 +52350,12 @@
             "state" : "translated",
             "value" : "Trộm bài của “%@”"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukrást kartu hráče „%@“"
+          }
         }
       }
     },
@@ -49101,6 +52443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chọn hai người để đổi bài (%lld/2)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyber dva hráče, jejichž karty se vymění (%lld/2)"
           }
         }
       }
@@ -49190,6 +52538,12 @@
             "state" : "translated",
             "value" : "Đổi bài của hai người này"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyměnit karty těchto dvou"
+          }
         }
       }
     },
@@ -49277,6 +52631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trời đã sáng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je ráno"
           }
         }
       }
@@ -49366,6 +52726,12 @@
             "state" : "translated",
             "value" : "Bài có thể đã thay đổi trong đêm!\nHãy tìm ra Yêu tinh (theo lá bài hiện tại) bằng thảo luận."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karty se mohly přes noc změnit!\nNajděte skřeta (podle aktuální karty) diskusí."
+          }
         }
       }
     },
@@ -49453,6 +52819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "(Theo vai của bạn lúc bắt đầu đêm)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(Podle tvé role na začátku noci)"
           }
         }
       }
@@ -49542,6 +52914,12 @@
             "state" : "translated",
             "value" : "Chuyện xảy ra trong đêm (chỉ công khai khi luyện tập)"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co se stalo přes noc (zobrazí se jen při tréninku)"
+          }
         }
       }
     },
@@ -49629,6 +53007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trong ván thật sẽ không có gì được công khai. Vì vậy thảo luận mới quan trọng!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V opravdové hře se nic neodhaluje. Proto je diskuse důležitá!"
           }
         }
       }
@@ -49718,6 +53102,12 @@
             "state" : "translated",
             "value" : "Hết thảo luận! Bắt đầu bỏ phiếu"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diskuse skončila! Zahájit hlasování"
+          }
         }
       }
     },
@@ -49805,6 +53195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang chờ chủ phòng bắt đầu bỏ phiếu…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čekám, až hostitel zahájí hlasování…"
           }
         }
       }
@@ -49894,6 +53290,12 @@
             "state" : "translated",
             "value" : "Hãy chỉ người bạn nghĩ là Yêu tinh"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Označ, o kom si myslíš, že je skřet"
+          }
         }
       }
     },
@@ -49981,6 +53383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Người nhiều phiếu nhất bị trục xuất · hòa thì tất cả người hòa · nếu ai cũng có từ 1 phiếu trở xuống, không ai bị trục xuất"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kdo má nejvíc hlasů, bude vyhnán · při shodě všichni se shodou · pokud mají všichni nejvýš 1 hlas, nikdo vyhnán není"
           }
         }
       }
@@ -50070,6 +53478,12 @@
             "state" : "translated",
             "value" : "Bỏ phiếu trục xuất “%@”?"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hlasovat pro vyhnání hráče „%@“?"
+          }
         }
       }
     },
@@ -50157,6 +53571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dân làng thắng!"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vesnice vyhrává!"
           }
         }
       }
@@ -50246,6 +53666,12 @@
             "state" : "translated",
             "value" : "Phe Yêu tinh thắng!"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skřeti vyhrávají!"
+          }
         }
       }
     },
@@ -50333,6 +53759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Số phiếu: %lld"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hlasy: %lld"
           }
         }
       }
@@ -50423,6 +53855,12 @@
             "state" : "translated",
             "value" : "VoiceOver dễ dùng hơn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pohodlnější VoiceOver"
+          }
         }
       }
     },
@@ -50511,6 +53949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Khi phóng to chữ, màn hình sẽ sắp xếp lại gọn gàng thay vì bị cắt."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Když zvětšíš písmo, obrazovky se přeskládají, místo aby se ořízly."
           }
         }
       }
@@ -50601,6 +54045,12 @@
             "state" : "translated",
             "value" : "Nhắc khi đến lượt bạn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upozornění na tvůj tah"
+          }
         }
       }
     },
@@ -50689,6 +54139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dù tăng độ tương phản hay khó phân biệt màu, bạn vẫn nhận ra các phe và kết quả."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I se zvýšeným kontrastem nebo potížemi s rozlišením barev poznáš strany i výsledky."
           }
         }
       }
@@ -50779,6 +54235,12 @@
             "state" : "translated",
             "value" : "Dùng ứng dụng bằng nhiều ngôn ngữ hơn."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Používej aplikaci ve více jazycích."
+          }
         }
       }
     },
@@ -50867,6 +54329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thêm ngôn ngữ"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Více jazyků"
           }
         }
       }
@@ -50957,6 +54425,12 @@
             "state" : "translated",
             "value" : "Màu sắc và độ tương phản dễ nhìn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Příjemné barvy a kontrast"
+          }
         }
       }
     },
@@ -51045,6 +54519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Phản hồi bạn cảm nhận được ở đầu ngón tay"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odezva, kterou cítíš na prstech"
           }
         }
       }
@@ -51135,6 +54615,12 @@
             "state" : "translated",
             "value" : "Lần đầu mở sau khi cập nhật, bạn sẽ biết có gì mới."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Při prvním otevření po aktualizaci se dozvíš, co je nového."
+          }
         }
       }
     },
@@ -51223,6 +54709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Có gì mới"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novinky"
           }
         }
       }
@@ -51313,6 +54805,12 @@
             "state" : "translated",
             "value" : "Rung nhẹ khi bạn nhận vai hoặc khi bỏ phiếu xong."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jemné zavibrování, když dostaneš roli nebo skončí hlasování."
+          }
         }
       }
     },
@@ -51401,6 +54899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hỗ trợ tiếng Anh"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podpora angličtiny"
           }
         }
       }
@@ -51491,6 +54995,12 @@
             "state" : "translated",
             "value" : "Để chơi cùng bạn bè nước ngoài, ứng dụng cũng dùng được bằng tiếng Anh."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aby si s tebou mohli zahrát i kamarádi z ciziny, půjde aplikaci používat i v angličtině."
+          }
         }
       }
     },
@@ -51579,6 +55089,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Giảm chuyển động"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omezit pohyb"
           }
         }
       }
@@ -51669,6 +55185,12 @@
             "state" : "translated",
             "value" : "Khi bật “Giảm chuyển động”, hiệu ứng trên màn hình sẽ dịu hơn."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se zapnutým „Omezit pohyb“ budou efekty na obrazovce klidnější."
+          }
         }
       }
     },
@@ -51757,6 +55279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Màn hình cho chữ lớn"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obrazovky pro velké písmo"
           }
         }
       }
@@ -51847,6 +55375,12 @@
             "state" : "translated",
             "value" : "Màn hình cho iPhone gập"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obrazovka pro skládací iPhone"
+          }
         }
       }
     },
@@ -51935,6 +55469,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trên iPhone gập, màn hình rộng được chia thành hai phần."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na skládacím iPhonu se široká obrazovka rozdělí na dvě části."
           }
         }
       }
@@ -52025,6 +55565,12 @@
             "state" : "translated",
             "value" : "Widget màn hình chính"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widgety na ploše"
+          }
         }
       }
     },
@@ -52113,6 +55659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mở phòng chơi ngay từ màn hình chính."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herní místnost otevřeš přímo z plochy."
           }
         }
       }
@@ -52203,6 +55755,12 @@
             "state" : "translated",
             "value" : "VoiceOver đọc đầy đủ các thẻ vai và nút bỏ phiếu theo đúng thứ tự."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver přečte karty rolí i tlačítka hlasování úplně a ve správném pořadí."
+          }
         }
       }
     },
@@ -52291,6 +55849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ngay cả khi tắt màn hình, bạn vẫn nhận thông báo khi đến lượt."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I s vypnutou obrazovkou ti upozornění řekne, že jsi na řadě."
           }
         }
       }

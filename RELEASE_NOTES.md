@@ -86,6 +86,12 @@ Mở Cài đặt bằng bánh răng màn chính
 Gửi góp ý cho nhà phát triển ngay
 Đánh giá ứng dụng và xem phiên bản
 
+### 앱스토어 (Čeština)
+
+Nastavení otevřeš ozubeným kolem
+Zpětnou vazbu pošleš vývojáři hned
+Ohodnoť aplikaci a zjisti verzi
+
 ## 1.0.1 (2026-07-17)
 
 ### 새로운 기능

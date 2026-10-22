@@ -9,6 +9,12 @@
             "value" : "달빛 오락실"
           }
         },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Měsíční herna"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -95,6 +101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "주변 친구들의 아이폰과 직접 연결해 보드게임을 함께 플레이하기 위해 로컬 네트워크 접근이 필요합니다."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přístup k místní síti je potřeba, aby se šlo přímo propojit s iPhony kamarádů poblíž a hrát párty hry společně."
           }
         },
         "de" : {
