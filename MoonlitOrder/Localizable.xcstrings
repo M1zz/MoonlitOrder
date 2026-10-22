@@ -74,6 +74,12 @@
             "state" : "translated",
             "value" : "Coelho Lunar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กระต่ายจันทร์"
+          }
         }
       }
     },
@@ -149,6 +155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brisa Noturna"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สายลมราตรี"
           }
         }
       }
@@ -226,6 +238,12 @@
             "state" : "translated",
             "value" : "Via Láctea"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทางช้างเผือก"
+          }
         }
       }
     },
@@ -301,6 +319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lua Minguante"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จันทร์ข้างแรม"
           }
         }
       }
@@ -378,6 +402,12 @@
             "state" : "translated",
             "value" : "Guardião das Estrelas"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผู้เฝ้าดาว"
+          }
         }
       }
     },
@@ -453,6 +483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alvorada"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รุ่งอรุณ"
           }
         }
       }
@@ -530,6 +566,12 @@
             "state" : "translated",
             "value" : "O Assassino saiu da sala. A Ordem Lunar vence."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นักฆ่าออกจากห้องไป ภาคีแสงจันทร์ชนะ"
+          }
         }
       }
     },
@@ -605,6 +647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jogador"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผู้เล่น"
           }
         }
       }
@@ -682,6 +730,12 @@
             "state" : "translated",
             "value" : "A equipe foi rejeitada %lld vezes seguidas. As Sombras vencem."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทีมถูกปฏิเสธติดกัน %lld ครั้ง ฝ่ายเงามืดชนะ"
+          }
         }
       }
     },
@@ -757,6 +811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Três missões falharam. As Sombras vencem."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภารกิจล้มเหลว 3 ครั้ง ฝ่ายเงามืดชนะ"
           }
         }
       }
@@ -834,6 +894,12 @@
             "state" : "translated",
             "value" : "O Assassino identificou corretamente o Vidente, «%@». As Sombras viram o jogo!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นักฆ่าชี้ตัวผู้ทำนาย “%@” ได้ถูกต้อง ฝ่ายเงามืดพลิกชนะ!"
+          }
         }
       }
     },
@@ -909,6 +975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O Assassino errou. «%@» não era o Vidente. A Ordem Lunar vence!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นักฆ่าพลาดเป้า “%@” ไม่ใช่ผู้ทำนาย ภาคีแสงจันทร์ชนะ!"
           }
         }
       }
@@ -986,6 +1058,12 @@
             "state" : "translated",
             "value" : "Considera-se que todos viram seu papel. Seguindo para a escolha da equipe."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถือว่าทุกคนดูบทบาทแล้ว ไปต่อที่การเลือกทีม"
+          }
         }
       }
     },
@@ -1061,6 +1139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O líder que não escolheu a equipe é pulado e a vez passa ao próximo."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้ามหัวหน้าที่ไม่ได้เลือกทีม แล้วส่งต่อให้คนถัดไป"
           }
         }
       }
@@ -1138,6 +1222,12 @@
             "state" : "translated",
             "value" : "Quem não votou conta como a favor. Contando os votos."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คนที่ยังไม่โหวตนับเป็นเห็นด้วย กำลังนับคะแนนโหวต"
+          }
         }
       }
     },
@@ -1213,6 +1303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Os membros da equipe que não jogaram carta contam como sucesso."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สมาชิกทีมที่ไม่ได้ส่งการ์ดนับเป็นสำเร็จ"
           }
         }
       }
@@ -1290,6 +1386,12 @@
             "state" : "translated",
             "value" : "Seguindo para a próxima fase."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไปยังขั้นตอนถัดไป"
+          }
         }
       }
     },
@@ -1365,6 +1467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O Assassino é considerado desistente. A Ordem Lunar vence."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถือว่านักฆ่าสละสิทธิ์ ภาคีแสงจันทร์ชนะ"
           }
         }
       }
@@ -1442,6 +1550,12 @@
             "state" : "translated",
             "value" : "O Assassino não apontou o Vidente. A Ordem Lunar vence."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นักฆ่าไม่ได้ชี้ตัวผู้ทำนาย ภาคีแสงจันทร์ชนะ"
+          }
         }
       }
     },
@@ -1517,6 +1631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O Mentiroso saiu da sala. Os cidadãos vencem!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไลเออร์ออกจากห้องไป ฝ่ายพลเมืองชนะ!"
           }
         }
       }
@@ -1594,6 +1714,12 @@
             "state" : "translated",
             "value" : "Os votos se dividiram e o Mentiroso escapou!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คะแนนโหวตแตกกัน ไลเออร์หนีรอดไปได้!"
+          }
         }
       }
     },
@@ -1669,6 +1795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A pessoa errada foi acusada!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชี้ผิดคนเสียแล้ว!"
           }
         }
       }
@@ -1746,6 +1878,12 @@
             "state" : "translated",
             "value" : "O Mentiroso acertou a palavra! O Mentiroso vira o jogo!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไลเออร์ทายคำถูกต้อง! ไลเออร์พลิกชนะ!"
+          }
         }
       }
     },
@@ -1821,6 +1959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O Mentiroso não acertou a palavra. Os cidadãos vencem!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไลเออร์ทายคำไม่ถูก ฝ่ายพลเมืองชนะ!"
           }
         }
       }
@@ -1898,6 +2042,12 @@
             "state" : "translated",
             "value" : "Mentiroso"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไลเออร์"
+          }
         }
       }
     },
@@ -1973,6 +2123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cidadão"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พลเมือง"
           }
         }
       }
@@ -2050,6 +2206,12 @@
             "state" : "translated",
             "value" : "Palavra: %@ · Categoria: %@"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำ: %@ · หมวด: %@"
+          }
         }
       }
     },
@@ -2125,6 +2287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Considera-se que todos viram a palavra. Seguindo para a fase de descrição."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถือว่าทุกคนดูคำแล้ว ไปต่อที่ขั้นอธิบาย"
           }
         }
       }
@@ -2202,6 +2370,12 @@
             "state" : "translated",
             "value" : "A vez de quem fala termina e passa para o próximo."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จบตาของผู้พูดคนปัจจุบัน แล้วส่งต่อให้คนถัดไป"
+          }
         }
       }
     },
@@ -2277,6 +2451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quem não votou conta como abstenção. Contando os votos."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คนที่ยังไม่โหวตนับเป็นงดออกเสียง กำลังนับคะแนนโหวต"
           }
         }
       }
@@ -2354,6 +2534,12 @@
             "state" : "translated",
             "value" : "O Mentiroso é considerado desistente. Os cidadãos vencem."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถือว่าไลเออร์สละสิทธิ์ทาย ฝ่ายพลเมืองชนะ"
+          }
         }
       }
     },
@@ -2429,6 +2615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O Mentiroso não conseguiu responder. Os cidadãos vencem!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไลเออร์ตอบไม่ได้ ฝ่ายพลเมืองชนะ!"
           }
         }
       }
@@ -2506,6 +2698,12 @@
             "state" : "translated",
             "value" : "Um cachorrinho?"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมาน้อยเหรอ?"
+          }
         }
       }
     },
@@ -2581,6 +2779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hmm… um carro"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อืม… รถยนต์"
           }
         }
       }
@@ -2658,6 +2862,12 @@
             "state" : "translated",
             "value" : "Será um urso?"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หรือจะเป็นหมี?"
+          }
         }
       }
     },
@@ -2733,6 +2943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Não faço ideia kkk"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่รู้เลย 555"
           }
         }
       }
@@ -2810,6 +3026,12 @@
             "state" : "translated",
             "value" : "Uma maçã?"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แอปเปิลเหรอ?"
+          }
         }
       }
     },
@@ -2885,6 +3107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hmm…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อืม…"
           }
         }
       }
@@ -2962,6 +3190,12 @@
             "state" : "translated",
             "value" : "Acertou! 🎉"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตอบถูกแล้ว! 🎉"
+          }
         }
       }
     },
@@ -3037,6 +3271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Artista"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผู้วาด"
           }
         }
       }
@@ -3114,6 +3354,12 @@
             "state" : "translated",
             "value" : "Palavra: %@"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำ: %@"
+          }
         }
       }
     },
@@ -3189,6 +3435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opções de palavra: %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำให้เลือก: %@"
           }
         }
       }
@@ -3266,6 +3518,12 @@
             "state" : "translated",
             "value" : "Uma palavra é escolhida ao acaso no lugar do Artista e o desenho começa."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สุ่มเลือกคำแทนผู้วาดแล้วเริ่มวาด"
+          }
         }
       }
     },
@@ -3341,6 +3599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A rodada termina e os pontos são contabilizados."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จบรอบนี้และสรุปคะแนน"
           }
         }
       }
@@ -3418,6 +3682,12 @@
             "state" : "translated",
             "value" : "Seguindo para a próxima rodada."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไปยังรอบถัดไป"
+          }
         }
       }
     },
@@ -3493,6 +3763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🔥 O Goblin %@ abriu os olhos na escuridão."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔥 ก็อบลิน %@ ลืมตาขึ้นในความมืด"
           }
         }
       }
@@ -3570,6 +3846,12 @@
             "state" : "translated",
             "value" : "👁 O Xamã %@ olhou uma carta em segredo."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "👁 หมอผี %@ แอบดูการ์ด"
+          }
         }
       }
     },
@@ -3645,6 +3927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🤝 O Ladrão noturno %@ roubou a carta de %@ e eles trocaram!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🤝 โจรราตรี %@ ขโมยการ์ดของ %@ แล้วสลับกัน!"
           }
         }
       }
@@ -3722,6 +4010,12 @@
             "state" : "translated",
             "value" : "🔀 O Brincalhão %@ trocou as cartas de %@ e %@!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔀 จอมซน %@ สลับการ์ดของ %@ กับ %@!"
+          }
         }
       }
     },
@@ -3797,6 +4091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A carta central n.º %lld é «%@»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การ์ดกลางใบที่ %lld คือ “%@”"
           }
         }
       }
@@ -3874,6 +4174,12 @@
             "state" : "translated",
             "value" : "A carta de %@ é «%@»."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การ์ดของ %@ คือ “%@”"
+          }
         }
       }
     },
@@ -3949,6 +4255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "As 2 cartas centrais: %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การ์ดกลาง 2 ใบ: %@"
           }
         }
       }
@@ -4026,6 +4338,12 @@
             "state" : "translated",
             "value" : "Você roubou a carta de %@. Agora você é «%@»."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณขโมยการ์ดของ %@ ตอนนี้คุณคือ “%@”"
+          }
         }
       }
     },
@@ -4101,6 +4419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Você trocou as cartas de %@ e %@."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณสลับการ์ดของ %@ กับ %@"
           }
         }
       }
@@ -4178,6 +4502,12 @@
             "state" : "translated",
             "value" : "Um Goblin foi banido. A Vila vence!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ก็อบลินถูกขับไล่ หมู่บ้านชนะ!"
+          }
         }
       }
     },
@@ -4253,6 +4583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Todos os Goblins estavam no centro e ninguém foi banido. A Vila vence!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ก็อบลินอยู่ในการ์ดกลางทั้งหมดและไม่มีใครถูกขับไล่ หมู่บ้านชนะ!"
           }
         }
       }
@@ -4330,6 +4666,12 @@
             "state" : "translated",
             "value" : "Ninguém foi banido, mas havia um Goblin escondido. Os Goblins vencem!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่มีใครถูกขับไล่ แต่มีก็อบลินซ่อนอยู่ ฝ่ายก็อบลินชนะ!"
+          }
         }
       }
     },
@@ -4405,6 +4747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Um inocente foi banido. Os Goblins vencem!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คนบริสุทธิ์ถูกขับไล่ ฝ่ายก็อบลินชนะ!"
           }
         }
       }
@@ -4482,6 +4830,12 @@
             "state" : "translated",
             "value" : "Cartas centrais: %@"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การ์ดกลาง: %@"
+          }
         }
       }
     },
@@ -4557,6 +4911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quem não agiu termina a noite sem usar o poder."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คนที่ไม่ได้ทำอะไรจะจบคืนโดยไม่ใช้พลัง"
           }
         }
       }
@@ -4634,6 +4994,12 @@
             "state" : "translated",
             "value" : "A discussão termina e a votação do banimento começa."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จบการอภิปรายและเริ่มโหวตขับไล่"
+          }
         }
       }
     },
@@ -4709,6 +5075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ordem Lunar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาคีแสงจันทร์"
           }
         }
       }
@@ -4786,6 +5158,12 @@
             "state" : "translated",
             "value" : "Sombras"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เงามืด"
+          }
         }
       }
     },
@@ -4861,6 +5239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vidente"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผู้ทำนาย"
           }
         }
       }
@@ -4938,6 +5322,12 @@
             "state" : "translated",
             "value" : "Membro da Ordem"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สมาชิกภาคี"
+          }
         }
       }
     },
@@ -5013,6 +5403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Assassino"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นักฆ่า"
           }
         }
       }
@@ -5090,6 +5486,12 @@
             "state" : "translated",
             "value" : "Agente das Sombras"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สายลับเงามืด"
+          }
         }
       }
     },
@@ -5165,6 +5567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Você sabe quem são os agentes das Sombras. Mas, se for descoberto, pode ser assassinado no final — então conduza as equipes com discrição."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณรู้ว่าใครคือสายลับเงามืด แต่ถ้าตัวตนถูกเปิดเผย คุณอาจถูกลอบสังหารตอนท้าย จงนำทีมอย่างเงียบ ๆ อย่าให้ใครสังเกต"
           }
         }
       }
@@ -5242,6 +5650,12 @@
             "state" : "translated",
             "value" : "Você é um membro leal da Ordem Lunar. Use a discussão e o histórico de votos para descobrir os agentes das Sombras e fazer 3 missões darem certo."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณคือสมาชิกผู้ภักดีของภาคีแสงจันทร์ ใช้บันทึกการอภิปรายและการโหวตหาสายลับเงามืด แล้วทำภารกิจให้สำเร็จ 3 ครั้ง"
+          }
         }
       }
     },
@@ -5317,6 +5731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Você é a lâmina das Sombras. Conhece os outros agentes e, mesmo que a Ordem cumpra 3 missões, vence se apontar corretamente o Vidente."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณคือคมดาบของเงามืด คุณรู้จักสายลับเงามืดคนอื่น และต่อให้ภาคีทำภารกิจสำเร็จ 3 ครั้ง คุณก็ชนะได้ถ้าชี้ตัวผู้ทำนายถูก"
           }
         }
       }
@@ -5394,6 +5814,12 @@
             "state" : "translated",
             "value" : "Você é um traidor escondido no escuro. Conhece as outras Sombras. Esconda sua identidade, infiltre-se nas equipes e faça as missões falharem."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณคือผู้ทรยศที่ซ่อนอยู่ในความมืด คุณรู้จักพวกเงามืดด้วยกัน ซ่อนตัวตน แทรกเข้าไปในทีม และทำให้ภารกิจล้มเหลว"
+          }
         }
       }
     },
@@ -5469,6 +5895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 missões bem-sucedidas (mas derrota se o Vidente for assassinado)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภารกิจสำเร็จ 3 ครั้ง (แต่ถ้าผู้ทำนายถูกลอบสังหารจะแพ้)"
           }
         }
       }
@@ -5546,6 +5978,12 @@
             "state" : "translated",
             "value" : "3 missões fracassadas · 5 equipes rejeitadas seguidas · assassinato do Vidente"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภารกิจล้มเหลว 3 ครั้ง · ทีมถูกปฏิเสธติดกัน 5 ครั้ง · ลอบสังหารผู้ทำนาย"
+          }
         }
       }
     },
@@ -5621,6 +6059,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Comida"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อาหาร"
           }
         }
       }
@@ -5698,6 +6142,12 @@
             "state" : "translated",
             "value" : "Ensopado de kimchi"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กิมจิจิเก"
+          }
         }
       }
     },
@@ -5773,6 +6223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Barriga de porco grelhada"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมูสามชั้นย่าง"
           }
         }
       }
@@ -5850,6 +6306,12 @@
             "state" : "translated",
             "value" : "Tteokbokki"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ต็อกบกกี"
+          }
         }
       }
     },
@@ -5925,6 +6387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Frango frito"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไก่ทอด"
           }
         }
       }
@@ -6002,6 +6470,12 @@
             "state" : "translated",
             "value" : "Pizza"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พิซซ่า"
+          }
         }
       }
     },
@@ -6077,6 +6551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sushi"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซูชิ"
           }
         }
       }
@@ -6154,6 +6634,12 @@
             "state" : "translated",
             "value" : "Lamen"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ราเมน"
+          }
         }
       }
     },
@@ -6229,6 +6715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bibimbap"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บิบิมบับ"
           }
         }
       }
@@ -6306,6 +6798,12 @@
             "state" : "translated",
             "value" : "Macarrão frio"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เส้นเย็น"
+          }
         }
       }
     },
@@ -6381,6 +6879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sopa de costela"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซุปซี่โครงวัว"
           }
         }
       }
@@ -6458,6 +6962,12 @@
             "state" : "translated",
             "value" : "Massa"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พาสต้า"
+          }
         }
       }
     },
@@ -6533,6 +7043,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hambúrguer"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แฮมเบอร์เกอร์"
           }
         }
       }
@@ -6610,6 +7126,12 @@
             "state" : "translated",
             "value" : "Gimbap"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คิมบับ"
+          }
         }
       }
     },
@@ -6685,6 +7207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chouriço coreano"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซุนแด"
           }
         }
       }
@@ -6762,6 +7290,12 @@
             "state" : "translated",
             "value" : "Pé de porco"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขาหมู"
+          }
         }
       }
     },
@@ -6837,6 +7371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Salada"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สลัด"
           }
         }
       }
@@ -6914,6 +7454,12 @@
             "state" : "translated",
             "value" : "Animais"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สัตว์"
+          }
         }
       }
     },
@@ -6989,6 +7535,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elefante"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ช้าง"
           }
         }
       }
@@ -7066,6 +7618,12 @@
             "state" : "translated",
             "value" : "Girafa"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยีราฟ"
+          }
         }
       }
     },
@@ -7141,6 +7699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pinguim"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพนกวิน"
           }
         }
       }
@@ -7218,6 +7782,12 @@
             "state" : "translated",
             "value" : "Tigre"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสือ"
+          }
         }
       }
     },
@@ -7293,6 +7863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Panda"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แพนด้า"
           }
         }
       }
@@ -7370,6 +7946,12 @@
             "state" : "translated",
             "value" : "Ouriço"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เม่นแคระ"
+          }
         }
       }
     },
@@ -7445,6 +8027,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Canguru"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จิงโจ้"
           }
         }
       }
@@ -7522,6 +8110,12 @@
             "state" : "translated",
             "value" : "Coruja"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นกฮูก"
+          }
         }
       }
     },
@@ -7597,6 +8191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Golfinho"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โลมา"
           }
         }
       }
@@ -7674,6 +8274,12 @@
             "state" : "translated",
             "value" : "Polvo"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมึกยักษ์"
+          }
         }
       }
     },
@@ -7749,6 +8355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Esquilo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กระรอก"
           }
         }
       }
@@ -7826,6 +8438,12 @@
             "state" : "translated",
             "value" : "Crocodilo"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จระเข้"
+          }
         }
       }
     },
@@ -7901,6 +8519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Camelo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อูฐ"
           }
         }
       }
@@ -7978,6 +8602,12 @@
             "state" : "translated",
             "value" : "Lontra"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นากน้ำ"
+          }
         }
       }
     },
@@ -8053,6 +8683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Papagaio"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นกแก้ว"
           }
         }
       }
@@ -8130,6 +8766,12 @@
             "state" : "translated",
             "value" : "Toupeira"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตัวตุ่น"
+          }
         }
       }
     },
@@ -8205,6 +8847,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lugares"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สถานที่"
           }
         }
       }
@@ -8282,6 +8930,12 @@
             "state" : "translated",
             "value" : "Parque de diversões"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สวนสนุก"
+          }
         }
       }
     },
@@ -8357,6 +9011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Biblioteca"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ห้องสมุด"
           }
         }
       }
@@ -8434,6 +9094,12 @@
             "state" : "translated",
             "value" : "Spa coreano"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซาวน่าเกาหลี"
+          }
         }
       }
     },
@@ -8509,6 +9175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cinema"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โรงหนัง"
           }
         }
       }
@@ -8586,6 +9258,12 @@
             "state" : "translated",
             "value" : "Loja de conveniência"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ร้านสะดวกซื้อ"
+          }
         }
       }
     },
@@ -8661,6 +9339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Estação de metrô"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สถานีรถไฟใต้ดิน"
           }
         }
       }
@@ -8738,6 +9422,12 @@
             "state" : "translated",
             "value" : "Salão de beleza"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ร้านทำผม"
+          }
         }
       }
     },
@@ -8813,6 +9503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hospital"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โรงพยาบาล"
           }
         }
       }
@@ -8890,6 +9586,12 @@
             "state" : "translated",
             "value" : "Escola"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โรงเรียน"
+          }
         }
       }
     },
@@ -8965,6 +9667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Camping"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แคมป์ปิ้ง"
           }
         }
       }
@@ -9042,6 +9750,12 @@
             "state" : "translated",
             "value" : "Piscina"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สระว่ายน้ำ"
+          }
         }
       }
     },
@@ -9117,6 +9831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aeroporto"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สนามบิน"
           }
         }
       }
@@ -9194,6 +9914,12 @@
             "state" : "translated",
             "value" : "Mercado"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตลาด"
+          }
         }
       }
     },
@@ -9269,6 +9995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cafeteria"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ร้านกาแฟ"
           }
         }
       }
@@ -9346,6 +10078,12 @@
             "state" : "translated",
             "value" : "Karaokê"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ร้านคาราโอเกะ"
+          }
         }
       }
     },
@@ -9421,6 +10159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Academia"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฟิตเนส"
           }
         }
       }
@@ -9498,6 +10242,12 @@
             "state" : "translated",
             "value" : "Profissões"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อาชีพ"
+          }
         }
       }
     },
@@ -9573,6 +10323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bombeiro"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นักดับเพลิง"
           }
         }
       }
@@ -9650,6 +10406,12 @@
             "state" : "translated",
             "value" : "Médico"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมอ"
+          }
         }
       }
     },
@@ -9725,6 +10487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cozinheiro"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พ่อครัว"
           }
         }
       }
@@ -9802,6 +10570,12 @@
             "state" : "translated",
             "value" : "Programador"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โปรแกรมเมอร์"
+          }
         }
       }
     },
@@ -9877,6 +10651,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Youtuber"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยูทูบเบอร์"
           }
         }
       }
@@ -9954,6 +10734,12 @@
             "state" : "translated",
             "value" : "Professor"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ครู"
+          }
         }
       }
     },
@@ -10029,6 +10815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Policial"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตำรวจ"
           }
         }
       }
@@ -10106,6 +10898,12 @@
             "state" : "translated",
             "value" : "Agricultor"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชาวนา"
+          }
         }
       }
     },
@@ -10181,6 +10979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Piloto"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นักบิน"
           }
         }
       }
@@ -10258,6 +11062,12 @@
             "state" : "translated",
             "value" : "Cabeleireiro"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ช่างทำผม"
+          }
         }
       }
     },
@@ -10333,6 +11143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cantor"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นักร้อง"
           }
         }
       }
@@ -10410,6 +11226,12 @@
             "state" : "translated",
             "value" : "Atleta"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นักกีฬา"
+          }
         }
       }
     },
@@ -10485,6 +11307,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotógrafo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ช่างภาพ"
           }
         }
       }
@@ -10562,6 +11390,12 @@
             "state" : "translated",
             "value" : "Advogado"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทนายความ"
+          }
         }
       }
     },
@@ -10637,6 +11471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pescador"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชาวประมง"
           }
         }
       }
@@ -10714,6 +11554,12 @@
             "state" : "translated",
             "value" : "Barista"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บาริสต้า"
+          }
         }
       }
     },
@@ -10789,6 +11635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Objetos"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ของใช้"
           }
         }
       }
@@ -10866,6 +11718,12 @@
             "state" : "translated",
             "value" : "Guarda-chuva"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ร่ม"
+          }
         }
       }
     },
@@ -10941,6 +11799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ventilador"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พัดลม"
           }
         }
       }
@@ -11018,6 +11882,12 @@
             "state" : "translated",
             "value" : "Geladeira"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตู้เย็น"
+          }
         }
       }
     },
@@ -11093,6 +11963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escova de dentes"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แปรงสีฟัน"
           }
         }
       }
@@ -11170,6 +12046,12 @@
             "state" : "translated",
             "value" : "Travesseiro"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมอน"
+          }
         }
       }
     },
@@ -11245,6 +12127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Controle remoto"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รีโมต"
           }
         }
       }
@@ -11322,6 +12210,12 @@
             "state" : "translated",
             "value" : "Copo térmico"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แก้วเก็บอุณหภูมิ"
+          }
         }
       }
     },
@@ -11397,6 +12291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fones de ouvido"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หูฟัง"
           }
         }
       }
@@ -11474,6 +12374,12 @@
             "state" : "translated",
             "value" : "Tesoura"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กรรไกร"
+          }
         }
       }
     },
@@ -11549,6 +12455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cobertor"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผ้าห่ม"
           }
         }
       }
@@ -11626,6 +12538,12 @@
             "state" : "translated",
             "value" : "Espelho"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กระจก"
+          }
         }
       }
     },
@@ -11701,6 +12619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Relógio"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นาฬิกา"
           }
         }
       }
@@ -11778,6 +12702,12 @@
             "state" : "translated",
             "value" : "Carregador"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ที่ชาร์จ"
+          }
         }
       }
     },
@@ -11853,6 +12783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chinelo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รองเท้าแตะ"
           }
         }
       }
@@ -11930,6 +12866,12 @@
             "state" : "translated",
             "value" : "Máscara"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หน้ากากอนามัย"
+          }
         }
       }
     },
@@ -12005,6 +12947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Carteira"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กระเป๋าสตางค์"
           }
         }
       }
@@ -12082,6 +13030,12 @@
             "state" : "translated",
             "value" : "Esportes"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กีฬา"
+          }
         }
       }
     },
@@ -12157,6 +13111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Futebol"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฟุตบอล"
           }
         }
       }
@@ -12234,6 +13194,12 @@
             "state" : "translated",
             "value" : "Beisebol"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เบสบอล"
+          }
         }
       }
     },
@@ -12309,6 +13275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Basquete"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บาสเกตบอล"
           }
         }
       }
@@ -12386,6 +13358,12 @@
             "state" : "translated",
             "value" : "Badminton"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แบดมินตัน"
+          }
         }
       }
     },
@@ -12461,6 +13439,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Natação"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ว่ายน้ำ"
           }
         }
       }
@@ -12538,6 +13522,12 @@
             "state" : "translated",
             "value" : "Boliche"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โบว์ลิ่ง"
+          }
         }
       }
     },
@@ -12613,6 +13603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taekwondo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เทควันโด"
           }
         }
       }
@@ -12690,6 +13686,12 @@
             "state" : "translated",
             "value" : "Golfe"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กอล์ฟ"
+          }
         }
       }
     },
@@ -12765,6 +13767,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tênis de mesa"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิงปอง"
           }
         }
       }
@@ -12842,6 +13850,12 @@
             "state" : "translated",
             "value" : "Esqui"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สกี"
+          }
         }
       }
     },
@@ -12917,6 +13931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escalada"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปีนผา"
           }
         }
       }
@@ -12994,6 +14014,12 @@
             "state" : "translated",
             "value" : "Ioga"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โยคะ"
+          }
         }
       }
     },
@@ -13069,6 +14095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Boxe"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชกมวย"
           }
         }
       }
@@ -13146,6 +14178,12 @@
             "state" : "translated",
             "value" : "Tiro com arco"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยิงธนู"
+          }
         }
       }
     },
@@ -13221,6 +14259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Esgrima"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฟันดาบ"
           }
         }
       }
@@ -13298,6 +14342,12 @@
             "state" : "translated",
             "value" : "Maratona"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มาราธอน"
+          }
         }
       }
     },
@@ -13373,6 +14423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coelho"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กระต่าย"
           }
         }
       }
@@ -13450,6 +14506,12 @@
             "state" : "translated",
             "value" : "Gato"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แมว"
+          }
         }
       }
     },
@@ -13525,6 +14587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cachorro"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมา"
           }
         }
       }
@@ -13602,6 +14670,12 @@
             "state" : "translated",
             "value" : "Leão"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิงโต"
+          }
         }
       }
     },
@@ -13677,6 +14751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Urso"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมี"
           }
         }
       }
@@ -13754,6 +14834,12 @@
             "state" : "translated",
             "value" : "Caracol"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หอยทาก"
+          }
         }
       }
     },
@@ -13829,6 +14915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cobra"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "งู"
           }
         }
       }
@@ -13906,6 +14998,12 @@
             "state" : "translated",
             "value" : "Tartaruga"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เต่า"
+          }
         }
       }
     },
@@ -13981,6 +15079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Borboleta"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผีเสื้อ"
           }
         }
       }
@@ -14058,6 +15162,12 @@
             "state" : "translated",
             "value" : "Peixe"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปลา"
+          }
         }
       }
     },
@@ -14133,6 +15243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sorvete"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไอศกรีม"
           }
         }
       }
@@ -14210,6 +15326,12 @@
             "state" : "translated",
             "value" : "Bolo"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เค้ก"
+          }
         }
       }
     },
@@ -14285,6 +15407,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Banana"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กล้วย"
           }
         }
       }
@@ -14362,6 +15490,12 @@
             "state" : "translated",
             "value" : "Melancia"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แตงโม"
+          }
         }
       }
     },
@@ -14437,6 +15571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ovo frito"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไข่ดาว"
           }
         }
       }
@@ -14514,6 +15654,12 @@
             "state" : "translated",
             "value" : "Rosquinha"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โดนัท"
+          }
         }
       }
     },
@@ -14589,6 +15735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maçã"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แอปเปิล"
           }
         }
       }
@@ -14666,6 +15818,12 @@
             "state" : "translated",
             "value" : "Cachorro-quente"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฮอตดอก"
+          }
         }
       }
     },
@@ -14741,6 +15899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uva"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "องุ่น"
           }
         }
       }
@@ -14818,6 +15982,12 @@
             "state" : "translated",
             "value" : "Cenoura"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แครอท"
+          }
         }
       }
     },
@@ -14893,6 +16063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coisas"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิ่งของ"
           }
         }
       }
@@ -14970,6 +16146,12 @@
             "state" : "translated",
             "value" : "Óculos"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แว่นตา"
+          }
         }
       }
     },
@@ -15045,6 +16227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bicicleta"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จักรยาน"
           }
         }
       }
@@ -15122,6 +16310,12 @@
             "state" : "translated",
             "value" : "Cadeira"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เก้าอี้"
+          }
         }
       }
     },
@@ -15197,6 +16391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chave"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กุญแจ"
           }
         }
       }
@@ -15274,6 +16474,12 @@
             "state" : "translated",
             "value" : "Lâmpada"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หลอดไฟ"
+          }
         }
       }
     },
@@ -15349,6 +16555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Balão"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลูกโป่ง"
           }
         }
       }
@@ -15426,6 +16638,12 @@
             "state" : "translated",
             "value" : "Vela"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เทียน"
+          }
         }
       }
     },
@@ -15501,6 +16719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Caixa de presente"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กล่องของขวัญ"
           }
         }
       }
@@ -15578,6 +16802,12 @@
             "state" : "translated",
             "value" : "Vassoura"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม้กวาด"
+          }
         }
       }
     },
@@ -15653,6 +16883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Martelo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ค้อน"
           }
         }
       }
@@ -15730,6 +16966,12 @@
             "state" : "translated",
             "value" : "Lápis"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดินสอ"
+          }
         }
       }
     },
@@ -15805,6 +17047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แก้วน้ำ"
           }
         }
       }
@@ -15882,6 +17130,12 @@
             "state" : "translated",
             "value" : "Veículos"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยานพาหนะ"
+          }
         }
       }
     },
@@ -15957,6 +17211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Carro"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รถยนต์"
           }
         }
       }
@@ -16034,6 +17294,12 @@
             "state" : "translated",
             "value" : "Avião"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เครื่องบิน"
+          }
         }
       }
     },
@@ -16109,6 +17375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Navio"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เรือ"
           }
         }
       }
@@ -16186,6 +17458,12 @@
             "state" : "translated",
             "value" : "Trem"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รถไฟ"
+          }
         }
       }
     },
@@ -16261,6 +17539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Foguete"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จรวด"
           }
         }
       }
@@ -16338,6 +17622,12 @@
             "state" : "translated",
             "value" : "Helicóptero"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เฮลิคอปเตอร์"
+          }
         }
       }
     },
@@ -16413,6 +17703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Submarino"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เรือดำน้ำ"
           }
         }
       }
@@ -16490,6 +17786,12 @@
             "state" : "translated",
             "value" : "Balão de ar quente"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บอลลูนลมร้อน"
+          }
         }
       }
     },
@@ -16565,6 +17867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Natureza"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ธรรมชาติ"
           }
         }
       }
@@ -16642,6 +17950,12 @@
             "state" : "translated",
             "value" : "Árvore"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ต้นไม้"
+          }
         }
       }
     },
@@ -16717,6 +18031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flor"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดอกไม้"
           }
         }
       }
@@ -16794,6 +18114,12 @@
             "state" : "translated",
             "value" : "Sol"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดวงอาทิตย์"
+          }
         }
       }
     },
@@ -16869,6 +18195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nuvem"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมฆ"
           }
         }
       }
@@ -16946,6 +18278,12 @@
             "state" : "translated",
             "value" : "Arco-íris"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สายรุ้ง"
+          }
         }
       }
     },
@@ -17021,6 +18359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Montanha"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภูเขา"
           }
         }
       }
@@ -17098,6 +18442,12 @@
             "state" : "translated",
             "value" : "Estrela"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดาว"
+          }
         }
       }
     },
@@ -17173,6 +18523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Boneco de neve"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มนุษย์หิมะ"
           }
         }
       }
@@ -17250,6 +18606,12 @@
             "state" : "translated",
             "value" : "Raio"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฟ้าผ่า"
+          }
         }
       }
     },
@@ -17325,6 +18687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vulcão"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภูเขาไฟ"
           }
         }
       }
@@ -17402,6 +18770,12 @@
             "state" : "translated",
             "value" : "Ilha"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกาะ"
+          }
         }
       }
     },
@@ -17477,6 +18851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lua"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดวงจันทร์"
           }
         }
       }
@@ -17554,6 +18934,12 @@
             "state" : "translated",
             "value" : "Personagens"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตัวละคร"
+          }
         }
       }
     },
@@ -17629,6 +19015,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Robô"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หุ่นยนต์"
           }
         }
       }
@@ -17706,6 +19098,12 @@
             "state" : "translated",
             "value" : "Fantasma"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผี"
+          }
         }
       }
     },
@@ -17781,6 +19179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Coroa"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มงกุฎ"
           }
         }
       }
@@ -17858,6 +19262,12 @@
             "state" : "translated",
             "value" : "Pirata"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โจรสลัด"
+          }
         }
       }
     },
@@ -17933,6 +19343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anjo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นางฟ้า"
           }
         }
       }
@@ -18010,6 +19426,12 @@
             "state" : "translated",
             "value" : "Mago"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พ่อมด"
+          }
         }
       }
     },
@@ -18085,6 +19507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dinossauro"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไดโนเสาร์"
           }
         }
       }
@@ -18162,6 +19590,12 @@
             "state" : "translated",
             "value" : "Alienígena"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เอเลี่ยน"
+          }
         }
       }
     },
@@ -18237,6 +19671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sereia"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นางเงือก"
           }
         }
       }
@@ -18314,6 +19754,12 @@
             "state" : "translated",
             "value" : "Papai Noel"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซานตาคลอส"
+          }
         }
       }
     },
@@ -18389,6 +19835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Goblin"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ก็อบลิน"
           }
         }
       }
@@ -18466,6 +19918,12 @@
             "state" : "translated",
             "value" : "Xamã"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมอผี"
+          }
         }
       }
     },
@@ -18541,6 +19999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ladrão noturno"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โจรราตรี"
           }
         }
       }
@@ -18618,6 +20082,12 @@
             "state" : "translated",
             "value" : "Brincalhão"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จอมซน"
+          }
         }
       }
     },
@@ -18693,6 +20163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aldeão"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชาวบ้าน"
           }
         }
       }
@@ -18770,6 +20246,12 @@
             "state" : "translated",
             "value" : "Você reconhece seus companheiros Goblins. Se for o único Goblin, pode olhar 1 carta central. Quando amanhecer, esconda sua identidade e finja ser humano."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูว่าใครคือก็อบลินพวกเดียวกัน ถ้าคุณเป็นก็อบลินคนเดียว จะดูการ์ดกลางได้ 1 ใบ เมื่อฟ้าสาง ให้ซ่อนตัวตนและทำเป็นคนธรรมดา"
+          }
         }
       }
     },
@@ -18845,6 +20327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Com seu poder sobrenatural, você pode olhar a carta de 1 outro jogador ou 2 cartas centrais."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ด้วยพลังเหนือธรรมชาติ คุณดูการ์ดของผู้เล่นอื่น 1 คน หรือดูการ์ดกลาง 2 ใบได้"
           }
         }
       }
@@ -18922,6 +20410,12 @@
             "state" : "translated",
             "value" : "Troque em segredo sua carta com 1 outro jogador e olhe a nova. A partir daí, seu lado segue a nova carta."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แอบสลับการ์ดกับผู้เล่นอื่น 1 คน แล้วดูการ์ดใบใหม่ จากนั้นฝ่ายของคุณจะเป็นไปตามการ์ดใบใหม่"
+          }
         }
       }
     },
@@ -18997,6 +20491,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A travessura começa! Troque as cartas de outros dois jogadores. Você não verá quais eram."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความซนมาแล้ว! สลับการ์ดของผู้เล่นอื่นสองคน แต่คุณจะไม่เห็นว่าเป็นการ์ดอะไร"
           }
         }
       }
@@ -19074,6 +20574,12 @@
             "state" : "translated",
             "value" : "À noite você não tem nada a fazer. Encontre os Goblins escondidos com o raciocínio e a discussão do dia."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กลางคืนไม่มีอะไรให้ทำ ใช้การวิเคราะห์และการอภิปรายตอนกลางวันหาก็อบลินที่ซ่อนอยู่"
+          }
         }
       }
     },
@@ -19149,6 +20655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Conectando…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังเชื่อมต่อ…"
           }
         }
       }
@@ -19226,6 +20738,12 @@
             "state" : "translated",
             "value" : "Ajustes"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การตั้งค่า"
+          }
         }
       }
     },
@@ -19301,6 +20819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aviso"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แจ้งเตือน"
           }
         }
       }
@@ -19378,6 +20902,12 @@
             "state" : "translated",
             "value" : "OK"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตกลง"
+          }
         }
       }
     },
@@ -19453,6 +20983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%@» está em manutenção. Escolha outro jogo."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” กำลังปิดปรับปรุง โปรดเลือกเกมอื่น"
           }
         }
       }
@@ -19530,6 +21066,12 @@
             "state" : "translated",
             "value" : "Jogo"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกม"
+          }
         }
       }
     },
@@ -19605,6 +21147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jogo do Mentiroso"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกมไลเออร์"
           }
         }
       }
@@ -19682,6 +21230,12 @@
             "state" : "translated",
             "value" : "Noite sem Lua"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คืนไร้จันทร์"
+          }
         }
       }
     },
@@ -19757,6 +21311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ateliê Lunar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สตูดิโอแสงจันทร์"
           }
         }
       }
@@ -19834,6 +21394,12 @@
             "state" : "translated",
             "value" : "Criar sala"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สร้างห้อง"
+          }
         }
       }
     },
@@ -19909,6 +21475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abra uma sala para o jogo escolhido para que seus amigos possam entrar."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดห้องของเกมที่เลือกให้เพื่อน ๆ เข้ามาได้"
           }
         }
       }
@@ -19986,6 +21558,12 @@
             "state" : "translated",
             "value" : "Procurar salas por perto"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ค้นหาห้องใกล้ตัว"
+          }
         }
       }
     },
@@ -20061,6 +21639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Encontre a sala criada por um amigo por perto e entre."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ค้นหาห้องที่เพื่อนใกล้ตัวสร้างไว้แล้วเข้าร่วม"
           }
         }
       }
@@ -20138,6 +21722,12 @@
             "state" : "translated",
             "value" : "Praticar com bots"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฝึกกับบอต"
+          }
         }
       }
     },
@@ -20213,6 +21803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jogue uma partida sozinho com bots para aprender as regras."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เล่นหนึ่งตาคนเดียวกับบอตเพื่อเรียนรู้กติกา"
           }
         }
       }
@@ -20290,6 +21886,12 @@
             "state" : "translated",
             "value" : "A sala está cheia. (Máximo de jogadores: %lld)"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ห้องเต็มแล้ว (จำนวนผู้เล่นสูงสุด: %lld)"
+          }
         }
       }
     },
@@ -20365,6 +21967,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Já há uma partida em andamento nesta sala."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ห้องนี้กำลังเล่นเกมอยู่แล้ว"
           }
         }
       }
@@ -20442,6 +22050,12 @@
             "state" : "translated",
             "value" : "Luna"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลูน่า"
+          }
         }
       }
     },
@@ -20517,6 +22131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Órion"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โอไรออน"
           }
         }
       }
@@ -20594,6 +22214,12 @@
             "state" : "translated",
             "value" : "Nova"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โนวา"
+          }
         }
       }
     },
@@ -20669,6 +22295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sol"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โซล"
           }
         }
       }
@@ -20746,6 +22378,12 @@
             "state" : "translated",
             "value" : "O anfitrião removeu você da sala."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โฮสต์นำคุณออกจากห้อง"
+          }
         }
       }
     },
@@ -20821,6 +22459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O anfitrião fechou a sala."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โฮสต์ปิดห้องแล้ว"
           }
         }
       }
@@ -20898,6 +22542,12 @@
             "state" : "translated",
             "value" : "Não foi possível reconectar ao anfitrião. Você pode entrar de novo por «Continuar» na tela inicial."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เชื่อมต่อกับโฮสต์อีกครั้งไม่ได้ คุณเข้าร่วมใหม่ได้จาก “เล่นต่อ” บนหน้าหลัก"
+          }
         }
       }
     },
@@ -20973,6 +22623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cada jogador é designado em segredo à Ordem Lunar (os bons) ou às Sombras (os maus). Em até 5 missões, você precisa deduzir quem são as Sombras só pelas conversas e pelo histórico de votos."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผู้เล่นทุกคนจะถูกจัดเข้าฝ่ายภาคีแสงจันทร์ (ฝ่ายดี) หรือเงามืด (ฝ่ายร้าย) แบบลับ ๆ ตลอดภารกิจสูงสุด 5 ครั้ง คุณต้องหาว่าใครคือเงามืดจากบทสนทนาและบันทึกการโหวตเท่านั้น"
           }
         }
       }
@@ -21050,6 +22706,12 @@
             "state" : "translated",
             "value" : "Todos recebem a mesma palavra secreta, menos um Mentiroso. Em turnos, descrevam a palavra com poucas palavras e confiram quem realmente a conhece. O Mentiroso precisa blefar sem saber a palavra."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทุกคนได้คำเดียวกัน ยกเว้นไลเออร์หนึ่งคน ผลัดกันอธิบายคำด้วยถ้อยคำสั้น ๆ แล้วดูว่าใครรู้จริง ไลเออร์ต้องเนียนทั้งที่ไม่รู้คำ"
+          }
         }
       }
     },
@@ -21125,6 +22787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Goblins se infiltraram na vila! À noite, cada um usa uma ação secreta para obter informações ou trocar cartas escondido; de dia, todos discutem e uma única votação decide quem será banido. As cartas podem mudar durante a noite, então o resultado é julgado pela «carta final»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ก็อบลินแทรกซึมเข้าหมู่บ้านแล้ว! กลางคืนแต่ละคนใช้การกระทำลับเพื่อหาข้อมูลหรือแอบสลับการ์ด กลางวันอภิปราย แล้วโหวตครั้งเดียวเพื่อตัดสินว่าใครถูกขับไล่ การ์ดอาจเปลี่ยนระหว่างคืน ผลแพ้ชนะจึงดูจาก “การ์ดสุดท้าย”"
           }
         }
       }
@@ -21202,6 +22870,12 @@
             "state" : "translated",
             "value" : "A cada rodada, um jogador vira o «Artista» e expressa a palavra secreta só com um desenho. Os outros olham o desenho e adivinham no chat. Letras e números são proibidos. O jogo termina quando todos tiverem sido o Artista."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทุกรอบ ผู้เล่นหนึ่งคนเป็น “ผู้วาด” และสื่อคำลับด้วยภาพวาดเท่านั้น คนอื่นดูภาพแล้วทายในแชต ห้ามใช้ตัวอักษรหรือตัวเลข เกมจบเมื่อทุกคนได้เป็นผู้วาดครบ"
+          }
         }
       }
     },
@@ -21277,6 +22951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ordem Lunar (os bons)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาคีแสงจันทร์ (ฝ่ายดี)"
           }
         }
       }
@@ -21354,6 +23034,12 @@
             "state" : "translated",
             "value" : "3 missões bem-sucedidas. Mas se, no final, o Assassino apontar corretamente o Vidente, você perde — por isso o Vidente precisa esconder a identidade até o fim."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภารกิจสำเร็จ 3 ครั้ง แต่ถ้าตอนท้ายนักฆ่าชี้ตัวผู้ทำนายถูก คุณจะพลิกแพ้ ผู้ทำนายจึงต้องซ่อนตัวตนจนถึงที่สุด"
+          }
         }
       }
     },
@@ -21429,6 +23115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sombras (os maus)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เงามืด (ฝ่ายร้าย)"
           }
         }
       }
@@ -21506,6 +23198,12 @@
             "state" : "translated",
             "value" : "3 missões fracassadas · 5 equipes rejeitadas seguidas · assassinato do Vidente — qualquer uma das três dá a vitória."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภารกิจล้มเหลว 3 ครั้ง · ทีมถูกปฏิเสธติดกัน 5 ครั้ง · ลอบสังหารผู้ทำนายสำเร็จ — ข้อใดข้อหนึ่งก็ชนะ"
+          }
         }
       }
     },
@@ -21581,6 +23279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Você vence se a votação apontar corretamente o Mentiroso e ele não acertar a palavra."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชนะถ้าการโหวตชี้ตัวไลเออร์ได้ถูกต้อง และไลเออร์ทายคำไม่ถูก"
           }
         }
       }
@@ -21658,6 +23362,12 @@
             "state" : "translated",
             "value" : "Você vence se os votos se dividirem ou a pessoa errada for acusada. Mesmo se pego, o Mentiroso vira o jogo ao acertar a palavra!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชนะถ้าคะแนนโหวตแตกกันหรือชี้ผิดคน ต่อให้ถูกจับได้ ถ้าทายคำถูกก็พลิกชนะ!"
+          }
         }
       }
     },
@@ -21733,6 +23443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vila"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมู่บ้าน"
           }
         }
       }
@@ -21810,6 +23526,12 @@
             "state" : "translated",
             "value" : "Você vence banindo um Goblin (pela carta final). Se todos os Goblins estiverem no centro, você só vence se ninguém for banido."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชนะถ้าขับไล่ก็อบลินได้ (ดูจากการ์ดสุดท้าย) ถ้าก็อบลินอยู่ในการ์ดกลางทั้งหมด จะชนะก็ต่อเมื่อไม่มีใครถูกขับไล่"
+          }
         }
       }
     },
@@ -21885,6 +23607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Você vence se nenhum Goblin for banido — vence até se um inocente for banido."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชนะถ้าไม่มีก็อบลินถูกขับไล่เลย — แม้คนบริสุทธิ์ถูกขับไล่ก็ชนะ"
           }
         }
       }
@@ -21962,6 +23690,12 @@
             "state" : "translated",
             "value" : "Adivinhadores"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผู้ทาย"
+          }
         }
       }
     },
@@ -22037,6 +23771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quanto mais rápido você adivinhar a palavra pelo desenho, mais pontos! Acertando, você ganha pontos."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยิ่งดูภาพแล้วทายคำได้เร็วเท่าไร ยิ่งได้คะแนนสูง! ทายถูกก็ได้คะแนน"
           }
         }
       }
@@ -22114,6 +23854,12 @@
             "state" : "translated",
             "value" : "Você ganha pontos quando muita gente adivinha seu desenho. O segredo é desenhar de um jeito que todos reconheçam!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยิ่งมีคนทายภาพของคุณถูกมากเท่าไร ยิ่งได้คะแนน หัวใจคือวาดให้ใคร ๆ ก็ดูออก!"
+          }
         }
       }
     },
@@ -22189,6 +23935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Como jogar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วิธีเล่น"
           }
         }
       }
@@ -22266,6 +24018,12 @@
             "state" : "translated",
             "value" : "Objetivo do jogo"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เป้าหมายของเกม"
+          }
         }
       }
     },
@@ -22341,6 +24099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Condições de vitória"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เงื่อนไขการชนะ"
           }
         }
       }
@@ -22418,6 +24182,12 @@
             "state" : "translated",
             "value" : "Agora você vai praticar passo a passo junto com os bots.\nEm cada fase aparece uma dica, e você avança com «Próximo»."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ต่อไปคุณจะลองเล่นทีละขั้นกับบอตด้วยตัวเอง\nแต่ละขั้นจะมีคำแนะนำ แล้วกด “ถัดไป” เพื่อไปต่อ"
+          }
         }
       }
     },
@@ -22493,6 +24263,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Começar prática"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่มฝึก"
           }
         }
       }
@@ -22570,6 +24346,12 @@
             "state" : "translated",
             "value" : "Ir para o início"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กลับหน้าหลัก"
+          }
         }
       }
     },
@@ -22645,6 +24427,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hora do assassinato"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถึงเวลาลอบสังหาร"
           }
         }
       }
@@ -22722,6 +24510,12 @@
             "state" : "translated",
             "value" : "A Ordem Lunar cumpriu 3 missões.\nMas se o Assassino encontrar o Vidente, as Sombras viram o jogo!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาคีแสงจันทร์ทำภารกิจสำเร็จ 3 ครั้ง\nแต่ถ้านักฆ่าหาผู้ทำนายเจอ ฝ่ายเงามืดจะพลิกชนะ!"
+          }
         }
       }
     },
@@ -22797,6 +24591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aponte o jogador que você acha que é o Vidente"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกผู้เล่นที่คุณคิดว่าเป็นผู้ทำนาย"
           }
         }
       }
@@ -22874,6 +24674,12 @@
             "state" : "translated",
             "value" : "Assassinar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลงมือลอบสังหาร"
+          }
         }
       }
     },
@@ -22949,6 +24755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O Assassino está escolhendo o último alvo…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นักฆ่ากำลังเลือกเป้าหมายสุดท้าย…"
           }
         }
       }
@@ -23026,6 +24838,12 @@
             "state" : "translated",
             "value" : "%@ vence!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ชนะ!"
+          }
         }
       }
     },
@@ -23101,6 +24919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Papéis revelados"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดเผยบทบาท"
           }
         }
       }
@@ -23178,6 +25002,12 @@
             "state" : "translated",
             "value" : "Eu"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฉัน"
+          }
         }
       }
     },
@@ -23253,6 +25083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jogar de novo com os mesmos jogadores"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เล่นอีกครั้งกับสมาชิกเดิม"
           }
         }
       }
@@ -23330,6 +25166,12 @@
             "state" : "translated",
             "value" : "O anfitrião pode reiniciar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โฮสต์เริ่มใหม่ได้"
+          }
         }
       }
     },
@@ -23405,6 +25247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sair"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ออก"
           }
         }
       }
@@ -23482,6 +25330,12 @@
             "state" : "translated",
             "value" : "Primeira vez? Pratique antes com bots"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่งเริ่มเล่น? ฝึกกับบอตก่อนได้"
+          }
         }
       }
     },
@@ -23557,6 +25411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Você pode jogar uma partida completa sozinho com bots para aprender as regras."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณเล่นจนจบหนึ่งตาคนเดียวกับบอตเพื่อเรียนรู้กติกาได้"
           }
         }
       }
@@ -23634,6 +25494,12 @@
             "state" : "translated",
             "value" : "Forçar o avanço da fase?"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บังคับไปขั้นตอนถัดไปไหม?"
+          }
         }
       }
     },
@@ -23709,6 +25575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Forçar avanço"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บังคับไปต่อ"
           }
         }
       }
@@ -23786,6 +25658,12 @@
             "state" : "translated",
             "value" : "Cancelar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกเลิก"
+          }
         }
       }
     },
@@ -23861,6 +25739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Remover %@?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นำ %@ ออกไหม?"
           }
         }
       }
@@ -23938,6 +25822,12 @@
             "state" : "translated",
             "value" : "Remover"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นำออก"
+          }
         }
       }
     },
@@ -24013,6 +25903,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uma partida em andamento continua com os jogadores restantes."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกมที่กำลังเล่นอยู่จะดำเนินต่อกับผู้เล่นที่เหลือ"
           }
         }
       }
@@ -24090,6 +25986,12 @@
             "state" : "translated",
             "value" : "Modo anfitrião GM"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โหมดโฮสต์ GM"
+          }
         }
       }
     },
@@ -24165,6 +26067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se o jogo travar, você pode mantê-lo andando por aqui."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ้าเกมค้าง คุณทำให้เกมเดินต่อได้จากที่นี่"
           }
         }
       }
@@ -24242,6 +26150,12 @@
             "state" : "translated",
             "value" : "Controle da partida"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ควบคุมเกม"
+          }
         }
       }
     },
@@ -24317,6 +26231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Forçar avanço da fase"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บังคับไปขั้นตอนถัดไป"
           }
         }
       }
@@ -24394,6 +26314,12 @@
             "state" : "translated",
             "value" : "Não há nada para forçar na fase atual."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขั้นตอนนี้ไม่มีอะไรให้บังคับ"
+          }
         }
       }
     },
@@ -24469,6 +26395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gerenciar jogadores"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จัดการผู้เล่น"
           }
         }
       }
@@ -24546,6 +26478,12 @@
             "state" : "translated",
             "value" : "Informações privadas"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อมูลส่วนตัว"
+          }
         }
       }
     },
@@ -24621,6 +26559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Revelar papéis e respostas"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดเผยบทบาทและคำตอบ"
           }
         }
       }
@@ -24698,6 +26642,12 @@
             "state" : "translated",
             "value" : "Se você olhar, ficará difícil para o GM jogar de forma justa. Use só quando o jogo travar."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ้าดู GM จะเล่นอย่างยุติธรรมได้ยาก ใช้เมื่อเกมค้างเท่านั้น"
+          }
         }
       }
     },
@@ -24773,6 +26723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sair da partida?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ออกจากเกมไหม?"
           }
         }
       }
@@ -24850,6 +26806,12 @@
             "state" : "translated",
             "value" : "Interromper a partida e voltar à sala de espera"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หยุดเกมและกลับห้องรอ"
+          }
         }
       }
     },
@@ -24925,6 +26887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fechar a sala (termina para todos)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิดห้อง (จบเกมสำหรับทุกคน)"
           }
         }
       }
@@ -25002,6 +26970,12 @@
             "state" : "translated",
             "value" : "Painel do anfitrião"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แผงโฮสต์"
+          }
         }
       }
     },
@@ -25077,6 +27051,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Missão n.º %lld"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภารกิจที่ %lld"
           }
         }
       }
@@ -25154,6 +27134,12 @@
             "state" : "translated",
             "value" : "Líder: %@"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หัวหน้า: %@"
+          }
         }
       }
     },
@@ -25229,6 +27215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fim de jogo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จบเกม"
           }
         }
       }
@@ -25306,6 +27298,12 @@
             "state" : "translated",
             "value" : "Ver meu papel"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูบทบาทของฉัน"
+          }
         }
       }
     },
@@ -25381,6 +27379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Próximo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถัดไป"
           }
         }
       }
@@ -25458,6 +27462,12 @@
             "state" : "translated",
             "value" : "Nesta fase, cada um vê seu próprio papel em segredo. Depois de ver o seu, toque em «Próximo» e os bots também terminam."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขั้นนี้ทุกคนดูบทบาทของตัวเองแบบลับ ๆ ดูแล้วกด “ถัดไป” บอตก็จะดูเสร็จด้วย"
+          }
         }
       }
     },
@@ -25533,6 +27543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O líder indica a equipe desta missão. Toque em «Próximo» e o líder escolhe a equipe. (Se você for o líder, escolha você mesmo!)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หัวหน้าเลือกทีมที่จะออกปฏิบัติภารกิจนี้ กด “ถัดไป” แล้วหัวหน้าจะเลือกทีม (ถ้าคุณเป็นหัวหน้า เลือกเองเลย!)"
           }
         }
       }
@@ -25610,6 +27626,12 @@
             "state" : "translated",
             "value" : "Todos votam a favor ou contra a formação da equipe. Em caso de empate, é rejeitada! Vote primeiro e toque em «Próximo» para ver os votos dos bots."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทุกคนโหวตเห็นด้วยหรือไม่เห็นด้วยกับทีม ถ้าคะแนนเท่ากันถือว่าไม่ผ่าน! โหวตก่อน แล้วกด “ถัดไป” เพื่อดูคะแนนของบอต"
+          }
         }
       }
     },
@@ -25685,6 +27707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Este é o resultado da votação. Se a equipe for rejeitada 5 vezes seguidas, as Sombras vencem — então não dá para votar sempre contra."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นี่คือผลโหวต ถ้าทีมถูกปฏิเสธติดกัน 5 ครั้ง ฝ่ายเงามืดจะชนะ จึงโหวตคัดค้านอย่างเดียวไม่ได้"
           }
         }
       }
@@ -25762,6 +27790,12 @@
             "state" : "translated",
             "value" : "Só os membros da equipe jogam uma carta de sucesso ou fracasso. A Ordem Lunar só pode jogar sucesso; apenas as Sombras podem jogar fracasso em segredo. Toque em «Próximo» para acompanhar a entrega das cartas."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เฉพาะสมาชิกทีมที่ส่งการ์ดสำเร็จหรือล้มเหลว ภาคีแสงจันทร์ส่งได้แค่สำเร็จ มีแต่เงามืดที่แอบส่งล้มเหลวได้ กด “ถัดไป” เพื่อดูทีมส่งการ์ด"
+          }
         }
       }
     },
@@ -25837,6 +27871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se as cartas de fracasso atingirem o número exigido, a missão falha! Quem fizer 3 vitórias primeiro encerra o jogo."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ้าการ์ดล้มเหลวถึงจำนวนที่กำหนด ภารกิจล้มเหลว! ฝ่ายไหนชนะครบ 3 ก่อน เกมจบ"
           }
         }
       }
@@ -25914,6 +27954,12 @@
             "state" : "translated",
             "value" : "Mesmo com 3 missões cumpridas, ainda há uma virada final: se o Assassino apontar corretamente o Vidente, as Sombras viram o jogo."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แม้ภารกิจสำเร็จ 3 ครั้ง ก็ยังมีจุดพลิกสุดท้าย — ถ้านักฆ่าชี้ตัวผู้ทำนายถูก ฝ่ายเงามืดจะพลิกชนะ"
+          }
         }
       }
     },
@@ -25989,6 +28035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A conexão com o anfitrião caiu. Tentando reconectar automaticamente…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การเชื่อมต่อกับโฮสต์หลุด กำลังลองเชื่อมต่อใหม่อัตโนมัติ…"
           }
         }
       }
@@ -26066,6 +28118,12 @@
             "state" : "translated",
             "value" : "Tempo esgotado"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมดเวลา"
+          }
         }
       }
     },
@@ -26141,6 +28199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Veja onde ninguém mais possa ver"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูในที่ที่ไม่มีใครเห็น"
           }
         }
       }
@@ -26218,6 +28282,12 @@
             "state" : "translated",
             "value" : "Lado: %@"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฝ่าย%@"
+          }
         }
       }
     },
@@ -26293,6 +28363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Os que parecem agentes das Sombras"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คนที่ดูเหมือนสายลับเงามืด"
           }
         }
       }
@@ -26370,6 +28446,12 @@
             "state" : "translated",
             "value" : "Seus companheiros das Sombras"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พวกเงามืดเดียวกับคุณ"
+          }
         }
       }
     },
@@ -26445,6 +28527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Objetivo: %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เป้าหมาย: %@"
           }
         }
       }
@@ -26522,6 +28610,12 @@
             "state" : "translated",
             "value" : "Em manutenção por um momento. Reabre em breve."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังปิดปรับปรุงสักครู่ เดี๋ยวเปิดใหม่"
+          }
         }
       }
     },
@@ -26597,6 +28691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3 jogos de festa para curtir com amigos por perto"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกมปาร์ตี้ 3 เกมสำหรับเพื่อนที่อยู่ใกล้กัน"
           }
         }
       }
@@ -26674,6 +28774,12 @@
             "state" : "translated",
             "value" : "Apelido"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชื่อเล่น"
+          }
         }
       }
     },
@@ -26749,6 +28855,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Digite seu nome"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กรอกชื่อ"
           }
         }
       }
@@ -26826,6 +28938,12 @@
             "state" : "translated",
             "value" : "Escolha um jogo"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกเกม"
+          }
         }
       }
     },
@@ -26901,6 +29019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "5–15 jogadores · Encontre as Sombras escondidas"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5–15 คน · หาเงามืดที่ซ่อนตัว"
           }
         }
       }
@@ -26978,6 +29102,12 @@
             "state" : "translated",
             "value" : "3–15 jogadores · Encontre quem não sabe a palavra"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 คน · หาคนที่ไม่รู้คำ"
+          }
         }
       }
     },
@@ -27053,6 +29183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3–15 jogadores · Uma noite com um Goblin na vila"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 คน · หนึ่งคืนที่มีก็อบลินในหมู่บ้าน"
           }
         }
       }
@@ -27130,6 +29266,12 @@
             "state" : "translated",
             "value" : "3–15 jogadores · Um desenha, os outros adivinham"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3–15 คน · คนหนึ่งวาด คนอื่นทาย"
+          }
         }
       }
     },
@@ -27205,6 +29347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Procurar todas as salas por perto"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ค้นหาทุกห้องใกล้ตัว"
           }
         }
       }
@@ -27282,6 +29430,12 @@
             "state" : "translated",
             "value" : "iPhones na mesma rede Wi-Fi ou por perto se conectam automaticamente.\nDá para jogar sem internet."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhone ที่อยู่ใน Wi-Fi เดียวกันหรืออยู่ใกล้กันจะเชื่อมต่อกันเอง\nเล่นได้แม้ไม่มีอินเทอร์เน็ต"
+          }
         }
       }
     },
@@ -27357,6 +29511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Continuar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เล่นต่อ"
           }
         }
       }
@@ -27434,6 +29594,12 @@
             "state" : "translated",
             "value" : "Sala de %1$@%2$@"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ห้องของ %1$@%2$@"
+          }
         }
       }
     },
@@ -27509,6 +29675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Limpar histórico de «Continuar»"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล้างประวัติ “เล่นต่อ”"
           }
         }
       }
@@ -27586,6 +29758,12 @@
             "state" : "translated",
             "value" : "Um jogo de identidades ocultas para 5–15 jogadores: encontre as Sombras infiltradas na equipe. Vence o lado que primeiro cumprir (ou fizer falhar) 3 missões."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกมสืบหาตัวตนสำหรับ 5–15 คน หาฝ่ายเงามืดที่ซ่อนอยู่ในทีม ฝ่ายที่ทำภารกิจสำเร็จ (หรือล้มเหลว) ครบ 3 ครั้งก่อนเป็นฝ่ายชนะ"
+          }
         }
       }
     },
@@ -27661,6 +29839,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Um jogo de blefe para 3–15 jogadores: todos recebem a mesma palavra, menos o Mentiroso. Descrevam com poucas palavras e depois encontrem o Mentiroso. Mesmo pego, o Mentiroso vence se acertar a palavra!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกมหลอกล่อสำหรับ 3–15 คน ทุกคนได้คำเดียวกันยกเว้นไลเออร์ อธิบายคำสั้น ๆ แล้วหาตัวไลเออร์ แม้ถูกจับได้ ไลเออร์ก็พลิกชนะถ้าทายคำถูก!"
           }
         }
       }
@@ -27738,6 +29922,12 @@
             "state" : "translated",
             "value" : "Um jogo de dedução para 3–15 jogadores sobre uma noite com um Goblin na vila. As cartas são trocadas durante a noite e uma única votação decide o vencedor."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกมสืบสวนสำหรับ 3–15 คน เกี่ยวกับหนึ่งคืนที่มีก็อบลินในหมู่บ้าน การ์ดถูกสลับระหว่างคืน และการโหวตครั้งเดียวตัดสินแพ้ชนะ"
+          }
         }
       }
     },
@@ -27813,6 +30003,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Um jogo de desenho para 3–15 jogadores: a cada rodada um desenha a palavra e os outros adivinham no chat. Quanto mais rápido, mais pontos! Quando todos tiverem desenhado, vence quem tiver mais pontos."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกมวาดภาพสำหรับ 3–15 คน ทุกรอบคนหนึ่งวาดคำ คนอื่นทายในแชต ยิ่งทายเร็วยิ่งได้คะแนนสูง! เมื่อทุกคนวาดครบ คนที่ได้คะแนนสูงสุดชนะ"
           }
         }
       }
@@ -27890,6 +30086,12 @@
             "state" : "translated",
             "value" : "Criar sala (anfitrião)"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สร้างห้อง (โฮสต์)"
+          }
         }
       }
     },
@@ -27965,6 +30167,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Entrar em uma partida"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้าร่วมเกม"
           }
         }
       }
@@ -28042,6 +30250,12 @@
             "state" : "translated",
             "value" : "Como jogar (prática com bots)"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วิธีเล่น (ฝึกกับบอต)"
+          }
         }
       }
     },
@@ -28117,6 +30331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voltar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ย้อนกลับ"
           }
         }
       }
@@ -28194,6 +30414,12 @@
             "state" : "translated",
             "value" : "Procurar salas de %@"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ค้นหาห้อง %@"
+          }
         }
       }
     },
@@ -28269,6 +30495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Procurar salas por perto"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ค้นหาห้องใกล้ตัว"
           }
         }
       }
@@ -28346,6 +30578,12 @@
             "state" : "translated",
             "value" : "Conectando à sala…"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังเชื่อมต่อกับห้อง…"
+          }
         }
       }
     },
@@ -28421,6 +30659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Procurando salas por perto…\nConfira se o anfitrião tocou em «Criar sala»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังค้นหาห้องใกล้ตัว…\nตรวจดูว่าโฮสต์กด “สร้างห้อง” แล้ว"
           }
         }
       }
@@ -28498,6 +30742,12 @@
             "state" : "translated",
             "value" : "Sala de %@"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ห้องของ %@"
+          }
         }
       }
     },
@@ -28573,6 +30823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Todos têm a mesma palavra. Só um não a conhece."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทุกคนได้คำเดียวกัน มีแค่คนเดียวที่ไม่รู้"
           }
         }
       }
@@ -28650,6 +30906,12 @@
             "state" : "translated",
             "value" : "A conexão com o anfitrião caiu. Tentando reconectar…"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การเชื่อมต่อกับโฮสต์หลุด กำลังลองเชื่อมต่อใหม่…"
+          }
         }
       }
     },
@@ -28725,6 +30987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Categoria: %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมวด: %@"
           }
         }
       }
@@ -28802,6 +31070,12 @@
             "state" : "translated",
             "value" : "Todos, menos o Mentiroso, receberam a mesma palavra. Veja a sua e toque em «Próximo» para os bots terminarem."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทุกคนยกเว้นไลเออร์ได้คำเดียวกัน ดูคำของคุณแล้วกด “ถัดไป” เพื่อให้บอตดูเสร็จ"
+          }
         }
       }
     },
@@ -28877,6 +31151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "É a fase em que se descreve a palavra em turnos, com poucas palavras. Cada toque em «Próximo» encerra a fala do turno atual."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขั้นนี้ผลัดกันอธิบายคำด้วยถ้อยคำสั้น ๆ ทุกครั้งที่กด “ถัดไป” การพูดของตาปัจจุบันจะจบ"
           }
         }
       }
@@ -28954,6 +31234,12 @@
             "state" : "translated",
             "value" : "Quem foi vago na descrição? Vote primeiro em quem você suspeita ser o Mentiroso e toque em «Próximo» para ver os votos dos bots."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใครอธิบายอ้อมแอ้ม? โหวตให้คนที่สงสัยว่าเป็นไลเออร์ก่อน แล้วกด “ถัดไป” เพื่อดูคะแนนของบอต"
+          }
         }
       }
     },
@@ -29029,6 +31315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O Mentiroso foi pego! Mas se ele acertar a palavra, vira o jogo — toque em «Próximo» para ver o palpite dele."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จับไลเออร์ได้แล้ว! แต่ถ้าไลเออร์ทายคำถูกก็พลิกชนะ — กด “ถัดไป” เพื่อดูการทายของไลเออร์"
           }
         }
       }
@@ -29106,6 +31398,12 @@
             "state" : "translated",
             "value" : "Você é o Mentiroso!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณคือไลเออร์!"
+          }
         }
       }
     },
@@ -29181,6 +31479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Você não sabe a palavra, mas precisa descrevê-la como se soubesse. Não se deixe pegar!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณไม่รู้คำ แต่ต้องอธิบายเหมือนรู้ อย่าให้ถูกจับได้!"
           }
         }
       }
@@ -29258,6 +31562,12 @@
             "state" : "translated",
             "value" : "Palavra"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำ"
+          }
         }
       }
     },
@@ -29333,6 +31643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A palavra chegou"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ได้รับคำแล้ว"
           }
         }
       }
@@ -29410,6 +31726,12 @@
             "state" : "translated",
             "value" : "Pronto! Aguardando os outros jogadores…"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสร็จแล้ว! รอผู้เล่นคนอื่น…"
+          }
         }
       }
     },
@@ -29485,6 +31807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Já vi"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูแล้ว"
           }
         }
       }
@@ -29562,6 +31890,12 @@
             "state" : "translated",
             "value" : "Veja onde ninguém possa ver a tela"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูในที่ที่ไม่มีใครเห็นหน้าจอ"
+          }
         }
       }
     },
@@ -29637,6 +31971,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dar uma espiada"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แอบดู"
           }
         }
       }
@@ -29714,6 +32054,12 @@
             "state" : "translated",
             "value" : "Confirmados: %lld/%lld"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยืนยันแล้ว: %lld/%lld"
+          }
         }
       }
     },
@@ -29789,6 +32135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Descreva a palavra com poucas palavras, em turnos"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผลัดกันอธิบายคำด้วยถ้อยคำสั้น ๆ"
           }
         }
       }
@@ -29866,6 +32218,12 @@
             "state" : "translated",
             "value" : "Se falar demais, ajuda o Mentiroso;\nse for vago demais, vão suspeitar de você!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พูดละเอียดเกินไปจะเป็นคำใบ้ให้ไลเออร์\nพูดคลุมเครือเกินไปคุณจะถูกสงสัย!"
+          }
         }
       }
     },
@@ -29941,6 +32299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Falando"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังพูด"
           }
         }
       }
@@ -30018,6 +32382,12 @@
             "state" : "translated",
             "value" : "Terminou de falar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พูดเสร็จแล้ว"
+          }
         }
       }
     },
@@ -30093,6 +32463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quem é o Mentiroso?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใครคือไลเออร์?"
           }
         }
       }
@@ -30170,6 +32546,12 @@
             "state" : "translated",
             "value" : "Vote na pessoa mais suspeita · Se os votos se dividirem, o Mentiroso vence!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โหวตให้คนที่น่าสงสัยที่สุด · ถ้าคะแนนแตก ไลเออร์ชนะ!"
+          }
         }
       }
     },
@@ -30245,6 +32627,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voto enviado! Aguardando a contagem…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โหวตแล้ว! รอการนับคะแนน…"
           }
         }
       }
@@ -30322,6 +32710,12 @@
             "state" : "translated",
             "value" : "Votaram: %lld/%lld"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โหวตแล้ว: %lld/%lld"
+          }
         }
       }
     },
@@ -30397,6 +32791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Acusar «%@» de ser o Mentiroso?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชี้ “%@” ว่าเป็นไลเออร์ไหม?"
           }
         }
       }
@@ -30474,6 +32874,12 @@
             "state" : "translated",
             "value" : "Confirmar voto"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยืนยันการโหวต"
+          }
         }
       }
     },
@@ -30549,6 +32955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Um voto enviado não pode ser alterado."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โหวตที่ส่งแล้วเปลี่ยนไม่ได้"
           }
         }
       }
@@ -30626,6 +33038,12 @@
             "state" : "translated",
             "value" : "Mentiroso pego!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จับไลเออร์ได้!"
+          }
         }
       }
     },
@@ -30701,6 +33119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "«%@» era o Mentiroso!\nMas se ele acertar a palavra, o Mentiroso vira o jogo."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” คือไลเออร์!\nแต่ถ้าทายคำถูก ไลเออร์จะพลิกชนะ"
           }
         }
       }
@@ -30778,6 +33202,12 @@
             "state" : "translated",
             "value" : "Escolha a palavra — só há uma chance!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกคำเลย — มีโอกาสแค่ครั้งเดียว!"
+          }
         }
       }
     },
@@ -30853,6 +33283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O Mentiroso está tentando adivinhar a palavra…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไลเออร์กำลังทายคำ…"
           }
         }
       }
@@ -30930,6 +33366,12 @@
             "state" : "translated",
             "value" : "Palpitar «%@» como a palavra?"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทายว่าคำคือ “%@” ไหม?"
+          }
         }
       }
     },
@@ -31005,6 +33447,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Confirmar esta palavra"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยืนยันคำนี้"
           }
         }
       }
@@ -31082,6 +33530,12 @@
             "state" : "translated",
             "value" : "Só há uma chance!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มีโอกาสแค่ครั้งเดียว!"
+          }
         }
       }
     },
@@ -31157,6 +33611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O Mentiroso vence!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไลเออร์ชนะ!"
           }
         }
       }
@@ -31234,6 +33694,12 @@
             "state" : "translated",
             "value" : "Os cidadãos vencem!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฝ่ายพลเมืองชนะ!"
+          }
         }
       }
     },
@@ -31309,6 +33775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O palpite do Mentiroso"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำทายของไลเออร์"
           }
         }
       }
@@ -31386,6 +33858,12 @@
             "state" : "translated",
             "value" : "Resultado da votação"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผลโหวต"
+          }
         }
       }
     },
@@ -31461,6 +33939,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fechar sala"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิดห้อง"
           }
         }
       }
@@ -31538,6 +34022,12 @@
             "state" : "translated",
             "value" : "Minha sala"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ห้องของฉัน"
+          }
         }
       }
     },
@@ -31613,6 +34103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sala de espera"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ห้องรอ"
           }
         }
       }
@@ -31690,6 +34186,12 @@
             "state" : "translated",
             "value" : "Jogadores: %1$lld · precisa de %2$lld–%3$lld"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผู้เล่น: %1$lld · ต้องมี %2$lld–%3$lld"
+          }
         }
       }
     },
@@ -31765,6 +34267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aprender a jogar: os bots estão entrando.\nQuando houver jogadores suficientes, toque em «Iniciar partida»."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เรียนรู้วิธีเล่น: บอตกำลังเข้าห้อง\nเมื่อคนครบ กด “เริ่มเกม”"
           }
         }
       }
@@ -31842,6 +34350,12 @@
             "state" : "translated",
             "value" : "Iniciar partida"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่มเกม"
+          }
         }
       }
     },
@@ -31917,6 +34431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mínimo de jogadores: %lld"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จำนวนผู้เล่นขั้นต่ำ: %lld"
           }
         }
       }
@@ -31994,6 +34514,12 @@
             "state" : "translated",
             "value" : "Aguardando o anfitrião iniciar a partida…"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รอโฮสต์เริ่มเกม…"
+          }
         }
       }
     },
@@ -32069,6 +34595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Com esse número de jogadores: Sombras %1$lld · Ordem Lunar %2$lld"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ้ามีผู้เล่นเท่านี้: เงามืด %1$lld · ภาคีแสงจันทร์ %2$lld"
           }
         }
       }
@@ -32146,6 +34678,12 @@
             "state" : "translated",
             "value" : "[Fliperama Lunar %@] Contato"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[ห้องเกมแสงจันทร์ %@] สอบถาม"
+          }
         }
       }
     },
@@ -32221,6 +34759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suporte"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ช่วยเหลือ"
           }
         }
       }
@@ -32298,6 +34842,12 @@
             "state" : "translated",
             "value" : "Entrar em contato por e-mail"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สอบถามทางอีเมล"
+          }
         }
       }
     },
@@ -32373,6 +34923,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "DM no Instagram (@lee25_ios)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM (@lee25_ios)"
           }
         }
       }
@@ -32450,6 +35006,12 @@
             "state" : "translated",
             "value" : "Falar com o desenvolvedor"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ติดต่อนักพัฒนา"
+          }
         }
       }
     },
@@ -32525,6 +35087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se tiver um bug para relatar ou um jogo que gostaria de ver, é só avisar."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ้าพบบั๊กหรืออยากให้มีเกมไหน บอกเราได้เลย"
           }
         }
       }
@@ -32602,6 +35170,12 @@
             "state" : "translated",
             "value" : "Não é possível abrir o app Mail"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดแอปเมลไม่ได้"
+          }
         }
       }
     },
@@ -32677,6 +35251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copiar endereço"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คัดลอกที่อยู่"
           }
         }
       }
@@ -32754,6 +35334,12 @@
             "state" : "translated",
             "value" : "Fechar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิด"
+          }
         }
       }
     },
@@ -32829,6 +35415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Envie um e-mail para o endereço abaixo.\n%@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โปรดส่งอีเมลไปที่ที่อยู่ด้านล่าง\n%@"
           }
         }
       }
@@ -32906,6 +35498,12 @@
             "state" : "translated",
             "value" : "Boas-vindas ao Fliperama Lunar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยินดีต้อนรับสู่ห้องเกมแสงจันทร์"
+          }
         }
       }
     },
@@ -32981,6 +35579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uma coleção de jogos de festa para jogar no iPhone com amigos reunidos no mesmo lugar.\nNão precisa de internet nem de cadastro."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รวมเกมปาร์ตี้ที่เล่นบน iPhone กับเพื่อนที่อยู่ที่เดียวกัน\nไม่ต้องใช้อินเทอร์เน็ต ไม่ต้องสมัครสมาชิก"
           }
         }
       }
@@ -33058,6 +35662,12 @@
             "state" : "translated",
             "value" : "Uma pessoa cria a sala"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คนหนึ่งสร้างห้อง"
+          }
         }
       }
     },
@@ -33133,6 +35743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Depois que todos instalarem o app, uma pessoa escolhe um jogo e toca em «Criar sala».\nOs outros entram em «Entrar em uma partida» e pronto!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อทุกคนติดตั้งแอปแล้ว ให้คนหนึ่งเลือกเกมแล้วกด “สร้างห้อง”\nคนอื่นกด “เข้าร่วมเกม” เพื่อเข้าห้องนั้น แค่นี้เอง!"
           }
         }
       }
@@ -33210,6 +35826,12 @@
             "state" : "translated",
             "value" : "Fiquem por perto e permitam a conexão"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มารวมกันใกล้ ๆ แล้วอนุญาตการเชื่อมต่อ"
+          }
         }
       }
     },
@@ -33285,6 +35907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vocês se encontram na mesma rede Wi-Fi ou ao alcance do Bluetooth.\nPermita sem falta o pedido de acesso à «Rede local» que aparece no início."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พวกคุณหากันเจอใน Wi-Fi เดียวกันหรือในระยะบลูทูธ\nโปรดอนุญาตคำขอเข้าถึง “เครือข่ายในพื้นที่” ที่ปรากฏตอนแรก"
           }
         }
       }
@@ -33362,6 +35990,12 @@
             "state" : "translated",
             "value" : "Regras desconhecidas? Pratique primeiro"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่คุ้นกติกา? ฝึกก่อน"
+          }
         }
       }
     },
@@ -33437,6 +36071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cada jogo tem «Como jogar (prática com bots)».\nVocê pode jogar uma partida sozinho com bots para aprender as regras."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทุกเกมมี “วิธีเล่น (ฝึกกับบอต)”\nเล่นหนึ่งตาคนเดียวกับบอตเพื่อเรียนรู้กติกาได้"
           }
         }
       }
@@ -33514,6 +36154,12 @@
             "state" : "translated",
             "value" : "Pular"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้าม"
+          }
         }
       }
     },
@@ -33589,6 +36235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Começar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่มเลย"
           }
         }
       }
@@ -33666,6 +36318,12 @@
             "state" : "translated",
             "value" : "Jogadores: %1$lld (%2$lld–%3$lld)"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผู้เล่น: %1$lld (%2$lld–%3$lld)"
+          }
         }
       }
     },
@@ -33741,6 +36399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Os papéis foram atribuídos"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แจกบทบาทแล้ว"
           }
         }
       }
@@ -33818,6 +36482,12 @@
             "state" : "translated",
             "value" : "Já vi"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูแล้ว"
+          }
         }
       }
     },
@@ -33893,6 +36563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recebendo informações do papel…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังรับข้อมูลบทบาท…"
           }
         }
       }
@@ -33970,6 +36646,12 @@
             "state" : "translated",
             "value" : "Papéis vistos: %lld/%lld"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูบทบาทแล้ว: %lld/%lld"
+          }
         }
       }
     },
@@ -34045,6 +36727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Garanta que ninguém por perto possa ver,\ne toque no botão para ver seu papel"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตรวจดูให้แน่ใจว่าไม่มีใครรอบตัวเห็น\nแล้วกดปุ่มเพื่อดูบทบาทของคุณ"
           }
         }
       }
@@ -34122,6 +36810,12 @@
             "state" : "translated",
             "value" : "Ver meu papel"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูบทบาทของฉัน"
+          }
         }
       }
     },
@@ -34197,6 +36891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pronto!\nAguardando os outros jogadores…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสร็จแล้ว!\nรอผู้เล่นคนอื่น…"
           }
         }
       }
@@ -34274,6 +36974,12 @@
             "state" : "translated",
             "value" : "Você é o líder!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณคือหัวหน้า!"
+          }
         }
       }
     },
@@ -34349,6 +37055,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escolha %1$lld para esta missão (%2$lld/%3$lld)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือก %1$lld คนสำหรับภารกิจนี้ (%2$lld/%3$lld)"
           }
         }
       }
@@ -34426,6 +37138,12 @@
             "state" : "translated",
             "value" : "Confirmar equipe → todos votam"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยืนยันทีม → ทุกคนโหวต"
+          }
         }
       }
     },
@@ -34501,6 +37219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O líder %1$@\nestá escolhendo %2$lld membros da equipe…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หัวหน้า %1$@\nกำลังเลือกสมาชิกทีม %2$lld คน…"
           }
         }
       }
@@ -34578,6 +37302,12 @@
             "state" : "translated",
             "value" : "Discutam livremente quem enviar!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อภิปรายกันได้เต็มที่ว่าจะส่งใครไป!"
+          }
         }
       }
     },
@@ -34653,6 +37383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Votação da equipe"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โหวตทีม"
           }
         }
       }
@@ -34730,6 +37466,12 @@
             "state" : "translated",
             "value" : "Voto enviado — aguardando o resultado (%lld/%lld)"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โหวตแล้ว — รอผล (%lld/%lld)"
+          }
         }
       }
     },
@@ -34805,6 +37547,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Você aprova esta formação de equipe?\n(Os votos de todos serão revelados · empate = rejeitada)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณเห็นด้วยกับทีมนี้ไหม?\n(คะแนนโหวตของทุกคนจะเปิดเผย · ถ้าเท่ากันถือว่าไม่ผ่าน)"
           }
         }
       }
@@ -34882,6 +37630,12 @@
             "state" : "translated",
             "value" : "A favor"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เห็นด้วย"
+          }
         }
       }
     },
@@ -34957,6 +37711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contra"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่เห็นด้วย"
           }
         }
       }
@@ -35034,6 +37794,12 @@
             "state" : "translated",
             "value" : "Votar «a favor» da equipe?"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โหวต “เห็นด้วย” กับทีมไหม?"
+          }
         }
       }
     },
@@ -35109,6 +37875,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Votar «contra» a equipe?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โหวต “ไม่เห็นด้วย” กับทีมไหม?"
           }
         }
       }
@@ -35186,6 +37958,12 @@
             "state" : "translated",
             "value" : "Escolha do líder %@"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตัวเลือกของหัวหน้า %@"
+          }
         }
       }
     },
@@ -35261,6 +38039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aprovada! A equipe parte em missão"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผ่าน! ทีมออกเดินทางปฏิบัติภารกิจ"
           }
         }
       }
@@ -35338,6 +38122,12 @@
             "state" : "translated",
             "value" : "Rejeitada"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่ผ่าน"
+          }
         }
       }
     },
@@ -35413,6 +38203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A liderança passa ao próximo · rejeições seguidas: %lld/%lld"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หัวหน้าส่งต่อให้คนถัดไป · ไม่ผ่านติดกัน %lld/%lld"
           }
         }
       }
@@ -35490,6 +38286,12 @@
             "state" : "translated",
             "value" : "⚠️ Mais uma rejeição e as Sombras vencem!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⚠️ ถ้าไม่ผ่านอีกครั้ง ฝ่ายเงามืดจะชนะ!"
+          }
         }
       }
     },
@@ -35565,6 +38367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Continuar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไปต่อ"
           }
         }
       }
@@ -35642,6 +38450,12 @@
             "state" : "translated",
             "value" : "Aguardando o anfitrião continuar…"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รอโฮสต์ไปต่อ…"
+          }
         }
       }
     },
@@ -35717,6 +38531,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A favor 👍"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เห็นด้วย 👍"
           }
         }
       }
@@ -35794,6 +38614,12 @@
             "state" : "translated",
             "value" : "Contra 👎"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่เห็นด้วย 👎"
+          }
         }
       }
     },
@@ -35869,6 +38695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Missão n.º %lld em andamento"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภารกิจที่ %lld กำลังดำเนินอยู่"
           }
         }
       }
@@ -35946,6 +38778,12 @@
             "state" : "translated",
             "value" : "Equipe: %@"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทีม: %@"
+          }
         }
       }
     },
@@ -36021,6 +38859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A equipe está cumprindo a missão…\n(%lld/%lld enviadas)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทีมกำลังปฏิบัติภารกิจ…\n(ส่งแล้ว %lld/%lld)"
           }
         }
       }
@@ -36098,6 +38942,12 @@
             "state" : "translated",
             "value" : "Cartas de fracasso necessárias para a missão falhar: %lld"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จำนวนการ์ดล้มเหลวที่ทำให้ภารกิจนี้ล้มเหลว: %lld"
+          }
         }
       }
     },
@@ -36173,6 +39023,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escolha uma carta (ninguém saberá quem jogou o quê)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกการ์ด (ไม่มีใครรู้ว่าใครส่งอะไร)"
           }
         }
       }
@@ -36250,6 +39106,12 @@
             "state" : "translated",
             "value" : "Você é uma Sombra — uma carta de fracasso pode sabotar a missão"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณคือเงามืด — การ์ดล้มเหลวทำให้ภารกิจพังได้"
+          }
         }
       }
     },
@@ -36325,6 +39187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enviar carta"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ส่งการ์ด"
           }
         }
       }
@@ -36402,6 +39270,12 @@
             "state" : "translated",
             "value" : "Sucesso"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สำเร็จ"
+          }
         }
       }
     },
@@ -36477,6 +39351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fracasso"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล้มเหลว"
           }
         }
       }
@@ -36554,6 +39434,12 @@
             "state" : "translated",
             "value" : "Membros da Ordem\nsó podem jogar sucesso"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สมาชิกภาคี\nส่งได้แค่สำเร็จ"
+          }
         }
       }
     },
@@ -36629,6 +39515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Carta enviada\nAguardando os outros membros… (%lld/%lld)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ส่งการ์ดแล้ว\nรอสมาชิกคนอื่น… (%lld/%lld)"
           }
         }
       }
@@ -36706,6 +39598,12 @@
             "state" : "translated",
             "value" : "Missão cumprida!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภารกิจสำเร็จ!"
+          }
         }
       }
     },
@@ -36781,6 +39679,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Missão fracassada…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภารกิจล้มเหลว…"
           }
         }
       }
@@ -36858,6 +39762,12 @@
             "state" : "translated",
             "value" : "Cartas de sucesso: %1$lld · cartas de fracasso: %2$lld"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การ์ดสำเร็จ: %1$lld · การ์ดล้มเหลว: %2$lld"
+          }
         }
       }
     },
@@ -36933,6 +39843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Saiu uma carta de fracasso, mas esta missão exigia %lld — ela se sustentou!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มีการ์ดล้มเหลวออกมา แต่ภารกิจนี้ต้องใช้ %lld จึงรอดไปได้!"
           }
         }
       }
@@ -37010,6 +39926,12 @@
             "state" : "translated",
             "value" : "Sucesso %lld : %lld Fracasso — vence quem chegar primeiro a 3"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สำเร็จ %lld : %lld ล้มเหลว — ใครชนะครบ 3 ก่อนเป็นฝ่ายชนะ"
+          }
         }
       }
     },
@@ -37085,6 +40007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Preto"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดำ"
           }
         }
       }
@@ -37162,6 +40090,12 @@
             "state" : "translated",
             "value" : "Vermelho"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แดง"
+          }
         }
       }
     },
@@ -37237,6 +40171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Laranja"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ส้ม"
           }
         }
       }
@@ -37314,6 +40254,12 @@
             "state" : "translated",
             "value" : "Amarelo"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เหลือง"
+          }
         }
       }
     },
@@ -37389,6 +40335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verde"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เขียว"
           }
         }
       }
@@ -37466,6 +40418,12 @@
             "state" : "translated",
             "value" : "Azul"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "น้ำเงิน"
+          }
         }
       }
     },
@@ -37541,6 +40499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Roxo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ม่วง"
           }
         }
       }
@@ -37618,6 +40582,12 @@
             "state" : "translated",
             "value" : "Marrom"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "น้ำตาล"
+          }
         }
       }
     },
@@ -37693,6 +40663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Borracha"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยางลบ"
           }
         }
       }
@@ -37770,6 +40746,12 @@
             "state" : "translated",
             "value" : "Cor %lld"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สี %lld"
+          }
         }
       }
     },
@@ -37845,6 +40827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pincel fino"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พู่กันเส้นบาง"
           }
         }
       }
@@ -37922,6 +40910,12 @@
             "state" : "translated",
             "value" : "Pincel médio"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พู่กันขนาดกลาง"
+          }
         }
       }
     },
@@ -37997,6 +40991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pincel grosso"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พู่กันเส้นหนา"
           }
         }
       }
@@ -38074,6 +41074,12 @@
             "state" : "translated",
             "value" : "Um desenha, os outros adivinham"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คนหนึ่งวาด คนอื่นทาย"
+          }
         }
       }
     },
@@ -38149,6 +41155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rodada %1$lld / %2$lld"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รอบที่ %1$lld / %2$lld"
           }
         }
       }
@@ -38226,6 +41238,12 @@
             "state" : "translated",
             "value" : "Eu sou o Artista!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฉันคือผู้วาด!"
+          }
         }
       }
     },
@@ -38301,6 +41319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Artista: %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผู้วาด: %@"
           }
         }
       }
@@ -38378,6 +41402,12 @@
             "state" : "translated",
             "value" : "Terminei de desenhar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วาดเสร็จแล้ว"
+          }
         }
       }
     },
@@ -38453,6 +41483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pular rodada"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้ามรอบ"
           }
         }
       }
@@ -38530,6 +41566,12 @@
             "state" : "translated",
             "value" : "Você é o Artista desta rodada! Escolha, entre as 3 palavras, a mais fácil de desenhar."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รอบนี้คุณเป็นผู้วาด! เลือกคำที่วาดง่ายที่สุดจาก 3 คำ"
+          }
         }
       }
     },
@@ -38605,6 +41647,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Expresse a palavra com um desenho. Sem letras nem números! Ao terminar, toque em «Próximo» para ver os palpites dos bots."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วาดคำให้เป็นภาพ ห้ามใช้ตัวอักษรหรือตัวเลข! เมื่อวาดเสร็จ กด “ถัดไป” เพื่อดูคำทายของบอต"
           }
         }
       }
@@ -38682,6 +41730,12 @@
             "state" : "translated",
             "value" : "Resultado da rodada. Quanto mais rápido você acerta, mais pontos; o Artista ganha mais quanto mais gente acerta. Toque em «Próximo» para ver a classificação final."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผลของรอบนี้ ยิ่งทายเร็วยิ่งได้คะแนนสูง ผู้วาดได้คะแนนมากขึ้นเมื่อมีคนทายถูกมากขึ้น กด “ถัดไป” เพื่อดูอันดับสุดท้าย"
+          }
         }
       }
     },
@@ -38757,6 +41811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escolha uma palavra"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกคำ"
           }
         }
       }
@@ -38834,6 +41894,12 @@
             "state" : "translated",
             "value" : "Não deixe ninguém ver! Escolher algo fácil de desenhar ajuda."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อย่าให้คนอื่นเห็น! เลือกคำที่วาดง่ายจะได้เปรียบ"
+          }
         }
       }
     },
@@ -38909,6 +41975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ está escolhendo uma palavra…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ กำลังเลือกคำ…"
           }
         }
       }
@@ -38986,6 +42058,12 @@
             "state" : "translated",
             "value" : "Em instantes o desenho começa."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อีกสักครู่จะเริ่มวาด"
+          }
         }
       }
     },
@@ -39061,6 +42139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Letras: %lld"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จำนวนตัวอักษร: %lld"
           }
         }
       }
@@ -39138,6 +42222,12 @@
             "state" : "translated",
             "value" : "Acertos: %1$lld/%2$lld"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทายถูก: %1$lld/%2$lld"
+          }
         }
       }
     },
@@ -39213,6 +42303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Os palpites de todos aparecerão aqui."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำทายของทุกคนจะแสดงที่นี่"
           }
         }
       }
@@ -39290,6 +42386,12 @@
             "state" : "translated",
             "value" : "Olhe o desenho e adivinhe a resposta!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูภาพแล้วทายคำตอบ!"
+          }
         }
       }
     },
@@ -39365,6 +42467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Desfazer um traço"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ย้อนกลับหนึ่งเส้น"
           }
         }
       }
@@ -39442,6 +42550,12 @@
             "state" : "translated",
             "value" : "Apagar todo o desenho"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบภาพทั้งหมด"
+          }
         }
       }
     },
@@ -39517,6 +42631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Acertou! Aguardando os outros…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถูกต้อง! รอคนอื่น…"
           }
         }
       }
@@ -39594,6 +42714,12 @@
             "state" : "translated",
             "value" : "Digite a resposta…"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พิมพ์คำตอบ…"
+          }
         }
       }
     },
@@ -39669,6 +42795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ocultar teclado"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซ่อนแป้นพิมพ์"
           }
         }
       }
@@ -39746,6 +42878,12 @@
             "state" : "translated",
             "value" : "A palavra era"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำคือ"
+          }
         }
       }
     },
@@ -39821,6 +42959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Correto"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถูกต้อง"
           }
         }
       }
@@ -39898,6 +43042,12 @@
             "state" : "translated",
             "value" : "Ver classificação final"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูอันดับสุดท้าย"
+          }
         }
       }
     },
@@ -39973,6 +43123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Próxima rodada"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รอบถัดไป"
           }
         }
       }
@@ -40050,6 +43206,12 @@
             "state" : "translated",
             "value" : "Aguardando o anfitrião continuar…"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รอโฮสต์ไปต่อ…"
+          }
         }
       }
     },
@@ -40125,6 +43287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Maior pontuação: %lld"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คะแนนสูงสุด: %lld"
           }
         }
       }
@@ -40202,6 +43370,12 @@
             "state" : "translated",
             "value" : "Pontos: %lld"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คะแนน: %lld"
+          }
         }
       }
     },
@@ -40277,6 +43451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jogar de novo com os mesmos jogadores"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เล่นอีกครั้งกับสมาชิกเดิม"
           }
         }
       }
@@ -40354,6 +43534,12 @@
             "state" : "translated",
             "value" : "Desconectado"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การเชื่อมต่อหลุด"
+          }
         }
       }
     },
@@ -40429,6 +43615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aguardando %@ se reconectar."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รอ %@ เชื่อมต่อใหม่"
           }
         }
       }
@@ -40506,6 +43698,12 @@
             "state" : "translated",
             "value" : "Remover %@"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นำ %@ ออก"
+          }
         }
       }
     },
@@ -40581,6 +43779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rejeitada"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่ผ่าน"
           }
         }
       }
@@ -40658,6 +43862,12 @@
             "state" : "translated",
             "value" : "Fracassos necessários: 2"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ต้องล้มเหลว 2 ใบ"
+          }
         }
       }
     },
@@ -40733,6 +43943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uma noite com um Goblin na vila, uma única votação"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หนึ่งคืนที่มีก็อบลินในหมู่บ้าน โหวตครั้งเดียว"
           }
         }
       }
@@ -40810,6 +44026,12 @@
             "state" : "translated",
             "value" : "🌙 Noite — Ação secreta"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🌙 กลางคืน — การกระทำลับ"
+          }
         }
       }
     },
@@ -40885,6 +44107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "☀️ Dia — Discussão"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "☀️ กลางวัน — อภิปราย"
           }
         }
       }
@@ -40962,6 +44190,12 @@
             "state" : "translated",
             "value" : "🗳️ Votação de banimento"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🗳️ โหวตขับไล่"
+          }
         }
       }
     },
@@ -41037,6 +44271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resultado"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผล"
           }
         }
       }
@@ -41114,6 +44354,12 @@
             "state" : "translated",
             "value" : "À noite, cada um age em segredo. Veja seu papel e termine sua ação, depois toque em «Próximo» para executar as ações noturnas dos bots."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กลางคืนทุกคนทำการกระทำแบบลับ ๆ ดูบทบาทและทำให้เสร็จ แล้วกด “ถัดไป” เพื่อให้บอตทำการกระทำตอนกลางคืน"
+          }
         }
       }
     },
@@ -41189,6 +44435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Durante a noite, o Ladrão noturno e o Brincalhão podem ter trocado cartas! Numa partida real, é aqui que se discute. Toque em «Próximo» para iniciar a votação."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ระหว่างคืน โจรราตรีกับจอมซนอาจสลับการ์ดกันแล้ว! ในเกมจริงตรงนี้คือช่วงอภิปราย กด “ถัดไป” เพื่อเริ่มโหวต"
           }
         }
       }
@@ -41266,6 +44518,12 @@
             "state" : "translated",
             "value" : "Aponte primeiro quem você suspeita ser um Goblin e toque em «Próximo» para ver os votos dos bots. O mais votado será banido."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชี้คนที่สงสัยว่าเป็นก็อบลินก่อน แล้วกด “ถัดไป” เพื่อดูคะแนนของบอต ผู้ได้คะแนนโหวตมากที่สุดจะถูกขับไล่"
+          }
         }
       }
     },
@@ -41341,6 +44599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Outros Goblins: %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ก็อบลินพวกเดียวกัน: %@"
           }
         }
       }
@@ -41418,6 +44682,12 @@
             "state" : "translated",
             "value" : "A noite chegou"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กลางคืนมาถึงแล้ว"
+          }
         }
       }
     },
@@ -41493,6 +44763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Veja seu papel onde ninguém possa ver a tela"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูบทบาทในที่ที่ไม่มีใครเห็นหน้าจอ"
           }
         }
       }
@@ -41570,6 +44846,12 @@
             "state" : "translated",
             "value" : "Ação concluída! Aguardando os outros jogadores… %lld/%lld"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทำเสร็จแล้ว! รอผู้เล่นคนอื่น… %lld/%lld"
+          }
         }
       }
     },
@@ -41645,6 +44927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Você é o único Goblin! Pode olhar 1 carta central"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณคือก็อบลินคนเดียว! ดูการ์ดกลางได้ 1 ใบ"
           }
         }
       }
@@ -41722,6 +45010,12 @@
             "state" : "translated",
             "value" : "Centro n.º %lld"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กลางใบที่ %lld"
+          }
         }
       }
     },
@@ -41797,6 +45091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ver a carta central n.º %lld"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูการ์ดกลางใบที่ %lld"
           }
         }
       }
@@ -41874,6 +45174,12 @@
             "state" : "translated",
             "value" : "Já vi meus companheiros"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เห็นพวกเดียวกันแล้ว"
+          }
         }
       }
     },
@@ -41949,6 +45255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ver 1 jogador"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูผู้เล่น 1 คน"
           }
         }
       }
@@ -42026,6 +45338,12 @@
             "state" : "translated",
             "value" : "Ver 2 cartas centrais"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูการ์ดกลาง 2 ใบ"
+          }
         }
       }
     },
@@ -42101,6 +45419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ver a carta de «%@»"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูการ์ดของ “%@”"
           }
         }
       }
@@ -42178,6 +45502,12 @@
             "state" : "translated",
             "value" : "Ver as 2 cartas centrais"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดูการ์ดกลาง 2 ใบ"
+          }
         }
       }
     },
@@ -42253,6 +45583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escolha de quem roubar a carta"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกคนที่จะขโมยการ์ด"
           }
         }
       }
@@ -42330,6 +45666,12 @@
             "state" : "translated",
             "value" : "Roubar a carta de «%@»"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขโมยการ์ดของ “%@”"
+          }
         }
       }
     },
@@ -42405,6 +45747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escolha dois jogadores para trocar as cartas (%lld/2)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกผู้เล่นสองคนที่จะสลับการ์ด (%lld/2)"
           }
         }
       }
@@ -42482,6 +45830,12 @@
             "state" : "translated",
             "value" : "Trocar as cartas destes dois"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สลับการ์ดของสองคนนี้"
+          }
         }
       }
     },
@@ -42557,6 +45911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Amanheceu"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เช้าแล้ว"
           }
         }
       }
@@ -42634,6 +45994,12 @@
             "state" : "translated",
             "value" : "As cartas podem ter mudado durante a noite!\nEncontre o Goblin (pela carta atual) com a discussão."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การ์ดอาจเปลี่ยนไประหว่างคืน!\nหาก็อบลิน (ตามการ์ดปัจจุบัน) ด้วยการอภิปราย"
+          }
         }
       }
     },
@@ -42709,6 +46075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "(Conforme seu papel no início da noite)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(ตามบทบาทของคุณตอนเริ่มคืน)"
           }
         }
       }
@@ -42786,6 +46158,12 @@
             "state" : "translated",
             "value" : "O que aconteceu durante a noite (visível só na prática)"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิ่งที่เกิดขึ้นระหว่างคืน (เปิดเผยเฉพาะตอนฝึก)"
+          }
         }
       }
     },
@@ -42861,6 +46239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Numa partida real, nada é revelado. Por isso a discussão importa!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ในเกมจริงจะไม่มีอะไรถูกเปิดเผย เพราะอย่างนี้การอภิปรายจึงสำคัญ!"
           }
         }
       }
@@ -42938,6 +46322,12 @@
             "state" : "translated",
             "value" : "Discussão encerrada! Iniciar votação"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อภิปรายจบแล้ว! เริ่มโหวต"
+          }
         }
       }
     },
@@ -43013,6 +46403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aguardando o anfitrião iniciar a votação…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รอโฮสต์เริ่มโหวต…"
           }
         }
       }
@@ -43090,6 +46486,12 @@
             "state" : "translated",
             "value" : "Aponte quem você acha que é o Goblin"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชี้คนที่คุณคิดว่าเป็นก็อบลิน"
+          }
         }
       }
     },
@@ -43165,6 +46567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O mais votado será banido · em caso de empate, todos os empatados · se todos tiverem 1 voto ou menos, ninguém é banido"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผู้ได้คะแนนโหวตมากที่สุดถูกขับไล่ · ถ้าเท่ากัน ขับไล่ทุกคนที่เท่ากัน · ถ้าทุกคนได้ไม่เกิน 1 คะแนน จะไม่มีใครถูกขับไล่"
           }
         }
       }
@@ -43242,6 +46650,12 @@
             "state" : "translated",
             "value" : "Votar para banir «%@»?"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โหวตขับไล่ “%@” ไหม?"
+          }
         }
       }
     },
@@ -43317,6 +46731,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A Vila vence!"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หมู่บ้านชนะ!"
           }
         }
       }
@@ -43394,6 +46814,12 @@
             "state" : "translated",
             "value" : "Os Goblins vencem!"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ฝ่ายก็อบลินชนะ!"
+          }
         }
       }
     },
@@ -43469,6 +46895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Votos: %lld"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คะแนนโหวต: %lld"
           }
         }
       }
@@ -43547,6 +46979,12 @@
             "state" : "translated",
             "value" : "VoiceOver mais confortável"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver ใช้ง่ายขึ้น"
+          }
         }
       }
     },
@@ -43623,6 +47061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ao aumentar o texto, as telas se reorganizam em vez de serem cortadas."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อขยายตัวอักษร หน้าจอจะจัดวางใหม่แทนที่จะถูกตัด"
           }
         }
       }
@@ -43701,6 +47145,12 @@
             "state" : "translated",
             "value" : "Avisos quando chegar sua vez"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แจ้งเตือนเมื่อถึงตาคุณ"
+          }
         }
       }
     },
@@ -43777,6 +47227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mesmo com contraste aumentado ou dificuldade para distinguir cores, você reconhecerá os lados e os resultados."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แม้เพิ่มคอนทราสต์หรือแยกสีได้ยาก คุณก็ยังดูฝ่ายและผลได้"
           }
         }
       }
@@ -43855,6 +47311,12 @@
             "state" : "translated",
             "value" : "Use o app em mais idiomas."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้แอปได้หลายภาษามากขึ้น"
+          }
         }
       }
     },
@@ -43931,6 +47393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mais idiomas"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษาเพิ่มเติม"
           }
         }
       }
@@ -44009,6 +47477,12 @@
             "state" : "translated",
             "value" : "Cores e contraste confortáveis"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สีและคอนทราสต์ที่สบายตา"
+          }
         }
       }
     },
@@ -44085,6 +47559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Respostas que você sente nos dedos"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การตอบสนองที่สัมผัสได้ที่ปลายนิ้ว"
           }
         }
       }
@@ -44163,6 +47643,12 @@
             "state" : "translated",
             "value" : "Na primeira abertura após uma atualização, veja o que há de novo."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อเปิดแอปครั้งแรกหลังอัปเดต จะบอกว่ามีอะไรใหม่"
+          }
         }
       }
     },
@@ -44239,6 +47725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Novidades"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มีอะไรใหม่"
           }
         }
       }
@@ -44317,6 +47809,12 @@
             "state" : "translated",
             "value" : "Uma vibração suave quando você recebe o papel ou uma votação termina."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สั่นเบา ๆ เมื่อได้รับบทบาทหรือโหวตจบ"
+          }
         }
       }
     },
@@ -44393,6 +47891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suporte ao inglês"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รองรับภาษาอังกฤษ"
           }
         }
       }
@@ -44471,6 +47975,12 @@
             "state" : "translated",
             "value" : "Para jogar também com amigos de fora, o app pode ser usado em inglês."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพื่อเล่นกับเพื่อนต่างชาติ ใช้แอปเป็นภาษาอังกฤษได้ด้วย"
+          }
         }
       }
     },
@@ -44547,6 +48057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reduzir movimento"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลดการเคลื่อนไหว"
           }
         }
       }
@@ -44625,6 +48141,12 @@
             "state" : "translated",
             "value" : "Com «Reduzir movimento» ativado, os efeitos de tela ficam mais calmos."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อเปิด “ลดการเคลื่อนไหว” เอฟเฟกต์บนหน้าจอจะนุ่มนวลขึ้น"
+          }
         }
       }
     },
@@ -44701,6 +48223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Telas para texto grande"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หน้าจอสำหรับตัวอักษรขนาดใหญ่"
           }
         }
       }
@@ -44779,6 +48307,12 @@
             "state" : "translated",
             "value" : "Tela para iPhone dobrável"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หน้าจอสำหรับ iPhone แบบพับได้"
+          }
         }
       }
     },
@@ -44855,6 +48389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Em um iPhone dobrável, a tela larga se divide em duas partes."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บน iPhone แบบพับได้ แบ่งหน้าจอกว้างเป็นสองส่วนได้"
           }
         }
       }
@@ -44933,6 +48473,12 @@
             "state" : "translated",
             "value" : "Widgets na tela de início"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วิดเจ็ตหน้าจอโฮม"
+          }
         }
       }
     },
@@ -45009,6 +48555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abra uma sala de jogo direto da tela de início."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดห้องเกมได้ทันทีจากหน้าจอโฮม"
           }
         }
       }
@@ -45087,6 +48639,12 @@
             "state" : "translated",
             "value" : "O VoiceOver lê todas as cartas de papel e os botões de voto, na ordem certa."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver อ่านการ์ดบทบาทและปุ่มโหวตครบถ้วนตามลำดับที่ถูกต้อง"
+          }
         }
       }
     },
@@ -45163,6 +48721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mesmo com a tela apagada, você recebe uma notificação quando for sua vez."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แม้ปิดหน้าจออยู่ ก็มีการแจ้งเตือนเมื่อถึงตาคุณ"
           }
         }
       }

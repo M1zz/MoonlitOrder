@@ -68,11 +68,17 @@ Apri le Impostazioni dall’ingranaggio
 Invia un parere allo sviluppatore
 Valuta l’app e controlla la versione
 
-### 앱스토어 (Português (Brasil))
+### 앱스토어 (pt-BR)
 
 Abra Ajustes pela engrenagem do início
 Envie sugestões direto ao desenvolvedor
 Avalie o app e confira a versão
+
+### 앱스토어 (ไทย)
+
+เปิดการตั้งค่าจากเฟืองบนหน้าหลัก
+ส่งความเห็นถึงนักพัฒนาได้ทันที
+ให้คะแนนแอปและเช็กเวอร์ชันได้
 
 ## 1.0.1 (2026-07-17)
 

@@ -63,6 +63,12 @@
             "value" : "Лунная аркада"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ห้องเกมแสงจันทร์"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -137,6 +143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нужен доступ к локальной сети, чтобы напрямую подключаться к iPhone друзей рядом и играть вместе."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ต้องเข้าถึงเครือข่ายในพื้นที่เพื่อเชื่อมต่อกับ iPhone ของเพื่อนที่อยู่ใกล้โดยตรงและเล่นเกมปาร์ตี้ด้วยกัน"
           }
         },
         "zh-Hans" : {

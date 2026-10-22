@@ -15,7 +15,7 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "marketing"
 WORK = pathlib.Path("/tmp") / "moonlit-marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR"}
+STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th"}
 
 # (원본 파일, 헤드라인, 서브카피) — 언어마다 따로 쓴다.
 SHOTS = {
@@ -102,6 +102,13 @@ SHOTS = {
         ("03-vote.png", "A favor<br>ou contra?", "No instante em que os votos são revelados, o jogo vira"),
         ("04-draw.png", "Desenhe<br>e adivinhe", "Um desenha, os outros adivinham no Ateliê Lunar"),
         ("05-result.png", "Quanto mais rápido,<br>mais pontos", "Jogue com até 15 amigos"),
+    ],
+    "th": [
+        ("01-home.png", "มารวมกันแล้ว<br>เล่นเกมปาร์ตี้ทันที", "iPhone ใกล้กันเชื่อมต่อกันได้โดยไม่ต้องมีอินเทอร์เน็ต"),
+        ("02-role.png", "บทบาทของคุณ<br>มีแต่คุณที่รู้", "หาเงามืดที่ซ่อนตัวในภาคีแสงจันทร์"),
+        ("03-vote.png", "เห็นด้วย<br>หรือไม่?", "ในวินาทีที่เปิดคะแนนโหวต เกมก็พลิก"),
+        ("04-draw.png", "วาดแล้ว<br>ทาย", "คนหนึ่งวาด คนอื่นทายใน สตูดิโอแสงจันทร์"),
+        ("05-result.png", "ทายเร็วเท่าไร<br>ยิ่งได้คะแนนสูง", "เล่นด้วยกันได้สูงสุด 15 คน"),
     ],
 }
 
