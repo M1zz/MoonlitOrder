@@ -32,6 +32,12 @@
             "state" : "translated",
             "value" : "月兔"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月兔"
+          }
         }
       }
     },
@@ -65,6 +71,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "夜风"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜風"
           }
         }
       }
@@ -100,6 +112,12 @@
             "state" : "translated",
             "value" : "银河"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "銀河"
+          }
         }
       }
     },
@@ -134,6 +152,12 @@
             "state" : "translated",
             "value" : "残月"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "殘月"
+          }
         }
       }
     },
@@ -164,6 +188,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "守星人"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "守星人"
@@ -202,6 +232,12 @@
             "state" : "translated",
             "value" : "黎明"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "黎明"
+          }
         }
       }
     },
@@ -236,6 +272,12 @@
             "state" : "translated",
             "value" : "刺客离开了房间,月光结社获胜。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刺客離開了房間,月光結社獲勝。"
+          }
         }
       }
     },
@@ -266,6 +308,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "玩家"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "玩家"
@@ -304,6 +352,12 @@
             "state" : "translated",
             "value" : "远征队连续%lld次被否决,暗影阵营获胜。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠征隊連續%lld次被否決,暗影陣營獲勝。"
+          }
         }
       }
     },
@@ -337,6 +391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "任务失败了3次,暗影阵营获胜。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "任務失敗了3次,暗影陣營獲勝。"
           }
         }
       }
@@ -372,6 +432,12 @@
             "state" : "translated",
             "value" : "刺客准确找出了预言家“%@”。暗影阵营逆转获胜!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刺客準確找出了預言家“%@”。暗影陣營逆轉獲勝!"
+          }
         }
       }
     },
@@ -405,6 +471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "刺客的刀刃落空了。“%@”并不是预言家。月光结社获胜!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刺客的刀刃落空了。“%@”並不是預言家。月光結社獲勝!"
           }
         }
       }
@@ -440,6 +512,12 @@
             "state" : "translated",
             "value" : "视为全员已确认身份,进入远征队提名。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "視為全員已確認身分,進入遠征隊提名。"
+          }
         }
       }
     },
@@ -473,6 +551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "跳过没有提名的队长,轮到下一位队长。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跳過沒有提名的隊長,輪到下一位隊長。"
           }
         }
       }
@@ -508,6 +592,12 @@
             "state" : "translated",
             "value" : "尚未投票的人按赞成处理,开始计票。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尚未投票的人按贊成處理,開始計票。"
+          }
         }
       }
     },
@@ -541,6 +631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "没有出牌的队员按成功处理。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沒有出牌的隊員按成功處理。"
           }
         }
       }
@@ -576,6 +672,12 @@
             "state" : "translated",
             "value" : "进入下一阶段。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進入下一階段。"
+          }
         }
       }
     },
@@ -609,6 +711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "视为刺客放弃刺杀,月光结社获胜。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "視為刺客放棄刺殺,月光結社獲勝。"
           }
         }
       }
@@ -644,6 +752,12 @@
             "state" : "translated",
             "value" : "刺客没有指认出预言家,月光结社获胜。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刺客沒有指認出預言家,月光結社獲勝。"
+          }
         }
       }
     },
@@ -677,6 +791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "说谎者离开了房间。平民获胜!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "說謊者離開了房間。平民獲勝!"
           }
         }
       }
@@ -712,6 +832,12 @@
             "state" : "translated",
             "value" : "票数分散,没能抓到说谎者!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "票數分散,沒能抓到說謊者!"
+          }
         }
       }
     },
@@ -745,6 +871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "指认错了人!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "指認錯了人!"
           }
         }
       }
@@ -780,6 +912,12 @@
             "state" : "translated",
             "value" : "说谎者猜中了题词!说谎者逆转获胜!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "說謊者猜中了題詞!說謊者逆轉獲勝!"
+          }
         }
       }
     },
@@ -813,6 +951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "说谎者没有猜中题词。平民获胜!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "說謊者沒有猜中題詞。平民獲勝!"
           }
         }
       }
@@ -848,6 +992,12 @@
             "state" : "translated",
             "value" : "说谎者"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "說謊者"
+          }
         }
       }
     },
@@ -878,6 +1028,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "平民"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "平民"
@@ -916,6 +1072,12 @@
             "state" : "translated",
             "value" : "题词:%@ · 类别:%@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "題詞:%@ · 類別:%@"
+          }
         }
       }
     },
@@ -949,6 +1111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "视为全员已确认题词,进入描述阶段。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "視為全員已確認題詞,進入描述階段。"
           }
         }
       }
@@ -984,6 +1152,12 @@
             "state" : "translated",
             "value" : "结束当前发言者的回合,轮到下一位。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結束當前發言者的回合,輪到下一位。"
+          }
         }
       }
     },
@@ -1017,6 +1191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "尚未投票的人按弃权处理,开始计票。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尚未投票的人按棄權處理,開始計票。"
           }
         }
       }
@@ -1052,6 +1232,12 @@
             "state" : "translated",
             "value" : "视为说谎者放弃猜测,平民获胜。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "視為說謊者放棄猜測,平民獲勝。"
+          }
         }
       }
     },
@@ -1086,6 +1272,12 @@
             "state" : "translated",
             "value" : "说谎者没能回答。平民获胜!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "說謊者沒能回答。平民獲勝!"
+          }
         }
       }
     },
@@ -1116,6 +1308,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小狗?"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "小狗?"
@@ -1154,6 +1352,12 @@
             "state" : "translated",
             "value" : "嗯…汽车"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "嗯…汽車"
+          }
         }
       }
     },
@@ -1188,6 +1392,12 @@
             "state" : "translated",
             "value" : "难道是熊?"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "難道是熊?"
+          }
         }
       }
     },
@@ -1218,6 +1428,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不知道哈哈"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "不知道哈哈"
@@ -1256,6 +1472,12 @@
             "state" : "translated",
             "value" : "苹果?"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蘋果?"
+          }
         }
       }
     },
@@ -1286,6 +1508,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "嗯…"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "嗯…"
@@ -1324,6 +1552,12 @@
             "state" : "translated",
             "value" : "答对了!🎉"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "答對了!🎉"
+          }
         }
       }
     },
@@ -1357,6 +1591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "画家"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "畫家"
           }
         }
       }
@@ -1392,6 +1632,12 @@
             "state" : "translated",
             "value" : "题词:%@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "題詞:%@"
+          }
         }
       }
     },
@@ -1425,6 +1671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "候选题词:%@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "候選題詞:%@"
           }
         }
       }
@@ -1460,6 +1712,12 @@
             "state" : "translated",
             "value" : "代替画家随机选出题词,开始作画。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "代替畫家隨機選出題詞,開始作畫。"
+          }
         }
       }
     },
@@ -1493,6 +1751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "结束本回合并结算分数。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結束本回合併結算分數。"
           }
         }
       }
@@ -1528,6 +1792,12 @@
             "state" : "translated",
             "value" : "进入下一回合。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進入下一回合。"
+          }
         }
       }
     },
@@ -1561,6 +1831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🔥 鬼怪%@在黑暗中睁开了眼睛。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔥 鬼怪%@在黑暗中睜開了眼睛。"
           }
         }
       }
@@ -1596,6 +1872,12 @@
             "state" : "translated",
             "value" : "👁 巫师%@悄悄查看了一张牌。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "👁 巫師%@悄悄檢視了一張牌。"
+          }
         }
       }
     },
@@ -1629,6 +1911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🤝 夜贼%@偷走了%@的牌,两人互换了牌!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🤝 夜賊%@偷走了%@的牌,兩人互換了牌!"
           }
         }
       }
@@ -1664,6 +1952,12 @@
             "state" : "translated",
             "value" : "🔀 捣蛋鬼%@把%@和%@的牌互换了!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔀 搗蛋鬼%@把%@和%@的牌互換了!"
+          }
         }
       }
     },
@@ -1698,6 +1992,12 @@
             "state" : "translated",
             "value" : "中间第%lld张牌是“%@”。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中間第%lld張牌是“%@”。"
+          }
         }
       }
     },
@@ -1728,6 +2028,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@的牌是“%@”。"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@的牌是“%@”。"
@@ -1766,6 +2072,12 @@
             "state" : "translated",
             "value" : "中间的2张牌:%@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中間的2張牌:%@"
+          }
         }
       }
     },
@@ -1799,6 +2111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "你偷走了%@的牌。你现在是“%@”。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你偷走了%@的牌。你現在是“%@”。"
           }
         }
       }
@@ -1834,6 +2152,12 @@
             "state" : "translated",
             "value" : "你把%@和%@的牌互换了。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你把%@和%@的牌互換了。"
+          }
         }
       }
     },
@@ -1867,6 +2191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "鬼怪被放逐了。村庄获胜!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鬼怪被放逐了。村莊獲勝!"
           }
         }
       }
@@ -1902,6 +2232,12 @@
             "state" : "translated",
             "value" : "鬼怪全都在中间的牌里,没有人被放逐。村庄获胜!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鬼怪全都在中間的牌裡,沒有人被放逐。村莊獲勝!"
+          }
         }
       }
     },
@@ -1935,6 +2271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "没有人被放逐,但鬼怪就藏在其中。鬼怪获胜!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沒有人被放逐,但鬼怪就藏在其中。鬼怪獲勝!"
           }
         }
       }
@@ -1970,6 +2312,12 @@
             "state" : "translated",
             "value" : "无辜的人被放逐了。鬼怪获胜!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無辜的人被放逐了。鬼怪獲勝!"
+          }
         }
       }
     },
@@ -2003,6 +2351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "中间的牌:%@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中間的牌:%@"
           }
         }
       }
@@ -2038,6 +2392,12 @@
             "state" : "translated",
             "value" : "没有行动的人不使用能力,直接结束夜晚。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沒有行動的人不使用能力,直接結束夜晚。"
+          }
         }
       }
     },
@@ -2071,6 +2431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "结束讨论,开始放逐投票。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結束討論,開始放逐投票。"
           }
         }
       }
@@ -2106,6 +2472,12 @@
             "state" : "translated",
             "value" : "月光结社"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月光結社"
+          }
         }
       }
     },
@@ -2136,6 +2508,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暗影"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "暗影"
@@ -2174,6 +2552,12 @@
             "state" : "translated",
             "value" : "预言家"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "預言家"
+          }
         }
       }
     },
@@ -2208,6 +2592,12 @@
             "state" : "translated",
             "value" : "结社成员"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結社成員"
+          }
         }
       }
     },
@@ -2238,6 +2628,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刺客"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "刺客"
@@ -2276,6 +2672,12 @@
             "state" : "translated",
             "value" : "暗影成员"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暗影成員"
+          }
         }
       }
     },
@@ -2309,6 +2711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "你知道谁是暗影成员。但身份一旦暴露,最后可能被刺杀,所以要不动声色地暗中带领远征队。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你知道誰是暗影成員。但身分一旦暴露,最後可能被刺殺,所以要不動聲色地暗中帶領遠征隊。"
           }
         }
       }
@@ -2344,6 +2752,12 @@
             "state" : "translated",
             "value" : "你是月光结社的忠诚成员。根据讨论和投票记录找出暗影成员,让任务成功3次。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你是月光結社的忠誠成員。根據討論和投票記錄找出暗影成員,讓任務成功3次。"
+          }
         }
       }
     },
@@ -2377,6 +2791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "你是暗影的刀锋。你认识同伴暗影成员,即使结社完成3次任务,只要准确指认预言家就能逆转获胜。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你是暗影的刀鋒。你認識同伴暗影成員,即使結社完成3次任務,只要準確指認預言家就能逆轉獲勝。"
           }
         }
       }
@@ -2412,6 +2832,12 @@
             "state" : "translated",
             "value" : "你是潜伏在黑暗中的叛徒。你认识同伴暗影。隐藏身份,混入远征队,让任务失败。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你是潛伏在黑暗中的叛徒。你認識同伴暗影。隱藏身分,混入遠征隊,讓任務失敗。"
+          }
         }
       }
     },
@@ -2445,6 +2871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "任务成功3次(但预言家被刺杀则失败)"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "任務成功3次(但預言家被刺殺則失敗)"
           }
         }
       }
@@ -2480,6 +2912,12 @@
             "state" : "translated",
             "value" : "任务失败3次 · 远征队连续5次被否决 · 刺杀预言家"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "任務失敗3次 · 遠征隊連續5次被否決 · 刺殺預言家"
+          }
         }
       }
     },
@@ -2510,6 +2948,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "美食"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "美食"
@@ -2548,6 +2992,12 @@
             "state" : "translated",
             "value" : "泡菜汤"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "泡菜湯"
+          }
         }
       }
     },
@@ -2578,6 +3028,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "烤五花肉"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "烤五花肉"
@@ -2616,6 +3072,12 @@
             "state" : "translated",
             "value" : "辣炒年糕"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "辣炒年糕"
+          }
         }
       }
     },
@@ -2649,6 +3111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "炸鸡"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "炸雞"
           }
         }
       }
@@ -2684,6 +3152,12 @@
             "state" : "translated",
             "value" : "披萨"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "披薩"
+          }
         }
       }
     },
@@ -2717,6 +3191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "寿司"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "壽司"
           }
         }
       }
@@ -2752,6 +3232,12 @@
             "state" : "translated",
             "value" : "拉面"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拉麵"
+          }
         }
       }
     },
@@ -2785,6 +3271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拌饭"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拌飯"
           }
         }
       }
@@ -2820,6 +3312,12 @@
             "state" : "translated",
             "value" : "冷面"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冷麵"
+          }
         }
       }
     },
@@ -2853,6 +3351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "牛排骨汤"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "牛排骨湯"
           }
         }
       }
@@ -2888,6 +3392,12 @@
             "state" : "translated",
             "value" : "意大利面"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "義大利麵"
+          }
         }
       }
     },
@@ -2921,6 +3431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "汉堡"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "漢堡"
           }
         }
       }
@@ -2956,6 +3472,12 @@
             "state" : "translated",
             "value" : "紫菜包饭"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "紫菜包飯"
+          }
         }
       }
     },
@@ -2989,6 +3511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "血肠"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "血腸"
           }
         }
       }
@@ -3024,6 +3552,12 @@
             "state" : "translated",
             "value" : "猪蹄"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "豬蹄"
+          }
         }
       }
     },
@@ -3054,6 +3588,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "沙拉"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "沙拉"
@@ -3092,6 +3632,12 @@
             "state" : "translated",
             "value" : "动物"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "動物"
+          }
         }
       }
     },
@@ -3122,6 +3668,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大象"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "大象"
@@ -3160,6 +3712,12 @@
             "state" : "translated",
             "value" : "长颈鹿"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "長頸鹿"
+          }
         }
       }
     },
@@ -3194,6 +3752,12 @@
             "state" : "translated",
             "value" : "企鹅"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "企鵝"
+          }
         }
       }
     },
@@ -3224,6 +3788,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "老虎"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "老虎"
@@ -3262,6 +3832,12 @@
             "state" : "translated",
             "value" : "熊猫"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "熊貓"
+          }
         }
       }
     },
@@ -3296,6 +3872,12 @@
             "state" : "translated",
             "value" : "刺猬"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刺蝟"
+          }
         }
       }
     },
@@ -3326,6 +3908,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "袋鼠"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "袋鼠"
@@ -3364,6 +3952,12 @@
             "state" : "translated",
             "value" : "猫头鹰"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "貓頭鷹"
+          }
         }
       }
     },
@@ -3394,6 +3988,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "海豚"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "海豚"
@@ -3432,6 +4032,12 @@
             "state" : "translated",
             "value" : "章鱼"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "章魚"
+          }
         }
       }
     },
@@ -3462,6 +4068,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "松鼠"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "松鼠"
@@ -3500,6 +4112,12 @@
             "state" : "translated",
             "value" : "鳄鱼"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鱷魚"
+          }
         }
       }
     },
@@ -3533,6 +4151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "骆驼"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "駱駝"
           }
         }
       }
@@ -3568,6 +4192,12 @@
             "state" : "translated",
             "value" : "水獭"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "水獺"
+          }
         }
       }
     },
@@ -3601,6 +4231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "鹦鹉"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鸚鵡"
           }
         }
       }
@@ -3636,6 +4272,12 @@
             "state" : "translated",
             "value" : "鼹鼠"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鼴鼠"
+          }
         }
       }
     },
@@ -3669,6 +4311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "地点"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "地點"
           }
         }
       }
@@ -3704,6 +4352,12 @@
             "state" : "translated",
             "value" : "游乐园"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遊樂園"
+          }
         }
       }
     },
@@ -3738,6 +4392,12 @@
             "state" : "translated",
             "value" : "图书馆"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "圖書館"
+          }
         }
       }
     },
@@ -3768,6 +4428,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "汗蒸房"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "汗蒸房"
@@ -3806,6 +4472,12 @@
             "state" : "translated",
             "value" : "电影院"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電影院"
+          }
         }
       }
     },
@@ -3836,6 +4508,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "便利店"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "便利店"
@@ -3874,6 +4552,12 @@
             "state" : "translated",
             "value" : "地铁站"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "地鐵站"
+          }
         }
       }
     },
@@ -3907,6 +4591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "美发店"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "美髮店"
           }
         }
       }
@@ -3942,6 +4632,12 @@
             "state" : "translated",
             "value" : "医院"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "醫院"
+          }
         }
       }
     },
@@ -3975,6 +4671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "学校"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "學校"
           }
         }
       }
@@ -4010,6 +4712,12 @@
             "state" : "translated",
             "value" : "露营地"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "露營地"
+          }
         }
       }
     },
@@ -4040,6 +4748,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "游泳池"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "游泳池"
@@ -4078,6 +4792,12 @@
             "state" : "translated",
             "value" : "机场"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "機場"
+          }
         }
       }
     },
@@ -4111,6 +4831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "市场"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "市場"
           }
         }
       }
@@ -4146,6 +4872,12 @@
             "state" : "translated",
             "value" : "咖啡馆"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "咖啡館"
+          }
         }
       }
     },
@@ -4176,6 +4908,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KTV"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "KTV"
@@ -4214,6 +4952,12 @@
             "state" : "translated",
             "value" : "健身房"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "健身房"
+          }
         }
       }
     },
@@ -4247,6 +4991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "职业"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "職業"
           }
         }
       }
@@ -4282,6 +5032,12 @@
             "state" : "translated",
             "value" : "消防员"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "消防員"
+          }
         }
       }
     },
@@ -4315,6 +5071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "医生"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "醫生"
           }
         }
       }
@@ -4350,6 +5112,12 @@
             "state" : "translated",
             "value" : "厨师"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "廚師"
+          }
         }
       }
     },
@@ -4383,6 +5151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "程序员"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "程式設計師"
           }
         }
       }
@@ -4418,6 +5192,12 @@
             "state" : "translated",
             "value" : "视频博主"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "YouTuber"
+          }
         }
       }
     },
@@ -4452,6 +5232,12 @@
             "state" : "translated",
             "value" : "老师"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "老師"
+          }
         }
       }
     },
@@ -4482,6 +5268,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "警察"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "警察"
@@ -4520,6 +5312,12 @@
             "state" : "translated",
             "value" : "农民"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "農民"
+          }
         }
       }
     },
@@ -4553,6 +5351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "飞行员"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "飛行員"
           }
         }
       }
@@ -4588,6 +5392,12 @@
             "state" : "translated",
             "value" : "理发师"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "理髮師"
+          }
         }
       }
     },
@@ -4618,6 +5428,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "歌手"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "歌手"
@@ -4656,6 +5472,12 @@
             "state" : "translated",
             "value" : "运动员"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "運動員"
+          }
         }
       }
     },
@@ -4689,6 +5511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "摄影师"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "攝影師"
           }
         }
       }
@@ -4724,6 +5552,12 @@
             "state" : "translated",
             "value" : "律师"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "律師"
+          }
         }
       }
     },
@@ -4757,6 +5591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "渔夫"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "漁夫"
           }
         }
       }
@@ -4792,6 +5632,12 @@
             "state" : "translated",
             "value" : "咖啡师"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "咖啡師"
+          }
         }
       }
     },
@@ -4822,6 +5668,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "物品"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "物品"
@@ -4860,6 +5712,12 @@
             "state" : "translated",
             "value" : "雨伞"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "雨傘"
+          }
         }
       }
     },
@@ -4894,6 +5752,12 @@
             "state" : "translated",
             "value" : "电风扇"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "電風扇"
+          }
         }
       }
     },
@@ -4924,6 +5788,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冰箱"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "冰箱"
@@ -4962,6 +5832,12 @@
             "state" : "translated",
             "value" : "牙刷"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "牙刷"
+          }
         }
       }
     },
@@ -4995,6 +5871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "枕头"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "枕頭"
           }
         }
       }
@@ -5030,6 +5912,12 @@
             "state" : "translated",
             "value" : "遥控器"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遙控器"
+          }
         }
       }
     },
@@ -5063,6 +5951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "保温杯"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保溫杯"
           }
         }
       }
@@ -5098,6 +5992,12 @@
             "state" : "translated",
             "value" : "耳机"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "耳機"
+          }
         }
       }
     },
@@ -5128,6 +6028,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "剪刀"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "剪刀"
@@ -5166,6 +6072,12 @@
             "state" : "translated",
             "value" : "毯子"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "毯子"
+          }
         }
       }
     },
@@ -5199,6 +6111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "镜子"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鏡子"
           }
         }
       }
@@ -5234,6 +6152,12 @@
             "state" : "translated",
             "value" : "时钟"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "時鐘"
+          }
         }
       }
     },
@@ -5268,6 +6192,12 @@
             "state" : "translated",
             "value" : "充电器"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "充電器"
+          }
         }
       }
     },
@@ -5298,6 +6228,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拖鞋"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "拖鞋"
@@ -5336,6 +6272,12 @@
             "state" : "translated",
             "value" : "口罩"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "口罩"
+          }
         }
       }
     },
@@ -5369,6 +6311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "钱包"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "錢包"
           }
         }
       }
@@ -5404,6 +6352,12 @@
             "state" : "translated",
             "value" : "运动"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "運動"
+          }
         }
       }
     },
@@ -5434,6 +6388,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "足球"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "足球"
@@ -5472,6 +6432,12 @@
             "state" : "translated",
             "value" : "棒球"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "棒球"
+          }
         }
       }
     },
@@ -5506,6 +6472,12 @@
             "state" : "translated",
             "value" : "篮球"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "籃球"
+          }
         }
       }
     },
@@ -5536,6 +6508,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "羽毛球"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "羽毛球"
@@ -5574,6 +6552,12 @@
             "state" : "translated",
             "value" : "游泳"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "游泳"
+          }
         }
       }
     },
@@ -5608,6 +6592,12 @@
             "state" : "translated",
             "value" : "保龄球"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保齡球"
+          }
         }
       }
     },
@@ -5638,6 +6628,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跆拳道"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "跆拳道"
@@ -5676,6 +6672,12 @@
             "state" : "translated",
             "value" : "高尔夫"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "高爾夫"
+          }
         }
       }
     },
@@ -5706,6 +6708,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "乒乓球"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "乒乓球"
@@ -5744,6 +6752,12 @@
             "state" : "translated",
             "value" : "滑雪"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "滑雪"
+          }
         }
       }
     },
@@ -5778,6 +6792,12 @@
             "state" : "translated",
             "value" : "攀岩"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "攀巖"
+          }
         }
       }
     },
@@ -5808,6 +6828,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "瑜伽"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "瑜伽"
@@ -5846,6 +6872,12 @@
             "state" : "translated",
             "value" : "拳击"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拳擊"
+          }
         }
       }
     },
@@ -5876,6 +6908,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "射箭"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "射箭"
@@ -5914,6 +6952,12 @@
             "state" : "translated",
             "value" : "击剑"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "擊劍"
+          }
         }
       }
     },
@@ -5948,6 +6992,12 @@
             "state" : "translated",
             "value" : "马拉松"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "馬拉松"
+          }
         }
       }
     },
@@ -5978,6 +7028,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "兔子"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "兔子"
@@ -6016,6 +7072,12 @@
             "state" : "translated",
             "value" : "猫"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "貓"
+          }
         }
       }
     },
@@ -6046,6 +7108,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小狗"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "小狗"
@@ -6084,6 +7152,12 @@
             "state" : "translated",
             "value" : "狮子"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "獅子"
+          }
         }
       }
     },
@@ -6114,6 +7188,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "熊"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "熊"
@@ -6152,6 +7232,12 @@
             "state" : "translated",
             "value" : "蜗牛"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蝸牛"
+          }
         }
       }
     },
@@ -6182,6 +7268,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蛇"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "蛇"
@@ -6220,6 +7312,12 @@
             "state" : "translated",
             "value" : "乌龟"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "烏龜"
+          }
         }
       }
     },
@@ -6250,6 +7348,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蝴蝶"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "蝴蝶"
@@ -6288,6 +7392,12 @@
             "state" : "translated",
             "value" : "鱼"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "魚"
+          }
         }
       }
     },
@@ -6318,6 +7428,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "冰淇淋"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "冰淇淋"
@@ -6356,6 +7472,12 @@
             "state" : "translated",
             "value" : "蛋糕"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蛋糕"
+          }
         }
       }
     },
@@ -6386,6 +7508,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "香蕉"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "香蕉"
@@ -6424,6 +7552,12 @@
             "state" : "translated",
             "value" : "西瓜"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "西瓜"
+          }
         }
       }
     },
@@ -6454,6 +7588,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "煎蛋"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "煎蛋"
@@ -6492,6 +7632,12 @@
             "state" : "translated",
             "value" : "甜甜圈"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "甜甜圈"
+          }
         }
       }
     },
@@ -6525,6 +7671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "苹果"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蘋果"
           }
         }
       }
@@ -6560,6 +7712,12 @@
             "state" : "translated",
             "value" : "热狗"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "熱狗"
+          }
         }
       }
     },
@@ -6590,6 +7748,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "葡萄"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "葡萄"
@@ -6628,6 +7792,12 @@
             "state" : "translated",
             "value" : "胡萝卜"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "胡蘿蔔"
+          }
         }
       }
     },
@@ -6658,6 +7828,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "物件"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "物件"
@@ -6696,6 +7872,12 @@
             "state" : "translated",
             "value" : "眼镜"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "眼鏡"
+          }
         }
       }
     },
@@ -6730,6 +7912,12 @@
             "state" : "translated",
             "value" : "自行车"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "腳踏車"
+          }
         }
       }
     },
@@ -6760,6 +7948,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "椅子"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "椅子"
@@ -6798,6 +7992,12 @@
             "state" : "translated",
             "value" : "钥匙"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鑰匙"
+          }
         }
       }
     },
@@ -6831,6 +8031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "灯泡"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "燈泡"
           }
         }
       }
@@ -6866,6 +8072,12 @@
             "state" : "translated",
             "value" : "气球"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "氣球"
+          }
         }
       }
     },
@@ -6899,6 +8111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "蜡烛"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蠟燭"
           }
         }
       }
@@ -6934,6 +8152,12 @@
             "state" : "translated",
             "value" : "礼盒"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "禮盒"
+          }
         }
       }
     },
@@ -6967,6 +8191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "扫帚"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "掃帚"
           }
         }
       }
@@ -7002,6 +8232,12 @@
             "state" : "translated",
             "value" : "锤子"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "錘子"
+          }
         }
       }
     },
@@ -7036,6 +8272,12 @@
             "state" : "translated",
             "value" : "铅笔"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鉛筆"
+          }
         }
       }
     },
@@ -7066,6 +8308,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "杯子"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "杯子"
@@ -7104,6 +8352,12 @@
             "state" : "translated",
             "value" : "交通工具"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "交通工具"
+          }
         }
       }
     },
@@ -7137,6 +8391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "汽车"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "汽車"
           }
         }
       }
@@ -7172,6 +8432,12 @@
             "state" : "translated",
             "value" : "飞机"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "飛機"
+          }
         }
       }
     },
@@ -7205,6 +8471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "轮船"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "輪船"
           }
         }
       }
@@ -7240,6 +8512,12 @@
             "state" : "translated",
             "value" : "火车"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "火車"
+          }
         }
       }
     },
@@ -7270,6 +8548,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "火箭"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "火箭"
@@ -7308,6 +8592,12 @@
             "state" : "translated",
             "value" : "直升机"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "直升機"
+          }
         }
       }
     },
@@ -7341,6 +8631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "潜水艇"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "潛水艇"
           }
         }
       }
@@ -7376,6 +8672,12 @@
             "state" : "translated",
             "value" : "热气球"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "熱氣球"
+          }
         }
       }
     },
@@ -7406,6 +8708,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自然"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "自然"
@@ -7444,6 +8752,12 @@
             "state" : "translated",
             "value" : "树"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "樹"
+          }
         }
       }
     },
@@ -7474,6 +8788,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "花"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "花"
@@ -7512,6 +8832,12 @@
             "state" : "translated",
             "value" : "太阳"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "太陽"
+          }
         }
       }
     },
@@ -7546,6 +8872,12 @@
             "state" : "translated",
             "value" : "云"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "雲"
+          }
         }
       }
     },
@@ -7576,6 +8908,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "彩虹"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "彩虹"
@@ -7614,6 +8952,12 @@
             "state" : "translated",
             "value" : "山"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "山"
+          }
         }
       }
     },
@@ -7644,6 +8988,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "星星"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "星星"
@@ -7682,6 +9032,12 @@
             "state" : "translated",
             "value" : "雪人"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "雪人"
+          }
         }
       }
     },
@@ -7716,6 +9072,12 @@
             "state" : "translated",
             "value" : "闪电"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "閃電"
+          }
         }
       }
     },
@@ -7746,6 +9108,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "火山"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "火山"
@@ -7784,6 +9152,12 @@
             "state" : "translated",
             "value" : "岛屿"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "島嶼"
+          }
         }
       }
     },
@@ -7814,6 +9188,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月亮"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "月亮"
@@ -7852,6 +9232,12 @@
             "state" : "translated",
             "value" : "角色"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "角色"
+          }
         }
       }
     },
@@ -7885,6 +9271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "机器人"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "機器人"
           }
         }
       }
@@ -7920,6 +9312,12 @@
             "state" : "translated",
             "value" : "幽灵"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "幽靈"
+          }
         }
       }
     },
@@ -7950,6 +9348,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "王冠"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "王冠"
@@ -7988,6 +9392,12 @@
             "state" : "translated",
             "value" : "海盗"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "海盜"
+          }
         }
       }
     },
@@ -8018,6 +9428,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "天使"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "天使"
@@ -8056,6 +9472,12 @@
             "state" : "translated",
             "value" : "魔法师"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "魔法師"
+          }
         }
       }
     },
@@ -8090,6 +9512,12 @@
             "state" : "translated",
             "value" : "恐龙"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恐龍"
+          }
         }
       }
     },
@@ -8120,6 +9548,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "外星人"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "外星人"
@@ -8158,6 +9592,12 @@
             "state" : "translated",
             "value" : "美人鱼"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "美人魚"
+          }
         }
       }
     },
@@ -8192,6 +9632,12 @@
             "state" : "translated",
             "value" : "圣诞老人"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "聖誕老人"
+          }
         }
       }
     },
@@ -8222,6 +9668,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鬼怪"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "鬼怪"
@@ -8260,6 +9712,12 @@
             "state" : "translated",
             "value" : "巫师"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "巫師"
+          }
         }
       }
     },
@@ -8293,6 +9751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "夜贼"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜賊"
           }
         }
       }
@@ -8328,6 +9792,12 @@
             "state" : "translated",
             "value" : "捣蛋鬼"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搗蛋鬼"
+          }
         }
       }
     },
@@ -8358,6 +9828,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "村民"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "村民"
@@ -8396,6 +9872,12 @@
             "state" : "translated",
             "value" : "确认同伴鬼怪。如果你是唯一的鬼怪,可以查看1张中间的牌。天亮后要假装是普通人,隐藏身份。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認同伴鬼怪。如果你是唯一的鬼怪,可以檢視1張中間的牌。天亮後要假裝是普通人,隱藏身分。"
+          }
         }
       }
     },
@@ -8429,6 +9911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "凭借神通,可以查看1名其他玩家的牌,或查看中间的2张牌。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "憑藉神通,可以檢視1名其他玩家的牌,或檢視中間的2張牌。"
           }
         }
       }
@@ -8464,6 +9952,12 @@
             "state" : "translated",
             "value" : "悄悄与1名其他玩家交换牌,并查看换来的新牌。此后你的阵营以新牌为准。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "悄悄與1名其他玩家交換牌,並檢視換來的新牌。此後你的陣營以新牌為準。"
+          }
         }
       }
     },
@@ -8497,6 +9991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "恶作剧发动!把另外两名玩家的牌互相交换。你看不到那是什么牌。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "惡作劇發動!把另外兩名玩家的牌互相交換。你看不到那是什麼牌。"
           }
         }
       }
@@ -8532,6 +10032,12 @@
             "state" : "translated",
             "value" : "夜里没有事可做。请通过白天的推理和讨论找出潜伏的鬼怪。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜裡沒有事可做。請透過白天的推理和討論找出潛伏的鬼怪。"
+          }
         }
       }
     },
@@ -8565,6 +10071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "连接中…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "連線中…"
           }
         }
       }
@@ -8600,6 +10112,12 @@
             "state" : "translated",
             "value" : "设置"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
+          }
         }
       }
     },
@@ -8630,6 +10148,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提示"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "提示"
@@ -8668,6 +10192,12 @@
             "state" : "translated",
             "value" : "确定"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確定"
+          }
         }
       }
     },
@@ -8701,6 +10231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@正在维护中。请选择其他游戏。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@正在維護中。請選擇其他遊戲。"
           }
         }
       }
@@ -8736,6 +10272,12 @@
             "state" : "translated",
             "value" : "游戏"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遊戲"
+          }
         }
       }
     },
@@ -8769,6 +10311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "说谎者游戏"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "說謊者遊戲"
           }
         }
       }
@@ -8804,6 +10352,12 @@
             "state" : "translated",
             "value" : "无月之夜"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無月之夜"
+          }
         }
       }
     },
@@ -8837,6 +10391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "月光画室"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月光畫室"
           }
         }
       }
@@ -8872,6 +10432,12 @@
             "state" : "translated",
             "value" : "创建房间"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "建立房間"
+          }
         }
       }
     },
@@ -8905,6 +10471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "为所选游戏开一个房间,让朋友们加入。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "為所選遊戲開一個房間,讓朋友們加入。"
           }
         }
       }
@@ -8940,6 +10512,12 @@
             "state" : "translated",
             "value" : "查找附近房间"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "查詢附近房間"
+          }
         }
       }
     },
@@ -8973,6 +10551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "查找附近朋友创建的房间并加入。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "查詢附近朋友建立的房間並加入。"
           }
         }
       }
@@ -9008,6 +10592,12 @@
             "state" : "translated",
             "value" : "与机器人练习"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "與機器人練習"
+          }
         }
       }
     },
@@ -9041,6 +10631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "独自与机器人玩一局,熟悉规则。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "獨自與機器人玩一局,熟悉規則。"
           }
         }
       }
@@ -9076,6 +10672,12 @@
             "state" : "translated",
             "value" : "房间已满。(最多%lld人)"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "房間已滿。(最多%lld人)"
+          }
         }
       }
     },
@@ -9110,6 +10712,12 @@
             "state" : "translated",
             "value" : "这个房间的游戏已经在进行中。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這個房間的遊戲已經在進行中。"
+          }
         }
       }
     },
@@ -9140,6 +10748,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "露娜"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "露娜"
@@ -9178,6 +10792,12 @@
             "state" : "translated",
             "value" : "猎户"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "獵戶"
+          }
         }
       }
     },
@@ -9208,6 +10828,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新星"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "新星"
@@ -9246,6 +10872,12 @@
             "state" : "translated",
             "value" : "小阳"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小陽"
+          }
         }
       }
     },
@@ -9279,6 +10911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "房主已将你移出房间。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "房主已將你移出房間。"
           }
         }
       }
@@ -9314,6 +10952,12 @@
             "state" : "translated",
             "value" : "房主关闭了房间。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "房主關閉了房間。"
+          }
         }
       }
     },
@@ -9347,6 +10991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "无法重新连接到房主。你可以在主页的“继续游戏”中重新加入。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法重新連線到房主。你可以在主畫面的“繼續遊戲”中重新加入。"
           }
         }
       }
@@ -9382,6 +11032,12 @@
             "state" : "translated",
             "value" : "所有玩家都会被秘密分配到月光结社(善)或暗影(恶)阵营。在最多5次远征任务中,你只能凭对话和投票记录推理出谁是暗影。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所有玩家都會被秘密分配到月光結社(善)或暗影(惡)陣營。在最多5次遠征任務中,你只能憑對話和投票記錄推理出誰是暗影。"
+          }
         }
       }
     },
@@ -9415,6 +11071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "除了一名说谎者,所有人都会拿到同一个题词。轮流用一句话描述题词,确认彼此是否真的知道。说谎者不知道题词,必须装作知道。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "除了一名說謊者,所有人都會拿到同一個題詞。輪流用一句話描述題詞,確認彼此是否真的知道。說謊者不知道題詞,必須裝作知道。"
           }
         }
       }
@@ -9450,6 +11112,12 @@
             "state" : "translated",
             "value" : "鬼怪潜入了村庄!夜里每个人通过秘密行动获取信息或悄悄换牌,白天讨论后,只用一次投票决定放逐谁。夜里牌可能被换掉,所以胜负以“最终的牌”为准。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鬼怪潛入了村莊!夜裡每個人透過秘密行動獲取資訊或悄悄換牌,白天討論後,只用一次投票決定放逐誰。夜裡牌可能被換掉,所以勝負以“最終的牌”為準。"
+          }
         }
       }
     },
@@ -9483,6 +11151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "每回合有一名玩家成为“画家”,只能用画画表达题词。其他人看画,在聊天中猜答案。不能写字或数字。每位玩家都当过一次画家后,游戏结束。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每回合有一名玩家成為“畫家”,只能用畫畫表達題詞。其他人看畫,在聊天中猜答案。不能寫字或數字。每位玩家都當過一次畫家後,遊戲結束。"
           }
         }
       }
@@ -9518,6 +11192,12 @@
             "state" : "translated",
             "value" : "月光结社(善)"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月光結社(善)"
+          }
         }
       }
     },
@@ -9551,6 +11231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "任务成功3次。但最后如果刺客准确指认出预言家,就会逆转落败,所以预言家必须隐藏身份到最后。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "任務成功3次。但最後如果刺客準確指認出預言家,就會逆轉落敗,所以預言家必須隱藏身分到最後。"
           }
         }
       }
@@ -9586,6 +11272,12 @@
             "state" : "translated",
             "value" : "暗影(恶)"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暗影(惡)"
+          }
         }
       }
     },
@@ -9619,6 +11311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "任务失败3次 · 远征队连续5次被否决 · 刺杀预言家成功 — 三者满足其一即获胜。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "任務失敗3次 · 遠征隊連續5次被否決 · 刺殺預言家成功 — 三者滿足其一即獲勝。"
           }
         }
       }
@@ -9654,6 +11352,12 @@
             "state" : "translated",
             "value" : "通过投票准确指认说谎者,且说谎者没能猜中题词,即获胜。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "透過投票準確指認說謊者,且說謊者沒能猜中題詞,即獲勝。"
+          }
         }
       }
     },
@@ -9687,6 +11391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "票数分散或指认错人即获胜。即使被抓,猜中题词也能逆转获胜!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "票數分散或指認錯人即獲勝。即使被抓,猜中題詞也能逆轉獲勝!"
           }
         }
       }
@@ -9722,6 +11432,12 @@
             "state" : "translated",
             "value" : "村庄"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "村莊"
+          }
         }
       }
     },
@@ -9755,6 +11471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "放逐鬼怪(以最终的牌为准)即获胜。如果鬼怪全都在中间的牌里,则不放逐任何人才算获胜。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放逐鬼怪(以最終的牌為準)即獲勝。如果鬼怪全都在中間的牌裡,則不放逐任何人才算獲勝。"
           }
         }
       }
@@ -9790,6 +11512,12 @@
             "state" : "translated",
             "value" : "只要没有鬼怪被放逐就获胜 — 即使无辜的人被放逐也算赢。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只要沒有鬼怪被放逐就獲勝 — 即使無辜的人被放逐也算贏。"
+          }
         }
       }
     },
@@ -9823,6 +11551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "猜题者"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "猜題者"
           }
         }
       }
@@ -9858,6 +11592,12 @@
             "state" : "translated",
             "value" : "看画越快猜出题词,得分越高!猜对就能得分。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "看畫越快猜出題詞,得分越高!猜對就能得分。"
+          }
         }
       }
     },
@@ -9892,6 +11632,12 @@
             "state" : "translated",
             "value" : "你画的画被越多人猜中,得分越高。关键是让每个人都能认出来!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你畫的畫被越多人猜中,得分越高。關鍵是讓每個人都能認出來!"
+          }
         }
       }
     },
@@ -9922,6 +11668,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "玩法"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "玩法"
@@ -9960,6 +11712,12 @@
             "state" : "translated",
             "value" : "游戏目标"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遊戲目標"
+          }
         }
       }
     },
@@ -9993,6 +11751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "获胜条件"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "獲勝條件"
           }
         }
       }
@@ -10028,6 +11792,12 @@
             "state" : "translated",
             "value" : "接下来你会和机器人一起,一步步亲自体验来学习。\n每个阶段都会显示提示,点“下一步”继续。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接下來你會和機器人一起,一步步親自體驗來學習。\n每個階段都會顯示提示,點“下一步”繼續。"
+          }
         }
       }
     },
@@ -10061,6 +11831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "开始练习"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始練習"
           }
         }
       }
@@ -10096,6 +11872,12 @@
             "state" : "translated",
             "value" : "回到主页"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "回到主畫面"
+          }
         }
       }
     },
@@ -10129,6 +11911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "刺杀时刻"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刺殺時刻"
           }
         }
       }
@@ -10164,6 +11952,12 @@
             "state" : "translated",
             "value" : "月光结社完成了3次远征任务。\n但如果刺客找出预言家,暗影就会逆转获胜!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月光結社完成了3次遠征任務。\n但如果刺客找出預言家,暗影就會逆轉獲勝!"
+          }
         }
       }
     },
@@ -10197,6 +11991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "请指认你认为是预言家的玩家"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請指認你認為是預言家的玩家"
           }
         }
       }
@@ -10232,6 +12032,12 @@
             "state" : "translated",
             "value" : "执行刺杀"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "執行刺殺"
+          }
         }
       }
     },
@@ -10265,6 +12071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "刺客正在选择最后的目标…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刺客正在選擇最後的目標…"
           }
         }
       }
@@ -10300,6 +12112,12 @@
             "state" : "translated",
             "value" : "%@获胜!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@獲勝!"
+          }
         }
       }
     },
@@ -10334,6 +12152,12 @@
             "state" : "translated",
             "value" : "公开身份"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "公開身分"
+          }
         }
       }
     },
@@ -10364,6 +12188,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "我"
@@ -10402,6 +12232,12 @@
             "state" : "translated",
             "value" : "与相同成员再玩一次"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "與相同成員再玩一次"
+          }
         }
       }
     },
@@ -10435,6 +12271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "房主可以重新开始"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "房主可以重新開始"
           }
         }
       }
@@ -10470,6 +12312,12 @@
             "state" : "translated",
             "value" : "离开"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "離開"
+          }
         }
       }
     },
@@ -10503,6 +12351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "第一次玩?先和机器人练习吧"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "第一次玩?先和機器人練習吧"
           }
         }
       }
@@ -10538,6 +12392,12 @@
             "state" : "translated",
             "value" : "你可以独自与机器人完整玩一局,熟悉规则。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你可以獨自與機器人完整玩一局,熟悉規則。"
+          }
         }
       }
     },
@@ -10571,6 +12431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "要强制推进这个阶段吗?"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要強制推進這個階段嗎?"
           }
         }
       }
@@ -10606,6 +12472,12 @@
             "state" : "translated",
             "value" : "强制推进"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "強制推進"
+          }
         }
       }
     },
@@ -10636,6 +12508,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "取消"
@@ -10674,6 +12552,12 @@
             "state" : "translated",
             "value" : "要移出%@吗?"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要移出%@嗎?"
+          }
         }
       }
     },
@@ -10704,6 +12588,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移出"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "移出"
@@ -10742,6 +12632,12 @@
             "state" : "translated",
             "value" : "移出之后,进行中的游戏会由剩余的玩家继续。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移出之後,進行中的遊戲會由剩餘的玩家繼續。"
+          }
         }
       }
     },
@@ -10772,6 +12668,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GM主持人模式"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "GM主持人模式"
@@ -10810,6 +12712,12 @@
             "state" : "translated",
             "value" : "如果进程卡住了,可以在这里让游戏继续。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "如果程序卡住了,可以在這裡讓遊戲繼續。"
+          }
         }
       }
     },
@@ -10843,6 +12751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "进程控制"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "程序控制"
           }
         }
       }
@@ -10878,6 +12792,12 @@
             "state" : "translated",
             "value" : "强制推进阶段"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "強制推進階段"
+          }
         }
       }
     },
@@ -10912,6 +12832,12 @@
             "state" : "translated",
             "value" : "当前阶段没有可以强制推进的内容。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "當前階段沒有可以強制推進的內容。"
+          }
         }
       }
     },
@@ -10942,6 +12868,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "管理玩家"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "管理玩家"
@@ -10980,6 +12912,12 @@
             "state" : "translated",
             "value" : "私密信息"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "私密資訊"
+          }
         }
       }
     },
@@ -11013,6 +12951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "公开身份和答案"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "公開身分和答案"
           }
         }
       }
@@ -11048,6 +12992,12 @@
             "state" : "translated",
             "value" : "查看后,GM本人很难再公平地游戏。请仅在进程卡住时使用。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "檢視後,GM本人很難再公平地遊戲。請僅在程序卡住時使用。"
+          }
         }
       }
     },
@@ -11081,6 +13031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "要离开游戏吗?"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要離開遊戲嗎?"
           }
         }
       }
@@ -11116,6 +13072,12 @@
             "state" : "translated",
             "value" : "中止游戏并返回大厅"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中止遊戲並返回大廳"
+          }
         }
       }
     },
@@ -11150,6 +13112,12 @@
             "state" : "translated",
             "value" : "关闭房间(所有人结束)"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關閉房間(所有人結束)"
+          }
         }
       }
     },
@@ -11180,6 +13148,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主持人面板"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "主持人面板"
@@ -11218,6 +13192,12 @@
             "state" : "translated",
             "value" : "第%lld次远征"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "第%lld次遠征"
+          }
         }
       }
     },
@@ -11251,6 +13231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "队长:%@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隊長:%@"
           }
         }
       }
@@ -11286,6 +13272,12 @@
             "state" : "translated",
             "value" : "游戏结束"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遊戲結束"
+          }
         }
       }
     },
@@ -11320,6 +13312,12 @@
             "state" : "translated",
             "value" : "查看我的身份"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "檢視我的身分"
+          }
         }
       }
     },
@@ -11350,6 +13348,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一步"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "下一步"
@@ -11388,6 +13392,12 @@
             "state" : "translated",
             "value" : "这是每个人悄悄确认自己身份的阶段。确认身份后点“下一步”,机器人也会完成确认。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這是每個人悄悄確認自己身分的階段。確認身分後點“下一步”,機器人也會完成確認。"
+          }
         }
       }
     },
@@ -11421,6 +13431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "队长提名这次出发的远征队。点“下一步”后队长会选择队员。(如果你是队长,请亲自选择!)"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隊長提名這次出發的遠征隊。點“下一步”後隊長會選擇隊員。(如果你是隊長,請親自選擇!)"
           }
         }
       }
@@ -11456,6 +13472,12 @@
             "state" : "translated",
             "value" : "所有人对远征队的组成投赞成/反对票。平票即否决!先投票,再点“下一步”查看机器人的票。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所有人對遠征隊的組成投贊成/反對票。平票即否決!先投票,再點“下一步”檢視機器人的票。"
+          }
         }
       }
     },
@@ -11489,6 +13511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "这是投票结果。远征队连续5次被否决,暗影阵营就会获胜,所以不能一味反对。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這是投票結果。遠征隊連續5次被否決,暗影陣營就會獲勝,所以不能一味反對。"
           }
         }
       }
@@ -11524,6 +13552,12 @@
             "state" : "translated",
             "value" : "只有远征队员出成功/失败牌。月光结社只能出成功,只有暗影可以悄悄出失败。点“下一步”观看远征队提交牌。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只有遠征隊員出成功/失敗牌。月光結社只能出成功,只有暗影可以悄悄出失敗。點“下一步”觀看遠征隊提交牌。"
+          }
         }
       }
     },
@@ -11557,6 +13591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "失败牌达到规定数量,远征就失败!任一阵营先拿下3胜,游戏结束。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失敗牌達到規定數量,遠征就失敗!任一陣營先拿下3勝,遊戲結束。"
           }
         }
       }
@@ -11592,6 +13632,12 @@
             "state" : "translated",
             "value" : "即使任务成功3次,最后还有反转 — 刺客如果准确指认出预言家,暗影就会逆转获胜。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "即使任務成功3次,最後還有反轉 — 刺客如果準確指認出預言家,暗影就會逆轉獲勝。"
+          }
         }
       }
     },
@@ -11625,6 +13671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "与房主的连接断开了。正在尝试自动重连…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "與房主的連線斷開了。正在嘗試自動重連…"
           }
         }
       }
@@ -11660,6 +13712,12 @@
             "state" : "translated",
             "value" : "超时"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "超時"
+          }
         }
       }
     },
@@ -11693,6 +13751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "请在别人看不到的地方确认"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請在別人看不到的地方確認"
           }
         }
       }
@@ -11728,6 +13792,12 @@
             "state" : "translated",
             "value" : "%@阵营"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@陣營"
+          }
         }
       }
     },
@@ -11762,6 +13832,12 @@
             "state" : "translated",
             "value" : "看起来像暗影成员的人"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "看起來像暗影成員的人"
+          }
         }
       }
     },
@@ -11792,6 +13868,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你的暗影同伴"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "你的暗影同伴"
@@ -11830,6 +13912,12 @@
             "state" : "translated",
             "value" : "目标:%@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目標:%@"
+          }
         }
       }
     },
@@ -11863,6 +13951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在维护中,马上重新开放。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在維護中,馬上重新開放。"
           }
         }
       }
@@ -11898,6 +13992,12 @@
             "state" : "translated",
             "value" : "与身边朋友一起玩的3款派对游戏"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "與身邊朋友一起玩的3款派對遊戲"
+          }
         }
       }
     },
@@ -11931,6 +14031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "昵称"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暱稱"
           }
         }
       }
@@ -11966,6 +14072,12 @@
             "state" : "translated",
             "value" : "请输入名字"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請輸入名字"
+          }
         }
       }
     },
@@ -11999,6 +14111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "选一个游戏"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選一個遊戲"
           }
         }
       }
@@ -12034,6 +14152,12 @@
             "state" : "translated",
             "value" : "5~15人 · 找出潜伏的暗影的身份推理"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5~15人 · 找出潛伏的暗影的身分推理"
+          }
         }
       }
     },
@@ -12067,6 +14191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3~15人 · 找出不知道题词的那一个人"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3~15人 · 找出不知道題詞的那一個人"
           }
         }
       }
@@ -12102,6 +14232,12 @@
             "state" : "translated",
             "value" : "3~15人 · 鬼怪潜入的一夜推理"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3~15人 · 鬼怪潛入的一夜推理"
+          }
         }
       }
     },
@@ -12135,6 +14271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3~15人 · 一人画,其他人猜的画画游戏"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3~15人 · 一人畫,其他人猜的畫畫遊戲"
           }
         }
       }
@@ -12170,6 +14312,12 @@
             "state" : "translated",
             "value" : "查找附近所有房间"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "查詢附近所有房間"
+          }
         }
       }
     },
@@ -12203,6 +14351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "同一Wi-Fi或近距离的iPhone会自动连接。\n没有网络也能玩。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同一Wi-Fi或近距離的iPhone會自動連線。\n沒有網路也能玩。"
           }
         }
       }
@@ -12238,6 +14392,12 @@
             "state" : "translated",
             "value" : "继续游戏"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "繼續遊戲"
+          }
         }
       }
     },
@@ -12271,6 +14431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@的房间%2$@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@的房間%2$@"
           }
         }
       }
@@ -12306,6 +14472,12 @@
             "state" : "translated",
             "value" : "清除“继续游戏”记录"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清除“繼續遊戲”記錄"
+          }
         }
       }
     },
@@ -12339,6 +14511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "找出混入远征队的暗影阵营,5~15人的身份推理游戏。先让任务成功(或失败)3次的阵营获胜。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "找出混入遠征隊的暗影陣營,5~15人的身分推理遊戲。先讓任務成功(或失敗)3次的陣營獲勝。"
           }
         }
       }
@@ -12374,6 +14552,12 @@
             "state" : "translated",
             "value" : "除了说谎者,所有人都拿到同一个题词的3~15人斗智游戏。轮流用一句话描述后,找出说谎者。说谎者即使被抓,猜中题词也能逆转获胜!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "除了說謊者,所有人都拿到同一個題詞的3~15人鬥智遊戲。輪流用一句話描述後,找出說謊者。說謊者即使被抓,猜中題詞也能逆轉獲勝!"
+          }
         }
       }
     },
@@ -12407,6 +14591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "鬼怪潜入的一夜,3~15人推理游戏。夜里牌会被换来换去,只靠一次投票决出胜负。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鬼怪潛入的一夜,3~15人推理遊戲。夜裡牌會被換來換去,只靠一次投票決出勝負。"
           }
         }
       }
@@ -12442,6 +14632,12 @@
             "state" : "translated",
             "value" : "每回合一人把题词画出来,其他人在聊天里猜的3~15人画画游戏。猜得越快得分越高!每人都画过一次后,得分最高者获胜。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每回合一人把題詞畫出來,其他人在聊天裡猜的3~15人畫畫遊戲。猜得越快得分越高!每人都畫過一次後,得分最高者獲勝。"
+          }
         }
       }
     },
@@ -12475,6 +14671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "创建房间(房主)"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "建立房間(房主)"
           }
         }
       }
@@ -12510,6 +14712,12 @@
             "state" : "translated",
             "value" : "加入游戏"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加入遊戲"
+          }
         }
       }
     },
@@ -12544,6 +14752,12 @@
             "state" : "translated",
             "value" : "玩法(与机器人练习)"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "玩法(與機器人練習)"
+          }
         }
       }
     },
@@ -12574,6 +14788,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "返回"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "返回"
@@ -12612,6 +14832,12 @@
             "state" : "translated",
             "value" : "查找%@的房间"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "查詢%@的房間"
+          }
         }
       }
     },
@@ -12645,6 +14871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "查找附近房间"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "查詢附近房間"
           }
         }
       }
@@ -12680,6 +14912,12 @@
             "state" : "translated",
             "value" : "正在连接房间…"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在連線房間…"
+          }
         }
       }
     },
@@ -12713,6 +14951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在查找附近的房间…\n请确认房主已点击“创建房间”。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在查詢附近的房間…\n請確認房主已點選“建立房間”。"
           }
         }
       }
@@ -12748,6 +14992,12 @@
             "state" : "translated",
             "value" : "%@的房间"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@的房間"
+          }
         }
       }
     },
@@ -12781,6 +15031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "大家的题词都一样,只有一个人不知道"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大家的題詞都一樣,只有一個人不知道"
           }
         }
       }
@@ -12816,6 +15072,12 @@
             "state" : "translated",
             "value" : "与房主的连接断开了。正在尝试重连…"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "與房主的連線斷開了。正在嘗試重連…"
+          }
         }
       }
     },
@@ -12849,6 +15111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "类别:%@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "類別:%@"
           }
         }
       }
@@ -12884,6 +15152,12 @@
             "state" : "translated",
             "value" : "除说谎者外,所有人都拿到了同一个题词。确认自己的题词后,点“下一步”让机器人完成确认。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "除說謊者外,所有人都拿到了同一個題詞。確認自己的題詞後,點“下一步”讓機器人完成確認。"
+          }
         }
       }
     },
@@ -12917,6 +15191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "这是按顺序用一句话描述题词的阶段。每点一次“下一步”,当前回合的发言就结束。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這是按順序用一句話描述題詞的階段。每點一次“下一步”,當前回合的發言就結束。"
           }
         }
       }
@@ -12952,6 +15232,12 @@
             "state" : "translated",
             "value" : "谁的描述含糊其辞?先给你怀疑是说谎者的人投票,再点“下一步”查看机器人的票。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "誰的描述含糊其辭?先給你懷疑是說謊者的人投票,再點“下一步”檢視機器人的票。"
+          }
         }
       }
     },
@@ -12985,6 +15271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "说谎者被抓到了!但说谎者如果猜中题词就能逆转获胜 — 点“下一步”观看说谎者的猜测。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "說謊者被抓到了!但說謊者如果猜中題詞就能逆轉獲勝 — 點“下一步”觀看說謊者的猜測。"
           }
         }
       }
@@ -13020,6 +15312,12 @@
             "state" : "translated",
             "value" : "你就是说谎者!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你就是說謊者!"
+          }
         }
       }
     },
@@ -13053,6 +15351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "你不知道题词,却要装作知道来描述。别被发现!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你不知道題詞,卻要裝作知道來描述。別被發現!"
           }
         }
       }
@@ -13088,6 +15392,12 @@
             "state" : "translated",
             "value" : "题词"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "題詞"
+          }
         }
       }
     },
@@ -13121,6 +15431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "题词已送达"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "題詞已送達"
           }
         }
       }
@@ -13156,6 +15472,12 @@
             "state" : "translated",
             "value" : "确认完毕!正在等待其他玩家…"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認完畢!正在等待其他玩家…"
+          }
         }
       }
     },
@@ -13189,6 +15511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已确认"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已確認"
           }
         }
       }
@@ -13224,6 +15552,12 @@
             "state" : "translated",
             "value" : "请在别人看不到屏幕的地方确认"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請在別人看不到螢幕的地方確認"
+          }
         }
       }
     },
@@ -13254,6 +15588,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "悄悄看一眼"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "悄悄看一眼"
@@ -13292,6 +15632,12 @@
             "state" : "translated",
             "value" : "已确认:%lld/%lld"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已確認:%lld/%lld"
+          }
         }
       }
     },
@@ -13325,6 +15671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "请按顺序用一句话描述题词"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請按順序用一句話描述題詞"
           }
         }
       }
@@ -13360,6 +15712,12 @@
             "state" : "translated",
             "value" : "说得太详细会给说谎者提示,\n说得太含糊又会被你怀疑!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "說得太詳細會給說謊者提示,\n說得太含糊又會被你懷疑!"
+          }
         }
       }
     },
@@ -13393,6 +15751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "发言中"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "發言中"
           }
         }
       }
@@ -13428,6 +15792,12 @@
             "state" : "translated",
             "value" : "发言完毕"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "發言完畢"
+          }
         }
       }
     },
@@ -13461,6 +15831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "谁是说谎者?"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "誰是說謊者?"
           }
         }
       }
@@ -13496,6 +15872,12 @@
             "state" : "translated",
             "value" : "给最可疑的人投票 · 票数分散则说谎者获胜!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "給最可疑的人投票 · 票數分散則說謊者獲勝!"
+          }
         }
       }
     },
@@ -13530,6 +15912,12 @@
             "state" : "translated",
             "value" : "投票完成!正在等待计票…"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "投票完成!正在等待計票…"
+          }
         }
       }
     },
@@ -13560,6 +15948,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已投票:%lld/%lld"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "已投票:%lld/%lld"
@@ -13598,6 +15992,12 @@
             "state" : "translated",
             "value" : "要指认“%@”是说谎者吗?"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要指認“%@”是說謊者嗎?"
+          }
         }
       }
     },
@@ -13631,6 +16031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "确认投票"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認投票"
           }
         }
       }
@@ -13666,6 +16072,12 @@
             "state" : "translated",
             "value" : "提交的票无法更改。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提交的票無法更改。"
+          }
         }
       }
     },
@@ -13699,6 +16111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "抓到说谎者!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "抓到說謊者!"
           }
         }
       }
@@ -13734,6 +16152,12 @@
             "state" : "translated",
             "value" : "“%@”就是说谎者!\n但如果猜中题词,说谎者就能逆转获胜。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@”就是說謊者!\n但如果猜中題詞,說謊者就能逆轉獲勝。"
+          }
         }
       }
     },
@@ -13767,6 +16191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "选一个题词吧 — 只有一次机会!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選一個題詞吧 — 只有一次機會!"
           }
         }
       }
@@ -13802,6 +16232,12 @@
             "state" : "translated",
             "value" : "说谎者正在猜题词…"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "說謊者正在猜題詞…"
+          }
         }
       }
     },
@@ -13835,6 +16271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "要把题词猜为“%@”吗?"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要把題詞猜為“%@”嗎?"
           }
         }
       }
@@ -13870,6 +16312,12 @@
             "state" : "translated",
             "value" : "确定这个词"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確定這個詞"
+          }
         }
       }
     },
@@ -13903,6 +16351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "只有一次机会!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只有一次機會!"
           }
         }
       }
@@ -13938,6 +16392,12 @@
             "state" : "translated",
             "value" : "说谎者获胜!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "說謊者獲勝!"
+          }
         }
       }
     },
@@ -13971,6 +16431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "平民获胜!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "平民獲勝!"
           }
         }
       }
@@ -14006,6 +16472,12 @@
             "state" : "translated",
             "value" : "说谎者的猜测"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "說謊者的猜測"
+          }
         }
       }
     },
@@ -14039,6 +16511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "投票结果"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "投票結果"
           }
         }
       }
@@ -14074,6 +16552,12 @@
             "state" : "translated",
             "value" : "关闭房间"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關閉房間"
+          }
         }
       }
     },
@@ -14107,6 +16591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "我创建的房间"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我建立的房間"
           }
         }
       }
@@ -14142,6 +16632,12 @@
             "state" : "translated",
             "value" : "大厅"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大廳"
+          }
         }
       }
     },
@@ -14175,6 +16671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "玩家人数:%1$lld · 需要:%2$lld~%3$lld"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "玩家人數:%1$lld · 需要:%2$lld~%3$lld"
           }
         }
       }
@@ -14210,6 +16712,12 @@
             "state" : "translated",
             "value" : "学习玩法:机器人正在进入。\n人数到齐后,点“开始游戏”。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "學習翫法:機器人正在進入。\n人數到齊後,點“開始遊戲”。"
+          }
         }
       }
     },
@@ -14243,6 +16751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "开始游戏"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始遊戲"
           }
         }
       }
@@ -14278,6 +16792,12 @@
             "state" : "translated",
             "value" : "至少需要的人数:%lld"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "至少需要的人數:%lld"
+          }
         }
       }
     },
@@ -14311,6 +16831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在等待房主开始游戏…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在等待房主開始遊戲…"
           }
         }
       }
@@ -14346,6 +16872,12 @@
             "state" : "translated",
             "value" : "这个人数下:暗影阵营%1$lld人 · 月光结社%2$lld人"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這個人數下:暗影陣營%1$lld人 · 月光結社%2$lld人"
+          }
         }
       }
     },
@@ -14379,6 +16911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "[月光游戏厅 %@] 咨询"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "[月光遊戲廳 %@] 諮詢"
           }
         }
       }
@@ -14414,6 +16952,12 @@
             "state" : "translated",
             "value" : "支持"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支援"
+          }
         }
       }
     },
@@ -14448,6 +16992,12 @@
             "state" : "translated",
             "value" : "通过邮件咨询"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "以電子郵件洽詢"
+          }
         }
       }
     },
@@ -14478,6 +17028,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram私信(@lee25_ios)"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instagram私信(@lee25_ios)"
@@ -14516,6 +17072,12 @@
             "state" : "translated",
             "value" : "联系开发者"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "聯絡開發者"
+          }
         }
       }
     },
@@ -14549,6 +17111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "如果有bug反馈或想玩的游戏,欢迎随时告诉我们。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "如果有bug反饋或想玩的遊戲,歡迎隨時告訴我們。"
           }
         }
       }
@@ -14584,6 +17152,12 @@
             "state" : "translated",
             "value" : "无法打开邮件应用"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無法開啟「郵件」App"
+          }
         }
       }
     },
@@ -14617,6 +17191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "复制地址"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷貝位址"
           }
         }
       }
@@ -14652,6 +17232,12 @@
             "state" : "translated",
             "value" : "关闭"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關閉"
+          }
         }
       }
     },
@@ -14685,6 +17271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "请向下面的地址发送邮件。\n%@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請向下方的電子郵件位址寄送電子郵件。\n%@"
           }
         }
       }
@@ -14720,6 +17312,12 @@
             "state" : "translated",
             "value" : "欢迎来到月光游戏厅"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "歡迎來到月光遊戲廳"
+          }
         }
       }
     },
@@ -14753,6 +17351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "这是聚在一起的朋友们用iPhone一起玩的派对游戏合集。\n不需要网络,也不需要注册。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這是聚在一起的朋友們用iPhone一起玩的派對遊戲合集。\n不需要網路,也不需要註冊。"
           }
         }
       }
@@ -14788,6 +17392,12 @@
             "state" : "translated",
             "value" : "一个人创建房间"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一個人建立房間"
+          }
         }
       }
     },
@@ -14821,6 +17431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "大家都安装应用后,由一个人选游戏并点“创建房间”。\n其他人通过“加入游戏”进入房间就行了!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大家都安裝App後,由一個人選遊戲並點“建立房間”。\n其他人透過“加入遊戲”進入房間就行了!"
           }
         }
       }
@@ -14856,6 +17472,12 @@
             "state" : "translated",
             "value" : "请聚在一起并允许连接"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請聚在一起並允許連線"
+          }
         }
       }
     },
@@ -14889,6 +17511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "在同一Wi-Fi或蓝牙范围内互相查找。\n首次出现的“本地网络”访问请求,请务必允许。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在同一Wi-Fi或藍芽範圍內互相查詢。\n首次出現的“本地網路”訪問請求,請務必允許。"
           }
         }
       }
@@ -14924,6 +17552,12 @@
             "state" : "translated",
             "value" : "不熟悉规则?先练习"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不熟悉規則?先練習"
+          }
         }
       }
     },
@@ -14957,6 +17591,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "每个游戏都有“玩法(与机器人练习)”。\n你可以独自与机器人玩一局来熟悉规则。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每個遊戲都有“玩法(與機器人練習)”。\n你可以獨自與機器人玩一局來熟悉規則。"
           }
         }
       }
@@ -14992,6 +17632,12 @@
             "state" : "translated",
             "value" : "跳过"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跳過"
+          }
         }
       }
     },
@@ -15025,6 +17671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "开始"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始"
           }
         }
       }
@@ -15060,6 +17712,12 @@
             "state" : "translated",
             "value" : "玩家人数:%1$lld(%2$lld~%3$lld)"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "玩家人數:%1$lld(%2$lld~%3$lld)"
+          }
         }
       }
     },
@@ -15093,6 +17751,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "身份已分配"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "身分已分配"
           }
         }
       }
@@ -15128,6 +17792,12 @@
             "state" : "translated",
             "value" : "我已确认"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我已確認"
+          }
         }
       }
     },
@@ -15161,6 +17831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在接收身份信息…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在接收身分資訊…"
           }
         }
       }
@@ -15196,6 +17872,12 @@
             "state" : "translated",
             "value" : "身份确认:%lld/%lld"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "身分確認:%lld/%lld"
+          }
         }
       }
     },
@@ -15229,6 +17911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "请确保周围的人看不到,\n然后点按钮确认身份"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請確保周圍的人看不到,\n然後點按鈕確認身分"
           }
         }
       }
@@ -15264,6 +17952,12 @@
             "state" : "translated",
             "value" : "确认我的身份"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認我的身分"
+          }
         }
       }
     },
@@ -15297,6 +17991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "确认完毕!\n正在等待其他玩家…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確認完畢!\n正在等待其他玩家…"
           }
         }
       }
@@ -15332,6 +18032,12 @@
             "state" : "translated",
             "value" : "你是队长!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你是隊長!"
+          }
         }
       }
     },
@@ -15365,6 +18071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "请选出这次远征的%1$lld名队员(%2$lld/%3$lld)"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請選出這次遠征的%1$lld名隊員(%2$lld/%3$lld)"
           }
         }
       }
@@ -15400,6 +18112,12 @@
             "state" : "translated",
             "value" : "确定远征队 → 全员投票"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "確定遠征隊 → 全員投票"
+          }
         }
       }
     },
@@ -15433,6 +18151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "队长%1$@\n正在选择%2$lld名队员…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隊長%1$@\n正在選擇%2$lld名隊員…"
           }
         }
       }
@@ -15468,6 +18192,12 @@
             "state" : "translated",
             "value" : "自由讨论派谁去吧!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自由討論派誰去吧!"
+          }
         }
       }
     },
@@ -15501,6 +18231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "远征队赞成/反对投票"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠征隊贊成/反對投票"
           }
         }
       }
@@ -15536,6 +18272,12 @@
             "state" : "translated",
             "value" : "投票完成 — 正在等待结果(%lld/%lld)"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "投票完成 — 正在等待結果(%lld/%lld)"
+          }
         }
       }
     },
@@ -15569,6 +18311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "你同意这个远征队的组成吗?\n(所有人的票都会公开 · 平票即否决)"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你同意這個遠征隊的組成嗎?\n(所有人的票都會公開 · 平票即否決)"
           }
         }
       }
@@ -15604,6 +18352,12 @@
             "state" : "translated",
             "value" : "赞成"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "贊成"
+          }
         }
       }
     },
@@ -15637,6 +18391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "反对"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "反對"
           }
         }
       }
@@ -15672,6 +18432,12 @@
             "state" : "translated",
             "value" : "要对远征队投“赞成”吗?"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要對遠征隊投“贊成”嗎?"
+          }
         }
       }
     },
@@ -15705,6 +18471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "要对远征队投“反对”吗?"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要對遠征隊投“反對”嗎?"
           }
         }
       }
@@ -15740,6 +18512,12 @@
             "state" : "translated",
             "value" : "队长%@的选择"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隊長%@的選擇"
+          }
         }
       }
     },
@@ -15773,6 +18551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "通过!远征出发"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "透過!遠征出發"
           }
         }
       }
@@ -15808,6 +18592,12 @@
             "state" : "translated",
             "value" : "被否决了"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "被否決了"
+          }
         }
       }
     },
@@ -15841,6 +18631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "队长轮到下一位 · 连续否决 %lld/%lld"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隊長輪到下一位 · 連續否決 %lld/%lld"
           }
         }
       }
@@ -15876,6 +18672,12 @@
             "state" : "translated",
             "value" : "⚠️ 再被否决一次,暗影阵营就获胜!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⚠️ 再被否決一次,暗影陣營就獲勝!"
+          }
         }
       }
     },
@@ -15909,6 +18711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "继续"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "繼續"
           }
         }
       }
@@ -15944,6 +18752,12 @@
             "state" : "translated",
             "value" : "正在等待房主继续…"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在等待房主繼續…"
+          }
         }
       }
     },
@@ -15977,6 +18791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "赞成 👍"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "贊成 👍"
           }
         }
       }
@@ -16012,6 +18832,12 @@
             "state" : "translated",
             "value" : "反对 👎"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "反對 👎"
+          }
         }
       }
     },
@@ -16045,6 +18871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "第%lld次远征进行中"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "第%lld次遠征進行中"
           }
         }
       }
@@ -16080,6 +18912,12 @@
             "state" : "translated",
             "value" : "远征队:%@"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠征隊:%@"
+          }
         }
       }
     },
@@ -16113,6 +18951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "远征队正在执行任务…\n(已提交 %lld/%lld)"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠征隊正在執行任務…\n(已提交 %lld/%lld)"
           }
         }
       }
@@ -16148,6 +18992,12 @@
             "state" : "translated",
             "value" : "本次远征失败所需的失败牌数:%lld"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本次遠征失敗所需的失敗牌數:%lld"
+          }
         }
       }
     },
@@ -16181,6 +19031,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "请选择一张牌(没有人知道是谁出的)"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請選擇一張牌(沒有人知道是誰出的)"
           }
         }
       }
@@ -16216,6 +19072,12 @@
             "state" : "translated",
             "value" : "你是暗影 — 可以用失败牌破坏远征"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你是暗影 — 可以用失敗牌破壞遠征"
+          }
         }
       }
     },
@@ -16246,6 +19108,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提交牌"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "提交牌"
@@ -16284,6 +19152,12 @@
             "state" : "translated",
             "value" : "成功"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "成功"
+          }
         }
       }
     },
@@ -16317,6 +19191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "失败"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失敗"
           }
         }
       }
@@ -16352,6 +19232,12 @@
             "state" : "translated",
             "value" : "结社成员\n只能出成功"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結社成員\n只能出成功"
+          }
         }
       }
     },
@@ -16385,6 +19271,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "牌已提交\n正在等待其他队员…(%lld/%lld)"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "牌已提交\n正在等待其他隊員…(%lld/%lld)"
           }
         }
       }
@@ -16420,6 +19312,12 @@
             "state" : "translated",
             "value" : "远征成功!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠征成功!"
+          }
         }
       }
     },
@@ -16453,6 +19351,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "远征失败…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "遠征失敗…"
           }
         }
       }
@@ -16488,6 +19392,12 @@
             "state" : "translated",
             "value" : "成功牌%1$lld张 · 失败牌%2$lld张"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "成功牌%1$lld張 · 失敗牌%2$lld張"
+          }
         }
       }
     },
@@ -16521,6 +19431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "出现了失败牌,但本次远征需要%lld张才算失败,所以撑住了!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出現了失敗牌,但本次遠征需要%lld張才算失敗,所以撐住了!"
           }
         }
       }
@@ -16556,6 +19472,12 @@
             "state" : "translated",
             "value" : "成功 %lld : %lld 失败 — 先拿下3胜者获胜"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "成功 %lld : %lld 失敗 — 先拿下3勝者獲勝"
+          }
         }
       }
     },
@@ -16586,6 +19508,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "黑色"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "黑色"
@@ -16624,6 +19552,12 @@
             "state" : "translated",
             "value" : "红色"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "紅色"
+          }
         }
       }
     },
@@ -16654,6 +19588,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "橙色"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "橙色"
@@ -16692,6 +19632,12 @@
             "state" : "translated",
             "value" : "黄色"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "黃色"
+          }
         }
       }
     },
@@ -16725,6 +19671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "绿色"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "綠色"
           }
         }
       }
@@ -16760,6 +19712,12 @@
             "state" : "translated",
             "value" : "蓝色"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "藍色"
+          }
         }
       }
     },
@@ -16790,6 +19748,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "紫色"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "紫色"
@@ -16828,6 +19792,12 @@
             "state" : "translated",
             "value" : "棕色"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "棕色"
+          }
         }
       }
     },
@@ -16858,6 +19828,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "橡皮"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "橡皮"
@@ -16896,6 +19872,12 @@
             "state" : "translated",
             "value" : "颜色 %lld"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "顏色 %lld"
+          }
         }
       }
     },
@@ -16929,6 +19911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "细笔"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "細筆"
           }
         }
       }
@@ -16964,6 +19952,12 @@
             "state" : "translated",
             "value" : "中笔"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中筆"
+          }
         }
       }
     },
@@ -16997,6 +19991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "粗笔"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "粗筆"
           }
         }
       }
@@ -17032,6 +20032,12 @@
             "state" : "translated",
             "value" : "一人画,其他人猜"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一人畫,其他人猜"
+          }
         }
       }
     },
@@ -17062,6 +20068,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "第%1$lld / %2$lld 回合"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "第%1$lld / %2$lld 回合"
@@ -17100,6 +20112,12 @@
             "state" : "translated",
             "value" : "我是画家!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我是畫家!"
+          }
         }
       }
     },
@@ -17133,6 +20151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "画家:%@"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "畫家:%@"
           }
         }
       }
@@ -17168,6 +20192,12 @@
             "state" : "translated",
             "value" : "画好了"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "畫好了"
+          }
         }
       }
     },
@@ -17201,6 +20231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "跳过本回合"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跳過本回合"
           }
         }
       }
@@ -17236,6 +20272,12 @@
             "state" : "translated",
             "value" : "这回合你是画家!请从3个题词中选一个好画的。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這回合你是畫家!請從3個題詞中選一個好畫的。"
+          }
         }
       }
     },
@@ -17269,6 +20311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "请用画表达题词。禁止写字和数字!画完后点“下一步”,观看机器人的猜测。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請用畫表達題詞。禁止寫字和數字!畫完後點“下一步”,觀看機器人的猜測。"
           }
         }
       }
@@ -17304,6 +20352,12 @@
             "state" : "translated",
             "value" : "这是本回合的结果。猜得越快得分越高,猜中的人越多画家得分越高。点“下一步”查看最终排名。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這是本回合的結果。猜得越快得分越高,猜中的人越多畫家得分越高。點“下一步”檢視最終排名。"
+          }
         }
       }
     },
@@ -17337,6 +20391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "请选择题词"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請選擇題詞"
           }
         }
       }
@@ -17372,6 +20432,12 @@
             "state" : "translated",
             "value" : "别让别人看到!选个好画的会更有利。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "別讓別人看到!選個好畫的會更有利。"
+          }
         }
       }
     },
@@ -17405,6 +20471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@正在选择题词…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@正在選擇題詞…"
           }
         }
       }
@@ -17440,6 +20512,12 @@
             "state" : "translated",
             "value" : "稍后就会开始作画。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "稍後就會開始作畫。"
+          }
         }
       }
     },
@@ -17473,6 +20551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "字数:%lld"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "字數:%lld"
           }
         }
       }
@@ -17508,6 +20592,12 @@
             "state" : "translated",
             "value" : "答对:%1$lld/%2$lld"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "答對:%1$lld/%2$lld"
+          }
         }
       }
     },
@@ -17541,6 +20631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "大家的猜测会显示在这里。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大家的猜測會顯示在這裡。"
           }
         }
       }
@@ -17576,6 +20672,12 @@
             "state" : "translated",
             "value" : "看着画猜答案吧!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "看著畫猜答案吧!"
+          }
         }
       }
     },
@@ -17609,6 +20711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "撤销一笔"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "撤銷一筆"
           }
         }
       }
@@ -17644,6 +20752,12 @@
             "state" : "translated",
             "value" : "清除所有画"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清除所有畫"
+          }
         }
       }
     },
@@ -17677,6 +20791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "答对了!正在等待其他人…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "答對了!正在等待其他人…"
           }
         }
       }
@@ -17712,6 +20832,12 @@
             "state" : "translated",
             "value" : "输入答案…"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "輸入答案…"
+          }
         }
       }
     },
@@ -17745,6 +20871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "收起键盘"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "收起鍵盤"
           }
         }
       }
@@ -17780,6 +20912,12 @@
             "state" : "translated",
             "value" : "题词是"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "題詞是"
+          }
         }
       }
     },
@@ -17813,6 +20951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "答对"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "答對"
           }
         }
       }
@@ -17848,6 +20992,12 @@
             "state" : "translated",
             "value" : "查看最终排名"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "檢視最終排名"
+          }
         }
       }
     },
@@ -17878,6 +21028,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一回合"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "下一回合"
@@ -17916,6 +21072,12 @@
             "state" : "translated",
             "value" : "正在等待房主继续…"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在等待房主繼續…"
+          }
         }
       }
     },
@@ -17946,6 +21108,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最高分:%lld分"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "最高分:%lld分"
@@ -17984,6 +21152,12 @@
             "state" : "translated",
             "value" : "%lld分"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld分"
+          }
         }
       }
     },
@@ -18017,6 +21191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "与相同成员再玩一次"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "與相同成員再玩一次"
           }
         }
       }
@@ -18052,6 +21232,12 @@
             "state" : "translated",
             "value" : "已断开连接"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已斷開連線"
+          }
         }
       }
     },
@@ -18086,6 +21272,12 @@
             "state" : "translated",
             "value" : "正在等待%@重新连接。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在等待%@重新連線。"
+          }
         }
       }
     },
@@ -18116,6 +21308,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移出%@"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "移出%@"
@@ -18154,6 +21352,12 @@
             "state" : "translated",
             "value" : "否决"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "否決"
+          }
         }
       }
     },
@@ -18187,6 +21391,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "需失败牌2张"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需失敗牌2張"
           }
         }
       }
@@ -18222,6 +21432,12 @@
             "state" : "translated",
             "value" : "鬼怪潜入的一夜,只有一次投票"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鬼怪潛入的一夜,只有一次投票"
+          }
         }
       }
     },
@@ -18255,6 +21471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "🌙 夜晚 — 秘密行动"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🌙 夜晚 — 秘密行動"
           }
         }
       }
@@ -18290,6 +21512,12 @@
             "state" : "translated",
             "value" : "☀️ 白天 — 讨论"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "☀️ 白天 — 討論"
+          }
         }
       }
     },
@@ -18320,6 +21548,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🗳️ 放逐投票"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "🗳️ 放逐投票"
@@ -18358,6 +21592,12 @@
             "state" : "translated",
             "value" : "结果"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "結果"
+          }
         }
       }
     },
@@ -18391,6 +21631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "夜里每个人都悄悄行动。确认自己的身份并完成行动后,点“下一步”推进机器人的夜间行动。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜裡每個人都悄悄行動。確認自己的身分並完成行動後,點“下一步”推進機器人的夜間行動。"
           }
         }
       }
@@ -18426,6 +21672,12 @@
             "state" : "translated",
             "value" : "夜里夜贼和捣蛋鬼可能已经换了牌!真实游戏中,这里是讨论时间。点“下一步”开始投票。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜裡夜賊和搗蛋鬼可能已經換了牌!真實遊戲中,這裡是討論時間。點“下一步”開始投票。"
+          }
         }
       }
     },
@@ -18460,6 +21712,12 @@
             "state" : "translated",
             "value" : "先指认你怀疑是鬼怪的人,再点“下一步”查看机器人的票。得票最多的人会被放逐。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先指認你懷疑是鬼怪的人,再點“下一步”檢視機器人的票。得票最多的人會被放逐。"
+          }
         }
       }
     },
@@ -18490,6 +21748,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同伴鬼怪:%@"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "同伴鬼怪:%@"
@@ -18528,6 +21792,12 @@
             "state" : "translated",
             "value" : "夜幕降临"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜幕降臨"
+          }
         }
       }
     },
@@ -18561,6 +21831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "请在别人看不到屏幕的地方确认身份"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請在別人看不到螢幕的地方確認身分"
           }
         }
       }
@@ -18596,6 +21872,12 @@
             "state" : "translated",
             "value" : "行动完毕!正在等待其他玩家… %lld/%lld"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "行動完畢!正在等待其他玩家… %lld/%lld"
+          }
         }
       }
     },
@@ -18629,6 +21911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "你是唯一的鬼怪!可以查看1张中间的牌"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你是唯一的鬼怪!可以檢視1張中間的牌"
           }
         }
       }
@@ -18664,6 +21952,12 @@
             "state" : "translated",
             "value" : "中间 %lld"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中間 %lld"
+          }
         }
       }
     },
@@ -18697,6 +21991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "查看中间第%lld张牌"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "檢視中間第%lld張牌"
           }
         }
       }
@@ -18732,6 +22032,12 @@
             "state" : "translated",
             "value" : "已确认同伴"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已確認同伴"
+          }
         }
       }
     },
@@ -18765,6 +22071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "查看1名玩家"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "檢視1名玩家"
           }
         }
       }
@@ -18800,6 +22112,12 @@
             "state" : "translated",
             "value" : "查看中间2张"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "檢視中間2張"
+          }
         }
       }
     },
@@ -18833,6 +22151,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "查看“%@”的牌"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "檢視“%@”的牌"
           }
         }
       }
@@ -18868,6 +22192,12 @@
             "state" : "translated",
             "value" : "查看中间的2张牌"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "檢視中間的2張牌"
+          }
         }
       }
     },
@@ -18902,6 +22232,12 @@
             "state" : "translated",
             "value" : "请选择要偷牌的对象"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請選擇要偷牌的物件"
+          }
         }
       }
     },
@@ -18932,6 +22268,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "偷“%@”的牌"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "偷“%@”的牌"
@@ -18970,6 +22312,12 @@
             "state" : "translated",
             "value" : "请选择要互换牌的两个人(%lld/2)"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請選擇要互換牌的兩個人(%lld/2)"
+          }
         }
       }
     },
@@ -19004,6 +22352,12 @@
             "state" : "translated",
             "value" : "互换这两人的牌"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "互換這兩人的牌"
+          }
         }
       }
     },
@@ -19034,6 +22388,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "天亮了"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "天亮了"
@@ -19072,6 +22432,12 @@
             "state" : "translated",
             "value" : "夜里牌可能已经被换掉!\n请通过讨论找出鬼怪(以当前的牌为准)。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜裡牌可能已經被換掉!\n請透過討論找出鬼怪(以當前的牌為準)。"
+          }
         }
       }
     },
@@ -19105,6 +22471,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "(以夜晚开始时你的身份为准)"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(以夜晚開始時你的身分為準)"
           }
         }
       }
@@ -19140,6 +22512,12 @@
             "state" : "translated",
             "value" : "夜里发生的事(仅练习中公开)"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "夜裡發生的事(僅練習中公開)"
+          }
         }
       }
     },
@@ -19173,6 +22551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "真实游戏中什么都不会公开。所以讨论才重要!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "真實遊戲中什麼都不會公開。所以討論才重要!"
           }
         }
       }
@@ -19208,6 +22592,12 @@
             "state" : "translated",
             "value" : "讨论结束!开始投票"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "討論結束!開始投票"
+          }
         }
       }
     },
@@ -19241,6 +22631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在等待房主开始投票…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在等待房主開始投票…"
           }
         }
       }
@@ -19276,6 +22672,12 @@
             "state" : "translated",
             "value" : "请指认你认为是鬼怪的人"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請指認你認為是鬼怪的人"
+          }
         }
       }
     },
@@ -19309,6 +22711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "得票最多的人被放逐 · 并列则全部放逐 · 所有人都不超过1票则无人被放逐"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "得票最多的人被放逐 · 並列則全部放逐 · 所有人都不超過1票則無人被放逐"
           }
         }
       }
@@ -19344,6 +22752,12 @@
             "state" : "translated",
             "value" : "要投票放逐“%@”吗?"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要投票放逐“%@”嗎?"
+          }
         }
       }
     },
@@ -19377,6 +22791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "村庄获胜!"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "村莊獲勝!"
           }
         }
       }
@@ -19412,6 +22832,12 @@
             "state" : "translated",
             "value" : "鬼怪获胜!"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鬼怪獲勝!"
+          }
         }
       }
     },
@@ -19445,6 +22871,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "票数:%lld"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "票數:%lld"
           }
         }
       }
@@ -19481,6 +22913,12 @@
             "state" : "translated",
             "value" : "让VoiceOver更好用"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "讓VoiceOver更好用"
+          }
         }
       }
     },
@@ -19515,6 +22953,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "即使放大文字,画面也不会被截断,会重新排布得更好看。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "即使放大文字,畫面也不會被截斷,會重新排布得更好看。"
           }
         }
       }
@@ -19551,6 +22995,12 @@
             "state" : "translated",
             "value" : "轮到我的提醒"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "輪到我的提醒"
+          }
         }
       }
     },
@@ -19585,6 +23035,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "即使提高对比度或难以分辨颜色,也能看清阵营和结果。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "即使提高對比度或難以分辨顏色,也能看清陣營和結果。"
           }
         }
       }
@@ -19621,6 +23077,12 @@
             "state" : "translated",
             "value" : "让应用支持更多国家的语言。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "讓App支援更多國家的語言。"
+          }
         }
       }
     },
@@ -19655,6 +23117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "更多语言"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更多語言"
           }
         }
       }
@@ -19691,6 +23159,12 @@
             "state" : "translated",
             "value" : "舒适的颜色和对比度"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "舒適的顏色和對比度"
+          }
         }
       }
     },
@@ -19725,6 +23199,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "指尖的触感反馈"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "指尖的觸感反饋"
           }
         }
       }
@@ -19761,6 +23241,12 @@
             "state" : "translated",
             "value" : "更新后首次打开时,告诉你有哪些新内容。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新後首次開啟時,告訴你有哪些新內容。"
+          }
         }
       }
     },
@@ -19795,6 +23281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "更新动态"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新動態"
           }
         }
       }
@@ -19831,6 +23323,12 @@
             "state" : "translated",
             "value" : "拿到身份或投票结束时,会轻轻震动提醒你。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拿到身分或投票結束時,會輕輕震動提醒你。"
+          }
         }
       }
     },
@@ -19865,6 +23363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "支持英语"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支援英語"
           }
         }
       }
@@ -19901,6 +23405,12 @@
             "state" : "translated",
             "value" : "为了能和外国朋友一起玩,应用也可以用英语使用。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "為了能和外國朋友一起玩,App也可以用英語使用。"
+          }
         }
       }
     },
@@ -19935,6 +23445,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "减弱动态效果"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "減弱動態效果"
           }
         }
       }
@@ -19971,6 +23487,12 @@
             "state" : "translated",
             "value" : "开启“减弱动态效果”后,画面效果会更平静。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開啟“減弱動態效果”後,畫面效果會更平靜。"
+          }
         }
       }
     },
@@ -20005,6 +23527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "适配大字体的界面"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "適配大字型的介面"
           }
         }
       }
@@ -20041,6 +23569,12 @@
             "state" : "translated",
             "value" : "折叠屏iPhone界面"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "摺疊屏iPhone介面"
+          }
         }
       }
     },
@@ -20075,6 +23609,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "在折叠屏iPhone上,可以把宽大的屏幕分成两部分使用。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在摺疊屏iPhone上,可以把寬大的螢幕分成兩部分使用。"
           }
         }
       }
@@ -20111,6 +23651,12 @@
             "state" : "translated",
             "value" : "主屏幕小组件"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主螢幕小元件"
+          }
         }
       }
     },
@@ -20145,6 +23691,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "可以直接从主屏幕打开游戏房间。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可以直接從主螢幕開啟遊戲房間。"
           }
         }
       }
@@ -20181,6 +23733,12 @@
             "state" : "translated",
             "value" : "屏幕朗读会完整且按正确顺序读出身份卡和投票按钮。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "螢幕朗讀會完整且按正確順序讀出身分卡和投票按鈕。"
+          }
         }
       }
     },
@@ -20215,6 +23773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "即使熄屏,轮到你时也会用通知提醒你。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "即使熄屏,輪到你時也會用通知提醒你。"
           }
         }
       }

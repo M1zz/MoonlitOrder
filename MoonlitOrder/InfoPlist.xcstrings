@@ -32,6 +32,12 @@
             "state" : "translated",
             "value" : "月光游戏厅"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "月光遊戲廳"
+          }
         }
       }
     },
@@ -65,6 +71,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "需要访问本地网络,才能直接连接附近朋友的iPhone,一起玩派对游戏。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要訪問本地網路,才能直接連線附近朋友的iPhone,一起玩派對遊戲。"
           }
         }
       }
