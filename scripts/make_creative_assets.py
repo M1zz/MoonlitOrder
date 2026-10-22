@@ -24,9 +24,9 @@ OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 # 문구 언어 → App Store Connect 로케일
-STORE = {"en": "en-US", "en-GB": "en-GB", "ja": "ja"}
+STORE = {"en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans"}
 # 문구 언어 → 기기 화면 캡처 폴더
-SCREEN = {"ko": "ko", "en": "en", "en-GB": "en-GB", "ja": "ja"}   # en 캡처는 Mac 시뮬레이터에서 docs/screenshots/raw/creative/en/ 에 만든다
+SCREEN = {"ko": "ko", "en": "en", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans"}   # en 캡처는 Mac 시뮬레이터에서 docs/screenshots/raw/creative/en/ 에 만든다
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -41,6 +41,7 @@ SEARCH = {
     "en": ("Party games", "Gather round,<br>start a game", "From Liar Game to drawing and guessing<br>no internet needed"),
     "en-GB": ("Party games", "Gather round,<br>start a game", "From Liar Game to drawing and guessing<br>no internet needed"),
     "ja": ("パーティゲーム", "集まったら<br>すぐ一戦スタート", "ライアーゲームからお絵かきまで<br>インターネットなしで遊べます"),
+    "zh-Hans": ("派对游戏", "聚在一起<br>马上开一局", "从说谎者游戏到你画我猜<br>不用网络就能玩"),
 }
 
 # 헤더: 처음 온 사람에게 한 가지 약속.
@@ -49,6 +50,7 @@ HEADER = {
     "en": ("Nearby party games", "Just take out your phone<br>and play together"),
     "en-GB": ("Nearby party games", "Just take out your phone<br>and play together"),
     "ja": ("近くで遊ぶパーティゲーム", "スマホを出せば<br>みんなで一戦"),
+    "zh-Hans": ("近距离派对游戏", "拿出手机<br>大家一起玩"),
 }
 
 # 바탕 · 글자색은 앱의 색이다(Views/Theme.swift): 남색→보라 그라데이션 배경, 포인트 금색(Theme.gold).
