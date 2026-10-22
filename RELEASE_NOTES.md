@@ -98,6 +98,12 @@ Ohodnoť aplikaci a zjisti verzi
 Send feedback direkte til udvikleren
 Bedøm appen og tjek versionen
 
+### 앱스토어 (Ελληνικά)
+
+Ρυθμίσεις από το γρανάζι στην αρχική
+Στείλε σχόλια στον προγραμματιστή
+Βαθμολόγησε την εφαρμογή και δες έκδοση
+
 ## 1.0.1 (2026-07-17)
 
 ### 새로운 기능

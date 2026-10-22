@@ -27,6 +27,12 @@
             "value" : "Mondlicht-Arcade"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φεγγαρένιο Παιχνιδάδικο"
+          }
+        },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
@@ -125,6 +131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Der Zugriff auf das lokale Netzwerk wird benötigt, um dich direkt mit den iPhones deiner Freunde in der Nähe zu verbinden und gemeinsam Partyspiele zu spielen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρειάζεται πρόσβαση στο τοπικό δίκτυο για να συνδεθείς απευθείας με τα iPhone φίλων κοντά σου και να παίξετε μαζί παιχνίδια πάρτι."
           }
         },
         "en-GB" : {

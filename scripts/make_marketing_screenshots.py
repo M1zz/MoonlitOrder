@@ -15,7 +15,7 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "marketing"
 WORK = pathlib.Path("/tmp") / "moonlit-marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da"}
+STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el"}
 
 # (원본 파일, 헤드라인, 서브카피) — 언어마다 따로 쓴다.
 SHOTS = {
@@ -130,6 +130,13 @@ SHOTS = {
         ("03-vote.png", "For<br>eller imod?", "I det øjeblik alles stemmer afsløres, vender spillet"),
         ("04-draw.png", "Tegn<br>og gæt", "Én tegner, de andre gætter i Måneatelieret"),
         ("05-result.png", "Jo hurtigere,<br>jo flere point", "Spil med op til 15 venner"),
+    ],
+    "el": [
+        ("01-home.png", "Μαζευτείτε<br>και παίξτε πάρτι αμέσως", "Τα iPhone κοντά συνδέονται χωρίς ίντερνετ"),
+        ("02-role.png", "Τον ρόλο σου<br>τον ξέρεις μόνο εσύ", "Βρες τις κρυμμένες Σκιές στο Τάγμα της Σελήνης"),
+        ("03-vote.png", "Υπέρ<br>ή κατά;", "Τη στιγμή που αποκαλύπτονται οι ψήφοι, το παιχνίδι αλλάζει"),
+        ("04-draw.png", "Ζωγράφισε<br>και μάντεψε", "Ένας ζωγραφίζει, οι άλλοι μαντεύουν στο Εργαστήρι του Φεγγαριού"),
+        ("05-result.png", "Όσο πιο γρήγορα,<br>τόσο περισσότεροι πόντοι", "Παίξτε μαζί έως και 15 φίλοι"),
     ],
 }
 
