@@ -476,7 +476,7 @@ Offline spielen mit Freunden
 
 ### 키워드
 
-lügner,mafia,werwolf,brettspiel,rätsel,zeichnen,raten,bluff,bluetooth,wlan,multiplayer,familie,camping
+lügner,mafia,werwolf,brettspiel,rätsel,zeichnen,raten,bluff,bluetooth,wlan,multiplayer,familie
 
 ### 프로모션 텍스트
 
