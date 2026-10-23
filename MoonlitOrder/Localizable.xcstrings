@@ -51801,150 +51801,150 @@
         }
       }
     },
-    "가까운 친구들과 즐기는 파티게임 3종" : {
+    "가까운 친구들과 즐기는 파티게임 4종" : {
       "localizations" : {
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "가까운 친구들과 즐기는 파티게임 3종"
+            "value" : "가까운 친구들과 즐기는 파티게임 4종"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3 party games to enjoy with friends nearby"
+            "value" : "4 party games to enjoy with friends nearby"
           }
         },
         "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3 party games to enjoy with friends nearby"
+            "value" : "4 party games to enjoy with friends nearby"
           }
         },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "近くの友だちと楽しむパーティゲーム3種"
+            "value" : "近くの友だちと楽しむパーティゲーム4種"
           }
         },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "与身边朋友一起玩的3款派对游戏"
+            "value" : "与身边朋友一起玩的4款派对游戏"
           }
         },
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "與身邊朋友一起玩的3款派對遊戲"
+            "value" : "與身邊朋友一起玩的4款派對遊戲"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3 вечеринки-игры с друзьями рядом"
+            "value" : "4 игры для вечеринки с друзьями рядом"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3 juegos de fiesta para disfrutar con amigos cerca"
+            "value" : "4 juegos de fiesta para disfrutar con amigos cerca"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3 Partyspiele für Freunde in der Nähe"
+            "value" : "4 Partyspiele für Freunde in der Nähe"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3 jeux de soirée à partager avec vos amis proches"
+            "value" : "4 jeux de soirée à partager avec vos amis proches"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3 giochi di società da fare con gli amici vicini"
+            "value" : "4 giochi di società da fare con gli amici vicini"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3 jogos de festa para curtir com amigos por perto"
+            "value" : "4 jogos de festa para curtir com amigos por perto"
           }
         },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "เกมปาร์ตี้ 3 เกมสำหรับเพื่อนที่อยู่ใกล้กัน"
+            "value" : "เกมปาร์ตี้ 4 เกมสำหรับเพื่อนที่อยู่ใกล้กัน"
           }
         },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3 trò chơi tiệc tùng cùng bạn bè ở gần"
+            "value" : "4 trò chơi tiệc tùng cùng bạn bè ở gần"
           }
         },
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3 párty hry s kamarády poblíž"
+            "value" : "4 párty hry s kamarády poblíž"
           }
         },
         "da" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3 festspil at nyde med venner i nærheden"
+            "value" : "4 festspil at nyde med venner i nærheden"
           }
         },
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3 παιχνίδια πάρτι για φίλους που είναι κοντά"
+            "value" : "4 παιχνίδια πάρτι για φίλους που είναι κοντά"
           }
         },
         "fi" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3 bilepeliä lähellä oleville kavereille"
+            "value" : "4 bilepeliä lähellä oleville kavereille"
           }
         },
         "id" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3 permainan pesta untuk dinikmati bersama teman di dekatmu"
+            "value" : "4 permainan pesta untuk dinikmati bersama teman di dekatmu"
           }
         },
         "nb" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3 festspill å kose seg med sammen med venner i nærheten"
+            "value" : "4 festspill å kose seg med sammen med venner i nærheten"
           }
         },
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3 feestspellen om te spelen met vrienden in de buurt"
+            "value" : "4 feestspellen om te spelen met vrienden in de buurt"
           }
         },
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3 gry imprezowe dla znajomych w pobliżu"
+            "value" : "4 gry imprezowe dla znajomych w pobliżu"
           }
         },
         "sv" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "3 festspel att njuta av med vänner i närheten"
+            "value" : "4 festspel att njuta av med vänner i närheten"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Yakındaki arkadaşlarla eğlenilecek 3 parti oyunu"
+            "value" : "Yakındaki arkadaşlarla eğlenilecek 4 parti oyunu"
           }
         }
       }

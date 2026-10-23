@@ -527,6 +527,82 @@ final class GameViewModel: ObservableObject {
         mode = .hosting
     }
 
+    // MARK: - 스토어 스크린샷 장면
+
+    /// `-screenshotScene home|blank|role|mission|vote|draw|result` — 스토어 스크린샷을 탭 없이 같은 장면으로 찍기 위한 실행 인자.
+    /// 디버그 빌드에서만 읽는다 (배포 빌드에서는 항상 nil).
+    static var screenshotScene: String? {
+        #if DEBUG
+        let args = ProcessInfo.processInfo.arguments
+        guard let i = args.firstIndex(of: "-screenshotScene"), args.indices.contains(i + 1) else { return nil }
+        return args[i + 1]
+        #else
+        return nil
+        #endif
+    }
+
+    func startScreenshotScene(_ scene: String) {
+        playerName = scene == "blank" ? "" : String(localized: "달토끼")
+        let joinDelay = 0.6 + 6 * 0.45 + 0.6   // 데모 봇들이 다 들어온 뒤
+        switch scene {
+        case "role", "vote", "mission":
+            startDemo(kind: .moonlit)
+            showDemoIntro = false
+            engine?.forcedRole = (playerID, .knight)
+            DispatchQueue.main.asyncAfter(deadline: .now() + joinDelay) { [weak self] in
+                guard let self, let engine = self.engine else { return }
+                engine.handle(.startGame(playerID: self.playerID))
+                guard scene == "vote" else { return }
+                for p in engine.players { engine.handle(.confirmRole(playerID: p.id)) }
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) { [weak self] in
+                    guard let self, let state = self.publicState, let leader = state.leaderID else { return }
+                    let others = state.players.map(\.id).filter { $0 != leader && $0 != self.playerID }
+                    let team = [leader] + others.prefix(state.requiredTeamSize - 1)
+                    engine.handle(.proposeTeam(playerID: leader, members: Array(team)))
+                }
+            }
+        case "draw", "result":
+            startDemo(kind: .sketch)
+            showDemoIntro = false
+            sketchEngine?.forcedWordChoice = String(localized: "자동차")
+            let host = playerID
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.6 + 4 * 0.45 + 0.6) { [weak self] in
+                guard let self, let engine = self.sketchEngine else { return }
+                engine.handle(host, .startGame)
+                engine.handle(host, .chooseWord(String(localized: "자동차")))
+                for stroke in Self.screenshotCarDrawing() { engine.handle(host, .addStroke(stroke)) }
+                guard scene == "result" else { return }
+                let guessers = engine.players.map(\.id).filter { $0 != host }
+                for (i, id) in guessers.enumerated() {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.4 + Double(i) * 0.3) {
+                        engine.handle(id, .guess(engine.secretWord))
+                    }
+                }
+            }
+        default:
+            break   // home: 홈 화면 그대로
+        }
+    }
+
+    /// 스크린샷용 자동차 그림 (정규화 좌표)
+    private static func screenshotCarDrawing() -> [SketchStroke] {
+        func line(_ pts: [(Double, Double)]) -> SketchStroke {
+            SketchStroke(points: pts.map { SketchPoint(x: $0.0, y: $0.1) }, colorIndex: 0, width: 10)
+        }
+        func circle(_ cx: Double, _ cy: Double, _ r: Double) -> SketchStroke {
+            line((0...32).map { i in
+                let a = 2 * Double.pi * Double(i) / 32
+                return (cx + r * cos(a), cy + r * sin(a))
+            })
+        }
+        let body = line([(0.14, 0.62), (0.14, 0.48), (0.28, 0.45), (0.37, 0.31), (0.66, 0.31),
+                         (0.76, 0.45), (0.86, 0.48), (0.86, 0.62), (0.14, 0.62)])
+        let windowL = line([(0.33, 0.45), (0.40, 0.35), (0.49, 0.35), (0.49, 0.45)])
+        let windowR = line([(0.55, 0.35), (0.64, 0.35), (0.71, 0.45)])
+        let pillar = line([(0.55, 0.35), (0.55, 0.45)])
+        return [body, windowL, windowR, pillar, circle(0.31, 0.63, 0.075), circle(0.69, 0.63, 0.075)]
+    }
+
     /// 데모(달 없는 밤) 전용: 연습에서만 공개하는 '밤사이 일어난 일' 요약
     func demoNightSummary() -> String? {
         wolfDemoDriver?.nightSummary()

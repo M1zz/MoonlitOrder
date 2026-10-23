@@ -45,7 +45,7 @@ struct RootView: View {
     static var isScriptedLaunch: Bool {
         ProcessInfo.processInfo.arguments.contains { arg in
             arg.hasPrefix("-demo") || arg.hasPrefix("-kickPreview")
-                || ["-gmPreview", "-autoHost", "-autoJoin"].contains(arg)
+                || ["-gmPreview", "-autoHost", "-autoJoin", "-screenshotScene"].contains(arg)
         }
     }
 
@@ -129,7 +129,9 @@ struct RootView: View {
             // 실행 인자로 게임방법(데모) 판을 바로 연다 (시뮬레이터 시연용)
             guard game.mode == .idle else { return }
             let args = ProcessInfo.processInfo.arguments
-            if args.contains("-demoLiar") {
+            if let scene = GameViewModel.screenshotScene {
+                game.startScreenshotScene(scene)
+            } else if args.contains("-demoLiar") {
                 game.startDemo(kind: .liar)
             } else if args.contains("-demoWolf") {
                 game.startDemo(kind: .wolf)

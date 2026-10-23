@@ -32,6 +32,7 @@ final class GameEngine {
     private var phaseStartedAt = Date()
     private var round = 1
     private var leaderIndex = 0
+    var forcedRole: (playerID: UUID, role: Role)?
     private var proposedTeam: [UUID] = []
     private var voteTrack = 0
     private var missionHistory: [MissionRecord] = []
@@ -168,7 +169,13 @@ final class GameEngine {
               playerID == hostID,
               GameRules.playerRange.contains(players.count) else { return }
 
-        let roles = GameRules.makeRoles(for: players.count)
+        var roles = GameRules.makeRoles(for: players.count)
+        // 스크린샷용: 정해 둔 플레이어에게 정해 둔 역할을 준다 (디버그 빌드의 -screenshotScene 전용)
+        if let forced = forcedRole,
+           let pi = players.firstIndex(where: { $0.id == forced.playerID }),
+           let ri = roles.firstIndex(of: forced.role) {
+            roles.swapAt(pi, ri)
+        }
         for i in players.indices {
             players[i].role = roles[i]
             players[i].confirmedRole = false

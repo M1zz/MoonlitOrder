@@ -38,6 +38,8 @@ final class SketchEngine {
 
     /// 데모: 이 사람이 첫 화가가 되도록 보장 (사용자가 그리기를 체험)
     var guaranteeFirstDrawer: UUID?
+    /// 스크린샷용: 제시어 후보 첫 자리에 이 단어를 넣는다 (디버그 빌드의 -screenshotScene 전용)
+    var forcedWordChoice: String?
     /// 데모: 한 라운드만 진행
     var forcedTotalRounds: Int?
 
@@ -189,6 +191,9 @@ final class SketchEngine {
         category = ""
         let choices = SketchRules.drawChoices()
         wordChoices = choices.map(\.word)
+        if let forced = forcedWordChoice, !wordChoices.isEmpty, !wordChoices.contains(forced) {
+            wordChoices[0] = forced
+        }
         phase = .wordSelect
 
         pushState()

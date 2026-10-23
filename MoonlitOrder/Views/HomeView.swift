@@ -54,7 +54,7 @@ struct HomeView: View {
                 Text("달빛 오락실")
                     .font(.system(size: 36, weight: .heavy, design: .serif))
                     .foregroundColor(.white)
-                Text("가까운 친구들과 즐기는 파티게임 3종")
+                Text("가까운 친구들과 즐기는 파티게임 4종")
                     .font(.subheadline)
                     .foregroundColor(.white.opacity(0.65))
             }

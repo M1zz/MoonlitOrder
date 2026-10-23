@@ -5,7 +5,7 @@ import SwiftUI
 struct RoleRevealView: View {
     @EnvironmentObject var game: GameViewModel
     let state: PublicGameState
-    @State private var revealed = false
+    @State private var revealed = GameViewModel.screenshotScene == "role"
 
     private var confirmedCount: Int { state.players.filter { $0.hasActed }.count }
     private var iConfirmed: Bool { state.player(game.playerID)?.hasActed ?? false }
