@@ -7,8 +7,8 @@
   docs/screenshots/creative/<스토어 로케일>/header.png   3840x1646  제품 페이지 맨 위
   docs/screenshots/creative/<스토어 로케일>/search.png   3840x2560  검색 결과 (없으면 스크린샷이 대신 보인다)
 
-기기 화면은 docs/screenshots/raw/creative/ko/ 의 시뮬레이터 캡처다(-demoSketchAuto · -kickPreviewGame
-실행 인자로 봇과 함께 띄운 판). 스토어 언어는 한국어 하나다.
+기기 화면은 docs/screenshots/raw/creative/<언어>/ 의 시뮬레이터 캡처다(디버그 빌드의 -screenshotScene blank · draw · mission
+실행 인자로 띄운 장면, -AppleLanguages 로 언어마다). 스토어 언어는 deploy.env 의 LOCALES 전부다.
 
 ⚠️ 안전 영역 밖은 기기에 따라 잘린다. 글은 **반드시** 안전 영역 안에 둔다(배경 · 기기 그림은 넘쳐도 된다).
    수치는 Apple 공식 PSD 템플릿에서 잰 값이다(https://developer.apple.com/app-store/asset-best-practices/).
@@ -24,9 +24,9 @@ OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 # 문구 언어 → App Store Connect 로케일
-STORE = {"en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no", "nl": "nl-NL", "pl": "pl", "sv": "sv", "tr": "tr"}
+STORE = {"en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl-NL", "pl": "pl", "sv": "sv", "tr": "tr"}
 # 문구 언어 → 기기 화면 캡처 폴더
-SCREEN = {"ko": "ko", "en": "en", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl", "pl": "pl", "sv": "sv", "tr": "tr"}   # en 캡처는 Mac 시뮬레이터에서 docs/screenshots/raw/creative/en/ 에 만든다
+SCREEN = {"ko": "ko", "en": "en", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl", "pl": "pl", "sv": "sv", "tr": "tr"}   # 언어마다 docs/screenshots/raw/creative/<언어>/ 캡처
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -45,7 +45,7 @@ SEARCH = {
     "zh-Hant": ("派對遊戲", "聚在一起<br>馬上開一局", "從說謊者遊戲到你畫我猜<br>不用網路就能玩"),
     "ru": ("Вечеринки-игры", "Собрались —<br>играем сразу", "От «Лжеца» до рисования<br>без интернета"),
     "es": ("Juegos de fiesta", "Se juntan y<br>empieza la partida", "Del Mentiroso al dibujo y la adivinanza<br>sin necesidad de internet"),
-    "de": ("Partyspiele", "Zusammenkommen,<br>sofort losspielen", "Vom Lügner-Spiel bis Zeichnen und Raten<br>ganz ohne Internet"),
+    "de": ("Partyspiele", "Treffen und<br>sofort losspielen", "Vom Lügner-Spiel bis Zeichnen<br>ganz ohne Internet"),
     "fr": ("Jeux de soirée", "On se retrouve,<br>on lance une partie", "Du Jeu du Menteur au dessin à deviner<br>sans Internet"),
     "it": ("Giochi di società", "Ci si ritrova,<br>si parte subito", "Dal Gioco del Bugiardo al disegno<br>senza Internet"),
     "pt-BR": ("Jogos de festa", "Reuniu o pessoal,<br>já começa a partida", "Do Jogo do Mentiroso ao desenho<br>sem precisar de internet"),

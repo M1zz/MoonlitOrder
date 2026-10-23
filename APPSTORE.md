@@ -106,15 +106,15 @@ All games are free, and you start without an account.
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/en/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/en/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/en/
 
 ## en-GB
 
@@ -164,15 +164,15 @@ All games are free, and you start without an account.
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/en-GB/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/en-GB/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/en-GB/
 
 ## ja
 
@@ -222,15 +222,15 @@ https://m1zz.github.io/MoonlitOrder/
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/ja/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/ja/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/ja/
 
 ## zh-Hans
 
@@ -280,15 +280,15 @@ https://m1zz.github.io/MoonlitOrder/
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/zh-Hans/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/zh-Hans/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/zh-Hans/
 
 ## zh-Hant
 
@@ -338,15 +338,15 @@ https://m1zz.github.io/MoonlitOrder/
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/zh-Hant/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/zh-Hant/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/zh-Hant/
 
 ## ru
 
@@ -396,15 +396,15 @@ https://m1zz.github.io/MoonlitOrder/
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/ru/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/ru/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/ru/
 
 ## es
 
@@ -454,15 +454,15 @@ Todos los juegos son gratis y empiezan sin cuenta.
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/es/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/es/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/es/
 
 ## de
 
@@ -512,15 +512,15 @@ Alle Spiele sind kostenlos und starten ohne Konto.
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/de/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/de/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/de/
 
 ## fr
 
@@ -570,15 +570,15 @@ Tous les jeux sont gratuits et se lancent sans compte.
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/fr/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/fr/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/fr/
 
 ## it
 
@@ -628,15 +628,15 @@ Tutti i giochi sono gratuiti e si avviano senza account.
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/it/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/it/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/it/
 
 ## pt-BR
 
@@ -686,15 +686,15 @@ Todos os jogos são gratuitos e começam sem conta.
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/pt-BR/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/pt-BR/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/pt-BR/
 
 ## th
 
@@ -744,15 +744,15 @@ https://m1zz.github.io/MoonlitOrder/
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/th/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/th/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/th/
 
 ## vi
 
@@ -802,15 +802,15 @@ Mọi trò chơi đều miễn phí và bắt đầu mà không cần tài kho�
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/vi/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/vi/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/vi/
 
 ## cs
 
@@ -860,15 +860,15 @@ Všechny hry jsou zdarma a spouštějí se bez účtu.
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/cs/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/cs/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/cs/
 
 ## da
 
@@ -918,15 +918,15 @@ Alle spil er gratis og kan startes uden konto.
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/da/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/da/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/da/
 
 ## el
 
@@ -976,15 +976,15 @@ Offline παιχνίδια με φίλους
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/el/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/el/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/el/
 
 ## fi
 
@@ -1034,15 +1034,15 @@ Kaikki pelit ovat ilmaisia ja alkavat ilman tiliä.
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/fi/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/fi/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/fi/
 
 ## id
 
@@ -1092,15 +1092,15 @@ Semua permainan gratis dan bisa dimulai tanpa akun.
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/id/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/id/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/id/
 
 ## nb
 
@@ -1150,15 +1150,15 @@ Alle spill er gratis og kan startes uten konto.
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/nb/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/nb/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/nb/
 
 ## nl
 
@@ -1208,15 +1208,15 @@ Alle spellen zijn gratis en starten zonder account.
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/nl/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/nl/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/nl/
 
 ## pl
 
@@ -1266,15 +1266,15 @@ Wszystkie gry są darmowe i startują bez konta.
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/pl/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/pl/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/pl/
 
 ## sv
 
@@ -1324,15 +1324,15 @@ Alla spel är gratis och kan startas utan konto.
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/sv/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/sv/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/sv/
 
 ## tr
 
@@ -1382,12 +1382,12 @@ Tüm oyunlar ücretsizdir ve hesap olmadan başlar.
 
 ### 지원 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/tr/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/MoonlitOrder/privacy.html
+https://m1zz.github.io/MoonlitOrder/tr/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/MoonlitOrder/
+https://m1zz.github.io/MoonlitOrder/tr/

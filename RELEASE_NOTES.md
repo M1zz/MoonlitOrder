@@ -4,144 +4,192 @@
 
 ### 앱스토어 (한국어)
 
+이제 24개 언어로 즐길 수 있어요
+처음 열면 놀이 방법을 차근차근 알려 줘요
 홈 화면 오른쪽 위 톱니에서 설정을 열 수 있어요
 개발자에게 의견을 바로 보낼 수 있어요
 앱을 평가하고 버전을 확인할 수 있어요
 
 ### 앱스토어 (English)
 
+Now available in 24 languages
+A quick guide greets you on first launch
 Open Settings from the home screen gear
 Send feedback straight to the developer
 Rate the app and check your version
 
 ### 앱스토어 (en-GB)
 
+Now available in 24 languages
+A quick guide greets you on first launch
 Open Settings from the home screen gear
 Send feedback straight to the developer
 Rate the app and check your version
 
 ### 앱스토어 (日本語)
 
+24の言語で遊べるようになりました
+初めて開くと遊び方をやさしく案内します
 ホーム画面右上の歯車から設定を開けます
 開発者へ意見をすぐに送れます
 アプリを評価し、バージョンを確認できます
 
 ### 앱스토어 (简体中文)
 
+现已支持24种语言
+首次打开时会介绍玩法
 可从主页右上角的齿轮打开设置
 可以直接向开发者反馈意见
 可以给应用评分并查看版本
 
 ### 앱스토어 (繁體中文)
 
+現已支援24種語言
+首次開啟時會介紹玩法
 可從主畫面右上角的齒輪開啟設定
 可以直接向開發者回報意見
 可以為App評分並查看版本
 
 ### 앱스토어 (Русский)
 
+Теперь приложение на 24 языках
+При первом запуске покажем, как играть
 Настройки — в шестерёнке на главном
 Отзыв разработчику — в пару касаний
 Оцените приложение и проверьте версию
 
 ### 앱스토어 (Español)
 
+Ahora disponible en 24 idiomas
+La primera vez te enseñamos a jugar
 Abre Ajustes con el engranaje de inicio
 Envía tus comentarios al desarrollador
 Valora la app y consulta la versión
 
 ### 앱스토어 (Deutsch)
 
+Jetzt in 24 Sprachen verfügbar
+Kurze Anleitung beim ersten Start
 Einstellungen über das Zahnrad öffnen
 Feedback direkt an den Entwickler senden
 App bewerten und Version prüfen
 
 ### 앱스토어 (Français)
 
+Disponible désormais en 24 langues
+Un guide vous accueille au lancement
 Ouvrez les Réglages via l’engrenage
 Envoyez un avis au développeur
 Notez l’app et vérifiez la version
 
 ### 앱스토어 (Italiano)
 
+Ora disponibile in 24 lingue
+Al primo avvio una guida ti spiega
 Apri le Impostazioni dall’ingranaggio
 Invia un parere allo sviluppatore
 Valuta l’app e controlla la versione
 
 ### 앱스토어 (pt-BR)
 
+Agora disponível em 24 idiomas
+Um guia ensina a jogar na primeira vez
 Abra Ajustes pela engrenagem do início
 Envie sugestões direto ao desenvolvedor
 Avalie o app e confira a versão
 
 ### 앱스토어 (ไทย)
 
+รองรับ 24 ภาษาแล้ว
+เปิดครั้งแรกจะมีคำแนะนำวิธีเล่น
 เปิดการตั้งค่าจากเฟืองบนหน้าหลัก
 ส่งความเห็นถึงนักพัฒนาได้ทันที
 ให้คะแนนแอปและเช็กเวอร์ชันได้
 
 ### 앱스토어 (Tiếng Việt)
 
+Nay đã hỗ trợ 24 ngôn ngữ
+Lần đầu mở sẽ có hướng dẫn cách chơi
 Mở Cài đặt bằng bánh răng màn chính
 Gửi góp ý cho nhà phát triển ngay
 Đánh giá ứng dụng và xem phiên bản
 
 ### 앱스토어 (Čeština)
 
+Nově ve 24 jazycích
+Při prvním spuštění tě provede návod
 Nastavení otevřeš ozubeným kolem
 Zpětnou vazbu pošleš vývojáři hned
 Ohodnoť aplikaci a zjisti verzi
 
 ### 앱스토어 (Dansk)
 
+Nu på 24 sprog
+En kort guide ved første start
 Åbn Indstillinger med tandhjulet
 Send feedback direkte til udvikleren
 Bedøm appen og tjek versionen
 
 ### 앱스토어 (Ελληνικά)
 
+Τώρα σε 24 γλώσσες
+Στο πρώτο άνοιγμα σε καθοδηγεί οδηγός
 Ρυθμίσεις από το γρανάζι στην αρχική
 Στείλε σχόλια στον προγραμματιστή
 Βαθμολόγησε την εφαρμογή και δες έκδοση
 
 ### 앱스토어 (Suomi)
 
+Nyt 24 kielellä
+Ensimmäisellä kerralla opas neuvoo
 Avaa asetukset hammasrattaasta
 Lähetä palautetta kehittäjälle suoraan
 Arvioi sovellus ja tarkista versio
 
 ### 앱스토어 (Indonesia)
 
+Kini tersedia dalam 24 bahasa
+Ada panduan cara bermain saat pertama
 Buka Pengaturan lewat ikon roda gigi
 Kirim masukan langsung ke pengembang
 Nilai aplikasi dan cek versinya
 
 ### 앱스토어 (Norsk bokmål)
 
+Nå på 24 språk
+En kort innføring første gang du åpner
 Åpne Innstillinger med tannhjulet
 Send tilbakemelding rett til utvikleren
 Vurder appen og sjekk versjonen
 
 ### 앱스토어 (Nederlands)
 
+Nu beschikbaar in 24 talen
+Bij de eerste start leggen we alles uit
 Open Instellingen via het tandwiel
 Stuur feedback direct naar de maker
 Beoordeel de app en check je versie
 
 ### 앱스토어 (Polski)
 
+Teraz w 24 językach
+Na start pokażemy, jak grać
 Ustawienia otworzysz kołem zębatym
 Opinię wyślesz twórcy od ręki
 Oceń aplikację i sprawdź wersję
 
 ### 앱스토어 (Svenska)
 
+Nu på 24 språk
+En kort guide första gången du öppnar
 Öppna Inställningar via kugghjulet
 Skicka feedback direkt till utvecklaren
 Betygsätt appen och se versionen
 
 ### 앱스토어 (Türkçe)
 
+Artık 24 dilde
+İlk açılışta oyunu anlatıyoruz
 Ayarlar ana ekrandaki dişlide
 Geri bildirim doğrudan geliştiriciye
 Uygulamayı puanla, sürümü gör

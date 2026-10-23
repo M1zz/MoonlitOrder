@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arcade Lunaire · Assistance</title>
+<meta name="description" content="Arcade Lunaire est une collection de jeux de soirée hors ligne qui relie directement les iPhone à proximité, sans Internet.">
+<!--HREFLANG-->
+<link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/fr/index.html">
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/index.html">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
+<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/index.html">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/index.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/index.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/index.html">
+<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/index.html">
+<link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/index.html">
+<link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/index.html">
+<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/index.html">
+<link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/index.html">
+<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/index.html">
+<link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/index.html">
+<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/index.html">
+<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/index.html">
+<link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/index.html">
+<link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/index.html">
+<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/index.html">
+<link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/index.html">
+<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/index.html">
+<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/index.html">
+<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/index.html">
+<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/index.html">
+<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/index.html">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
+<!--/HREFLANG-->
+<style>
+  :root{
+    --bg1:#0f1226; --bg2:#211840; --card:rgba(255,255,255,.06);
+    --stroke:rgba(255,255,255,.12); --text:#f4f3fb; --muted:rgba(244,243,251,.62);
+    --gold:#f2c759; --blue:#73bfff; --red:#f25a6b; --mint:#59d1b8;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",
+      "Malgun Gothic",sans-serif;
+    color:var(--text); line-height:1.7;
+    background:linear-gradient(180deg,var(--bg1),var(--bg2)) fixed;
+    min-height:100vh; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 80px}
+  header{text-align:center;margin-bottom:44px}
+  .logo{font-size:52px;line-height:1}
+  h1{font-size:34px;font-weight:800;margin:14px 0 6px;letter-spacing:-.5px}
+  .sub{color:var(--muted);font-size:15px}
+  .badge{display:inline-block;margin-top:14px;padding:5px 12px;border-radius:999px;
+    background:rgba(89,209,184,.14);color:var(--mint);font-size:13px;font-weight:600}
+  section{background:var(--card);border:1px solid var(--stroke);border-radius:18px;
+    padding:26px 24px;margin:18px 0}
+  h2{font-size:20px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:9px}
+  h2 .ic{font-size:22px}
+  h3{font-size:16px;font-weight:700;margin:18px 0 4px;color:var(--gold)}
+  p,li{color:var(--text);font-size:15.5px}
+  .muted{color:var(--muted)}
+  ul{padding-left:20px;margin:8px 0}
+  li{margin:6px 0}
+  .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:8px}
+  .game{background:rgba(255,255,255,.04);border:1px solid var(--stroke);border-radius:14px;padding:14px}
+  .game .n{font-weight:700;font-size:15px}
+  .game .d{color:var(--muted);font-size:13px;margin-top:3px}
+  .qa{margin:16px 0}
+  .qa .q{font-weight:700;color:var(--blue);font-size:15.5px}
+  .qa .a{color:var(--text);margin-top:3px}
+  a{color:var(--mint);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .contact{text-align:center;background:rgba(242,199,89,.10);border-color:rgba(242,199,89,.28)}
+  .contact .mail{font-size:20px;font-weight:800;color:var(--gold);display:inline-block;margin-top:6px}
+  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:36px;line-height:1.9}
+  footer a{color:var(--muted);text-decoration:underline}
+.langs{display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:center;margin-top:16px;font-size:13px}.langs a{color:var(--muted);text-decoration:none}.langs a[aria-current]{color:var(--gold);font-weight:700}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">🌙</div>
+    <h1>Arcade Lunaire</h1>
+    <div class="sub">Des jeux de soirée hors ligne à partager avec vos amis tout proches</div>
+    <div class="badge">Assistance clientèle</div>
+    <!--LANGNAV--><nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr" aria-current="page">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--/LANGNAV-->
+  </header>
+
+  <section>
+    <h2><span class="ic">🎲</span>De quoi s’agit-il ?</h2>
+    <p><strong>Arcade Lunaire</strong> est une collection de jeux d’ambiance et de déduction sociale qui relie directement les iPhone à proximité, sans Internet. Sur le même réseau Wi-Fi ou à portée de Bluetooth, vous pouvez créer un salon et le rejoindre aussitôt, sans aucun serveur.</p>
+    <div class="games">
+      <div class="game"><div class="n">🌙 Ordre Lunaire</div><div class="d">5 à 15 joueurs · Démasquez les Ombres infiltrées parmi vous</div></div>
+      <div class="game"><div class="n">🎭 Jeu du Menteur</div><div class="d">3 à 15 joueurs · Trouvez celui qui ne connaît pas le mot</div></div>
+      <div class="game"><div class="n">🔥 Nuit sans Lune</div><div class="d">3 à 15 joueurs · Une nuit de déduction où se cachent des Gobelins</div></div>
+      <div class="game"><div class="n">🖌️ Atelier Lunaire</div><div class="d">3 à 15 joueurs · L’un dessine, les autres devinent</div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="ic">▶️</span>Comment jouer</h2>
+    <ul>
+      <li>Saisissez votre pseudo et choisissez un jeu.</li>
+      <li>Une personne touche <strong>« Créer un salon (hôte) »</strong>, les autres entrent dans le salon avec <strong>« Rejoindre une partie »</strong>.</li>
+      <li>Sur le même Wi-Fi ou à courte distance (Bluetooth), les appareils se trouvent automatiquement. Aucune connexion Internet n’est nécessaire.</li>
+      <li>Lors de la première connexion, touchez <strong>Autoriser l’accès au réseau local</strong> pour que l’app puisse détecter les appareils à proximité.</li>
+      <li>Dans chaque jeu, <strong>« Comment jouer (entraînement avec bots) »</strong> vous apprend les règles étape par étape avec des bots.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="ic">🛠️</span>Questions fréquentes</h2>
+
+    <div class="qa">
+      <div class="q">Je ne vois aucun salon à proximité.</div>
+      <div class="a">Vérifiez que l’hôte et les joueurs sont connectés au <strong>même réseau Wi-Fi</strong> ou qu’ils sont proches les uns des autres. Arcade Lunaire doit être activé dans Réglages &gt; Confidentialité et sécurité &gt; <strong>Réseau local</strong>. La connexion est la plus stable lorsque le Wi-Fi et le Bluetooth sont tous deux activés.</div>
+    </div>
+
+    <div class="qa">
+      <div class="q">La connexion a été coupée pendant la partie.</div>
+      <div class="a">En rouvrant l’app, vous êtes <strong>reconnecté automatiquement</strong> au même salon et vous reprenez la partie en cours. Si la reconnexion n’a pas lieu au bout d’un certain temps, rejoignez de nouveau le salon depuis la liste des salons.</div>
+    </div>
+
+    <div class="qa">
+      <div class="q">Combien faut-il de joueurs au minimum ?</div>
+      <div class="a">Ordre Lunaire se joue à partir de 5 joueurs et les autres jeux à partir de 3, jusqu’à 15 joueurs au maximum.</div>
+    </div>
+
+    <div class="qa">
+      <div class="q">Faut-il Internet ou un compte ?</div>
+      <div class="a">Non. On joue hors ligne, sans inscription, sans connexion à un compte et sans Internet. Les données de jeu ne sont envoyées à aucun serveur.</div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2 style="justify-content:center"><span class="ic">✉️</span>Nous contacter</h2>
+    <p class="muted">Pour signaler un bug, faire une suggestion ou pour toute autre question, écrivez-nous directement depuis Réglages (roue dentée) &gt; Assistance dans l’app, ou à l’adresse e-mail ci-dessous. Nous vous répondrons dans les meilleurs délais.</p>
+    <a class="mail" href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>
+  </section>
+
+
+  <footer>
+    Arcade Lunaire<br>
+    <a href="privacy.html">Politique de confidentialité</a>
+  </footer>
+</div>
+</body>
+</html>
