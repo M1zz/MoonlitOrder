@@ -16,6 +16,7 @@ struct RoleRevealView: View {
                 Text("역할이 배정되었습니다")
                     .font(.title3.bold())
                     .foregroundColor(.white)
+                    .accessibilityAddTraits(.isHeader)
 
                 if iConfirmed {
                     waitingCard
@@ -55,6 +56,7 @@ struct RoleRevealView: View {
         VStack(spacing: 16) {
             Image(systemName: "questionmark.circle.fill")
                 .font(.system(size: 52))
+                .accessibilityHidden(true)
                 .foregroundColor(Theme.gold)
             Text("주변에 보이지 않게 한 뒤\n버튼을 눌러 역할을 확인하세요")
                 .multilineTextAlignment(.center)
@@ -75,6 +77,7 @@ struct RoleRevealView: View {
         VStack(spacing: 12) {
             Image(systemName: "checkmark.seal.fill")
                 .font(.system(size: 44))
+                .accessibilityHidden(true)
                 .foregroundColor(.green)
             Text("확인 완료!\n다른 플레이어를 기다리는 중…")
                 .multilineTextAlignment(.center)
@@ -115,7 +118,8 @@ struct TeamProposalView: View {
                                     Image(systemName: selected.contains(p.id)
                                           ? "checkmark.circle.fill" : "circle")
                                         .foregroundColor(selected.contains(p.id)
-                                                         ? Theme.gold : .white.opacity(0.35))
+                                                         ? Theme.gold : .white.opacity(0.5))
+                                        .accessibilityHidden(true)
                                     Text(p.name)
                                         .foregroundColor(.white)
                                     if p.id == game.playerID {
@@ -128,6 +132,7 @@ struct TeamProposalView: View {
                                 .padding(.horizontal, 14)
                                 .cardStyle()
                             }
+                            .accessibilityAddTraits(selected.contains(p.id) ? .isSelected : [])
                         }
                     }
                     .padding(.horizontal, 20)
@@ -148,6 +153,7 @@ struct TeamProposalView: View {
                 VStack(spacing: 14) {
                     Image(systemName: "flag.fill")
                         .font(.system(size: 44))
+                        .accessibilityHidden(true)
                         .foregroundColor(Theme.moonlit)
                     Text("리더 \(state.leader?.name ?? "?") 님이\n원정대 \(required)명을 고르는 중…")
                         .font(.title3)
@@ -189,6 +195,7 @@ struct VotingView: View {
             Text("원정대 찬반 투표")
                 .font(.title3.bold())
                 .foregroundColor(.white)
+                .accessibilityAddTraits(.isHeader)
 
             teamChips
 
@@ -196,6 +203,7 @@ struct VotingView: View {
                 VStack(spacing: 10) {
                     Image(systemName: "checkmark.circle.fill")
                         .font(.system(size: 40))
+                        .accessibilityHidden(true)
                         .foregroundColor(.green)
                     Text("투표 완료 — 결과를 기다리는 중 (\(votedCount)/\(state.players.count))")
                         .font(.subheadline)
@@ -216,6 +224,7 @@ struct VotingView: View {
                     } label: {
                         VStack(spacing: 6) {
                             Image(systemName: "hand.thumbsup.fill").font(.title)
+                                .accessibilityHidden(true)
                             Text("찬성")
                         }
                         .frame(maxWidth: .infinity)
@@ -229,6 +238,7 @@ struct VotingView: View {
                     } label: {
                         VStack(spacing: 6) {
                             Image(systemName: "hand.thumbsdown.fill").font(.title)
+                                .accessibilityHidden(true)
                             Text("반대")
                         }
                         .frame(maxWidth: .infinity)
@@ -300,6 +310,7 @@ struct VoteResultView: View {
         VStack(spacing: 16) {
             Text(state.lastVoteApproved ? String(localized: "가결! 원정을 떠납니다") : String(localized: "부결되었습니다"))
                 .font(.title2.weight(.heavy))
+                .accessibilityAddTraits(.isHeader)
                 .foregroundColor(state.lastVoteApproved ? Theme.moonlit : Theme.shadow)
 
             if !state.lastVoteApproved {
@@ -366,6 +377,7 @@ struct MissionView: View {
             Text("\(state.round)번째 원정 진행 중")
                 .font(.title3.bold())
                 .foregroundColor(.white)
+                .accessibilityAddTraits(.isHeader)
 
             Text("원정대: \(teamMembers.map { $0.name }.joined(separator: " · "))")
                 .font(.subheadline)
@@ -381,6 +393,7 @@ struct MissionView: View {
                 VStack(spacing: 12) {
                     Image(systemName: "hourglass")
                         .font(.system(size: 40))
+                        .accessibilityHidden(true)
                         .foregroundColor(.white.opacity(0.6))
                     Text("원정대가 임무를 수행하는 중…\n(\(submittedCount)/\(teamMembers.count) 제출)")
                         .multilineTextAlignment(.center)
@@ -440,11 +453,12 @@ struct MissionView: View {
             VStack(spacing: 8) {
                 Image(systemName: success ? "checkmark.shield.fill" : "xmark.shield.fill")
                     .font(.system(size: 36))
+                    .accessibilityHidden(true)
                 Text(success ? String(localized: "성공") : String(localized: "실패"))
                     .font(.headline)
                 if disabled {
                     Text("결사단은\n성공만 가능")
-                        .font(.system(size: 9))
+                        .font(.caption2)
                         .multilineTextAlignment(.center)
                         .opacity(0.8)
                 }
@@ -463,12 +477,14 @@ struct MissionView: View {
             .foregroundColor(success ? .black : .white)
         }
         .disabled(disabled)
+        .accessibilityAddTraits(choice == success ? .isSelected : [])
     }
 
     private var waitingCard: some View {
         VStack(spacing: 10) {
             Image(systemName: "envelope.fill")
                 .font(.system(size: 40))
+                .accessibilityHidden(true)
                 .foregroundColor(Theme.gold)
             Text("카드 제출 완료\n다른 대원을 기다리는 중… (\(submittedCount)/\(teamMembers.count))")
                 .multilineTextAlignment(.center)
@@ -495,10 +511,12 @@ struct MissionResultView: View {
             if let record {
                 Image(systemName: record.succeeded ? "sun.max.fill" : "cloud.bolt.fill")
                     .font(.system(size: 56))
+                    .accessibilityHidden(true)
                     .foregroundColor(record.succeeded ? Theme.gold : Theme.shadow)
 
                 Text(record.succeeded ? String(localized: "원정 성공!") : String(localized: "원정 실패…"))
                     .font(.largeTitle.weight(.heavy))
+                    .accessibilityAddTraits(.isHeader)
                     .foregroundColor(record.succeeded ? Theme.moonlit : Theme.shadow)
 
                 VStack(spacing: 8) {

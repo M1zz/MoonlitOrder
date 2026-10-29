@@ -17,19 +17,20 @@ import LeeoKit
 
 extension MoonlitOrderSpec {
     static var roadmap: [LeeoRoadmapItem] {[
-        // MARK: 다음에 만들어요
-        .init(id: "a11y.voiceover", status: .planned,
+        // MARK: 만들고 있어요
+        .init(id: "a11y.voiceover", status: .building,
               title: NSLocalizedString("VoiceOver로 더 편하게", comment: "Roadmap item: VoiceOver"),
               detail: NSLocalizedString("화면 읽기 기능이 역할 카드와 투표 단추를 빠짐없이, 알맞은 순서로 읽어 줘요.", comment: "Roadmap item detail: VoiceOver")),
-        .init(id: "a11y.largetext", status: .planned,
+        .init(id: "a11y.largetext", status: .building,
               title: NSLocalizedString("큰 글씨에 맞춘 화면", comment: "Roadmap item: larger text"),
               detail: NSLocalizedString("글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요.", comment: "Roadmap item detail: larger text")),
-        .init(id: "a11y.contrast", status: .planned,
+        .init(id: "a11y.contrast", status: .building,
               title: NSLocalizedString("보기 편한 색과 대비", comment: "Roadmap item: color and contrast"),
               detail: NSLocalizedString("대비를 높이거나 색을 구별하기 어려워도 진영과 결과를 알아볼 수 있어요.", comment: "Roadmap item detail: color and contrast")),
-        .init(id: "a11y.motion", status: .planned,
+        .init(id: "a11y.motion", status: .building,
               title: NSLocalizedString("움직임 줄이기", comment: "Roadmap item: reduce motion"),
               detail: NSLocalizedString("움직임 줄이기를 켜면 화면 효과가 차분해져요.", comment: "Roadmap item detail: reduce motion")),
+        // MARK: 다음에 만들어요
         .init(id: "lang.english", status: .planned,
               title: NSLocalizedString("영어 지원", comment: "Roadmap item: English"),
               detail: NSLocalizedString("외국인 친구와도 함께 하도록 앱을 영어로도 쓸 수 있어요.", comment: "Roadmap item detail: English")),

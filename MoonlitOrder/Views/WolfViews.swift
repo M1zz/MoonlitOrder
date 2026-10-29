@@ -56,10 +56,10 @@ struct WolfGameView: View {
         .overlay(alignment: .top) {
             if game.connectionLost {
                 HStack(spacing: 8) {
-                    ProgressView().tint(.white).scaleEffect(0.8)
+                    ProgressView().tint(.black).scaleEffect(0.8)
                     Text("호스트와 연결이 끊겼습니다. 재접속 시도 중…")
                         .font(.caption)
-                        .foregroundColor(.white)
+                        .foregroundColor(.black)   // 붉은 띠 위 작은 글씨는 검정이 더 또렷하다
                 }
                 .padding(.vertical, 8).padding(.horizontal, 14)
                 .background(Capsule().fill(Theme.shadow.opacity(0.9)))
@@ -160,6 +160,7 @@ struct WolfGameView: View {
         HStack(alignment: .top, spacing: 10) {
             Image(systemName: "lightbulb.fill")
                 .foregroundColor(Theme.gold)
+                .accessibilityHidden(true)
             Text(text)
                 .font(.footnote)
                 .foregroundColor(.white.opacity(0.9))
@@ -184,6 +185,7 @@ struct WolfRoleCard: View {
         VStack(spacing: compact ? 6 : 12) {
             Image(systemName: info.role.iconName)
                 .font(.system(size: compact ? 24 : 40))
+                .accessibilityHidden(true)
                 .foregroundColor(info.role.isWolfTeam ? Theme.shadow : Theme.moonlit)
             Text(info.role.displayName)
                 .font(compact ? .headline : .title.weight(.heavy))
@@ -232,8 +234,10 @@ struct WolfNightView: View {
                 Spacer()
                 Text("🌙")
                     .font(.system(size: 56))
+                    .accessibilityHidden(true)
                 Text("밤이 되었습니다")
                     .font(.title2.bold())
+                    .accessibilityAddTraits(.isHeader)
                     .foregroundColor(.white)
                 Text("다른 사람에게 화면이 보이지 않게 역할을 확인하세요")
                     .font(.footnote)
@@ -289,6 +293,7 @@ struct WolfNightView: View {
                                 VStack {
                                     Image(systemName: "questionmark.square.fill")
                                         .font(.title)
+                                        .accessibilityHidden(true)
                                     Text("중앙 \(i + 1)")
                                         .font(.caption)
                                 }
@@ -303,6 +308,7 @@ struct WolfNightView: View {
                                 )
                                 .foregroundColor(.white)
                             }
+                            .accessibilityAddTraits(centerChoice == i ? .isSelected : [])
                         }
                     }
                     .padding(.horizontal, 20)
@@ -400,7 +406,8 @@ struct WolfNightView: View {
                     HStack {
                         Image(systemName: selected.contains(p.id)
                               ? "checkmark.circle.fill" : "circle")
-                            .foregroundColor(selected.contains(p.id) ? Theme.gold : .white.opacity(0.4))
+                            .foregroundColor(selected.contains(p.id) ? Theme.gold : .white.opacity(0.5))
+                            .accessibilityHidden(true)
                         Text(p.name)
                             .foregroundColor(.white)
                         Spacer()
@@ -408,6 +415,7 @@ struct WolfNightView: View {
                     .padding(.vertical, 10).padding(.horizontal, 14)
                     .cardStyle()
                 }
+                .accessibilityAddTraits(selected.contains(p.id) ? .isSelected : [])
             }
         }
         .padding(.horizontal, 20)
@@ -424,8 +432,10 @@ struct WolfDayView: View {
         VStack(spacing: 16) {
             Text("☀️")
                 .font(.system(size: 48))
+                .accessibilityHidden(true)
             Text("아침이 밝았습니다")
                 .font(.title2.bold())
+                .accessibilityAddTraits(.isHeader)
                 .foregroundColor(.white)
             Text("밤사이 카드가 바뀌었을 수도 있습니다!\n토론으로 도깨비(현재 카드 기준)를 찾아내세요.")
                 .font(.subheadline)
@@ -437,7 +447,7 @@ struct WolfDayView: View {
                     .padding(.horizontal, 20)
                 Text("(밤이 시작될 때 당신의 역할 기준입니다)")
                     .font(.caption2)
-                    .foregroundColor(.white.opacity(0.45))
+                    .foregroundColor(.white.opacity(0.6))
             }
 
             if game.isDemo, let summary = game.demoNightSummary() {
@@ -495,6 +505,7 @@ struct WolfVotingView: View {
         VStack(spacing: 14) {
             Text("도깨비라고 생각하는 사람을 지목하세요")
                 .font(.headline)
+                .accessibilityAddTraits(.isHeader)
                 .multilineTextAlignment(.center)
                 .foregroundColor(.white)
             Text("최다 득표자가 추방됩니다 · 동률이면 모두 · 전원이 1표 이하면 아무도 추방되지 않아요")
@@ -557,10 +568,12 @@ struct WolfGameOverView: View {
         VStack(spacing: 14) {
             Image(systemName: state.villageWins == true ? "sun.max.fill" : "flame.fill")
                 .font(.system(size: 44))
+                .accessibilityHidden(true)
                 .foregroundColor(state.villageWins == true ? Theme.moonlit : Theme.shadow)
 
             Text(state.villageWins == true ? String(localized: "마을의 승리!") : String(localized: "도깨비의 승리!"))
                 .font(.title.weight(.heavy))
+                .accessibilityAddTraits(.isHeader)
                 .foregroundColor(state.villageWins == true ? Theme.moonlit : Theme.shadow)
 
             if let reason = state.winReason {
@@ -628,6 +641,8 @@ struct WolfGameOverView: View {
 
         return HStack(spacing: 8) {
             Text(executed ? "💀" : "•")
+                .accessibilityLabel(executed ? String(localized: "추방됨") : "")
+                .accessibilityHidden(!executed)
             Text(p.name)
                 .fontWeight(p.id == game.playerID ? .bold : .regular)
                 .foregroundColor(.white)
@@ -648,5 +663,6 @@ struct WolfGameOverView: View {
         }
         .padding(.vertical, 10).padding(.horizontal, 14)
         .cardStyle()
+        .accessibilityElement(children: .combine)
     }
 }

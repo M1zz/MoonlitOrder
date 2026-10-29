@@ -72,6 +72,7 @@ struct PlayerRow: View {
             Circle()
                 .fill(player.isConnected ? Color.green : Color.red)
                 .frame(width: 9, height: 9)
+                .accessibilityHidden(true)   // 끊기면 '연결 끊김' 글자가 함께 뜬다
 
             Text(player.name)
                 .fontWeight(isMe ? .bold : .regular)
@@ -81,11 +82,13 @@ struct PlayerRow: View {
                 Image(systemName: "house.fill")
                     .font(.caption)
                     .foregroundColor(Theme.gold)
+                    .accessibilityLabel("방장")
             }
             if isLeader {
                 Image(systemName: "flag.fill")
                     .font(.caption)
                     .foregroundColor(Theme.moonlit)
+                    .accessibilityLabel("리더")
             }
             if isMe {
                 Text("나")
@@ -103,7 +106,8 @@ struct PlayerRow: View {
                     .foregroundColor(.white.opacity(0.9))
             } else if showActed {
                 Image(systemName: player.hasActed ? "checkmark.circle.fill" : "hourglass")
-                    .foregroundColor(player.hasActed ? .green : .white.opacity(0.4))
+                    .foregroundColor(player.hasActed ? .green : .white.opacity(0.6))
+                    .accessibilityLabel(player.hasActed ? String(localized: "완료") : String(localized: "기다리는 중"))
             }
 
             if !player.isConnected {
@@ -121,11 +125,14 @@ struct PlayerRow: View {
                         .background(Circle().fill(Color.red.opacity(0.15)))
                 }
                 .buttonStyle(.plain)
+                .accessibilityLabel(String(localized: "\(player.name) 내보내기"))
             }
         }
         .padding(.vertical, 10)
         .padding(.horizontal, 14)
         .cardStyle()
+        // 한 사람을 한 줄로 읽는다. 내보내기 단추는 따로 누를 수 있게 남긴다.
+        .accessibilityElement(children: onKick == nil ? .combine : .contain)
     }
 }
 
@@ -139,10 +146,11 @@ struct ReconnectWaitBanner: View {
     var body: some View {
         VStack(spacing: 8) {
             HStack(spacing: 8) {
-                ProgressView().tint(.white).scaleEffect(0.8)
+                // 주황 띠 위 흰 글씨는 대비가 모자라 검정으로 쓴다
+                ProgressView().tint(.black).scaleEffect(0.8)
                 Text("\(disconnected.map { $0.name }.joined(separator: ", ")) 님의 재접속을 기다리는 중입니다.")
                     .font(.caption)
-                    .foregroundColor(.white)
+                    .foregroundColor(.black)
             }
             if game.isHost {
                 HStack(spacing: 8) {
@@ -154,8 +162,8 @@ struct ReconnectWaitBanner: View {
                                 .font(.caption2.bold())
                                 .padding(.vertical, 5)
                                 .padding(.horizontal, 10)
-                                .background(Capsule().fill(Color.white.opacity(0.2)))
-                                .foregroundColor(.white)
+                                .background(Capsule().fill(Color.black.opacity(0.12)))
+                                .foregroundColor(.black)
                         }
                     }
                 }
@@ -188,8 +196,12 @@ struct MissionTrackView: View {
             HStack(spacing: 12) {
                 ForEach(0..<GameRules.missionCount, id: \.self) { i in
                     missionCircle(index: i)
+                        .accessibilityElement(children: .ignore)
+                        .accessibilityLabel(missionLabel(index: i))
                 }
             }
+            // 원은 크기가 정해진 요약판이라 아주 큰 글씨에서는 더 키우지 않는다 (같은 내용이 단계 화면에 글로 나온다)
+            .dynamicTypeSize(...DynamicTypeSize.xxxLarge)
             HStack(spacing: 6) {
                 Text("부결")
                     .font(.caption2)
@@ -203,6 +215,7 @@ struct MissionTrackView: View {
                     .font(.caption2)
                     .foregroundColor(.white.opacity(0.6))
             }
+            .accessibilityElement(children: .combine)
         }
         .padding(.vertical, 12)
         .frame(maxWidth: .infinity)
@@ -236,12 +249,34 @@ struct MissionTrackView: View {
                     if state.failsRequired.indices.contains(index),
                        state.failsRequired[index] > 1 {
                         Text("실패2")
-                            .font(.system(size: 8))
+                            .font(.caption2)
+                            .minimumScaleFactor(0.5)
                             .foregroundColor(.white.opacity(0.7))
                     }
                 }
             }
         }
+    }
+
+    /// VoiceOver 가 읽는 원정 한 칸: 몇 번째인지, 결과 또는 인원·실패 조건
+    private func missionLabel(index: Int) -> String {
+        let round = index + 1
+        let record = state.missionHistory.first { $0.round == round }
+        var parts: [String] = []
+        if let record {
+            parts.append(String(localized: "\(round)번째 원정"))
+            parts.append(record.succeeded ? String(localized: "원정 성공!") : String(localized: "원정 실패…"))
+        } else {
+            parts.append(state.round == round ? String(localized: "\(round)번째 원정 진행 중")
+                                              : String(localized: "\(round)번째 원정"))
+            if state.teamSizes.indices.contains(index) {
+                parts.append(String(localized: "원정대 \(state.teamSizes[index])명"))
+            }
+            if state.failsRequired.indices.contains(index), state.failsRequired[index] > 1 {
+                parts.append(String(localized: "이번 원정은 실패 카드가 \(state.failsRequired[index])장 나와야 실패합니다"))
+            }
+        }
+        return parts.joined(separator: ", ")
     }
 
     private func circleColor(record: MissionRecord?) -> Color {

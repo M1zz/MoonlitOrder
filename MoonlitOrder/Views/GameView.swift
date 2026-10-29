@@ -186,6 +186,7 @@ struct GameView: View {
         HStack(alignment: .top, spacing: 10) {
             Image(systemName: "lightbulb.fill")
                 .foregroundColor(Theme.gold)
+                .accessibilityHidden(true)
             Text(text)
                 .font(.footnote)
                 .foregroundColor(.white.opacity(0.9))
@@ -213,10 +214,10 @@ struct GameView: View {
 
     private func banner(text: String, color: Color) -> some View {
         HStack(spacing: 8) {
-            ProgressView().tint(.white).scaleEffect(0.8)
+            ProgressView().tint(.black).scaleEffect(0.8)
             Text(text)
                 .font(.caption)
-                .foregroundColor(.white)
+                .foregroundColor(.black)   // 붉은 띠 위 작은 글씨는 검정이 더 또렷하다
         }
         .padding(.vertical, 8)
         .padding(.horizontal, 14)
@@ -248,6 +249,8 @@ struct PhaseTimerView: View {
                 .background(
                     Capsule().fill((urgent ? Theme.shadow : Color.white).opacity(0.15))
                 )
+                .accessibilityLabel(remaining > 0 ? String(localized: "남은 시간 \(remaining)초")
+                                                  : String(localized: "시간 초과"))
         }
     }
 }
@@ -285,6 +288,7 @@ struct RoleCard: View {
             Image(systemName: info.role.team == .moonlit ? "moon.stars.fill" : "theatermasks.fill")
                 .font(.system(size: 44))
                 .foregroundColor(Theme.teamColor(info.role.team))
+                .accessibilityHidden(true)
 
             Text(info.role.displayName)
                 .font(.title.weight(.heavy))

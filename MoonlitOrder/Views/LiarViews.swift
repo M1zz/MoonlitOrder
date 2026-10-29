@@ -58,10 +58,10 @@ struct LiarGameView: View {
         .overlay(alignment: .top) {
             if game.connectionLost {
                 HStack(spacing: 8) {
-                    ProgressView().tint(.white).scaleEffect(0.8)
+                    ProgressView().tint(.black).scaleEffect(0.8)
                     Text("호스트와 연결이 끊겼습니다. 재접속 시도 중…")
                         .font(.caption)
-                        .foregroundColor(.white)
+                        .foregroundColor(.black)   // 붉은 띠 위 작은 글씨는 검정이 더 또렷하다
                 }
                 .padding(.vertical, 8).padding(.horizontal, 14)
                 .background(Capsule().fill(Theme.shadow.opacity(0.9)))
@@ -157,6 +157,7 @@ struct LiarGameView: View {
         HStack(alignment: .top, spacing: 10) {
             Image(systemName: "lightbulb.fill")
                 .foregroundColor(Theme.gold)
+                .accessibilityHidden(true)
             Text(text)
                 .font(.footnote)
                 .foregroundColor(.white.opacity(0.9))
@@ -185,6 +186,7 @@ struct LiarWordCard: View {
                         if !compact {
                             Image(systemName: "theatermasks.fill")
                                 .font(.system(size: 36))
+                                .accessibilityHidden(true)
                                 .foregroundColor(Theme.shadow)
                         }
                         Text("당신이 라이어입니다!")
@@ -230,6 +232,7 @@ struct LiarWordRevealView: View {
             Text("제시어가 도착했습니다")
                 .font(.title2.bold())
                 .foregroundColor(.white)
+                .accessibilityAddTraits(.isHeader)
 
             if revealed {
                 LiarWordCard()
@@ -282,6 +285,7 @@ struct LiarDescribingView: View {
             Text("순서대로 제시어를 한 마디씩 설명하세요")
                 .font(.headline)
                 .foregroundColor(.white)
+                .accessibilityAddTraits(.isHeader)
             Text("너무 자세히 말하면 라이어에게 힌트가 되고,\n너무 애매하면 당신이 의심받아요!")
                 .font(.caption)
                 .multilineTextAlignment(.center)
@@ -313,6 +317,7 @@ struct LiarDescribingView: View {
                                 if i < state.speakerIndex {
                                     Image(systemName: "checkmark.circle.fill")
                                         .foregroundColor(.green)
+                                        .accessibilityLabel("발언 완료")
                                 } else if i == state.speakerIndex {
                                     Text("발언 중")
                                         .font(.caption.bold())
@@ -321,6 +326,7 @@ struct LiarDescribingView: View {
                             }
                             .padding(.vertical, 10).padding(.horizontal, 14)
                             .cardStyle()
+                            .accessibilityElement(children: .combine)
                         }
                     }
                 }
@@ -359,6 +365,7 @@ struct LiarVotingView: View {
             Text("라이어는 누구일까요?")
                 .font(.title2.bold())
                 .foregroundColor(.white)
+                .accessibilityAddTraits(.isHeader)
             Text("가장 의심스러운 사람에게 투표하세요 · 표가 갈리면 라이어의 승리!")
                 .font(.caption)
                 .foregroundColor(.white.opacity(0.6))
@@ -424,10 +431,12 @@ struct LiarGuessView: View {
         VStack(spacing: 16) {
             Image(systemName: "exclamationmark.triangle.fill")
                 .font(.system(size: 40))
+                .accessibilityHidden(true)
                 .foregroundColor(Theme.gold)
             Text("라이어 검거!")
                 .font(.title.weight(.heavy))
                 .foregroundColor(.white)
+                .accessibilityAddTraits(.isHeader)
             Text("'\(accusedName)'이(가) 라이어였습니다!\n하지만 제시어를 맞히면 라이어가 역전승합니다.")
                 .font(.subheadline)
                 .multilineTextAlignment(.center)
@@ -506,10 +515,12 @@ struct LiarGameOverView: View {
         VStack(spacing: 16) {
             Image(systemName: state.liarWins == true ? "theatermasks.fill" : "person.3.fill")
                 .font(.system(size: 48))
+                .accessibilityHidden(true)
                 .foregroundColor(state.liarWins == true ? Theme.shadow : Theme.moonlit)
 
             Text(state.liarWins == true ? String(localized: "라이어 승리!") : String(localized: "시민 승리!"))
                 .font(.largeTitle.weight(.heavy))
+                .accessibilityAddTraits(.isHeader)
                 .foregroundColor(state.liarWins == true ? Theme.shadow : Theme.moonlit)
 
             if let reason = state.winReason {
@@ -586,5 +597,6 @@ struct LiarGameOverView: View {
         }
         .padding(.vertical, 10).padding(.horizontal, 14)
         .cardStyle()
+        .accessibilityElement(children: .combine)
     }
 }

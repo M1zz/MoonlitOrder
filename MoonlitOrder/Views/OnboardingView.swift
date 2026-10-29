@@ -28,6 +28,7 @@ struct MoonlitOrderOnboardingView: View {
     let onFinish: () -> Void
 
     @State private var page = 0
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     private struct Page {
         let icon: String
@@ -80,7 +81,7 @@ struct MoonlitOrderOnboardingView: View {
                     if isLastPage {
                         onFinish()
                     } else {
-                        withAnimation { page += 1 }
+                        withAnimation(reduceMotion ? nil : .default) { page += 1 }
                     }
                 } label: {
                     Text(isLastPage ? String(localized: "시작하기") : String(localized: "다음"))
@@ -93,7 +94,15 @@ struct MoonlitOrderOnboardingView: View {
         .preferredColorScheme(.dark)
     }
 
+    /// 큰 글씨에서 한 화면에 다 안 들어가면 스크롤로 읽는다.
     private func pageView(_ p: Page) -> some View {
+        ViewThatFits(in: .vertical) {
+            pageContent(p)
+            ScrollView { pageContent(p).padding(.vertical, 24) }
+        }
+    }
+
+    private func pageContent(_ p: Page) -> some View {
         VStack(spacing: 22) {
             Spacer()
             Image(systemName: p.icon)
@@ -102,6 +111,7 @@ struct MoonlitOrderOnboardingView: View {
                 .accessibilityHidden(true)
             Text(p.title)
                 .font(.title2.weight(.heavy))
+                .accessibilityAddTraits(.isHeader)
                 .multilineTextAlignment(.center)
                 .foregroundColor(.white)
             Text(p.body)

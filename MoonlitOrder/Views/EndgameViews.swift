@@ -21,11 +21,13 @@ struct AssassinationView: View {
         VStack(spacing: 16) {
             Image(systemName: "scope")
                 .font(.system(size: 48))
+                .accessibilityHidden(true)
                 .foregroundColor(Theme.shadow)
 
             Text("암살의 시간")
                 .font(.title.weight(.heavy))
                 .foregroundColor(.white)
+                .accessibilityAddTraits(.isHeader)
 
             Text("달빛 결사가 원정 3회에 성공했습니다.\n하지만 암살자가 예언자를 찾아내면 그림자의 역전승!")
                 .font(.subheadline)
@@ -48,7 +50,8 @@ struct AssassinationView: View {
                                     Image(systemName: target == p.id
                                           ? "scope" : "circle")
                                         .foregroundColor(target == p.id
-                                                         ? Theme.shadow : .white.opacity(0.35))
+                                                         ? Theme.shadow : .white.opacity(0.5))
+                                        .accessibilityHidden(true)
                                     Text(p.name).foregroundColor(.white)
                                     Spacer()
                                 }
@@ -61,6 +64,7 @@ struct AssassinationView: View {
                                                 lineWidth: target == p.id ? 2 : 0)
                                 )
                             }
+                            .accessibilityAddTraits(target == p.id ? .isSelected : [])
                         }
                     }
                     .padding(.horizontal, 24)
@@ -104,10 +108,12 @@ struct GameOverView: View {
             if let winner = state.winner {
                 Image(systemName: winner == .moonlit ? "moon.stars.fill" : "theatermasks.fill")
                     .font(.system(size: 56))
+                    .accessibilityHidden(true)
                     .foregroundColor(Theme.teamColor(winner))
 
                 Text("\(winner.displayName) 승리!")
                     .font(.largeTitle.weight(.heavy))
+                    .accessibilityAddTraits(.isHeader)
                     .foregroundColor(Theme.teamColor(winner))
 
                 if let reason = state.winReason {
@@ -143,6 +149,7 @@ struct GameOverView: View {
                         .padding(.vertical, 10)
                         .padding(.horizontal, 14)
                         .cardStyle()
+                        .accessibilityElement(children: .combine)
                     }
                     // 고마운 순간: 친구들과 마친 판 수가 기준을 넘으면 응원 부탁 카드가 선다
                     GameOverTipAsk()

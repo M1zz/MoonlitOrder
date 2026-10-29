@@ -7,6 +7,7 @@ extension GameViewModel.GameKind: Identifiable {
 
 struct HomeView: View {
     @EnvironmentObject var game: GameViewModel
+    @ScaledMetric(relativeTo: .largeTitle) private var titleSize: CGFloat = 36
     @FocusState private var nameFocused: Bool
     @State private var selectedGame: GameViewModel.GameKind?
 
@@ -23,6 +24,7 @@ struct HomeView: View {
                     .font(.title2)
                     .foregroundColor(color)
                     .frame(width: 34)
+                    .accessibilityHidden(true)
                 VStack(alignment: .leading, spacing: 2) {
                     Text(title)
                         .font(.headline)
@@ -35,6 +37,7 @@ struct HomeView: View {
                 Image(systemName: enabled ? "chevron.right" : "wrench.and.screwdriver")
                     .font(.caption)
                     .foregroundColor(.white.opacity(0.4))
+                    .accessibilityHidden(true)
             }
             .padding(.vertical, 12)
             .padding(.horizontal, 14)
@@ -50,10 +53,12 @@ struct HomeView: View {
             VStack(spacing: 10) {
                 Image(systemName: "moon.stars.fill")
                     .font(.system(size: 48))
+                    .accessibilityHidden(true)
                     .foregroundColor(Theme.gold)
                 Text("달빛 오락실")
-                    .font(.system(size: 36, weight: .heavy, design: .serif))
+                    .font(.system(size: titleSize, weight: .heavy, design: .serif))
                     .foregroundColor(.white)
+                    .accessibilityAddTraits(.isHeader)
                 Text("가까운 친구들과 즐기는 파티게임 4종")
                     .font(.subheadline)
                     .foregroundColor(.white.opacity(0.65))
@@ -78,6 +83,7 @@ struct HomeView: View {
                     .foregroundColor(.white)
                     .focused($nameFocused)
                     .submitLabel(.done)
+                    .accessibilityLabel("닉네임")
             }
             .padding(.horizontal, 28)
 
@@ -117,7 +123,7 @@ struct HomeView: View {
             Text("같은 Wi-Fi 또는 근거리의 아이폰끼리 자동으로 연결됩니다.\n인터넷 없이도 플레이할 수 있어요.")
                 .font(.caption)
                 .multilineTextAlignment(.center)
-                .foregroundColor(.white.opacity(0.45))
+                .foregroundColor(.white.opacity(0.6))
                 .padding(.bottom, 24)
             }
         }
@@ -139,6 +145,7 @@ struct HomeView: View {
                     Image(systemName: "arrow.uturn.forward.circle.fill")
                         .font(.title2)
                         .foregroundColor(Theme.gold)
+                        .accessibilityHidden(true)
                     VStack(alignment: .leading, spacing: 2) {
                         Text("이어서 하기")
                             .font(.headline)
@@ -154,9 +161,10 @@ struct HomeView: View {
                 game.forgetLastRoom()
             } label: {
                 Image(systemName: "xmark.circle.fill")
-                    .foregroundColor(.white.opacity(0.35))
+                    .foregroundColor(.white.opacity(0.5))
             }
             .accessibilityLabel("이어서 하기 기록 지우기")
+            .accessibilityInputLabels([Text("기록 지우기"), Text("이어서 하기 기록 지우기")])
         }
         .padding(.vertical, 12)
         .padding(.horizontal, 14)
@@ -209,11 +217,13 @@ struct GameMenuView: View {
             VStack(spacing: 16) {
                 Image(systemName: icon)
                     .font(.system(size: 44))
+                    .accessibilityHidden(true)
                     .foregroundColor(color)
                     .padding(.top, 28)
                 Text(kind.displayName)
                     .font(.title.weight(.heavy))
                     .foregroundColor(.white)
+                    .accessibilityAddTraits(.isHeader)
                 Text(summary)
                     .font(.subheadline)
                     .multilineTextAlignment(.center)
@@ -229,8 +239,9 @@ struct GameMenuView: View {
                     } label: {
                         Label("방 만들기 (호스트)", systemImage: "house.fill")
                     }
+                    // 밝은 하늘색(라이어) 위의 흰 글씨는 대비가 모자라 검은 글씨로 쓴다
                     .buttonStyle(BigButtonStyle(color: color,
-                                                textColor: (kind == .moonlit || kind == .sketch) ? .black : .white))
+                                                textColor: kind == .wolf ? .white : .black))
 
                     Button {
                         dismiss()
@@ -304,6 +315,7 @@ struct BrowseView: View {
                                 HStack {
                                     Image(systemName: "moon.fill")
                                         .foregroundColor(Theme.gold)
+                                        .accessibilityHidden(true)
                                     VStack(alignment: .leading, spacing: 2) {
                                         Text("\(host.hostName)의 방")
                                             .foregroundColor(.white)
@@ -316,6 +328,7 @@ struct BrowseView: View {
                                     Spacer()
                                     Image(systemName: "chevron.right")
                                         .foregroundColor(.white.opacity(0.4))
+                                        .accessibilityHidden(true)
                                 }
                                 .padding(16)
                                 .cardStyle()

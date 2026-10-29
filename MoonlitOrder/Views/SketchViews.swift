@@ -77,10 +77,10 @@ struct SketchGameView: View {
         .overlay(alignment: .top) {
             if game.connectionLost {
                 HStack(spacing: 8) {
-                    ProgressView().tint(.white).scaleEffect(0.8)
+                    ProgressView().tint(.black).scaleEffect(0.8)
                     Text("호스트와 연결이 끊겼습니다. 재접속 시도 중…")
                         .font(.caption)
-                        .foregroundColor(.white)
+                        .foregroundColor(.black)   // 붉은 띠 위 작은 글씨는 검정이 더 또렷하다
                 }
                 .padding(.vertical, 8).padding(.horizontal, 14)
                 .background(Capsule().fill(Theme.shadow.opacity(0.9)))
@@ -215,6 +215,7 @@ struct SketchGameView: View {
         HStack(alignment: .top, spacing: 10) {
             Image(systemName: "lightbulb.fill")
                 .foregroundColor(Theme.gold)
+                .accessibilityHidden(true)
             Text(text)
                 .font(.footnote)
                 .foregroundColor(.white.opacity(0.9))
@@ -240,8 +241,10 @@ struct SketchWordSelectView: View {
             if isDrawer {
                 Image(systemName: "paintbrush.pointed.fill")
                     .font(.system(size: 40)).foregroundColor(Theme.mint)
+                    .accessibilityHidden(true)
                 Text("제시어를 고르세요")
                     .font(.title2.bold()).foregroundColor(.white)
+                    .accessibilityAddTraits(.isHeader)
                 Text("다른 사람에게 보이지 않게! 그리기 쉬운 걸 고르면 유리해요.")
                     .font(.footnote)
                     .multilineTextAlignment(.center)
@@ -256,13 +259,14 @@ struct SketchWordSelectView: View {
                             } label: {
                                 HStack {
                                     Text(SketchRules.category(of: word))
-                                        .font(.caption).foregroundColor(.white.opacity(0.5))
-                                        .frame(width: 44, alignment: .leading)
+                                        .font(.caption).foregroundColor(.white.opacity(0.6))
+                                        .frame(minWidth: 44, alignment: .leading)
                                     Text(word)
                                         .font(.title3.bold()).foregroundColor(.white)
                                     Spacer()
                                     Image(systemName: "chevron.right")
                                         .foregroundColor(Theme.mint)
+                                        .accessibilityHidden(true)
                                 }
                                 .padding(.vertical, 16).padding(.horizontal, 18)
                                 .cardStyle()
@@ -364,6 +368,7 @@ struct SketchDrawingView: View {
                         .foregroundColor(Theme.mint)
                     Text(String(repeating: "○ ", count: max(state.wordLength, 0)))
                         .font(.headline).foregroundColor(.white.opacity(0.85))
+                        .accessibilityHidden(true)   // 바로 옆 'N글자' 가 같은 뜻을 읽는다
                     Text("\(state.wordLength)글자")
                         .font(.caption).foregroundColor(.white.opacity(0.5))
                 }
@@ -392,12 +397,13 @@ struct SketchDrawingView: View {
                                 .foregroundColor(line.correct ? .green : .white.opacity(0.85))
                             Spacer(minLength: 0)
                         }
+                        .accessibilityElement(children: .combine)
                         .id(line.id)
                     }
                     if state.chat.isEmpty {
                         Text(isDrawer ? String(localized: "사람들의 추측이 여기에 표시돼요.")
                                       : String(localized: "그림을 보고 정답을 맞혀보세요!"))
-                            .font(.caption).foregroundColor(.white.opacity(0.4))
+                            .font(.caption).foregroundColor(.white.opacity(0.6))
                     }
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -520,6 +526,7 @@ struct SketchDrawingView: View {
                         .frame(width: 46, height: 46)
                         .background(RoundedRectangle(cornerRadius: 12).fill(Theme.mint))
                 }
+                .accessibilityLabel("보내기")
                 .disabled(guessText.trimmingCharacters(in: .whitespaces).isEmpty)
             }
             .padding(.horizontal, 16)
@@ -566,6 +573,9 @@ struct SketchCanvasView: View {
             .contentShape(Rectangle())
             .gesture(isDrawer ? drag(size: size) : nil)
         }
+        .accessibilityElement()
+        .accessibilityLabel("그림판")
+        .accessibilityAddTraits(.isImage)
     }
 
     private func drag(size: CGSize) -> some Gesture {
@@ -614,6 +624,7 @@ struct SketchRoundResultView: View {
                 .font(.subheadline).foregroundColor(.white.opacity(0.6))
             Text(state.revealedWord ?? "-")
                 .font(.largeTitle.weight(.heavy)).foregroundColor(Theme.gold)
+                .accessibilityAddTraits(.isHeader)
             if let drawer = state.drawer {
                 Text("화가: \(drawer.name)")
                     .font(.caption).foregroundColor(Theme.mint)
@@ -664,6 +675,7 @@ struct SketchGameOverView: View {
         VStack(spacing: 16) {
             Image(systemName: "trophy.fill")
                 .font(.system(size: 48)).foregroundColor(Theme.gold)
+                .accessibilityHidden(true)
             Text(winners.isEmpty ? String(localized: "게임 종료") : String(localized: "\(winners.joined(separator: ", ")) 승리!"))
                 .font(.largeTitle.weight(.heavy))
                 .foregroundColor(Theme.gold)
@@ -677,12 +689,13 @@ struct SketchGameOverView: View {
                         HStack(spacing: 12) {
                             Text("\(idx + 1)")
                                 .font(.headline.bold())
-                                .frame(width: 26)
+                                .frame(minWidth: 26)
                                 .foregroundColor(idx == 0 ? Theme.gold : .white.opacity(0.7))
                             PlayerRow(player: entry.player,
                                       isMe: entry.player.id == game.playerID,
                                       trailing: String(localized: "\(entry.score)점"))
                         }
+                        .accessibilityElement(children: .combine)
                     }
                     // 고마운 순간: 친구들과 마친 판 수가 기준을 넘으면 응원 부탁 카드가 선다
                     GameOverTipAsk()

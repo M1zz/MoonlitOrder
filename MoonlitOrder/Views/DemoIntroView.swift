@@ -77,6 +77,7 @@ struct DemoIntroView: View {
                 VStack(spacing: 18) {
                     Image(systemName: icon)
                         .font(.system(size: 44))
+                        .accessibilityHidden(true)
                         .foregroundColor(color)
                         .padding(.top, 28)
                     Text("게임방법")
@@ -85,6 +86,7 @@ struct DemoIntroView: View {
                     Text(kind.displayName)
                         .font(.title.weight(.heavy))
                         .foregroundColor(.white)
+                        .accessibilityAddTraits(.isHeader)
 
                     VStack(alignment: .leading, spacing: 8) {
                         Label("게임의 목적", systemImage: "target")
