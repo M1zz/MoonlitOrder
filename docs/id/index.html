@@ -1,155 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arena Game Cahaya Bulan · Dukungan</title>
-<meta name="description" content="Arena Game Cahaya Bulan adalah kumpulan game pesta offline yang menghubungkan iPhone di dekat Anda secara langsung, tanpa internet.">
-<!--HREFLANG-->
-<link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/id/index.html">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/index.html">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/index.html">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/index.html">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/index.html">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/index.html">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/index.html">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/index.html">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/index.html">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/index.html">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/index.html">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/index.html">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/index.html">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/index.html">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/index.html">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/index.html">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/index.html">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/index.html">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/index.html">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/index.html">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/index.html">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/index.html">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/index.html">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/index.html">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<!--/HREFLANG-->
-<style>
-  :root{
-    --bg1:#0f1226; --bg2:#211840; --card:rgba(255,255,255,.06);
-    --stroke:rgba(255,255,255,.12); --text:#f4f3fb; --muted:rgba(244,243,251,.62);
-    --gold:#f2c759; --blue:#73bfff; --red:#f25a6b; --mint:#59d1b8;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",
-      "Malgun Gothic",sans-serif;
-    color:var(--text); line-height:1.7;
-    background:linear-gradient(180deg,var(--bg1),var(--bg2)) fixed;
-    min-height:100vh; -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 80px}
-  header{text-align:center;margin-bottom:44px}
-  .logo{font-size:52px;line-height:1}
-  h1{font-size:34px;font-weight:800;margin:14px 0 6px;letter-spacing:-.5px}
-  .sub{color:var(--muted);font-size:15px}
-  .badge{display:inline-block;margin-top:14px;padding:5px 12px;border-radius:999px;
-    background:rgba(89,209,184,.14);color:var(--mint);font-size:13px;font-weight:600}
-  section{background:var(--card);border:1px solid var(--stroke);border-radius:18px;
-    padding:26px 24px;margin:18px 0}
-  h2{font-size:20px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:9px}
-  h2 .ic{font-size:22px}
-  h3{font-size:16px;font-weight:700;margin:18px 0 4px;color:var(--gold)}
-  p,li{color:var(--text);font-size:15.5px}
-  .muted{color:var(--muted)}
-  ul{padding-left:20px;margin:8px 0}
-  li{margin:6px 0}
-  .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:8px}
-  .game{background:rgba(255,255,255,.04);border:1px solid var(--stroke);border-radius:14px;padding:14px}
-  .game .n{font-weight:700;font-size:15px}
-  .game .d{color:var(--muted);font-size:13px;margin-top:3px}
-  .qa{margin:16px 0}
-  .qa .q{font-weight:700;color:var(--blue);font-size:15.5px}
-  .qa .a{color:var(--text);margin-top:3px}
-  a{color:var(--mint);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .contact{text-align:center;background:rgba(242,199,89,.10);border-color:rgba(242,199,89,.28)}
-  .contact .mail{font-size:20px;font-weight:800;color:var(--gold);display:inline-block;margin-top:6px}
-  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:36px;line-height:1.9}
-  footer a{color:var(--muted);text-decoration:underline}
-.langs{display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:center;margin-top:16px;font-size:13px}.langs a{color:var(--muted);text-decoration:none}.langs a[aria-current]{color:var(--gold);font-weight:700}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arena Game Cahaya Bulan: game seru antar-iPhone, tanpa internet</title>
+  <meta name="description" content="Sambungkan iPhone semua orang di dekatmu tanpa internet dan main Permainan Si Pembohong, tebak peran, atau gambar-tebak sampai 15 orang. Semua gratis.">
+  <meta name="theme-color" content="#9A6B00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1226" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6790137862">
+  <link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/id/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Arena Game Cahaya Bulan: game seru antar-iPhone, tanpa internet">
+  <meta property="og:description" content="Sambungkan iPhone semua orang di dekatmu tanpa internet dan main Permainan Si Pembohong, tebak peran, atau gambar-tebak sampai 15 orang. Semua gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/MoonlitOrder/id/">
+  <meta property="og:image" content="https://m1zz.github.io/MoonlitOrder/img/id/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#9A6B00}@media (prefers-color-scheme:dark){:root{--accent:#F2C759}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="logo">🌙</div>
-    <h1>Arena Game Cahaya Bulan</h1>
-    <div class="sub">Game pesta offline bersama teman-teman di dekat Anda</div>
-    <div class="badge">Dukungan Pelanggan</div>
-    <!--LANGNAV--><nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id" aria-current="page">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--/LANGNAV-->
+  <a class="skip" href="#main">Langsung ke konten</a>
+  <header class="bar">
+    <a class="brand" href="../id/"><img src="../icon.png" alt="" width="32" height="32">Arena Game Cahaya Bulan</a>
+    <a class="lang-link" href="#languages">Bahasa</a>
   </header>
 
-  <section>
-    <h2><span class="ic">🎲</span>Aplikasi apa ini?</h2>
-    <p><strong>Arena Game Cahaya Bulan</strong> adalah kumpulan game pesta dan deduksi sosial yang menghubungkan iPhone di sekitar Anda
-      secara langsung, tanpa internet. Selama berada di Wi-Fi yang sama atau dalam jangkauan Bluetooth, Anda bisa langsung membuat ruangan dan bergabung tanpa server.</p>
-    <div class="games">
-      <div class="game"><div class="n">🌙 Ordo Cahaya Bulan</div><div class="d">5–15 pemain · Ungkap identitas bayangan yang menyusup</div></div>
-      <div class="game"><div class="n">🎭 Permainan Si Pembohong</div><div class="d">3–15 pemain · Temukan satu orang yang tidak tahu kata kuncinya</div></div>
-      <div class="game"><div class="n">🔥 Malam Tanpa Bulan</div><div class="d">3–15 pemain · Satu malam dengan siluman yang bersembunyi</div></div>
-      <div class="game"><div class="n">🖌️ Studio Cahaya Bulan</div><div class="d">3–15 pemain · Satu orang menggambar, yang lain menebak</div></div>
-    </div>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Sudah kumpul semua?<br>Keluarkan iPhone-nya.</h1>
+        <p class="lead">Satu orang membuat ruangan, yang lain di dekatnya langsung masuk dalam hitungan detik. Peran dan kata rahasia hanya muncul di layar masing-masing, jadi tanpa kartu dan tanpa ada yang harus jadi pemandu.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6790137862">Unduh gratis di App Store</a><a class="try" href="#try">Coba satu ronde Si Pembohong ↓</a></div>
+        <p class="muted small">Semua game gratis. Tanpa akun dan tanpa internet.</p>
+      </div>
+      <div class="phone"><img src="../img/id/01-home.jpg" alt="Sudah kumpul semua? Keluarkan iPhone-nya." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2><span class="ic">▶️</span>Cara bermain</h2>
-    <ul>
-      <li>Masukkan nama panggilan dan pilih game yang ingin dimainkan.</li>
-      <li>Satu orang mengetuk <strong>“Buat ruangan (host)”</strong>, lalu yang lain masuk lewat <strong>“Gabung permainan”</strong>.</li>
-      <li>Di Wi-Fi yang sama atau dalam jarak dekat (Bluetooth), perangkat akan saling menemukan secara otomatis. Tidak perlu koneksi internet.</li>
-      <li>Saat pertama kali terhubung, Anda perlu <strong>mengizinkan akses jaringan lokal</strong> agar perangkat di sekitar bisa ditemukan.</li>
-      <li>Untuk setiap game, Anda bisa mempelajari aturannya langkah demi langkah bersama bot di <strong>“Cara bermain (latihan dengan bot)”</strong>.</li>
-    </ul>
-  </section>
 
-  <section>
-    <h2><span class="ic">🛠️</span>Pertanyaan umum</h2>
+    <section class="reveal" id="try">
+      <h2>Coba satu ronde Si Pembohong</h2>
+      <p class="muted">Bayangkan ada lima iPhone di meja, lalu ketuk satu per satu untuk mengintip. Cuma satu yang tidak tahu katanya. Bisa juga gantian oper layar bareng teman.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Coba satu ronde Si Pembohong&quot;, &quot;lead&quot;: &quot;Bayangkan ada lima iPhone di meja, lalu ketuk satu per satu untuk mengintip. Cuma satu yang tidak tahu katanya. Bisa juga gantian oper layar bareng teman.&quot;, &quot;tap&quot;: &quot;Ketuk untuk lihat&quot;, &quot;reveal&quot;: &quot;Ungkap Si Pembohong&quot;, &quot;again&quot;: &quot;Ronde baru&quot;, &quot;caughtNote&quot;: &quot;Walau tertangkap lewat voting, Si Pembohong masih punya satu kesempatan terakhir.&quot;, &quot;note&quot;: &quot;Di aplikasi, tiap orang melihat di iPhone sendiri, bergantian menjelaskan kata, lalu voting. Katanya diambil dari daftar yang sama dengan aplikasi.&quot;, &quot;app&quot;: {&quot;game&quot;: &quot;Permainan Si Pembohong&quot;, &quot;sub&quot;: &quot;Semua orang punya kata yang sama. Hanya satu yang tidak tahu.&quot;, &quot;arrived&quot;: &quot;Kata telah tiba&quot;, &quot;secret&quot;: &quot;Lihat di tempat yang tidak terlihat orang lain&quot;, &quot;gotIt&quot;: &quot;Sudah lihat&quot;, &quot;word&quot;: &quot;Kata&quot;, &quot;cat&quot;: &quot;Kategori: {1}&quot;, &quot;liarYou&quot;: &quot;Kamu Si Pembohong!&quot;, &quot;liarHint&quot;: &quot;Kamu tidak tahu katanya, tetapi harus menjelaskannya seolah tahu. Jangan sampai ketahuan!&quot;, &quot;liar&quot;: &quot;Si Pembohong&quot;, &quot;caught&quot;: &quot;Si Pembohong tertangkap!&quot;, &quot;pick&quot;: &quot;Pilih katanya — hanya satu kesempatan!&quot;, &quot;liarWin&quot;: &quot;Si Pembohong menang!&quot;, &quot;citizenWin&quot;: &quot;Warga menang!&quot;, &quot;me&quot;: &quot;Aku&quot;, &quot;bots&quot;: [&quot;Kelinci Bulan&quot;, &quot;Angin Malam&quot;, &quot;Bima Sakti&quot;, &quot;Bulan Sabit Akhir&quot;], &quot;words&quot;: {&quot;Makanan&quot;: [&quot;Sup kimchi&quot;, &quot;Perut babi panggang&quot;, &quot;Tteokbokki&quot;, &quot;Ayam goreng&quot;, &quot;Pizza&quot;, &quot;Sushi&quot;, &quot;Ramen&quot;, &quot;Bibimbap&quot;, &quot;Mi dingin&quot;, &quot;Sup iga sapi&quot;, &quot;Pasta&quot;, &quot;Hamburger&quot;, &quot;Gimbap&quot;, &quot;Sosis darah Korea&quot;, &quot;Kaki babi&quot;, &quot;Salad&quot;], &quot;Hewan&quot;: [&quot;Gajah&quot;, &quot;Jerapah&quot;, &quot;Pinguin&quot;, &quot;Harimau&quot;, &quot;Panda&quot;, &quot;Landak&quot;, &quot;Kanguru&quot;, &quot;Burung hantu&quot;, &quot;Lumba-lumba&quot;, &quot;Gurita&quot;, &quot;Tupai&quot;, &quot;Buaya&quot;, &quot;Unta&quot;, &quot;Berang-berang&quot;, &quot;Burung beo&quot;, &quot;Tikus tanah&quot;], &quot;Tempat&quot;: [&quot;Taman hiburan&quot;, &quot;Perpustakaan&quot;, &quot;Spa Korea&quot;, &quot;Bioskop&quot;, &quot;Minimarket&quot;, &quot;Stasiun kereta bawah tanah&quot;, &quot;Salon&quot;, &quot;Rumah sakit&quot;, &quot;Sekolah&quot;, &quot;Tempat berkemah&quot;, &quot;Kolam renang&quot;, &quot;Bandara&quot;, &quot;Pasar&quot;, &quot;Kafe&quot;, &quot;Karaoke&quot;, &quot;Pusat kebugaran&quot;], &quot;Pekerjaan&quot;: [&quot;Pemadam kebakaran&quot;, &quot;Dokter&quot;, &quot;Koki&quot;, &quot;Programmer&quot;, &quot;YouTuber&quot;, &quot;Guru&quot;, &quot;Polisi&quot;, &quot;Petani&quot;, &quot;Pilot&quot;, &quot;Penata rambut&quot;, &quot;Penyanyi&quot;, &quot;Atlet&quot;, &quot;Fotografer&quot;, &quot;Pengacara&quot;, &quot;Nelayan&quot;, &quot;Barista&quot;], &quot;Benda&quot;: [&quot;Payung&quot;, &quot;Kipas angin&quot;, &quot;Kulkas&quot;, &quot;Sikat gigi&quot;, &quot;Bantal&quot;, &quot;Remote&quot;, &quot;Tumbler&quot;, &quot;Earphone&quot;, &quot;Gunting&quot;, &quot;Selimut&quot;, &quot;Cermin&quot;, &quot;Jam&quot;, &quot;Pengisi daya&quot;, &quot;Sandal rumah&quot;, &quot;Masker&quot;, &quot;Dompet&quot;], &quot;Olahraga&quot;: [&quot;Sepak bola&quot;, &quot;Bisbol&quot;, &quot;Bola basket&quot;, &quot;Bulu tangkis&quot;, &quot;Renang&quot;, &quot;Boling&quot;, &quot;Taekwondo&quot;, &quot;Golf&quot;, &quot;Tenis meja&quot;, &quot;Ski&quot;, &quot;Panjat tebing&quot;, &quot;Yoga&quot;, &quot;Tinju&quot;, &quot;Panahan&quot;, &quot;Anggar&quot;, &quot;Maraton&quot;]}}}"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Saya tidak melihat ruangan di sekitar.</div>
-      <div class="a">Pastikan host dan pemain lain terhubung ke <strong>Wi-Fi yang sama</strong> atau berada berdekatan.
-        Arena Game Cahaya Bulan harus diaktifkan di Pengaturan &gt; Privasi &amp; Keamanan &gt; <strong>Jaringan Lokal</strong>.
-        Koneksi paling stabil jika Wi-Fi dan Bluetooth sama-sama dinyalakan.</div>
-    </div>
+    <section class="problem reveal">
+      <h2>Sudah ramai, tapi bingung mau main apa</h2>
+      <p>Kumpul bareng teman, liburan di vila, Lebaran sama keluarga besar. Main Werewolf berarti harus ada yang jadi pemandu dan nggak ikut main, dan kertas lipat selalu ketahuan. Di vila yang Wi-Fi-nya lemot, game online juga nggak jalan. Arena Game Cahaya Bulan membiarkan iPhone yang memandu, membagi peran, dan saling terhubung.</p>
+    </section>
 
-    <div class="qa">
-      <div class="q">Koneksi saya terputus di tengah permainan.</div>
-      <div class="a">Saat Anda membuka aplikasi lagi, Anda akan <strong>tersambung kembali secara otomatis</strong> ke ruangan yang sama dan kembali ke ronde yang sedang berjalan.
-        Jika tidak tersambung kembali dalam waktu tertentu, silakan bergabung lagi dari daftar ruangan.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Peranmu cuma ada di layarmu</h2>
+        <p>Begitu game mulai, tiap iPhone menerima peran atau katanya sendiri. Nggak perlu bagi kartu atau “semua tutup mata”.<br>Saat voting, yang terlihat cuma siapa yang sudah memilih. Siapa memilih siapa tetap rahasia sampai diumumkan.</p>
+      </div>
+      <div class="phone"><img src="../img/id/02-role.jpg" alt="Peranmu cuma ada di layarmu" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Berapa jumlah pemain minimal?</div>
-      <div class="a">Ordo Cahaya Bulan bisa dimulai dengan 5 pemain dan game lainnya dengan 3 pemain, hingga maksimal 15 pemain sekaligus.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Empat game untuk segala suasana</h2>
+        <p>Adu kelihaian bicara di Permainan Si Pembohong, buru Bayangan lewat misi dan voting di Ordo Cahaya Bulan, temukan Goblin dalam satu malam di Malam Tanpa Bulan, atau satu menggambar dan yang lain menebak di Studio Cahaya Bulan.<br>Ordo Cahaya Bulan mulai 5 orang, yang lain mulai 3 orang, semuanya sampai 15.</p>
+      </div>
+      <div class="phone"><img src="../img/id/04-draw.jpg" alt="Empat game untuk segala suasana" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Apakah perlu internet atau akun?</div>
-      <div class="a">Tidak. Anda bermain secara offline tanpa daftar, masuk, atau koneksi internet. Data permainan tidak dikirim ke server.</div>
-    </div>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Game baru? Paham dalam beberapa menit</h2>
+        <p>Tiap game punya mode Cara bermain, tempat kamu main satu ronde bareng bot langkah demi langkah. Baca petunjuk di atas lalu ketuk Berikutnya.<br>Kalau aplikasi tertutup atau koneksi putus, ketuk Lanjutkan di layar utama dan kamu kembali ke ronde yang sama.</p>
+      </div>
+      <div class="phone"><img src="../img/id/03-vote.jpg" alt="Game baru? Paham dalam beberapa menit" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-  <section class="contact">
-    <h2 style="justify-content:center"><span class="ic">✉️</span>Hubungi kami</h2>
-    <p class="muted">Laporan bug, saran, atau pertanyaan lainnya bisa langsung dikirim dari aplikasi di Pengaturan (ikon roda gigi) &gt; Dukungan, atau melalui email di bawah. Kami akan membalas secepat mungkin.</p>
-    <a class="mail" href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>
-  </section>
+    <section class="reveal">
+      <h2>Mulai dalam tiga langkah</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Pilih nama panggilan dan game</h3><p>Semua membuka aplikasi, mengisi nama panggilan, lalu memilih game.</p></li>
+<li class="card"><span class="n">2</span><h3>Buat atau gabung ruangan</h3><p>Satu orang membuat ruangan, yang lain menemukannya lewat Cari ruangan terdekat.</p></li>
+<li class="card"><span class="n">3</span><h3>Host memulai</h3><p>Setelah semua masuk, host mengetuk Mulai permainan. Sisanya diurus aplikasi.</p></li></ol>
+    </section>
 
+    <section class="reveal" id="commands">
+      <h2>Empat game</h2>
+      <div class="card table">
+        <dl><div><dt>Permainan Si Pembohong · 3–15 orang</dt><dd>Semua dapat kata yang sama, kecuali satu orang. Gantian menjelaskan, lalu voting untuk mencari Si Pembohong. Kalau tertangkap tapi bisa menebak katanya, Si Pembohong tetap menang.</dd></div><div><dt>Ordo Cahaya Bulan · 5–15 orang</dt><dd>Cari Bayangan yang bersembunyi di dalam Ordo. Pemimpin memilih tim misi, semua voting setuju atau tidak, lalu tim diam-diam memilih berhasil atau gagal. Pihak yang lebih dulu meraih tiga misi menang.</dd></div><div><dt>Malam Tanpa Bulan · 3–15 orang</dt><dd>Satu malam, dan ada Goblin bersembunyi di desa. Malam hari Dukun, Pencuri Malam, dan Si Usil bergerak diam-diam. Saat fajar semua berdiskusi dan hanya ada satu kali voting untuk menemukan Goblin.</dd></div><div><dt>Studio Cahaya Bulan · 3–15 orang</dt><dd>Satu orang menggambar kata, yang lain menebak lewat chat. Makin cepat menebak, makin besar poinnya, dan penggambar dapat poin dari setiap tebakan benar.</dd></div></dl>
+      </div>
+      <p class="muted">Semua game bisa dicoba dulu sendirian bersama bot di mode Cara bermain.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Pertanyaan umum</h2>
+      <div class="faq"><details><summary>Ruangannya nggak kelihatan.</summary><p>Pastikan host dan pemain ada di Wi-Fi yang sama atau saling berdekatan. Arena Game Cahaya Bulan harus aktif di Pengaturan ▸ Privasi &amp; Keamanan ▸ Jaringan Lokal agar bisa menemukan perangkat di dekatmu. Menyalakan Wi-Fi dan Bluetooth sekaligus bikin koneksi paling stabil.</p></details>
+<details><summary>Harus mengizinkan akses jaringan lokal?</summary><p>Ya. Dengan itu aplikasi menemukan iPhone di dekatmu dan tersambung. Kalau terlanjur menolak, nyalakan lagi di Pengaturan ▸ Privasi &amp; Keamanan ▸ Jaringan Lokal.</p></details>
+<details><summary>Koneksi putus di tengah permainan.</summary><p>Buka lagi aplikasinya dan ketuk Lanjutkan di layar utama untuk kembali ke ruangan dan ronde yang sama. Peran dan skormu masih ada. Kalau lama nggak tersambung, gabung lagi dari daftar ruangan.</p></details>
+<details><summary>Ada yang nggak merespons dan game macet.</summary><p>Host bisa mengeluarkan pemain yang tidak merespons kapan saja, lalu game dihitung ulang dengan pemain yang tersisa dan lanjut. Mode host GM juga bisa melewati tahap yang macet.</p></details>
+<details><summary>Minimal berapa orang?</summary><p>Ordo Cahaya Bulan butuh 5 orang. Permainan Si Pembohong, Malam Tanpa Bulan, dan Studio Cahaya Bulan bisa mulai dari 3. Semuanya sampai 15. Kurang orang? Pelajari aturannya dulu bareng bot di mode Cara bermain.</p></details>
+<details><summary>Perlu internet atau akun?</summary><p>Nggak. Tanpa daftar, tanpa login, tanpa internet. iPhone yang berdekatan tersambung langsung, dan data game tidak pernah dikirim ke server.</p></details>
+<details><summary>Bisa coba main sendirian dulu?</summary><p>Bisa. Pilih game, lalu Cara bermain (latihan dengan bot). Bot masuk ke ruangan dan kamu main satu ronde penuh langkah demi langkah.</p></details>
+<details><summary>Bagaimana melaporkan bug atau kirim ide?</summary><p>Langsung dari aplikasi di Pengaturan (ikon roda gigi) ▸ Dukungan, atau kirim email ke alamat di bawah. Kami akan membalas secepatnya.</p></details></div>
+      <p class="contact">Laporan bug, ide, atau pertanyaan lain: kirim email ke <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Kumpul malam ini<br>mulai dari sini</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6790137862">Unduh gratis di App Store</a>
+    </section>
+  </main>
 
   <footer>
-    Arena Game Cahaya Bulan<br>
-    <a href="privacy.html">Kebijakan Privasi</a>
+    <nav id="languages" class="langs" aria-label="Bahasa"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id" aria-current="page">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Kebijakan Privasi</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Moonlit Arcade</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

@@ -1,0 +1,259 @@
+{
+  "title": "Moonlit Arcade: party games your iPhones play together, offline",
+  "description": "Link everyone's iPhones nearby with no internet and play Liar Game, hidden-role mysteries or draw-and-guess with up to 15 people. Every game is free.",
+  "hero": {
+    "headline": "Everyone's here.\nGrab your iPhones.",
+    "lead": "One person opens a room and everyone nearby joins in seconds. Roles and secret words show up only on each player's own screen, so no cards and no one stuck running the game.",
+    "cta": "Get it free on the App Store",
+    "note": "Every game is free. No account, no internet needed."
+  },
+  "demo": {
+    "title": "Play a round of Liar Game",
+    "lead": "Picture five iPhones on the table and tap each one to peek. Only one player doesn't know the word. Pass the screen around with friends if you like.",
+    "tap": "Tap to peek",
+    "reveal": "Reveal the Liar",
+    "again": "New round",
+    "caughtNote": "If the vote catches the Liar, the Liar still gets one last shot.",
+    "note": "In the app, everyone checks on their own iPhone, describes the word in turn, then votes. The words come from the same list the app uses.",
+    "app": {
+      "game": "Liar Game",
+      "sub": "Everyone has the same word. Only one doesn't know it.",
+      "arrived": "Your word has arrived",
+      "secret": "Check where nobody else can see the screen",
+      "gotIt": "Got it",
+      "word": "Word",
+      "cat": "Category: {1}",
+      "liarYou": "You are the Liar!",
+      "liarHint": "You don't know the word, but you have to describe it as if you do. Don't get caught!",
+      "liar": "Liar",
+      "caught": "Liar caught!",
+      "pick": "Pick the word — you only get one chance!",
+      "liarWin": "Liar wins!",
+      "citizenWin": "Citizens win!",
+      "me": "Me",
+      "bots": [
+        "Moonbunny",
+        "Nightbreeze",
+        "Milky Way",
+        "Waning Moon"
+      ],
+      "words": {
+        "Food": [
+          "Kimchi stew",
+          "Grilled pork belly",
+          "Tteokbokki",
+          "Fried chicken",
+          "Pizza",
+          "Sushi",
+          "Ramen",
+          "Bibimbap",
+          "Cold noodles",
+          "Beef rib soup",
+          "Pasta",
+          "Hamburger",
+          "Gimbap",
+          "Blood sausage",
+          "Pig's trotters",
+          "Salad"
+        ],
+        "Animals": [
+          "Elephant",
+          "Giraffe",
+          "Penguin",
+          "Tiger",
+          "Panda",
+          "Hedgehog",
+          "Kangaroo",
+          "Owl",
+          "Dolphin",
+          "Octopus",
+          "Squirrel",
+          "Crocodile",
+          "Camel",
+          "Otter",
+          "Parrot",
+          "Mole"
+        ],
+        "Places": [
+          "Amusement park",
+          "Library",
+          "Spa",
+          "Cinema",
+          "Convenience store",
+          "Subway station",
+          "Hair salon",
+          "Hospital",
+          "School",
+          "Campsite",
+          "Swimming pool",
+          "Airport",
+          "Market",
+          "Café",
+          "Karaoke room",
+          "Gym"
+        ],
+        "Jobs": [
+          "Firefighter",
+          "Doctor",
+          "Chef",
+          "Programmer",
+          "YouTuber",
+          "Teacher",
+          "Police officer",
+          "Farmer",
+          "Pilot",
+          "Hairdresser",
+          "Singer",
+          "Athlete",
+          "Photographer",
+          "Lawyer",
+          "Fisherman",
+          "Barista"
+        ],
+        "Objects": [
+          "Umbrella",
+          "Electric fan",
+          "Fridge",
+          "Toothbrush",
+          "Pillow",
+          "Remote control",
+          "Tumbler",
+          "Earphones",
+          "Scissors",
+          "Blanket",
+          "Mirror",
+          "Clock",
+          "Charger",
+          "Slippers",
+          "Face mask",
+          "Wallet"
+        ],
+        "Sports": [
+          "Soccer",
+          "Baseball",
+          "Basketball",
+          "Badminton",
+          "Swimming",
+          "Bowling",
+          "Taekwondo",
+          "Golf",
+          "Table tennis",
+          "Skiing",
+          "Climbing",
+          "Yoga",
+          "Boxing",
+          "Archery",
+          "Fencing",
+          "Marathon"
+        ]
+      }
+    }
+  },
+  "problem": {
+    "title": "A crowd, a free evening, and nothing to play",
+    "text": "Game night, a cabin weekend, the holidays with family. For a hidden-role game someone has to sit out and run it, and folded paper slips are never quite secret. At a rental with weak Wi-Fi, online games are out too. Moonlit Arcade lets the iPhones run the game, deal the roles and connect to each other."
+  },
+  "features": [
+    {
+      "title": "Your role stays on your screen",
+      "text": "When the game starts, each iPhone gets its own role or word. No passing cards around, no everyone-close-your-eyes.\nDuring a vote you only see who has voted. Who voted for whom stays secret until the reveal.",
+      "shot": "02-role"
+    },
+    {
+      "title": "Four games for any crowd",
+      "text": "Talk your way through Liar Game, hunt the Shadows with missions and votes in Moonlit Order, find the Goblin in one night in Moonless Night, or draw and guess in Moonlit Studio.\nMoonlit Order starts at 5 players, the rest at 3, and every game takes up to 15.",
+      "shot": "04-draw"
+    },
+    {
+      "title": "New game? Learn it in minutes",
+      "text": "Every game has a How to Play mode where you play a round with bots, one step at a time. Read the tip at the top and tap Next.\nIf the app closes or the connection drops, tap Resume on the home screen and you're back in the same round.",
+      "shot": "03-vote"
+    }
+  ],
+  "steps": {
+    "title": "Three steps to start",
+    "items": [
+      {
+        "title": "Pick a nickname and a game",
+        "text": "Everyone opens the app, types a nickname and picks the game."
+      },
+      {
+        "title": "Create or join a room",
+        "text": "One person creates a room. Everyone else finds it under Find Nearby Rooms."
+      },
+      {
+        "title": "The host starts",
+        "text": "Once everyone is in, the host taps Start Game. The app runs the rest."
+      }
+    ]
+  },
+  "reference": {
+    "title": "The four games",
+    "rows": [
+      [
+        "Liar Game · 3 to 15 players",
+        "Everyone gets the same word except one. Take turns describing it, then vote for the Liar. If the Liar is caught but guesses the word, the Liar still wins."
+      ],
+      [
+        "Moonlit Order · 5 to 15 players",
+        "Find the Shadows hiding among the Order. The leader picks a mission team, everyone votes for or against, and the team secretly plays success or fail. First to three missions decides it."
+      ],
+      [
+        "Moonless Night · 3 to 15 players",
+        "One night, and a Goblin is hiding in the village. At night the Shaman, Night Thief and Prankster act in secret. At dawn you talk it over and get a single vote to find the Goblin."
+      ],
+      [
+        "Moonlit Studio · 3 to 15 players",
+        "One player draws the word, the rest guess in the chat. The faster you guess, the more you score, and the artist scores for every correct guess."
+      ]
+    ],
+    "note": "Any game can be tried solo with bots first in How to Play mode."
+  },
+  "faq": {
+    "title": "Questions",
+    "items": [
+      {
+        "q": "I can't see the room.",
+        "a": "Make sure the host and players are on the same Wi-Fi or close to each other. Moonlit Arcade must be turned on in Settings ▸ Privacy & Security ▸ Local Network to find nearby devices. Keeping both Wi-Fi and Bluetooth on gives the steadiest connection."
+      },
+      {
+        "q": "Do I have to allow Local Network access?",
+        "a": "Yes. That's how the app finds and connects to iPhones nearby. If you tapped Don't Allow, turn it back on in Settings ▸ Privacy & Security ▸ Local Network."
+      },
+      {
+        "q": "I got disconnected mid-game.",
+        "a": "Reopen the app and tap Resume on the home screen to rejoin the same room and round. Your role and score are still there. If it doesn't reconnect for a while, join again from the room list."
+      },
+      {
+        "q": "Someone stopped responding and the game is stuck.",
+        "a": "The host can remove an unresponsive player at any time, and the game re-counts with whoever is left and carries on. GM Host Mode can also skip a stalled step."
+      },
+      {
+        "q": "How many players do we need?",
+        "a": "Moonlit Order needs 5. Liar Game, Moonless Night and Moonlit Studio start at 3. Every game takes up to 15. Short on people? Learn the rules with bots in How to Play mode."
+      },
+      {
+        "q": "Do we need internet or an account?",
+        "a": "No. No sign-up, no sign-in, no internet. Nearby iPhones connect directly, and game data is never sent to a server."
+      },
+      {
+        "q": "Can I try a game by myself first?",
+        "a": "Yes. Pick a game and choose How to Play (Practice with Bots). Bots join the room and you play a full round step by step."
+      },
+      {
+        "q": "How do I report a bug or send an idea?",
+        "a": "Send it straight from Settings (the gear) ▸ Support in the app, or email us at the address below. We'll get back to you as soon as we can."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Tonight's game night\nstarts here",
+    "cta": "Get it free on the App Store"
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "languages": "Language",
+    "privacy": "Privacy Policy",
+    "contact": "Bug reports, ideas or anything else: write to {email}."
+  }
+}

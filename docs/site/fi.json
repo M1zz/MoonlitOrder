@@ -1,0 +1,259 @@
+{
+  "title": "Kuupeliareena: seurapelejä iPhonejen kesken ilman nettiä",
+  "description": "Yhdistä kaikkien iPhonet ilman nettiä ja pelatkaa jopa 15 hengen kesken Valehtelijapeliä, salaisia rooleja tai piirrä ja arvaa. Kaikki pelit ilmaisia.",
+  "hero": {
+    "headline": "Onko kaikki paikalla?\niPhonet esiin.",
+    "lead": "Yksi luo huoneen, ja kaikki lähellä olevat liittyvät sekunneissa. Roolit ja salaiset sanat näkyvät vain omalla näytöllä: ei kortteja, eikä kenenkään tarvitse jäädä pelin ulkopuolelle vetämään.",
+    "cta": "Lataa maksutta App Storesta",
+    "note": "Kaikki pelit ovat maksuttomia. Ei tiliä, ei nettiä."
+  },
+  "demo": {
+    "title": "Pelaa kierros Valehtelijapeliä",
+    "lead": "Kuvittele pöydälle viisi iPhonea ja napauta niitä yksi kerrallaan kurkataksesi. Vain yksi pelaaja ei tiedä sanaa. Voitte myös kierrättää näyttöä kaverien kesken.",
+    "tap": "Napauta ja kurkkaa",
+    "reveal": "Paljasta valehtelija",
+    "again": "Uusi kierros",
+    "caughtNote": "Vaikka äänestys paljastaisi valehtelijan, hänellä on vielä viimeinen tilaisuus.",
+    "note": "Sovelluksessa jokainen katsoo omaa iPhoneaan, kuvailee sanaa vuorollaan ja sitten äänestetään. Sanat tulevat samasta listasta kuin sovelluksessa.",
+    "app": {
+      "game": "Valehtelijapeli",
+      "sub": "Kaikilla on sama sana. Vain yksi ei tiedä sitä.",
+      "arrived": "Sana saapui",
+      "secret": "Katso paikassa, jossa kukaan ei näe näyttöä",
+      "gotIt": "Nähty",
+      "word": "Sana",
+      "cat": "Luokka: {1}",
+      "liarYou": "Sinä olet Valehtelija!",
+      "liarHint": "Et tiedä sanaa, mutta sinun on kuvailtava se kuin tietäisit. Älä jää kiinni!",
+      "liar": "Valehtelija",
+      "caught": "Valehtelija jäi kiinni!",
+      "pick": "Valitse sana — vain yksi mahdollisuus!",
+      "liarWin": "Valehtelija voittaa!",
+      "citizenWin": "Kansalaiset voittavat!",
+      "me": "Minä",
+      "bots": [
+        "Kuujänis",
+        "Yötuuli",
+        "Linnunrata",
+        "Vähenevä kuu"
+      ],
+      "words": {
+        "Ruoka": [
+          "Kimchi-pata",
+          "Grillattu porsaankylki",
+          "Tteokbokki",
+          "Paistettu kana",
+          "Pizza",
+          "Sushi",
+          "Ramen",
+          "Bibimbap",
+          "Kylmät nuudelit",
+          "Häränruokaluukeitto",
+          "Pasta",
+          "Hampurilainen",
+          "Gimbap",
+          "Korealainen verimakkara",
+          "Possun jalat",
+          "Salaatti"
+        ],
+        "Eläimet": [
+          "Norsu",
+          "Kirahvi",
+          "Pingviini",
+          "Tiikeri",
+          "Panda",
+          "Siili",
+          "Kenguru",
+          "Pöllö",
+          "Delfiini",
+          "Mustekala",
+          "Orava",
+          "Krokotiili",
+          "Kameli",
+          "Saukko",
+          "Papukaija",
+          "Myyrä"
+        ],
+        "Paikat": [
+          "Huvipuisto",
+          "Kirjasto",
+          "Korealainen sauna",
+          "Elokuvateatteri",
+          "Lähikauppa",
+          "Metroasema",
+          "Kampaamo",
+          "Sairaala",
+          "Koulu",
+          "Leirintäalue",
+          "Uimahalli",
+          "Lentokenttä",
+          "Tori",
+          "Kahvila",
+          "Karaoke",
+          "Kuntosali"
+        ],
+        "Ammatit": [
+          "Palomies",
+          "Lääkäri",
+          "Kokki",
+          "Ohjelmoija",
+          "Youtuber",
+          "Opettaja",
+          "Poliisi",
+          "Maanviljelijä",
+          "Lentäjä",
+          "Kampaaja",
+          "Laulaja",
+          "Urheilija",
+          "Valokuvaaja",
+          "Asianajaja",
+          "Kalastaja",
+          "Barista"
+        ],
+        "Esineet": [
+          "Sateenvarjo",
+          "Tuuletin",
+          "Jääkaappi",
+          "Hammasharja",
+          "Tyyny",
+          "Kaukosäädin",
+          "Termosmuki",
+          "Nappikuulokkeet",
+          "Sakset",
+          "Peitto",
+          "Peili",
+          "Kello",
+          "Laturi",
+          "Tohvelit",
+          "Maski",
+          "Lompakko"
+        ],
+        "Urheilu": [
+          "Jalkapallo",
+          "Baseball",
+          "Koripallo",
+          "Sulkapallo",
+          "Uinti",
+          "Keilaus",
+          "Taekwondo",
+          "Golf",
+          "Pöytätennis",
+          "Hiihto",
+          "Kiipeily",
+          "Jooga",
+          "Nyrkkeily",
+          "Jousiammunta",
+          "Miekkailu",
+          "Maraton"
+        ]
+      }
+    }
+  },
+  "problem": {
+    "title": "Kaikki ovat paikalla, mutta mitä pelataan?",
+    "text": "Peli-ilta, mökkiviikonloppu, joulu suvun kanssa. Salaisten roolien peleissä jonkun on jäätävä sivuun vetämään peliä, eivätkä taitellut laput pysy koskaan täysin salassa. Mökillä, jossa wifi on heikko, nettipelitkään eivät toimi. Kuupeliareenassa iPhonet hoitavat pelinjohdon, roolien jaon ja yhteydet."
+  },
+  "features": [
+    {
+      "title": "Roolisi näkyy vain sinun näytölläsi",
+      "text": "Kun peli alkaa, jokainen iPhone saa oman roolinsa tai sanansa. Ei korttien jakamista, ei ”kaikki sulkevat silmänsä”.\nÄänestyksessä näkyy vain, kuka on jo äänestänyt. Kuka äänesti ketäkin, pysyy salassa paljastukseen asti.",
+      "shot": "02-role"
+    },
+    {
+      "title": "Neljä peliä joka porukalle",
+      "text": "Valehtelijapelissä voittaa paras puhuja, Kuuordossa jahtaatte Varjoja tehtävien ja äänestysten avulla, Yössä ilman kuuta etsitte menninkäisen yhden yön aikana, ja Kuuateljeessa yksi piirtää ja muut arvaavat.\nKuuordo 5 pelaajasta, muut 3:sta, kaikki enintään 15:lle.",
+      "shot": "04-draw"
+    },
+    {
+      "title": "Uusi peli? Opittu muutamassa minuutissa",
+      "text": "Jokaisessa pelissä on Näin pelaat -tila, jossa pelaat kierroksen botteja vastaan vaihe vaiheelta. Lue vinkki ylhäältä ja napauta Seuraava.\nJos sovellus sulkeutuu tai yhteys katkeaa, napauta Jatka-painiketta aloitusnäytöllä, niin pääset takaisin samaan kierrokseen.",
+      "shot": "03-vote"
+    }
+  ],
+  "steps": {
+    "title": "Aloita kolmessa vaiheessa",
+    "items": [
+      {
+        "title": "Lempinimi ja peli",
+        "text": "Kaikki avaavat sovelluksen, kirjoittavat lempinimen ja valitsevat pelin."
+      },
+      {
+        "title": "Luo huone tai liity",
+        "text": "Yksi luo huoneen, muut löytävät sen kohdasta Etsi lähellä olevia huoneita."
+      },
+      {
+        "title": "Isäntä aloittaa",
+        "text": "Kun kaikki ovat sisällä, isäntä napauttaa Aloita peli. Sovellus hoitaa loput."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Neljä peliä",
+    "rows": [
+      [
+        "Valehtelijapeli · 3–15 pelaajaa",
+        "Kaikki saavat saman sanan paitsi yksi. Vuorotellen sanaa kuvaillaan, ja sitten äänestetään valehtelijasta. Jos kiinni jäänyt valehtelija arvaa sanan, hän voittaa silti."
+      ],
+      [
+        "Kuuordo · 5–15 pelaajaa",
+        "Paljastakaa Ordoon kätkeytyneet Varjot. Johtaja valitsee tehtäväryhmän, kaikki äänestävät puolesta tai vastaan, ja ryhmä pelaa salaa onnistumisen tai epäonnistumisen. Se puoli, joka ensin saa kolme tehtävää, voittaa."
+      ],
+      [
+        "Yö ilman kuuta · 3–15 pelaajaa",
+        "Yksi yö, ja kylään on piiloutunut menninkäinen. Yöllä Šamaani, Yövaras ja Veijari toimivat salaa. Aamunkoitteessa keskustellaan, ja menninkäisen löytämiseen on vain yksi äänestys."
+      ],
+      [
+        "Kuuateljee · 3–15 pelaajaa",
+        "Yksi piirtää sanan ja muut arvaavat chatissa. Mitä nopeammin arvaat oikein, sitä enemmän pisteitä, ja piirtäjä saa pisteitä jokaisesta oikeasta vastauksesta."
+      ]
+    ],
+    "note": "Jokaista peliä voi ensin kokeilla yksin bottien kanssa Näin pelaat -tilassa."
+  },
+  "faq": {
+    "title": "Usein kysyttyä",
+    "items": [
+      {
+        "q": "En näe huonetta.",
+        "a": "Tarkista, että isäntä ja pelaajat ovat samassa wifissä tai lähellä toisiaan. Kuupeliareenan täytyy olla päällä kohdassa Asetukset ▸ Tietosuoja ja turvallisuus ▸ Paikallisverkko, jotta se löytää lähellä olevat laitteet. Kun sekä wifi että Bluetooth ovat päällä, yhteys on vakain."
+      },
+      {
+        "q": "Pitääkö paikallisverkon käyttö sallia?",
+        "a": "Kyllä, sen avulla sovellus löytää lähellä olevat iPhonet ja yhdistää niihin. Jos napautit Älä salli, laita se takaisin päälle kohdassa Asetukset ▸ Tietosuoja ja turvallisuus ▸ Paikallisverkko."
+      },
+      {
+        "q": "Yhteys katkesi kesken pelin.",
+        "a": "Avaa sovellus uudelleen ja napauta aloitusnäytön Jatka-painiketta, niin palaat samaan huoneeseen ja kierrokseen. Rooli ja pisteet säilyvät. Jos yhdistäminen kestää kauan, liity uudelleen huonelistasta."
+      },
+      {
+        "q": "Joku ei vastaa ja peli on jumissa.",
+        "a": "Isäntä voi milloin tahansa poistaa pelaajan, joka ei vastaa, ja peli laskee tilanteen uudelleen jäljellä olevilla ja jatkuu. GM-isäntätilassa jumiin jääneen vaiheen voi myös ohittaa."
+      },
+      {
+        "q": "Montako pelaajaa tarvitaan?",
+        "a": "Kuuordo vaatii 5. Valehtelijapeli, Yö ilman kuuta ja Kuuateljee alkavat 3:sta. Kaikkiin mahtuu 15. Liian vähän porukkaa? Opetelkaa säännöt botteja vastaan Näin pelaat -tilassa."
+      },
+      {
+        "q": "Tarvitaanko nettiä tai tiliä?",
+        "a": "Ei. Ei rekisteröitymistä, kirjautumista eikä nettiä. Lähellä olevat iPhonet yhdistyvät suoraan, eikä pelitietoja koskaan lähetetä palvelimelle."
+      },
+      {
+        "q": "Voinko kokeilla peliä ensin yksin?",
+        "a": "Voit. Valitse peli ja sitten Näin pelaat (harjoittelu botteja vastaan). Botit tulevat huoneeseen, ja pelaat kokonaisen kierroksen vaihe vaiheelta."
+      },
+      {
+        "q": "Miten ilmoitan virheestä tai lähetän idean?",
+        "a": "Suoraan sovelluksesta kohdasta Asetukset (ratas) ▸ Tuki tai sähköpostilla alla olevaan osoitteeseen. Vastaamme mahdollisimman pian."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Illan peli-ilta\nalkaa täältä",
+    "cta": "Lataa maksutta App Storesta"
+  },
+  "ui": {
+    "skip": "Siirry sisältöön",
+    "languages": "Kieli",
+    "privacy": "Tietosuojakäytäntö",
+    "contact": "Virheet, ideat ja muut asiat: kirjoita osoitteeseen {email}."
+  }
+}

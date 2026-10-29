@@ -1,0 +1,259 @@
+{
+  "title": "Phòng Game Ánh Trăng: trò chơi nhóm giữa các iPhone, không cần mạng",
+  "description": "Kết nối iPhone của mọi người ở gần mà không cần Internet, chơi Trò Kẻ Nói Dối, đoán vai bí mật hay vẽ hình đoán chữ, tối đa 15 người. Miễn phí.",
+  "hero": {
+    "headline": "Đủ người rồi?\nLấy iPhone ra thôi.",
+    "lead": "Một người tạo phòng, những người ở gần vào chỉ trong vài giây. Vai và từ khóa bí mật chỉ hiện trên màn hình của từng người: không cần thẻ bài, cũng không ai phải ngồi ngoài làm quản trò.",
+    "cta": "Tải miễn phí trên App Store",
+    "note": "Mọi trò chơi đều miễn phí. Không cần tài khoản hay Internet."
+  },
+  "demo": {
+    "title": "Chơi thử một ván Kẻ Nói Dối",
+    "lead": "Hãy tưởng tượng có năm chiếc iPhone trên bàn và chạm vào từng chiếc để xem. Chỉ một người không biết từ khóa. Bạn cũng có thể chuyền màn hình cho bạn bè cùng chơi.",
+    "tap": "Chạm để xem",
+    "reveal": "Lộ diện Kẻ Nói Dối",
+    "again": "Ván mới",
+    "caughtNote": "Dù bị bắt qua bỏ phiếu, Kẻ Nói Dối vẫn còn một cơ hội cuối.",
+    "note": "Trong ứng dụng, mỗi người xem trên iPhone của mình, lần lượt mô tả từ khóa rồi cùng bỏ phiếu. Từ khóa lấy từ cùng danh sách với ứng dụng.",
+    "app": {
+      "game": "Trò Kẻ Nói Dối",
+      "sub": "Mọi người có cùng từ khóa. Chỉ một người không biết.",
+      "arrived": "Từ khóa đã đến",
+      "secret": "Hãy xem ở nơi không ai nhìn thấy màn hình",
+      "gotIt": "Đã xem",
+      "word": "Từ khóa",
+      "cat": "Chủ đề: {1}",
+      "liarYou": "Bạn là Kẻ Nói Dối!",
+      "liarHint": "Bạn không biết từ khóa nhưng phải mô tả như thể biết. Đừng để bị phát hiện!",
+      "liar": "Kẻ Nói Dối",
+      "caught": "Bắt được Kẻ Nói Dối!",
+      "pick": "Hãy chọn từ khóa — chỉ có một cơ hội!",
+      "liarWin": "Kẻ Nói Dối thắng!",
+      "citizenWin": "Phe công dân thắng!",
+      "me": "Tôi",
+      "bots": [
+        "Thỏ Ngọc",
+        "Gió Đêm",
+        "Dải Ngân Hà",
+        "Trăng Khuyết"
+      ],
+      "words": {
+        "Món ăn": [
+          "Canh kimchi",
+          "Ba chỉ nướng",
+          "Tteokbokki",
+          "Gà rán",
+          "Pizza",
+          "Sushi",
+          "Mì ramen",
+          "Cơm trộn bibimbap",
+          "Mì lạnh",
+          "Canh sườn bò",
+          "Mì Ý",
+          "Hamburger",
+          "Kimbap",
+          "Dồi Hàn Quốc",
+          "Chân giò heo",
+          "Salad"
+        ],
+        "Động vật": [
+          "Voi",
+          "Hươu cao cổ",
+          "Chim cánh cụt",
+          "Hổ",
+          "Gấu trúc",
+          "Nhím",
+          "Chuột túi",
+          "Cú mèo",
+          "Cá heo",
+          "Bạch tuộc",
+          "Sóc",
+          "Cá sấu",
+          "Lạc đà",
+          "Rái cá",
+          "Vẹt",
+          "Chuột chũi"
+        ],
+        "Địa điểm": [
+          "Công viên giải trí",
+          "Thư viện",
+          "Phòng xông hơi Hàn Quốc",
+          "Rạp chiếu phim",
+          "Cửa hàng tiện lợi",
+          "Ga tàu điện ngầm",
+          "Tiệm làm tóc",
+          "Bệnh viện",
+          "Trường học",
+          "Khu cắm trại",
+          "Hồ bơi",
+          "Sân bay",
+          "Chợ",
+          "Quán cà phê",
+          "Phòng karaoke",
+          "Phòng gym"
+        ],
+        "Nghề nghiệp": [
+          "Lính cứu hỏa",
+          "Bác sĩ",
+          "Đầu bếp",
+          "Lập trình viên",
+          "YouTuber",
+          "Giáo viên",
+          "Cảnh sát",
+          "Nông dân",
+          "Phi công",
+          "Thợ làm tóc",
+          "Ca sĩ",
+          "Vận động viên",
+          "Nhiếp ảnh gia",
+          "Luật sư",
+          "Ngư dân",
+          "Barista"
+        ],
+        "Đồ vật": [
+          "Cái ô",
+          "Quạt điện",
+          "Tủ lạnh",
+          "Bàn chải đánh răng",
+          "Cái gối",
+          "Điều khiển từ xa",
+          "Bình giữ nhiệt",
+          "Tai nghe",
+          "Cái kéo",
+          "Cái chăn",
+          "Cái gương",
+          "Đồng hồ",
+          "Sạc điện thoại",
+          "Dép đi trong nhà",
+          "Khẩu trang",
+          "Cái ví"
+        ],
+        "Thể thao": [
+          "Bóng đá",
+          "Bóng chày",
+          "Bóng rổ",
+          "Cầu lông",
+          "Bơi lội",
+          "Bowling",
+          "Taekwondo",
+          "Golf",
+          "Bóng bàn",
+          "Trượt tuyết",
+          "Leo núi",
+          "Yoga",
+          "Quyền Anh",
+          "Bắn cung",
+          "Đấu kiếm",
+          "Marathon"
+        ]
+      }
+    }
+  },
+  "problem": {
+    "title": "Đông đủ cả rồi mà chẳng biết chơi gì",
+    "text": "Họp lớp, đi chơi xa, Tết sum họp gia đình. Chơi Ma Sói thì phải có người đứng ngoài làm quản trò, còn giấy gấp thì chẳng bao giờ kín hẳn. Ở homestay Wi-Fi yếu, game online cũng chịu. Phòng Game Ánh Trăng để iPhone lo việc quản trò, chia vai và kết nối."
+  },
+  "features": [
+    {
+      "title": "Vai của bạn chỉ có trên màn hình của bạn",
+      "text": "Khi bắt đầu, mỗi iPhone nhận vai hoặc từ khóa riêng. Không phải chia bài, không cần “mọi người nhắm mắt”.\nLúc bỏ phiếu chỉ thấy ai đã bỏ phiếu. Ai bầu cho ai được giữ bí mật đến lúc công bố.",
+      "shot": "02-role"
+    },
+    {
+      "title": "Bốn trò cho mọi nhóm bạn",
+      "text": "Trò Kẻ Nói Dối đấu bằng tài ăn nói, Hội Ánh Trăng truy tìm Bóng Tối qua nhiệm vụ và bỏ phiếu, Đêm Không Trăng tìm Yêu tinh chỉ trong một đêm, còn Xưởng Vẽ Ánh Trăng để một người vẽ, cả nhóm đoán.\nHội Ánh Trăng từ 5 người, các trò còn lại từ 3, tất cả tối đa 15.",
+      "shot": "04-draw"
+    },
+    {
+      "title": "Trò mới? Vài phút là nắm",
+      "text": "Mỗi trò có chế độ Cách chơi, bạn chơi một ván cùng bot theo từng bước. Đọc gợi ý phía trên rồi chạm Tiếp.\nNếu ứng dụng bị tắt hay mất kết nối, chạm Chơi tiếp ở màn hình chính là quay lại đúng ván cũ.",
+      "shot": "03-vote"
+    }
+  ],
+  "steps": {
+    "title": "Bắt đầu với 3 bước",
+    "items": [
+      {
+        "title": "Chọn biệt danh và trò chơi",
+        "text": "Mọi người mở ứng dụng, nhập biệt danh và chọn trò."
+      },
+      {
+        "title": "Tạo hoặc vào phòng",
+        "text": "Một người tạo phòng, những người khác tìm qua Tìm phòng gần đây."
+      },
+      {
+        "title": "Chủ phòng bắt đầu",
+        "text": "Khi đủ người, chủ phòng chạm Bắt đầu. Phần còn lại để ứng dụng lo."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Bốn trò chơi",
+    "rows": [
+      [
+        "Trò Kẻ Nói Dối · 3–15 người",
+        "Mọi người nhận cùng một từ, trừ một người. Lần lượt mô tả rồi bỏ phiếu tìm Kẻ Nói Dối. Bị bắt mà đoán đúng từ khóa thì Kẻ Nói Dối vẫn thắng."
+      ],
+      [
+        "Hội Ánh Trăng · 5–15 người",
+        "Tìm ra Bóng Tối ẩn trong Hội. Thủ lĩnh chọn đội làm nhiệm vụ, cả nhóm bỏ phiếu đồng ý hay không, rồi đội bí mật chọn thành công hoặc thất bại. Phe nào giành ba nhiệm vụ trước sẽ thắng."
+      ],
+      [
+        "Đêm Không Trăng · 3–15 người",
+        "Một đêm duy nhất, có Yêu tinh trà trộn trong làng. Ban đêm, Pháp sư, Kẻ trộm đêm và Kẻ tinh nghịch hành động bí mật. Trời sáng thì thảo luận và chỉ có một lần bỏ phiếu để tìm Yêu tinh."
+      ],
+      [
+        "Xưởng Vẽ Ánh Trăng · 3–15 người",
+        "Một người vẽ từ khóa, những người khác đoán trong khung chat. Đoán càng nhanh càng nhiều điểm, và người vẽ được điểm cho mỗi lượt đoán đúng."
+      ]
+    ],
+    "note": "Trò nào cũng có thể chơi thử một mình với bot trước trong chế độ Cách chơi."
+  },
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "items": [
+      {
+        "q": "Không thấy phòng.",
+        "a": "Kiểm tra chủ phòng và người chơi có cùng Wi-Fi hoặc ở gần nhau không. Cần bật Phòng Game Ánh Trăng trong Cài đặt ▸ Quyền riêng tư & Bảo mật ▸ Mạng cục bộ thì mới tìm được thiết bị ở gần. Bật cả Wi-Fi và Bluetooth sẽ kết nối ổn định nhất."
+      },
+      {
+        "q": "Có bắt buộc cho phép truy cập mạng cục bộ không?",
+        "a": "Có. Ứng dụng cần quyền này để tìm và kết nối với iPhone ở gần. Nếu lỡ chạm Không cho phép, bạn bật lại trong Cài đặt ▸ Quyền riêng tư & Bảo mật ▸ Mạng cục bộ."
+      },
+      {
+        "q": "Đang chơi thì mất kết nối.",
+        "a": "Mở lại ứng dụng và chạm Chơi tiếp ở màn hình chính để về đúng phòng, đúng ván. Vai và điểm vẫn còn nguyên. Nếu lâu không vào lại được, hãy tham gia lại từ danh sách phòng."
+      },
+      {
+        "q": "Có người không phản hồi, ván bị đứng.",
+        "a": "Chủ phòng có thể mời người không phản hồi ra bất cứ lúc nào, ván sẽ tính lại với những người còn lại và chơi tiếp. Chế độ chủ phòng GM còn bỏ qua được bước bị kẹt."
+      },
+      {
+        "q": "Cần ít nhất bao nhiêu người?",
+        "a": "Hội Ánh Trăng cần 5 người. Trò Kẻ Nói Dối, Đêm Không Trăng và Xưởng Vẽ Ánh Trăng bắt đầu từ 3. Tất cả tối đa 15. Thiếu người thì cứ học luật với bot trong chế độ Cách chơi trước."
+      },
+      {
+        "q": "Có cần Internet hay tài khoản không?",
+        "a": "Không. Không đăng ký, không đăng nhập, không cần Internet. Các iPhone ở gần kết nối trực tiếp, dữ liệu ván chơi không bao giờ gửi lên máy chủ."
+      },
+      {
+        "q": "Có thể chơi thử một mình trước không?",
+        "a": "Được. Chọn trò rồi chọn Cách chơi (luyện tập với bot). Bot sẽ vào phòng và bạn chơi trọn một ván theo từng bước."
+      },
+      {
+        "q": "Báo lỗi hoặc góp ý ở đâu?",
+        "a": "Gửi ngay trong ứng dụng ở Cài đặt (bánh răng) ▸ Hỗ trợ, hoặc gửi thư đến địa chỉ bên dưới. Chúng tôi sẽ trả lời sớm nhất có thể."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Buổi tụ tập tối nay\nbắt đầu từ đây",
+    "cta": "Tải miễn phí trên App Store"
+  },
+  "ui": {
+    "skip": "Chuyển đến nội dung",
+    "languages": "Ngôn ngữ",
+    "privacy": "Chính sách quyền riêng tư",
+    "contact": "Báo lỗi, góp ý hay hỏi gì khác, hãy gửi thư đến {email}."
+  }
+}

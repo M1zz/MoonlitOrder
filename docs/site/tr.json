@@ -1,0 +1,259 @@
+{
+  "title": "Ay Oyun Salonu: internetsiz, iPhone’lar arasında parti oyunları",
+  "description": "Yakındaki herkesin iPhone’unu internetsiz bağlayın; 15 kişiye kadar Yalancı Oyunu, gizli rol ya da çiz ve tahmin et oynayın. Tüm oyunlar ücretsiz.",
+  "hero": {
+    "headline": "Herkes geldi mi?\niPhone’lar ortaya.",
+    "lead": "Biri oda kurar, yakındaki herkes saniyeler içinde katılır. Roller ve gizli kelimeler yalnızca herkesin kendi ekranında görünür: kart yok, oyunu yönetmek için dışarıda kalan kimse yok.",
+    "cta": "App Store’dan ücretsiz indir",
+    "note": "Tüm oyunlar ücretsiz. Hesap ve internet gerekmez."
+  },
+  "demo": {
+    "title": "Bir el Yalancı Oyunu oyna",
+    "lead": "Masada beş iPhone olduğunu düşün ve tek tek dokunarak bak. Kelimeyi yalnızca bir kişi bilmiyor. Arkadaşlarınla ekranı elden ele dolaştırarak da oynayabilirsin.",
+    "tap": "Görmek için dokun",
+    "reveal": "Yalancıyı açıkla",
+    "again": "Yeni el",
+    "caughtNote": "Oylamada yakalansa bile Yalancının son bir şansı var.",
+    "note": "Uygulamada herkes kendi iPhone’una bakar, sırayla kelimeyi anlatır, sonra oylanır. Kelimeler uygulamadaki listenin aynısından gelir.",
+    "app": {
+      "game": "Yalancı Oyunu",
+      "sub": "Herkesin kelimesi aynı. Yalnızca biri bilmiyor.",
+      "arrived": "Kelime geldi",
+      "secret": "Ekranın kimse tarafından görülemeyeceği yerde bak",
+      "gotIt": "Baktım",
+      "word": "Kelime",
+      "cat": "Kategori: {1}",
+      "liarYou": "Yalancı sensin!",
+      "liarHint": "Kelimeyi bilmiyorsun ama biliyormuş gibi anlatmalısın. Yakalanma!",
+      "liar": "Yalancı",
+      "caught": "Yalancı yakalandı!",
+      "pick": "Kelimeyi seç — tek bir şansın var!",
+      "liarWin": "Yalancı kazandı!",
+      "citizenWin": "Vatandaşlar kazandı!",
+      "me": "Ben",
+      "bots": [
+        "Ay Tavşanı",
+        "Gece Meltemi",
+        "Samanyolu",
+        "Küçülen Ay"
+      ],
+      "words": {
+        "Yemek": [
+          "Kimchi güveç",
+          "Izgara domuz karnı",
+          "Tteokbokki",
+          "Kızarmış tavuk",
+          "Pizza",
+          "Suşi",
+          "Ramen",
+          "Bibimbap",
+          "Soğuk erişte",
+          "Dana kaburga çorbası",
+          "Makarna",
+          "Hamburger",
+          "Gimbap",
+          "Kore kan sosisi",
+          "Domuz paçası",
+          "Salata"
+        ],
+        "Hayvanlar": [
+          "Fil",
+          "Zürafa",
+          "Penguen",
+          "Kaplan",
+          "Panda",
+          "Kirpi",
+          "Kanguru",
+          "Baykuş",
+          "Yunus",
+          "Ahtapot",
+          "Sincap",
+          "Timsah",
+          "Deve",
+          "Su samuru",
+          "Papağan",
+          "Köstebek"
+        ],
+        "Mekânlar": [
+          "Lunapark",
+          "Kütüphane",
+          "Kore saunası",
+          "Sinema",
+          "Market",
+          "Metro istasyonu",
+          "Kuaför",
+          "Hastane",
+          "Okul",
+          "Kamp alanı",
+          "Yüzme havuzu",
+          "Havalimanı",
+          "Pazar",
+          "Kafe",
+          "Karaoke",
+          "Spor salonu"
+        ],
+        "Meslekler": [
+          "İtfaiyeci",
+          "Doktor",
+          "Aşçı",
+          "Yazılımcı",
+          "YouTuber",
+          "Öğretmen",
+          "Polis",
+          "Çiftçi",
+          "Pilot",
+          "Saç tasarımcısı",
+          "Şarkıcı",
+          "Sporcu",
+          "Fotoğrafçı",
+          "Avukat",
+          "Balıkçı",
+          "Barista"
+        ],
+        "Eşyalar": [
+          "Şemsiye",
+          "Vantilatör",
+          "Buzdolabı",
+          "Diş fırçası",
+          "Yastık",
+          "Kumanda",
+          "Termos bardak",
+          "Kulaklık",
+          "Makas",
+          "Battaniye",
+          "Ayna",
+          "Saat",
+          "Şarj aleti",
+          "Terlik",
+          "Maske",
+          "Cüzdan"
+        ],
+        "Sporlar": [
+          "Futbol",
+          "Beyzbol",
+          "Basketbol",
+          "Badminton",
+          "Yüzme",
+          "Bowling",
+          "Tekvando",
+          "Golf",
+          "Masa tenisi",
+          "Kayak",
+          "Tırmanış",
+          "Yoga",
+          "Boks",
+          "Okçuluk",
+          "Eskrim",
+          "Maraton"
+        ]
+      }
+    }
+  },
+  "problem": {
+    "title": "Herkes toplandı ama ne oynanacağı belli değil",
+    "text": "Oyun gecesi, yazlıkta hafta sonu, bayramda aile toplantısı. Vampir Köylü oynamak için birinin oyundan çıkıp yönetmesi gerekir, katlanmış kâğıtlar da hiç tam gizli kalmaz. Wi-Fi’ı zayıf bir evde online oyunlar da olmaz. Ay Oyun Salonu’nda yönetmeyi, rol dağıtmayı ve bağlantıyı iPhone’lar üstlenir."
+  },
+  "features": [
+    {
+      "title": "Rolün yalnızca senin ekranında",
+      "text": "Oyun başlayınca her iPhone kendi rolünü ya da kelimesini alır. Kart dağıtmak ya da “herkes gözlerini kapatsın” demek yok.\nOylamada yalnızca kimin oy verdiği görünür. Kimin kime oy verdiği açıklanana kadar gizli kalır.",
+      "shot": "02-role"
+    },
+    {
+      "title": "Her ortama dört oyun",
+      "text": "Yalancı Oyunu’nda laf ustalığı kazanır, Ay Tarikatı’nda görevler ve oylamalarla Gölgeleri avlarsınız, Aysız Gece’de tek gecede Goblin’i bulursunuz, Ay Atölyesi’nde biri çizer, diğerleri tahmin eder.\nAy Tarikatı 5 kişiyle, diğerleri 3 kişiyle başlar; hepsi 15 kişiye kadar oynanır.",
+      "shot": "04-draw"
+    },
+    {
+      "title": "Yeni oyun mu? Dakikalar içinde öğrenilir",
+      "text": "Her oyunun bir Nasıl oynanır modu var; botlarla adım adım bir el oynarsın. Üstteki ipucunu oku ve İleri’ye dokun.\nUygulama kapanır ya da bağlantı koparsa ana ekrandaki Devam et ile aynı ele dönersin.",
+      "shot": "03-vote"
+    }
+  ],
+  "steps": {
+    "title": "Üç adımda başla",
+    "items": [
+      {
+        "title": "Takma ad ve oyun seç",
+        "text": "Herkes uygulamayı açar, takma adını yazar ve oyunu seçer."
+      },
+      {
+        "title": "Oda oluştur ya da katıl",
+        "text": "Biri oda oluşturur, diğerleri Yakındaki odaları bul ile katılır."
+      },
+      {
+        "title": "Ev sahibi başlatır",
+        "text": "Herkes içerideyse ev sahibi Oyunu başlat’a dokunur. Gerisini uygulama halleder."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Dört oyun",
+    "rows": [
+      [
+        "Yalancı Oyunu · 3–15 kişi",
+        "Biri hariç herkes aynı kelimeyi alır. Sırayla anlatılır, sonra Yalancı oylanır. Yakalanan Yalancı kelimeyi bilirse yine de kazanır."
+      ],
+      [
+        "Ay Tarikatı · 5–15 kişi",
+        "Tarikatın içine saklanan Gölgeleri bulun. Lider bir görev ekibi seçer, herkes lehte ya da aleyhte oy verir, ekip de gizlice başarı ya da başarısızlık kartı atar. Üç görevi önce alan taraf kazanır."
+      ],
+      [
+        "Aysız Gece · 3–15 kişi",
+        "Tek bir gece ve köye saklanmış bir Goblin. Gece Şaman, Gece Hırsızı ve Muzip gizlice harekete geçer. Şafakta tartışılır ve Goblin’i bulmak için tek bir oylama hakkı vardır."
+      ],
+      [
+        "Ay Atölyesi · 3–15 kişi",
+        "Biri kelimeyi çizer, diğerleri sohbette tahmin eder. Ne kadar hızlı bilirsen o kadar çok puan alırsın; çizen de her doğru tahminden puan kazanır."
+      ]
+    ],
+    "note": "Her oyun önce Nasıl oynanır modunda botlarla tek başına denenebilir."
+  },
+  "faq": {
+    "title": "Sık sorulan sorular",
+    "items": [
+      {
+        "q": "Odayı göremiyorum.",
+        "a": "Ev sahibiyle oyuncuların aynı Wi-Fi’da ya da birbirine yakın olduğundan emin ol. Yakındaki aygıtları bulmak için Ay Oyun Salonu’nun Ayarlar ▸ Gizlilik ve Güvenlik ▸ Yerel Ağ’da açık olması gerekir. Wi-Fi ve Bluetooth’un ikisi de açıkken bağlantı en kararlı hâlindedir."
+      },
+      {
+        "q": "Yerel ağ erişimine izin vermek şart mı?",
+        "a": "Evet. Uygulama yakındaki iPhone’ları bu sayede bulup bağlanır. Yanlışlıkla İzin Verme’ye dokunduysan Ayarlar ▸ Gizlilik ve Güvenlik ▸ Yerel Ağ’dan yeniden açabilirsin."
+      },
+      {
+        "q": "Oyunun ortasında bağlantım koptu.",
+        "a": "Uygulamayı yeniden aç ve ana ekranda Devam et’e dokun; aynı odaya, aynı ele dönersin. Rolün ve puanın yerinde durur. Uzun süre bağlanamazsan oda listesinden yeniden katıl."
+      },
+      {
+        "q": "Biri yanıt vermiyor, oyun takıldı.",
+        "a": "Ev sahibi yanıt vermeyen oyuncuyu istediği an çıkarabilir; oyun kalanlarla yeniden değerlendirilip devam eder. GM yönetici modunda takılan bir aşama atlanabilir de."
+      },
+      {
+        "q": "En az kaç kişi gerekir?",
+        "a": "Ay Tarikatı için 5 kişi gerekir. Yalancı Oyunu, Aysız Gece ve Ay Atölyesi 3 kişiyle başlar. Hepsi 15 kişiye kadar oynanır. Kişi eksikse kuralları Nasıl oynanır modunda botlarla öğrenin."
+      },
+      {
+        "q": "İnternet ya da hesap gerekiyor mu?",
+        "a": "Hayır. Kayıt, giriş ya da internet yok. Yakındaki iPhone’lar doğrudan bağlanır ve oyun verileri hiçbir zaman sunucuya gönderilmez."
+      },
+      {
+        "q": "Önce tek başıma deneyebilir miyim?",
+        "a": "Evet. Bir oyun seç, sonra Nasıl oynanır (botlarla pratik)’ı seç. Botlar odaya girer ve adım adım tam bir el oynarsın."
+      },
+      {
+        "q": "Hata bildirmek ya da fikir göndermek için ne yapmalıyım?",
+        "a": "Uygulamada Ayarlar (dişli) ▸ Destek’ten doğrudan gönderebilir ya da aşağıdaki adrese e-posta atabilirsin. En kısa sürede yanıt veririz."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Bu akşamki buluşma\nburada başlıyor",
+    "cta": "App Store’dan ücretsiz indir"
+  },
+  "ui": {
+    "skip": "İçeriğe geç",
+    "languages": "Dil",
+    "privacy": "Gizlilik Politikası",
+    "contact": "Hata, fikir ya da başka bir sorun için {email} adresine yaz."
+  }
+}

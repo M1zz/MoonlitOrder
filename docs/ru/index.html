@@ -1,155 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Лунная аркада · Поддержка</title>
-<meta name="description" content="Лунная аркада — сборник офлайн-игр для компании: iPhone, которые находятся рядом, соединяются напрямую, интернет не нужен.">
-<!--HREFLANG-->
-<link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/ru/index.html">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/index.html">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/index.html">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/index.html">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/index.html">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/index.html">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/index.html">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/index.html">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/index.html">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/index.html">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/index.html">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/index.html">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/index.html">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/index.html">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/index.html">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/index.html">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/index.html">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/index.html">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/index.html">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/index.html">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/index.html">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/index.html">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/index.html">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/index.html">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<!--/HREFLANG-->
-<style>
-  :root{
-    --bg1:#0f1226; --bg2:#211840; --card:rgba(255,255,255,.06);
-    --stroke:rgba(255,255,255,.12); --text:#f4f3fb; --muted:rgba(244,243,251,.62);
-    --gold:#f2c759; --blue:#73bfff; --red:#f25a6b; --mint:#59d1b8;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",
-      "Malgun Gothic",sans-serif;
-    color:var(--text); line-height:1.7;
-    background:linear-gradient(180deg,var(--bg1),var(--bg2)) fixed;
-    min-height:100vh; -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 80px}
-  header{text-align:center;margin-bottom:44px}
-  .logo{font-size:52px;line-height:1}
-  h1{font-size:34px;font-weight:800;margin:14px 0 6px;letter-spacing:-.5px}
-  .sub{color:var(--muted);font-size:15px}
-  .badge{display:inline-block;margin-top:14px;padding:5px 12px;border-radius:999px;
-    background:rgba(89,209,184,.14);color:var(--mint);font-size:13px;font-weight:600}
-  section{background:var(--card);border:1px solid var(--stroke);border-radius:18px;
-    padding:26px 24px;margin:18px 0}
-  h2{font-size:20px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:9px}
-  h2 .ic{font-size:22px}
-  h3{font-size:16px;font-weight:700;margin:18px 0 4px;color:var(--gold)}
-  p,li{color:var(--text);font-size:15.5px}
-  .muted{color:var(--muted)}
-  ul{padding-left:20px;margin:8px 0}
-  li{margin:6px 0}
-  .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:8px}
-  .game{background:rgba(255,255,255,.04);border:1px solid var(--stroke);border-radius:14px;padding:14px}
-  .game .n{font-weight:700;font-size:15px}
-  .game .d{color:var(--muted);font-size:13px;margin-top:3px}
-  .qa{margin:16px 0}
-  .qa .q{font-weight:700;color:var(--blue);font-size:15.5px}
-  .qa .a{color:var(--text);margin-top:3px}
-  a{color:var(--mint);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .contact{text-align:center;background:rgba(242,199,89,.10);border-color:rgba(242,199,89,.28)}
-  .contact .mail{font-size:20px;font-weight:800;color:var(--gold);display:inline-block;margin-top:6px}
-  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:36px;line-height:1.9}
-  footer a{color:var(--muted);text-decoration:underline}
-.langs{display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:center;margin-top:16px;font-size:13px}.langs a{color:var(--muted);text-decoration:none}.langs a[aria-current]{color:var(--gold);font-weight:700}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Лунная аркада: игры для компании на iPhone без интернета</title>
+  <meta name="description" content="Соедините iPhone всех, кто рядом, без интернета и играйте до 15 человек в «Лжеца», игры со скрытыми ролями или «рисуй и угадывай». Все игры бесплатны.">
+  <meta name="theme-color" content="#9A6B00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1226" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6790137862">
+  <link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/ru/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Лунная аркада: игры для компании на iPhone без интернета">
+  <meta property="og:description" content="Соедините iPhone всех, кто рядом, без интернета и играйте до 15 человек в «Лжеца», игры со скрытыми ролями или «рисуй и угадывай». Все игры бесплатны.">
+  <meta property="og:url" content="https://m1zz.github.io/MoonlitOrder/ru/">
+  <meta property="og:image" content="https://m1zz.github.io/MoonlitOrder/img/ru/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#9A6B00}@media (prefers-color-scheme:dark){:root{--accent:#F2C759}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="logo">🌙</div>
-    <h1>Лунная аркада</h1>
-    <div class="sub">Офлайн-игры для компании друзей, которые рядом</div>
-    <div class="badge">Поддержка пользователей</div>
-    <!--LANGNAV--><nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../ru/index.html" hreflang="ru" lang="ru" aria-current="page">Русский</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--/LANGNAV-->
+  <a class="skip" href="#main">Перейти к содержанию</a>
+  <header class="bar">
+    <a class="brand" href="../ru/"><img src="../icon.png" alt="" width="32" height="32">Лунная аркада</a>
+    <a class="lang-link" href="#languages">Язык</a>
   </header>
 
-  <section>
-    <h2><span class="ic">🎲</span>Что это за приложение?</h2>
-    <p><strong>Лунная аркада</strong> — сборник социальных игр на дедукцию и игр для вечеринок, в которых iPhone, находящиеся рядом, соединяются напрямую, без интернета.
-      Если все подключены к одной сети Wi-Fi или находятся в зоне действия Bluetooth, можно сразу создать комнату и присоединиться к ней — без всяких серверов.</p>
-    <div class="games">
-      <div class="game"><div class="n">🌙 Лунный орден</div><div class="d">5–15 игроков · Разоблачите Теней, затаившихся среди вас</div></div>
-      <div class="game"><div class="n">🎭 Игра «Лжец»</div><div class="d">3–15 игроков · Найдите того, кто не знает слова</div></div>
-      <div class="game"><div class="n">🔥 Ночь без луны</div><div class="d">3–15 игроков · Одна ночь, среди вас прячутся гоблины</div></div>
-      <div class="game"><div class="n">🖌️ Лунная студия</div><div class="d">3–15 игроков · Один рисует, остальные угадывают</div></div>
-    </div>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Все в сборе?<br>Доставайте iPhone.</h1>
+        <p class="lead">Один создаёт комнату, и все, кто рядом, заходят за секунды. Роли и секретные слова видны только на своём экране: без карточек и без ведущего, который выпадает из игры.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6790137862">Скачать бесплатно в App Store</a><a class="try" href="#try">Сыграйте раунд в «Лжеца» ↓</a></div>
+        <p class="muted small">Все игры бесплатны. Без аккаунта и интернета.</p>
+      </div>
+      <div class="phone"><img src="../img/ru/01-home.jpg" alt="Все в сборе? Доставайте iPhone." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2><span class="ic">▶️</span>Как играть</h2>
-    <ul>
-      <li>Введите никнейм и выберите игру.</li>
-      <li>Один человек нажимает <strong>«Создать комнату (хост)»</strong>, а остальные входят в комнату через <strong>«Присоединиться к игре»</strong>.</li>
-      <li>Устройства в одной сети Wi-Fi или поблизости (по Bluetooth) находят друг друга автоматически. Подключение к интернету не требуется.</li>
-      <li>При первом подключении нужно <strong>разрешить доступ к локальной сети</strong>, иначе приложение не сможет найти устройства поблизости.</li>
-      <li>В каждой игре есть раздел <strong>«Как играть (тренировка с ботами)»</strong>, где можно шаг за шагом освоить правила вместе с ботами.</li>
-    </ul>
-  </section>
 
-  <section>
-    <h2><span class="ic">🛠️</span>Частые вопросы</h2>
+    <section class="reveal" id="try">
+      <h2>Сыграйте раунд в «Лжеца»</h2>
+      <p class="muted">Представьте пять iPhone на столе и нажимайте по одному, чтобы подсмотреть. Слова не знает только один. Можно передавать экран друг другу по кругу.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Сыграйте раунд в «Лжеца»&quot;, &quot;lead&quot;: &quot;Представьте пять iPhone на столе и нажимайте по одному, чтобы подсмотреть. Слова не знает только один. Можно передавать экран друг другу по кругу.&quot;, &quot;tap&quot;: &quot;Нажмите, чтобы посмотреть&quot;, &quot;reveal&quot;: &quot;Раскрыть Лжеца&quot;, &quot;again&quot;: &quot;Новый раунд&quot;, &quot;caughtNote&quot;: &quot;Даже если голосование поймало Лжеца, у него остаётся последний шанс.&quot;, &quot;note&quot;: &quot;В приложении каждый смотрит на свой iPhone, по очереди описывает слово, а затем все голосуют. Слова взяты из того же списка, что и в приложении.&quot;, &quot;app&quot;: {&quot;game&quot;: &quot;Игра «Лжец»&quot;, &quot;sub&quot;: &quot;У всех одно слово, и только один его не знает&quot;, &quot;arrived&quot;: &quot;Слово получено&quot;, &quot;secret&quot;: &quot;Смотрите так, чтобы никто не видел экран&quot;, &quot;gotIt&quot;: &quot;Посмотрел(а)&quot;, &quot;word&quot;: &quot;Слово&quot;, &quot;cat&quot;: &quot;Категория: {1}&quot;, &quot;liarYou&quot;: &quot;Вы — лжец!&quot;, &quot;liarHint&quot;: &quot;Вы не знаете слова, но должны объяснять его так, будто знаете. Не попадитесь!&quot;, &quot;liar&quot;: &quot;Лжец&quot;, &quot;caught&quot;: &quot;Лжец пойман!&quot;, &quot;pick&quot;: &quot;Выберите слово — шанс только один!&quot;, &quot;liarWin&quot;: &quot;Побеждает лжец!&quot;, &quot;citizenWin&quot;: &quot;Побеждают горожане!&quot;, &quot;me&quot;: &quot;Я&quot;, &quot;bots&quot;: [&quot;Лунный Зайчик&quot;, &quot;Ночной Ветер&quot;, &quot;Млечный Путь&quot;, &quot;Убывающая Луна&quot;], &quot;words&quot;: {&quot;Еда&quot;: [&quot;Кимчи-чиге&quot;, &quot;Самгёпсаль&quot;, &quot;Токпокки&quot;, &quot;Жареная курица&quot;, &quot;Пицца&quot;, &quot;Суши&quot;, &quot;Рамен&quot;, &quot;Бибимбап&quot;, &quot;Холодная лапша&quot;, &quot;Суп с говяжьими рёбрами&quot;, &quot;Паста&quot;, &quot;Гамбургер&quot;, &quot;Кимбап&quot;, &quot;Сундэ&quot;, &quot;Чокпаль&quot;, &quot;Салат&quot;], &quot;Животные&quot;: [&quot;Слон&quot;, &quot;Жираф&quot;, &quot;Пингвин&quot;, &quot;Тигр&quot;, &quot;Панда&quot;, &quot;Ёж&quot;, &quot;Кенгуру&quot;, &quot;Сова&quot;, &quot;Дельфин&quot;, &quot;Осьминог&quot;, &quot;Белка&quot;, &quot;Крокодил&quot;, &quot;Верблюд&quot;, &quot;Выдра&quot;, &quot;Попугай&quot;, &quot;Крот&quot;], &quot;Места&quot;: [&quot;Парк аттракционов&quot;, &quot;Библиотека&quot;, &quot;Баня-сауна&quot;, &quot;Кинотеатр&quot;, &quot;Магазин у дома&quot;, &quot;Станция метро&quot;, &quot;Парикмахерская&quot;, &quot;Больница&quot;, &quot;Школа&quot;, &quot;Кемпинг&quot;, &quot;Бассейн&quot;, &quot;Аэропорт&quot;, &quot;Рынок&quot;, &quot;Кафе&quot;, &quot;Караоке&quot;, &quot;Спортзал&quot;], &quot;Профессии&quot;: [&quot;Пожарный&quot;, &quot;Врач&quot;, &quot;Повар&quot;, &quot;Программист&quot;, &quot;Ютубер&quot;, &quot;Учитель&quot;, &quot;Полицейский&quot;, &quot;Фермер&quot;, &quot;Пилот&quot;, &quot;Парикмахер&quot;, &quot;Певец&quot;, &quot;Спортсмен&quot;, &quot;Фотограф&quot;, &quot;Адвокат&quot;, &quot;Рыбак&quot;, &quot;Бариста&quot;], &quot;Предметы&quot;: [&quot;Зонт&quot;, &quot;Вентилятор&quot;, &quot;Холодильник&quot;, &quot;Зубная щётка&quot;, &quot;Подушка&quot;, &quot;Пульт&quot;, &quot;Термокружка&quot;, &quot;Наушники&quot;, &quot;Ножницы&quot;, &quot;Плед&quot;, &quot;Зеркало&quot;, &quot;Часы&quot;, &quot;Зарядка&quot;, &quot;Тапочки&quot;, &quot;Маска&quot;, &quot;Кошелёк&quot;], &quot;Спорт&quot;: [&quot;Футбол&quot;, &quot;Бейсбол&quot;, &quot;Баскетбол&quot;, &quot;Бадминтон&quot;, &quot;Плавание&quot;, &quot;Боулинг&quot;, &quot;Тхэквондо&quot;, &quot;Гольф&quot;, &quot;Настольный теннис&quot;, &quot;Лыжи&quot;, &quot;Скалолазание&quot;, &quot;Йога&quot;, &quot;Бокс&quot;, &quot;Стрельба из лука&quot;, &quot;Фехтование&quot;, &quot;Марафон&quot;]}}}"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Не видно ни одной комнаты поблизости.</div>
-      <div class="a">Убедитесь, что хост и остальные игроки подключены к <strong>одной сети Wi-Fi</strong> или находятся рядом друг с другом.
-        В разделе «Настройки» &gt; «Конфиденциальность и безопасность» &gt; <strong>«Локальная сеть»</strong> для приложения «Лунная аркада» должен быть включён доступ.
-        Самое стабильное соединение — когда включены и Wi-Fi, и Bluetooth.</div>
-    </div>
+    <section class="problem reveal">
+      <h2>Компания собралась, а во что играть — непонятно</h2>
+      <p>Вечер настолок, выезд на дачу, Новый год с семьёй. В «Мафии» кому-то приходится выпадать из игры и вести, а сложенные бумажки никогда не бывают по-настоящему тайными. На даче со слабым Wi-Fi и онлайн-игры не запустить. В Лунной аркаде ведение, раздачу ролей и связь берут на себя сами iPhone.</p>
+    </section>
 
-    <div class="qa">
-      <div class="q">Во время игры пропало соединение.</div>
-      <div class="a">Просто откройте приложение снова: оно <strong>автоматически переподключится</strong> к той же комнате и вернёт вас в текущую партию.
-        Если переподключиться за отведённое время не удалось, войдите в комнату заново из списка комнат.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Ваша роль — только на вашем экране</h2>
+        <p>В начале игры каждый iPhone получает свою роль или слово. Не нужно раздавать карточки и командовать «город засыпает».<br>При голосовании видно лишь, кто уже проголосовал. Кто за кого голосовал, остаётся тайной до раскрытия.</p>
+      </div>
+      <div class="phone"><img src="../img/ru/02-role.jpg" alt="Ваша роль — только на вашем экране" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Сколько нужно игроков?</div>
-      <div class="a">Для игры «Лунный орден» нужно минимум 5 человек, остальные игры можно начать втроём. Играть вместе могут до 15 человек.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Четыре игры на любую компанию</h2>
+        <p>В «Лжеце» побеждает красноречие, в «Лунном ордене» вы ищете Теней через миссии и голосования, в «Ночи без луны» за одну ночь вычисляете Гоблина, а в «Лунной студии» один рисует, остальные угадывают.<br>«Лунный орден» — от 5 игроков, остальные — от 3, все до 15.</p>
+      </div>
+      <div class="phone"><img src="../img/ru/04-draw.jpg" alt="Четыре игры на любую компанию" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Нужен ли интернет или учётная запись?</div>
-      <div class="a">Нет. Играть можно офлайн — без регистрации, входа в аккаунт и подключения к интернету. Игровые данные не отправляются на сервер.</div>
-    </div>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Новая игра? Освоите за пару минут</h2>
+        <p>В каждой игре есть режим «Как играть»: вы проходите раунд с ботами шаг за шагом. Читайте подсказку сверху и нажимайте «Далее».<br>Если приложение закрылось или связь пропала, нажмите «Продолжить» на главном экране и вернитесь в тот же раунд.</p>
+      </div>
+      <div class="phone"><img src="../img/ru/03-vote.jpg" alt="Новая игра? Освоите за пару минут" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-  <section class="contact">
-    <h2 style="justify-content:center"><span class="ic">✉️</span>Связаться с нами</h2>
-    <p class="muted">Сообщения об ошибках, предложения и любые другие вопросы можно отправить прямо из приложения в разделе «Настройки» (значок шестерёнки) &gt; «Поддержка» или написать нам на почту ниже. Мы постараемся ответить как можно скорее.</p>
-    <a class="mail" href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>
-  </section>
+    <section class="reveal">
+      <h2>Три шага, чтобы начать</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Никнейм и игра</h3><p>Все открывают приложение, вводят никнейм и выбирают игру.</p></li>
+<li class="card"><span class="n">2</span><h3>Создать комнату или войти</h3><p>Один создаёт комнату, остальные находят её через «Найти комнаты рядом».</p></li>
+<li class="card"><span class="n">3</span><h3>Хост начинает</h3><p>Когда все на месте, хост нажимает «Начать игру». Остальное приложение сделает само.</p></li></ol>
+    </section>
 
+    <section class="reveal" id="commands">
+      <h2>Четыре игры</h2>
+      <div class="card table">
+        <dl><div><dt>Игра «Лжец» · 3–15 игроков</dt><dd>Все получают одно и то же слово, кроме одного. По очереди его описывают, потом голосуют за Лжеца. Если пойманный Лжец угадает слово, он всё равно побеждает.</dd></div><div><dt>Лунный орден · 5–15 игроков</dt><dd>Найдите Теней, затаившихся в Ордене. Лидер собирает команду, все голосуют «за» или «против», а команда тайно выбирает успех или провал. Побеждает та сторона, что первой возьмёт три миссии.</dd></div><div><dt>Ночь без луны · 3–15 игроков</dt><dd>Одна ночь, и в деревне прячется Гоблин. Ночью Шаман, Ночной вор и Шутник тайно действуют. На рассвете обсуждение и всего одно голосование, чтобы найти Гоблина.</dd></div><div><dt>Лунная студия · 3–15 игроков</dt><dd>Один рисует слово, остальные угадывают в чате. Чем быстрее угадали, тем больше очков, а художник получает очки за каждый верный ответ.</dd></div></dl>
+      </div>
+      <p class="muted">Любую игру можно сначала опробовать в одиночку с ботами в режиме «Как играть».</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Частые вопросы</h2>
+      <div class="faq"><details><summary>Не вижу комнату.</summary><p>Проверьте, что хост и игроки в одной сети Wi-Fi или рядом друг с другом. Чтобы находить устройства рядом, Лунная аркада должна быть включена в «Настройки» ▸ «Конфиденциальность и безопасность» ▸ «Локальная сеть». Если включены и Wi-Fi, и Bluetooth, связь самая стабильная.</p></details>
+<details><summary>Обязательно разрешать доступ к локальной сети?</summary><p>Да, так приложение находит iPhone поблизости и подключается к ним. Если вы нажали «Не разрешать», включите доступ в «Настройки» ▸ «Конфиденциальность и безопасность» ▸ «Локальная сеть».</p></details>
+<details><summary>Связь оборвалась посреди игры.</summary><p>Снова откройте приложение и нажмите «Продолжить» на главном экране — вы вернётесь в ту же комнату и тот же раунд. Роль и очки сохраняются. Если долго не получается, войдите заново из списка комнат.</p></details>
+<details><summary>Кто-то не отвечает, и игра застряла.</summary><p>Хост в любой момент может удалить неактивного игрока: игра пересчитает итоги по оставшимся и продолжится. В режиме ведущего (GM) можно и пропустить застрявший этап.</p></details>
+<details><summary>Сколько нужно игроков?</summary><p>Для «Лунного ордена» — 5. «Лжец», «Ночь без луны» и «Лунная студия» начинаются с 3. Во всех играх до 15 человек. Не хватает людей? Освойте правила с ботами в режиме «Как играть».</p></details>
+<details><summary>Нужны интернет или аккаунт?</summary><p>Нет. Ни регистрации, ни входа, ни интернета. iPhone рядом соединяются напрямую, а игровые данные никогда не отправляются на сервер.</p></details>
+<details><summary>Можно сначала попробовать одному?</summary><p>Да. Выберите игру, затем «Как играть (тренировка с ботами)». Боты зайдут в комнату, и вы сыграете целый раунд шаг за шагом.</p></details>
+<details><summary>Как сообщить об ошибке или предложить идею?</summary><p>Прямо в приложении: «Настройки» (шестерёнка) ▸ «Поддержка», или письмом на адрес ниже. Ответим как можно скорее.</p></details></div>
+      <p class="contact">Ошибки, идеи и другие вопросы — пишите на <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Сегодняшний вечер игр<br>начинается здесь</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6790137862">Скачать бесплатно в App Store</a>
+    </section>
+  </main>
 
   <footer>
-    Лунная аркада<br>
-    <a href="privacy.html">Политика конфиденциальности</a>
+    <nav id="languages" class="langs" aria-label="Язык"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru" aria-current="page">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Политика конфиденциальности</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Moonlit Arcade</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

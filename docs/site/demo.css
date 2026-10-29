@@ -1,0 +1,50 @@
+/* 달빛 오락실 웹 체험. 아이폰 화면은 앱처럼 밤하늘 남색 위에 달빛 금색, 라이어는 붉은색. */
+.demo-card { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: var(--s5); align-items: start; }
+.ml-table { background: var(--bg); border-radius: var(--r-inner); padding: var(--s5); }
+.ml-head { margin: 0 0 var(--s4); }
+.ml-cat { color: var(--muted); }
+.ml-phones { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: var(--s2); }
+.ml-phone { font: inherit; cursor: pointer; display: flex; flex-direction: column; gap: var(--s2); text-align: center;
+            min-height: 200px; padding: var(--s3) 6px; border-radius: 20px; border: 3px solid #0b0d18;
+            background: linear-gradient(180deg, #0f1226, #211840); color: #f4f3fb;
+            transition: transform .2s var(--ease), box-shadow .2s var(--ease); }
+.ml-phone:hover:not(:disabled) { transform: translateY(-3px); box-shadow: 0 10px 24px -10px rgb(0 0 0 / .5); }
+.ml-phone:disabled { cursor: default; }
+.ml-phone.open { box-shadow: 0 0 0 3px #F2C759; }
+.ml-phone.liar { box-shadow: 0 0 0 3px #F25A6B; }
+.ml-name { font-size: .8125rem; font-weight: 600; color: rgb(244 243 251 / .7); }
+.ml-screen { flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: var(--s2); }
+.ml-q { font-size: .8125rem; color: #F2C759; }
+.ml-check { font-size: 1.5rem; color: #59D1B8; }
+.ml-big { font-size: 1.0625rem; font-weight: 700; color: #F2C759; line-height: 1.2; overflow-wrap: anywhere; }
+.ml-phone.liar .ml-big { color: #F25A6B; }
+.ml-liar { font-weight: 700; color: #F25A6B; line-height: 1.25; }
+.ml-small { font-size: .75rem; color: rgb(244 243 251 / .75); line-height: 1.35; }
+.ml-ok { margin-top: auto; font-size: .75rem; font-weight: 600; color: #0f1226; background: #F2C759; border-radius: 999px; padding: 4px 10px; }
+
+.ml-sub { font-weight: 600; margin-bottom: var(--s2); }
+.ml-title { font-size: 1.5rem; font-weight: 700; color: var(--accent); margin-bottom: var(--s2); }
+.ml-title.red { color: #D93D4E; }
+.ml-actions { display: flex; flex-wrap: wrap; gap: var(--s2); margin: var(--s4) 0; }
+.ml-btn { font: inherit; font-weight: 600; min-height: 48px; padding: 0 var(--s5); border-radius: 999px; cursor: pointer;
+          color: var(--text); background: transparent; border: 2px solid var(--line); }
+.ml-btn:hover { border-color: var(--accent); color: var(--accent); }
+.ml-btn.main { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+.ml-btn.main:hover { filter: brightness(1.08); color: var(--on-accent); }
+.ml-choices { display: flex; flex-wrap: wrap; gap: var(--s2); }
+.ml-chip { font: inherit; font-weight: 600; min-height: 44px; padding: var(--s2) var(--s4); border-radius: 999px; border: 0; cursor: pointer;
+           color: var(--accent); background: var(--bg); }
+.ml-chip:hover { background: color-mix(in srgb, var(--accent) 16%, var(--bg)); }
+.ml-result { margin: var(--s3) 0 0; }
+.ml-result div { display: flex; justify-content: space-between; gap: var(--s3); padding: var(--s2) 0; border-bottom: 1px solid var(--line); }
+.ml-result dt { color: var(--muted); }
+.ml-result dd { margin: 0; font-weight: 700; }
+
+@media (prefers-color-scheme: dark) { .ml-title.red { color: #F25A6B; } }
+@media (prefers-reduced-motion: reduce) { .ml-phone { transition: none; } .ml-phone:hover:not(:disabled) { transform: none; } }
+@media (max-width: 760px) {
+  .demo-card { grid-template-columns: 1fr; }
+  .ml-table { padding: var(--s3); }
+  .ml-phones { grid-template-columns: repeat(3, 1fr); gap: var(--s2); }
+  .ml-phone { min-height: 170px; }
+}

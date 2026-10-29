@@ -1,0 +1,259 @@
+{
+  "title": "Księżycowa Arkada: gry imprezowe na iPhone’ach, bez internetu",
+  "description": "Połącz iPhone’y wszystkich obecnych bez internetu i grajcie do 15 osób w Kłamcę, gry z ukrytymi rolami albo w rysowanie i zgadywanie. Wszystko za darmo.",
+  "hero": {
+    "headline": "Wszyscy są?\nWyciągajcie iPhone’y.",
+    "lead": "Jedna osoba zakłada pokój, a wszyscy w pobliżu dołączają w kilka sekund. Role i tajne słowa widać tylko na własnym ekranie: bez kart i bez nikogo, kto musi siedzieć z boku jako prowadzący.",
+    "cta": "Pobierz za darmo z App Store",
+    "note": "Wszystkie gry za darmo. Bez konta i bez internetu."
+  },
+  "demo": {
+    "title": "Zagraj rundę w Kłamcę",
+    "lead": "Wyobraź sobie pięć iPhone’ów na stole i stuknij w każdy po kolei, żeby zerknąć. Tylko jedna osoba nie zna słowa. Możecie też podawać sobie ekran.",
+    "tap": "Stuknij, by zobaczyć",
+    "reveal": "Odkryj Kłamcę",
+    "again": "Nowa runda",
+    "caughtNote": "Nawet jeśli głosowanie zdemaskuje Kłamcę, ma on jeszcze ostatnią szansę.",
+    "note": "W aplikacji każdy patrzy na swojego iPhone’a, po kolei opisuje słowo, a potem wszyscy głosują. Słowa pochodzą z tej samej listy co w aplikacji.",
+    "app": {
+      "game": "Gra w Kłamcę",
+      "sub": "Wszyscy mają to samo hasło. Tylko jedna osoba go nie zna.",
+      "arrived": "Hasło dotarło",
+      "secret": "Sprawdź tam, gdzie nikt nie widzi ekranu",
+      "gotIt": "Zobaczyłem",
+      "word": "Hasło",
+      "cat": "Kategoria: {1}",
+      "liarYou": "Jesteś Kłamcą!",
+      "liarHint": "Nie znasz hasła, ale musisz je opisywać, jakbyś znał. Nie daj się przyłapać!",
+      "liar": "Kłamca",
+      "caught": "Kłamca złapany!",
+      "pick": "Wybierz hasło — masz tylko jedną szansę!",
+      "liarWin": "Kłamca wygrywa!",
+      "citizenWin": "Obywatele wygrywają!",
+      "me": "Ja",
+      "bots": [
+        "Księżycowy Zając",
+        "Nocna Bryza",
+        "Droga Mleczna",
+        "Księżyc w Ostatniej Kwadrze"
+      ],
+      "words": {
+        "Jedzenie": [
+          "Gulasz kimchi",
+          "Grillowany boczek",
+          "Tteokbokki",
+          "Smażony kurczak",
+          "Pizza",
+          "Sushi",
+          "Ramen",
+          "Bibimbap",
+          "Zimny makaron",
+          "Zupa z żeberek",
+          "Makaron",
+          "Hamburger",
+          "Gimbap",
+          "Koreańska kaszanka",
+          "Nóżki wieprzowe",
+          "Sałatka"
+        ],
+        "Zwierzęta": [
+          "Słoń",
+          "Żyrafa",
+          "Pingwin",
+          "Tygrys",
+          "Panda",
+          "Jeż",
+          "Kangur",
+          "Sowa",
+          "Delfin",
+          "Ośmiornica",
+          "Wiewiórka",
+          "Krokodyl",
+          "Wielbłąd",
+          "Wydra",
+          "Papuga",
+          "Kret"
+        ],
+        "Miejsca": [
+          "Park rozrywki",
+          "Biblioteka",
+          "Koreańska sauna",
+          "Kino",
+          "Sklep całodobowy",
+          "Stacja metra",
+          "Salon fryzjerski",
+          "Szpital",
+          "Szkoła",
+          "Kemping",
+          "Basen",
+          "Lotnisko",
+          "Targ",
+          "Kawiarnia",
+          "Karaoke",
+          "Siłownia"
+        ],
+        "Zawody": [
+          "Strażak",
+          "Lekarz",
+          "Kucharz",
+          "Programista",
+          "Youtuber",
+          "Nauczyciel",
+          "Policjant",
+          "Rolnik",
+          "Pilot",
+          "Fryzjer",
+          "Piosenkarz",
+          "Sportowiec",
+          "Fotograf",
+          "Adwokat",
+          "Rybak",
+          "Barista"
+        ],
+        "Przedmioty": [
+          "Parasol",
+          "Wiatrak",
+          "Lodówka",
+          "Szczoteczka do zębów",
+          "Poduszka",
+          "Pilot do telewizora",
+          "Kubek termiczny",
+          "Słuchawki",
+          "Nożyczki",
+          "Koc",
+          "Lustro",
+          "Zegar",
+          "Ładowarka",
+          "Kapcie",
+          "Maseczka",
+          "Portfel"
+        ],
+        "Sporty": [
+          "Piłka nożna",
+          "Baseball",
+          "Koszykówka",
+          "Badminton",
+          "Pływanie",
+          "Kręgle",
+          "Taekwondo",
+          "Golf",
+          "Tenis stołowy",
+          "Narciarstwo",
+          "Wspinaczka",
+          "Joga",
+          "Boks",
+          "Łucznictwo",
+          "Szermierka",
+          "Maraton"
+        ]
+      }
+    }
+  },
+  "problem": {
+    "title": "Wszyscy są, ale nie wiadomo, w co grać",
+    "text": "Wieczór gier, weekend na działce, święta z rodziną. W Mafię ktoś musi wypaść z gry i prowadzić, a złożone karteczki nigdy nie są do końca tajne. W domku ze słabym Wi-Fi gry online też odpadają. W Księżycowej Arkadzie prowadzenie, rozdanie ról i połączenie biorą na siebie iPhone’y."
+  },
+  "features": [
+    {
+      "title": "Twoja rola jest tylko na twoim ekranie",
+      "text": "Po starcie każdy iPhone dostaje swoją rolę lub słowo. Bez rozdawania kart i bez „miasto zasypia”.\nPodczas głosowania widać tylko, kto już zagłosował. Kto głosował na kogo, zostaje tajemnicą do odkrycia.",
+      "shot": "02-role"
+    },
+    {
+      "title": "Cztery gry na każdą ekipę",
+      "text": "W Grze w Kłamcę wygrywa gadane, w Zakonie Księżyca tropicie Cienie misjami i głosowaniami, w Nocy bez Księżyca szukacie Goblina w jedną noc, a w Księżycowej Pracowni jedna osoba rysuje, a reszta zgaduje.\nZakon Księżyca od 5 osób, pozostałe od 3, wszystkie do 15.",
+      "shot": "04-draw"
+    },
+    {
+      "title": "Nowa gra? Nauczysz się w kilka minut",
+      "text": "Każda gra ma tryb Jak grać, w którym rozgrywasz rundę z botami krok po kroku. Przeczytaj wskazówkę u góry i stuknij Dalej.\nGdy aplikacja się zamknie albo zerwie się połączenie, stuknij Kontynuuj na ekranie głównym i wracasz do tej samej rundy.",
+      "shot": "03-vote"
+    }
+  ],
+  "steps": {
+    "title": "Zacznij w trzech krokach",
+    "items": [
+      {
+        "title": "Pseudonim i gra",
+        "text": "Wszyscy otwierają aplikację, wpisują pseudonim i wybierają grę."
+      },
+      {
+        "title": "Utwórz pokój lub dołącz",
+        "text": "Jedna osoba tworzy pokój, reszta znajduje go w Szukaj pokoi w pobliżu."
+      },
+      {
+        "title": "Gospodarz startuje",
+        "text": "Gdy wszyscy są w środku, gospodarz stuka Rozpocznij grę. Resztą zajmie się aplikacja."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Cztery gry",
+    "rows": [
+      [
+        "Gra w Kłamcę · 3–15 osób",
+        "Wszyscy dostają to samo słowo oprócz jednej osoby. Po kolei je opisujecie, a potem głosujecie na Kłamcę. Jeśli złapany Kłamca odgadnie słowo, i tak wygrywa."
+      ],
+      [
+        "Zakon Księżyca · 5–15 osób",
+        "Zdemaskujcie Cienie ukryte w Zakonie. Przywódca wybiera drużynę, wszyscy głosują za lub przeciw, a drużyna potajemnie zagrywa sukces albo porażkę. Wygrywa strona, która pierwsza zdobędzie trzy misje."
+      ],
+      [
+        "Noc bez Księżyca · 3–15 osób",
+        "Jedna noc i Goblin ukryty we wsi. Nocą Szaman, Nocny złodziej i Psotnik działają po cichu. O świcie jest dyskusja i tylko jedno głosowanie, żeby znaleźć Goblina."
+      ],
+      [
+        "Księżycowa Pracownia · 3–15 osób",
+        "Jedna osoba rysuje słowo, reszta zgaduje na czacie. Im szybciej zgadniesz, tym więcej punktów, a rysujący punktuje za każdą trafną odpowiedź."
+      ]
+    ],
+    "note": "Każdą grę można najpierw wypróbować samemu z botami w trybie Jak grać."
+  },
+  "faq": {
+    "title": "Częste pytania",
+    "items": [
+      {
+        "q": "Nie widzę pokoju.",
+        "a": "Sprawdź, czy gospodarz i gracze są w tej samej sieci Wi-Fi albo blisko siebie. Żeby znaleźć urządzenia w pobliżu, Księżycowa Arkada musi być włączona w Ustawieniach ▸ Prywatność i ochrona ▸ Sieć lokalna. Z włączonymi Wi-Fi i Bluetooth połączenie jest najstabilniejsze."
+      },
+      {
+        "q": "Czy muszę zezwolić na dostęp do sieci lokalnej?",
+        "a": "Tak, dzięki temu aplikacja znajduje iPhone’y w pobliżu i łączy się z nimi. Jeśli stuknięto Nie pozwalaj, włącz to ponownie w Ustawieniach ▸ Prywatność i ochrona ▸ Sieć lokalna."
+      },
+      {
+        "q": "Połączenie zerwało się w trakcie gry.",
+        "a": "Otwórz aplikację ponownie i stuknij Kontynuuj na ekranie głównym, aby wrócić do tego samego pokoju i rundy. Rola i punkty zostają. Jeśli długo nie da się połączyć, dołącz jeszcze raz z listy pokoi."
+      },
+      {
+        "q": "Ktoś nie odpowiada i gra stanęła.",
+        "a": "Gospodarz może w każdej chwili usunąć nieaktywnego gracza, a gra przelicza wynik z pozostałymi i toczy się dalej. Tryb gospodarza GM pozwala też pominąć zablokowany etap."
+      },
+      {
+        "q": "Ile osób potrzeba?",
+        "a": "Zakon Księżyca wymaga 5 osób. Gra w Kłamcę, Noc bez Księżyca i Księżycowa Pracownia startują od 3. Wszystkie do 15. Za mało ludzi? Poznajcie zasady z botami w trybie Jak grać."
+      },
+      {
+        "q": "Czy potrzebny jest internet albo konto?",
+        "a": "Nie. Bez rejestracji, logowania i internetu. iPhone’y w pobliżu łączą się bezpośrednio, a dane gry nigdy nie trafiają na serwer."
+      },
+      {
+        "q": "Czy mogę najpierw zagrać sam?",
+        "a": "Tak. Wybierz grę, a potem Jak grać (ćwiczenie z botami). Boty wejdą do pokoju, a ty rozegrasz całą rundę krok po kroku."
+      },
+      {
+        "q": "Jak zgłosić błąd albo podsunąć pomysł?",
+        "a": "Prosto z aplikacji: Ustawienia (koło zębate) ▸ Pomoc, albo mailem na adres poniżej. Odpowiemy najszybciej, jak się da."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Dzisiejszy wieczór gier\nzaczyna się tutaj",
+    "cta": "Pobierz za darmo z App Store"
+  },
+  "ui": {
+    "skip": "Przejdź do treści",
+    "languages": "Język",
+    "privacy": "Polityka prywatności",
+    "contact": "Błędy, pomysły i inne sprawy: napisz na {email}."
+  }
+}

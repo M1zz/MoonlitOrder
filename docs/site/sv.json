@@ -1,0 +1,259 @@
+{
+  "title": "Månarkaden: sällskapsspel mellan iPhones, utan internet",
+  "description": "Koppla ihop allas iPhones utan internet och spela upp till 15 personer Lögnarspelet, dolda roller eller rita och gissa. Alla spel är gratis.",
+  "hero": {
+    "headline": "Är alla här?\nFram med iPhonen.",
+    "lead": "En person skapar ett rum och alla i närheten går med på några sekunder. Roller och hemliga ord syns bara på den egna skärmen: inga kort, och ingen behöver sitta utanför och leda spelet.",
+    "cta": "Hämta gratis på App Store",
+    "note": "Alla spel är gratis. Inget konto, inget internet."
+  },
+  "demo": {
+    "title": "Spela en runda Lögnarspelet",
+    "lead": "Tänk dig fem iPhones på bordet och tryck på dem en i taget för att kika. Bara en spelare kan inte ordet. Ni kan också skicka runt skärmen.",
+    "tap": "Tryck för att kika",
+    "reveal": "Avslöja lögnaren",
+    "again": "Ny runda",
+    "caughtNote": "Även om omröstningen avslöjar lögnaren har hen en sista chans.",
+    "note": "I appen tittar alla på sin egen iPhone, beskriver ordet i tur och ordning och sedan röstar man. Orden kommer från samma lista som i appen.",
+    "app": {
+      "game": "Lögnarspelet",
+      "sub": "Alla har samma ord. Bara en person känner inte till det.",
+      "arrived": "Ordet har kommit",
+      "secret": "Titta där ingen annan kan se skärmen",
+      "gotIt": "Sett",
+      "word": "Ord",
+      "cat": "Kategori: {1}",
+      "liarYou": "Du är Lögnaren!",
+      "liarHint": "Du känner inte till ordet, men måste beskriva det som om du gjorde det. Låt dig inte avslöjas!",
+      "liar": "Lögnare",
+      "caught": "Lögnaren åkte fast!",
+      "pick": "Välj ordet — du har bara ett försök!",
+      "liarWin": "Lögnaren vinner!",
+      "citizenWin": "Medborgarna vinner!",
+      "me": "Jag",
+      "bots": [
+        "Månharen",
+        "Nattbris",
+        "Vintergatan",
+        "Avtagande måne"
+      ],
+      "words": {
+        "Mat": [
+          "Kimchigryta",
+          "Grillat fläsksida",
+          "Tteokbokki",
+          "Stekt kyckling",
+          "Pizza",
+          "Sushi",
+          "Ramen",
+          "Bibimbap",
+          "Kalla nudlar",
+          "Revbenssoppa",
+          "Pasta",
+          "Hamburgare",
+          "Gimbap",
+          "Koreansk blodkorv",
+          "Grisfötter",
+          "Sallad"
+        ],
+        "Djur": [
+          "Elefant",
+          "Giraff",
+          "Pingvin",
+          "Tiger",
+          "Panda",
+          "Igelkott",
+          "Känguru",
+          "Uggla",
+          "Delfin",
+          "Bläckfisk",
+          "Ekorre",
+          "Krokodil",
+          "Kamel",
+          "Utter",
+          "Papegoja",
+          "Mullvad"
+        ],
+        "Platser": [
+          "Nöjespark",
+          "Bibliotek",
+          "Koreanskt spa",
+          "Bio",
+          "Närbutik",
+          "Tunnelbanestation",
+          "Frisörsalong",
+          "Sjukhus",
+          "Skola",
+          "Campingplats",
+          "Simhall",
+          "Flygplats",
+          "Marknad",
+          "Café",
+          "Karaoke",
+          "Gym"
+        ],
+        "Yrken": [
+          "Brandman",
+          "Läkare",
+          "Kock",
+          "Programmerare",
+          "Youtubare",
+          "Lärare",
+          "Polis",
+          "Bonde",
+          "Pilot",
+          "Frisör",
+          "Sångare",
+          "Idrottare",
+          "Fotograf",
+          "Advokat",
+          "Fiskare",
+          "Barista"
+        ],
+        "Saker": [
+          "Paraply",
+          "Fläkt",
+          "Kylskåp",
+          "Tandborste",
+          "Kudde",
+          "Fjärrkontroll",
+          "Termosmugg",
+          "Hörlurar",
+          "Sax",
+          "Filt",
+          "Spegel",
+          "Klocka",
+          "Laddare",
+          "Tofflor",
+          "Munskydd",
+          "Plånbok"
+        ],
+        "Sport": [
+          "Fotboll",
+          "Baseboll",
+          "Basket",
+          "Badminton",
+          "Simning",
+          "Bowling",
+          "Taekwondo",
+          "Golf",
+          "Bordtennis",
+          "Skidåkning",
+          "Klättring",
+          "Yoga",
+          "Boxning",
+          "Bågskytte",
+          "Fäktning",
+          "Maraton"
+        ]
+      }
+    }
+  },
+  "problem": {
+    "title": "Alla är här, men vad ska vi spela?",
+    "text": "Spelkväll, stugweekend, jul med familjen. I spel med dolda roller måste någon kliva av och leda, och vikta lappar är aldrig riktigt hemliga. I en stuga med svagt wifi går onlinespel inte heller. I Månarkaden sköter iPhonerna spelledningen, rollutdelningen och anslutningen."
+  },
+  "features": [
+    {
+      "title": "Din roll syns bara på din skärm",
+      "text": "När spelet startar får varje iPhone sin egen roll eller sitt ord. Ingen kortutdelning, inget ”alla blundar”.\nUnder omröstningen syns bara vem som har röstat. Vem som röstade på vem är hemligt tills det avslöjas.",
+      "shot": "02-role"
+    },
+    {
+      "title": "Fyra spel för alla sällskap",
+      "text": "I Lögnarspelet vinner den som pratar bäst, i Månorden jagar ni Skuggorna med uppdrag och omröstningar, i Natt utan måne letar ni upp Goblin på en enda natt, och i Månateljén ritar en medan resten gissar.\nMånorden från 5 spelare, de andra från 3, alla upp till 15.",
+      "shot": "04-draw"
+    },
+    {
+      "title": "Nytt spel? Inlärt på några minuter",
+      "text": "Varje spel har läget ”Så spelar du”, där du spelar en runda med botar steg för steg. Läs tipset längst upp och tryck på Nästa.\nOm appen stängs eller anslutningen bryts trycker du på Fortsätt på startskärmen och är tillbaka i samma runda.",
+      "shot": "03-vote"
+    }
+  ],
+  "steps": {
+    "title": "Kom igång i tre steg",
+    "items": [
+      {
+        "title": "Smeknamn och spel",
+        "text": "Alla öppnar appen, skriver ett smeknamn och väljer spel."
+      },
+      {
+        "title": "Skapa rum eller gå med",
+        "text": "En skapar ett rum, de andra hittar det via Hitta rum i närheten."
+      },
+      {
+        "title": "Värden startar",
+        "text": "När alla är inne trycker värden på Starta spelet. Appen sköter resten."
+      }
+    ]
+  },
+  "reference": {
+    "title": "De fyra spelen",
+    "rows": [
+      [
+        "Lögnarspelet · 3–15 spelare",
+        "Alla får samma ord utom en. I tur och ordning beskriver man det, sedan röstar man fram lögnaren. Gissar den avslöjade lögnaren ordet vinner hen ändå."
+      ],
+      [
+        "Månorden · 5–15 spelare",
+        "Avslöja Skuggorna som gömmer sig i Orden. Ledaren väljer ett uppdragslag, alla röstar för eller emot och laget spelar i hemlighet lyckat eller misslyckat. Den sida som först tar tre uppdrag vinner."
+      ],
+      [
+        "Natt utan måne · 3–15 spelare",
+        "En enda natt, och en Goblin gömmer sig i byn. På natten agerar Shamanen, Nattjuven och Skojaren i hemlighet. I gryningen diskuterar man och har bara en omröstning på sig att hitta Goblin."
+      ],
+      [
+        "Månateljén · 3–15 spelare",
+        "En ritar ordet och resten gissar i chatten. Ju snabbare du gissar rätt, desto fler poäng, och den som ritar får poäng för varje rätt svar."
+      ]
+    ],
+    "note": "Alla spel kan först provas på egen hand med botar i läget ”Så spelar du”."
+  },
+  "faq": {
+    "title": "Vanliga frågor",
+    "items": [
+      {
+        "q": "Jag ser inte rummet.",
+        "a": "Kontrollera att värden och spelarna är på samma wifi eller nära varandra. Månarkaden måste vara påslagen under Inställningar ▸ Integritet och säkerhet ▸ Lokalt nätverk för att hitta enheter i närheten. Med både wifi och Bluetooth på blir anslutningen stabilast."
+      },
+      {
+        "q": "Måste jag tillåta åtkomst till lokalt nätverk?",
+        "a": "Ja, det är så appen hittar iPhones i närheten och ansluter till dem. Om du tryckte på Tillåt inte slår du på det igen under Inställningar ▸ Integritet och säkerhet ▸ Lokalt nätverk."
+      },
+      {
+        "q": "Anslutningen bröts mitt i spelet.",
+        "a": "Öppna appen igen och tryck på Fortsätt på startskärmen så kommer du tillbaka till samma rum och runda. Roll och poäng finns kvar. Om det dröjer, gå med igen från rumslistan."
+      },
+      {
+        "q": "Någon svarar inte och spelet har fastnat.",
+        "a": "Värden kan när som helst ta bort en spelare som inte svarar, och spelet räknar om med de som är kvar och fortsätter. I GM-värdläget går det också att hoppa över ett steg som fastnat."
+      },
+      {
+        "q": "Hur många spelare behövs?",
+        "a": "Månorden kräver 5. Lögnarspelet, Natt utan måne och Månateljén startar från 3. Alla tar upp till 15. För få? Lär er reglerna med botar i ”Så spelar du”."
+      },
+      {
+        "q": "Behövs internet eller konto?",
+        "a": "Nej. Ingen registrering, ingen inloggning, inget internet. iPhones i närheten ansluter direkt och speldata skickas aldrig till en server."
+      },
+      {
+        "q": "Kan jag prova ett spel själv först?",
+        "a": "Ja. Välj ett spel och sedan ”Så spelar du (öva med botar)”. Botarna går in i rummet och du spelar en hel runda steg för steg."
+      },
+      {
+        "q": "Hur rapporterar jag en bugg eller skickar en idé?",
+        "a": "Direkt i appen under Inställningar (kugghjulet) ▸ Support, eller via mejl till adressen nedan. Vi svarar så snart vi kan."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Kvällens spelkväll\nbörjar här",
+    "cta": "Hämta gratis på App Store"
+  },
+  "ui": {
+    "skip": "Hoppa till innehållet",
+    "languages": "Språk",
+    "privacy": "Integritetspolicy",
+    "contact": "Buggar, idéer eller annat: skriv till {email}."
+  }
+}

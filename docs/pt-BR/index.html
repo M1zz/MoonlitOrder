@@ -1,151 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fliperama Lunar · Suporte</title>
-<meta name="description" content="Fliperama Lunar é uma coleção de jogos de festa offline que conecta iPhones próximos diretamente, sem internet.">
-<!--HREFLANG-->
-<link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/pt-BR/index.html">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/index.html">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/index.html">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/index.html">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/index.html">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/index.html">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/index.html">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/index.html">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/index.html">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/index.html">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/index.html">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/index.html">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/index.html">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/index.html">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/index.html">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/index.html">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/index.html">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/index.html">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/index.html">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/index.html">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/index.html">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/index.html">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/index.html">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/index.html">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<!--/HREFLANG-->
-<style>
-  :root{
-    --bg1:#0f1226; --bg2:#211840; --card:rgba(255,255,255,.06);
-    --stroke:rgba(255,255,255,.12); --text:#f4f3fb; --muted:rgba(244,243,251,.62);
-    --gold:#f2c759; --blue:#73bfff; --red:#f25a6b; --mint:#59d1b8;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",
-      "Malgun Gothic",sans-serif;
-    color:var(--text); line-height:1.7;
-    background:linear-gradient(180deg,var(--bg1),var(--bg2)) fixed;
-    min-height:100vh; -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 80px}
-  header{text-align:center;margin-bottom:44px}
-  .logo{font-size:52px;line-height:1}
-  h1{font-size:34px;font-weight:800;margin:14px 0 6px;letter-spacing:-.5px}
-  .sub{color:var(--muted);font-size:15px}
-  .badge{display:inline-block;margin-top:14px;padding:5px 12px;border-radius:999px;
-    background:rgba(89,209,184,.14);color:var(--mint);font-size:13px;font-weight:600}
-  section{background:var(--card);border:1px solid var(--stroke);border-radius:18px;
-    padding:26px 24px;margin:18px 0}
-  h2{font-size:20px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:9px}
-  h2 .ic{font-size:22px}
-  h3{font-size:16px;font-weight:700;margin:18px 0 4px;color:var(--gold)}
-  p,li{color:var(--text);font-size:15.5px}
-  .muted{color:var(--muted)}
-  ul{padding-left:20px;margin:8px 0}
-  li{margin:6px 0}
-  .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:8px}
-  .game{background:rgba(255,255,255,.04);border:1px solid var(--stroke);border-radius:14px;padding:14px}
-  .game .n{font-weight:700;font-size:15px}
-  .game .d{color:var(--muted);font-size:13px;margin-top:3px}
-  .qa{margin:16px 0}
-  .qa .q{font-weight:700;color:var(--blue);font-size:15.5px}
-  .qa .a{color:var(--text);margin-top:3px}
-  a{color:var(--mint);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .contact{text-align:center;background:rgba(242,199,89,.10);border-color:rgba(242,199,89,.28)}
-  .contact .mail{font-size:20px;font-weight:800;color:var(--gold);display:inline-block;margin-top:6px}
-  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:36px;line-height:1.9}
-  footer a{color:var(--muted);text-decoration:underline}
-.langs{display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:center;margin-top:16px;font-size:13px}.langs a{color:var(--muted);text-decoration:none}.langs a[aria-current]{color:var(--gold);font-weight:700}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fliperama Lunar: jogos de festa entre iPhones, sem internet</title>
+  <meta name="description" content="Conecte os iPhones de todo mundo sem internet e joguem em até 15 o Jogo do Mentiroso, papéis secretos ou desenhe e adivinhe. Todos os jogos são grátis.">
+  <meta name="theme-color" content="#9A6B00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1226" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6790137862">
+  <link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/pt-BR/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fliperama Lunar: jogos de festa entre iPhones, sem internet">
+  <meta property="og:description" content="Conecte os iPhones de todo mundo sem internet e joguem em até 15 o Jogo do Mentiroso, papéis secretos ou desenhe e adivinhe. Todos os jogos são grátis.">
+  <meta property="og:url" content="https://m1zz.github.io/MoonlitOrder/pt-BR/">
+  <meta property="og:image" content="https://m1zz.github.io/MoonlitOrder/img/pt-BR/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#9A6B00}@media (prefers-color-scheme:dark){:root{--accent:#F2C759}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="logo">🌙</div>
-    <h1>Fliperama Lunar</h1>
-    <div class="sub">Jogos de festa offline para curtir com os amigos por perto</div>
-    <div class="badge">Suporte ao cliente</div>
-    <!--LANGNAV--><nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR" aria-current="page">Português (Brasil)</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--/LANGNAV-->
+  <a class="skip" href="#main">Pular para o conteúdo</a>
+  <header class="bar">
+    <a class="brand" href="../pt-BR/"><img src="../icon.png" alt="" width="32" height="32">Fliperama Lunar</a>
+    <a class="lang-link" href="#languages">Idioma</a>
   </header>
 
-  <section>
-    <h2><span class="ic">🎲</span>Que app é este?</h2>
-    <p><strong>Fliperama Lunar</strong> é uma coleção de jogos de festa e de dedução social em que iPhones próximos se conectam diretamente, sem internet. Na mesma rede Wi-Fi ou dentro do alcance do Bluetooth, dá para criar uma sala e entrar na hora, sem servidor.</p>
-    <div class="games">
-      <div class="game"><div class="n">🌙 Ordem Lunar</div><div class="d">5 a 15 jogadores · Dedução de identidades: descubra as Sombras infiltradas</div></div>
-      <div class="game"><div class="n">🎭 Jogo do Mentiroso</div><div class="d">3 a 15 jogadores · Encontre quem não sabe a palavra</div></div>
-      <div class="game"><div class="n">🔥 Noite sem Lua</div><div class="d">3 a 15 jogadores · Uma noite de dedução com Goblins escondidos</div></div>
-      <div class="game"><div class="n">🖌️ Ateliê Lunar</div><div class="d">3 a 15 jogadores · Um desenha e os outros adivinham</div></div>
-    </div>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Galera reunida?<br>Peguem os iPhones.</h1>
+        <p class="lead">Uma pessoa cria uma sala e quem está por perto entra em segundos. Papéis e palavras secretas aparecem só na tela de cada um: sem cartas e sem ninguém preso na função de narrador.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6790137862">Baixe grátis na App Store</a><a class="try" href="#try">Jogue uma rodada do Jogo do Mentiroso ↓</a></div>
+        <p class="muted small">Todos os jogos são grátis. Sem conta e sem internet.</p>
+      </div>
+      <div class="phone"><img src="../img/pt-BR/01-home.jpg" alt="Galera reunida? Peguem os iPhones." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2><span class="ic">▶️</span>Como jogar</h2>
-    <ul>
-      <li>Digite seu apelido e escolha o jogo.</li>
-      <li>Uma pessoa toca em <strong>“Criar sala (anfitrião)”</strong> e as outras entram na sala com <strong>“Entrar em uma partida”</strong>.</li>
-      <li>Na mesma rede Wi-Fi ou a curta distância (Bluetooth), os aparelhos se encontram automaticamente. Não é preciso ter conexão com a internet.</li>
-      <li>No primeiro acesso, toque em <strong>Permitir acesso à rede local</strong> para que o app encontre os aparelhos próximos.</li>
-      <li>Em cada jogo, em <strong>“Como jogar (prática com bots)”</strong>, você aprende as regras passo a passo jogando com bots.</li>
-    </ul>
-  </section>
 
-  <section>
-    <h2><span class="ic">🛠️</span>Perguntas frequentes</h2>
+    <section class="reveal" id="try">
+      <h2>Jogue uma rodada do Jogo do Mentiroso</h2>
+      <p class="muted">Imagine cinco iPhones na mesa e toque em um por vez para espiar. Só um não sabe a palavra. Dá para ir passando a tela entre amigos também.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Jogue uma rodada do Jogo do Mentiroso&quot;, &quot;lead&quot;: &quot;Imagine cinco iPhones na mesa e toque em um por vez para espiar. Só um não sabe a palavra. Dá para ir passando a tela entre amigos também.&quot;, &quot;tap&quot;: &quot;Toque para ver&quot;, &quot;reveal&quot;: &quot;Revelar o Mentiroso&quot;, &quot;again&quot;: &quot;Nova rodada&quot;, &quot;caughtNote&quot;: &quot;Mesmo pego na votação, o Mentiroso ainda tem uma última chance.&quot;, &quot;note&quot;: &quot;No app, cada um olha o próprio iPhone, descreve a palavra na sua vez e depois todo mundo vota. As palavras vêm da mesma lista do app.&quot;, &quot;app&quot;: {&quot;game&quot;: &quot;Jogo do Mentiroso&quot;, &quot;sub&quot;: &quot;Todos têm a mesma palavra. Só um não a conhece.&quot;, &quot;arrived&quot;: &quot;A palavra chegou&quot;, &quot;secret&quot;: &quot;Veja onde ninguém possa ver a tela&quot;, &quot;gotIt&quot;: &quot;Já vi&quot;, &quot;word&quot;: &quot;Palavra&quot;, &quot;cat&quot;: &quot;Categoria: {1}&quot;, &quot;liarYou&quot;: &quot;Você é o Mentiroso!&quot;, &quot;liarHint&quot;: &quot;Você não sabe a palavra, mas precisa descrevê-la como se soubesse. Não se deixe pegar!&quot;, &quot;liar&quot;: &quot;Mentiroso&quot;, &quot;caught&quot;: &quot;Mentiroso pego!&quot;, &quot;pick&quot;: &quot;Escolha a palavra — só há uma chance!&quot;, &quot;liarWin&quot;: &quot;O Mentiroso vence!&quot;, &quot;citizenWin&quot;: &quot;Os cidadãos vencem!&quot;, &quot;me&quot;: &quot;Eu&quot;, &quot;bots&quot;: [&quot;Coelho Lunar&quot;, &quot;Brisa Noturna&quot;, &quot;Via Láctea&quot;, &quot;Lua Minguante&quot;], &quot;words&quot;: {&quot;Comida&quot;: [&quot;Ensopado de kimchi&quot;, &quot;Barriga de porco grelhada&quot;, &quot;Tteokbokki&quot;, &quot;Frango frito&quot;, &quot;Pizza&quot;, &quot;Sushi&quot;, &quot;Lamen&quot;, &quot;Bibimbap&quot;, &quot;Macarrão frio&quot;, &quot;Sopa de costela&quot;, &quot;Massa&quot;, &quot;Hambúrguer&quot;, &quot;Gimbap&quot;, &quot;Chouriço coreano&quot;, &quot;Pé de porco&quot;, &quot;Salada&quot;], &quot;Animais&quot;: [&quot;Elefante&quot;, &quot;Girafa&quot;, &quot;Pinguim&quot;, &quot;Tigre&quot;, &quot;Panda&quot;, &quot;Ouriço&quot;, &quot;Canguru&quot;, &quot;Coruja&quot;, &quot;Golfinho&quot;, &quot;Polvo&quot;, &quot;Esquilo&quot;, &quot;Crocodilo&quot;, &quot;Camelo&quot;, &quot;Lontra&quot;, &quot;Papagaio&quot;, &quot;Toupeira&quot;], &quot;Lugares&quot;: [&quot;Parque de diversões&quot;, &quot;Biblioteca&quot;, &quot;Spa coreano&quot;, &quot;Cinema&quot;, &quot;Loja de conveniência&quot;, &quot;Estação de metrô&quot;, &quot;Salão de beleza&quot;, &quot;Hospital&quot;, &quot;Escola&quot;, &quot;Camping&quot;, &quot;Piscina&quot;, &quot;Aeroporto&quot;, &quot;Mercado&quot;, &quot;Cafeteria&quot;, &quot;Karaokê&quot;, &quot;Academia&quot;], &quot;Profissões&quot;: [&quot;Bombeiro&quot;, &quot;Médico&quot;, &quot;Cozinheiro&quot;, &quot;Programador&quot;, &quot;Youtuber&quot;, &quot;Professor&quot;, &quot;Policial&quot;, &quot;Agricultor&quot;, &quot;Piloto&quot;, &quot;Cabeleireiro&quot;, &quot;Cantor&quot;, &quot;Atleta&quot;, &quot;Fotógrafo&quot;, &quot;Advogado&quot;, &quot;Pescador&quot;, &quot;Barista&quot;], &quot;Objetos&quot;: [&quot;Guarda-chuva&quot;, &quot;Ventilador&quot;, &quot;Geladeira&quot;, &quot;Escova de dentes&quot;, &quot;Travesseiro&quot;, &quot;Controle remoto&quot;, &quot;Copo térmico&quot;, &quot;Fones de ouvido&quot;, &quot;Tesoura&quot;, &quot;Cobertor&quot;, &quot;Espelho&quot;, &quot;Relógio&quot;, &quot;Carregador&quot;, &quot;Chinelo&quot;, &quot;Máscara&quot;, &quot;Carteira&quot;], &quot;Esportes&quot;: [&quot;Futebol&quot;, &quot;Beisebol&quot;, &quot;Basquete&quot;, &quot;Badminton&quot;, &quot;Natação&quot;, &quot;Boliche&quot;, &quot;Taekwondo&quot;, &quot;Golfe&quot;, &quot;Tênis de mesa&quot;, &quot;Esqui&quot;, &quot;Escalada&quot;, &quot;Ioga&quot;, &quot;Boxe&quot;, &quot;Tiro com arco&quot;, &quot;Esgrima&quot;, &quot;Maratona&quot;]}}}"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Não aparece nenhuma sala por perto.</div>
-      <div class="a">Verifique se o anfitrião e os participantes estão conectados à <strong>mesma rede Wi-Fi</strong> ou perto uns dos outros. O Fliperama Lunar precisa estar ativado em Ajustes &gt; Privacidade e Segurança &gt; <strong>Rede Local</strong>. A conexão fica mais estável com o Wi-Fi e o Bluetooth ligados.</div>
-    </div>
+    <section class="problem reveal">
+      <h2>Todo mundo junto e ninguém sabe o que jogar</h2>
+      <p>Noite de jogos, fim de semana na chácara, Natal com a família. Para um jogo de papéis secretos alguém precisa ficar de fora narrando, e papelzinho dobrado nunca é tão secreto assim. Numa casa com Wi-Fi fraco, jogo online também não rola. No Fliperama Lunar, os iPhones narram, distribuem os papéis e se conectam sozinhos.</p>
+    </section>
 
-    <div class="qa">
-      <div class="q">A conexão caiu durante a partida.</div>
-      <div class="a">Ao abrir o app de novo, você é <strong>reconectado automaticamente</strong> à mesma sala e volta para a partida em andamento. Se a reconexão não acontecer depois de um tempo, entre de novo pela lista de salas.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Seu papel fica só na sua tela</h2>
+        <p>Quando o jogo começa, cada iPhone recebe o próprio papel ou palavra. Nada de distribuir cartas ou de “todo mundo fecha os olhos”.<br>Na votação, só dá para ver quem já votou. Em quem cada um votou fica em segredo até a revelação.</p>
+      </div>
+      <div class="phone"><img src="../img/pt-BR/02-role.jpg" alt="Seu papel fica só na sua tela" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Qual é o número mínimo de jogadores?</div>
-      <div class="a">Ordem Lunar começa a partir de 5 jogadores, e os outros jogos a partir de 3. Dá para jogar com até 15 pessoas.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Quatro jogos para qualquer turma</h2>
+        <p>No Jogo do Mentiroso vence quem tem lábia, na Ordem Lunar vocês caçam as Sombras com missões e votações, na Noite sem Lua procuram o Goblin em uma só noite e no Ateliê Lunar um desenha e os outros adivinham.<br>Ordem Lunar a partir de 5 pessoas, os outros a partir de 3, todos até 15.</p>
+      </div>
+      <div class="phone"><img src="../img/pt-BR/04-draw.jpg" alt="Quatro jogos para qualquer turma" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Preciso de internet ou de uma conta?</div>
-      <div class="a">Não. Você joga offline, sem cadastro, sem login e sem conexão com a internet. Os dados das partidas não são enviados a nenhum servidor.</div>
-    </div>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Jogo novo? Aprende em minutos</h2>
+        <p>Cada jogo tem o modo Como jogar, em que você joga uma rodada com bots, passo a passo. Leia a dica no topo e toque em Próximo.<br>Se o app fechar ou a conexão cair, toque em Continuar na tela inicial e volte para a mesma rodada.</p>
+      </div>
+      <div class="phone"><img src="../img/pt-BR/03-vote.jpg" alt="Jogo novo? Aprende em minutos" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-  <section class="contact">
-    <h2 style="justify-content:center"><span class="ic">✉️</span>Fale conosco</h2>
-    <p class="muted">Para relatar bugs, enviar sugestões ou tirar outras dúvidas, escreva direto pelo app em Ajustes (engrenagem) &gt; Suporte ou pelo e-mail abaixo. Responderemos o mais rápido possível.</p>
-    <a class="mail" href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>
-  </section>
+    <section class="reveal">
+      <h2>Comece em três passos</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Apelido e jogo</h3><p>Todo mundo abre o app, digita um apelido e escolhe o jogo.</p></li>
+<li class="card"><span class="n">2</span><h3>Criar ou entrar numa sala</h3><p>Uma pessoa cria a sala; os outros a encontram em Procurar salas por perto.</p></li>
+<li class="card"><span class="n">3</span><h3>O anfitrião começa</h3><p>Com todo mundo dentro, o anfitrião toca em Iniciar partida. O app cuida do resto.</p></li></ol>
+    </section>
 
+    <section class="reveal" id="commands">
+      <h2>Os quatro jogos</h2>
+      <div class="card table">
+        <dl><div><dt>Jogo do Mentiroso · 3 a 15</dt><dd>Todos recebem a mesma palavra, menos um. Cada um descreve na sua vez e depois votam no Mentiroso. Se for pego mas acertar a palavra, o Mentiroso vence mesmo assim.</dd></div><div><dt>Ordem Lunar · 5 a 15</dt><dd>Descubram as Sombras escondidas na Ordem. O líder escolhe uma equipe, todos votam a favor ou contra e a equipe joga em segredo sucesso ou fracasso. Vence o lado que levar três missões primeiro.</dd></div><div><dt>Noite sem Lua · 3 a 15</dt><dd>Uma noite só, e um Goblin escondido na vila. À noite, Xamã, Ladrão noturno e Brincalhão agem em segredo. Ao amanhecer tem discussão e uma única votação para achar o Goblin.</dd></div><div><dt>Ateliê Lunar · 3 a 15</dt><dd>Um desenha a palavra e os outros adivinham no chat. Quanto mais rápido acertar, mais pontos, e quem desenha ganha a cada acerto.</dd></div></dl>
+      </div>
+      <p class="muted">Qualquer jogo pode ser testado antes, sozinho, com bots no modo Como jogar.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Perguntas frequentes</h2>
+      <div class="faq"><details><summary>Não estou vendo a sala.</summary><p>Confira se o anfitrião e os jogadores estão no mesmo Wi-Fi ou perto uns dos outros. O Fliperama Lunar precisa estar ativado em Ajustes ▸ Privacidade e Segurança ▸ Rede Local para encontrar aparelhos por perto. Com Wi-Fi e Bluetooth ligados, a conexão fica mais estável.</p></details>
+<details><summary>Preciso permitir o acesso à rede local?</summary><p>Sim, é assim que o app encontra os iPhones por perto e se conecta a eles. Se você tocou em Não Permitir, ative de novo em Ajustes ▸ Privacidade e Segurança ▸ Rede Local.</p></details>
+<details><summary>Caí no meio da partida.</summary><p>Abra o app de novo e toque em Continuar na tela inicial para voltar à mesma sala e rodada. Seu papel e sua pontuação continuam lá. Se demorar para reconectar, entre de novo pela lista de salas.</p></details>
+<details><summary>Alguém parou de responder e o jogo travou.</summary><p>O anfitrião pode remover quem não responde a qualquer momento, e o jogo recalcula com quem ficou e segue. O modo anfitrião GM também consegue pular uma etapa travada.</p></details>
+<details><summary>Quantas pessoas precisa?</summary><p>A Ordem Lunar precisa de 5. Jogo do Mentiroso, Noite sem Lua e Ateliê Lunar começam com 3. Todos vão até 15. Faltou gente? Aprendam as regras com bots no modo Como jogar.</p></details>
+<details><summary>Precisa de internet ou de conta?</summary><p>Não. Sem cadastro, sem login e sem internet. Os iPhones próximos se conectam direto, e os dados do jogo nunca são enviados para um servidor.</p></details>
+<details><summary>Dá para testar um jogo sozinho antes?</summary><p>Dá. Escolha um jogo e depois Como jogar (prática com bots). Os bots entram na sala e você joga uma rodada inteira, passo a passo.</p></details>
+<details><summary>Como relato um erro ou mando uma ideia?</summary><p>Pelo próprio app, em Ajustes (a engrenagem) ▸ Suporte, ou por e-mail para o endereço abaixo. Respondemos o mais rápido possível.</p></details></div>
+      <p class="contact">Erros, ideias ou qualquer outra coisa: escreva para <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>A noite de jogos<br>começa aqui</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6790137862">Baixe grátis na App Store</a>
+    </section>
+  </main>
 
   <footer>
-    Fliperama Lunar<br>
-    <a href="privacy.html">Política de Privacidade</a>
+    <nav id="languages" class="langs" aria-label="Idioma"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR" aria-current="page">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Política de Privacidade</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Moonlit Arcade</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

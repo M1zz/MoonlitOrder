@@ -1,151 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Księżycowa Arkada · Pomoc</title>
-<meta name="description" content="Księżycowa Arkada to zbiór imprezowych gier offline, w których pobliskie iPhone’y łączą się bezpośrednio – bez internetu.">
-<!--HREFLANG-->
-<link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/pl/index.html">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/index.html">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/index.html">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/index.html">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/index.html">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/index.html">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/index.html">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/index.html">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/index.html">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/index.html">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/index.html">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/index.html">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/index.html">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/index.html">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/index.html">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/index.html">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/index.html">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/index.html">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/index.html">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/index.html">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/index.html">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/index.html">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/index.html">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/index.html">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<!--/HREFLANG-->
-<style>
-  :root{
-    --bg1:#0f1226; --bg2:#211840; --card:rgba(255,255,255,.06);
-    --stroke:rgba(255,255,255,.12); --text:#f4f3fb; --muted:rgba(244,243,251,.62);
-    --gold:#f2c759; --blue:#73bfff; --red:#f25a6b; --mint:#59d1b8;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",
-      "Malgun Gothic",sans-serif;
-    color:var(--text); line-height:1.7;
-    background:linear-gradient(180deg,var(--bg1),var(--bg2)) fixed;
-    min-height:100vh; -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 80px}
-  header{text-align:center;margin-bottom:44px}
-  .logo{font-size:52px;line-height:1}
-  h1{font-size:34px;font-weight:800;margin:14px 0 6px;letter-spacing:-.5px}
-  .sub{color:var(--muted);font-size:15px}
-  .badge{display:inline-block;margin-top:14px;padding:5px 12px;border-radius:999px;
-    background:rgba(89,209,184,.14);color:var(--mint);font-size:13px;font-weight:600}
-  section{background:var(--card);border:1px solid var(--stroke);border-radius:18px;
-    padding:26px 24px;margin:18px 0}
-  h2{font-size:20px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:9px}
-  h2 .ic{font-size:22px}
-  h3{font-size:16px;font-weight:700;margin:18px 0 4px;color:var(--gold)}
-  p,li{color:var(--text);font-size:15.5px}
-  .muted{color:var(--muted)}
-  ul{padding-left:20px;margin:8px 0}
-  li{margin:6px 0}
-  .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:8px}
-  .game{background:rgba(255,255,255,.04);border:1px solid var(--stroke);border-radius:14px;padding:14px}
-  .game .n{font-weight:700;font-size:15px}
-  .game .d{color:var(--muted);font-size:13px;margin-top:3px}
-  .qa{margin:16px 0}
-  .qa .q{font-weight:700;color:var(--blue);font-size:15.5px}
-  .qa .a{color:var(--text);margin-top:3px}
-  a{color:var(--mint);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .contact{text-align:center;background:rgba(242,199,89,.10);border-color:rgba(242,199,89,.28)}
-  .contact .mail{font-size:20px;font-weight:800;color:var(--gold);display:inline-block;margin-top:6px}
-  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:36px;line-height:1.9}
-  footer a{color:var(--muted);text-decoration:underline}
-.langs{display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:center;margin-top:16px;font-size:13px}.langs a{color:var(--muted);text-decoration:none}.langs a[aria-current]{color:var(--gold);font-weight:700}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Księżycowa Arkada: gry imprezowe na iPhone’ach, bez internetu</title>
+  <meta name="description" content="Połącz iPhone’y wszystkich obecnych bez internetu i grajcie do 15 osób w Kłamcę, gry z ukrytymi rolami albo w rysowanie i zgadywanie. Wszystko za darmo.">
+  <meta name="theme-color" content="#9A6B00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1226" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6790137862">
+  <link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/pl/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Księżycowa Arkada: gry imprezowe na iPhone’ach, bez internetu">
+  <meta property="og:description" content="Połącz iPhone’y wszystkich obecnych bez internetu i grajcie do 15 osób w Kłamcę, gry z ukrytymi rolami albo w rysowanie i zgadywanie. Wszystko za darmo.">
+  <meta property="og:url" content="https://m1zz.github.io/MoonlitOrder/pl/">
+  <meta property="og:image" content="https://m1zz.github.io/MoonlitOrder/img/pl/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#9A6B00}@media (prefers-color-scheme:dark){:root{--accent:#F2C759}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="logo">🌙</div>
-    <h1>Księżycowa Arkada</h1>
-    <div class="sub">Imprezowe gry offline dla przyjaciół, którzy są blisko siebie</div>
-    <div class="badge">Obsługa klienta</div>
-    <!--LANGNAV--><nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl" aria-current="page">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--/LANGNAV-->
+  <a class="skip" href="#main">Przejdź do treści</a>
+  <header class="bar">
+    <a class="brand" href="../pl/"><img src="../icon.png" alt="" width="32" height="32">Księżycowa Arkada</a>
+    <a class="lang-link" href="#languages">Język</a>
   </header>
 
-  <section>
-    <h2><span class="ic">🎲</span>Co to za aplikacja?</h2>
-    <p><strong>Księżycowa Arkada</strong> to zbiór towarzyskich gier dedukcyjnych i imprezowych, w których pobliskie iPhone’y łączą się ze sobą bezpośrednio, bez internetu. Jeśli jesteście w tej samej sieci Wi-Fi lub w zasięgu Bluetooth, możecie od razu utworzyć pokój i do niego dołączyć – bez żadnego serwera.</p>
-    <div class="games">
-      <div class="game"><div class="n">🌙 Zakon Księżyca</div><div class="d">5–15 graczy · zdemaskuj ukryte wśród was Cienie</div></div>
-      <div class="game"><div class="n">🎭 Gra w Kłamcę</div><div class="d">3–15 graczy · znajdź osobę, która nie zna hasła</div></div>
-      <div class="game"><div class="n">🔥 Noc bez Księżyca</div><div class="d">3–15 graczy · jedna noc i ukryte wśród was gobliny</div></div>
-      <div class="game"><div class="n">🖌️ Księżycowa Pracownia</div><div class="d">3–15 graczy · jedna osoba rysuje, reszta zgaduje</div></div>
-    </div>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Wszyscy są?<br>Wyciągajcie iPhone’y.</h1>
+        <p class="lead">Jedna osoba zakłada pokój, a wszyscy w pobliżu dołączają w kilka sekund. Role i tajne słowa widać tylko na własnym ekranie: bez kart i bez nikogo, kto musi siedzieć z boku jako prowadzący.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6790137862">Pobierz za darmo z App Store</a><a class="try" href="#try">Zagraj rundę w Kłamcę ↓</a></div>
+        <p class="muted small">Wszystkie gry za darmo. Bez konta i bez internetu.</p>
+      </div>
+      <div class="phone"><img src="../img/pl/01-home.jpg" alt="Wszyscy są? Wyciągajcie iPhone’y." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2><span class="ic">▶️</span>Jak grać</h2>
-    <ul>
-      <li>Wpisz pseudonim i wybierz grę.</li>
-      <li>Jedna osoba stuka <strong>„Utwórz pokój (gospodarz)”</strong>, a pozostali wchodzą do pokoju przez <strong>„Dołącz do gry”</strong>.</li>
-      <li>W tej samej sieci Wi-Fi lub z bliska (Bluetooth) urządzenia znajdują się nawzajem automatycznie. Połączenie z internetem nie jest potrzebne.</li>
-      <li>Przy pierwszym uruchomieniu trzeba <strong>zezwolić na dostęp do sieci lokalnej</strong>, aby aplikacja mogła wykryć urządzenia w pobliżu.</li>
-      <li>W sekcji <strong>„Jak grać (ćwiczenie z botami)”</strong> poznasz zasady każdej gry krok po kroku, grając z botami.</li>
-    </ul>
-  </section>
 
-  <section>
-    <h2><span class="ic">🛠️</span>Często zadawane pytania</h2>
+    <section class="reveal" id="try">
+      <h2>Zagraj rundę w Kłamcę</h2>
+      <p class="muted">Wyobraź sobie pięć iPhone’ów na stole i stuknij w każdy po kolei, żeby zerknąć. Tylko jedna osoba nie zna słowa. Możecie też podawać sobie ekran.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Zagraj rundę w Kłamcę&quot;, &quot;lead&quot;: &quot;Wyobraź sobie pięć iPhone’ów na stole i stuknij w każdy po kolei, żeby zerknąć. Tylko jedna osoba nie zna słowa. Możecie też podawać sobie ekran.&quot;, &quot;tap&quot;: &quot;Stuknij, by zobaczyć&quot;, &quot;reveal&quot;: &quot;Odkryj Kłamcę&quot;, &quot;again&quot;: &quot;Nowa runda&quot;, &quot;caughtNote&quot;: &quot;Nawet jeśli głosowanie zdemaskuje Kłamcę, ma on jeszcze ostatnią szansę.&quot;, &quot;note&quot;: &quot;W aplikacji każdy patrzy na swojego iPhone’a, po kolei opisuje słowo, a potem wszyscy głosują. Słowa pochodzą z tej samej listy co w aplikacji.&quot;, &quot;app&quot;: {&quot;game&quot;: &quot;Gra w Kłamcę&quot;, &quot;sub&quot;: &quot;Wszyscy mają to samo hasło. Tylko jedna osoba go nie zna.&quot;, &quot;arrived&quot;: &quot;Hasło dotarło&quot;, &quot;secret&quot;: &quot;Sprawdź tam, gdzie nikt nie widzi ekranu&quot;, &quot;gotIt&quot;: &quot;Zobaczyłem&quot;, &quot;word&quot;: &quot;Hasło&quot;, &quot;cat&quot;: &quot;Kategoria: {1}&quot;, &quot;liarYou&quot;: &quot;Jesteś Kłamcą!&quot;, &quot;liarHint&quot;: &quot;Nie znasz hasła, ale musisz je opisywać, jakbyś znał. Nie daj się przyłapać!&quot;, &quot;liar&quot;: &quot;Kłamca&quot;, &quot;caught&quot;: &quot;Kłamca złapany!&quot;, &quot;pick&quot;: &quot;Wybierz hasło — masz tylko jedną szansę!&quot;, &quot;liarWin&quot;: &quot;Kłamca wygrywa!&quot;, &quot;citizenWin&quot;: &quot;Obywatele wygrywają!&quot;, &quot;me&quot;: &quot;Ja&quot;, &quot;bots&quot;: [&quot;Księżycowy Zając&quot;, &quot;Nocna Bryza&quot;, &quot;Droga Mleczna&quot;, &quot;Księżyc w Ostatniej Kwadrze&quot;], &quot;words&quot;: {&quot;Jedzenie&quot;: [&quot;Gulasz kimchi&quot;, &quot;Grillowany boczek&quot;, &quot;Tteokbokki&quot;, &quot;Smażony kurczak&quot;, &quot;Pizza&quot;, &quot;Sushi&quot;, &quot;Ramen&quot;, &quot;Bibimbap&quot;, &quot;Zimny makaron&quot;, &quot;Zupa z żeberek&quot;, &quot;Makaron&quot;, &quot;Hamburger&quot;, &quot;Gimbap&quot;, &quot;Koreańska kaszanka&quot;, &quot;Nóżki wieprzowe&quot;, &quot;Sałatka&quot;], &quot;Zwierzęta&quot;: [&quot;Słoń&quot;, &quot;Żyrafa&quot;, &quot;Pingwin&quot;, &quot;Tygrys&quot;, &quot;Panda&quot;, &quot;Jeż&quot;, &quot;Kangur&quot;, &quot;Sowa&quot;, &quot;Delfin&quot;, &quot;Ośmiornica&quot;, &quot;Wiewiórka&quot;, &quot;Krokodyl&quot;, &quot;Wielbłąd&quot;, &quot;Wydra&quot;, &quot;Papuga&quot;, &quot;Kret&quot;], &quot;Miejsca&quot;: [&quot;Park rozrywki&quot;, &quot;Biblioteka&quot;, &quot;Koreańska sauna&quot;, &quot;Kino&quot;, &quot;Sklep całodobowy&quot;, &quot;Stacja metra&quot;, &quot;Salon fryzjerski&quot;, &quot;Szpital&quot;, &quot;Szkoła&quot;, &quot;Kemping&quot;, &quot;Basen&quot;, &quot;Lotnisko&quot;, &quot;Targ&quot;, &quot;Kawiarnia&quot;, &quot;Karaoke&quot;, &quot;Siłownia&quot;], &quot;Zawody&quot;: [&quot;Strażak&quot;, &quot;Lekarz&quot;, &quot;Kucharz&quot;, &quot;Programista&quot;, &quot;Youtuber&quot;, &quot;Nauczyciel&quot;, &quot;Policjant&quot;, &quot;Rolnik&quot;, &quot;Pilot&quot;, &quot;Fryzjer&quot;, &quot;Piosenkarz&quot;, &quot;Sportowiec&quot;, &quot;Fotograf&quot;, &quot;Adwokat&quot;, &quot;Rybak&quot;, &quot;Barista&quot;], &quot;Przedmioty&quot;: [&quot;Parasol&quot;, &quot;Wiatrak&quot;, &quot;Lodówka&quot;, &quot;Szczoteczka do zębów&quot;, &quot;Poduszka&quot;, &quot;Pilot do telewizora&quot;, &quot;Kubek termiczny&quot;, &quot;Słuchawki&quot;, &quot;Nożyczki&quot;, &quot;Koc&quot;, &quot;Lustro&quot;, &quot;Zegar&quot;, &quot;Ładowarka&quot;, &quot;Kapcie&quot;, &quot;Maseczka&quot;, &quot;Portfel&quot;], &quot;Sporty&quot;: [&quot;Piłka nożna&quot;, &quot;Baseball&quot;, &quot;Koszykówka&quot;, &quot;Badminton&quot;, &quot;Pływanie&quot;, &quot;Kręgle&quot;, &quot;Taekwondo&quot;, &quot;Golf&quot;, &quot;Tenis stołowy&quot;, &quot;Narciarstwo&quot;, &quot;Wspinaczka&quot;, &quot;Joga&quot;, &quot;Boks&quot;, &quot;Łucznictwo&quot;, &quot;Szermierka&quot;, &quot;Maraton&quot;]}}}"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Nie widzę żadnych pokoi w pobliżu.</div>
-      <div class="a">Sprawdź, czy gospodarz i uczestnicy są połączeni z <strong>tą samą siecią Wi-Fi</strong> albo znajdują się blisko siebie. W Ustawienia &gt; Prywatność i ochrona &gt; <strong>Sieć lokalna</strong> aplikacja Księżycowa Arkada musi być włączona. Połączenie jest najstabilniejsze, gdy włączone są zarówno Wi-Fi, jak i Bluetooth.</div>
-    </div>
+    <section class="problem reveal">
+      <h2>Wszyscy są, ale nie wiadomo, w co grać</h2>
+      <p>Wieczór gier, weekend na działce, święta z rodziną. W Mafię ktoś musi wypaść z gry i prowadzić, a złożone karteczki nigdy nie są do końca tajne. W domku ze słabym Wi-Fi gry online też odpadają. W Księżycowej Arkadzie prowadzenie, rozdanie ról i połączenie biorą na siebie iPhone’y.</p>
+    </section>
 
-    <div class="qa">
-      <div class="q">Połączenie zerwało się w trakcie gry.</div>
-      <div class="a">Po ponownym otwarciu aplikacji nastąpi <strong>automatyczne ponowne połączenie</strong> z tym samym pokojem i powrót do trwającej rozgrywki. Jeśli ponowne połączenie nie uda się w określonym czasie, dołącz jeszcze raz z listy pokoi.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Twoja rola jest tylko na twoim ekranie</h2>
+        <p>Po starcie każdy iPhone dostaje swoją rolę lub słowo. Bez rozdawania kart i bez „miasto zasypia”.<br>Podczas głosowania widać tylko, kto już zagłosował. Kto głosował na kogo, zostaje tajemnicą do odkrycia.</p>
+      </div>
+      <div class="phone"><img src="../img/pl/02-role.jpg" alt="Twoja rola jest tylko na twoim ekranie" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Ilu graczy potrzeba co najmniej?</div>
-      <div class="a">Zakon Księżyca można rozpocząć od 5 osób, pozostałe gry od 3. Jednocześnie może grać maksymalnie 15 osób.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Cztery gry na każdą ekipę</h2>
+        <p>W Grze w Kłamcę wygrywa gadane, w Zakonie Księżyca tropicie Cienie misjami i głosowaniami, w Nocy bez Księżyca szukacie Goblina w jedną noc, a w Księżycowej Pracowni jedna osoba rysuje, a reszta zgaduje.<br>Zakon Księżyca od 5 osób, pozostałe od 3, wszystkie do 15.</p>
+      </div>
+      <div class="phone"><img src="../img/pl/04-draw.jpg" alt="Cztery gry na każdą ekipę" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Czy potrzebuję internetu albo konta?</div>
-      <div class="a">Nie. Grasz offline, bez rejestracji, logowania i połączenia z internetem. Dane z gry nie są wysyłane na żaden serwer.</div>
-    </div>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Nowa gra? Nauczysz się w kilka minut</h2>
+        <p>Każda gra ma tryb Jak grać, w którym rozgrywasz rundę z botami krok po kroku. Przeczytaj wskazówkę u góry i stuknij Dalej.<br>Gdy aplikacja się zamknie albo zerwie się połączenie, stuknij Kontynuuj na ekranie głównym i wracasz do tej samej rundy.</p>
+      </div>
+      <div class="phone"><img src="../img/pl/03-vote.jpg" alt="Nowa gra? Nauczysz się w kilka minut" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-  <section class="contact">
-    <h2 style="justify-content:center"><span class="ic">✉️</span>Kontakt</h2>
-    <p class="muted">Zgłoszenia błędów, sugestie i inne pytania możesz wysłać bezpośrednio z aplikacji w Ustawienia (koło zębate) &gt; Pomoc albo napisać na poniższy adres e-mail. Odpowiemy najszybciej, jak to możliwe.</p>
-    <a class="mail" href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>
-  </section>
+    <section class="reveal">
+      <h2>Zacznij w trzech krokach</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Pseudonim i gra</h3><p>Wszyscy otwierają aplikację, wpisują pseudonim i wybierają grę.</p></li>
+<li class="card"><span class="n">2</span><h3>Utwórz pokój lub dołącz</h3><p>Jedna osoba tworzy pokój, reszta znajduje go w Szukaj pokoi w pobliżu.</p></li>
+<li class="card"><span class="n">3</span><h3>Gospodarz startuje</h3><p>Gdy wszyscy są w środku, gospodarz stuka Rozpocznij grę. Resztą zajmie się aplikacja.</p></li></ol>
+    </section>
 
+    <section class="reveal" id="commands">
+      <h2>Cztery gry</h2>
+      <div class="card table">
+        <dl><div><dt>Gra w Kłamcę · 3–15 osób</dt><dd>Wszyscy dostają to samo słowo oprócz jednej osoby. Po kolei je opisujecie, a potem głosujecie na Kłamcę. Jeśli złapany Kłamca odgadnie słowo, i tak wygrywa.</dd></div><div><dt>Zakon Księżyca · 5–15 osób</dt><dd>Zdemaskujcie Cienie ukryte w Zakonie. Przywódca wybiera drużynę, wszyscy głosują za lub przeciw, a drużyna potajemnie zagrywa sukces albo porażkę. Wygrywa strona, która pierwsza zdobędzie trzy misje.</dd></div><div><dt>Noc bez Księżyca · 3–15 osób</dt><dd>Jedna noc i Goblin ukryty we wsi. Nocą Szaman, Nocny złodziej i Psotnik działają po cichu. O świcie jest dyskusja i tylko jedno głosowanie, żeby znaleźć Goblina.</dd></div><div><dt>Księżycowa Pracownia · 3–15 osób</dt><dd>Jedna osoba rysuje słowo, reszta zgaduje na czacie. Im szybciej zgadniesz, tym więcej punktów, a rysujący punktuje za każdą trafną odpowiedź.</dd></div></dl>
+      </div>
+      <p class="muted">Każdą grę można najpierw wypróbować samemu z botami w trybie Jak grać.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Częste pytania</h2>
+      <div class="faq"><details><summary>Nie widzę pokoju.</summary><p>Sprawdź, czy gospodarz i gracze są w tej samej sieci Wi-Fi albo blisko siebie. Żeby znaleźć urządzenia w pobliżu, Księżycowa Arkada musi być włączona w Ustawieniach ▸ Prywatność i ochrona ▸ Sieć lokalna. Z włączonymi Wi-Fi i Bluetooth połączenie jest najstabilniejsze.</p></details>
+<details><summary>Czy muszę zezwolić na dostęp do sieci lokalnej?</summary><p>Tak, dzięki temu aplikacja znajduje iPhone’y w pobliżu i łączy się z nimi. Jeśli stuknięto Nie pozwalaj, włącz to ponownie w Ustawieniach ▸ Prywatność i ochrona ▸ Sieć lokalna.</p></details>
+<details><summary>Połączenie zerwało się w trakcie gry.</summary><p>Otwórz aplikację ponownie i stuknij Kontynuuj na ekranie głównym, aby wrócić do tego samego pokoju i rundy. Rola i punkty zostają. Jeśli długo nie da się połączyć, dołącz jeszcze raz z listy pokoi.</p></details>
+<details><summary>Ktoś nie odpowiada i gra stanęła.</summary><p>Gospodarz może w każdej chwili usunąć nieaktywnego gracza, a gra przelicza wynik z pozostałymi i toczy się dalej. Tryb gospodarza GM pozwala też pominąć zablokowany etap.</p></details>
+<details><summary>Ile osób potrzeba?</summary><p>Zakon Księżyca wymaga 5 osób. Gra w Kłamcę, Noc bez Księżyca i Księżycowa Pracownia startują od 3. Wszystkie do 15. Za mało ludzi? Poznajcie zasady z botami w trybie Jak grać.</p></details>
+<details><summary>Czy potrzebny jest internet albo konto?</summary><p>Nie. Bez rejestracji, logowania i internetu. iPhone’y w pobliżu łączą się bezpośrednio, a dane gry nigdy nie trafiają na serwer.</p></details>
+<details><summary>Czy mogę najpierw zagrać sam?</summary><p>Tak. Wybierz grę, a potem Jak grać (ćwiczenie z botami). Boty wejdą do pokoju, a ty rozegrasz całą rundę krok po kroku.</p></details>
+<details><summary>Jak zgłosić błąd albo podsunąć pomysł?</summary><p>Prosto z aplikacji: Ustawienia (koło zębate) ▸ Pomoc, albo mailem na adres poniżej. Odpowiemy najszybciej, jak się da.</p></details></div>
+      <p class="contact">Błędy, pomysły i inne sprawy: napisz na <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Dzisiejszy wieczór gier<br>zaczyna się tutaj</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6790137862">Pobierz za darmo z App Store</a>
+    </section>
+  </main>
 
   <footer>
-    Księżycowa Arkada<br>
-    <a href="privacy.html">Polityka prywatności</a>
+    <nav id="languages" class="langs" aria-label="Język"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl" aria-current="page">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Polityka prywatności</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Moonlit Arcade</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

@@ -1,151 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arcade Lunaire · Assistance</title>
-<meta name="description" content="Arcade Lunaire est une collection de jeux de soirée hors ligne qui relie directement les iPhone à proximité, sans Internet.">
-<!--HREFLANG-->
-<link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/fr/index.html">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/index.html">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/index.html">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/index.html">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/index.html">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/index.html">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/index.html">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/index.html">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/index.html">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/index.html">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/index.html">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/index.html">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/index.html">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/index.html">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/index.html">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/index.html">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/index.html">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/index.html">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/index.html">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/index.html">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/index.html">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/index.html">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/index.html">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/index.html">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<!--/HREFLANG-->
-<style>
-  :root{
-    --bg1:#0f1226; --bg2:#211840; --card:rgba(255,255,255,.06);
-    --stroke:rgba(255,255,255,.12); --text:#f4f3fb; --muted:rgba(244,243,251,.62);
-    --gold:#f2c759; --blue:#73bfff; --red:#f25a6b; --mint:#59d1b8;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",
-      "Malgun Gothic",sans-serif;
-    color:var(--text); line-height:1.7;
-    background:linear-gradient(180deg,var(--bg1),var(--bg2)) fixed;
-    min-height:100vh; -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 80px}
-  header{text-align:center;margin-bottom:44px}
-  .logo{font-size:52px;line-height:1}
-  h1{font-size:34px;font-weight:800;margin:14px 0 6px;letter-spacing:-.5px}
-  .sub{color:var(--muted);font-size:15px}
-  .badge{display:inline-block;margin-top:14px;padding:5px 12px;border-radius:999px;
-    background:rgba(89,209,184,.14);color:var(--mint);font-size:13px;font-weight:600}
-  section{background:var(--card);border:1px solid var(--stroke);border-radius:18px;
-    padding:26px 24px;margin:18px 0}
-  h2{font-size:20px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:9px}
-  h2 .ic{font-size:22px}
-  h3{font-size:16px;font-weight:700;margin:18px 0 4px;color:var(--gold)}
-  p,li{color:var(--text);font-size:15.5px}
-  .muted{color:var(--muted)}
-  ul{padding-left:20px;margin:8px 0}
-  li{margin:6px 0}
-  .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:8px}
-  .game{background:rgba(255,255,255,.04);border:1px solid var(--stroke);border-radius:14px;padding:14px}
-  .game .n{font-weight:700;font-size:15px}
-  .game .d{color:var(--muted);font-size:13px;margin-top:3px}
-  .qa{margin:16px 0}
-  .qa .q{font-weight:700;color:var(--blue);font-size:15.5px}
-  .qa .a{color:var(--text);margin-top:3px}
-  a{color:var(--mint);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .contact{text-align:center;background:rgba(242,199,89,.10);border-color:rgba(242,199,89,.28)}
-  .contact .mail{font-size:20px;font-weight:800;color:var(--gold);display:inline-block;margin-top:6px}
-  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:36px;line-height:1.9}
-  footer a{color:var(--muted);text-decoration:underline}
-.langs{display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:center;margin-top:16px;font-size:13px}.langs a{color:var(--muted);text-decoration:none}.langs a[aria-current]{color:var(--gold);font-weight:700}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arcade Lunaire : jeux de soirée entre iPhone, sans Internet</title>
+  <meta name="description" content="Reliez les iPhone de tout le monde, sans Internet, et jouez jusqu’à 15 au Jeu du Menteur, à des jeux de rôles cachés ou au dessin à deviner, gratuitement.">
+  <meta name="theme-color" content="#9A6B00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1226" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6790137862">
+  <link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/fr/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Arcade Lunaire : jeux de soirée entre iPhone, sans Internet">
+  <meta property="og:description" content="Reliez les iPhone de tout le monde, sans Internet, et jouez jusqu’à 15 au Jeu du Menteur, à des jeux de rôles cachés ou au dessin à deviner, gratuitement.">
+  <meta property="og:url" content="https://m1zz.github.io/MoonlitOrder/fr/">
+  <meta property="og:image" content="https://m1zz.github.io/MoonlitOrder/img/fr/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#9A6B00}@media (prefers-color-scheme:dark){:root{--accent:#F2C759}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="logo">🌙</div>
-    <h1>Arcade Lunaire</h1>
-    <div class="sub">Des jeux de soirée hors ligne à partager avec vos amis tout proches</div>
-    <div class="badge">Assistance clientèle</div>
-    <!--LANGNAV--><nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr" aria-current="page">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--/LANGNAV-->
+  <a class="skip" href="#main">Aller au contenu</a>
+  <header class="bar">
+    <a class="brand" href="../fr/"><img src="../icon.png" alt="" width="32" height="32">Arcade Lunaire</a>
+    <a class="lang-link" href="#languages">Langue</a>
   </header>
 
-  <section>
-    <h2><span class="ic">🎲</span>De quoi s’agit-il ?</h2>
-    <p><strong>Arcade Lunaire</strong> est une collection de jeux d’ambiance et de déduction sociale qui relie directement les iPhone à proximité, sans Internet. Sur le même réseau Wi-Fi ou à portée de Bluetooth, vous pouvez créer un salon et le rejoindre aussitôt, sans aucun serveur.</p>
-    <div class="games">
-      <div class="game"><div class="n">🌙 Ordre Lunaire</div><div class="d">5 à 15 joueurs · Démasquez les Ombres infiltrées parmi vous</div></div>
-      <div class="game"><div class="n">🎭 Jeu du Menteur</div><div class="d">3 à 15 joueurs · Trouvez celui qui ne connaît pas le mot</div></div>
-      <div class="game"><div class="n">🔥 Nuit sans Lune</div><div class="d">3 à 15 joueurs · Une nuit de déduction où se cachent des Gobelins</div></div>
-      <div class="game"><div class="n">🖌️ Atelier Lunaire</div><div class="d">3 à 15 joueurs · L’un dessine, les autres devinent</div></div>
-    </div>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Tout le monde est là ?<br>Sortez vos iPhone.</h1>
+        <p class="lead">Une personne crée un salon, et tous ceux à proximité le rejoignent en quelques secondes. Rôles et mots secrets n’apparaissent que sur l’écran de chacun : pas de cartes, et personne n’est coincé à animer.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6790137862">Télécharger gratuitement sur l’App Store</a><a class="try" href="#try">Une partie de Jeu du Menteur ↓</a></div>
+        <p class="muted small">Tous les jeux sont gratuits. Ni compte, ni Internet.</p>
+      </div>
+      <div class="phone"><img src="../img/fr/01-home.jpg" alt="Tout le monde est là ? Sortez vos iPhone." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2><span class="ic">▶️</span>Comment jouer</h2>
-    <ul>
-      <li>Saisissez votre pseudo et choisissez un jeu.</li>
-      <li>Une personne touche <strong>« Créer un salon (hôte) »</strong>, les autres entrent dans le salon avec <strong>« Rejoindre une partie »</strong>.</li>
-      <li>Sur le même Wi-Fi ou à courte distance (Bluetooth), les appareils se trouvent automatiquement. Aucune connexion Internet n’est nécessaire.</li>
-      <li>Lors de la première connexion, touchez <strong>Autoriser l’accès au réseau local</strong> pour que l’app puisse détecter les appareils à proximité.</li>
-      <li>Dans chaque jeu, <strong>« Comment jouer (entraînement avec bots) »</strong> vous apprend les règles étape par étape avec des bots.</li>
-    </ul>
-  </section>
 
-  <section>
-    <h2><span class="ic">🛠️</span>Questions fréquentes</h2>
+    <section class="reveal" id="try">
+      <h2>Une partie de Jeu du Menteur</h2>
+      <p class="muted">Imaginez cinq iPhone posés sur la table et touchez-les un par un pour regarder. Un seul joueur ne connaît pas le mot. Vous pouvez aussi faire passer l’écran entre amis.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Une partie de Jeu du Menteur&quot;, &quot;lead&quot;: &quot;Imaginez cinq iPhone posés sur la table et touchez-les un par un pour regarder. Un seul joueur ne connaît pas le mot. Vous pouvez aussi faire passer l’écran entre amis.&quot;, &quot;tap&quot;: &quot;Toucher pour voir&quot;, &quot;reveal&quot;: &quot;Révéler le Menteur&quot;, &quot;again&quot;: &quot;Nouvelle partie&quot;, &quot;caughtNote&quot;: &quot;Même démasqué par le vote, le Menteur a encore une dernière chance.&quot;, &quot;note&quot;: &quot;Dans l’app, chacun regarde son propre iPhone, décrit le mot à son tour, puis tout le monde vote. Les mots viennent de la même liste que l’app.&quot;, &quot;app&quot;: {&quot;game&quot;: &quot;Jeu du Menteur&quot;, &quot;sub&quot;: &quot;Tout le monde a le même mot. Un seul ne le connaît pas.&quot;, &quot;arrived&quot;: &quot;Le mot est arrivé&quot;, &quot;secret&quot;: &quot;Regardez là où personne ne peut voir l’écran&quot;, &quot;gotIt&quot;: &quot;Vu&quot;, &quot;word&quot;: &quot;Mot&quot;, &quot;cat&quot;: &quot;Catégorie : {1}&quot;, &quot;liarYou&quot;: &quot;Vous êtes le Menteur !&quot;, &quot;liarHint&quot;: &quot;Vous ne connaissez pas le mot, mais vous devez le décrire comme si vous le connaissiez. Ne vous faites pas prendre !&quot;, &quot;liar&quot;: &quot;Menteur&quot;, &quot;caught&quot;: &quot;Menteur démasqué !&quot;, &quot;pick&quot;: &quot;Choisissez le mot — vous n’avez qu’une seule chance !&quot;, &quot;liarWin&quot;: &quot;Le Menteur gagne !&quot;, &quot;citizenWin&quot;: &quot;Les citoyens gagnent !&quot;, &quot;me&quot;: &quot;Moi&quot;, &quot;bots&quot;: [&quot;Lapin Lunaire&quot;, &quot;Brise de Nuit&quot;, &quot;Voie Lactée&quot;, &quot;Lune Décroissante&quot;], &quot;words&quot;: {&quot;Cuisine&quot;: [&quot;Ragoût de kimchi&quot;, &quot;Poitrine de porc grillée&quot;, &quot;Tteokbokki&quot;, &quot;Poulet frit&quot;, &quot;Pizza&quot;, &quot;Sushi&quot;, &quot;Ramen&quot;, &quot;Bibimbap&quot;, &quot;Nouilles froides&quot;, &quot;Soupe de côtes de bœuf&quot;, &quot;Pâtes&quot;, &quot;Hamburger&quot;, &quot;Gimbap&quot;, &quot;Boudin coréen&quot;, &quot;Pieds de porc&quot;, &quot;Salade&quot;], &quot;Animaux&quot;: [&quot;Éléphant&quot;, &quot;Girafe&quot;, &quot;Pingouin&quot;, &quot;Tigre&quot;, &quot;Panda&quot;, &quot;Hérisson&quot;, &quot;Kangourou&quot;, &quot;Hibou&quot;, &quot;Dauphin&quot;, &quot;Pieuvre&quot;, &quot;Écureuil&quot;, &quot;Crocodile&quot;, &quot;Chameau&quot;, &quot;Loutre&quot;, &quot;Perroquet&quot;, &quot;Taupe&quot;], &quot;Lieux&quot;: [&quot;Parc d’attractions&quot;, &quot;Bibliothèque&quot;, &quot;Sauna coréen&quot;, &quot;Cinéma&quot;, &quot;Supérette&quot;, &quot;Station de métro&quot;, &quot;Salon de coiffure&quot;, &quot;Hôpital&quot;, &quot;École&quot;, &quot;Camping&quot;, &quot;Piscine&quot;, &quot;Aéroport&quot;, &quot;Marché&quot;, &quot;Café&quot;, &quot;Karaoké&quot;, &quot;Salle de sport&quot;], &quot;Métiers&quot;: [&quot;Pompier&quot;, &quot;Médecin&quot;, &quot;Cuisinier&quot;, &quot;Programmeur&quot;, &quot;YouTubeur&quot;, &quot;Professeur&quot;, &quot;Policier&quot;, &quot;Agriculteur&quot;, &quot;Pilote&quot;, &quot;Coiffeur&quot;, &quot;Chanteur&quot;, &quot;Sportif&quot;, &quot;Photographe&quot;, &quot;Avocat&quot;, &quot;Pêcheur&quot;, &quot;Barista&quot;], &quot;Objets&quot;: [&quot;Parapluie&quot;, &quot;Ventilateur&quot;, &quot;Réfrigérateur&quot;, &quot;Brosse à dents&quot;, &quot;Oreiller&quot;, &quot;Télécommande&quot;, &quot;Gourde isotherme&quot;, &quot;Écouteurs&quot;, &quot;Ciseaux&quot;, &quot;Couverture&quot;, &quot;Miroir&quot;, &quot;Horloge&quot;, &quot;Chargeur&quot;, &quot;Chaussons&quot;, &quot;Masque&quot;, &quot;Portefeuille&quot;], &quot;Sports&quot;: [&quot;Football&quot;, &quot;Baseball&quot;, &quot;Basket-ball&quot;, &quot;Badminton&quot;, &quot;Natation&quot;, &quot;Bowling&quot;, &quot;Taekwondo&quot;, &quot;Golf&quot;, &quot;Tennis de table&quot;, &quot;Ski&quot;, &quot;Escalade&quot;, &quot;Yoga&quot;, &quot;Boxe&quot;, &quot;Tir à l’arc&quot;, &quot;Escrime&quot;, &quot;Marathon&quot;]}}}"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Je ne vois aucun salon à proximité.</div>
-      <div class="a">Vérifiez que l’hôte et les joueurs sont connectés au <strong>même réseau Wi-Fi</strong> ou qu’ils sont proches les uns des autres. Arcade Lunaire doit être activé dans Réglages &gt; Confidentialité et sécurité &gt; <strong>Réseau local</strong>. La connexion est la plus stable lorsque le Wi-Fi et le Bluetooth sont tous deux activés.</div>
-    </div>
+    <section class="problem reveal">
+      <h2>Tout le monde est là, mais on ne sait pas à quoi jouer</h2>
+      <p>Soirée jeux, week-end entre amis, réveillon en famille. Pour un loup-garou, quelqu’un doit sortir du jeu pour animer, et les papiers pliés ne restent jamais secrets. Dans un gîte au Wi-Fi capricieux, les jeux en ligne sont exclus. Arcade Lunaire confie l’animation, la distribution des rôles et la connexion aux iPhone.</p>
+    </section>
 
-    <div class="qa">
-      <div class="q">La connexion a été coupée pendant la partie.</div>
-      <div class="a">En rouvrant l’app, vous êtes <strong>reconnecté automatiquement</strong> au même salon et vous reprenez la partie en cours. Si la reconnexion n’a pas lieu au bout d’un certain temps, rejoignez de nouveau le salon depuis la liste des salons.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Votre rôle reste sur votre écran</h2>
+        <p>Au lancement, chaque iPhone reçoit son rôle ou son mot. Pas de cartes à distribuer, pas de « tout le monde ferme les yeux ».<br>Pendant le vote, on voit seulement qui a voté. Qui a voté pour qui reste secret jusqu’à la révélation.</p>
+      </div>
+      <div class="phone"><img src="../img/fr/02-role.jpg" alt="Votre rôle reste sur votre écran" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Combien faut-il de joueurs au minimum ?</div>
-      <div class="a">Ordre Lunaire se joue à partir de 5 joueurs et les autres jeux à partir de 3, jusqu’à 15 joueurs au maximum.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Quatre jeux pour toutes les tablées</h2>
+        <p>Le Jeu du Menteur se joue à la tchatche, l’Ordre Lunaire traque les Ombres à coups de missions et de votes, la Nuit sans Lune cherche le Gobelin en une nuit, et dans l’Atelier Lunaire l’un dessine pendant que les autres devinent.<br>L’Ordre Lunaire se joue dès 5, les autres dès 3, et tous jusqu’à 15.</p>
+      </div>
+      <div class="phone"><img src="../img/fr/04-draw.jpg" alt="Quatre jeux pour toutes les tablées" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Faut-il Internet ou un compte ?</div>
-      <div class="a">Non. On joue hors ligne, sans inscription, sans connexion à un compte et sans Internet. Les données de jeu ne sont envoyées à aucun serveur.</div>
-    </div>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Un nouveau jeu ? Appris en quelques minutes</h2>
+        <p>Chaque jeu a un mode Comment jouer où vous faites une partie avec des bots, étape par étape. Lisez l’astuce en haut et touchez Suivant.<br>Si l’app se ferme ou si la connexion saute, touchez Reprendre sur l’écran d’accueil pour retrouver la même partie.</p>
+      </div>
+      <div class="phone"><img src="../img/fr/03-vote.jpg" alt="Un nouveau jeu ? Appris en quelques minutes" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-  <section class="contact">
-    <h2 style="justify-content:center"><span class="ic">✉️</span>Nous contacter</h2>
-    <p class="muted">Pour signaler un bug, faire une suggestion ou pour toute autre question, écrivez-nous directement depuis Réglages (roue dentée) &gt; Assistance dans l’app, ou à l’adresse e-mail ci-dessous. Nous vous répondrons dans les meilleurs délais.</p>
-    <a class="mail" href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>
-  </section>
+    <section class="reveal">
+      <h2>Trois étapes pour commencer</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Pseudo et jeu</h3><p>Chacun ouvre l’app, saisit un pseudo et choisit le jeu.</p></li>
+<li class="card"><span class="n">2</span><h3>Créer ou rejoindre un salon</h3><p>Une personne crée un salon, les autres le trouvent avec Chercher des salons à proximité.</p></li>
+<li class="card"><span class="n">3</span><h3>L’hôte lance</h3><p>Quand tout le monde est là, l’hôte touche Lancer la partie. L’app s’occupe du reste.</p></li></ol>
+    </section>
 
+    <section class="reveal" id="commands">
+      <h2>Les quatre jeux</h2>
+      <div class="card table">
+        <dl><div><dt>Jeu du Menteur · 3 à 15 joueurs</dt><dd>Tout le monde reçoit le même mot, sauf un. Chacun le décrit à son tour, puis on vote pour désigner le Menteur. Démasqué, le Menteur gagne quand même s’il devine le mot.</dd></div><div><dt>Ordre Lunaire · 5 à 15 joueurs</dt><dd>Démasquez les Ombres cachées dans l’Ordre. Le chef compose une équipe, tout le monde vote pour ou contre, puis l’équipe joue en secret réussite ou échec. Le premier camp à remporter trois missions gagne.</dd></div><div><dt>Nuit sans Lune · 3 à 15 joueurs</dt><dd>Une seule nuit, et un Gobelin se cache au village. La nuit, le Chaman, le Voleur de nuit et le Farceur agissent en secret. À l’aube, on débat et on n’a qu’un seul vote pour trouver le Gobelin.</dd></div><div><dt>Atelier Lunaire · 3 à 15 joueurs</dt><dd>Un joueur dessine le mot, les autres devinent dans le chat. Plus on devine vite, plus on marque, et le dessinateur marque pour chaque bonne réponse.</dd></div></dl>
+      </div>
+      <p class="muted">Chaque jeu peut d’abord s’essayer seul avec des bots en mode Comment jouer.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Questions fréquentes</h2>
+      <div class="faq"><details><summary>Je ne vois pas le salon.</summary><p>Vérifiez que l’hôte et les joueurs sont sur le même Wi-Fi ou proches les uns des autres. Arcade Lunaire doit être activée dans Réglages ▸ Confidentialité et sécurité ▸ Réseau local pour trouver les appareils à proximité. Avec le Wi-Fi et le Bluetooth activés, la connexion est la plus stable.</p></details>
+<details><summary>Dois-je autoriser l’accès au réseau local ?</summary><p>Oui, c’est ainsi que l’app trouve les iPhone à proximité et s’y connecte. Si vous avez refusé, réactivez-le dans Réglages ▸ Confidentialité et sécurité ▸ Réseau local.</p></details>
+<details><summary>J’ai été déconnecté en pleine partie.</summary><p>Rouvrez l’app et touchez Reprendre sur l’écran d’accueil pour retrouver le même salon et la même partie. Votre rôle et votre score sont conservés. Si la reconnexion tarde, rejoignez à nouveau depuis la liste des salons.</p></details>
+<details><summary>Quelqu’un ne répond plus et la partie est bloquée.</summary><p>L’hôte peut retirer un joueur inactif à tout moment : la partie recompte avec les joueurs restants et continue. Le mode hôte MJ permet aussi de passer une étape bloquée.</p></details>
+<details><summary>Combien de joueurs faut-il ?</summary><p>L’Ordre Lunaire demande 5 joueurs. Le Jeu du Menteur, la Nuit sans Lune et l’Atelier Lunaire se lancent dès 3. Tous vont jusqu’à 15. Pas assez de monde ? Apprenez les règles avec des bots en mode Comment jouer.</p></details>
+<details><summary>Faut-il Internet ou un compte ?</summary><p>Non. Ni inscription, ni connexion, ni Internet. Les iPhone à proximité se relient directement, et les données de jeu ne sont jamais envoyées à un serveur.</p></details>
+<details><summary>Puis-je essayer un jeu seul d’abord ?</summary><p>Oui. Choisissez un jeu puis Comment jouer (entraînement avec bots). Des bots rejoignent le salon et vous jouez une partie complète, étape par étape.</p></details>
+<details><summary>Comment signaler un bug ou proposer une idée ?</summary><p>Directement depuis Réglages (la roue dentée) ▸ Assistance dans l’app, ou par e-mail à l’adresse ci-dessous. Nous répondons au plus vite.</p></details></div>
+      <p class="contact">Bug, idée ou autre question : écrivez à <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>La soirée jeux<br>commence ici</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6790137862">Télécharger gratuitement sur l’App Store</a>
+    </section>
+  </main>
 
   <footer>
-    Arcade Lunaire<br>
-    <a href="privacy.html">Politique de confidentialité</a>
+    <nav id="languages" class="langs" aria-label="Langue"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr" aria-current="page">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Politique de confidentialité</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Moonlit Arcade</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

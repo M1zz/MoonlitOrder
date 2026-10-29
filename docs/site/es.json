@@ -1,0 +1,259 @@
+{
+  "title": "Arcade Lunar: juegos de grupo entre iPhone, sin internet",
+  "description": "Conecta los iPhone de todos sin internet y jugad hasta 15 al Juego del Mentiroso, a roles ocultos o a dibujar y adivinar. Todos los juegos son gratis.",
+  "hero": {
+    "headline": "¿Ya estáis todos?\nSacad los iPhone.",
+    "lead": "Una persona crea una sala y los que estén cerca entran en segundos. Los roles y las palabras secretas solo aparecen en la pantalla de cada uno: sin cartas y sin nadie atrapado haciendo de moderador.",
+    "cta": "Descárgala gratis en el App Store",
+    "note": "Todos los juegos son gratis. Sin cuenta ni internet."
+  },
+  "demo": {
+    "title": "Juega una ronda del Juego del Mentiroso",
+    "lead": "Imagina cinco iPhone sobre la mesa y tócalos uno a uno para mirar. Solo uno no sabe la palabra. También podéis ir pasándoos la pantalla.",
+    "tap": "Toca para ver",
+    "reveal": "Descubrir al Mentiroso",
+    "again": "Otra ronda",
+    "caughtNote": "Aunque la votación pille al Mentiroso, aún le queda una última oportunidad.",
+    "note": "En la app, cada uno mira su propio iPhone, describe la palabra por turnos y luego se vota. Las palabras salen de la misma lista que usa la app.",
+    "app": {
+      "game": "Juego del Mentiroso",
+      "sub": "Todos tienen la misma palabra. Solo uno no la conoce.",
+      "arrived": "Llegó la palabra",
+      "secret": "Míralo donde nadie más pueda ver la pantalla",
+      "gotIt": "Ya la vi",
+      "word": "Palabra",
+      "cat": "Categoría: {1}",
+      "liarYou": "¡Eres el Mentiroso!",
+      "liarHint": "No conoces la palabra, pero tienes que describirla como si la conocieras. ¡Que no te descubran!",
+      "liar": "Mentiroso",
+      "caught": "¡Mentiroso atrapado!",
+      "pick": "Elige la palabra — ¡solo tienes una oportunidad!",
+      "liarWin": "¡Gana el Mentiroso!",
+      "citizenWin": "¡Ganan los ciudadanos!",
+      "me": "Yo",
+      "bots": [
+        "Conejo Lunar",
+        "Brisa Nocturna",
+        "Vía Láctea",
+        "Luna Menguante"
+      ],
+      "words": {
+        "Comida": [
+          "Guiso de kimchi",
+          "Panceta a la parrilla",
+          "Tteokbokki",
+          "Pollo frito",
+          "Pizza",
+          "Sushi",
+          "Ramen",
+          "Bibimbap",
+          "Fideos fríos",
+          "Sopa de costillas",
+          "Pasta",
+          "Hamburguesa",
+          "Gimbap",
+          "Morcilla coreana",
+          "Manitas de cerdo",
+          "Ensalada"
+        ],
+        "Animales": [
+          "Elefante",
+          "Jirafa",
+          "Pingüino",
+          "Tigre",
+          "Panda",
+          "Erizo",
+          "Canguro",
+          "Búho",
+          "Delfín",
+          "Pulpo",
+          "Ardilla",
+          "Cocodrilo",
+          "Camello",
+          "Nutria",
+          "Loro",
+          "Topo"
+        ],
+        "Lugares": [
+          "Parque de atracciones",
+          "Biblioteca",
+          "Spa coreano",
+          "Cine",
+          "Tienda de conveniencia",
+          "Estación de metro",
+          "Peluquería",
+          "Hospital",
+          "Escuela",
+          "Zona de acampada",
+          "Piscina",
+          "Aeropuerto",
+          "Mercado",
+          "Cafetería",
+          "Karaoke",
+          "Gimnasio"
+        ],
+        "Profesiones": [
+          "Bombero",
+          "Médico",
+          "Cocinero",
+          "Programador",
+          "Youtuber",
+          "Profesor",
+          "Policía",
+          "Agricultor",
+          "Piloto",
+          "Peluquero",
+          "Cantante",
+          "Deportista",
+          "Fotógrafo",
+          "Abogado",
+          "Pescador",
+          "Barista"
+        ],
+        "Objetos": [
+          "Paraguas",
+          "Ventilador",
+          "Refrigerador",
+          "Cepillo de dientes",
+          "Almohada",
+          "Control remoto",
+          "Termo",
+          "Audífonos",
+          "Tijeras",
+          "Manta",
+          "Espejo",
+          "Reloj",
+          "Cargador",
+          "Pantuflas",
+          "Mascarilla",
+          "Cartera"
+        ],
+        "Deportes": [
+          "Fútbol",
+          "Béisbol",
+          "Baloncesto",
+          "Bádminton",
+          "Natación",
+          "Boliche",
+          "Taekwondo",
+          "Golf",
+          "Tenis de mesa",
+          "Esquí",
+          "Escalada",
+          "Yoga",
+          "Boxeo",
+          "Tiro con arco",
+          "Esgrima",
+          "Maratón"
+        ]
+      }
+    }
+  },
+  "problem": {
+    "title": "Mucha gente, una noche libre y nada a qué jugar",
+    "text": "Noche de juegos, casa rural, Navidad en familia. Para un juego de roles ocultos alguien tiene que quedarse fuera para moderar, y los papelitos doblados nunca son del todo secretos. En una casa con mal wifi, los juegos online tampoco funcionan. Arcade Lunar deja que los iPhone moderen, repartan los roles y se conecten entre sí."
+  },
+  "features": [
+    {
+      "title": "Tu rol solo está en tu pantalla",
+      "text": "Al empezar, cada iPhone recibe su rol o su palabra. Nada de repartir cartas ni de «todos cerramos los ojos».\nAl votar solo se ve quién ha votado ya. A quién votó cada uno es secreto hasta el final.",
+      "shot": "02-role"
+    },
+    {
+      "title": "Cuatro juegos para cualquier grupo",
+      "text": "Gana con labia en el Juego del Mentiroso, caza a las Sombras con misiones y votaciones en Orden Lunar, encuentra al Trasgo en una sola noche en Noche sin Luna o dibuja y adivina en Estudio Lunar.\nOrden Lunar desde 5 jugadores, el resto desde 3, y todos hasta 15.",
+      "shot": "04-draw"
+    },
+    {
+      "title": "¿Juego nuevo? Aprendido en minutos",
+      "text": "Cada juego tiene un modo Cómo se juega en el que juegas una ronda con bots, paso a paso. Lee la pista de arriba y toca Siguiente.\nSi la app se cierra o se corta la conexión, toca Continuar en la pantalla de inicio y vuelves a la misma ronda.",
+      "shot": "03-vote"
+    }
+  ],
+  "steps": {
+    "title": "Empieza en tres pasos",
+    "items": [
+      {
+        "title": "Apodo y juego",
+        "text": "Todos abren la app, escriben un apodo y eligen el juego."
+      },
+      {
+        "title": "Crear o unirse a una sala",
+        "text": "Una persona crea la sala; los demás la encuentran en Buscar salas cercanas."
+      },
+      {
+        "title": "El anfitrión empieza",
+        "text": "Cuando estén todos, el anfitrión toca Empezar partida. La app se encarga del resto."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Los cuatro juegos",
+    "rows": [
+      [
+        "Juego del Mentiroso · 3 a 15",
+        "Todos reciben la misma palabra menos uno. Por turnos, cada uno la describe y luego se vota al Mentiroso. Si lo pillan pero adivina la palabra, el Mentiroso gana igualmente."
+      ],
+      [
+        "Orden Lunar · 5 a 15",
+        "Descubre a las Sombras escondidas en la Orden. El líder elige un equipo de misión, todos votan a favor o en contra y el equipo juega en secreto éxito o fracaso. Gana el bando que antes se lleve tres misiones."
+      ],
+      [
+        "Noche sin Luna · 3 a 15",
+        "Una noche, y un Trasgo se esconde en el pueblo. De noche, el Chamán, el Ladrón nocturno y el Bromista actúan en secreto. Al amanecer se debate y hay una única votación para encontrar al Trasgo."
+      ],
+      [
+        "Estudio Lunar · 3 a 15",
+        "Uno dibuja la palabra y los demás adivinan en el chat. Cuanto antes aciertes, más puntos, y quien dibuja suma por cada acierto."
+      ]
+    ],
+    "note": "Cualquier juego se puede probar antes a solas con bots en el modo Cómo se juega."
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "No veo la sala.",
+        "a": "Comprueba que el anfitrión y los jugadores estén en la misma wifi o cerca unos de otros. Arcade Lunar debe estar activada en Ajustes ▸ Privacidad y seguridad ▸ Red local para encontrar dispositivos cercanos. Con wifi y Bluetooth activados la conexión es más estable."
+      },
+      {
+        "q": "¿Tengo que permitir el acceso a la red local?",
+        "a": "Sí, así la app encuentra los iPhone cercanos y se conecta a ellos. Si tocaste No permitir, vuelve a activarlo en Ajustes ▸ Privacidad y seguridad ▸ Red local."
+      },
+      {
+        "q": "Me he desconectado en mitad de la partida.",
+        "a": "Vuelve a abrir la app y toca Continuar en la pantalla de inicio para volver a la misma sala y ronda. Tu rol y tu puntuación siguen ahí. Si tarda en reconectar, vuelve a unirte desde la lista de salas."
+      },
+      {
+        "q": "Alguien no responde y la partida se ha atascado.",
+        "a": "El anfitrión puede expulsar en cualquier momento a quien no responda; la partida se recalcula con los que quedan y sigue. El modo anfitrión GM también permite saltar un paso atascado."
+      },
+      {
+        "q": "¿Cuántos jugadores hacen falta?",
+        "a": "Orden Lunar necesita 5. El Juego del Mentiroso, Noche sin Luna y Estudio Lunar empiezan con 3. Todos admiten hasta 15. ¿Sois pocos? Aprended las reglas con bots en el modo Cómo se juega."
+      },
+      {
+        "q": "¿Hace falta internet o una cuenta?",
+        "a": "No. Sin registro, sin iniciar sesión y sin internet. Los iPhone cercanos se conectan directamente y los datos de la partida nunca se envían a un servidor."
+      },
+      {
+        "q": "¿Puedo probar un juego yo solo antes?",
+        "a": "Sí. Elige un juego y luego Cómo se juega (práctica con bots). Los bots entran en la sala y juegas una ronda completa paso a paso."
+      },
+      {
+        "q": "¿Cómo informo de un fallo o propongo una idea?",
+        "a": "Desde la app, en Ajustes (el engranaje) ▸ Soporte, o por correo a la dirección de abajo. Te responderemos lo antes posible."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "La noche de juegos\nempieza aquí",
+    "cta": "Descárgala gratis en el App Store"
+  },
+  "ui": {
+    "skip": "Saltar al contenido",
+    "languages": "Idioma",
+    "privacy": "Política de privacidad",
+    "contact": "Fallos, ideas o cualquier otra cosa: escribe a {email}."
+  }
+}

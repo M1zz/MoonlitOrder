@@ -1,151 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nb">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Månearkaden · Støtte</title>
-<meta name="description" content="Månearkaden er en samling festspill uten nett, der iPhoner i nærheten kobles direkte sammen – ingen internett nødvendig.">
-<!--HREFLANG-->
-<link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/nb/index.html">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/index.html">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/index.html">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/index.html">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/index.html">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/index.html">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/index.html">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/index.html">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/index.html">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/index.html">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/index.html">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/index.html">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/index.html">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/index.html">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/index.html">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/index.html">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/index.html">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/index.html">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/index.html">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/index.html">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/index.html">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/index.html">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/index.html">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/index.html">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<!--/HREFLANG-->
-<style>
-  :root{
-    --bg1:#0f1226; --bg2:#211840; --card:rgba(255,255,255,.06);
-    --stroke:rgba(255,255,255,.12); --text:#f4f3fb; --muted:rgba(244,243,251,.62);
-    --gold:#f2c759; --blue:#73bfff; --red:#f25a6b; --mint:#59d1b8;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",
-      "Malgun Gothic",sans-serif;
-    color:var(--text); line-height:1.7;
-    background:linear-gradient(180deg,var(--bg1),var(--bg2)) fixed;
-    min-height:100vh; -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 80px}
-  header{text-align:center;margin-bottom:44px}
-  .logo{font-size:52px;line-height:1}
-  h1{font-size:34px;font-weight:800;margin:14px 0 6px;letter-spacing:-.5px}
-  .sub{color:var(--muted);font-size:15px}
-  .badge{display:inline-block;margin-top:14px;padding:5px 12px;border-radius:999px;
-    background:rgba(89,209,184,.14);color:var(--mint);font-size:13px;font-weight:600}
-  section{background:var(--card);border:1px solid var(--stroke);border-radius:18px;
-    padding:26px 24px;margin:18px 0}
-  h2{font-size:20px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:9px}
-  h2 .ic{font-size:22px}
-  h3{font-size:16px;font-weight:700;margin:18px 0 4px;color:var(--gold)}
-  p,li{color:var(--text);font-size:15.5px}
-  .muted{color:var(--muted)}
-  ul{padding-left:20px;margin:8px 0}
-  li{margin:6px 0}
-  .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:8px}
-  .game{background:rgba(255,255,255,.04);border:1px solid var(--stroke);border-radius:14px;padding:14px}
-  .game .n{font-weight:700;font-size:15px}
-  .game .d{color:var(--muted);font-size:13px;margin-top:3px}
-  .qa{margin:16px 0}
-  .qa .q{font-weight:700;color:var(--blue);font-size:15.5px}
-  .qa .a{color:var(--text);margin-top:3px}
-  a{color:var(--mint);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .contact{text-align:center;background:rgba(242,199,89,.10);border-color:rgba(242,199,89,.28)}
-  .contact .mail{font-size:20px;font-weight:800;color:var(--gold);display:inline-block;margin-top:6px}
-  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:36px;line-height:1.9}
-  footer a{color:var(--muted);text-decoration:underline}
-.langs{display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:center;margin-top:16px;font-size:13px}.langs a{color:var(--muted);text-decoration:none}.langs a[aria-current]{color:var(--gold);font-weight:700}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Månearkaden: selskapsspill mellom iPhoner, uten internett</title>
+  <meta name="description" content="Koble sammen alles iPhoner uten internett, og spill opptil 15 personer Løgnerspillet, skjulte roller eller tegn og gjett. Alle spill er gratis.">
+  <meta name="theme-color" content="#9A6B00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1226" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6790137862">
+  <link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/nb/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Månearkaden: selskapsspill mellom iPhoner, uten internett">
+  <meta property="og:description" content="Koble sammen alles iPhoner uten internett, og spill opptil 15 personer Løgnerspillet, skjulte roller eller tegn og gjett. Alle spill er gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/MoonlitOrder/nb/">
+  <meta property="og:image" content="https://m1zz.github.io/MoonlitOrder/img/nb/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#9A6B00}@media (prefers-color-scheme:dark){:root{--accent:#F2C759}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="logo">🌙</div>
-    <h1>Månearkaden</h1>
-    <div class="sub">Festspill uten nett for venner som er samlet på samme sted</div>
-    <div class="badge">Brukerstøtte</div>
-    <!--LANGNAV--><nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb" aria-current="page">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--/LANGNAV-->
+  <a class="skip" href="#main">Hopp til innholdet</a>
+  <header class="bar">
+    <a class="brand" href="../nb/"><img src="../icon.png" alt="" width="32" height="32">Månearkaden</a>
+    <a class="lang-link" href="#languages">Språk</a>
   </header>
 
-  <section>
-    <h2><span class="ic">🎲</span>Hva er dette?</h2>
-    <p><strong>Månearkaden</strong> er en samling sosiale avslørings- og festspill der iPhoner i nærheten kobles direkte sammen, helt uten internett. Er dere på samme Wi-Fi eller innenfor Bluetooth-rekkevidde, kan dere opprette et rom og bli med med én gang – uten noen server.</p>
-    <div class="games">
-      <div class="game"><div class="n">🌙 Månordenen</div><div class="d">5–15 spillere · avslør skyggene som har sneket seg inn</div></div>
-      <div class="game"><div class="n">🎭 Løgnerspillet</div><div class="d">3–15 spillere · finn den ene som ikke kjenner ordet</div></div>
-      <div class="game"><div class="n">🔥 Natt uten måne</div><div class="d">3–15 spillere · én natt, og goblins skjuler seg blant dere</div></div>
-      <div class="game"><div class="n">🖌️ Månestudioet</div><div class="d">3–15 spillere · én tegner, resten gjetter</div></div>
-    </div>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Er alle her?<br>Frem med iPhonen.</h1>
+        <p class="lead">Én oppretter et rom, og alle i nærheten er med på sekunder. Roller og hemmelige ord vises bare på din egen skjerm: ingen kort, og ingen må stå utenfor og lede spillet.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6790137862">Last ned gratis i App Store</a><a class="try" href="#try">Spill en runde Løgnerspillet ↓</a></div>
+        <p class="muted small">Alle spill er gratis. Ingen konto, ikke internett.</p>
+      </div>
+      <div class="phone"><img src="../img/nb/01-home.jpg" alt="Er alle her? Frem med iPhonen." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2><span class="ic">▶️</span>Slik spiller du</h2>
-    <ul>
-      <li>Skriv inn et kallenavn og velg hvilket spill dere vil spille.</li>
-      <li>Én person trykker på <strong>«Opprett rom (vert)»</strong>, og de andre går inn i rommet med <strong>«Bli med i et spill»</strong>.</li>
-      <li>På samme Wi-Fi eller innenfor kort avstand (Bluetooth) finner enhetene hverandre automatisk. Du trenger ikke internettilkobling.</li>
-      <li>Første gang må du <strong>gi tilgang til lokalt nettverk</strong> for at appen skal finne enheter i nærheten.</li>
-      <li>Under <strong>«Slik spiller du (øv med roboter)»</strong> kan du lære reglene i hvert spill steg for steg sammen med roboter.</li>
-    </ul>
-  </section>
 
-  <section>
-    <h2><span class="ic">🛠️</span>Vanlige spørsmål</h2>
+    <section class="reveal" id="try">
+      <h2>Spill en runde Løgnerspillet</h2>
+      <p class="muted">Se for deg fem iPhoner på bordet, og trykk på dem én om gangen for å titte. Bare én spiller kan ikke ordet. Dere kan også sende skjermen rundt.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Spill en runde Løgnerspillet&quot;, &quot;lead&quot;: &quot;Se for deg fem iPhoner på bordet, og trykk på dem én om gangen for å titte. Bare én spiller kan ikke ordet. Dere kan også sende skjermen rundt.&quot;, &quot;tap&quot;: &quot;Trykk for å titte&quot;, &quot;reveal&quot;: &quot;Avslør løgneren&quot;, &quot;again&quot;: &quot;Ny runde&quot;, &quot;caughtNote&quot;: &quot;Selv om avstemningen avslører løgneren, har hen én siste sjanse.&quot;, &quot;note&quot;: &quot;I appen ser alle på sin egen iPhone, beskriver ordet etter tur, og så stemmer dere. Ordene kommer fra samme liste som i appen.&quot;, &quot;app&quot;: {&quot;game&quot;: &quot;Løgnerspillet&quot;, &quot;sub&quot;: &quot;Alle har det samme ordet. Bare én kjenner det ikke.&quot;, &quot;arrived&quot;: &quot;Ordet har kommet&quot;, &quot;secret&quot;: &quot;Se der ingen andre kan se skjermen&quot;, &quot;gotIt&quot;: &quot;Sett&quot;, &quot;word&quot;: &quot;Ord&quot;, &quot;cat&quot;: &quot;Kategori: {1}&quot;, &quot;liarYou&quot;: &quot;Du er Løgneren!&quot;, &quot;liarHint&quot;: &quot;Du kjenner ikke ordet, men må beskrive det som om du gjør. La deg ikke avsløre!&quot;, &quot;liar&quot;: &quot;Løgner&quot;, &quot;caught&quot;: &quot;Løgneren er tatt!&quot;, &quot;pick&quot;: &quot;Velg ordet — du har bare ett forsøk!&quot;, &quot;liarWin&quot;: &quot;Løgneren vinner!&quot;, &quot;citizenWin&quot;: &quot;Borgerne vinner!&quot;, &quot;me&quot;: &quot;Meg&quot;, &quot;bots&quot;: [&quot;Måneharen&quot;, &quot;Nattbris&quot;, &quot;Melkeveien&quot;, &quot;Avtagende måne&quot;], &quot;words&quot;: {&quot;Mat&quot;: [&quot;Kimchigryte&quot;, &quot;Grillet svinebryst&quot;, &quot;Tteokbokki&quot;, &quot;Stekt kylling&quot;, &quot;Pizza&quot;, &quot;Sushi&quot;, &quot;Ramen&quot;, &quot;Bibimbap&quot;, &quot;Kalde nudler&quot;, &quot;Ribbesuppe&quot;, &quot;Pasta&quot;, &quot;Hamburger&quot;, &quot;Gimbap&quot;, &quot;Koreansk blodpølse&quot;, &quot;Grisetæ&quot;, &quot;Salat&quot;], &quot;Dyr&quot;: [&quot;Elefant&quot;, &quot;Sjiraff&quot;, &quot;Pingvin&quot;, &quot;Tiger&quot;, &quot;Panda&quot;, &quot;Pinnsvin&quot;, &quot;Kenguru&quot;, &quot;Ugle&quot;, &quot;Delfin&quot;, &quot;Blekksprut&quot;, &quot;Ekorn&quot;, &quot;Krokodille&quot;, &quot;Kamel&quot;, &quot;Oter&quot;, &quot;Papegøye&quot;, &quot;Muldvarp&quot;], &quot;Steder&quot;: [&quot;Fornøyelsespark&quot;, &quot;Bibliotek&quot;, &quot;Koreansk spa&quot;, &quot;Kino&quot;, &quot;Nærbutikk&quot;, &quot;T-banestasjon&quot;, &quot;Frisørsalong&quot;, &quot;Sykehus&quot;, &quot;Skole&quot;, &quot;Campingplass&quot;, &quot;Svømmehall&quot;, &quot;Flyplass&quot;, &quot;Marked&quot;, &quot;Kafé&quot;, &quot;Karaoke&quot;, &quot;Treningssenter&quot;], &quot;Yrker&quot;: [&quot;Brannmann&quot;, &quot;Lege&quot;, &quot;Kokk&quot;, &quot;Programmerer&quot;, &quot;Youtuber&quot;, &quot;Lærer&quot;, &quot;Politi&quot;, &quot;Bonde&quot;, &quot;Pilot&quot;, &quot;Frisør&quot;, &quot;Sanger&quot;, &quot;Utøver&quot;, &quot;Fotograf&quot;, &quot;Advokat&quot;, &quot;Fisker&quot;, &quot;Barista&quot;], &quot;Ting&quot;: [&quot;Paraply&quot;, &quot;Vifte&quot;, &quot;Kjøleskap&quot;, &quot;Tannbørste&quot;, &quot;Pute&quot;, &quot;Fjernkontroll&quot;, &quot;Termokopp&quot;, &quot;Øreplugger&quot;, &quot;Saks&quot;, &quot;Teppe&quot;, &quot;Speil&quot;, &quot;Klokke&quot;, &quot;Lader&quot;, &quot;Tøfler&quot;, &quot;Munnbind&quot;, &quot;Lommebok&quot;], &quot;Sport&quot;: [&quot;Fotball&quot;, &quot;Baseball&quot;, &quot;Basketball&quot;, &quot;Badminton&quot;, &quot;Svømming&quot;, &quot;Bowling&quot;, &quot;Taekwondo&quot;, &quot;Golf&quot;, &quot;Bordtennis&quot;, &quot;Ski&quot;, &quot;Klatring&quot;, &quot;Yoga&quot;, &quot;Boksing&quot;, &quot;Bueskyting&quot;, &quot;Fekting&quot;, &quot;Maraton&quot;]}}}"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Jeg finner ingen rom i nærheten.</div>
-      <div class="a">Sjekk at verten og deltakerne er koblet til <strong>samme Wi-Fi</strong>, eller at de er nær hverandre. Månearkaden må være slått på under Innstillinger &gt; Personvern og sikkerhet &gt; <strong>Lokalt nettverk</strong>. Tilkoblingen er mest stabil når både Wi-Fi og Bluetooth er slått på.</div>
-    </div>
+    <section class="problem reveal">
+      <h2>Alle er her, men hva skal vi spille?</h2>
+      <p>Spillkveld, hyttetur, jul med familien. I spill med skjulte roller må én stå over og lede, og brettede lapper er aldri helt hemmelige. På en hytte med dårlig wifi går ikke nettspill heller. I Månearkaden tar iPhonene seg av spilledelsen, rollefordelingen og tilkoblingen.</p>
+    </section>
 
-    <div class="qa">
-      <div class="q">Tilkoblingen ble brutt midt i spillet.</div>
-      <div class="a">Åpner du appen igjen, <strong>kobles du automatisk til igjen</strong> det samme rommet og kommer tilbake til runden som pågikk. Hvis du ikke blir koblet til igjen innen en viss tid, kan du bli med på nytt fra romlisten.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Rollen din vises bare på din skjerm</h2>
+        <p>Når spillet starter, får hver iPhone sin egen rolle eller sitt eget ord. Ingen kortutdeling, ikke noe «alle lukker øynene».<br>Under avstemningen ser man bare hvem som har stemt. Hvem som stemte på hvem, er hemmelig til avsløringen.</p>
+      </div>
+      <div class="phone"><img src="../img/nb/02-role.jpg" alt="Rollen din vises bare på din skjerm" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Hvor mange spillere trengs?</div>
-      <div class="a">Månordenen kan startes med 5 spillere og de andre spillene med 3. Opptil 15 kan spille sammen.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Fire spill for alle selskap</h2>
+        <p>I Løgnerspillet vinner den som prater best, i Månordenen jakter dere på Skyggene med oppdrag og avstemninger, i Natt uten måne finner dere goblinen på én natt, og i Månestudioet tegner én mens resten gjetter.<br>Månordenen fra 5 spillere, de andre fra 3, alle opptil 15.</p>
+      </div>
+      <div class="phone"><img src="../img/nb/04-draw.jpg" alt="Fire spill for alle selskap" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Trenger jeg internett eller en konto?</div>
-      <div class="a">Nei. Du spiller uten nett, uten registrering, innlogging eller internettilkobling. Spilldata sendes ikke til noen server.</div>
-    </div>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Nytt spill? Lært på noen minutter</h2>
+        <p>Hvert spill har modusen «Slik spiller du», der du spiller en runde med roboter steg for steg. Les tipset øverst, og trykk på Neste.<br>Hvis appen lukkes eller tilkoblingen faller ut, trykker du på Fortsett på startskjermen og er tilbake i samme runde.</p>
+      </div>
+      <div class="phone"><img src="../img/nb/03-vote.jpg" alt="Nytt spill? Lært på noen minutter" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-  <section class="contact">
-    <h2 style="justify-content:center"><span class="ic">✉️</span>Kontakt oss</h2>
-    <p class="muted">Feilrapporter, forslag og andre henvendelser kan du sende rett fra appen under Innstillinger (tannhjulet) &gt; Støtte, eller på e-post til adressen nedenfor. Vi svarer så raskt vi kan.</p>
-    <a class="mail" href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>
-  </section>
+    <section class="reveal">
+      <h2>Kom i gang i tre steg</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Kallenavn og spill</h3><p>Alle åpner appen, skriver et kallenavn og velger spill.</p></li>
+<li class="card"><span class="n">2</span><h3>Opprett eller bli med i et rom</h3><p>Én oppretter et rom, de andre finner det under Finn rom i nærheten.</p></li>
+<li class="card"><span class="n">3</span><h3>Verten starter</h3><p>Når alle er inne, trykker verten på Start spill. Appen tar seg av resten.</p></li></ol>
+    </section>
 
+    <section class="reveal" id="commands">
+      <h2>De fire spillene</h2>
+      <div class="card table">
+        <dl><div><dt>Løgnerspillet · 3–15 spillere</dt><dd>Alle får samme ord unntatt én. Etter tur beskriver man det, så stemmer man på løgneren. Gjetter den avslørte løgneren ordet, vinner hen likevel.</dd></div><div><dt>Månordenen · 5–15 spillere</dt><dd>Avslør Skyggene som gjemmer seg i Ordenen. Lederen velger et oppdragslag, alle stemmer for eller mot, og laget spiller i hemmelighet suksess eller fiasko. Siden som først vinner tre oppdrag, vinner.</dd></div><div><dt>Natt uten måne · 3–15 spillere</dt><dd>Én natt, og en goblin gjemmer seg i landsbyen. Om natten handler Sjamanen, Nattetyven og Spøkefuglen i hemmelighet. Ved daggry diskuterer man og har bare én avstemning til å finne goblinen.</dd></div><div><dt>Månestudioet · 3–15 spillere</dt><dd>Én tegner ordet, og resten gjetter i chatten. Jo raskere du gjetter riktig, jo flere poeng, og den som tegner får poeng for hvert riktige svar.</dd></div></dl>
+      </div>
+      <p class="muted">Alle spill kan først prøves alene med roboter i modusen «Slik spiller du».</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Vanlige spørsmål</h2>
+      <div class="faq"><details><summary>Jeg ser ikke rommet.</summary><p>Sjekk at verten og spillerne er på samme wifi eller nær hverandre. Månearkaden må være slått på under Innstillinger ▸ Personvern og sikkerhet ▸ Lokalt nettverk for å finne enheter i nærheten. Med både wifi og Bluetooth på er tilkoblingen mest stabil.</p></details>
+<details><summary>Må jeg gi tilgang til lokalt nettverk?</summary><p>Ja, det er slik appen finner iPhoner i nærheten og kobler seg til dem. Hvis du trykket på Ikke tillat, slår du det på igjen under Innstillinger ▸ Personvern og sikkerhet ▸ Lokalt nettverk.</p></details>
+<details><summary>Tilkoblingen falt ut midt i spillet.</summary><p>Åpne appen igjen, og trykk på Fortsett på startskjermen for å komme tilbake til samme rom og runde. Rolle og poeng er der fortsatt. Tar det lang tid, bli med på nytt fra romlisten.</p></details>
+<details><summary>Noen svarer ikke, og spillet har stoppet opp.</summary><p>Verten kan når som helst fjerne en spiller som ikke svarer, og spillet regner om med de som er igjen og fortsetter. I GM-vertsmodus kan man også hoppe over et steg som har låst seg.</p></details>
+<details><summary>Hvor mange spillere trengs?</summary><p>Månordenen krever 5. Løgnerspillet, Natt uten måne og Månestudioet starter fra 3. Alle tar opptil 15. For få? Lær reglene med roboter i «Slik spiller du».</p></details>
+<details><summary>Trenger vi internett eller konto?</summary><p>Nei. Ingen registrering, ingen innlogging, ikke internett. iPhoner i nærheten kobler seg direkte sammen, og spilldata sendes aldri til en server.</p></details>
+<details><summary>Kan jeg prøve et spill alene først?</summary><p>Ja. Velg et spill og deretter «Slik spiller du (øv med roboter)». Robotene kommer inn i rommet, og du spiller en hel runde steg for steg.</p></details>
+<details><summary>Hvordan melder jeg en feil eller sender en idé?</summary><p>Rett fra appen under Innstillinger (tannhjulet) ▸ Støtte, eller på e-post til adressen nedenfor. Vi svarer så fort vi kan.</p></details></div>
+      <p class="contact">Feil, ideer eller noe annet: skriv til <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Kveldens spillkveld<br>starter her</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6790137862">Last ned gratis i App Store</a>
+    </section>
+  </main>
 
   <footer>
-    Månearkaden<br>
-    <a href="privacy.html">Personvernerklæring</a>
+    <nav id="languages" class="langs" aria-label="Språk"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb" aria-current="page">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Personvernerklæring</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Moonlit Arcade</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

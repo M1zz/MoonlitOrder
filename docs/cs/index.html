@@ -1,155 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="cs">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Měsíční herna · Podpora</title>
-<meta name="description" content="Měsíční herna je sbírka offline párty her, ve kterých se blízké iPhony propojí přímo mezi sebou bez internetu.">
-<!--HREFLANG-->
-<link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/cs/index.html">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/index.html">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/index.html">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/index.html">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/index.html">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/index.html">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/index.html">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/index.html">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/index.html">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/index.html">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/index.html">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/index.html">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/index.html">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/index.html">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/index.html">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/index.html">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/index.html">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/index.html">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/index.html">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/index.html">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/index.html">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/index.html">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/index.html">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/index.html">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<!--/HREFLANG-->
-<style>
-  :root{
-    --bg1:#0f1226; --bg2:#211840; --card:rgba(255,255,255,.06);
-    --stroke:rgba(255,255,255,.12); --text:#f4f3fb; --muted:rgba(244,243,251,.62);
-    --gold:#f2c759; --blue:#73bfff; --red:#f25a6b; --mint:#59d1b8;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",
-      "Malgun Gothic",sans-serif;
-    color:var(--text); line-height:1.7;
-    background:linear-gradient(180deg,var(--bg1),var(--bg2)) fixed;
-    min-height:100vh; -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 80px}
-  header{text-align:center;margin-bottom:44px}
-  .logo{font-size:52px;line-height:1}
-  h1{font-size:34px;font-weight:800;margin:14px 0 6px;letter-spacing:-.5px}
-  .sub{color:var(--muted);font-size:15px}
-  .badge{display:inline-block;margin-top:14px;padding:5px 12px;border-radius:999px;
-    background:rgba(89,209,184,.14);color:var(--mint);font-size:13px;font-weight:600}
-  section{background:var(--card);border:1px solid var(--stroke);border-radius:18px;
-    padding:26px 24px;margin:18px 0}
-  h2{font-size:20px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:9px}
-  h2 .ic{font-size:22px}
-  h3{font-size:16px;font-weight:700;margin:18px 0 4px;color:var(--gold)}
-  p,li{color:var(--text);font-size:15.5px}
-  .muted{color:var(--muted)}
-  ul{padding-left:20px;margin:8px 0}
-  li{margin:6px 0}
-  .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:8px}
-  .game{background:rgba(255,255,255,.04);border:1px solid var(--stroke);border-radius:14px;padding:14px}
-  .game .n{font-weight:700;font-size:15px}
-  .game .d{color:var(--muted);font-size:13px;margin-top:3px}
-  .qa{margin:16px 0}
-  .qa .q{font-weight:700;color:var(--blue);font-size:15.5px}
-  .qa .a{color:var(--text);margin-top:3px}
-  a{color:var(--mint);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .contact{text-align:center;background:rgba(242,199,89,.10);border-color:rgba(242,199,89,.28)}
-  .contact .mail{font-size:20px;font-weight:800;color:var(--gold);display:inline-block;margin-top:6px}
-  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:36px;line-height:1.9}
-  footer a{color:var(--muted);text-decoration:underline}
-.langs{display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:center;margin-top:16px;font-size:13px}.langs a{color:var(--muted);text-decoration:none}.langs a[aria-current]{color:var(--gold);font-weight:700}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Měsíční herna: party hry mezi iPhony, bez internetu</title>
+  <meta name="description" content="Propojte iPhony všech v místnosti bez internetu a hrajte až v 15 lidech Hru na lháře, hry se skrytými rolemi nebo kreslení a hádání. Vše zdarma.">
+  <meta name="theme-color" content="#9A6B00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1226" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6790137862">
+  <link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/cs/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Měsíční herna: party hry mezi iPhony, bez internetu">
+  <meta property="og:description" content="Propojte iPhony všech v místnosti bez internetu a hrajte až v 15 lidech Hru na lháře, hry se skrytými rolemi nebo kreslení a hádání. Vše zdarma.">
+  <meta property="og:url" content="https://m1zz.github.io/MoonlitOrder/cs/">
+  <meta property="og:image" content="https://m1zz.github.io/MoonlitOrder/img/cs/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#9A6B00}@media (prefers-color-scheme:dark){:root{--accent:#F2C759}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="logo">🌙</div>
-    <h1>Měsíční herna</h1>
-    <div class="sub">Offline párty hry pro kamarády, kteří jsou nablízku</div>
-    <div class="badge">Zákaznická podpora</div>
-    <!--LANGNAV--><nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs" aria-current="page">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--/LANGNAV-->
+  <a class="skip" href="#main">Přeskočit na obsah</a>
+  <header class="bar">
+    <a class="brand" href="../cs/"><img src="../icon.png" alt="" width="32" height="32">Měsíční herna</a>
+    <a class="lang-link" href="#languages">Jazyk</a>
   </header>
 
-  <section>
-    <h2><span class="ic">🎲</span>Co je to za aplikaci?</h2>
-    <p><strong>Měsíční herna</strong> je sbírka společenských deduktivních a párty her, ve kterých se iPhony v okolí
-      propojí přímo mezi sebou – bez internetu. Stačí být ve stejné síti Wi-Fi nebo v dosahu Bluetooth a místnost můžete hned vytvořit nebo se k ní připojit, žádný server není potřeba.</p>
-    <div class="games">
-      <div class="game"><div class="n">🌙 Měsíční řád</div><div class="d">5–15 hráčů · Odhalte stíny, které se skrývají mezi vámi</div></div>
-      <div class="game"><div class="n">🎭 Hra na lháře</div><div class="d">3–15 hráčů · Najděte toho jediného, kdo nezná zadané slovo</div></div>
-      <div class="game"><div class="n">🔥 Noc bez měsíce</div><div class="d">3–15 hráčů · Jedna noc, mezi vámi skřet – kdo to je?</div></div>
-      <div class="game"><div class="n">🖌️ Měsíční ateliér</div><div class="d">3–15 hráčů · Jeden kreslí, ostatní hádají</div></div>
-    </div>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Všichni jsou tu?<br>Vytáhněte iPhony.</h1>
+        <p class="lead">Jeden založí místnost a všichni poblíž se připojí během pár vteřin. Role a tajná slova vidí každý jen na své obrazovce: žádné kartičky a nikdo nemusí stát mimo hru jako vypravěč.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6790137862">Stáhnout zdarma v App Storu</a><a class="try" href="#try">Zahrajte si kolo Hry na lháře ↓</a></div>
+        <p class="muted small">Všechny hry zdarma. Bez účtu a bez internetu.</p>
+      </div>
+      <div class="phone"><img src="../img/cs/01-home.jpg" alt="Všichni jsou tu? Vytáhněte iPhony." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2><span class="ic">▶️</span>Jak hrát</h2>
-    <ul>
-      <li>Zadejte přezdívku a vyberte hru.</li>
-      <li>Jeden hráč klepne na <strong>„Vytvořit místnost (hostitel)“</strong> a ostatní se připojí přes <strong>„Připojit se ke hře“</strong>.</li>
-      <li>Ve stejné síti Wi-Fi nebo na krátkou vzdálenost (Bluetooth) se zařízení najdou sama. Připojení k internetu není potřeba.</li>
-      <li>Při prvním připojení musíte <strong>povolit přístup k místní síti</strong>, jinak aplikace zařízení v okolí nenajde.</li>
-      <li>U každé hry si v sekci <strong>„Jak hrát (trénink s boty)“</strong> můžete s boty projít pravidla krok za krokem.</li>
-    </ul>
-  </section>
 
-  <section>
-    <h2><span class="ic">🛠️</span>Časté dotazy</h2>
+    <section class="reveal" id="try">
+      <h2>Zahrajte si kolo Hry na lháře</h2>
+      <p class="muted">Představte si pět iPhonů na stole a klepněte na ně jeden po druhém. Jen jeden hráč nezná slovo. Obrazovku si můžete s kamarády i posílat dokola.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Zahrajte si kolo Hry na lháře&quot;, &quot;lead&quot;: &quot;Představte si pět iPhonů na stole a klepněte na ně jeden po druhém. Jen jeden hráč nezná slovo. Obrazovku si můžete s kamarády i posílat dokola.&quot;, &quot;tap&quot;: &quot;Klepni a podívej se&quot;, &quot;reveal&quot;: &quot;Odhalit lháře&quot;, &quot;again&quot;: &quot;Nové kolo&quot;, &quot;caughtNote&quot;: &quot;I když lháře odhalí hlasování, má ještě poslední šanci.&quot;, &quot;note&quot;: &quot;V aplikaci se každý dívá do svého iPhonu, po řadě popisuje slovo a pak se hlasuje. Slova pocházejí ze stejného seznamu jako v aplikaci.&quot;, &quot;app&quot;: {&quot;game&quot;: &quot;Hra na lháře&quot;, &quot;sub&quot;: &quot;Všichni mají stejné slovo. Jen jeden ho nezná.&quot;, &quot;arrived&quot;: &quot;Slovo dorazilo&quot;, &quot;secret&quot;: &quot;Podívej se tam, kde na obrazovku nikdo nevidí&quot;, &quot;gotIt&quot;: &quot;Viděl jsem&quot;, &quot;word&quot;: &quot;Slovo&quot;, &quot;cat&quot;: &quot;Kategorie: {1}&quot;, &quot;liarYou&quot;: &quot;Ty jsi Lhář!&quot;, &quot;liarHint&quot;: &quot;Slovo neznáš, ale musíš ho popisovat, jako bys ho znal. Nenech se přistihnout!&quot;, &quot;liar&quot;: &quot;Lhář&quot;, &quot;caught&quot;: &quot;Lhář chycen!&quot;, &quot;pick&quot;: &quot;Vyber slovo — máš jen jednu šanci!&quot;, &quot;liarWin&quot;: &quot;Vyhrává Lhář!&quot;, &quot;citizenWin&quot;: &quot;Vyhrávají občané!&quot;, &quot;me&quot;: &quot;Já&quot;, &quot;bots&quot;: [&quot;Měsíční Zajíc&quot;, &quot;Noční Vánek&quot;, &quot;Mléčná dráha&quot;, &quot;Couvající Měsíc&quot;], &quot;words&quot;: {&quot;Jídlo&quot;: [&quot;Kimči guláš&quot;, &quot;Grilovaný vepřový bůček&quot;, &quot;Tteokbokki&quot;, &quot;Smažené kuře&quot;, &quot;Pizza&quot;, &quot;Sushi&quot;, &quot;Ramen&quot;, &quot;Bibimbap&quot;, &quot;Studené nudle&quot;, &quot;Polévka z hovězích žeber&quot;, &quot;Těstoviny&quot;, &quot;Hamburger&quot;, &quot;Gimbap&quot;, &quot;Korejská krvavá klobása&quot;, &quot;Vepřové nožičky&quot;, &quot;Salát&quot;], &quot;Zvířata&quot;: [&quot;Slon&quot;, &quot;Žirafa&quot;, &quot;Tučňák&quot;, &quot;Tygr&quot;, &quot;Panda&quot;, &quot;Ježek&quot;, &quot;Klokan&quot;, &quot;Sova&quot;, &quot;Delfín&quot;, &quot;Chobotnice&quot;, &quot;Veverka&quot;, &quot;Krokodýl&quot;, &quot;Velbloud&quot;, &quot;Vydra&quot;, &quot;Papoušek&quot;, &quot;Krtek&quot;], &quot;Místa&quot;: [&quot;Zábavní park&quot;, &quot;Knihovna&quot;, &quot;Korejská sauna&quot;, &quot;Kino&quot;, &quot;Večerka&quot;, &quot;Stanice metra&quot;, &quot;Kadeřnictví&quot;, &quot;Nemocnice&quot;, &quot;Škola&quot;, &quot;Kemp&quot;, &quot;Bazén&quot;, &quot;Letiště&quot;, &quot;Trh&quot;, &quot;Kavárna&quot;, &quot;Karaoke&quot;, &quot;Posilovna&quot;], &quot;Povolání&quot;: [&quot;Hasič&quot;, &quot;Lékař&quot;, &quot;Kuchař&quot;, &quot;Programátor&quot;, &quot;Youtuber&quot;, &quot;Učitel&quot;, &quot;Policista&quot;, &quot;Farmář&quot;, &quot;Pilot&quot;, &quot;Kadeřník&quot;, &quot;Zpěvák&quot;, &quot;Sportovec&quot;, &quot;Fotograf&quot;, &quot;Právník&quot;, &quot;Rybář&quot;, &quot;Barista&quot;], &quot;Věci&quot;: [&quot;Deštník&quot;, &quot;Větrák&quot;, &quot;Lednice&quot;, &quot;Zubní kartáček&quot;, &quot;Polštář&quot;, &quot;Dálkový ovladač&quot;, &quot;Termohrnek&quot;, &quot;Sluchátka&quot;, &quot;Nůžky&quot;, &quot;Deka&quot;, &quot;Zrcadlo&quot;, &quot;Hodiny&quot;, &quot;Nabíječka&quot;, &quot;Pantofle&quot;, &quot;Rouška&quot;, &quot;Peněženka&quot;], &quot;Sporty&quot;: [&quot;Fotbal&quot;, &quot;Baseball&quot;, &quot;Basketbal&quot;, &quot;Badminton&quot;, &quot;Plavání&quot;, &quot;Bowling&quot;, &quot;Taekwondo&quot;, &quot;Golf&quot;, &quot;Stolní tenis&quot;, &quot;Lyžování&quot;, &quot;Lezení&quot;, &quot;Jóga&quot;, &quot;Box&quot;, &quot;Lukostřelba&quot;, &quot;Šerm&quot;, &quot;Maraton&quot;]}}}"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Nevidím žádnou místnost v okolí.</div>
-      <div class="a">Zkontrolujte, že hostitel i ostatní hráči jsou připojeni ke <strong>stejné síti Wi-Fi</strong> nebo jsou blízko sebe.
-        V Nastavení &gt; Soukromí a zabezpečení &gt; <strong>Místní síť</strong> musí být Měsíční herna zapnutá.
-        Nejstabilnější připojení získáte, když máte zapnuté Wi-Fi i Bluetooth.</div>
-    </div>
+    <section class="problem reveal">
+      <h2>Sešli jste se, ale nevíte, co hrát</h2>
+      <p>Herní večer, víkend na chatě, Vánoce s rodinou. U her se skrytými rolemi musí někdo vypadnout ze hry a vypravovat a přeložené papírky nikdy nejsou úplně tajné. Na chatě se slabou Wi-Fi nejdou ani online hry. V Měsíční herně se o vedení hry, rozdání rolí i spojení postarají iPhony.</p>
+    </section>
 
-    <div class="qa">
-      <div class="q">Během hry se mi přerušilo spojení.</div>
-      <div class="a">Po opětovném otevření aplikace se <strong>automaticky znovu připojíte</strong> do stejné místnosti a vrátíte se do rozehrané partie.
-        Pokud se nepodaří znovu připojit v určitém čase, připojte se znovu ze seznamu místností.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Tvoje role je jen na tvé obrazovce</h2>
+        <p>Po startu dostane každý iPhone svou roli nebo slovo. Žádné rozdávání karet, žádné „všichni zavřete oči“.<br>Při hlasování je vidět jen, kdo už hlasoval. Kdo hlasoval pro koho, zůstane tajné až do odhalení.</p>
+      </div>
+      <div class="phone"><img src="../img/cs/02-role.jpg" alt="Tvoje role je jen na tvé obrazovce" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Kolik hráčů je potřeba?</div>
-      <div class="a">Měsíční řád se dá hrát od 5 hráčů, ostatní hry od 3 hráčů. Společně může hrát až 15 lidí.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Čtyři hry pro každou partu</h2>
+        <p>Ve Hře na lháře rozhoduje výřečnost, v Měsíčním řádu lovíte Stíny přes výpravy a hlasování, v Noci bez měsíce hledáte za jedinou noc Skřeta a v Měsíčním ateliéru jeden kreslí a ostatní hádají.<br>Měsíční řád od 5 hráčů, ostatní od 3, všechny až pro 15.</p>
+      </div>
+      <div class="phone"><img src="../img/cs/04-draw.jpg" alt="Čtyři hry pro každou partu" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Potřebuji internet nebo účet?</div>
-      <div class="a">Ne. Hraje se offline – bez registrace, přihlášení i připojení k internetu. Herní data se neodesílají na žádný server.</div>
-    </div>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Nová hra? Naučíte se ji za pár minut</h2>
+        <p>Každá hra má režim Jak hrát, kde si s boty krok za krokem zahraješ celé kolo. Přečti si tip nahoře a klepni na Další.<br>Když se aplikace zavře nebo spadne spojení, klepni na hlavní obrazovce na Pokračovat a vrátíš se do stejného kola.</p>
+      </div>
+      <div class="phone"><img src="../img/cs/03-vote.jpg" alt="Nová hra? Naučíte se ji za pár minut" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-  <section class="contact">
-    <h2 style="justify-content:center"><span class="ic">✉️</span>Kontakt</h2>
-    <p class="muted">Chyby, návrhy nebo jakékoli jiné dotazy nám můžete poslat přímo z aplikace v Nastavení (ozubené kolečko) &gt; Podpora, nebo nám napište na e-mail níže. Odpovíme co nejdříve.</p>
-    <a class="mail" href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>
-  </section>
+    <section class="reveal">
+      <h2>Začni ve třech krocích</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Přezdívka a hra</h3><p>Všichni otevřou aplikaci, napíšou přezdívku a vyberou hru.</p></li>
+<li class="card"><span class="n">2</span><h3>Vytvořit nebo se připojit</h3><p>Jeden vytvoří místnost, ostatní ji najdou přes Hledat místnosti v okolí.</p></li>
+<li class="card"><span class="n">3</span><h3>Hostitel spustí</h3><p>Až jsou všichni uvnitř, hostitel klepne na Začít hru. Zbytek obstará aplikace.</p></li></ol>
+    </section>
 
+    <section class="reveal" id="commands">
+      <h2>Čtyři hry</h2>
+      <div class="card table">
+        <dl><div><dt>Hra na lháře · 3–15 hráčů</dt><dd>Všichni dostanou stejné slovo kromě jednoho. Po řadě ho popisují a pak hlasují o lháři. Když dopadený lhář slovo uhodne, stejně vyhraje.</dd></div><div><dt>Měsíční řád · 5–15 hráčů</dt><dd>Odhalte Stíny ukryté v Řádu. Vůdce vybere tým výpravy, všichni hlasují pro nebo proti a tým tajně odevzdá úspěch, nebo neúspěch. Vyhraje strana, která jako první získá tři výpravy.</dd></div><div><dt>Noc bez měsíce · 3–15 hráčů</dt><dd>Jediná noc a ve vesnici se skrývá Skřet. V noci tajně jednají Šaman, Noční zloděj a Šprýmař. Za úsvitu se diskutuje a na nalezení Skřeta je jen jedno hlasování.</dd></div><div><dt>Měsíční ateliér · 3–15 hráčů</dt><dd>Jeden kreslí slovo, ostatní hádají v chatu. Čím rychleji uhodneš, tím víc bodů, a kreslíř boduje za každou správnou odpověď.</dd></div></dl>
+      </div>
+      <p class="muted">Každou hru si můžeš nejdřív vyzkoušet sám s boty v režimu Jak hrát.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Časté dotazy</h2>
+      <div class="faq"><details><summary>Nevidím místnost.</summary><p>Zkontroluj, že hostitel a hráči jsou na stejné Wi-Fi nebo blízko sebe. Aby šlo najít zařízení v okolí, musí mít Měsíční herna zapnutý přístup v Nastavení ▸ Soukromí a zabezpečení ▸ Místní síť. Se zapnutou Wi-Fi i Bluetooth je spojení nejstabilnější.</p></details>
+<details><summary>Musím povolit přístup k místní síti?</summary><p>Ano, díky tomu aplikace najde iPhony poblíž a spojí se s nimi. Pokud jsi klepl na Nepovolit, zapni to znovu v Nastavení ▸ Soukromí a zabezpečení ▸ Místní síť.</p></details>
+<details><summary>Uprostřed hry mi spadlo spojení.</summary><p>Znovu otevři aplikaci a na hlavní obrazovce klepni na Pokračovat, vrátíš se do stejné místnosti a kola. Role i body zůstanou. Když se dlouho nedaří připojit, připoj se znovu ze seznamu místností.</p></details>
+<details><summary>Někdo nereaguje a hra se zasekla.</summary><p>Hostitel může nereagujícího hráče kdykoli odebrat a hra se přepočítá se zbylými hráči a pokračuje. V režimu hostitele GM lze zaseknutý krok i přeskočit.</p></details>
+<details><summary>Kolik je potřeba hráčů?</summary><p>Měsíční řád potřebuje 5. Hra na lháře, Noc bez měsíce a Měsíční ateliér začínají od 3. Všechny až do 15. Je vás málo? Naučte se pravidla s boty v režimu Jak hrát.</p></details>
+<details><summary>Potřebujeme internet nebo účet?</summary><p>Ne. Žádná registrace, přihlášení ani internet. iPhony poblíž se spojí přímo a herní data se nikdy neposílají na server.</p></details>
+<details><summary>Můžu si hru nejdřív zkusit sám?</summary><p>Ano. Vyber hru a pak Jak hrát (trénink s boty). Do místnosti přijdou boti a krok za krokem odehraješ celé kolo.</p></details>
+<details><summary>Jak nahlásit chybu nebo poslat nápad?</summary><p>Přímo v aplikaci přes Nastavení (ozubené kolečko) ▸ Podpora, nebo e-mailem na adresu níže. Odpovíme co nejdřív.</p></details></div>
+      <p class="contact">Chyby, nápady nebo cokoli jiného: pište na <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Dnešní herní večer<br>začíná tady</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6790137862">Stáhnout zdarma v App Storu</a>
+    </section>
+  </main>
 
   <footer>
-    Měsíční herna<br>
-    <a href="privacy.html">Zásady ochrany osobních údajů</a>
+    <nav id="languages" class="langs" aria-label="Jazyk"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs" aria-current="page">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Zásady ochrany soukromí</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Moonlit Arcade</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

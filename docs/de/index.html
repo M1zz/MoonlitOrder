@@ -1,151 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mondlicht-Arcade · Support</title>
-<meta name="description" content="Mondlicht-Arcade ist eine Sammlung von Offline-Partyspielen, bei der sich iPhones in der Nähe direkt miteinander verbinden – ganz ohne Internet.">
-<!--HREFLANG-->
-<link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/de/index.html">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/index.html">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/index.html">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/index.html">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/index.html">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/index.html">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/index.html">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/index.html">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/index.html">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/index.html">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/index.html">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/index.html">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/index.html">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/index.html">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/index.html">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/index.html">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/index.html">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/index.html">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/index.html">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/index.html">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/index.html">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/index.html">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/index.html">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/index.html">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<!--/HREFLANG-->
-<style>
-  :root{
-    --bg1:#0f1226; --bg2:#211840; --card:rgba(255,255,255,.06);
-    --stroke:rgba(255,255,255,.12); --text:#f4f3fb; --muted:rgba(244,243,251,.62);
-    --gold:#f2c759; --blue:#73bfff; --red:#f25a6b; --mint:#59d1b8;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",
-      "Malgun Gothic",sans-serif;
-    color:var(--text); line-height:1.7;
-    background:linear-gradient(180deg,var(--bg1),var(--bg2)) fixed;
-    min-height:100vh; -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 80px}
-  header{text-align:center;margin-bottom:44px}
-  .logo{font-size:52px;line-height:1}
-  h1{font-size:34px;font-weight:800;margin:14px 0 6px;letter-spacing:-.5px}
-  .sub{color:var(--muted);font-size:15px}
-  .badge{display:inline-block;margin-top:14px;padding:5px 12px;border-radius:999px;
-    background:rgba(89,209,184,.14);color:var(--mint);font-size:13px;font-weight:600}
-  section{background:var(--card);border:1px solid var(--stroke);border-radius:18px;
-    padding:26px 24px;margin:18px 0}
-  h2{font-size:20px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:9px}
-  h2 .ic{font-size:22px}
-  h3{font-size:16px;font-weight:700;margin:18px 0 4px;color:var(--gold)}
-  p,li{color:var(--text);font-size:15.5px}
-  .muted{color:var(--muted)}
-  ul{padding-left:20px;margin:8px 0}
-  li{margin:6px 0}
-  .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:8px}
-  .game{background:rgba(255,255,255,.04);border:1px solid var(--stroke);border-radius:14px;padding:14px}
-  .game .n{font-weight:700;font-size:15px}
-  .game .d{color:var(--muted);font-size:13px;margin-top:3px}
-  .qa{margin:16px 0}
-  .qa .q{font-weight:700;color:var(--blue);font-size:15.5px}
-  .qa .a{color:var(--text);margin-top:3px}
-  a{color:var(--mint);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .contact{text-align:center;background:rgba(242,199,89,.10);border-color:rgba(242,199,89,.28)}
-  .contact .mail{font-size:20px;font-weight:800;color:var(--gold);display:inline-block;margin-top:6px}
-  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:36px;line-height:1.9}
-  footer a{color:var(--muted);text-decoration:underline}
-.langs{display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:center;margin-top:16px;font-size:13px}.langs a{color:var(--muted);text-decoration:none}.langs a[aria-current]{color:var(--gold);font-weight:700}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mondlicht-Arcade: Partyspiele für iPhones in der Nähe, ganz ohne Internet</title>
+  <meta name="description" content="Verbinde die iPhones aller Anwesenden ohne Internet und spielt mit bis zu 15 Leuten Lügner-Spiel, Rollenrätsel oder Zeichnen und Raten. Alle Spiele gratis.">
+  <meta name="theme-color" content="#9A6B00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1226" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6790137862">
+  <link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/de/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mondlicht-Arcade: Partyspiele für iPhones in der Nähe, ganz ohne Internet">
+  <meta property="og:description" content="Verbinde die iPhones aller Anwesenden ohne Internet und spielt mit bis zu 15 Leuten Lügner-Spiel, Rollenrätsel oder Zeichnen und Raten. Alle Spiele gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/MoonlitOrder/de/">
+  <meta property="og:image" content="https://m1zz.github.io/MoonlitOrder/img/de/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#9A6B00}@media (prefers-color-scheme:dark){:root{--accent:#F2C759}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="logo">🌙</div>
-    <h1>Mondlicht-Arcade</h1>
-    <div class="sub">Offline-Partyspiele für Freunde in deiner Nähe</div>
-    <div class="badge">Kundensupport</div>
-    <!--LANGNAV--><nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de" aria-current="page">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--/LANGNAV-->
+  <a class="skip" href="#main">Zum Inhalt springen</a>
+  <header class="bar">
+    <a class="brand" href="../de/"><img src="../icon.png" alt="" width="32" height="32">Mondlicht-Arcade</a>
+    <a class="lang-link" href="#languages">Sprache</a>
   </header>
 
-  <section>
-    <h2><span class="ic">🎲</span>Was ist das für eine App?</h2>
-    <p><strong>Mondlicht-Arcade</strong> ist eine Sammlung von Social-Deduction- und Partyspielen, bei der sich iPhones in der Nähe ohne Internet direkt miteinander verbinden. Im selben WLAN oder in Bluetooth-Reichweite könnt ihr ganz ohne Server sofort einen Raum erstellen und beitreten.</p>
-    <div class="games">
-      <div class="game"><div class="n">🌙 Mondorden</div><div class="d">5–15 Spieler · Wer gehört zu den Schatten? Enttarnt die Eingeschleusten</div></div>
-      <div class="game"><div class="n">🎭 Das Lügner-Spiel</div><div class="d">3–15 Spieler · Findet die eine Person, die das Wort nicht kennt</div></div>
-      <div class="game"><div class="n">🔥 Nacht ohne Mond</div><div class="d">3–15 Spieler · Eine Nacht voller Verdacht, in der sich Kobolde verstecken</div></div>
-      <div class="game"><div class="n">🖌️ Mondlicht-Atelier</div><div class="d">3–15 Spieler · Einer zeichnet, alle anderen raten</div></div>
-    </div>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Alle da?<br>Handys raus.</h1>
+        <p class="lead">Einer eröffnet einen Raum, alle in der Nähe sind in Sekunden drin. Rollen und geheime Wörter erscheinen nur auf dem eigenen Bildschirm. Keine Karten, und niemand muss Spielleiter sein.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6790137862">Gratis im App Store laden</a><a class="try" href="#try">Eine Runde Lügner-Spiel ↓</a></div>
+        <p class="muted small">Alle Spiele gratis. Kein Konto, kein Internet nötig.</p>
+      </div>
+      <div class="phone"><img src="../img/de/01-home.jpg" alt="Alle da? Handys raus." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2><span class="ic">▶️</span>So wird gespielt</h2>
-    <ul>
-      <li>Gib deinen Spitznamen ein und wähle ein Spiel aus.</li>
-      <li>Eine Person tippt auf <strong>„Raum erstellen (Host)“</strong>, alle anderen kommen über <strong>„Spiel beitreten“</strong> in den Raum.</li>
-      <li>Im selben WLAN oder in der Nähe (Bluetooth) finden sich die Geräte automatisch. Eine Internetverbindung ist nicht nötig.</li>
-      <li>Beim ersten Mal musst du den <strong>Zugriff auf das lokale Netzwerk erlauben</strong>, damit Geräte in der Nähe gefunden werden.</li>
-      <li>Unter <strong>„So wird gespielt (Üben mit Bots)“</strong> lernst du bei jedem Spiel die Regeln Schritt für Schritt mit Bots.</li>
-    </ul>
-  </section>
 
-  <section>
-    <h2><span class="ic">🛠️</span>Häufige Fragen</h2>
+    <section class="reveal" id="try">
+      <h2>Eine Runde Lügner-Spiel</h2>
+      <p class="muted">Stell dir fünf iPhones auf dem Tisch vor und tippe nacheinander darauf. Nur einer kennt das Wort nicht. Ihr könnt den Bildschirm auch reihum weitergeben.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Eine Runde Lügner-Spiel&quot;, &quot;lead&quot;: &quot;Stell dir fünf iPhones auf dem Tisch vor und tippe nacheinander darauf. Nur einer kennt das Wort nicht. Ihr könnt den Bildschirm auch reihum weitergeben.&quot;, &quot;tap&quot;: &quot;Antippen&quot;, &quot;reveal&quot;: &quot;Lügner aufdecken&quot;, &quot;again&quot;: &quot;Neue Runde&quot;, &quot;caughtNote&quot;: &quot;Wird der Lügner per Abstimmung erwischt, hat er noch eine letzte Chance.&quot;, &quot;note&quot;: &quot;In der App schaut jeder auf sein eigenes iPhone, beschreibt reihum das Wort, dann wird abgestimmt. Die Wörter stammen aus derselben Liste wie in der App.&quot;, &quot;app&quot;: {&quot;game&quot;: &quot;Das Lügner-Spiel&quot;, &quot;sub&quot;: &quot;Alle haben dasselbe Wort. Nur einer kennt es nicht.&quot;, &quot;arrived&quot;: &quot;Das Wort ist da&quot;, &quot;secret&quot;: &quot;Sieh nach, wo niemand den Bildschirm sehen kann&quot;, &quot;gotIt&quot;: &quot;Gesehen&quot;, &quot;word&quot;: &quot;Wort&quot;, &quot;cat&quot;: &quot;Kategorie: {1}&quot;, &quot;liarYou&quot;: &quot;Du bist der Lügner!&quot;, &quot;liarHint&quot;: &quot;Du kennst das Wort nicht, musst es aber beschreiben, als würdest du es kennen. Lass dich nicht erwischen!&quot;, &quot;liar&quot;: &quot;Lügner&quot;, &quot;caught&quot;: &quot;Lügner gefasst!&quot;, &quot;pick&quot;: &quot;Wähle das Wort — du hast nur einen Versuch!&quot;, &quot;liarWin&quot;: &quot;Der Lügner gewinnt!&quot;, &quot;citizenWin&quot;: &quot;Die Bürger gewinnen!&quot;, &quot;me&quot;: &quot;Ich&quot;, &quot;bots&quot;: [&quot;Mondhase&quot;, &quot;Nachtwind&quot;, &quot;Milchstraße&quot;, &quot;Abnehmender Mond&quot;], &quot;words&quot;: {&quot;Essen&quot;: [&quot;Kimchi-Eintopf&quot;, &quot;Gegrillter Schweinebauch&quot;, &quot;Tteokbokki&quot;, &quot;Brathähnchen&quot;, &quot;Pizza&quot;, &quot;Sushi&quot;, &quot;Ramen&quot;, &quot;Bibimbap&quot;, &quot;Kalte Nudeln&quot;, &quot;Rippensuppe&quot;, &quot;Pasta&quot;, &quot;Hamburger&quot;, &quot;Gimbap&quot;, &quot;Blutwurst&quot;, &quot;Schweinefüße&quot;, &quot;Salat&quot;], &quot;Tiere&quot;: [&quot;Elefant&quot;, &quot;Giraffe&quot;, &quot;Pinguin&quot;, &quot;Tiger&quot;, &quot;Panda&quot;, &quot;Igel&quot;, &quot;Känguru&quot;, &quot;Eule&quot;, &quot;Delfin&quot;, &quot;Krake&quot;, &quot;Eichhörnchen&quot;, &quot;Krokodil&quot;, &quot;Kamel&quot;, &quot;Otter&quot;, &quot;Papagei&quot;, &quot;Maulwurf&quot;], &quot;Orte&quot;: [&quot;Freizeitpark&quot;, &quot;Bibliothek&quot;, &quot;Koreanische Sauna&quot;, &quot;Kino&quot;, &quot;Kiosk&quot;, &quot;U-Bahn-Station&quot;, &quot;Friseursalon&quot;, &quot;Krankenhaus&quot;, &quot;Schule&quot;, &quot;Campingplatz&quot;, &quot;Schwimmbad&quot;, &quot;Flughafen&quot;, &quot;Markt&quot;, &quot;Café&quot;, &quot;Karaokebar&quot;, &quot;Fitnessstudio&quot;], &quot;Berufe&quot;: [&quot;Feuerwehrmann&quot;, &quot;Arzt&quot;, &quot;Koch&quot;, &quot;Programmierer&quot;, &quot;YouTuber&quot;, &quot;Lehrer&quot;, &quot;Polizist&quot;, &quot;Landwirt&quot;, &quot;Pilot&quot;, &quot;Friseur&quot;, &quot;Sänger&quot;, &quot;Sportler&quot;, &quot;Fotograf&quot;, &quot;Anwalt&quot;, &quot;Fischer&quot;, &quot;Barista&quot;], &quot;Gegenstände&quot;: [&quot;Regenschirm&quot;, &quot;Ventilator&quot;, &quot;Kühlschrank&quot;, &quot;Zahnbürste&quot;, &quot;Kopfkissen&quot;, &quot;Fernbedienung&quot;, &quot;Trinkbecher&quot;, &quot;Ohrhörer&quot;, &quot;Schere&quot;, &quot;Decke&quot;, &quot;Spiegel&quot;, &quot;Uhr&quot;, &quot;Ladegerät&quot;, &quot;Hausschuhe&quot;, &quot;Maske&quot;, &quot;Geldbörse&quot;], &quot;Sport&quot;: [&quot;Fußball&quot;, &quot;Baseball&quot;, &quot;Basketball&quot;, &quot;Badminton&quot;, &quot;Schwimmen&quot;, &quot;Bowling&quot;, &quot;Taekwondo&quot;, &quot;Golf&quot;, &quot;Tischtennis&quot;, &quot;Skifahren&quot;, &quot;Klettern&quot;, &quot;Yoga&quot;, &quot;Boxen&quot;, &quot;Bogenschießen&quot;, &quot;Fechten&quot;, &quot;Marathon&quot;]}}}"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Ich sehe keinen Raum in der Nähe.</div>
-      <div class="a">Prüfe, ob Host und Mitspieler im <strong>selben WLAN</strong> sind oder sich nahe beieinander befinden. Unter Einstellungen &gt; Datenschutz &amp; Sicherheit &gt; <strong>Lokales Netzwerk</strong> muss Mondlicht-Arcade eingeschaltet sein. Am stabilsten ist die Verbindung, wenn WLAN und Bluetooth beide aktiviert sind.</div>
-    </div>
+    <section class="problem reveal">
+      <h2>Alle sind da, aber keiner weiß, was man spielen soll</h2>
+      <p>Spieleabend, WG-Party, Weihnachten mit der Familie. Für ein Rollenspiel wie Werwolf muss einer aussetzen und leiten, und gefaltete Zettel sind nie wirklich geheim. In der Ferienwohnung mit schwachem WLAN fallen Onlinespiele auch aus. Bei Mondlicht-Arcade übernehmen die iPhones Spielleitung, Rollenverteilung und Verbindung.</p>
+    </section>
 
-    <div class="qa">
-      <div class="q">Mitten im Spiel ist die Verbindung abgebrochen.</div>
-      <div class="a">Sobald du die App wieder öffnest, wirst du <strong>automatisch erneut</strong> mit demselben Raum verbunden und kehrst in die laufende Runde zurück. Klappt das nicht innerhalb einer gewissen Zeit, tritt dem Raum über die Raumliste erneut bei.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Deine Rolle bleibt auf deinem Bildschirm</h2>
+        <p>Zum Spielstart bekommt jedes iPhone seine eigene Rolle oder sein Wort. Keine Karten verteilen, kein „Alle Augen zu“.<br>Bei der Abstimmung sieht man nur, wer schon abgestimmt hat. Wer wen gewählt hat, bleibt bis zur Auflösung geheim.</p>
+      </div>
+      <div class="phone"><img src="../img/de/02-role.jpg" alt="Deine Rolle bleibt auf deinem Bildschirm" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Wie viele Spieler braucht man mindestens?</div>
-      <div class="a">Mondorden startet ab 5 Spielern, alle anderen Spiele ab 3. Insgesamt können bis zu 15 Personen mitspielen.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Vier Spiele für jede Runde</h2>
+        <p>Im Lügner-Spiel zählt Wortgewandtheit, im Mondorden jagt ihr mit Missionen und Abstimmungen die Schatten, in der Nacht ohne Mond sucht ihr in einer Nacht den Kobold, und im Mondlicht-Atelier zeichnet einer und alle raten.<br>Mondorden ab 5 Personen, die anderen ab 3, alle für bis zu 15.</p>
+      </div>
+      <div class="phone"><img src="../img/de/04-draw.jpg" alt="Vier Spiele für jede Runde" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Brauche ich Internet oder ein Konto?</div>
-      <div class="a">Nein. Gespielt wird offline – ohne Registrierung, Anmeldung oder Internetverbindung. Spieldaten werden an keinen Server übertragen.</div>
-    </div>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Neues Spiel? In Minuten gelernt</h2>
+        <p>Jedes Spiel hat einen Modus „So wird gespielt“, in dem du mit Bots Schritt für Schritt eine Runde spielst. Hinweis oben lesen, auf „Weiter“ tippen.<br>Stürzt die App ab oder reißt die Verbindung, bringt dich „Fortsetzen“ auf dem Startbildschirm zurück in dieselbe Runde.</p>
+      </div>
+      <div class="phone"><img src="../img/de/03-vote.jpg" alt="Neues Spiel? In Minuten gelernt" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-  <section class="contact">
-    <h2 style="justify-content:center"><span class="ic">✉️</span>Kontakt</h2>
-    <p class="muted">Fehlermeldungen, Vorschläge und alle anderen Anfragen kannst du direkt in der App unter Einstellungen (Zahnrad) &gt; Support senden oder per E-Mail an die Adresse unten. Wir antworten so schnell wie möglich.</p>
-    <a class="mail" href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>
-  </section>
+    <section class="reveal">
+      <h2>In drei Schritten loslegen</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Spitzname und Spiel wählen</h3><p>Alle öffnen die App, geben einen Spitznamen ein und wählen das Spiel.</p></li>
+<li class="card"><span class="n">2</span><h3>Raum erstellen oder beitreten</h3><p>Einer erstellt einen Raum, alle anderen finden ihn über „Räume in der Nähe suchen“.</p></li>
+<li class="card"><span class="n">3</span><h3>Host startet</h3><p>Sind alle drin, tippt der Host auf „Spiel starten“. Den Rest übernimmt die App.</p></li></ol>
+    </section>
 
+    <section class="reveal" id="commands">
+      <h2>Die vier Spiele</h2>
+      <div class="card table">
+        <dl><div><dt>Das Lügner-Spiel · 3 bis 15</dt><dd>Alle bekommen dasselbe Wort, nur einer nicht. Reihum beschreibt jeder das Wort, dann wird der Lügner gewählt. Errät der ertappte Lügner das Wort, gewinnt er trotzdem.</dd></div><div><dt>Mondorden · 5 bis 15</dt><dd>Findet die Schatten, die sich im Orden verstecken. Die Anführung wählt ein Missionsteam, alle stimmen dafür oder dagegen, und das Team spielt heimlich Erfolg oder Fehlschlag. Wer zuerst drei Missionen für sich entscheidet, gewinnt.</dd></div><div><dt>Nacht ohne Mond · 3 bis 15</dt><dd>Eine Nacht, und im Dorf versteckt sich ein Kobold. Nachts handeln Schamane, Nachtdieb und Schelm im Geheimen. Im Morgengrauen wird diskutiert, und es gibt nur eine Abstimmung, um den Kobold zu finden.</dd></div><div><dt>Mondlicht-Atelier · 3 bis 15</dt><dd>Einer zeichnet das Wort, die anderen raten im Chat. Wer schneller rät, bekommt mehr Punkte, und wer zeichnet, punktet für jeden richtigen Tipp.</dd></div></dl>
+      </div>
+      <p class="muted">Jedes Spiel lässt sich im Modus „So wird gespielt“ erst allein mit Bots ausprobieren.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Häufige Fragen</h2>
+      <div class="faq"><details><summary>Ich sehe den Raum nicht.</summary><p>Prüfe, ob Host und Mitspieler im selben WLAN oder nah beieinander sind. Mondlicht-Arcade muss unter Einstellungen ▸ Datenschutz &amp; Sicherheit ▸ Lokales Netzwerk eingeschaltet sein, um Geräte in der Nähe zu finden. Mit WLAN und Bluetooth gleichzeitig ist die Verbindung am stabilsten.</p></details>
+<details><summary>Muss ich den Zugriff auf das lokale Netzwerk erlauben?</summary><p>Ja, so findet die App iPhones in der Nähe und verbindet sich mit ihnen. Falls du „Nicht erlauben“ getippt hast, schalte es unter Einstellungen ▸ Datenschutz &amp; Sicherheit ▸ Lokales Netzwerk wieder ein.</p></details>
+<details><summary>Die Verbindung ist mitten im Spiel abgebrochen.</summary><p>Öffne die App erneut und tippe auf dem Startbildschirm auf „Fortsetzen“, dann bist du wieder im selben Raum und in derselben Runde. Rolle und Punkte bleiben erhalten. Klappt es länger nicht, tritt über die Raumliste neu bei.</p></details>
+<details><summary>Jemand reagiert nicht und das Spiel hängt.</summary><p>Der Host kann nicht reagierende Mitspieler jederzeit entfernen. Das Spiel wertet mit den Übrigen neu und geht weiter. Im GM-Spielleiter-Modus lässt sich ein hängender Schritt auch überspringen.</p></details>
+<details><summary>Wie viele Leute braucht man?</summary><p>Mondorden braucht 5, Lügner-Spiel, Nacht ohne Mond und Mondlicht-Atelier starten ab 3. Jedes Spiel geht bis 15. Zu wenige da? Lernt die Regeln vorher mit Bots im Übungsmodus.</p></details>
+<details><summary>Brauchen wir Internet oder ein Konto?</summary><p>Nein. Keine Registrierung, keine Anmeldung, kein Internet. iPhones in der Nähe verbinden sich direkt, und Spieldaten gehen nie an einen Server.</p></details>
+<details><summary>Kann ich ein Spiel erst allein ausprobieren?</summary><p>Ja. Wähle ein Spiel und dann „So wird gespielt (Üben mit Bots)“. Bots betreten den Raum und du spielst eine ganze Runde Schritt für Schritt.</p></details>
+<details><summary>Wie melde ich einen Fehler oder schicke eine Idee?</summary><p>Direkt in der App unter Einstellungen (Zahnrad) ▸ Support, oder per E-Mail an die Adresse unten. Wir antworten so schnell wie möglich.</p></details></div>
+      <p class="contact">Fehler, Ideen oder sonstige Fragen? Schreib an <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Der Spieleabend<br>beginnt hier</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6790137862">Gratis im App Store laden</a>
+    </section>
+  </main>
 
   <footer>
-    Mondlicht-Arcade<br>
-    <a href="privacy.html">Datenschutzerklärung</a>
+    <nav id="languages" class="langs" aria-label="Sprache"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de" aria-current="page">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Datenschutzerklärung</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Moonlit Arcade</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

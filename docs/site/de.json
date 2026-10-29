@@ -1,0 +1,259 @@
+{
+  "title": "Mondlicht-Arcade: Partyspiele für iPhones in der Nähe, ganz ohne Internet",
+  "description": "Verbinde die iPhones aller Anwesenden ohne Internet und spielt mit bis zu 15 Leuten Lügner-Spiel, Rollenrätsel oder Zeichnen und Raten. Alle Spiele gratis.",
+  "hero": {
+    "headline": "Alle da?\nHandys raus.",
+    "lead": "Einer eröffnet einen Raum, alle in der Nähe sind in Sekunden drin. Rollen und geheime Wörter erscheinen nur auf dem eigenen Bildschirm. Keine Karten, und niemand muss Spielleiter sein.",
+    "cta": "Gratis im App Store laden",
+    "note": "Alle Spiele gratis. Kein Konto, kein Internet nötig."
+  },
+  "demo": {
+    "title": "Eine Runde Lügner-Spiel",
+    "lead": "Stell dir fünf iPhones auf dem Tisch vor und tippe nacheinander darauf. Nur einer kennt das Wort nicht. Ihr könnt den Bildschirm auch reihum weitergeben.",
+    "tap": "Antippen",
+    "reveal": "Lügner aufdecken",
+    "again": "Neue Runde",
+    "caughtNote": "Wird der Lügner per Abstimmung erwischt, hat er noch eine letzte Chance.",
+    "note": "In der App schaut jeder auf sein eigenes iPhone, beschreibt reihum das Wort, dann wird abgestimmt. Die Wörter stammen aus derselben Liste wie in der App.",
+    "app": {
+      "game": "Das Lügner-Spiel",
+      "sub": "Alle haben dasselbe Wort. Nur einer kennt es nicht.",
+      "arrived": "Das Wort ist da",
+      "secret": "Sieh nach, wo niemand den Bildschirm sehen kann",
+      "gotIt": "Gesehen",
+      "word": "Wort",
+      "cat": "Kategorie: {1}",
+      "liarYou": "Du bist der Lügner!",
+      "liarHint": "Du kennst das Wort nicht, musst es aber beschreiben, als würdest du es kennen. Lass dich nicht erwischen!",
+      "liar": "Lügner",
+      "caught": "Lügner gefasst!",
+      "pick": "Wähle das Wort — du hast nur einen Versuch!",
+      "liarWin": "Der Lügner gewinnt!",
+      "citizenWin": "Die Bürger gewinnen!",
+      "me": "Ich",
+      "bots": [
+        "Mondhase",
+        "Nachtwind",
+        "Milchstraße",
+        "Abnehmender Mond"
+      ],
+      "words": {
+        "Essen": [
+          "Kimchi-Eintopf",
+          "Gegrillter Schweinebauch",
+          "Tteokbokki",
+          "Brathähnchen",
+          "Pizza",
+          "Sushi",
+          "Ramen",
+          "Bibimbap",
+          "Kalte Nudeln",
+          "Rippensuppe",
+          "Pasta",
+          "Hamburger",
+          "Gimbap",
+          "Blutwurst",
+          "Schweinefüße",
+          "Salat"
+        ],
+        "Tiere": [
+          "Elefant",
+          "Giraffe",
+          "Pinguin",
+          "Tiger",
+          "Panda",
+          "Igel",
+          "Känguru",
+          "Eule",
+          "Delfin",
+          "Krake",
+          "Eichhörnchen",
+          "Krokodil",
+          "Kamel",
+          "Otter",
+          "Papagei",
+          "Maulwurf"
+        ],
+        "Orte": [
+          "Freizeitpark",
+          "Bibliothek",
+          "Koreanische Sauna",
+          "Kino",
+          "Kiosk",
+          "U-Bahn-Station",
+          "Friseursalon",
+          "Krankenhaus",
+          "Schule",
+          "Campingplatz",
+          "Schwimmbad",
+          "Flughafen",
+          "Markt",
+          "Café",
+          "Karaokebar",
+          "Fitnessstudio"
+        ],
+        "Berufe": [
+          "Feuerwehrmann",
+          "Arzt",
+          "Koch",
+          "Programmierer",
+          "YouTuber",
+          "Lehrer",
+          "Polizist",
+          "Landwirt",
+          "Pilot",
+          "Friseur",
+          "Sänger",
+          "Sportler",
+          "Fotograf",
+          "Anwalt",
+          "Fischer",
+          "Barista"
+        ],
+        "Gegenstände": [
+          "Regenschirm",
+          "Ventilator",
+          "Kühlschrank",
+          "Zahnbürste",
+          "Kopfkissen",
+          "Fernbedienung",
+          "Trinkbecher",
+          "Ohrhörer",
+          "Schere",
+          "Decke",
+          "Spiegel",
+          "Uhr",
+          "Ladegerät",
+          "Hausschuhe",
+          "Maske",
+          "Geldbörse"
+        ],
+        "Sport": [
+          "Fußball",
+          "Baseball",
+          "Basketball",
+          "Badminton",
+          "Schwimmen",
+          "Bowling",
+          "Taekwondo",
+          "Golf",
+          "Tischtennis",
+          "Skifahren",
+          "Klettern",
+          "Yoga",
+          "Boxen",
+          "Bogenschießen",
+          "Fechten",
+          "Marathon"
+        ]
+      }
+    }
+  },
+  "problem": {
+    "title": "Alle sind da, aber keiner weiß, was man spielen soll",
+    "text": "Spieleabend, WG-Party, Weihnachten mit der Familie. Für ein Rollenspiel wie Werwolf muss einer aussetzen und leiten, und gefaltete Zettel sind nie wirklich geheim. In der Ferienwohnung mit schwachem WLAN fallen Onlinespiele auch aus. Bei Mondlicht-Arcade übernehmen die iPhones Spielleitung, Rollenverteilung und Verbindung."
+  },
+  "features": [
+    {
+      "title": "Deine Rolle bleibt auf deinem Bildschirm",
+      "text": "Zum Spielstart bekommt jedes iPhone seine eigene Rolle oder sein Wort. Keine Karten verteilen, kein „Alle Augen zu“.\nBei der Abstimmung sieht man nur, wer schon abgestimmt hat. Wer wen gewählt hat, bleibt bis zur Auflösung geheim.",
+      "shot": "02-role"
+    },
+    {
+      "title": "Vier Spiele für jede Runde",
+      "text": "Im Lügner-Spiel zählt Wortgewandtheit, im Mondorden jagt ihr mit Missionen und Abstimmungen die Schatten, in der Nacht ohne Mond sucht ihr in einer Nacht den Kobold, und im Mondlicht-Atelier zeichnet einer und alle raten.\nMondorden ab 5 Personen, die anderen ab 3, alle für bis zu 15.",
+      "shot": "04-draw"
+    },
+    {
+      "title": "Neues Spiel? In Minuten gelernt",
+      "text": "Jedes Spiel hat einen Modus „So wird gespielt“, in dem du mit Bots Schritt für Schritt eine Runde spielst. Hinweis oben lesen, auf „Weiter“ tippen.\nStürzt die App ab oder reißt die Verbindung, bringt dich „Fortsetzen“ auf dem Startbildschirm zurück in dieselbe Runde.",
+      "shot": "03-vote"
+    }
+  ],
+  "steps": {
+    "title": "In drei Schritten loslegen",
+    "items": [
+      {
+        "title": "Spitzname und Spiel wählen",
+        "text": "Alle öffnen die App, geben einen Spitznamen ein und wählen das Spiel."
+      },
+      {
+        "title": "Raum erstellen oder beitreten",
+        "text": "Einer erstellt einen Raum, alle anderen finden ihn über „Räume in der Nähe suchen“."
+      },
+      {
+        "title": "Host startet",
+        "text": "Sind alle drin, tippt der Host auf „Spiel starten“. Den Rest übernimmt die App."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Die vier Spiele",
+    "rows": [
+      [
+        "Das Lügner-Spiel · 3 bis 15",
+        "Alle bekommen dasselbe Wort, nur einer nicht. Reihum beschreibt jeder das Wort, dann wird der Lügner gewählt. Errät der ertappte Lügner das Wort, gewinnt er trotzdem."
+      ],
+      [
+        "Mondorden · 5 bis 15",
+        "Findet die Schatten, die sich im Orden verstecken. Die Anführung wählt ein Missionsteam, alle stimmen dafür oder dagegen, und das Team spielt heimlich Erfolg oder Fehlschlag. Wer zuerst drei Missionen für sich entscheidet, gewinnt."
+      ],
+      [
+        "Nacht ohne Mond · 3 bis 15",
+        "Eine Nacht, und im Dorf versteckt sich ein Kobold. Nachts handeln Schamane, Nachtdieb und Schelm im Geheimen. Im Morgengrauen wird diskutiert, und es gibt nur eine Abstimmung, um den Kobold zu finden."
+      ],
+      [
+        "Mondlicht-Atelier · 3 bis 15",
+        "Einer zeichnet das Wort, die anderen raten im Chat. Wer schneller rät, bekommt mehr Punkte, und wer zeichnet, punktet für jeden richtigen Tipp."
+      ]
+    ],
+    "note": "Jedes Spiel lässt sich im Modus „So wird gespielt“ erst allein mit Bots ausprobieren."
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "q": "Ich sehe den Raum nicht.",
+        "a": "Prüfe, ob Host und Mitspieler im selben WLAN oder nah beieinander sind. Mondlicht-Arcade muss unter Einstellungen ▸ Datenschutz & Sicherheit ▸ Lokales Netzwerk eingeschaltet sein, um Geräte in der Nähe zu finden. Mit WLAN und Bluetooth gleichzeitig ist die Verbindung am stabilsten."
+      },
+      {
+        "q": "Muss ich den Zugriff auf das lokale Netzwerk erlauben?",
+        "a": "Ja, so findet die App iPhones in der Nähe und verbindet sich mit ihnen. Falls du „Nicht erlauben“ getippt hast, schalte es unter Einstellungen ▸ Datenschutz & Sicherheit ▸ Lokales Netzwerk wieder ein."
+      },
+      {
+        "q": "Die Verbindung ist mitten im Spiel abgebrochen.",
+        "a": "Öffne die App erneut und tippe auf dem Startbildschirm auf „Fortsetzen“, dann bist du wieder im selben Raum und in derselben Runde. Rolle und Punkte bleiben erhalten. Klappt es länger nicht, tritt über die Raumliste neu bei."
+      },
+      {
+        "q": "Jemand reagiert nicht und das Spiel hängt.",
+        "a": "Der Host kann nicht reagierende Mitspieler jederzeit entfernen. Das Spiel wertet mit den Übrigen neu und geht weiter. Im GM-Spielleiter-Modus lässt sich ein hängender Schritt auch überspringen."
+      },
+      {
+        "q": "Wie viele Leute braucht man?",
+        "a": "Mondorden braucht 5, Lügner-Spiel, Nacht ohne Mond und Mondlicht-Atelier starten ab 3. Jedes Spiel geht bis 15. Zu wenige da? Lernt die Regeln vorher mit Bots im Übungsmodus."
+      },
+      {
+        "q": "Brauchen wir Internet oder ein Konto?",
+        "a": "Nein. Keine Registrierung, keine Anmeldung, kein Internet. iPhones in der Nähe verbinden sich direkt, und Spieldaten gehen nie an einen Server."
+      },
+      {
+        "q": "Kann ich ein Spiel erst allein ausprobieren?",
+        "a": "Ja. Wähle ein Spiel und dann „So wird gespielt (Üben mit Bots)“. Bots betreten den Raum und du spielst eine ganze Runde Schritt für Schritt."
+      },
+      {
+        "q": "Wie melde ich einen Fehler oder schicke eine Idee?",
+        "a": "Direkt in der App unter Einstellungen (Zahnrad) ▸ Support, oder per E-Mail an die Adresse unten. Wir antworten so schnell wie möglich."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Der Spieleabend\nbeginnt hier",
+    "cta": "Gratis im App Store laden"
+  },
+  "ui": {
+    "skip": "Zum Inhalt springen",
+    "languages": "Sprache",
+    "privacy": "Datenschutzerklärung",
+    "contact": "Fehler, Ideen oder sonstige Fragen? Schreib an {email}."
+  }
+}

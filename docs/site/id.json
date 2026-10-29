@@ -1,0 +1,259 @@
+{
+  "title": "Arena Game Cahaya Bulan: game seru antar-iPhone, tanpa internet",
+  "description": "Sambungkan iPhone semua orang di dekatmu tanpa internet dan main Permainan Si Pembohong, tebak peran, atau gambar-tebak sampai 15 orang. Semua gratis.",
+  "hero": {
+    "headline": "Sudah kumpul semua?\nKeluarkan iPhone-nya.",
+    "lead": "Satu orang membuat ruangan, yang lain di dekatnya langsung masuk dalam hitungan detik. Peran dan kata rahasia hanya muncul di layar masing-masing, jadi tanpa kartu dan tanpa ada yang harus jadi pemandu.",
+    "cta": "Unduh gratis di App Store",
+    "note": "Semua game gratis. Tanpa akun dan tanpa internet."
+  },
+  "demo": {
+    "title": "Coba satu ronde Si Pembohong",
+    "lead": "Bayangkan ada lima iPhone di meja, lalu ketuk satu per satu untuk mengintip. Cuma satu yang tidak tahu katanya. Bisa juga gantian oper layar bareng teman.",
+    "tap": "Ketuk untuk lihat",
+    "reveal": "Ungkap Si Pembohong",
+    "again": "Ronde baru",
+    "caughtNote": "Walau tertangkap lewat voting, Si Pembohong masih punya satu kesempatan terakhir.",
+    "note": "Di aplikasi, tiap orang melihat di iPhone sendiri, bergantian menjelaskan kata, lalu voting. Katanya diambil dari daftar yang sama dengan aplikasi.",
+    "app": {
+      "game": "Permainan Si Pembohong",
+      "sub": "Semua orang punya kata yang sama. Hanya satu yang tidak tahu.",
+      "arrived": "Kata telah tiba",
+      "secret": "Lihat di tempat yang tidak terlihat orang lain",
+      "gotIt": "Sudah lihat",
+      "word": "Kata",
+      "cat": "Kategori: {1}",
+      "liarYou": "Kamu Si Pembohong!",
+      "liarHint": "Kamu tidak tahu katanya, tetapi harus menjelaskannya seolah tahu. Jangan sampai ketahuan!",
+      "liar": "Si Pembohong",
+      "caught": "Si Pembohong tertangkap!",
+      "pick": "Pilih katanya — hanya satu kesempatan!",
+      "liarWin": "Si Pembohong menang!",
+      "citizenWin": "Warga menang!",
+      "me": "Aku",
+      "bots": [
+        "Kelinci Bulan",
+        "Angin Malam",
+        "Bima Sakti",
+        "Bulan Sabit Akhir"
+      ],
+      "words": {
+        "Makanan": [
+          "Sup kimchi",
+          "Perut babi panggang",
+          "Tteokbokki",
+          "Ayam goreng",
+          "Pizza",
+          "Sushi",
+          "Ramen",
+          "Bibimbap",
+          "Mi dingin",
+          "Sup iga sapi",
+          "Pasta",
+          "Hamburger",
+          "Gimbap",
+          "Sosis darah Korea",
+          "Kaki babi",
+          "Salad"
+        ],
+        "Hewan": [
+          "Gajah",
+          "Jerapah",
+          "Pinguin",
+          "Harimau",
+          "Panda",
+          "Landak",
+          "Kanguru",
+          "Burung hantu",
+          "Lumba-lumba",
+          "Gurita",
+          "Tupai",
+          "Buaya",
+          "Unta",
+          "Berang-berang",
+          "Burung beo",
+          "Tikus tanah"
+        ],
+        "Tempat": [
+          "Taman hiburan",
+          "Perpustakaan",
+          "Spa Korea",
+          "Bioskop",
+          "Minimarket",
+          "Stasiun kereta bawah tanah",
+          "Salon",
+          "Rumah sakit",
+          "Sekolah",
+          "Tempat berkemah",
+          "Kolam renang",
+          "Bandara",
+          "Pasar",
+          "Kafe",
+          "Karaoke",
+          "Pusat kebugaran"
+        ],
+        "Pekerjaan": [
+          "Pemadam kebakaran",
+          "Dokter",
+          "Koki",
+          "Programmer",
+          "YouTuber",
+          "Guru",
+          "Polisi",
+          "Petani",
+          "Pilot",
+          "Penata rambut",
+          "Penyanyi",
+          "Atlet",
+          "Fotografer",
+          "Pengacara",
+          "Nelayan",
+          "Barista"
+        ],
+        "Benda": [
+          "Payung",
+          "Kipas angin",
+          "Kulkas",
+          "Sikat gigi",
+          "Bantal",
+          "Remote",
+          "Tumbler",
+          "Earphone",
+          "Gunting",
+          "Selimut",
+          "Cermin",
+          "Jam",
+          "Pengisi daya",
+          "Sandal rumah",
+          "Masker",
+          "Dompet"
+        ],
+        "Olahraga": [
+          "Sepak bola",
+          "Bisbol",
+          "Bola basket",
+          "Bulu tangkis",
+          "Renang",
+          "Boling",
+          "Taekwondo",
+          "Golf",
+          "Tenis meja",
+          "Ski",
+          "Panjat tebing",
+          "Yoga",
+          "Tinju",
+          "Panahan",
+          "Anggar",
+          "Maraton"
+        ]
+      }
+    }
+  },
+  "problem": {
+    "title": "Sudah ramai, tapi bingung mau main apa",
+    "text": "Kumpul bareng teman, liburan di vila, Lebaran sama keluarga besar. Main Werewolf berarti harus ada yang jadi pemandu dan nggak ikut main, dan kertas lipat selalu ketahuan. Di vila yang Wi-Fi-nya lemot, game online juga nggak jalan. Arena Game Cahaya Bulan membiarkan iPhone yang memandu, membagi peran, dan saling terhubung."
+  },
+  "features": [
+    {
+      "title": "Peranmu cuma ada di layarmu",
+      "text": "Begitu game mulai, tiap iPhone menerima peran atau katanya sendiri. Nggak perlu bagi kartu atau “semua tutup mata”.\nSaat voting, yang terlihat cuma siapa yang sudah memilih. Siapa memilih siapa tetap rahasia sampai diumumkan.",
+      "shot": "02-role"
+    },
+    {
+      "title": "Empat game untuk segala suasana",
+      "text": "Adu kelihaian bicara di Permainan Si Pembohong, buru Bayangan lewat misi dan voting di Ordo Cahaya Bulan, temukan Goblin dalam satu malam di Malam Tanpa Bulan, atau satu menggambar dan yang lain menebak di Studio Cahaya Bulan.\nOrdo Cahaya Bulan mulai 5 orang, yang lain mulai 3 orang, semuanya sampai 15.",
+      "shot": "04-draw"
+    },
+    {
+      "title": "Game baru? Paham dalam beberapa menit",
+      "text": "Tiap game punya mode Cara bermain, tempat kamu main satu ronde bareng bot langkah demi langkah. Baca petunjuk di atas lalu ketuk Berikutnya.\nKalau aplikasi tertutup atau koneksi putus, ketuk Lanjutkan di layar utama dan kamu kembali ke ronde yang sama.",
+      "shot": "03-vote"
+    }
+  ],
+  "steps": {
+    "title": "Mulai dalam tiga langkah",
+    "items": [
+      {
+        "title": "Pilih nama panggilan dan game",
+        "text": "Semua membuka aplikasi, mengisi nama panggilan, lalu memilih game."
+      },
+      {
+        "title": "Buat atau gabung ruangan",
+        "text": "Satu orang membuat ruangan, yang lain menemukannya lewat Cari ruangan terdekat."
+      },
+      {
+        "title": "Host memulai",
+        "text": "Setelah semua masuk, host mengetuk Mulai permainan. Sisanya diurus aplikasi."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Empat game",
+    "rows": [
+      [
+        "Permainan Si Pembohong · 3–15 orang",
+        "Semua dapat kata yang sama, kecuali satu orang. Gantian menjelaskan, lalu voting untuk mencari Si Pembohong. Kalau tertangkap tapi bisa menebak katanya, Si Pembohong tetap menang."
+      ],
+      [
+        "Ordo Cahaya Bulan · 5–15 orang",
+        "Cari Bayangan yang bersembunyi di dalam Ordo. Pemimpin memilih tim misi, semua voting setuju atau tidak, lalu tim diam-diam memilih berhasil atau gagal. Pihak yang lebih dulu meraih tiga misi menang."
+      ],
+      [
+        "Malam Tanpa Bulan · 3–15 orang",
+        "Satu malam, dan ada Goblin bersembunyi di desa. Malam hari Dukun, Pencuri Malam, dan Si Usil bergerak diam-diam. Saat fajar semua berdiskusi dan hanya ada satu kali voting untuk menemukan Goblin."
+      ],
+      [
+        "Studio Cahaya Bulan · 3–15 orang",
+        "Satu orang menggambar kata, yang lain menebak lewat chat. Makin cepat menebak, makin besar poinnya, dan penggambar dapat poin dari setiap tebakan benar."
+      ]
+    ],
+    "note": "Semua game bisa dicoba dulu sendirian bersama bot di mode Cara bermain."
+  },
+  "faq": {
+    "title": "Pertanyaan umum",
+    "items": [
+      {
+        "q": "Ruangannya nggak kelihatan.",
+        "a": "Pastikan host dan pemain ada di Wi-Fi yang sama atau saling berdekatan. Arena Game Cahaya Bulan harus aktif di Pengaturan ▸ Privasi & Keamanan ▸ Jaringan Lokal agar bisa menemukan perangkat di dekatmu. Menyalakan Wi-Fi dan Bluetooth sekaligus bikin koneksi paling stabil."
+      },
+      {
+        "q": "Harus mengizinkan akses jaringan lokal?",
+        "a": "Ya. Dengan itu aplikasi menemukan iPhone di dekatmu dan tersambung. Kalau terlanjur menolak, nyalakan lagi di Pengaturan ▸ Privasi & Keamanan ▸ Jaringan Lokal."
+      },
+      {
+        "q": "Koneksi putus di tengah permainan.",
+        "a": "Buka lagi aplikasinya dan ketuk Lanjutkan di layar utama untuk kembali ke ruangan dan ronde yang sama. Peran dan skormu masih ada. Kalau lama nggak tersambung, gabung lagi dari daftar ruangan."
+      },
+      {
+        "q": "Ada yang nggak merespons dan game macet.",
+        "a": "Host bisa mengeluarkan pemain yang tidak merespons kapan saja, lalu game dihitung ulang dengan pemain yang tersisa dan lanjut. Mode host GM juga bisa melewati tahap yang macet."
+      },
+      {
+        "q": "Minimal berapa orang?",
+        "a": "Ordo Cahaya Bulan butuh 5 orang. Permainan Si Pembohong, Malam Tanpa Bulan, dan Studio Cahaya Bulan bisa mulai dari 3. Semuanya sampai 15. Kurang orang? Pelajari aturannya dulu bareng bot di mode Cara bermain."
+      },
+      {
+        "q": "Perlu internet atau akun?",
+        "a": "Nggak. Tanpa daftar, tanpa login, tanpa internet. iPhone yang berdekatan tersambung langsung, dan data game tidak pernah dikirim ke server."
+      },
+      {
+        "q": "Bisa coba main sendirian dulu?",
+        "a": "Bisa. Pilih game, lalu Cara bermain (latihan dengan bot). Bot masuk ke ruangan dan kamu main satu ronde penuh langkah demi langkah."
+      },
+      {
+        "q": "Bagaimana melaporkan bug atau kirim ide?",
+        "a": "Langsung dari aplikasi di Pengaturan (ikon roda gigi) ▸ Dukungan, atau kirim email ke alamat di bawah. Kami akan membalas secepatnya."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Kumpul malam ini\nmulai dari sini",
+    "cta": "Unduh gratis di App Store"
+  },
+  "ui": {
+    "skip": "Langsung ke konten",
+    "languages": "Bahasa",
+    "privacy": "Kebijakan Privasi",
+    "contact": "Laporan bug, ide, atau pertanyaan lain: kirim email ke {email}."
+  }
+}

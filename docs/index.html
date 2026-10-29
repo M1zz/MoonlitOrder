@@ -1,155 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>달빛 오락실 · 지원</title>
-<meta name="description" content="달빛 오락실은 인터넷 없이 근처 아이폰끼리 연결해 즐기는 오프라인 파티게임 모음입니다.">
-<!--HREFLANG-->
-<link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/index.html">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/index.html">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/index.html">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/index.html">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/index.html">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/index.html">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/index.html">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/index.html">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/index.html">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/index.html">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/index.html">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/index.html">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/index.html">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/index.html">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/index.html">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/index.html">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/index.html">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/index.html">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/index.html">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/index.html">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/index.html">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/index.html">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/index.html">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/index.html">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<!--/HREFLANG-->
-<style>
-  :root{
-    --bg1:#0f1226; --bg2:#211840; --card:rgba(255,255,255,.06);
-    --stroke:rgba(255,255,255,.12); --text:#f4f3fb; --muted:rgba(244,243,251,.62);
-    --gold:#f2c759; --blue:#73bfff; --red:#f25a6b; --mint:#59d1b8;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",
-      "Malgun Gothic",sans-serif;
-    color:var(--text); line-height:1.7;
-    background:linear-gradient(180deg,var(--bg1),var(--bg2)) fixed;
-    min-height:100vh; -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 80px}
-  header{text-align:center;margin-bottom:44px}
-  .logo{font-size:52px;line-height:1}
-  h1{font-size:34px;font-weight:800;margin:14px 0 6px;letter-spacing:-.5px}
-  .sub{color:var(--muted);font-size:15px}
-  .badge{display:inline-block;margin-top:14px;padding:5px 12px;border-radius:999px;
-    background:rgba(89,209,184,.14);color:var(--mint);font-size:13px;font-weight:600}
-  section{background:var(--card);border:1px solid var(--stroke);border-radius:18px;
-    padding:26px 24px;margin:18px 0}
-  h2{font-size:20px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:9px}
-  h2 .ic{font-size:22px}
-  h3{font-size:16px;font-weight:700;margin:18px 0 4px;color:var(--gold)}
-  p,li{color:var(--text);font-size:15.5px}
-  .muted{color:var(--muted)}
-  ul{padding-left:20px;margin:8px 0}
-  li{margin:6px 0}
-  .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:8px}
-  .game{background:rgba(255,255,255,.04);border:1px solid var(--stroke);border-radius:14px;padding:14px}
-  .game .n{font-weight:700;font-size:15px}
-  .game .d{color:var(--muted);font-size:13px;margin-top:3px}
-  .qa{margin:16px 0}
-  .qa .q{font-weight:700;color:var(--blue);font-size:15.5px}
-  .qa .a{color:var(--text);margin-top:3px}
-  a{color:var(--mint);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .contact{text-align:center;background:rgba(242,199,89,.10);border-color:rgba(242,199,89,.28)}
-  .contact .mail{font-size:20px;font-weight:800;color:var(--gold);display:inline-block;margin-top:6px}
-  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:36px;line-height:1.9}
-  footer a{color:var(--muted);text-decoration:underline}
-.langs{display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:center;margin-top:16px;font-size:13px}.langs a{color:var(--muted);text-decoration:none}.langs a[aria-current]{color:var(--gold);font-weight:700}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>달빛 오락실: 인터넷 없이 아이폰끼리 하는 파티게임</title>
+  <meta name="description" content="모인 사람들의 아이폰을 인터넷 없이 바로 연결해 라이어 게임, 정체 추리, 그림 맞히기를 최대 15명이 함께 합니다. 모든 게임 무료.">
+  <meta name="theme-color" content="#9A6B00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1226" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6790137862">
+  <link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="달빛 오락실: 인터넷 없이 아이폰끼리 하는 파티게임">
+  <meta property="og:description" content="모인 사람들의 아이폰을 인터넷 없이 바로 연결해 라이어 게임, 정체 추리, 그림 맞히기를 최대 15명이 함께 합니다. 모든 게임 무료.">
+  <meta property="og:url" content="https://m1zz.github.io/MoonlitOrder/">
+  <meta property="og:image" content="https://m1zz.github.io/MoonlitOrder/img/ko/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="demo.css">
+  <style>:root{--accent:#9A6B00}@media (prefers-color-scheme:dark){:root{--accent:#F2C759}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="logo">🌙</div>
-    <h1>달빛 오락실</h1>
-    <div class="sub">가까운 친구들과 즐기는 오프라인 파티게임</div>
-    <div class="badge">고객 지원</div>
-    <!--LANGNAV--><nav class="langs" aria-label="Language"><a href="index.html" hreflang="ko" lang="ko" aria-current="page">한국어</a><a href="en/index.html" hreflang="en" lang="en">English</a><a href="en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a><a href="ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="es/index.html" hreflang="es" lang="es">Español</a><a href="de/index.html" hreflang="de" lang="de">Deutsch</a><a href="fr/index.html" hreflang="fr" lang="fr">Français</a><a href="it/index.html" hreflang="it" lang="it">Italiano</a><a href="pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="th/index.html" hreflang="th" lang="th">ไทย</a><a href="vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="da/index.html" hreflang="da" lang="da">Dansk</a><a href="el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--/LANGNAV-->
+  <a class="skip" href="#main">본문으로 건너뛰기</a>
+  <header class="bar">
+    <a class="brand" href=""><img src="icon.png" alt="" width="32" height="32">달빛 오락실</a>
+    <a class="lang-link" href="#languages">언어</a>
   </header>
 
-  <section>
-    <h2><span class="ic">🎲</span>어떤 앱인가요?</h2>
-    <p><strong>달빛 오락실</strong>은 인터넷 없이 근처에 있는 아이폰끼리 직접 연결해 즐기는
-      소셜 추리·파티게임 모음입니다. 같은 Wi-Fi 또는 블루투스 범위 안이면 서버 없이 바로 방을 만들고 참가할 수 있어요.</p>
-    <div class="games">
-      <div class="game"><div class="n">🌙 달빛 결사</div><div class="d">5~15인 · 숨어든 그림자를 찾는 정체 추리</div></div>
-      <div class="game"><div class="n">🎭 라이어 게임</div><div class="d">3~15인 · 제시어를 모르는 한 명을 찾아라</div></div>
-      <div class="game"><div class="n">🔥 달 없는 밤</div><div class="d">3~15인 · 도깨비가 숨어든 하룻밤 추리</div></div>
-      <div class="game"><div class="n">🖌️ 달빛 화실</div><div class="d">3~15인 · 한 명이 그리고 나머지가 맞히기</div></div>
-    </div>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>모이면 바로,<br>각자의 아이폰으로</h1>
+        <p class="lead">한 사람이 방을 만들면 나머지는 근처에서 바로 들어옵니다. 역할과 제시어는 각자 화면에만 보이니 카드도, 진행자 메모도 필요 없습니다.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6790137862">App Store에서 무료로 받기</a><a class="try" href="#try">라이어 게임 한 판 맛보기 ↓</a></div>
+        <p class="muted small">모든 게임 무료. 계정도 인터넷도 필요 없습니다.</p>
+      </div>
+      <div class="phone"><img src="img/ko/01-home.jpg" alt="모이면 바로, 각자의 아이폰으로" width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2><span class="ic">▶️</span>플레이 방법</h2>
-    <ul>
-      <li>닉네임을 입력하고 즐길 게임을 고릅니다.</li>
-      <li>한 사람이 <strong>‘방 만들기(호스트)’</strong>를 누르면 나머지는 <strong>‘게임 참가’</strong>로 방에 들어갑니다.</li>
-      <li>같은 Wi-Fi 또는 근거리(블루투스) 안이면 자동으로 서로를 찾습니다. 인터넷 연결은 필요 없습니다.</li>
-      <li>처음 접속 시 <strong>로컬 네트워크 접근 허용</strong>을 눌러야 주변 기기를 찾을 수 있습니다.</li>
-      <li>각 게임은 <strong>‘게임방법(봇과 연습)’</strong>에서 봇들과 한 단계씩 규칙을 익힐 수 있어요.</li>
-    </ul>
-  </section>
 
-  <section>
-    <h2><span class="ic">🛠️</span>자주 묻는 질문</h2>
+    <section class="reveal" id="try">
+      <h2>라이어 게임 한 판 맛보기</h2>
+      <p class="muted">아이폰 다섯 대가 놓여 있다고 생각하고 하나씩 눌러 확인해 보세요. 한 명만 제시어를 모릅니다. 친구들과 화면을 돌려 가며 해도 됩니다.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;라이어 게임 한 판 맛보기&quot;, &quot;lead&quot;: &quot;아이폰 다섯 대가 놓여 있다고 생각하고 하나씩 눌러 확인해 보세요. 한 명만 제시어를 모릅니다. 친구들과 화면을 돌려 가며 해도 됩니다.&quot;, &quot;tap&quot;: &quot;눌러서 확인&quot;, &quot;reveal&quot;: &quot;라이어 공개&quot;, &quot;again&quot;: &quot;새 판&quot;, &quot;caughtNote&quot;: &quot;투표로 라이어를 잡았다면, 라이어에게 마지막 기회가 있습니다.&quot;, &quot;note&quot;: &quot;앱에서는 각자 자기 아이폰으로 확인하고, 순서대로 설명한 뒤 투표합니다. 제시어는 앱과 같은 단어 목록에서 뽑습니다.&quot;, &quot;app&quot;: {&quot;game&quot;: &quot;라이어 게임&quot;, &quot;sub&quot;: &quot;모두 같은 제시어, 단 한 명만 모른다&quot;, &quot;arrived&quot;: &quot;제시어가 도착했습니다&quot;, &quot;secret&quot;: &quot;다른 사람에게 화면이 보이지 않게 확인하세요&quot;, &quot;gotIt&quot;: &quot;확인했어요&quot;, &quot;word&quot;: &quot;제시어&quot;, &quot;cat&quot;: &quot;카테고리: {1}&quot;, &quot;liarYou&quot;: &quot;당신이 라이어입니다!&quot;, &quot;liarHint&quot;: &quot;제시어를 모르지만 아는 척 설명해야 합니다. 들키지 마세요!&quot;, &quot;liar&quot;: &quot;라이어&quot;, &quot;caught&quot;: &quot;라이어 검거!&quot;, &quot;pick&quot;: &quot;제시어를 골라보세요 — 단 한 번의 기회!&quot;, &quot;liarWin&quot;: &quot;라이어 승리!&quot;, &quot;citizenWin&quot;: &quot;시민 승리!&quot;, &quot;me&quot;: &quot;나&quot;, &quot;bots&quot;: [&quot;달토끼&quot;, &quot;밤바람&quot;, &quot;은하수&quot;, &quot;그믐달&quot;], &quot;words&quot;: {&quot;음식&quot;: [&quot;김치찌개&quot;, &quot;삼겹살&quot;, &quot;떡볶이&quot;, &quot;치킨&quot;, &quot;피자&quot;, &quot;초밥&quot;, &quot;라면&quot;, &quot;비빔밥&quot;, &quot;냉면&quot;, &quot;갈비탕&quot;, &quot;파스타&quot;, &quot;햄버거&quot;, &quot;김밥&quot;, &quot;순대&quot;, &quot;족발&quot;, &quot;샐러드&quot;], &quot;동물&quot;: [&quot;코끼리&quot;, &quot;기린&quot;, &quot;펭귄&quot;, &quot;호랑이&quot;, &quot;판다&quot;, &quot;고슴도치&quot;, &quot;캥거루&quot;, &quot;부엉이&quot;, &quot;돌고래&quot;, &quot;문어&quot;, &quot;다람쥐&quot;, &quot;악어&quot;, &quot;낙타&quot;, &quot;수달&quot;, &quot;앵무새&quot;, &quot;두더지&quot;], &quot;장소&quot;: [&quot;놀이공원&quot;, &quot;도서관&quot;, &quot;찜질방&quot;, &quot;영화관&quot;, &quot;편의점&quot;, &quot;지하철역&quot;, &quot;미용실&quot;, &quot;병원&quot;, &quot;학교&quot;, &quot;캠핑장&quot;, &quot;수영장&quot;, &quot;공항&quot;, &quot;시장&quot;, &quot;카페&quot;, &quot;노래방&quot;, &quot;헬스장&quot;], &quot;직업&quot;: [&quot;소방관&quot;, &quot;의사&quot;, &quot;요리사&quot;, &quot;프로그래머&quot;, &quot;유튜버&quot;, &quot;선생님&quot;, &quot;경찰관&quot;, &quot;농부&quot;, &quot;파일럿&quot;, &quot;미용사&quot;, &quot;가수&quot;, &quot;운동선수&quot;, &quot;사진작가&quot;, &quot;변호사&quot;, &quot;어부&quot;, &quot;바리스타&quot;], &quot;물건&quot;: [&quot;우산&quot;, &quot;선풍기&quot;, &quot;냉장고&quot;, &quot;칫솔&quot;, &quot;베개&quot;, &quot;리모컨&quot;, &quot;텀블러&quot;, &quot;이어폰&quot;, &quot;가위&quot;, &quot;담요&quot;, &quot;거울&quot;, &quot;시계&quot;, &quot;충전기&quot;, &quot;슬리퍼&quot;, &quot;마스크&quot;, &quot;지갑&quot;], &quot;스포츠&quot;: [&quot;축구&quot;, &quot;야구&quot;, &quot;농구&quot;, &quot;배드민턴&quot;, &quot;수영&quot;, &quot;볼링&quot;, &quot;태권도&quot;, &quot;골프&quot;, &quot;탁구&quot;, &quot;스키&quot;, &quot;클라이밍&quot;, &quot;요가&quot;, &quot;복싱&quot;, &quot;양궁&quot;, &quot;펜싱&quot;, &quot;마라톤&quot;]}}}"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">주변에서 방이 보이지 않아요.</div>
-      <div class="a">호스트와 참가자가 <strong>같은 Wi-Fi</strong>에 연결돼 있거나 서로 가까이 있는지 확인하세요.
-        설정 &gt; 개인정보 보호 및 보안 &gt; <strong>로컬 네트워크</strong>에서 달빛 오락실이 켜져 있어야 합니다.
-        Wi-Fi와 블루투스를 모두 켜두면 가장 안정적으로 연결됩니다.</div>
-    </div>
+    <section class="problem reveal">
+      <h2>여럿이 모였는데, 뭘 하고 놀지 막막할 때</h2>
+      <p>MT, 회식 뒤풀이, 명절 저녁. 마피아를 하려면 누군가 진행을 맡아 게임에서 빠져야 하고, 종이 쪽지는 접다가 다 보입니다. 와이파이가 약한 숙소에서는 온라인 게임도 안 됩니다. 달빛 오락실은 진행도, 역할 나누기도, 연결도 아이폰이 대신합니다.</p>
+    </section>
 
-    <div class="qa">
-      <div class="q">게임 중 연결이 끊겼어요.</div>
-      <div class="a">앱을 다시 열면 같은 방으로 <strong>자동 재접속</strong>되어 진행 중이던 판으로 복귀합니다.
-        일정 시간 안에 다시 연결되지 않으면 방 목록에서 다시 참가해 주세요.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>역할과 제시어는 내 화면에만</h2>
+        <p>게임이 시작되면 각자의 아이폰에 역할이나 제시어가 따로 도착합니다. 카드를 돌리거나 다 같이 눈을 감을 필요가 없습니다.<br>투표할 때는 누가 투표를 마쳤는지만 보이고, 어디에 투표했는지는 공개될 때까지 비밀입니다.</p>
+      </div>
+      <div class="phone"><img src="img/ko/02-role.jpg" alt="역할과 제시어는 내 화면에만" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">최소 몇 명이 필요한가요?</div>
-      <div class="a">달빛 결사는 5명, 나머지 게임은 3명부터 시작할 수 있고 최대 15명까지 함께 즐길 수 있습니다.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>분위기에 맞는 네 가지 게임</h2>
+        <p>말솜씨로 겨루는 라이어 게임, 원정과 투표로 그림자를 찾는 달빛 결사, 하룻밤 사이 도깨비를 찾는 달 없는 밤, 한 명이 그리고 모두가 맞히는 달빛 화실.<br>달빛 결사는 5명부터, 나머지는 3명부터 최대 15명까지 함께합니다.</p>
+      </div>
+      <div class="phone"><img src="img/ko/04-draw.jpg" alt="분위기에 맞는 네 가지 게임" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">인터넷이나 계정이 필요한가요?</div>
-      <div class="a">아니요. 회원가입·로그인·인터넷 연결 없이 오프라인으로 플레이합니다. 게임 데이터는 서버로 전송되지 않습니다.</div>
-    </div>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>처음 해 보는 게임도 금방</h2>
+        <p>게임마다 게임방법 모드가 있어서 봇들과 한 단계씩 직접 해 보며 규칙을 익힙니다. 화면 위 안내를 읽고 다음을 누르면 됩니다.<br>앱이 꺼지거나 연결이 끊겨도 홈 화면의 이어서 하기로 하던 판에 그대로 돌아옵니다.</p>
+      </div>
+      <div class="phone"><img src="img/ko/03-vote.jpg" alt="처음 해 보는 게임도 금방" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-  <section class="contact">
-    <h2 style="justify-content:center"><span class="ic">✉️</span>문의하기</h2>
-    <p class="muted">버그 제보, 건의, 그 밖의 문의는 앱의 설정(톱니바퀴) &gt; 지원에서 바로 보내시거나 아래 이메일로 연락 주세요. 최대한 빠르게 답변드리겠습니다.</p>
-    <a class="mail" href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>
-  </section>
+    <section class="reveal">
+      <h2>시작은 세 단계면 됩니다</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>닉네임과 게임 고르기</h3><p>모두 앱을 열고 닉네임을 적은 뒤 할 게임을 고릅니다.</p></li>
+<li class="card"><span class="n">2</span><h3>방 만들기, 참가하기</h3><p>한 사람이 방을 만들고, 나머지는 주변 방 찾기로 들어옵니다.</p></li>
+<li class="card"><span class="n">3</span><h3>방장이 시작</h3><p>모두 들어오면 방장이 시작을 누릅니다. 진행은 앱이 맡습니다.</p></li></ol>
+    </section>
 
+    <section class="reveal" id="commands">
+      <h2>네 가지 게임</h2>
+      <div class="card table">
+        <dl><div><dt>라이어 게임 · 3~15명</dt><dd>모두 같은 제시어를 받는데 한 명만 모릅니다. 돌아가며 한 마디씩 설명하고 라이어를 투표로 찾습니다. 잡힌 라이어가 제시어를 맞히면 역전승입니다.</dd></div><div><dt>달빛 결사 · 5~15명</dt><dd>결사 단원 사이에 숨은 그림자를 찾는 정체 추리입니다. 리더가 원정대를 고르면 모두 찬반 투표를 하고, 원정대는 몰래 성공이나 실패를 냅니다. 원정 세 번이 먼저 성공하느냐 실패하느냐로 승부가 납니다.</dd></div><div><dt>달 없는 밤 · 3~15명</dt><dd>도깨비가 숨어든 하룻밤입니다. 밤에는 무당, 밤손님, 장난꾼이 각자 몰래 움직이고, 날이 밝으면 토론 뒤 단 한 번의 투표로 도깨비를 찾습니다.</dd></div><div><dt>달빛 화실 · 3~15명</dt><dd>한 명이 제시어를 그리고 나머지가 채팅으로 맞힙니다. 빨리 맞힐수록 점수가 높고, 많이 맞힐수록 화가도 점수를 얻습니다.</dd></div></dl>
+      </div>
+      <p class="muted">어느 게임이든 게임방법 모드에서 혼자 봇들과 먼저 해 볼 수 있습니다.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>자주 묻는 질문</h2>
+      <div class="faq"><details><summary>주변에서 방이 보이지 않아요.</summary><p>방장과 참가자가 같은 Wi-Fi에 있거나 서로 가까이 있는지 확인해 주세요. 설정 ▸ 개인정보 보호 및 보안 ▸ 로컬 네트워크에서 달빛 오락실이 켜져 있어야 주변 기기를 찾을 수 있습니다. Wi-Fi와 블루투스를 모두 켜 두면 가장 안정적으로 연결됩니다.</p></details>
+<details><summary>처음 열 때 로컬 네트워크 허용을 묻는데 꼭 눌러야 하나요?</summary><p>네. 근처 아이폰을 찾아 연결하는 데 필요합니다. 실수로 거부했다면 설정 ▸ 개인정보 보호 및 보안 ▸ 로컬 네트워크에서 다시 켤 수 있습니다.</p></details>
+<details><summary>게임 중에 연결이 끊겼어요.</summary><p>앱을 다시 열고 홈 화면의 이어서 하기를 누르면 같은 방, 하던 판으로 돌아옵니다. 역할과 점수도 그대로 남아 있습니다. 오래 돌아오지 못하면 방 목록에서 다시 참가해 주세요.</p></details>
+<details><summary>누가 응답이 없어서 게임이 멈췄어요.</summary><p>방장은 응답 없는 참가자를 언제든 내보낼 수 있고, 게임은 남은 인원으로 다시 판정해 이어집니다. 진행자 모드에서는 멈춘 단계를 넘길 수도 있습니다.</p></details>
+<details><summary>최소 몇 명이 필요한가요?</summary><p>달빛 결사는 5명, 라이어 게임, 달 없는 밤, 달빛 화실은 3명부터 시작할 수 있고, 모두 최대 15명까지 함께합니다. 사람이 모자라면 게임방법 모드에서 봇들과 규칙부터 익혀 보세요.</p></details>
+<details><summary>인터넷이나 계정이 필요한가요?</summary><p>아니요. 회원가입, 로그인, 인터넷 연결 없이 근처 아이폰끼리 직접 연결해 플레이합니다. 게임 데이터는 서버로 보내지 않습니다.</p></details>
+<details><summary>시리로 방을 만들 수 있나요?</summary><p>네. <code>달빛 오락실에서 방 만들기</code>, <code>달빛 오락실에서 주변 방 찾기</code>라고 말하면 됩니다. 단축어 앱에서 봇과 연습하기도 쓸 수 있습니다.</p></details>
+<details><summary>버그를 알리거나 건의하고 싶어요.</summary><p>앱의 설정(톱니바퀴) ▸ 지원에서 바로 보내거나 아래 이메일로 연락해 주세요. 최대한 빨리 답변드리겠습니다.</p></details></div>
+      <p class="contact">버그 제보, 건의, 그 밖의 문의는 <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>로 보내 주세요.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>오늘 모임은<br>달빛 오락실에서</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6790137862">App Store에서 무료로 받기</a>
+    </section>
+  </main>
 
   <footer>
-    달빛 오락실<br>
-    <a href="privacy.html">개인정보 처리방침</a>
+    <nav id="languages" class="langs" aria-label="언어"><a href="" hreflang="ko" lang="ko" aria-current="page">한국어</a>
+<a href="en/" hreflang="en" lang="en">English</a>
+<a href="en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="es/" hreflang="es" lang="es">Español</a>
+<a href="de/" hreflang="de" lang="de">Deutsch</a>
+<a href="fr/" hreflang="fr" lang="fr">Français</a>
+<a href="it/" hreflang="it" lang="it">Italiano</a>
+<a href="pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="th/" hreflang="th" lang="th">ไทย</a>
+<a href="vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="da/" hreflang="da" lang="da">Dansk</a>
+<a href="el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">개인정보처리방침</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Moonlit Arcade</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="demo.js"></script>
 </body>
 </html>

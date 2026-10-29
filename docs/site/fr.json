@@ -1,0 +1,259 @@
+{
+  "title": "Arcade Lunaire : jeux de soirée entre iPhone, sans Internet",
+  "description": "Reliez les iPhone de tout le monde, sans Internet, et jouez jusqu’à 15 au Jeu du Menteur, à des jeux de rôles cachés ou au dessin à deviner, gratuitement.",
+  "hero": {
+    "headline": "Tout le monde est là ?\nSortez vos iPhone.",
+    "lead": "Une personne crée un salon, et tous ceux à proximité le rejoignent en quelques secondes. Rôles et mots secrets n’apparaissent que sur l’écran de chacun : pas de cartes, et personne n’est coincé à animer.",
+    "cta": "Télécharger gratuitement sur l’App Store",
+    "note": "Tous les jeux sont gratuits. Ni compte, ni Internet."
+  },
+  "demo": {
+    "title": "Une partie de Jeu du Menteur",
+    "lead": "Imaginez cinq iPhone posés sur la table et touchez-les un par un pour regarder. Un seul joueur ne connaît pas le mot. Vous pouvez aussi faire passer l’écran entre amis.",
+    "tap": "Toucher pour voir",
+    "reveal": "Révéler le Menteur",
+    "again": "Nouvelle partie",
+    "caughtNote": "Même démasqué par le vote, le Menteur a encore une dernière chance.",
+    "note": "Dans l’app, chacun regarde son propre iPhone, décrit le mot à son tour, puis tout le monde vote. Les mots viennent de la même liste que l’app.",
+    "app": {
+      "game": "Jeu du Menteur",
+      "sub": "Tout le monde a le même mot. Un seul ne le connaît pas.",
+      "arrived": "Le mot est arrivé",
+      "secret": "Regardez là où personne ne peut voir l’écran",
+      "gotIt": "Vu",
+      "word": "Mot",
+      "cat": "Catégorie : {1}",
+      "liarYou": "Vous êtes le Menteur !",
+      "liarHint": "Vous ne connaissez pas le mot, mais vous devez le décrire comme si vous le connaissiez. Ne vous faites pas prendre !",
+      "liar": "Menteur",
+      "caught": "Menteur démasqué !",
+      "pick": "Choisissez le mot — vous n’avez qu’une seule chance !",
+      "liarWin": "Le Menteur gagne !",
+      "citizenWin": "Les citoyens gagnent !",
+      "me": "Moi",
+      "bots": [
+        "Lapin Lunaire",
+        "Brise de Nuit",
+        "Voie Lactée",
+        "Lune Décroissante"
+      ],
+      "words": {
+        "Cuisine": [
+          "Ragoût de kimchi",
+          "Poitrine de porc grillée",
+          "Tteokbokki",
+          "Poulet frit",
+          "Pizza",
+          "Sushi",
+          "Ramen",
+          "Bibimbap",
+          "Nouilles froides",
+          "Soupe de côtes de bœuf",
+          "Pâtes",
+          "Hamburger",
+          "Gimbap",
+          "Boudin coréen",
+          "Pieds de porc",
+          "Salade"
+        ],
+        "Animaux": [
+          "Éléphant",
+          "Girafe",
+          "Pingouin",
+          "Tigre",
+          "Panda",
+          "Hérisson",
+          "Kangourou",
+          "Hibou",
+          "Dauphin",
+          "Pieuvre",
+          "Écureuil",
+          "Crocodile",
+          "Chameau",
+          "Loutre",
+          "Perroquet",
+          "Taupe"
+        ],
+        "Lieux": [
+          "Parc d’attractions",
+          "Bibliothèque",
+          "Sauna coréen",
+          "Cinéma",
+          "Supérette",
+          "Station de métro",
+          "Salon de coiffure",
+          "Hôpital",
+          "École",
+          "Camping",
+          "Piscine",
+          "Aéroport",
+          "Marché",
+          "Café",
+          "Karaoké",
+          "Salle de sport"
+        ],
+        "Métiers": [
+          "Pompier",
+          "Médecin",
+          "Cuisinier",
+          "Programmeur",
+          "YouTubeur",
+          "Professeur",
+          "Policier",
+          "Agriculteur",
+          "Pilote",
+          "Coiffeur",
+          "Chanteur",
+          "Sportif",
+          "Photographe",
+          "Avocat",
+          "Pêcheur",
+          "Barista"
+        ],
+        "Objets": [
+          "Parapluie",
+          "Ventilateur",
+          "Réfrigérateur",
+          "Brosse à dents",
+          "Oreiller",
+          "Télécommande",
+          "Gourde isotherme",
+          "Écouteurs",
+          "Ciseaux",
+          "Couverture",
+          "Miroir",
+          "Horloge",
+          "Chargeur",
+          "Chaussons",
+          "Masque",
+          "Portefeuille"
+        ],
+        "Sports": [
+          "Football",
+          "Baseball",
+          "Basket-ball",
+          "Badminton",
+          "Natation",
+          "Bowling",
+          "Taekwondo",
+          "Golf",
+          "Tennis de table",
+          "Ski",
+          "Escalade",
+          "Yoga",
+          "Boxe",
+          "Tir à l’arc",
+          "Escrime",
+          "Marathon"
+        ]
+      }
+    }
+  },
+  "problem": {
+    "title": "Tout le monde est là, mais on ne sait pas à quoi jouer",
+    "text": "Soirée jeux, week-end entre amis, réveillon en famille. Pour un loup-garou, quelqu’un doit sortir du jeu pour animer, et les papiers pliés ne restent jamais secrets. Dans un gîte au Wi-Fi capricieux, les jeux en ligne sont exclus. Arcade Lunaire confie l’animation, la distribution des rôles et la connexion aux iPhone."
+  },
+  "features": [
+    {
+      "title": "Votre rôle reste sur votre écran",
+      "text": "Au lancement, chaque iPhone reçoit son rôle ou son mot. Pas de cartes à distribuer, pas de « tout le monde ferme les yeux ».\nPendant le vote, on voit seulement qui a voté. Qui a voté pour qui reste secret jusqu’à la révélation.",
+      "shot": "02-role"
+    },
+    {
+      "title": "Quatre jeux pour toutes les tablées",
+      "text": "Le Jeu du Menteur se joue à la tchatche, l’Ordre Lunaire traque les Ombres à coups de missions et de votes, la Nuit sans Lune cherche le Gobelin en une nuit, et dans l’Atelier Lunaire l’un dessine pendant que les autres devinent.\nL’Ordre Lunaire se joue dès 5, les autres dès 3, et tous jusqu’à 15.",
+      "shot": "04-draw"
+    },
+    {
+      "title": "Un nouveau jeu ? Appris en quelques minutes",
+      "text": "Chaque jeu a un mode Comment jouer où vous faites une partie avec des bots, étape par étape. Lisez l’astuce en haut et touchez Suivant.\nSi l’app se ferme ou si la connexion saute, touchez Reprendre sur l’écran d’accueil pour retrouver la même partie.",
+      "shot": "03-vote"
+    }
+  ],
+  "steps": {
+    "title": "Trois étapes pour commencer",
+    "items": [
+      {
+        "title": "Pseudo et jeu",
+        "text": "Chacun ouvre l’app, saisit un pseudo et choisit le jeu."
+      },
+      {
+        "title": "Créer ou rejoindre un salon",
+        "text": "Une personne crée un salon, les autres le trouvent avec Chercher des salons à proximité."
+      },
+      {
+        "title": "L’hôte lance",
+        "text": "Quand tout le monde est là, l’hôte touche Lancer la partie. L’app s’occupe du reste."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Les quatre jeux",
+    "rows": [
+      [
+        "Jeu du Menteur · 3 à 15 joueurs",
+        "Tout le monde reçoit le même mot, sauf un. Chacun le décrit à son tour, puis on vote pour désigner le Menteur. Démasqué, le Menteur gagne quand même s’il devine le mot."
+      ],
+      [
+        "Ordre Lunaire · 5 à 15 joueurs",
+        "Démasquez les Ombres cachées dans l’Ordre. Le chef compose une équipe, tout le monde vote pour ou contre, puis l’équipe joue en secret réussite ou échec. Le premier camp à remporter trois missions gagne."
+      ],
+      [
+        "Nuit sans Lune · 3 à 15 joueurs",
+        "Une seule nuit, et un Gobelin se cache au village. La nuit, le Chaman, le Voleur de nuit et le Farceur agissent en secret. À l’aube, on débat et on n’a qu’un seul vote pour trouver le Gobelin."
+      ],
+      [
+        "Atelier Lunaire · 3 à 15 joueurs",
+        "Un joueur dessine le mot, les autres devinent dans le chat. Plus on devine vite, plus on marque, et le dessinateur marque pour chaque bonne réponse."
+      ]
+    ],
+    "note": "Chaque jeu peut d’abord s’essayer seul avec des bots en mode Comment jouer."
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "items": [
+      {
+        "q": "Je ne vois pas le salon.",
+        "a": "Vérifiez que l’hôte et les joueurs sont sur le même Wi-Fi ou proches les uns des autres. Arcade Lunaire doit être activée dans Réglages ▸ Confidentialité et sécurité ▸ Réseau local pour trouver les appareils à proximité. Avec le Wi-Fi et le Bluetooth activés, la connexion est la plus stable."
+      },
+      {
+        "q": "Dois-je autoriser l’accès au réseau local ?",
+        "a": "Oui, c’est ainsi que l’app trouve les iPhone à proximité et s’y connecte. Si vous avez refusé, réactivez-le dans Réglages ▸ Confidentialité et sécurité ▸ Réseau local."
+      },
+      {
+        "q": "J’ai été déconnecté en pleine partie.",
+        "a": "Rouvrez l’app et touchez Reprendre sur l’écran d’accueil pour retrouver le même salon et la même partie. Votre rôle et votre score sont conservés. Si la reconnexion tarde, rejoignez à nouveau depuis la liste des salons."
+      },
+      {
+        "q": "Quelqu’un ne répond plus et la partie est bloquée.",
+        "a": "L’hôte peut retirer un joueur inactif à tout moment : la partie recompte avec les joueurs restants et continue. Le mode hôte MJ permet aussi de passer une étape bloquée."
+      },
+      {
+        "q": "Combien de joueurs faut-il ?",
+        "a": "L’Ordre Lunaire demande 5 joueurs. Le Jeu du Menteur, la Nuit sans Lune et l’Atelier Lunaire se lancent dès 3. Tous vont jusqu’à 15. Pas assez de monde ? Apprenez les règles avec des bots en mode Comment jouer."
+      },
+      {
+        "q": "Faut-il Internet ou un compte ?",
+        "a": "Non. Ni inscription, ni connexion, ni Internet. Les iPhone à proximité se relient directement, et les données de jeu ne sont jamais envoyées à un serveur."
+      },
+      {
+        "q": "Puis-je essayer un jeu seul d’abord ?",
+        "a": "Oui. Choisissez un jeu puis Comment jouer (entraînement avec bots). Des bots rejoignent le salon et vous jouez une partie complète, étape par étape."
+      },
+      {
+        "q": "Comment signaler un bug ou proposer une idée ?",
+        "a": "Directement depuis Réglages (la roue dentée) ▸ Assistance dans l’app, ou par e-mail à l’adresse ci-dessous. Nous répondons au plus vite."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "La soirée jeux\ncommence ici",
+    "cta": "Télécharger gratuitement sur l’App Store"
+  },
+  "ui": {
+    "skip": "Aller au contenu",
+    "languages": "Langue",
+    "privacy": "Politique de confidentialité",
+    "contact": "Bug, idée ou autre question : écrivez à {email}."
+  }
+}

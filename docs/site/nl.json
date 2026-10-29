@@ -1,0 +1,259 @@
+{
+  "title": "Maanarcade: partyspellen tussen iPhones, zonder internet",
+  "description": "Verbind de iPhones van iedereen in de buurt zonder internet en speel met maximaal 15 het Leugenaarsspel, verborgen rollen of tekenen en raden. Gratis.",
+  "hero": {
+    "headline": "Is iedereen er?\nPak je iPhone.",
+    "lead": "Eén persoon maakt een kamer en iedereen in de buurt doet binnen seconden mee. Rollen en geheime woorden staan alleen op je eigen scherm: geen kaartjes en niemand die aan de kant moet zitten als spelleider.",
+    "cta": "Gratis in de App Store",
+    "note": "Alle spellen gratis. Geen account, geen internet."
+  },
+  "demo": {
+    "title": "Speel een ronde Leugenaarsspel",
+    "lead": "Stel je vijf iPhones op tafel voor en tik ze één voor één aan om te kijken. Maar één speler kent het woord niet. Je kunt het scherm ook rond laten gaan.",
+    "tap": "Tik om te kijken",
+    "reveal": "Onthul de leugenaar",
+    "again": "Nieuwe ronde",
+    "caughtNote": "Ook als de stemming de leugenaar ontmaskert, heeft die nog één laatste kans.",
+    "note": "In de app kijkt iedereen op zijn eigen iPhone, beschrijft om de beurt het woord en dan wordt er gestemd. De woorden komen uit dezelfde lijst als in de app.",
+    "app": {
+      "game": "Het Leugenaarsspel",
+      "sub": "Iedereen heeft hetzelfde woord. Slechts één kent het niet.",
+      "arrived": "Het woord is binnen",
+      "secret": "Kijk waar niemand het scherm kan zien",
+      "gotIt": "Gezien",
+      "word": "Woord",
+      "cat": "Categorie: {1}",
+      "liarYou": "Jij bent de Leugenaar!",
+      "liarHint": "Je kent het woord niet, maar moet het beschrijven alsof je het kent. Laat je niet betrappen!",
+      "liar": "Leugenaar",
+      "caught": "Leugenaar gepakt!",
+      "pick": "Kies het woord — je hebt maar één kans!",
+      "liarWin": "De Leugenaar wint!",
+      "citizenWin": "De burgers winnen!",
+      "me": "Ik",
+      "bots": [
+        "Maanhaas",
+        "Nachtbries",
+        "Melkweg",
+        "Afnemende Maan"
+      ],
+      "words": {
+        "Eten": [
+          "Kimchi-stoofpot",
+          "Gegrilde buikspek",
+          "Tteokbokki",
+          "Gebakken kip",
+          "Pizza",
+          "Sushi",
+          "Ramen",
+          "Bibimbap",
+          "Koude noedels",
+          "Ribbetjessoep",
+          "Pasta",
+          "Hamburger",
+          "Gimbap",
+          "Koreaanse bloedworst",
+          "Varkenspoten",
+          "Salade"
+        ],
+        "Dieren": [
+          "Olifant",
+          "Giraffe",
+          "Pinguïn",
+          "Tijger",
+          "Panda",
+          "Egel",
+          "Kangoeroe",
+          "Uil",
+          "Dolfijn",
+          "Octopus",
+          "Eekhoorn",
+          "Krokodil",
+          "Kameel",
+          "Otter",
+          "Papegaai",
+          "Mol"
+        ],
+        "Plaatsen": [
+          "Pretpark",
+          "Bibliotheek",
+          "Koreaanse spa",
+          "Bioscoop",
+          "Buurtwinkel",
+          "Metrostation",
+          "Kapsalon",
+          "Ziekenhuis",
+          "School",
+          "Camping",
+          "Zwembad",
+          "Luchthaven",
+          "Markt",
+          "Café",
+          "Karaoke",
+          "Sportschool"
+        ],
+        "Beroepen": [
+          "Brandweerman",
+          "Arts",
+          "Kok",
+          "Programmeur",
+          "YouTuber",
+          "Leraar",
+          "Politieagent",
+          "Boer",
+          "Piloot",
+          "Kapper",
+          "Zanger",
+          "Atleet",
+          "Fotograaf",
+          "Advocaat",
+          "Visser",
+          "Barista"
+        ],
+        "Voorwerpen": [
+          "Paraplu",
+          "Ventilator",
+          "Koelkast",
+          "Tandenborstel",
+          "Kussen",
+          "Afstandsbediening",
+          "Thermosbeker",
+          "Oordopjes",
+          "Schaar",
+          "Deken",
+          "Spiegel",
+          "Klok",
+          "Oplader",
+          "Pantoffels",
+          "Mondkapje",
+          "Portemonnee"
+        ],
+        "Sport": [
+          "Voetbal",
+          "Honkbal",
+          "Basketbal",
+          "Badminton",
+          "Zwemmen",
+          "Bowlen",
+          "Taekwondo",
+          "Golf",
+          "Tafeltennis",
+          "Skiën",
+          "Klimmen",
+          "Yoga",
+          "Boksen",
+          "Boogschieten",
+          "Schermen",
+          "Marathon"
+        ]
+      }
+    }
+  },
+  "problem": {
+    "title": "Iedereen is er, maar wat gaan we spelen?",
+    "text": "Spelletjesavond, weekendje weg, kerst met de familie. Voor een spel met geheime rollen moet iemand buiten spel blijven om te leiden, en opgevouwen briefjes blijven nooit echt geheim. In een vakantiehuisje met slechte wifi vallen online spellen ook af. Bij Maanarcade regelen de iPhones de spelleiding, het verdelen van rollen en de verbinding."
+  },
+  "features": [
+    {
+      "title": "Jouw rol staat alleen op jouw scherm",
+      "text": "Bij de start krijgt elke iPhone zijn eigen rol of woord. Geen kaartjes uitdelen, geen ‘iedereen ogen dicht’.\nTijdens het stemmen zie je alleen wie al gestemd heeft. Wie op wie stemde, blijft geheim tot de onthulling.",
+      "shot": "02-role"
+    },
+    {
+      "title": "Vier spellen voor elk gezelschap",
+      "text": "In het Leugenaarsspel wint wie het mooist praat, in de Maanorde jagen jullie met missies en stemmingen op de Schaduwen, in Nacht zonder Maan zoeken jullie in één nacht de Goblin, en in het Maanatelier tekent één speler en raadt de rest.\nMaanorde vanaf 5 spelers, de rest vanaf 3, allemaal tot 15.",
+      "shot": "04-draw"
+    },
+    {
+      "title": "Nieuw spel? In een paar minuten geleerd",
+      "text": "Elk spel heeft een modus ‘Zo speel je’, waarin je stap voor stap een ronde met bots speelt. Lees de tip bovenaan en tik op Volgende.\nSluit de app of valt de verbinding weg, tik dan op Doorgaan op het beginscherm en je zit weer in dezelfde ronde.",
+      "shot": "03-vote"
+    }
+  ],
+  "steps": {
+    "title": "In drie stappen aan de slag",
+    "items": [
+      {
+        "title": "Bijnaam en spel kiezen",
+        "text": "Iedereen opent de app, vult een bijnaam in en kiest het spel."
+      },
+      {
+        "title": "Kamer maken of meedoen",
+        "text": "Eén persoon maakt een kamer, de rest vindt hem via Kamers in de buurt zoeken."
+      },
+      {
+        "title": "De host start",
+        "text": "Is iedereen binnen, dan tikt de host op Spel starten. De app doet de rest."
+      }
+    ]
+  },
+  "reference": {
+    "title": "De vier spellen",
+    "rows": [
+      [
+        "Het Leugenaarsspel · 3–15 spelers",
+        "Iedereen krijgt hetzelfde woord, op één na. Om de beurt beschrijf je het, daarna stemmen jullie op de leugenaar. Raadt de betrapte leugenaar het woord, dan wint die toch."
+      ],
+      [
+        "Maanorde · 5–15 spelers",
+        "Ontmasker de Schaduwen die zich in de Orde verschuilen. De leider kiest een missieteam, iedereen stemt voor of tegen en het team speelt in het geheim succes of mislukking. Wie als eerste drie missies binnenhaalt, wint."
+      ],
+      [
+        "Nacht zonder Maan · 3–15 spelers",
+        "Eén nacht, en er schuilt een Goblin in het dorp. ’s Nachts doen de Sjamaan, de Nachtdief en de Grappenmaker in het geheim hun ding. Bij zonsopgang wordt er overlegd en is er maar één stemming om de Goblin te vinden."
+      ],
+      [
+        "Maanatelier · 3–15 spelers",
+        "Eén speler tekent het woord, de rest raadt in de chat. Hoe sneller je het raadt, hoe meer punten, en de tekenaar scoort bij elk goed antwoord."
+      ]
+    ],
+    "note": "Elk spel kun je eerst alleen met bots uitproberen in de modus ‘Zo speel je’."
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "q": "Ik zie de kamer niet.",
+        "a": "Controleer of host en spelers op hetzelfde wifinetwerk zitten of dicht bij elkaar zijn. Maanarcade moet aanstaan bij Instellingen ▸ Privacy en beveiliging ▸ Lokaal netwerk om apparaten in de buurt te vinden. Met wifi én Bluetooth aan is de verbinding het stabielst."
+      },
+      {
+        "q": "Moet ik toegang tot het lokale netwerk toestaan?",
+        "a": "Ja, zo vindt de app iPhones in de buurt en maakt verbinding. Heb je ‘Sta niet toe’ getikt, zet het dan weer aan bij Instellingen ▸ Privacy en beveiliging ▸ Lokaal netwerk."
+      },
+      {
+        "q": "Mijn verbinding viel weg midden in het spel.",
+        "a": "Open de app opnieuw en tik op Doorgaan op het beginscherm om terug te keren naar dezelfde kamer en ronde. Je rol en score blijven bewaard. Lukt het een tijd niet, doe dan opnieuw mee via de lijst met kamers."
+      },
+      {
+        "q": "Iemand reageert niet en het spel hangt.",
+        "a": "De host kan een speler die niet reageert altijd verwijderen; het spel rekent opnieuw met de overgebleven spelers en gaat verder. In de GM-hostmodus kun je ook een vastgelopen stap overslaan."
+      },
+      {
+        "q": "Hoeveel spelers zijn er nodig?",
+        "a": "Maanorde heeft er 5 nodig. Het Leugenaarsspel, Nacht zonder Maan en het Maanatelier beginnen bij 3. Alle spellen kunnen tot 15. Te weinig mensen? Leer de regels met bots in ‘Zo speel je’."
+      },
+      {
+        "q": "Hebben we internet of een account nodig?",
+        "a": "Nee. Geen registratie, niet inloggen, geen internet. iPhones in de buurt verbinden rechtstreeks en speldata worden nooit naar een server gestuurd."
+      },
+      {
+        "q": "Kan ik een spel eerst alleen proberen?",
+        "a": "Ja. Kies een spel en daarna ‘Zo speel je (oefenen met bots)’. Er komen bots in de kamer en je speelt stap voor stap een hele ronde."
+      },
+      {
+        "q": "Hoe meld ik een fout of stuur ik een idee?",
+        "a": "Rechtstreeks in de app via Instellingen (het tandwiel) ▸ Ondersteuning, of mail naar het adres hieronder. We reageren zo snel mogelijk."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "De spelletjesavond\nbegint hier",
+    "cta": "Gratis in de App Store"
+  },
+  "ui": {
+    "skip": "Naar de inhoud",
+    "languages": "Taal",
+    "privacy": "Privacybeleid",
+    "contact": "Fouten, ideeën of iets anders: mail naar {email}."
+  }
+}

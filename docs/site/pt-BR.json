@@ -1,0 +1,259 @@
+{
+  "title": "Fliperama Lunar: jogos de festa entre iPhones, sem internet",
+  "description": "Conecte os iPhones de todo mundo sem internet e joguem em até 15 o Jogo do Mentiroso, papéis secretos ou desenhe e adivinhe. Todos os jogos são grátis.",
+  "hero": {
+    "headline": "Galera reunida?\nPeguem os iPhones.",
+    "lead": "Uma pessoa cria uma sala e quem está por perto entra em segundos. Papéis e palavras secretas aparecem só na tela de cada um: sem cartas e sem ninguém preso na função de narrador.",
+    "cta": "Baixe grátis na App Store",
+    "note": "Todos os jogos são grátis. Sem conta e sem internet."
+  },
+  "demo": {
+    "title": "Jogue uma rodada do Jogo do Mentiroso",
+    "lead": "Imagine cinco iPhones na mesa e toque em um por vez para espiar. Só um não sabe a palavra. Dá para ir passando a tela entre amigos também.",
+    "tap": "Toque para ver",
+    "reveal": "Revelar o Mentiroso",
+    "again": "Nova rodada",
+    "caughtNote": "Mesmo pego na votação, o Mentiroso ainda tem uma última chance.",
+    "note": "No app, cada um olha o próprio iPhone, descreve a palavra na sua vez e depois todo mundo vota. As palavras vêm da mesma lista do app.",
+    "app": {
+      "game": "Jogo do Mentiroso",
+      "sub": "Todos têm a mesma palavra. Só um não a conhece.",
+      "arrived": "A palavra chegou",
+      "secret": "Veja onde ninguém possa ver a tela",
+      "gotIt": "Já vi",
+      "word": "Palavra",
+      "cat": "Categoria: {1}",
+      "liarYou": "Você é o Mentiroso!",
+      "liarHint": "Você não sabe a palavra, mas precisa descrevê-la como se soubesse. Não se deixe pegar!",
+      "liar": "Mentiroso",
+      "caught": "Mentiroso pego!",
+      "pick": "Escolha a palavra — só há uma chance!",
+      "liarWin": "O Mentiroso vence!",
+      "citizenWin": "Os cidadãos vencem!",
+      "me": "Eu",
+      "bots": [
+        "Coelho Lunar",
+        "Brisa Noturna",
+        "Via Láctea",
+        "Lua Minguante"
+      ],
+      "words": {
+        "Comida": [
+          "Ensopado de kimchi",
+          "Barriga de porco grelhada",
+          "Tteokbokki",
+          "Frango frito",
+          "Pizza",
+          "Sushi",
+          "Lamen",
+          "Bibimbap",
+          "Macarrão frio",
+          "Sopa de costela",
+          "Massa",
+          "Hambúrguer",
+          "Gimbap",
+          "Chouriço coreano",
+          "Pé de porco",
+          "Salada"
+        ],
+        "Animais": [
+          "Elefante",
+          "Girafa",
+          "Pinguim",
+          "Tigre",
+          "Panda",
+          "Ouriço",
+          "Canguru",
+          "Coruja",
+          "Golfinho",
+          "Polvo",
+          "Esquilo",
+          "Crocodilo",
+          "Camelo",
+          "Lontra",
+          "Papagaio",
+          "Toupeira"
+        ],
+        "Lugares": [
+          "Parque de diversões",
+          "Biblioteca",
+          "Spa coreano",
+          "Cinema",
+          "Loja de conveniência",
+          "Estação de metrô",
+          "Salão de beleza",
+          "Hospital",
+          "Escola",
+          "Camping",
+          "Piscina",
+          "Aeroporto",
+          "Mercado",
+          "Cafeteria",
+          "Karaokê",
+          "Academia"
+        ],
+        "Profissões": [
+          "Bombeiro",
+          "Médico",
+          "Cozinheiro",
+          "Programador",
+          "Youtuber",
+          "Professor",
+          "Policial",
+          "Agricultor",
+          "Piloto",
+          "Cabeleireiro",
+          "Cantor",
+          "Atleta",
+          "Fotógrafo",
+          "Advogado",
+          "Pescador",
+          "Barista"
+        ],
+        "Objetos": [
+          "Guarda-chuva",
+          "Ventilador",
+          "Geladeira",
+          "Escova de dentes",
+          "Travesseiro",
+          "Controle remoto",
+          "Copo térmico",
+          "Fones de ouvido",
+          "Tesoura",
+          "Cobertor",
+          "Espelho",
+          "Relógio",
+          "Carregador",
+          "Chinelo",
+          "Máscara",
+          "Carteira"
+        ],
+        "Esportes": [
+          "Futebol",
+          "Beisebol",
+          "Basquete",
+          "Badminton",
+          "Natação",
+          "Boliche",
+          "Taekwondo",
+          "Golfe",
+          "Tênis de mesa",
+          "Esqui",
+          "Escalada",
+          "Ioga",
+          "Boxe",
+          "Tiro com arco",
+          "Esgrima",
+          "Maratona"
+        ]
+      }
+    }
+  },
+  "problem": {
+    "title": "Todo mundo junto e ninguém sabe o que jogar",
+    "text": "Noite de jogos, fim de semana na chácara, Natal com a família. Para um jogo de papéis secretos alguém precisa ficar de fora narrando, e papelzinho dobrado nunca é tão secreto assim. Numa casa com Wi-Fi fraco, jogo online também não rola. No Fliperama Lunar, os iPhones narram, distribuem os papéis e se conectam sozinhos."
+  },
+  "features": [
+    {
+      "title": "Seu papel fica só na sua tela",
+      "text": "Quando o jogo começa, cada iPhone recebe o próprio papel ou palavra. Nada de distribuir cartas ou de “todo mundo fecha os olhos”.\nNa votação, só dá para ver quem já votou. Em quem cada um votou fica em segredo até a revelação.",
+      "shot": "02-role"
+    },
+    {
+      "title": "Quatro jogos para qualquer turma",
+      "text": "No Jogo do Mentiroso vence quem tem lábia, na Ordem Lunar vocês caçam as Sombras com missões e votações, na Noite sem Lua procuram o Goblin em uma só noite e no Ateliê Lunar um desenha e os outros adivinham.\nOrdem Lunar a partir de 5 pessoas, os outros a partir de 3, todos até 15.",
+      "shot": "04-draw"
+    },
+    {
+      "title": "Jogo novo? Aprende em minutos",
+      "text": "Cada jogo tem o modo Como jogar, em que você joga uma rodada com bots, passo a passo. Leia a dica no topo e toque em Próximo.\nSe o app fechar ou a conexão cair, toque em Continuar na tela inicial e volte para a mesma rodada.",
+      "shot": "03-vote"
+    }
+  ],
+  "steps": {
+    "title": "Comece em três passos",
+    "items": [
+      {
+        "title": "Apelido e jogo",
+        "text": "Todo mundo abre o app, digita um apelido e escolhe o jogo."
+      },
+      {
+        "title": "Criar ou entrar numa sala",
+        "text": "Uma pessoa cria a sala; os outros a encontram em Procurar salas por perto."
+      },
+      {
+        "title": "O anfitrião começa",
+        "text": "Com todo mundo dentro, o anfitrião toca em Iniciar partida. O app cuida do resto."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Os quatro jogos",
+    "rows": [
+      [
+        "Jogo do Mentiroso · 3 a 15",
+        "Todos recebem a mesma palavra, menos um. Cada um descreve na sua vez e depois votam no Mentiroso. Se for pego mas acertar a palavra, o Mentiroso vence mesmo assim."
+      ],
+      [
+        "Ordem Lunar · 5 a 15",
+        "Descubram as Sombras escondidas na Ordem. O líder escolhe uma equipe, todos votam a favor ou contra e a equipe joga em segredo sucesso ou fracasso. Vence o lado que levar três missões primeiro."
+      ],
+      [
+        "Noite sem Lua · 3 a 15",
+        "Uma noite só, e um Goblin escondido na vila. À noite, Xamã, Ladrão noturno e Brincalhão agem em segredo. Ao amanhecer tem discussão e uma única votação para achar o Goblin."
+      ],
+      [
+        "Ateliê Lunar · 3 a 15",
+        "Um desenha a palavra e os outros adivinham no chat. Quanto mais rápido acertar, mais pontos, e quem desenha ganha a cada acerto."
+      ]
+    ],
+    "note": "Qualquer jogo pode ser testado antes, sozinho, com bots no modo Como jogar."
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "items": [
+      {
+        "q": "Não estou vendo a sala.",
+        "a": "Confira se o anfitrião e os jogadores estão no mesmo Wi-Fi ou perto uns dos outros. O Fliperama Lunar precisa estar ativado em Ajustes ▸ Privacidade e Segurança ▸ Rede Local para encontrar aparelhos por perto. Com Wi-Fi e Bluetooth ligados, a conexão fica mais estável."
+      },
+      {
+        "q": "Preciso permitir o acesso à rede local?",
+        "a": "Sim, é assim que o app encontra os iPhones por perto e se conecta a eles. Se você tocou em Não Permitir, ative de novo em Ajustes ▸ Privacidade e Segurança ▸ Rede Local."
+      },
+      {
+        "q": "Caí no meio da partida.",
+        "a": "Abra o app de novo e toque em Continuar na tela inicial para voltar à mesma sala e rodada. Seu papel e sua pontuação continuam lá. Se demorar para reconectar, entre de novo pela lista de salas."
+      },
+      {
+        "q": "Alguém parou de responder e o jogo travou.",
+        "a": "O anfitrião pode remover quem não responde a qualquer momento, e o jogo recalcula com quem ficou e segue. O modo anfitrião GM também consegue pular uma etapa travada."
+      },
+      {
+        "q": "Quantas pessoas precisa?",
+        "a": "A Ordem Lunar precisa de 5. Jogo do Mentiroso, Noite sem Lua e Ateliê Lunar começam com 3. Todos vão até 15. Faltou gente? Aprendam as regras com bots no modo Como jogar."
+      },
+      {
+        "q": "Precisa de internet ou de conta?",
+        "a": "Não. Sem cadastro, sem login e sem internet. Os iPhones próximos se conectam direto, e os dados do jogo nunca são enviados para um servidor."
+      },
+      {
+        "q": "Dá para testar um jogo sozinho antes?",
+        "a": "Dá. Escolha um jogo e depois Como jogar (prática com bots). Os bots entram na sala e você joga uma rodada inteira, passo a passo."
+      },
+      {
+        "q": "Como relato um erro ou mando uma ideia?",
+        "a": "Pelo próprio app, em Ajustes (a engrenagem) ▸ Suporte, ou por e-mail para o endereço abaixo. Respondemos o mais rápido possível."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "A noite de jogos\ncomeça aqui",
+    "cta": "Baixe grátis na App Store"
+  },
+  "ui": {
+    "skip": "Pular para o conteúdo",
+    "languages": "Idioma",
+    "privacy": "Política de Privacidade",
+    "contact": "Erros, ideias ou qualquer outra coisa: escreva para {email}."
+  }
+}

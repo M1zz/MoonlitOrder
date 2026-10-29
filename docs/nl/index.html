@@ -1,151 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Maanarcade · Ondersteuning</title>
-<meta name="description" content="Maanarcade is een verzameling offline feestspellen waarbij iPhones in de buurt rechtstreeks met elkaar verbinden – zonder internet.">
-<!--HREFLANG-->
-<link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/nl/index.html">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/index.html">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/index.html">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/index.html">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/index.html">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/index.html">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/index.html">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/index.html">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/index.html">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/index.html">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/index.html">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/index.html">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/index.html">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/index.html">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/index.html">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/index.html">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/index.html">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/index.html">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/index.html">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/index.html">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/index.html">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/index.html">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/index.html">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/index.html">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<!--/HREFLANG-->
-<style>
-  :root{
-    --bg1:#0f1226; --bg2:#211840; --card:rgba(255,255,255,.06);
-    --stroke:rgba(255,255,255,.12); --text:#f4f3fb; --muted:rgba(244,243,251,.62);
-    --gold:#f2c759; --blue:#73bfff; --red:#f25a6b; --mint:#59d1b8;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",
-      "Malgun Gothic",sans-serif;
-    color:var(--text); line-height:1.7;
-    background:linear-gradient(180deg,var(--bg1),var(--bg2)) fixed;
-    min-height:100vh; -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 80px}
-  header{text-align:center;margin-bottom:44px}
-  .logo{font-size:52px;line-height:1}
-  h1{font-size:34px;font-weight:800;margin:14px 0 6px;letter-spacing:-.5px}
-  .sub{color:var(--muted);font-size:15px}
-  .badge{display:inline-block;margin-top:14px;padding:5px 12px;border-radius:999px;
-    background:rgba(89,209,184,.14);color:var(--mint);font-size:13px;font-weight:600}
-  section{background:var(--card);border:1px solid var(--stroke);border-radius:18px;
-    padding:26px 24px;margin:18px 0}
-  h2{font-size:20px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:9px}
-  h2 .ic{font-size:22px}
-  h3{font-size:16px;font-weight:700;margin:18px 0 4px;color:var(--gold)}
-  p,li{color:var(--text);font-size:15.5px}
-  .muted{color:var(--muted)}
-  ul{padding-left:20px;margin:8px 0}
-  li{margin:6px 0}
-  .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:8px}
-  .game{background:rgba(255,255,255,.04);border:1px solid var(--stroke);border-radius:14px;padding:14px}
-  .game .n{font-weight:700;font-size:15px}
-  .game .d{color:var(--muted);font-size:13px;margin-top:3px}
-  .qa{margin:16px 0}
-  .qa .q{font-weight:700;color:var(--blue);font-size:15.5px}
-  .qa .a{color:var(--text);margin-top:3px}
-  a{color:var(--mint);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .contact{text-align:center;background:rgba(242,199,89,.10);border-color:rgba(242,199,89,.28)}
-  .contact .mail{font-size:20px;font-weight:800;color:var(--gold);display:inline-block;margin-top:6px}
-  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:36px;line-height:1.9}
-  footer a{color:var(--muted);text-decoration:underline}
-.langs{display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:center;margin-top:16px;font-size:13px}.langs a{color:var(--muted);text-decoration:none}.langs a[aria-current]{color:var(--gold);font-weight:700}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maanarcade: partyspellen tussen iPhones, zonder internet</title>
+  <meta name="description" content="Verbind de iPhones van iedereen in de buurt zonder internet en speel met maximaal 15 het Leugenaarsspel, verborgen rollen of tekenen en raden. Gratis.">
+  <meta name="theme-color" content="#9A6B00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1226" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6790137862">
+  <link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/nl/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Maanarcade: partyspellen tussen iPhones, zonder internet">
+  <meta property="og:description" content="Verbind de iPhones van iedereen in de buurt zonder internet en speel met maximaal 15 het Leugenaarsspel, verborgen rollen of tekenen en raden. Gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/MoonlitOrder/nl/">
+  <meta property="og:image" content="https://m1zz.github.io/MoonlitOrder/img/nl/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#9A6B00}@media (prefers-color-scheme:dark){:root{--accent:#F2C759}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="logo">🌙</div>
-    <h1>Maanarcade</h1>
-    <div class="sub">Offline feestspellen voor vrienden bij elkaar in de buurt</div>
-    <div class="badge">Klantenservice</div>
-    <!--LANGNAV--><nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl" aria-current="page">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--/LANGNAV-->
+  <a class="skip" href="#main">Naar de inhoud</a>
+  <header class="bar">
+    <a class="brand" href="../nl/"><img src="../icon.png" alt="" width="32" height="32">Maanarcade</a>
+    <a class="lang-link" href="#languages">Taal</a>
   </header>
 
-  <section>
-    <h2><span class="ic">🎲</span>Wat is het?</h2>
-    <p><strong>Maanarcade</strong> is een verzameling sociale deductie- en feestspellen waarbij iPhones in de buurt rechtstreeks met elkaar verbinden, helemaal zonder internet. Zit je op hetzelfde wifinetwerk of binnen bluetoothbereik, dan maak je meteen een kamer aan of doe je mee – zonder server.</p>
-    <div class="games">
-      <div class="game"><div class="n">🌙 Maanorde</div><div class="d">5–15 spelers · ontmasker de schaduwen die zich ertussen hebben gemengd</div></div>
-      <div class="game"><div class="n">🎭 Het Leugenaarsspel</div><div class="d">3–15 spelers · vind de ene speler die het woord niet kent</div></div>
-      <div class="game"><div class="n">🔥 Nacht zonder Maan</div><div class="d">3–15 spelers · één nacht, en er houden zich goblins schuil</div></div>
-      <div class="game"><div class="n">🖌️ Maanatelier</div><div class="d">3–15 spelers · één tekent, de rest raadt</div></div>
-    </div>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Is iedereen er?<br>Pak je iPhone.</h1>
+        <p class="lead">Eén persoon maakt een kamer en iedereen in de buurt doet binnen seconden mee. Rollen en geheime woorden staan alleen op je eigen scherm: geen kaartjes en niemand die aan de kant moet zitten als spelleider.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6790137862">Gratis in de App Store</a><a class="try" href="#try">Speel een ronde Leugenaarsspel ↓</a></div>
+        <p class="muted small">Alle spellen gratis. Geen account, geen internet.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/01-home.jpg" alt="Is iedereen er? Pak je iPhone." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2><span class="ic">▶️</span>Zo speel je</h2>
-    <ul>
-      <li>Vul een bijnaam in en kies het spel dat je wilt spelen.</li>
-      <li>Eén persoon tikt op <strong>‘Kamer maken (host)’</strong> en de anderen komen de kamer binnen via <strong>‘Meedoen aan een spel’</strong>.</li>
-      <li>Op hetzelfde wifinetwerk of dicht bij elkaar (bluetooth) vinden de toestellen elkaar automatisch. Een internetverbinding is niet nodig.</li>
-      <li>De eerste keer moet je <strong>toegang tot het lokale netwerk toestaan</strong>, anders kan de app geen toestellen in de buurt vinden.</li>
-      <li>Bij <strong>‘Zo speel je (oefenen met bots)’</strong> leer je de regels van elk spel stap voor stap samen met bots.</li>
-    </ul>
-  </section>
 
-  <section>
-    <h2><span class="ic">🛠️</span>Veelgestelde vragen</h2>
+    <section class="reveal" id="try">
+      <h2>Speel een ronde Leugenaarsspel</h2>
+      <p class="muted">Stel je vijf iPhones op tafel voor en tik ze één voor één aan om te kijken. Maar één speler kent het woord niet. Je kunt het scherm ook rond laten gaan.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Speel een ronde Leugenaarsspel&quot;, &quot;lead&quot;: &quot;Stel je vijf iPhones op tafel voor en tik ze één voor één aan om te kijken. Maar één speler kent het woord niet. Je kunt het scherm ook rond laten gaan.&quot;, &quot;tap&quot;: &quot;Tik om te kijken&quot;, &quot;reveal&quot;: &quot;Onthul de leugenaar&quot;, &quot;again&quot;: &quot;Nieuwe ronde&quot;, &quot;caughtNote&quot;: &quot;Ook als de stemming de leugenaar ontmaskert, heeft die nog één laatste kans.&quot;, &quot;note&quot;: &quot;In de app kijkt iedereen op zijn eigen iPhone, beschrijft om de beurt het woord en dan wordt er gestemd. De woorden komen uit dezelfde lijst als in de app.&quot;, &quot;app&quot;: {&quot;game&quot;: &quot;Het Leugenaarsspel&quot;, &quot;sub&quot;: &quot;Iedereen heeft hetzelfde woord. Slechts één kent het niet.&quot;, &quot;arrived&quot;: &quot;Het woord is binnen&quot;, &quot;secret&quot;: &quot;Kijk waar niemand het scherm kan zien&quot;, &quot;gotIt&quot;: &quot;Gezien&quot;, &quot;word&quot;: &quot;Woord&quot;, &quot;cat&quot;: &quot;Categorie: {1}&quot;, &quot;liarYou&quot;: &quot;Jij bent de Leugenaar!&quot;, &quot;liarHint&quot;: &quot;Je kent het woord niet, maar moet het beschrijven alsof je het kent. Laat je niet betrappen!&quot;, &quot;liar&quot;: &quot;Leugenaar&quot;, &quot;caught&quot;: &quot;Leugenaar gepakt!&quot;, &quot;pick&quot;: &quot;Kies het woord — je hebt maar één kans!&quot;, &quot;liarWin&quot;: &quot;De Leugenaar wint!&quot;, &quot;citizenWin&quot;: &quot;De burgers winnen!&quot;, &quot;me&quot;: &quot;Ik&quot;, &quot;bots&quot;: [&quot;Maanhaas&quot;, &quot;Nachtbries&quot;, &quot;Melkweg&quot;, &quot;Afnemende Maan&quot;], &quot;words&quot;: {&quot;Eten&quot;: [&quot;Kimchi-stoofpot&quot;, &quot;Gegrilde buikspek&quot;, &quot;Tteokbokki&quot;, &quot;Gebakken kip&quot;, &quot;Pizza&quot;, &quot;Sushi&quot;, &quot;Ramen&quot;, &quot;Bibimbap&quot;, &quot;Koude noedels&quot;, &quot;Ribbetjessoep&quot;, &quot;Pasta&quot;, &quot;Hamburger&quot;, &quot;Gimbap&quot;, &quot;Koreaanse bloedworst&quot;, &quot;Varkenspoten&quot;, &quot;Salade&quot;], &quot;Dieren&quot;: [&quot;Olifant&quot;, &quot;Giraffe&quot;, &quot;Pinguïn&quot;, &quot;Tijger&quot;, &quot;Panda&quot;, &quot;Egel&quot;, &quot;Kangoeroe&quot;, &quot;Uil&quot;, &quot;Dolfijn&quot;, &quot;Octopus&quot;, &quot;Eekhoorn&quot;, &quot;Krokodil&quot;, &quot;Kameel&quot;, &quot;Otter&quot;, &quot;Papegaai&quot;, &quot;Mol&quot;], &quot;Plaatsen&quot;: [&quot;Pretpark&quot;, &quot;Bibliotheek&quot;, &quot;Koreaanse spa&quot;, &quot;Bioscoop&quot;, &quot;Buurtwinkel&quot;, &quot;Metrostation&quot;, &quot;Kapsalon&quot;, &quot;Ziekenhuis&quot;, &quot;School&quot;, &quot;Camping&quot;, &quot;Zwembad&quot;, &quot;Luchthaven&quot;, &quot;Markt&quot;, &quot;Café&quot;, &quot;Karaoke&quot;, &quot;Sportschool&quot;], &quot;Beroepen&quot;: [&quot;Brandweerman&quot;, &quot;Arts&quot;, &quot;Kok&quot;, &quot;Programmeur&quot;, &quot;YouTuber&quot;, &quot;Leraar&quot;, &quot;Politieagent&quot;, &quot;Boer&quot;, &quot;Piloot&quot;, &quot;Kapper&quot;, &quot;Zanger&quot;, &quot;Atleet&quot;, &quot;Fotograaf&quot;, &quot;Advocaat&quot;, &quot;Visser&quot;, &quot;Barista&quot;], &quot;Voorwerpen&quot;: [&quot;Paraplu&quot;, &quot;Ventilator&quot;, &quot;Koelkast&quot;, &quot;Tandenborstel&quot;, &quot;Kussen&quot;, &quot;Afstandsbediening&quot;, &quot;Thermosbeker&quot;, &quot;Oordopjes&quot;, &quot;Schaar&quot;, &quot;Deken&quot;, &quot;Spiegel&quot;, &quot;Klok&quot;, &quot;Oplader&quot;, &quot;Pantoffels&quot;, &quot;Mondkapje&quot;, &quot;Portemonnee&quot;], &quot;Sport&quot;: [&quot;Voetbal&quot;, &quot;Honkbal&quot;, &quot;Basketbal&quot;, &quot;Badminton&quot;, &quot;Zwemmen&quot;, &quot;Bowlen&quot;, &quot;Taekwondo&quot;, &quot;Golf&quot;, &quot;Tafeltennis&quot;, &quot;Skiën&quot;, &quot;Klimmen&quot;, &quot;Yoga&quot;, &quot;Boksen&quot;, &quot;Boogschieten&quot;, &quot;Schermen&quot;, &quot;Marathon&quot;]}}}"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Ik zie geen kamers in de buurt.</div>
-      <div class="a">Controleer of de host en de deelnemers met <strong>hetzelfde wifinetwerk</strong> verbonden zijn of dicht bij elkaar zijn. Maanarcade moet aanstaan bij Instellingen &gt; Privacy en beveiliging &gt; <strong>Lokaal netwerk</strong>. De verbinding is het stabielst als zowel wifi als bluetooth aanstaan.</div>
-    </div>
+    <section class="problem reveal">
+      <h2>Iedereen is er, maar wat gaan we spelen?</h2>
+      <p>Spelletjesavond, weekendje weg, kerst met de familie. Voor een spel met geheime rollen moet iemand buiten spel blijven om te leiden, en opgevouwen briefjes blijven nooit echt geheim. In een vakantiehuisje met slechte wifi vallen online spellen ook af. Bij Maanarcade regelen de iPhones de spelleiding, het verdelen van rollen en de verbinding.</p>
+    </section>
 
-    <div class="qa">
-      <div class="q">De verbinding viel weg tijdens het spel.</div>
-      <div class="a">Open de app opnieuw: je wordt dan <strong>automatisch opnieuw verbonden</strong> met dezelfde kamer en gaat verder met het potje dat bezig was. Lukt het niet om binnen een bepaalde tijd opnieuw te verbinden, doe dan opnieuw mee via de lijst met kamers.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Jouw rol staat alleen op jouw scherm</h2>
+        <p>Bij de start krijgt elke iPhone zijn eigen rol of woord. Geen kaartjes uitdelen, geen ‘iedereen ogen dicht’.<br>Tijdens het stemmen zie je alleen wie al gestemd heeft. Wie op wie stemde, blijft geheim tot de onthulling.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/02-role.jpg" alt="Jouw rol staat alleen op jouw scherm" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Hoeveel spelers zijn er minimaal nodig?</div>
-      <div class="a">Maanorde kun je vanaf 5 spelers starten, de andere spellen vanaf 3. Je kunt met maximaal 15 spelers tegelijk spelen.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Vier spellen voor elk gezelschap</h2>
+        <p>In het Leugenaarsspel wint wie het mooist praat, in de Maanorde jagen jullie met missies en stemmingen op de Schaduwen, in Nacht zonder Maan zoeken jullie in één nacht de Goblin, en in het Maanatelier tekent één speler en raadt de rest.<br>Maanorde vanaf 5 spelers, de rest vanaf 3, allemaal tot 15.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/04-draw.jpg" alt="Vier spellen voor elk gezelschap" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Heb ik internet of een account nodig?</div>
-      <div class="a">Nee. Je speelt offline, zonder registratie, inloggen of internetverbinding. Spelgegevens worden niet naar een server verstuurd.</div>
-    </div>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Nieuw spel? In een paar minuten geleerd</h2>
+        <p>Elk spel heeft een modus ‘Zo speel je’, waarin je stap voor stap een ronde met bots speelt. Lees de tip bovenaan en tik op Volgende.<br>Sluit de app of valt de verbinding weg, tik dan op Doorgaan op het beginscherm en je zit weer in dezelfde ronde.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/03-vote.jpg" alt="Nieuw spel? In een paar minuten geleerd" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-  <section class="contact">
-    <h2 style="justify-content:center"><span class="ic">✉️</span>Contact</h2>
-    <p class="muted">Bugs, suggesties en andere vragen kun je direct versturen in de app via Instellingen (tandwiel) &gt; Ondersteuning, of mail ons op het adres hieronder. We reageren zo snel mogelijk.</p>
-    <a class="mail" href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>
-  </section>
+    <section class="reveal">
+      <h2>In drie stappen aan de slag</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Bijnaam en spel kiezen</h3><p>Iedereen opent de app, vult een bijnaam in en kiest het spel.</p></li>
+<li class="card"><span class="n">2</span><h3>Kamer maken of meedoen</h3><p>Eén persoon maakt een kamer, de rest vindt hem via Kamers in de buurt zoeken.</p></li>
+<li class="card"><span class="n">3</span><h3>De host start</h3><p>Is iedereen binnen, dan tikt de host op Spel starten. De app doet de rest.</p></li></ol>
+    </section>
 
+    <section class="reveal" id="commands">
+      <h2>De vier spellen</h2>
+      <div class="card table">
+        <dl><div><dt>Het Leugenaarsspel · 3–15 spelers</dt><dd>Iedereen krijgt hetzelfde woord, op één na. Om de beurt beschrijf je het, daarna stemmen jullie op de leugenaar. Raadt de betrapte leugenaar het woord, dan wint die toch.</dd></div><div><dt>Maanorde · 5–15 spelers</dt><dd>Ontmasker de Schaduwen die zich in de Orde verschuilen. De leider kiest een missieteam, iedereen stemt voor of tegen en het team speelt in het geheim succes of mislukking. Wie als eerste drie missies binnenhaalt, wint.</dd></div><div><dt>Nacht zonder Maan · 3–15 spelers</dt><dd>Eén nacht, en er schuilt een Goblin in het dorp. ’s Nachts doen de Sjamaan, de Nachtdief en de Grappenmaker in het geheim hun ding. Bij zonsopgang wordt er overlegd en is er maar één stemming om de Goblin te vinden.</dd></div><div><dt>Maanatelier · 3–15 spelers</dt><dd>Eén speler tekent het woord, de rest raadt in de chat. Hoe sneller je het raadt, hoe meer punten, en de tekenaar scoort bij elk goed antwoord.</dd></div></dl>
+      </div>
+      <p class="muted">Elk spel kun je eerst alleen met bots uitproberen in de modus ‘Zo speel je’.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Veelgestelde vragen</h2>
+      <div class="faq"><details><summary>Ik zie de kamer niet.</summary><p>Controleer of host en spelers op hetzelfde wifinetwerk zitten of dicht bij elkaar zijn. Maanarcade moet aanstaan bij Instellingen ▸ Privacy en beveiliging ▸ Lokaal netwerk om apparaten in de buurt te vinden. Met wifi én Bluetooth aan is de verbinding het stabielst.</p></details>
+<details><summary>Moet ik toegang tot het lokale netwerk toestaan?</summary><p>Ja, zo vindt de app iPhones in de buurt en maakt verbinding. Heb je ‘Sta niet toe’ getikt, zet het dan weer aan bij Instellingen ▸ Privacy en beveiliging ▸ Lokaal netwerk.</p></details>
+<details><summary>Mijn verbinding viel weg midden in het spel.</summary><p>Open de app opnieuw en tik op Doorgaan op het beginscherm om terug te keren naar dezelfde kamer en ronde. Je rol en score blijven bewaard. Lukt het een tijd niet, doe dan opnieuw mee via de lijst met kamers.</p></details>
+<details><summary>Iemand reageert niet en het spel hangt.</summary><p>De host kan een speler die niet reageert altijd verwijderen; het spel rekent opnieuw met de overgebleven spelers en gaat verder. In de GM-hostmodus kun je ook een vastgelopen stap overslaan.</p></details>
+<details><summary>Hoeveel spelers zijn er nodig?</summary><p>Maanorde heeft er 5 nodig. Het Leugenaarsspel, Nacht zonder Maan en het Maanatelier beginnen bij 3. Alle spellen kunnen tot 15. Te weinig mensen? Leer de regels met bots in ‘Zo speel je’.</p></details>
+<details><summary>Hebben we internet of een account nodig?</summary><p>Nee. Geen registratie, niet inloggen, geen internet. iPhones in de buurt verbinden rechtstreeks en speldata worden nooit naar een server gestuurd.</p></details>
+<details><summary>Kan ik een spel eerst alleen proberen?</summary><p>Ja. Kies een spel en daarna ‘Zo speel je (oefenen met bots)’. Er komen bots in de kamer en je speelt stap voor stap een hele ronde.</p></details>
+<details><summary>Hoe meld ik een fout of stuur ik een idee?</summary><p>Rechtstreeks in de app via Instellingen (het tandwiel) ▸ Ondersteuning, of mail naar het adres hieronder. We reageren zo snel mogelijk.</p></details></div>
+      <p class="contact">Fouten, ideeën of iets anders: mail naar <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>De spelletjesavond<br>begint hier</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6790137862">Gratis in de App Store</a>
+    </section>
+  </main>
 
   <footer>
-    Maanarcade<br>
-    <a href="privacy.html">Privacybeleid</a>
+    <nav id="languages" class="langs" aria-label="Taal"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl" aria-current="page">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Privacybeleid</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Moonlit Arcade</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

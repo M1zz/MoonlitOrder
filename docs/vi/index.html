@@ -1,155 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Phòng Game Ánh Trăng · Hỗ trợ</title>
-<meta name="description" content="Phòng Game Ánh Trăng là bộ trò chơi tiệc offline, kết nối các iPhone ở gần nhau mà không cần Internet.">
-<!--HREFLANG-->
-<link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/vi/index.html">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/index.html">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/index.html">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/index.html">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/index.html">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/index.html">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/index.html">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/index.html">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/index.html">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/index.html">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/index.html">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/index.html">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/index.html">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/index.html">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/index.html">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/index.html">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/index.html">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/index.html">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/index.html">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/index.html">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/index.html">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/index.html">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/index.html">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/index.html">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<!--/HREFLANG-->
-<style>
-  :root{
-    --bg1:#0f1226; --bg2:#211840; --card:rgba(255,255,255,.06);
-    --stroke:rgba(255,255,255,.12); --text:#f4f3fb; --muted:rgba(244,243,251,.62);
-    --gold:#f2c759; --blue:#73bfff; --red:#f25a6b; --mint:#59d1b8;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",
-      "Malgun Gothic",sans-serif;
-    color:var(--text); line-height:1.7;
-    background:linear-gradient(180deg,var(--bg1),var(--bg2)) fixed;
-    min-height:100vh; -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 80px}
-  header{text-align:center;margin-bottom:44px}
-  .logo{font-size:52px;line-height:1}
-  h1{font-size:34px;font-weight:800;margin:14px 0 6px;letter-spacing:-.5px}
-  .sub{color:var(--muted);font-size:15px}
-  .badge{display:inline-block;margin-top:14px;padding:5px 12px;border-radius:999px;
-    background:rgba(89,209,184,.14);color:var(--mint);font-size:13px;font-weight:600}
-  section{background:var(--card);border:1px solid var(--stroke);border-radius:18px;
-    padding:26px 24px;margin:18px 0}
-  h2{font-size:20px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:9px}
-  h2 .ic{font-size:22px}
-  h3{font-size:16px;font-weight:700;margin:18px 0 4px;color:var(--gold)}
-  p,li{color:var(--text);font-size:15.5px}
-  .muted{color:var(--muted)}
-  ul{padding-left:20px;margin:8px 0}
-  li{margin:6px 0}
-  .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:8px}
-  .game{background:rgba(255,255,255,.04);border:1px solid var(--stroke);border-radius:14px;padding:14px}
-  .game .n{font-weight:700;font-size:15px}
-  .game .d{color:var(--muted);font-size:13px;margin-top:3px}
-  .qa{margin:16px 0}
-  .qa .q{font-weight:700;color:var(--blue);font-size:15.5px}
-  .qa .a{color:var(--text);margin-top:3px}
-  a{color:var(--mint);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .contact{text-align:center;background:rgba(242,199,89,.10);border-color:rgba(242,199,89,.28)}
-  .contact .mail{font-size:20px;font-weight:800;color:var(--gold);display:inline-block;margin-top:6px}
-  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:36px;line-height:1.9}
-  footer a{color:var(--muted);text-decoration:underline}
-.langs{display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:center;margin-top:16px;font-size:13px}.langs a{color:var(--muted);text-decoration:none}.langs a[aria-current]{color:var(--gold);font-weight:700}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Phòng Game Ánh Trăng: trò chơi nhóm giữa các iPhone, không cần mạng</title>
+  <meta name="description" content="Kết nối iPhone của mọi người ở gần mà không cần Internet, chơi Trò Kẻ Nói Dối, đoán vai bí mật hay vẽ hình đoán chữ, tối đa 15 người. Miễn phí.">
+  <meta name="theme-color" content="#9A6B00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1226" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6790137862">
+  <link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/vi/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Phòng Game Ánh Trăng: trò chơi nhóm giữa các iPhone, không cần mạng">
+  <meta property="og:description" content="Kết nối iPhone của mọi người ở gần mà không cần Internet, chơi Trò Kẻ Nói Dối, đoán vai bí mật hay vẽ hình đoán chữ, tối đa 15 người. Miễn phí.">
+  <meta property="og:url" content="https://m1zz.github.io/MoonlitOrder/vi/">
+  <meta property="og:image" content="https://m1zz.github.io/MoonlitOrder/img/vi/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#9A6B00}@media (prefers-color-scheme:dark){:root{--accent:#F2C759}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="logo">🌙</div>
-    <h1>Phòng Game Ánh Trăng</h1>
-    <div class="sub">Trò chơi tiệc offline cùng bạn bè ở gần</div>
-    <div class="badge">Hỗ trợ khách hàng</div>
-    <!--LANGNAV--><nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi" aria-current="page">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--/LANGNAV-->
+  <a class="skip" href="#main">Chuyển đến nội dung</a>
+  <header class="bar">
+    <a class="brand" href="../vi/"><img src="../icon.png" alt="" width="32" height="32">Phòng Game Ánh Trăng</a>
+    <a class="lang-link" href="#languages">Ngôn ngữ</a>
   </header>
 
-  <section>
-    <h2><span class="ic">🎲</span>Đây là ứng dụng gì?</h2>
-    <p><strong>Phòng Game Ánh Trăng</strong> là bộ trò chơi tiệc và suy luận, kết nối trực tiếp các iPhone ở gần nhau
-      mà không cần Internet. Chỉ cần ở cùng mạng Wi-Fi hoặc trong tầm Bluetooth là có thể tạo phòng và tham gia ngay, không cần máy chủ.</p>
-    <div class="games">
-      <div class="game"><div class="n">🌙 Hội Ánh Trăng</div><div class="d">5–15 người · Suy luận danh tính, tìm ra những bóng tối đang ẩn mình</div></div>
-      <div class="game"><div class="n">🎭 Trò Kẻ Nói Dối</div><div class="d">3–15 người · Tìm ra người duy nhất không biết từ khóa</div></div>
-      <div class="game"><div class="n">🔥 Đêm Không Trăng</div><div class="d">3–15 người · Suy luận trong một đêm có yêu tinh trà trộn</div></div>
-      <div class="game"><div class="n">🖌️ Xưởng Vẽ Ánh Trăng</div><div class="d">3–15 người · Một người vẽ, những người còn lại đoán</div></div>
-    </div>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Đủ người rồi?<br>Lấy iPhone ra thôi.</h1>
+        <p class="lead">Một người tạo phòng, những người ở gần vào chỉ trong vài giây. Vai và từ khóa bí mật chỉ hiện trên màn hình của từng người: không cần thẻ bài, cũng không ai phải ngồi ngoài làm quản trò.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6790137862">Tải miễn phí trên App Store</a><a class="try" href="#try">Chơi thử một ván Kẻ Nói Dối ↓</a></div>
+        <p class="muted small">Mọi trò chơi đều miễn phí. Không cần tài khoản hay Internet.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/01-home.jpg" alt="Đủ người rồi? Lấy iPhone ra thôi." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2><span class="ic">▶️</span>Cách chơi</h2>
-    <ul>
-      <li>Nhập biệt danh và chọn trò chơi bạn muốn chơi.</li>
-      <li>Một người nhấn <strong>“Tạo phòng (chủ phòng)”</strong>, những người còn lại vào phòng bằng <strong>“Tham gia ván chơi”</strong>.</li>
-      <li>Khi ở cùng mạng Wi-Fi hoặc ở gần nhau (Bluetooth), các máy sẽ tự tìm thấy nhau. Không cần kết nối Internet.</li>
-      <li>Ở lần kết nối đầu tiên, bạn cần <strong>cho phép truy cập mạng cục bộ</strong> thì mới tìm được các thiết bị xung quanh.</li>
-      <li>Với mỗi trò chơi, bạn có thể vào <strong>“Cách chơi (luyện tập với bot)”</strong> để làm quen luật chơi từng bước cùng các bot.</li>
-    </ul>
-  </section>
 
-  <section>
-    <h2><span class="ic">🛠️</span>Câu hỏi thường gặp</h2>
+    <section class="reveal" id="try">
+      <h2>Chơi thử một ván Kẻ Nói Dối</h2>
+      <p class="muted">Hãy tưởng tượng có năm chiếc iPhone trên bàn và chạm vào từng chiếc để xem. Chỉ một người không biết từ khóa. Bạn cũng có thể chuyền màn hình cho bạn bè cùng chơi.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Chơi thử một ván Kẻ Nói Dối&quot;, &quot;lead&quot;: &quot;Hãy tưởng tượng có năm chiếc iPhone trên bàn và chạm vào từng chiếc để xem. Chỉ một người không biết từ khóa. Bạn cũng có thể chuyền màn hình cho bạn bè cùng chơi.&quot;, &quot;tap&quot;: &quot;Chạm để xem&quot;, &quot;reveal&quot;: &quot;Lộ diện Kẻ Nói Dối&quot;, &quot;again&quot;: &quot;Ván mới&quot;, &quot;caughtNote&quot;: &quot;Dù bị bắt qua bỏ phiếu, Kẻ Nói Dối vẫn còn một cơ hội cuối.&quot;, &quot;note&quot;: &quot;Trong ứng dụng, mỗi người xem trên iPhone của mình, lần lượt mô tả từ khóa rồi cùng bỏ phiếu. Từ khóa lấy từ cùng danh sách với ứng dụng.&quot;, &quot;app&quot;: {&quot;game&quot;: &quot;Trò Kẻ Nói Dối&quot;, &quot;sub&quot;: &quot;Mọi người có cùng từ khóa. Chỉ một người không biết.&quot;, &quot;arrived&quot;: &quot;Từ khóa đã đến&quot;, &quot;secret&quot;: &quot;Hãy xem ở nơi không ai nhìn thấy màn hình&quot;, &quot;gotIt&quot;: &quot;Đã xem&quot;, &quot;word&quot;: &quot;Từ khóa&quot;, &quot;cat&quot;: &quot;Chủ đề: {1}&quot;, &quot;liarYou&quot;: &quot;Bạn là Kẻ Nói Dối!&quot;, &quot;liarHint&quot;: &quot;Bạn không biết từ khóa nhưng phải mô tả như thể biết. Đừng để bị phát hiện!&quot;, &quot;liar&quot;: &quot;Kẻ Nói Dối&quot;, &quot;caught&quot;: &quot;Bắt được Kẻ Nói Dối!&quot;, &quot;pick&quot;: &quot;Hãy chọn từ khóa — chỉ có một cơ hội!&quot;, &quot;liarWin&quot;: &quot;Kẻ Nói Dối thắng!&quot;, &quot;citizenWin&quot;: &quot;Phe công dân thắng!&quot;, &quot;me&quot;: &quot;Tôi&quot;, &quot;bots&quot;: [&quot;Thỏ Ngọc&quot;, &quot;Gió Đêm&quot;, &quot;Dải Ngân Hà&quot;, &quot;Trăng Khuyết&quot;], &quot;words&quot;: {&quot;Món ăn&quot;: [&quot;Canh kimchi&quot;, &quot;Ba chỉ nướng&quot;, &quot;Tteokbokki&quot;, &quot;Gà rán&quot;, &quot;Pizza&quot;, &quot;Sushi&quot;, &quot;Mì ramen&quot;, &quot;Cơm trộn bibimbap&quot;, &quot;Mì lạnh&quot;, &quot;Canh sườn bò&quot;, &quot;Mì Ý&quot;, &quot;Hamburger&quot;, &quot;Kimbap&quot;, &quot;Dồi Hàn Quốc&quot;, &quot;Chân giò heo&quot;, &quot;Salad&quot;], &quot;Động vật&quot;: [&quot;Voi&quot;, &quot;Hươu cao cổ&quot;, &quot;Chim cánh cụt&quot;, &quot;Hổ&quot;, &quot;Gấu trúc&quot;, &quot;Nhím&quot;, &quot;Chuột túi&quot;, &quot;Cú mèo&quot;, &quot;Cá heo&quot;, &quot;Bạch tuộc&quot;, &quot;Sóc&quot;, &quot;Cá sấu&quot;, &quot;Lạc đà&quot;, &quot;Rái cá&quot;, &quot;Vẹt&quot;, &quot;Chuột chũi&quot;], &quot;Địa điểm&quot;: [&quot;Công viên giải trí&quot;, &quot;Thư viện&quot;, &quot;Phòng xông hơi Hàn Quốc&quot;, &quot;Rạp chiếu phim&quot;, &quot;Cửa hàng tiện lợi&quot;, &quot;Ga tàu điện ngầm&quot;, &quot;Tiệm làm tóc&quot;, &quot;Bệnh viện&quot;, &quot;Trường học&quot;, &quot;Khu cắm trại&quot;, &quot;Hồ bơi&quot;, &quot;Sân bay&quot;, &quot;Chợ&quot;, &quot;Quán cà phê&quot;, &quot;Phòng karaoke&quot;, &quot;Phòng gym&quot;], &quot;Nghề nghiệp&quot;: [&quot;Lính cứu hỏa&quot;, &quot;Bác sĩ&quot;, &quot;Đầu bếp&quot;, &quot;Lập trình viên&quot;, &quot;YouTuber&quot;, &quot;Giáo viên&quot;, &quot;Cảnh sát&quot;, &quot;Nông dân&quot;, &quot;Phi công&quot;, &quot;Thợ làm tóc&quot;, &quot;Ca sĩ&quot;, &quot;Vận động viên&quot;, &quot;Nhiếp ảnh gia&quot;, &quot;Luật sư&quot;, &quot;Ngư dân&quot;, &quot;Barista&quot;], &quot;Đồ vật&quot;: [&quot;Cái ô&quot;, &quot;Quạt điện&quot;, &quot;Tủ lạnh&quot;, &quot;Bàn chải đánh răng&quot;, &quot;Cái gối&quot;, &quot;Điều khiển từ xa&quot;, &quot;Bình giữ nhiệt&quot;, &quot;Tai nghe&quot;, &quot;Cái kéo&quot;, &quot;Cái chăn&quot;, &quot;Cái gương&quot;, &quot;Đồng hồ&quot;, &quot;Sạc điện thoại&quot;, &quot;Dép đi trong nhà&quot;, &quot;Khẩu trang&quot;, &quot;Cái ví&quot;], &quot;Thể thao&quot;: [&quot;Bóng đá&quot;, &quot;Bóng chày&quot;, &quot;Bóng rổ&quot;, &quot;Cầu lông&quot;, &quot;Bơi lội&quot;, &quot;Bowling&quot;, &quot;Taekwondo&quot;, &quot;Golf&quot;, &quot;Bóng bàn&quot;, &quot;Trượt tuyết&quot;, &quot;Leo núi&quot;, &quot;Yoga&quot;, &quot;Quyền Anh&quot;, &quot;Bắn cung&quot;, &quot;Đấu kiếm&quot;, &quot;Marathon&quot;]}}}"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Tôi không thấy phòng nào ở gần.</div>
-      <div class="a">Hãy kiểm tra xem chủ phòng và người tham gia có đang kết nối <strong>cùng một mạng Wi-Fi</strong> hoặc ở gần nhau không.
-        Phòng Game Ánh Trăng cần được bật trong Cài đặt &gt; Quyền riêng tư &amp; Bảo mật &gt; <strong>Mạng cục bộ</strong>.
-        Bật cả Wi-Fi lẫn Bluetooth sẽ giúp kết nối ổn định nhất.</div>
-    </div>
+    <section class="problem reveal">
+      <h2>Đông đủ cả rồi mà chẳng biết chơi gì</h2>
+      <p>Họp lớp, đi chơi xa, Tết sum họp gia đình. Chơi Ma Sói thì phải có người đứng ngoài làm quản trò, còn giấy gấp thì chẳng bao giờ kín hẳn. Ở homestay Wi-Fi yếu, game online cũng chịu. Phòng Game Ánh Trăng để iPhone lo việc quản trò, chia vai và kết nối.</p>
+    </section>
 
-    <div class="qa">
-      <div class="q">Tôi bị mất kết nối giữa ván.</div>
-      <div class="a">Khi mở lại ứng dụng, bạn sẽ được <strong>tự động kết nối lại</strong> vào đúng phòng cũ và quay về ván đang chơi.
-        Nếu không kết nối lại được sau một khoảng thời gian, hãy tham gia lại từ danh sách phòng.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Vai của bạn chỉ có trên màn hình của bạn</h2>
+        <p>Khi bắt đầu, mỗi iPhone nhận vai hoặc từ khóa riêng. Không phải chia bài, không cần “mọi người nhắm mắt”.<br>Lúc bỏ phiếu chỉ thấy ai đã bỏ phiếu. Ai bầu cho ai được giữ bí mật đến lúc công bố.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/02-role.jpg" alt="Vai của bạn chỉ có trên màn hình của bạn" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Cần ít nhất bao nhiêu người?</div>
-      <div class="a">Hội Ánh Trăng cần từ 5 người, các trò còn lại bắt đầu được từ 3 người, và tối đa 15 người có thể chơi cùng nhau.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Bốn trò cho mọi nhóm bạn</h2>
+        <p>Trò Kẻ Nói Dối đấu bằng tài ăn nói, Hội Ánh Trăng truy tìm Bóng Tối qua nhiệm vụ và bỏ phiếu, Đêm Không Trăng tìm Yêu tinh chỉ trong một đêm, còn Xưởng Vẽ Ánh Trăng để một người vẽ, cả nhóm đoán.<br>Hội Ánh Trăng từ 5 người, các trò còn lại từ 3, tất cả tối đa 15.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/04-draw.jpg" alt="Bốn trò cho mọi nhóm bạn" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Có cần Internet hay tài khoản không?</div>
-      <div class="a">Không. Bạn chơi offline, không cần đăng ký, đăng nhập hay kết nối Internet. Dữ liệu trò chơi không được gửi lên máy chủ.</div>
-    </div>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Trò mới? Vài phút là nắm</h2>
+        <p>Mỗi trò có chế độ Cách chơi, bạn chơi một ván cùng bot theo từng bước. Đọc gợi ý phía trên rồi chạm Tiếp.<br>Nếu ứng dụng bị tắt hay mất kết nối, chạm Chơi tiếp ở màn hình chính là quay lại đúng ván cũ.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/03-vote.jpg" alt="Trò mới? Vài phút là nắm" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-  <section class="contact">
-    <h2 style="justify-content:center"><span class="ic">✉️</span>Liên hệ</h2>
-    <p class="muted">Để báo lỗi, góp ý hoặc hỏi bất cứ điều gì khác, bạn có thể gửi ngay trong ứng dụng tại Cài đặt (biểu tượng bánh răng) &gt; Hỗ trợ, hoặc liên hệ qua email bên dưới. Chúng tôi sẽ phản hồi sớm nhất có thể.</p>
-    <a class="mail" href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>
-  </section>
+    <section class="reveal">
+      <h2>Bắt đầu với 3 bước</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Chọn biệt danh và trò chơi</h3><p>Mọi người mở ứng dụng, nhập biệt danh và chọn trò.</p></li>
+<li class="card"><span class="n">2</span><h3>Tạo hoặc vào phòng</h3><p>Một người tạo phòng, những người khác tìm qua Tìm phòng gần đây.</p></li>
+<li class="card"><span class="n">3</span><h3>Chủ phòng bắt đầu</h3><p>Khi đủ người, chủ phòng chạm Bắt đầu. Phần còn lại để ứng dụng lo.</p></li></ol>
+    </section>
 
+    <section class="reveal" id="commands">
+      <h2>Bốn trò chơi</h2>
+      <div class="card table">
+        <dl><div><dt>Trò Kẻ Nói Dối · 3–15 người</dt><dd>Mọi người nhận cùng một từ, trừ một người. Lần lượt mô tả rồi bỏ phiếu tìm Kẻ Nói Dối. Bị bắt mà đoán đúng từ khóa thì Kẻ Nói Dối vẫn thắng.</dd></div><div><dt>Hội Ánh Trăng · 5–15 người</dt><dd>Tìm ra Bóng Tối ẩn trong Hội. Thủ lĩnh chọn đội làm nhiệm vụ, cả nhóm bỏ phiếu đồng ý hay không, rồi đội bí mật chọn thành công hoặc thất bại. Phe nào giành ba nhiệm vụ trước sẽ thắng.</dd></div><div><dt>Đêm Không Trăng · 3–15 người</dt><dd>Một đêm duy nhất, có Yêu tinh trà trộn trong làng. Ban đêm, Pháp sư, Kẻ trộm đêm và Kẻ tinh nghịch hành động bí mật. Trời sáng thì thảo luận và chỉ có một lần bỏ phiếu để tìm Yêu tinh.</dd></div><div><dt>Xưởng Vẽ Ánh Trăng · 3–15 người</dt><dd>Một người vẽ từ khóa, những người khác đoán trong khung chat. Đoán càng nhanh càng nhiều điểm, và người vẽ được điểm cho mỗi lượt đoán đúng.</dd></div></dl>
+      </div>
+      <p class="muted">Trò nào cũng có thể chơi thử một mình với bot trước trong chế độ Cách chơi.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Câu hỏi thường gặp</h2>
+      <div class="faq"><details><summary>Không thấy phòng.</summary><p>Kiểm tra chủ phòng và người chơi có cùng Wi-Fi hoặc ở gần nhau không. Cần bật Phòng Game Ánh Trăng trong Cài đặt ▸ Quyền riêng tư &amp; Bảo mật ▸ Mạng cục bộ thì mới tìm được thiết bị ở gần. Bật cả Wi-Fi và Bluetooth sẽ kết nối ổn định nhất.</p></details>
+<details><summary>Có bắt buộc cho phép truy cập mạng cục bộ không?</summary><p>Có. Ứng dụng cần quyền này để tìm và kết nối với iPhone ở gần. Nếu lỡ chạm Không cho phép, bạn bật lại trong Cài đặt ▸ Quyền riêng tư &amp; Bảo mật ▸ Mạng cục bộ.</p></details>
+<details><summary>Đang chơi thì mất kết nối.</summary><p>Mở lại ứng dụng và chạm Chơi tiếp ở màn hình chính để về đúng phòng, đúng ván. Vai và điểm vẫn còn nguyên. Nếu lâu không vào lại được, hãy tham gia lại từ danh sách phòng.</p></details>
+<details><summary>Có người không phản hồi, ván bị đứng.</summary><p>Chủ phòng có thể mời người không phản hồi ra bất cứ lúc nào, ván sẽ tính lại với những người còn lại và chơi tiếp. Chế độ chủ phòng GM còn bỏ qua được bước bị kẹt.</p></details>
+<details><summary>Cần ít nhất bao nhiêu người?</summary><p>Hội Ánh Trăng cần 5 người. Trò Kẻ Nói Dối, Đêm Không Trăng và Xưởng Vẽ Ánh Trăng bắt đầu từ 3. Tất cả tối đa 15. Thiếu người thì cứ học luật với bot trong chế độ Cách chơi trước.</p></details>
+<details><summary>Có cần Internet hay tài khoản không?</summary><p>Không. Không đăng ký, không đăng nhập, không cần Internet. Các iPhone ở gần kết nối trực tiếp, dữ liệu ván chơi không bao giờ gửi lên máy chủ.</p></details>
+<details><summary>Có thể chơi thử một mình trước không?</summary><p>Được. Chọn trò rồi chọn Cách chơi (luyện tập với bot). Bot sẽ vào phòng và bạn chơi trọn một ván theo từng bước.</p></details>
+<details><summary>Báo lỗi hoặc góp ý ở đâu?</summary><p>Gửi ngay trong ứng dụng ở Cài đặt (bánh răng) ▸ Hỗ trợ, hoặc gửi thư đến địa chỉ bên dưới. Chúng tôi sẽ trả lời sớm nhất có thể.</p></details></div>
+      <p class="contact">Báo lỗi, góp ý hay hỏi gì khác, hãy gửi thư đến <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Buổi tụ tập tối nay<br>bắt đầu từ đây</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6790137862">Tải miễn phí trên App Store</a>
+    </section>
+  </main>
 
   <footer>
-    Phòng Game Ánh Trăng<br>
-    <a href="privacy.html">Chính sách quyền riêng tư</a>
+    <nav id="languages" class="langs" aria-label="Ngôn ngữ"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi" aria-current="page">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Chính sách quyền riêng tư</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Moonlit Arcade</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

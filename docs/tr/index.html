@@ -1,151 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ay Oyun Salonu · Destek</title>
-<meta name="description" content="Ay Oyun Salonu, yakındaki iPhone’ları internete gerek kalmadan doğrudan birbirine bağlayan çevrim dışı parti oyunları koleksiyonudur.">
-<!--HREFLANG-->
-<link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/tr/index.html">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/index.html">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/index.html">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/index.html">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/index.html">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/index.html">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/index.html">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/index.html">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/index.html">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/index.html">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/index.html">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/index.html">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/index.html">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/index.html">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/index.html">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/index.html">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/index.html">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/index.html">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/index.html">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/index.html">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/index.html">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/index.html">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/index.html">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/index.html">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<!--/HREFLANG-->
-<style>
-  :root{
-    --bg1:#0f1226; --bg2:#211840; --card:rgba(255,255,255,.06);
-    --stroke:rgba(255,255,255,.12); --text:#f4f3fb; --muted:rgba(244,243,251,.62);
-    --gold:#f2c759; --blue:#73bfff; --red:#f25a6b; --mint:#59d1b8;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",
-      "Malgun Gothic",sans-serif;
-    color:var(--text); line-height:1.7;
-    background:linear-gradient(180deg,var(--bg1),var(--bg2)) fixed;
-    min-height:100vh; -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 80px}
-  header{text-align:center;margin-bottom:44px}
-  .logo{font-size:52px;line-height:1}
-  h1{font-size:34px;font-weight:800;margin:14px 0 6px;letter-spacing:-.5px}
-  .sub{color:var(--muted);font-size:15px}
-  .badge{display:inline-block;margin-top:14px;padding:5px 12px;border-radius:999px;
-    background:rgba(89,209,184,.14);color:var(--mint);font-size:13px;font-weight:600}
-  section{background:var(--card);border:1px solid var(--stroke);border-radius:18px;
-    padding:26px 24px;margin:18px 0}
-  h2{font-size:20px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:9px}
-  h2 .ic{font-size:22px}
-  h3{font-size:16px;font-weight:700;margin:18px 0 4px;color:var(--gold)}
-  p,li{color:var(--text);font-size:15.5px}
-  .muted{color:var(--muted)}
-  ul{padding-left:20px;margin:8px 0}
-  li{margin:6px 0}
-  .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:8px}
-  .game{background:rgba(255,255,255,.04);border:1px solid var(--stroke);border-radius:14px;padding:14px}
-  .game .n{font-weight:700;font-size:15px}
-  .game .d{color:var(--muted);font-size:13px;margin-top:3px}
-  .qa{margin:16px 0}
-  .qa .q{font-weight:700;color:var(--blue);font-size:15.5px}
-  .qa .a{color:var(--text);margin-top:3px}
-  a{color:var(--mint);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .contact{text-align:center;background:rgba(242,199,89,.10);border-color:rgba(242,199,89,.28)}
-  .contact .mail{font-size:20px;font-weight:800;color:var(--gold);display:inline-block;margin-top:6px}
-  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:36px;line-height:1.9}
-  footer a{color:var(--muted);text-decoration:underline}
-.langs{display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:center;margin-top:16px;font-size:13px}.langs a{color:var(--muted);text-decoration:none}.langs a[aria-current]{color:var(--gold);font-weight:700}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ay Oyun Salonu: internetsiz, iPhone’lar arasında parti oyunları</title>
+  <meta name="description" content="Yakındaki herkesin iPhone’unu internetsiz bağlayın; 15 kişiye kadar Yalancı Oyunu, gizli rol ya da çiz ve tahmin et oynayın. Tüm oyunlar ücretsiz.">
+  <meta name="theme-color" content="#9A6B00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1226" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6790137862">
+  <link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/tr/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ay Oyun Salonu: internetsiz, iPhone’lar arasında parti oyunları">
+  <meta property="og:description" content="Yakındaki herkesin iPhone’unu internetsiz bağlayın; 15 kişiye kadar Yalancı Oyunu, gizli rol ya da çiz ve tahmin et oynayın. Tüm oyunlar ücretsiz.">
+  <meta property="og:url" content="https://m1zz.github.io/MoonlitOrder/tr/">
+  <meta property="og:image" content="https://m1zz.github.io/MoonlitOrder/img/tr/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#9A6B00}@media (prefers-color-scheme:dark){:root{--accent:#F2C759}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="logo">🌙</div>
-    <h1>Ay Oyun Salonu</h1>
-    <div class="sub">Yakınınızdaki arkadaşlarla oynanan çevrim dışı parti oyunları</div>
-    <div class="badge">Müşteri Desteği</div>
-    <!--LANGNAV--><nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr" aria-current="page">Türkçe</a></nav><!--/LANGNAV-->
+  <a class="skip" href="#main">İçeriğe geç</a>
+  <header class="bar">
+    <a class="brand" href="../tr/"><img src="../icon.png" alt="" width="32" height="32">Ay Oyun Salonu</a>
+    <a class="lang-link" href="#languages">Dil</a>
   </header>
 
-  <section>
-    <h2><span class="ic">🎲</span>Bu uygulama nedir?</h2>
-    <p><strong>Ay Oyun Salonu</strong>, yakındaki iPhone’ları internet olmadan doğrudan birbirine bağlayarak oynanan sosyal çıkarım ve parti oyunlarından oluşan bir koleksiyondur. Aynı Wi-Fi ağında ya da Bluetooth menzilindeyseniz, sunucuya gerek kalmadan hemen oda oluşturup katılabilirsiniz.</p>
-    <div class="games">
-      <div class="game"><div class="n">🌙 Ay Tarikatı</div><div class="d">5–15 oyuncu · aranıza sızan gölgeleri bulun</div></div>
-      <div class="game"><div class="n">🎭 Yalancı Oyunu</div><div class="d">3–15 oyuncu · kelimeyi bilmeyen o kişiyi bulun</div></div>
-      <div class="game"><div class="n">🔥 Aysız Gece</div><div class="d">3–15 oyuncu · goblinlerin saklandığı tek gecelik çıkarım</div></div>
-      <div class="game"><div class="n">🖌️ Ay Atölyesi</div><div class="d">3–15 oyuncu · biri çizer, diğerleri tahmin eder</div></div>
-    </div>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Herkes geldi mi?<br>iPhone’lar ortaya.</h1>
+        <p class="lead">Biri oda kurar, yakındaki herkes saniyeler içinde katılır. Roller ve gizli kelimeler yalnızca herkesin kendi ekranında görünür: kart yok, oyunu yönetmek için dışarıda kalan kimse yok.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6790137862">App Store’dan ücretsiz indir</a><a class="try" href="#try">Bir el Yalancı Oyunu oyna ↓</a></div>
+        <p class="muted small">Tüm oyunlar ücretsiz. Hesap ve internet gerekmez.</p>
+      </div>
+      <div class="phone"><img src="../img/tr/01-home.jpg" alt="Herkes geldi mi? iPhone’lar ortaya." width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2><span class="ic">▶️</span>Nasıl oynanır</h2>
-    <ul>
-      <li>Bir takma ad girin ve oynamak istediğiniz oyunu seçin.</li>
-      <li>Bir kişi <strong>“Oda oluştur (ev sahibi)”</strong> düğmesine dokunur, diğerleri <strong>“Oyuna katıl”</strong> ile odaya girer.</li>
-      <li>Aynı Wi-Fi ağında ya da yakın mesafede (Bluetooth) cihazlar birbirini otomatik olarak bulur. İnternet bağlantısı gerekmez.</li>
-      <li>İlk bağlantıda yakındaki cihazları bulabilmek için <strong>yerel ağ erişimine izin vermeniz</strong> gerekir.</li>
-      <li>Her oyunun kurallarını <strong>“Nasıl oynanır (botlarla pratik)”</strong> bölümünde botlarla adım adım öğrenebilirsiniz.</li>
-    </ul>
-  </section>
 
-  <section>
-    <h2><span class="ic">🛠️</span>Sık sorulan sorular</h2>
+    <section class="reveal" id="try">
+      <h2>Bir el Yalancı Oyunu oyna</h2>
+      <p class="muted">Masada beş iPhone olduğunu düşün ve tek tek dokunarak bak. Kelimeyi yalnızca bir kişi bilmiyor. Arkadaşlarınla ekranı elden ele dolaştırarak da oynayabilirsin.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Bir el Yalancı Oyunu oyna&quot;, &quot;lead&quot;: &quot;Masada beş iPhone olduğunu düşün ve tek tek dokunarak bak. Kelimeyi yalnızca bir kişi bilmiyor. Arkadaşlarınla ekranı elden ele dolaştırarak da oynayabilirsin.&quot;, &quot;tap&quot;: &quot;Görmek için dokun&quot;, &quot;reveal&quot;: &quot;Yalancıyı açıkla&quot;, &quot;again&quot;: &quot;Yeni el&quot;, &quot;caughtNote&quot;: &quot;Oylamada yakalansa bile Yalancının son bir şansı var.&quot;, &quot;note&quot;: &quot;Uygulamada herkes kendi iPhone’una bakar, sırayla kelimeyi anlatır, sonra oylanır. Kelimeler uygulamadaki listenin aynısından gelir.&quot;, &quot;app&quot;: {&quot;game&quot;: &quot;Yalancı Oyunu&quot;, &quot;sub&quot;: &quot;Herkesin kelimesi aynı. Yalnızca biri bilmiyor.&quot;, &quot;arrived&quot;: &quot;Kelime geldi&quot;, &quot;secret&quot;: &quot;Ekranın kimse tarafından görülemeyeceği yerde bak&quot;, &quot;gotIt&quot;: &quot;Baktım&quot;, &quot;word&quot;: &quot;Kelime&quot;, &quot;cat&quot;: &quot;Kategori: {1}&quot;, &quot;liarYou&quot;: &quot;Yalancı sensin!&quot;, &quot;liarHint&quot;: &quot;Kelimeyi bilmiyorsun ama biliyormuş gibi anlatmalısın. Yakalanma!&quot;, &quot;liar&quot;: &quot;Yalancı&quot;, &quot;caught&quot;: &quot;Yalancı yakalandı!&quot;, &quot;pick&quot;: &quot;Kelimeyi seç — tek bir şansın var!&quot;, &quot;liarWin&quot;: &quot;Yalancı kazandı!&quot;, &quot;citizenWin&quot;: &quot;Vatandaşlar kazandı!&quot;, &quot;me&quot;: &quot;Ben&quot;, &quot;bots&quot;: [&quot;Ay Tavşanı&quot;, &quot;Gece Meltemi&quot;, &quot;Samanyolu&quot;, &quot;Küçülen Ay&quot;], &quot;words&quot;: {&quot;Yemek&quot;: [&quot;Kimchi güveç&quot;, &quot;Izgara domuz karnı&quot;, &quot;Tteokbokki&quot;, &quot;Kızarmış tavuk&quot;, &quot;Pizza&quot;, &quot;Suşi&quot;, &quot;Ramen&quot;, &quot;Bibimbap&quot;, &quot;Soğuk erişte&quot;, &quot;Dana kaburga çorbası&quot;, &quot;Makarna&quot;, &quot;Hamburger&quot;, &quot;Gimbap&quot;, &quot;Kore kan sosisi&quot;, &quot;Domuz paçası&quot;, &quot;Salata&quot;], &quot;Hayvanlar&quot;: [&quot;Fil&quot;, &quot;Zürafa&quot;, &quot;Penguen&quot;, &quot;Kaplan&quot;, &quot;Panda&quot;, &quot;Kirpi&quot;, &quot;Kanguru&quot;, &quot;Baykuş&quot;, &quot;Yunus&quot;, &quot;Ahtapot&quot;, &quot;Sincap&quot;, &quot;Timsah&quot;, &quot;Deve&quot;, &quot;Su samuru&quot;, &quot;Papağan&quot;, &quot;Köstebek&quot;], &quot;Mekânlar&quot;: [&quot;Lunapark&quot;, &quot;Kütüphane&quot;, &quot;Kore saunası&quot;, &quot;Sinema&quot;, &quot;Market&quot;, &quot;Metro istasyonu&quot;, &quot;Kuaför&quot;, &quot;Hastane&quot;, &quot;Okul&quot;, &quot;Kamp alanı&quot;, &quot;Yüzme havuzu&quot;, &quot;Havalimanı&quot;, &quot;Pazar&quot;, &quot;Kafe&quot;, &quot;Karaoke&quot;, &quot;Spor salonu&quot;], &quot;Meslekler&quot;: [&quot;İtfaiyeci&quot;, &quot;Doktor&quot;, &quot;Aşçı&quot;, &quot;Yazılımcı&quot;, &quot;YouTuber&quot;, &quot;Öğretmen&quot;, &quot;Polis&quot;, &quot;Çiftçi&quot;, &quot;Pilot&quot;, &quot;Saç tasarımcısı&quot;, &quot;Şarkıcı&quot;, &quot;Sporcu&quot;, &quot;Fotoğrafçı&quot;, &quot;Avukat&quot;, &quot;Balıkçı&quot;, &quot;Barista&quot;], &quot;Eşyalar&quot;: [&quot;Şemsiye&quot;, &quot;Vantilatör&quot;, &quot;Buzdolabı&quot;, &quot;Diş fırçası&quot;, &quot;Yastık&quot;, &quot;Kumanda&quot;, &quot;Termos bardak&quot;, &quot;Kulaklık&quot;, &quot;Makas&quot;, &quot;Battaniye&quot;, &quot;Ayna&quot;, &quot;Saat&quot;, &quot;Şarj aleti&quot;, &quot;Terlik&quot;, &quot;Maske&quot;, &quot;Cüzdan&quot;], &quot;Sporlar&quot;: [&quot;Futbol&quot;, &quot;Beyzbol&quot;, &quot;Basketbol&quot;, &quot;Badminton&quot;, &quot;Yüzme&quot;, &quot;Bowling&quot;, &quot;Tekvando&quot;, &quot;Golf&quot;, &quot;Masa tenisi&quot;, &quot;Kayak&quot;, &quot;Tırmanış&quot;, &quot;Yoga&quot;, &quot;Boks&quot;, &quot;Okçuluk&quot;, &quot;Eskrim&quot;, &quot;Maraton&quot;]}}}"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">Yakınımda hiç oda görünmüyor.</div>
-      <div class="a">Ev sahibi ile katılımcıların <strong>aynı Wi-Fi ağına</strong> bağlı olduğundan ya da birbirine yakın olduğundan emin olun. Ayarlar &gt; Gizlilik ve Güvenlik &gt; <strong>Yerel Ağ</strong> bölümünde Ay Oyun Salonu açık olmalıdır. Wi-Fi ve Bluetooth’un ikisi de açık olduğunda bağlantı en kararlı hâlini alır.</div>
-    </div>
+    <section class="problem reveal">
+      <h2>Herkes toplandı ama ne oynanacağı belli değil</h2>
+      <p>Oyun gecesi, yazlıkta hafta sonu, bayramda aile toplantısı. Vampir Köylü oynamak için birinin oyundan çıkıp yönetmesi gerekir, katlanmış kâğıtlar da hiç tam gizli kalmaz. Wi-Fi’ı zayıf bir evde online oyunlar da olmaz. Ay Oyun Salonu’nda yönetmeyi, rol dağıtmayı ve bağlantıyı iPhone’lar üstlenir.</p>
+    </section>
 
-    <div class="qa">
-      <div class="q">Oyun sırasında bağlantım koptu.</div>
-      <div class="a">Uygulamayı yeniden açtığınızda aynı odaya <strong>otomatik olarak yeniden bağlanır</strong> ve devam eden oyuna geri dönersiniz. Belirli bir süre içinde yeniden bağlanamazsanız oda listesinden tekrar katılın.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Rolün yalnızca senin ekranında</h2>
+        <p>Oyun başlayınca her iPhone kendi rolünü ya da kelimesini alır. Kart dağıtmak ya da “herkes gözlerini kapatsın” demek yok.<br>Oylamada yalnızca kimin oy verdiği görünür. Kimin kime oy verdiği açıklanana kadar gizli kalır.</p>
+      </div>
+      <div class="phone"><img src="../img/tr/02-role.jpg" alt="Rolün yalnızca senin ekranında" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">En az kaç kişi gerekiyor?</div>
-      <div class="a">Ay Tarikatı 5 kişiyle, diğer oyunlar 3 kişiyle başlatılabilir; en fazla 15 kişi birlikte oynayabilir.</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Her ortama dört oyun</h2>
+        <p>Yalancı Oyunu’nda laf ustalığı kazanır, Ay Tarikatı’nda görevler ve oylamalarla Gölgeleri avlarsınız, Aysız Gece’de tek gecede Goblin’i bulursunuz, Ay Atölyesi’nde biri çizer, diğerleri tahmin eder.<br>Ay Tarikatı 5 kişiyle, diğerleri 3 kişiyle başlar; hepsi 15 kişiye kadar oynanır.</p>
+      </div>
+      <div class="phone"><img src="../img/tr/04-draw.jpg" alt="Her ortama dört oyun" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">İnternet ya da hesap gerekiyor mu?</div>
-      <div class="a">Hayır. Üyelik, giriş ya da internet bağlantısı olmadan çevrim dışı oynarsınız. Oyun verileri hiçbir sunucuya gönderilmez.</div>
-    </div>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Yeni oyun mu? Dakikalar içinde öğrenilir</h2>
+        <p>Her oyunun bir Nasıl oynanır modu var; botlarla adım adım bir el oynarsın. Üstteki ipucunu oku ve İleri’ye dokun.<br>Uygulama kapanır ya da bağlantı koparsa ana ekrandaki Devam et ile aynı ele dönersin.</p>
+      </div>
+      <div class="phone"><img src="../img/tr/03-vote.jpg" alt="Yeni oyun mu? Dakikalar içinde öğrenilir" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-  <section class="contact">
-    <h2 style="justify-content:center"><span class="ic">✉️</span>İletişim</h2>
-    <p class="muted">Hata bildirimlerinizi, önerilerinizi ve diğer sorularınızı uygulamadaki Ayarlar (dişli simgesi) &gt; Destek bölümünden doğrudan gönderebilir ya da aşağıdaki e-posta adresine yazabilirsiniz. En kısa sürede yanıt vereceğiz.</p>
-    <a class="mail" href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>
-  </section>
+    <section class="reveal">
+      <h2>Üç adımda başla</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Takma ad ve oyun seç</h3><p>Herkes uygulamayı açar, takma adını yazar ve oyunu seçer.</p></li>
+<li class="card"><span class="n">2</span><h3>Oda oluştur ya da katıl</h3><p>Biri oda oluşturur, diğerleri Yakındaki odaları bul ile katılır.</p></li>
+<li class="card"><span class="n">3</span><h3>Ev sahibi başlatır</h3><p>Herkes içerideyse ev sahibi Oyunu başlat’a dokunur. Gerisini uygulama halleder.</p></li></ol>
+    </section>
 
+    <section class="reveal" id="commands">
+      <h2>Dört oyun</h2>
+      <div class="card table">
+        <dl><div><dt>Yalancı Oyunu · 3–15 kişi</dt><dd>Biri hariç herkes aynı kelimeyi alır. Sırayla anlatılır, sonra Yalancı oylanır. Yakalanan Yalancı kelimeyi bilirse yine de kazanır.</dd></div><div><dt>Ay Tarikatı · 5–15 kişi</dt><dd>Tarikatın içine saklanan Gölgeleri bulun. Lider bir görev ekibi seçer, herkes lehte ya da aleyhte oy verir, ekip de gizlice başarı ya da başarısızlık kartı atar. Üç görevi önce alan taraf kazanır.</dd></div><div><dt>Aysız Gece · 3–15 kişi</dt><dd>Tek bir gece ve köye saklanmış bir Goblin. Gece Şaman, Gece Hırsızı ve Muzip gizlice harekete geçer. Şafakta tartışılır ve Goblin’i bulmak için tek bir oylama hakkı vardır.</dd></div><div><dt>Ay Atölyesi · 3–15 kişi</dt><dd>Biri kelimeyi çizer, diğerleri sohbette tahmin eder. Ne kadar hızlı bilirsen o kadar çok puan alırsın; çizen de her doğru tahminden puan kazanır.</dd></div></dl>
+      </div>
+      <p class="muted">Her oyun önce Nasıl oynanır modunda botlarla tek başına denenebilir.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Sık sorulan sorular</h2>
+      <div class="faq"><details><summary>Odayı göremiyorum.</summary><p>Ev sahibiyle oyuncuların aynı Wi-Fi’da ya da birbirine yakın olduğundan emin ol. Yakındaki aygıtları bulmak için Ay Oyun Salonu’nun Ayarlar ▸ Gizlilik ve Güvenlik ▸ Yerel Ağ’da açık olması gerekir. Wi-Fi ve Bluetooth’un ikisi de açıkken bağlantı en kararlı hâlindedir.</p></details>
+<details><summary>Yerel ağ erişimine izin vermek şart mı?</summary><p>Evet. Uygulama yakındaki iPhone’ları bu sayede bulup bağlanır. Yanlışlıkla İzin Verme’ye dokunduysan Ayarlar ▸ Gizlilik ve Güvenlik ▸ Yerel Ağ’dan yeniden açabilirsin.</p></details>
+<details><summary>Oyunun ortasında bağlantım koptu.</summary><p>Uygulamayı yeniden aç ve ana ekranda Devam et’e dokun; aynı odaya, aynı ele dönersin. Rolün ve puanın yerinde durur. Uzun süre bağlanamazsan oda listesinden yeniden katıl.</p></details>
+<details><summary>Biri yanıt vermiyor, oyun takıldı.</summary><p>Ev sahibi yanıt vermeyen oyuncuyu istediği an çıkarabilir; oyun kalanlarla yeniden değerlendirilip devam eder. GM yönetici modunda takılan bir aşama atlanabilir de.</p></details>
+<details><summary>En az kaç kişi gerekir?</summary><p>Ay Tarikatı için 5 kişi gerekir. Yalancı Oyunu, Aysız Gece ve Ay Atölyesi 3 kişiyle başlar. Hepsi 15 kişiye kadar oynanır. Kişi eksikse kuralları Nasıl oynanır modunda botlarla öğrenin.</p></details>
+<details><summary>İnternet ya da hesap gerekiyor mu?</summary><p>Hayır. Kayıt, giriş ya da internet yok. Yakındaki iPhone’lar doğrudan bağlanır ve oyun verileri hiçbir zaman sunucuya gönderilmez.</p></details>
+<details><summary>Önce tek başıma deneyebilir miyim?</summary><p>Evet. Bir oyun seç, sonra Nasıl oynanır (botlarla pratik)’ı seç. Botlar odaya girer ve adım adım tam bir el oynarsın.</p></details>
+<details><summary>Hata bildirmek ya da fikir göndermek için ne yapmalıyım?</summary><p>Uygulamada Ayarlar (dişli) ▸ Destek’ten doğrudan gönderebilir ya da aşağıdaki adrese e-posta atabilirsin. En kısa sürede yanıt veririz.</p></details></div>
+      <p class="contact">Hata, fikir ya da başka bir sorun için <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> adresine yaz.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Bu akşamki buluşma<br>burada başlıyor</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6790137862">App Store’dan ücretsiz indir</a>
+    </section>
+  </main>
 
   <footer>
-    Ay Oyun Salonu<br>
-    <a href="privacy.html">Gizlilik Politikası</a>
+    <nav id="languages" class="langs" aria-label="Dil"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr" aria-current="page">Türkçe</a></nav>
+    <p><a href="privacy.html">Gizlilik Politikası</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Moonlit Arcade</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

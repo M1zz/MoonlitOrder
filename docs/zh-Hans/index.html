@@ -1,155 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hans">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>月光游戏厅 · 支持</title>
-<meta name="description" content="月光游戏厅是一款离线派对游戏合集，无需联网，让附近的 iPhone 直接相连即可畅玩。">
-<!--HREFLANG-->
-<link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/index.html">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/index.html">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/index.html">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/index.html">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/index.html">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/index.html">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/index.html">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/index.html">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/index.html">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/index.html">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/index.html">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/index.html">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/index.html">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/index.html">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/index.html">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/index.html">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/index.html">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/index.html">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/index.html">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/index.html">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/index.html">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/index.html">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/index.html">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/index.html">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<!--/HREFLANG-->
-<style>
-  :root{
-    --bg1:#0f1226; --bg2:#211840; --card:rgba(255,255,255,.06);
-    --stroke:rgba(255,255,255,.12); --text:#f4f3fb; --muted:rgba(244,243,251,.62);
-    --gold:#f2c759; --blue:#73bfff; --red:#f25a6b; --mint:#59d1b8;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",
-      "Malgun Gothic",sans-serif;
-    color:var(--text); line-height:1.7;
-    background:linear-gradient(180deg,var(--bg1),var(--bg2)) fixed;
-    min-height:100vh; -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 80px}
-  header{text-align:center;margin-bottom:44px}
-  .logo{font-size:52px;line-height:1}
-  h1{font-size:34px;font-weight:800;margin:14px 0 6px;letter-spacing:-.5px}
-  .sub{color:var(--muted);font-size:15px}
-  .badge{display:inline-block;margin-top:14px;padding:5px 12px;border-radius:999px;
-    background:rgba(89,209,184,.14);color:var(--mint);font-size:13px;font-weight:600}
-  section{background:var(--card);border:1px solid var(--stroke);border-radius:18px;
-    padding:26px 24px;margin:18px 0}
-  h2{font-size:20px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:9px}
-  h2 .ic{font-size:22px}
-  h3{font-size:16px;font-weight:700;margin:18px 0 4px;color:var(--gold)}
-  p,li{color:var(--text);font-size:15.5px}
-  .muted{color:var(--muted)}
-  ul{padding-left:20px;margin:8px 0}
-  li{margin:6px 0}
-  .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:8px}
-  .game{background:rgba(255,255,255,.04);border:1px solid var(--stroke);border-radius:14px;padding:14px}
-  .game .n{font-weight:700;font-size:15px}
-  .game .d{color:var(--muted);font-size:13px;margin-top:3px}
-  .qa{margin:16px 0}
-  .qa .q{font-weight:700;color:var(--blue);font-size:15.5px}
-  .qa .a{color:var(--text);margin-top:3px}
-  a{color:var(--mint);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .contact{text-align:center;background:rgba(242,199,89,.10);border-color:rgba(242,199,89,.28)}
-  .contact .mail{font-size:20px;font-weight:800;color:var(--gold);display:inline-block;margin-top:6px}
-  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:36px;line-height:1.9}
-  footer a{color:var(--muted);text-decoration:underline}
-.langs{display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:center;margin-top:16px;font-size:13px}.langs a{color:var(--muted);text-decoration:none}.langs a[aria-current]{color:var(--gold);font-weight:700}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>月光游戏厅：不用网络，iPhone 面对面玩的聚会游戏</title>
+  <meta name="description" content="不用网络，把在场每个人的 iPhone 直接连起来，最多 15 人一起玩说谎者游戏、身份推理和你画我猜。所有游戏免费。">
+  <meta name="theme-color" content="#9A6B00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1226" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6790137862">
+  <link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="月光游戏厅：不用网络，iPhone 面对面玩的聚会游戏">
+  <meta property="og:description" content="不用网络，把在场每个人的 iPhone 直接连起来，最多 15 人一起玩说谎者游戏、身份推理和你画我猜。所有游戏免费。">
+  <meta property="og:url" content="https://m1zz.github.io/MoonlitOrder/zh-Hans/">
+  <meta property="og:image" content="https://m1zz.github.io/MoonlitOrder/img/zh-Hans/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#9A6B00}@media (prefers-color-scheme:dark){:root{--accent:#F2C759}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="logo">🌙</div>
-    <h1>月光游戏厅</h1>
-    <div class="sub">和身边的朋友一起玩的离线派对游戏</div>
-    <div class="badge">客户支持</div>
-    <!--LANGNAV--><nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--/LANGNAV-->
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="bar">
+    <a class="brand" href="../zh-Hans/"><img src="../icon.png" alt="" width="32" height="32">月光游戏厅</a>
+    <a class="lang-link" href="#languages">语言</a>
   </header>
 
-  <section>
-    <h2><span class="ic">🎲</span>这是一款什么应用？</h2>
-    <p><strong>月光游戏厅</strong>是一款社交推理与派对游戏合集，无需联网，附近的 iPhone 之间直接连接即可游玩。
-      只要大家在同一 Wi-Fi 或蓝牙范围内，无需服务器就能马上创建房间、加入游戏。</p>
-    <div class="games">
-      <div class="game"><div class="n">🌙 月光结社</div><div class="d">5–15 人 · 揪出潜伏在人群中的暗影</div></div>
-      <div class="game"><div class="n">🎭 说谎者游戏</div><div class="d">3–15 人 · 找出那个不知道题词的人</div></div>
-      <div class="game"><div class="n">🔥 无月之夜</div><div class="d">3–15 人 · 鬼怪潜入的一夜推理</div></div>
-      <div class="game"><div class="n">🖌️ 月光画室</div><div class="d">3–15 人 · 一人画画，其他人来猜</div></div>
-    </div>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>人一到齐，<br>各拿各的 iPhone</h1>
+        <p class="lead">一个人创建房间，附近的人马上就能加入。身份和词语只出现在各自的屏幕上，不用发牌，也不用有人专门当主持。</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6790137862">在 App Store 免费下载</a><a class="try" href="#try">体验一局说谎者游戏 ↓</a></div>
+        <p class="muted small">所有游戏免费，无需账户，也无需联网。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hans/01-home.jpg" alt="人一到齐， 各拿各的 iPhone" width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2><span class="ic">▶️</span>玩法说明</h2>
-    <ul>
-      <li>输入昵称，选择想玩的游戏。</li>
-      <li>由一人点击<strong>“创建房间(房主)”</strong>，其他人通过<strong>“加入游戏”</strong>进入房间。</li>
-      <li>在同一 Wi-Fi 或近距离（蓝牙）范围内，设备会自动找到彼此，无需连接互联网。</li>
-      <li>首次连接时，需要点击<strong>允许访问本地网络</strong>，才能找到附近的设备。</li>
-      <li>每款游戏都可以在<strong>“玩法(与机器人练习)”</strong>中和机器人一起一步步熟悉规则。</li>
-    </ul>
-  </section>
 
-  <section>
-    <h2><span class="ic">🛠️</span>常见问题</h2>
+    <section class="reveal" id="try">
+      <h2>体验一局说谎者游戏</h2>
+      <p class="muted">想象桌上放着五台 iPhone，逐个点一下看看。只有一个人不知道词语。也可以和朋友轮流传着屏幕玩。</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;体验一局说谎者游戏&quot;, &quot;lead&quot;: &quot;想象桌上放着五台 iPhone，逐个点一下看看。只有一个人不知道词语。也可以和朋友轮流传着屏幕玩。&quot;, &quot;tap&quot;: &quot;点一下查看&quot;, &quot;reveal&quot;: &quot;揭晓说谎者&quot;, &quot;again&quot;: &quot;再来一局&quot;, &quot;caughtNote&quot;: &quot;就算投票抓到了说谎者，说谎者还有最后一次机会。&quot;, &quot;note&quot;: &quot;在 App 里，每个人用自己的 iPhone 查看，轮流描述后再投票。词语和 App 用的是同一份词库。&quot;, &quot;app&quot;: {&quot;game&quot;: &quot;说谎者游戏&quot;, &quot;sub&quot;: &quot;大家的题词都一样,只有一个人不知道&quot;, &quot;arrived&quot;: &quot;题词已送达&quot;, &quot;secret&quot;: &quot;请在别人看不到屏幕的地方确认&quot;, &quot;gotIt&quot;: &quot;已确认&quot;, &quot;word&quot;: &quot;题词&quot;, &quot;cat&quot;: &quot;类别:{1}&quot;, &quot;liarYou&quot;: &quot;你就是说谎者!&quot;, &quot;liarHint&quot;: &quot;你不知道题词,却要装作知道来描述。别被发现!&quot;, &quot;liar&quot;: &quot;说谎者&quot;, &quot;caught&quot;: &quot;抓到说谎者!&quot;, &quot;pick&quot;: &quot;选一个题词吧 — 只有一次机会!&quot;, &quot;liarWin&quot;: &quot;说谎者获胜!&quot;, &quot;citizenWin&quot;: &quot;平民获胜!&quot;, &quot;me&quot;: &quot;我&quot;, &quot;bots&quot;: [&quot;月兔&quot;, &quot;夜风&quot;, &quot;银河&quot;, &quot;残月&quot;], &quot;words&quot;: {&quot;美食&quot;: [&quot;泡菜汤&quot;, &quot;烤五花肉&quot;, &quot;辣炒年糕&quot;, &quot;炸鸡&quot;, &quot;披萨&quot;, &quot;寿司&quot;, &quot;拉面&quot;, &quot;拌饭&quot;, &quot;冷面&quot;, &quot;牛排骨汤&quot;, &quot;意大利面&quot;, &quot;汉堡&quot;, &quot;紫菜包饭&quot;, &quot;血肠&quot;, &quot;猪蹄&quot;, &quot;沙拉&quot;], &quot;动物&quot;: [&quot;大象&quot;, &quot;长颈鹿&quot;, &quot;企鹅&quot;, &quot;老虎&quot;, &quot;熊猫&quot;, &quot;刺猬&quot;, &quot;袋鼠&quot;, &quot;猫头鹰&quot;, &quot;海豚&quot;, &quot;章鱼&quot;, &quot;松鼠&quot;, &quot;鳄鱼&quot;, &quot;骆驼&quot;, &quot;水獭&quot;, &quot;鹦鹉&quot;, &quot;鼹鼠&quot;], &quot;地点&quot;: [&quot;游乐园&quot;, &quot;图书馆&quot;, &quot;汗蒸房&quot;, &quot;电影院&quot;, &quot;便利店&quot;, &quot;地铁站&quot;, &quot;美发店&quot;, &quot;医院&quot;, &quot;学校&quot;, &quot;露营地&quot;, &quot;游泳池&quot;, &quot;机场&quot;, &quot;市场&quot;, &quot;咖啡馆&quot;, &quot;KTV&quot;, &quot;健身房&quot;], &quot;职业&quot;: [&quot;消防员&quot;, &quot;医生&quot;, &quot;厨师&quot;, &quot;程序员&quot;, &quot;视频博主&quot;, &quot;老师&quot;, &quot;警察&quot;, &quot;农民&quot;, &quot;飞行员&quot;, &quot;理发师&quot;, &quot;歌手&quot;, &quot;运动员&quot;, &quot;摄影师&quot;, &quot;律师&quot;, &quot;渔夫&quot;, &quot;咖啡师&quot;], &quot;物品&quot;: [&quot;雨伞&quot;, &quot;电风扇&quot;, &quot;冰箱&quot;, &quot;牙刷&quot;, &quot;枕头&quot;, &quot;遥控器&quot;, &quot;保温杯&quot;, &quot;耳机&quot;, &quot;剪刀&quot;, &quot;毯子&quot;, &quot;镜子&quot;, &quot;时钟&quot;, &quot;充电器&quot;, &quot;拖鞋&quot;, &quot;口罩&quot;, &quot;钱包&quot;], &quot;运动&quot;: [&quot;足球&quot;, &quot;棒球&quot;, &quot;篮球&quot;, &quot;羽毛球&quot;, &quot;游泳&quot;, &quot;保龄球&quot;, &quot;跆拳道&quot;, &quot;高尔夫&quot;, &quot;乒乓球&quot;, &quot;滑雪&quot;, &quot;攀岩&quot;, &quot;瑜伽&quot;, &quot;拳击&quot;, &quot;射箭&quot;, &quot;击剑&quot;, &quot;马拉松&quot;]}}}"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">附近看不到房间。</div>
-      <div class="a">请确认房主和其他玩家连接的是<strong>同一 Wi-Fi</strong>，或者彼此离得足够近。
-        还需要在“设置”&gt;“隐私与安全性”&gt;“<strong>本地网络</strong>”中打开月光游戏厅。
-        同时打开 Wi-Fi 和蓝牙时，连接最稳定。</div>
-    </div>
+    <section class="problem reveal">
+      <h2>人凑齐了，却不知道玩什么</h2>
+      <p>团建、聚餐后的第二场、过年的家庭聚会。玩狼人杀得有人退出来当法官，纸条折了也藏不住。民宿 Wi‑Fi 一差，联网游戏也玩不了。月光游戏厅让 iPhone 来负责主持、发身份和连接。</p>
+    </section>
 
-    <div class="qa">
-      <div class="q">游戏中途断线了。</div>
-      <div class="a">重新打开应用后，会<strong>自动重新连接</strong>到原来的房间，回到正在进行的那一局。
-        如果一段时间内没有重新连上，请从房间列表中重新加入。</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>身份和词语只在你的屏幕上</h2>
+        <p>游戏一开始，每台 iPhone 会各自收到身份或词语。不用发牌，也不用大家一起闭眼。<br>投票时只看得到谁投完了，投给谁在公布前都是秘密。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hans/02-role.jpg" alt="身份和词语只在你的屏幕上" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">最少需要几个人？</div>
-      <div class="a">月光结社至少需要 5 人，其他游戏 3 人即可开始，最多可供 15 人一起玩。</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>四款游戏，什么场合都合适</h2>
+        <p>比口才的说谎者游戏，靠远征和投票找出暗影的月光结社，一夜之间揪出鬼怪的无月之夜，一人画大家猜的月光画室。<br>月光结社 5 人起，其他游戏 3 人起，都最多支持 15 人。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hans/04-draw.jpg" alt="四款游戏，什么场合都合适" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">需要联网或注册账户吗？</div>
-      <div class="a">不需要。无需注册、登录或联网，离线即可游玩。游戏数据不会发送到服务器。</div>
-    </div>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>没玩过的游戏也能马上上手</h2>
+        <p>每款游戏都有玩法模式，和机器人一起一步步实际玩一遍就能学会规则。看着屏幕上方的提示点“下一步”就行。<br>就算 App 被关掉或连接断开，在主屏幕点“继续游戏”就能回到刚才那一局。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hans/03-vote.jpg" alt="没玩过的游戏也能马上上手" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-  <section class="contact">
-    <h2 style="justify-content:center"><span class="ic">✉️</span>联系我们</h2>
-    <p class="muted">如需报告问题、提出建议或进行其他咨询，可以直接在应用的“设置”（齿轮图标）&gt;“支持”中发送，也可以通过下方邮箱联系我们。我们会尽快回复。</p>
-    <a class="mail" href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>
-  </section>
+    <section class="reveal">
+      <h2>三步开始</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>选昵称和游戏</h3><p>大家打开 App，填好昵称，选要玩的游戏。</p></li>
+<li class="card"><span class="n">2</span><h3>创建或加入房间</h3><p>一个人创建房间，其他人在“查找附近房间”里加入。</p></li>
+<li class="card"><span class="n">3</span><h3>房主开始</h3><p>人齐后房主点“开始游戏”，剩下的交给 App。</p></li></ol>
+    </section>
 
+    <section class="reveal" id="commands">
+      <h2>四款游戏</h2>
+      <div class="card table">
+        <dl><div><dt>说谎者游戏 · 3–15 人</dt><dd>除了一个人，大家拿到同一个词。轮流用一句话描述，再投票找出说谎者。被抓到的说谎者如果猜中词语，就能反败为胜。</dd></div><div><dt>月光结社 · 5–15 人</dt><dd>在结社成员中找出潜伏暗影的身份推理游戏。队长挑选远征队，全员投票赞成或反对，远征队再暗中出成功或失败。哪边先拿下三次远征，哪边就赢。</dd></div><div><dt>无月之夜 · 3–15 人</dt><dd>鬼怪混进村子的一夜。夜里巫师、夜贼和捣蛋鬼各自暗中行动，天亮后讨论，只有一次投票机会找出鬼怪。</dd></div><div><dt>月光画室 · 3–15 人</dt><dd>一个人把词画出来，其他人在聊天里猜。猜得越快分越高，猜中的人越多，画的人也得分越多。</dd></div></dl>
+      </div>
+      <p class="muted">每款游戏都可以先在玩法模式里一个人和机器人试玩。</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>常见问题</h2>
+      <div class="faq"><details><summary>附近找不到房间。</summary><p>请确认房主和玩家连在同一个 Wi‑Fi 上，或者彼此离得够近。需要在“设置”▸“隐私与安全性”▸“本地网络”中打开月光游戏厅，才能找到附近的设备。Wi‑Fi 和蓝牙都打开时连接最稳定。</p></details>
+<details><summary>一定要允许访问本地网络吗？</summary><p>是的，App 要靠它找到并连接附近的 iPhone。如果不小心拒绝了，可以在“设置”▸“隐私与安全性”▸“本地网络”中重新打开。</p></details>
+<details><summary>游戏中途断线了。</summary><p>重新打开 App，在主屏幕点“继续游戏”，就能回到同一个房间、同一局。身份和分数都还在。如果一直连不回来，请从房间列表重新加入。</p></details>
+<details><summary>有人没反应，游戏卡住了。</summary><p>房主随时可以把没反应的玩家移出房间，游戏会按剩下的人数重新判定并继续。GM 主持人模式还可以跳过卡住的环节。</p></details>
+<details><summary>最少要几个人？</summary><p>月光结社 5 人，说谎者游戏、无月之夜和月光画室 3 人就能开始，都最多支持 15 人。人不够的话，可以先在玩法模式里和机器人熟悉规则。</p></details>
+<details><summary>需要联网或账户吗？</summary><p>不需要。不用注册、登录或联网，附近的 iPhone 直接相连就能玩。游戏数据不会发送到服务器。</p></details>
+<details><summary>能先一个人试试吗？</summary><p>可以。选好游戏后点“玩法(与机器人练习)”，机器人会进入房间，陪你一步步玩完一整局。</p></details>
+<details><summary>想反馈问题或提建议？</summary><p>可以在 App 的设置(齿轮)▸ 支持里直接发送，或者发邮件到下方地址。我们会尽快回复。</p></details></div>
+      <p class="contact">问题反馈、建议或其他咨询，请发邮件到 <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>。</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>今天的聚会，<br>就在月光游戏厅</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6790137862">在 App Store 免费下载</a>
+    </section>
+  </main>
 
   <footer>
-    月光游戏厅<br>
-    <a href="privacy.html">隐私政策</a>
+    <nav id="languages" class="langs" aria-label="语言"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">隐私政策</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Moonlit Arcade</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

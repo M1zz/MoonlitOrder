@@ -1,0 +1,259 @@
+{
+  "title": "Sala Giochi Lunare: giochi di gruppo tra iPhone, senza internet",
+  "description": "Collega gli iPhone di tutti senza internet e giocate fino a 15 al Gioco del Bugiardo, a ruoli nascosti o a disegna e indovina. Tutti i giochi sono gratis.",
+  "hero": {
+    "headline": "Ci siete tutti?\nTirate fuori l’iPhone.",
+    "lead": "Uno crea una stanza e chi è vicino entra in pochi secondi. Ruoli e parole segrete compaiono solo sullo schermo di ciascuno: niente carte e nessuno costretto a fare il narratore.",
+    "cta": "Scarica gratis su App Store",
+    "note": "Tutti i giochi sono gratis. Niente account, niente internet."
+  },
+  "demo": {
+    "title": "Una partita al Gioco del Bugiardo",
+    "lead": "Immagina cinque iPhone sul tavolo e toccali uno alla volta per sbirciare. Solo uno non conosce la parola. Potete anche passarvi lo schermo tra amici.",
+    "tap": "Tocca per vedere",
+    "reveal": "Svela il Bugiardo",
+    "again": "Nuova partita",
+    "caughtNote": "Anche se il voto smaschera il Bugiardo, gli resta un’ultima occasione.",
+    "note": "Nell’app ognuno guarda il proprio iPhone, descrive la parola a turno e poi si vota. Le parole vengono dalla stessa lista dell’app.",
+    "app": {
+      "game": "Gioco del Bugiardo",
+      "sub": "Tutti hanno la stessa parola. Solo uno non la conosce.",
+      "arrived": "La parola è arrivata",
+      "secret": "Guarda dove nessuno può vedere lo schermo",
+      "gotIt": "Visto",
+      "word": "Parola",
+      "cat": "Categoria: {1}",
+      "liarYou": "Sei il Bugiardo!",
+      "liarHint": "Non conosci la parola, ma devi descriverla come se la conoscessi. Non farti scoprire!",
+      "liar": "Bugiardo",
+      "caught": "Bugiardo scoperto!",
+      "pick": "Scegli la parola — hai una sola possibilità!",
+      "liarWin": "Vince il Bugiardo!",
+      "citizenWin": "Vincono i cittadini!",
+      "me": "Io",
+      "bots": [
+        "Coniglio Lunare",
+        "Brezza Notturna",
+        "Via Lattea",
+        "Luna Calante"
+      ],
+      "words": {
+        "Cibo": [
+          "Stufato di kimchi",
+          "Pancetta di maiale alla griglia",
+          "Tteokbokki",
+          "Pollo fritto",
+          "Pizza",
+          "Sushi",
+          "Ramen",
+          "Bibimbap",
+          "Noodle freddi",
+          "Zuppa di costine",
+          "Pasta",
+          "Hamburger",
+          "Gimbap",
+          "Sanguinaccio coreano",
+          "Piedini di maiale",
+          "Insalata"
+        ],
+        "Animali": [
+          "Elefante",
+          "Giraffa",
+          "Pinguino",
+          "Tigre",
+          "Panda",
+          "Riccio",
+          "Canguro",
+          "Gufo",
+          "Delfino",
+          "Polpo",
+          "Scoiattolo",
+          "Coccodrillo",
+          "Cammello",
+          "Lontra",
+          "Pappagallo",
+          "Talpa"
+        ],
+        "Luoghi": [
+          "Parco divertimenti",
+          "Biblioteca",
+          "Centro benessere coreano",
+          "Cinema",
+          "Minimarket",
+          "Stazione della metro",
+          "Parrucchiere",
+          "Ospedale",
+          "Scuola",
+          "Campeggio",
+          "Piscina",
+          "Aeroporto",
+          "Mercato",
+          "Bar",
+          "Karaoke",
+          "Palestra"
+        ],
+        "Professioni": [
+          "Pompiere",
+          "Medico",
+          "Cuoco",
+          "Programmatore",
+          "YouTuber",
+          "Insegnante",
+          "Poliziotto",
+          "Contadino",
+          "Pilota",
+          "Parrucchiere",
+          "Cantante",
+          "Atleta",
+          "Fotografo",
+          "Avvocato",
+          "Pescatore",
+          "Barista"
+        ],
+        "Oggetti": [
+          "Ombrello",
+          "Ventilatore",
+          "Frigorifero",
+          "Spazzolino",
+          "Cuscino",
+          "Telecomando",
+          "Borraccia termica",
+          "Auricolari",
+          "Forbici",
+          "Coperta",
+          "Specchio",
+          "Orologio",
+          "Caricabatterie",
+          "Pantofole",
+          "Mascherina",
+          "Portafoglio"
+        ],
+        "Sport": [
+          "Calcio",
+          "Baseball",
+          "Pallacanestro",
+          "Badminton",
+          "Nuoto",
+          "Bowling",
+          "Taekwondo",
+          "Golf",
+          "Ping pong",
+          "Sci",
+          "Arrampicata",
+          "Yoga",
+          "Pugilato",
+          "Tiro con l’arco",
+          "Scherma",
+          "Maratona"
+        ]
+      }
+    }
+  },
+  "problem": {
+    "title": "Siete in tanti, ma non sapete a cosa giocare",
+    "text": "Serata giochi, weekend in baita, Natale in famiglia. Per un gioco a ruoli nascosti qualcuno deve restare fuori a fare il narratore, e i bigliettini piegati non sono mai davvero segreti. In una casa vacanze con il Wi-Fi debole, niente giochi online. Con Sala Giochi Lunare sono gli iPhone a condurre, distribuire i ruoli e collegarsi."
+  },
+  "features": [
+    {
+      "title": "Il tuo ruolo resta sul tuo schermo",
+      "text": "All’inizio della partita ogni iPhone riceve il proprio ruolo o la propria parola. Niente carte da distribuire, niente «tutti chiudono gli occhi».\nDurante il voto si vede solo chi ha già votato. Chi ha votato chi resta segreto fino alla rivelazione.",
+      "shot": "02-role"
+    },
+    {
+      "title": "Quattro giochi per ogni compagnia",
+      "text": "Nel Gioco del Bugiardo vince la parlantina, nell’Ordine Lunare si stanano le Ombre con missioni e votazioni, nella Notte senza Luna si cerca il Goblin in una sola notte, e nello Studio Lunare uno disegna e gli altri indovinano.\nOrdine Lunare da 5 giocatori, gli altri da 3, tutti fino a 15.",
+      "shot": "04-draw"
+    },
+    {
+      "title": "Gioco nuovo? Imparato in pochi minuti",
+      "text": "Ogni gioco ha la modalità Come si gioca, in cui fai una partita con i bot, un passo alla volta. Leggi il suggerimento in alto e tocca Avanti.\nSe l’app si chiude o la connessione cade, tocca Riprendi nella schermata iniziale e torni nella stessa partita.",
+      "shot": "03-vote"
+    }
+  ],
+  "steps": {
+    "title": "Tre passi per iniziare",
+    "items": [
+      {
+        "title": "Soprannome e gioco",
+        "text": "Tutti aprono l’app, scrivono un soprannome e scelgono il gioco."
+      },
+      {
+        "title": "Crea o entra in una stanza",
+        "text": "Uno crea la stanza, gli altri la trovano con Cerca stanze vicine."
+      },
+      {
+        "title": "L’host avvia",
+        "text": "Quando ci sono tutti, l’host tocca Inizia partita. Al resto pensa l’app."
+      }
+    ]
+  },
+  "reference": {
+    "title": "I quattro giochi",
+    "rows": [
+      [
+        "Gioco del Bugiardo · da 3 a 15",
+        "Tutti ricevono la stessa parola tranne uno. A turno la si descrive, poi si vota il Bugiardo. Se viene scoperto ma indovina la parola, il Bugiardo vince lo stesso."
+      ],
+      [
+        "Ordine Lunare · da 5 a 15",
+        "Smascherate le Ombre nascoste nell’Ordine. Il capo sceglie una squadra, tutti votano a favore o contro, e la squadra gioca in segreto successo o fallimento. Vince chi per primo si aggiudica tre missioni."
+      ],
+      [
+        "Notte senza Luna · da 3 a 15",
+        "Una notte sola, e un Goblin si nasconde nel villaggio. Di notte Sciamano, Ladro notturno e Burlone agiscono in segreto. All’alba si discute e c’è un solo voto per trovare il Goblin."
+      ],
+      [
+        "Studio Lunare · da 3 a 15",
+        "Uno disegna la parola, gli altri indovinano in chat. Più indovini in fretta, più punti fai, e chi disegna guadagna per ogni risposta giusta."
+      ]
+    ],
+    "note": "Ogni gioco si può provare prima da soli con i bot nella modalità Come si gioca."
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "items": [
+      {
+        "q": "Non vedo la stanza.",
+        "a": "Controlla che host e giocatori siano sulla stessa rete Wi-Fi o vicini tra loro. Sala Giochi Lunare deve essere attiva in Impostazioni ▸ Privacy e sicurezza ▸ Rete locale per trovare i dispositivi vicini. Con Wi-Fi e Bluetooth attivi la connessione è più stabile."
+      },
+      {
+        "q": "Devo consentire l’accesso alla rete locale?",
+        "a": "Sì, serve all’app per trovare gli iPhone vicini e collegarsi. Se hai toccato Non consentire, riattivalo in Impostazioni ▸ Privacy e sicurezza ▸ Rete locale."
+      },
+      {
+        "q": "Mi sono disconnesso durante la partita.",
+        "a": "Riapri l’app e tocca Riprendi nella schermata iniziale per tornare nella stessa stanza e partita. Ruolo e punteggio restano. Se non si riconnette per un po’, rientra dall’elenco delle stanze."
+      },
+      {
+        "q": "Qualcuno non risponde e la partita è bloccata.",
+        "a": "L’host può rimuovere in qualsiasi momento chi non risponde: la partita ricalcola con chi resta e va avanti. Con la modalità host GM si può anche saltare una fase bloccata."
+      },
+      {
+        "q": "Quanti giocatori servono?",
+        "a": "L’Ordine Lunare ne richiede 5. Gioco del Bugiardo, Notte senza Luna e Studio Lunare partono da 3. Tutti arrivano a 15. Siete in pochi? Imparate le regole con i bot nella modalità Come si gioca."
+      },
+      {
+        "q": "Serve internet o un account?",
+        "a": "No. Niente registrazione, accesso o internet. Gli iPhone vicini si collegano direttamente e i dati di gioco non vengono mai inviati a un server."
+      },
+      {
+        "q": "Posso provare un gioco da solo prima?",
+        "a": "Sì. Scegli un gioco e poi Come si gioca (allenamento con i bot). I bot entrano nella stanza e giochi una partita intera passo dopo passo."
+      },
+      {
+        "q": "Come segnalo un bug o propongo un’idea?",
+        "a": "Direttamente dall’app in Impostazioni (l’ingranaggio) ▸ Assistenza, oppure via email all’indirizzo qui sotto. Ti risponderemo il prima possibile."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "La serata giochi\ncomincia qui",
+    "cta": "Scarica gratis su App Store"
+  },
+  "ui": {
+    "skip": "Vai al contenuto",
+    "languages": "Lingua",
+    "privacy": "Informativa sulla privacy",
+    "contact": "Bug, idee o altre domande: scrivi a {email}."
+  }
+}

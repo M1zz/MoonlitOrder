@@ -1,0 +1,259 @@
+{
+  "title": "Měsíční herna: party hry mezi iPhony, bez internetu",
+  "description": "Propojte iPhony všech v místnosti bez internetu a hrajte až v 15 lidech Hru na lháře, hry se skrytými rolemi nebo kreslení a hádání. Vše zdarma.",
+  "hero": {
+    "headline": "Všichni jsou tu?\nVytáhněte iPhony.",
+    "lead": "Jeden založí místnost a všichni poblíž se připojí během pár vteřin. Role a tajná slova vidí každý jen na své obrazovce: žádné kartičky a nikdo nemusí stát mimo hru jako vypravěč.",
+    "cta": "Stáhnout zdarma v App Storu",
+    "note": "Všechny hry zdarma. Bez účtu a bez internetu."
+  },
+  "demo": {
+    "title": "Zahrajte si kolo Hry na lháře",
+    "lead": "Představte si pět iPhonů na stole a klepněte na ně jeden po druhém. Jen jeden hráč nezná slovo. Obrazovku si můžete s kamarády i posílat dokola.",
+    "tap": "Klepni a podívej se",
+    "reveal": "Odhalit lháře",
+    "again": "Nové kolo",
+    "caughtNote": "I když lháře odhalí hlasování, má ještě poslední šanci.",
+    "note": "V aplikaci se každý dívá do svého iPhonu, po řadě popisuje slovo a pak se hlasuje. Slova pocházejí ze stejného seznamu jako v aplikaci.",
+    "app": {
+      "game": "Hra na lháře",
+      "sub": "Všichni mají stejné slovo. Jen jeden ho nezná.",
+      "arrived": "Slovo dorazilo",
+      "secret": "Podívej se tam, kde na obrazovku nikdo nevidí",
+      "gotIt": "Viděl jsem",
+      "word": "Slovo",
+      "cat": "Kategorie: {1}",
+      "liarYou": "Ty jsi Lhář!",
+      "liarHint": "Slovo neznáš, ale musíš ho popisovat, jako bys ho znal. Nenech se přistihnout!",
+      "liar": "Lhář",
+      "caught": "Lhář chycen!",
+      "pick": "Vyber slovo — máš jen jednu šanci!",
+      "liarWin": "Vyhrává Lhář!",
+      "citizenWin": "Vyhrávají občané!",
+      "me": "Já",
+      "bots": [
+        "Měsíční Zajíc",
+        "Noční Vánek",
+        "Mléčná dráha",
+        "Couvající Měsíc"
+      ],
+      "words": {
+        "Jídlo": [
+          "Kimči guláš",
+          "Grilovaný vepřový bůček",
+          "Tteokbokki",
+          "Smažené kuře",
+          "Pizza",
+          "Sushi",
+          "Ramen",
+          "Bibimbap",
+          "Studené nudle",
+          "Polévka z hovězích žeber",
+          "Těstoviny",
+          "Hamburger",
+          "Gimbap",
+          "Korejská krvavá klobása",
+          "Vepřové nožičky",
+          "Salát"
+        ],
+        "Zvířata": [
+          "Slon",
+          "Žirafa",
+          "Tučňák",
+          "Tygr",
+          "Panda",
+          "Ježek",
+          "Klokan",
+          "Sova",
+          "Delfín",
+          "Chobotnice",
+          "Veverka",
+          "Krokodýl",
+          "Velbloud",
+          "Vydra",
+          "Papoušek",
+          "Krtek"
+        ],
+        "Místa": [
+          "Zábavní park",
+          "Knihovna",
+          "Korejská sauna",
+          "Kino",
+          "Večerka",
+          "Stanice metra",
+          "Kadeřnictví",
+          "Nemocnice",
+          "Škola",
+          "Kemp",
+          "Bazén",
+          "Letiště",
+          "Trh",
+          "Kavárna",
+          "Karaoke",
+          "Posilovna"
+        ],
+        "Povolání": [
+          "Hasič",
+          "Lékař",
+          "Kuchař",
+          "Programátor",
+          "Youtuber",
+          "Učitel",
+          "Policista",
+          "Farmář",
+          "Pilot",
+          "Kadeřník",
+          "Zpěvák",
+          "Sportovec",
+          "Fotograf",
+          "Právník",
+          "Rybář",
+          "Barista"
+        ],
+        "Věci": [
+          "Deštník",
+          "Větrák",
+          "Lednice",
+          "Zubní kartáček",
+          "Polštář",
+          "Dálkový ovladač",
+          "Termohrnek",
+          "Sluchátka",
+          "Nůžky",
+          "Deka",
+          "Zrcadlo",
+          "Hodiny",
+          "Nabíječka",
+          "Pantofle",
+          "Rouška",
+          "Peněženka"
+        ],
+        "Sporty": [
+          "Fotbal",
+          "Baseball",
+          "Basketbal",
+          "Badminton",
+          "Plavání",
+          "Bowling",
+          "Taekwondo",
+          "Golf",
+          "Stolní tenis",
+          "Lyžování",
+          "Lezení",
+          "Jóga",
+          "Box",
+          "Lukostřelba",
+          "Šerm",
+          "Maraton"
+        ]
+      }
+    }
+  },
+  "problem": {
+    "title": "Sešli jste se, ale nevíte, co hrát",
+    "text": "Herní večer, víkend na chatě, Vánoce s rodinou. U her se skrytými rolemi musí někdo vypadnout ze hry a vypravovat a přeložené papírky nikdy nejsou úplně tajné. Na chatě se slabou Wi-Fi nejdou ani online hry. V Měsíční herně se o vedení hry, rozdání rolí i spojení postarají iPhony."
+  },
+  "features": [
+    {
+      "title": "Tvoje role je jen na tvé obrazovce",
+      "text": "Po startu dostane každý iPhone svou roli nebo slovo. Žádné rozdávání karet, žádné „všichni zavřete oči“.\nPři hlasování je vidět jen, kdo už hlasoval. Kdo hlasoval pro koho, zůstane tajné až do odhalení.",
+      "shot": "02-role"
+    },
+    {
+      "title": "Čtyři hry pro každou partu",
+      "text": "Ve Hře na lháře rozhoduje výřečnost, v Měsíčním řádu lovíte Stíny přes výpravy a hlasování, v Noci bez měsíce hledáte za jedinou noc Skřeta a v Měsíčním ateliéru jeden kreslí a ostatní hádají.\nMěsíční řád od 5 hráčů, ostatní od 3, všechny až pro 15.",
+      "shot": "04-draw"
+    },
+    {
+      "title": "Nová hra? Naučíte se ji za pár minut",
+      "text": "Každá hra má režim Jak hrát, kde si s boty krok za krokem zahraješ celé kolo. Přečti si tip nahoře a klepni na Další.\nKdyž se aplikace zavře nebo spadne spojení, klepni na hlavní obrazovce na Pokračovat a vrátíš se do stejného kola.",
+      "shot": "03-vote"
+    }
+  ],
+  "steps": {
+    "title": "Začni ve třech krocích",
+    "items": [
+      {
+        "title": "Přezdívka a hra",
+        "text": "Všichni otevřou aplikaci, napíšou přezdívku a vyberou hru."
+      },
+      {
+        "title": "Vytvořit nebo se připojit",
+        "text": "Jeden vytvoří místnost, ostatní ji najdou přes Hledat místnosti v okolí."
+      },
+      {
+        "title": "Hostitel spustí",
+        "text": "Až jsou všichni uvnitř, hostitel klepne na Začít hru. Zbytek obstará aplikace."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Čtyři hry",
+    "rows": [
+      [
+        "Hra na lháře · 3–15 hráčů",
+        "Všichni dostanou stejné slovo kromě jednoho. Po řadě ho popisují a pak hlasují o lháři. Když dopadený lhář slovo uhodne, stejně vyhraje."
+      ],
+      [
+        "Měsíční řád · 5–15 hráčů",
+        "Odhalte Stíny ukryté v Řádu. Vůdce vybere tým výpravy, všichni hlasují pro nebo proti a tým tajně odevzdá úspěch, nebo neúspěch. Vyhraje strana, která jako první získá tři výpravy."
+      ],
+      [
+        "Noc bez měsíce · 3–15 hráčů",
+        "Jediná noc a ve vesnici se skrývá Skřet. V noci tajně jednají Šaman, Noční zloděj a Šprýmař. Za úsvitu se diskutuje a na nalezení Skřeta je jen jedno hlasování."
+      ],
+      [
+        "Měsíční ateliér · 3–15 hráčů",
+        "Jeden kreslí slovo, ostatní hádají v chatu. Čím rychleji uhodneš, tím víc bodů, a kreslíř boduje za každou správnou odpověď."
+      ]
+    ],
+    "note": "Každou hru si můžeš nejdřív vyzkoušet sám s boty v režimu Jak hrát."
+  },
+  "faq": {
+    "title": "Časté dotazy",
+    "items": [
+      {
+        "q": "Nevidím místnost.",
+        "a": "Zkontroluj, že hostitel a hráči jsou na stejné Wi-Fi nebo blízko sebe. Aby šlo najít zařízení v okolí, musí mít Měsíční herna zapnutý přístup v Nastavení ▸ Soukromí a zabezpečení ▸ Místní síť. Se zapnutou Wi-Fi i Bluetooth je spojení nejstabilnější."
+      },
+      {
+        "q": "Musím povolit přístup k místní síti?",
+        "a": "Ano, díky tomu aplikace najde iPhony poblíž a spojí se s nimi. Pokud jsi klepl na Nepovolit, zapni to znovu v Nastavení ▸ Soukromí a zabezpečení ▸ Místní síť."
+      },
+      {
+        "q": "Uprostřed hry mi spadlo spojení.",
+        "a": "Znovu otevři aplikaci a na hlavní obrazovce klepni na Pokračovat, vrátíš se do stejné místnosti a kola. Role i body zůstanou. Když se dlouho nedaří připojit, připoj se znovu ze seznamu místností."
+      },
+      {
+        "q": "Někdo nereaguje a hra se zasekla.",
+        "a": "Hostitel může nereagujícího hráče kdykoli odebrat a hra se přepočítá se zbylými hráči a pokračuje. V režimu hostitele GM lze zaseknutý krok i přeskočit."
+      },
+      {
+        "q": "Kolik je potřeba hráčů?",
+        "a": "Měsíční řád potřebuje 5. Hra na lháře, Noc bez měsíce a Měsíční ateliér začínají od 3. Všechny až do 15. Je vás málo? Naučte se pravidla s boty v režimu Jak hrát."
+      },
+      {
+        "q": "Potřebujeme internet nebo účet?",
+        "a": "Ne. Žádná registrace, přihlášení ani internet. iPhony poblíž se spojí přímo a herní data se nikdy neposílají na server."
+      },
+      {
+        "q": "Můžu si hru nejdřív zkusit sám?",
+        "a": "Ano. Vyber hru a pak Jak hrát (trénink s boty). Do místnosti přijdou boti a krok za krokem odehraješ celé kolo."
+      },
+      {
+        "q": "Jak nahlásit chybu nebo poslat nápad?",
+        "a": "Přímo v aplikaci přes Nastavení (ozubené kolečko) ▸ Podpora, nebo e-mailem na adresu níže. Odpovíme co nejdřív."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Dnešní herní večer\nzačíná tady",
+    "cta": "Stáhnout zdarma v App Storu"
+  },
+  "ui": {
+    "skip": "Přeskočit na obsah",
+    "languages": "Jazyk",
+    "privacy": "Zásady ochrany soukromí",
+    "contact": "Chyby, nápady nebo cokoli jiného: pište na {email}."
+  }
+}

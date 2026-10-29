@@ -1,155 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>月明かりアーケード · サポート</title>
-<meta name="description" content="月明かりアーケードは、インターネットなしで近くのiPhone同士をつないで遊べるオフラインのパーティゲーム集です。">
-<!--HREFLANG-->
-<link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/ja/index.html">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/index.html">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/index.html">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/index.html">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/index.html">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/index.html">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/index.html">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/index.html">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/index.html">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/index.html">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/index.html">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/index.html">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/index.html">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/index.html">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/index.html">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/index.html">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/index.html">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/index.html">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/index.html">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/index.html">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/index.html">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/index.html">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/index.html">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/index.html">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/en/index.html">
-<!--/HREFLANG-->
-<style>
-  :root{
-    --bg1:#0f1226; --bg2:#211840; --card:rgba(255,255,255,.06);
-    --stroke:rgba(255,255,255,.12); --text:#f4f3fb; --muted:rgba(244,243,251,.62);
-    --gold:#f2c759; --blue:#73bfff; --red:#f25a6b; --mint:#59d1b8;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",
-      "Malgun Gothic",sans-serif;
-    color:var(--text); line-height:1.7;
-    background:linear-gradient(180deg,var(--bg1),var(--bg2)) fixed;
-    min-height:100vh; -webkit-font-smoothing:antialiased;
-  }
-  .wrap{max-width:760px;margin:0 auto;padding:56px 22px 80px}
-  header{text-align:center;margin-bottom:44px}
-  .logo{font-size:52px;line-height:1}
-  h1{font-size:34px;font-weight:800;margin:14px 0 6px;letter-spacing:-.5px}
-  .sub{color:var(--muted);font-size:15px}
-  .badge{display:inline-block;margin-top:14px;padding:5px 12px;border-radius:999px;
-    background:rgba(89,209,184,.14);color:var(--mint);font-size:13px;font-weight:600}
-  section{background:var(--card);border:1px solid var(--stroke);border-radius:18px;
-    padding:26px 24px;margin:18px 0}
-  h2{font-size:20px;font-weight:700;margin-bottom:14px;display:flex;align-items:center;gap:9px}
-  h2 .ic{font-size:22px}
-  h3{font-size:16px;font-weight:700;margin:18px 0 4px;color:var(--gold)}
-  p,li{color:var(--text);font-size:15.5px}
-  .muted{color:var(--muted)}
-  ul{padding-left:20px;margin:8px 0}
-  li{margin:6px 0}
-  .games{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:8px}
-  .game{background:rgba(255,255,255,.04);border:1px solid var(--stroke);border-radius:14px;padding:14px}
-  .game .n{font-weight:700;font-size:15px}
-  .game .d{color:var(--muted);font-size:13px;margin-top:3px}
-  .qa{margin:16px 0}
-  .qa .q{font-weight:700;color:var(--blue);font-size:15.5px}
-  .qa .a{color:var(--text);margin-top:3px}
-  a{color:var(--mint);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .contact{text-align:center;background:rgba(242,199,89,.10);border-color:rgba(242,199,89,.28)}
-  .contact .mail{font-size:20px;font-weight:800;color:var(--gold);display:inline-block;margin-top:6px}
-  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:36px;line-height:1.9}
-  footer a{color:var(--muted);text-decoration:underline}
-.langs{display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:center;margin-top:16px;font-size:13px}.langs a{color:var(--muted);text-decoration:none}.langs a[aria-current]{color:var(--gold);font-weight:700}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>月明かりアーケード：ネットなしでiPhone同士で遊ぶパーティーゲーム</title>
+  <meta name="description" content="集まった人のiPhoneをネットなしでつなぎ、ライアーゲーム、正体推理、お絵かき当てを最大15人で。全ゲーム無料です。">
+  <meta name="theme-color" content="#9A6B00" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1226" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6790137862">
+  <link rel="canonical" href="https://m1zz.github.io/MoonlitOrder/ja/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/MoonlitOrder/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/MoonlitOrder/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/MoonlitOrder/en-GB/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/MoonlitOrder/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/MoonlitOrder/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/MoonlitOrder/zh-Hant/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/MoonlitOrder/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/MoonlitOrder/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/MoonlitOrder/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/MoonlitOrder/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/MoonlitOrder/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/MoonlitOrder/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/MoonlitOrder/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/MoonlitOrder/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/MoonlitOrder/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/MoonlitOrder/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/MoonlitOrder/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/MoonlitOrder/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/MoonlitOrder/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/MoonlitOrder/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/MoonlitOrder/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/MoonlitOrder/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/MoonlitOrder/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/MoonlitOrder/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/MoonlitOrder/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="月明かりアーケード：ネットなしでiPhone同士で遊ぶパーティーゲーム">
+  <meta property="og:description" content="集まった人のiPhoneをネットなしでつなぎ、ライアーゲーム、正体推理、お絵かき当てを最大15人で。全ゲーム無料です。">
+  <meta property="og:url" content="https://m1zz.github.io/MoonlitOrder/ja/">
+  <meta property="og:image" content="https://m1zz.github.io/MoonlitOrder/img/ja/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#9A6B00}@media (prefers-color-scheme:dark){:root{--accent:#F2C759}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="logo">🌙</div>
-    <h1>月明かりアーケード</h1>
-    <div class="sub">近くの友だちと楽しむオフラインパーティゲーム</div>
-    <div class="badge">カスタマーサポート</div>
-    <!--LANGNAV--><nav class="langs" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../en-GB/index.html" hreflang="en-GB" lang="en-GB">English (UK)</a><a href="../ja/index.html" hreflang="ja" lang="ja" aria-current="page">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav><!--/LANGNAV-->
+  <a class="skip" href="#main">本文へスキップ</a>
+  <header class="bar">
+    <a class="brand" href="../ja/"><img src="../icon.png" alt="" width="32" height="32">月明かりアーケード</a>
+    <a class="lang-link" href="#languages">言語</a>
   </header>
 
-  <section>
-    <h2><span class="ic">🎲</span>どんなアプリ？</h2>
-    <p><strong>月明かりアーケード</strong>は、インターネットを使わずに近くのiPhone同士を直接つないで遊ぶ、正体推理・パーティゲーム集です。
-      同じWi-FiまたはBluetoothの範囲内なら、サーバーなしですぐに部屋を作って参加できます。</p>
-    <div class="games">
-      <div class="game"><div class="n">🌙 月光結社</div><div class="d">5〜15人 · 紛れ込んだ影を見つけ出す正体推理</div></div>
-      <div class="game"><div class="n">🎭 ライアーゲーム</div><div class="d">3〜15人 · お題を知らない1人を見つけ出せ</div></div>
-      <div class="game"><div class="n">🔥 月なき夜</div><div class="d">3〜15人 · 鬼が紛れ込んだ一夜の推理</div></div>
-      <div class="game"><div class="n">🖌️ 月光アトリエ</div><div class="d">3〜15人 · 1人が描いて、ほかの全員が当てる</div></div>
-    </div>
-  </section>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>集まったら、<br>それぞれのiPhoneで</h1>
+        <p class="lead">ひとりが部屋を作れば、近くのみんながすぐ入れます。役職やお題は自分の画面にだけ届くので、カードも進行役もいりません。</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6790137862">App Storeで無料ダウンロード</a><a class="try" href="#try">ライアーゲームを1回体験 ↓</a></div>
+        <p class="muted small">全ゲーム無料。アカウントもネット接続も不要です。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/01-home.jpg" alt="集まったら、 それぞれのiPhoneで" width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <section>
-    <h2><span class="ic">▶️</span>遊び方</h2>
-    <ul>
-      <li>ニックネームを入力して、遊ぶゲームを選びます。</li>
-      <li>1人が<strong>「部屋を作る(ホスト)」</strong>をタップし、ほかの人は<strong>「ゲームに参加」</strong>から部屋に入ります。</li>
-      <li>同じWi-Fiまたは近距離（Bluetooth）内なら、自動的にお互いを見つけます。インターネット接続は必要ありません。</li>
-      <li>初めて接続するときは、<strong>ローカルネットワークへのアクセスを許可</strong>してください。許可しないと周りのデバイスを見つけられません。</li>
-      <li>各ゲームの<strong>「遊び方(ボットと練習)」</strong>では、ボットと一緒に1ステップずつルールを覚えられます。</li>
-    </ul>
-  </section>
 
-  <section>
-    <h2><span class="ic">🛠️</span>よくある質問</h2>
+    <section class="reveal" id="try">
+      <h2>ライアーゲームを1回体験</h2>
+      <p class="muted">テーブルにiPhoneが5台あると思って、1台ずつタップして確かめてください。お題を知らないのは1人だけ。友だちと画面を回しながら遊んでもOKです。</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;ライアーゲームを1回体験&quot;, &quot;lead&quot;: &quot;テーブルにiPhoneが5台あると思って、1台ずつタップして確かめてください。お題を知らないのは1人だけ。友だちと画面を回しながら遊んでもOKです。&quot;, &quot;tap&quot;: &quot;タップして確認&quot;, &quot;reveal&quot;: &quot;ライアーを公開&quot;, &quot;again&quot;: &quot;もう1回&quot;, &quot;caughtNote&quot;: &quot;投票でライアーを捕まえても、ライアーには最後のチャンスがあります。&quot;, &quot;note&quot;: &quot;アプリではそれぞれ自分のiPhoneで確認し、順番に説明してから投票します。お題はアプリと同じ単語リストから選ばれます。&quot;, &quot;app&quot;: {&quot;game&quot;: &quot;ライアーゲーム&quot;, &quot;sub&quot;: &quot;全員が同じお題。知らないのはたった1人&quot;, &quot;arrived&quot;: &quot;お題が届きました&quot;, &quot;secret&quot;: &quot;ほかの人に画面が見えないように確認してください&quot;, &quot;gotIt&quot;: &quot;確認しました&quot;, &quot;word&quot;: &quot;お題&quot;, &quot;cat&quot;: &quot;カテゴリー:{1}&quot;, &quot;liarYou&quot;: &quot;あなたがライアーです!&quot;, &quot;liarHint&quot;: &quot;お題を知らなくても、知っているふりで説明しなければなりません。ばれないように!&quot;, &quot;liar&quot;: &quot;ライアー&quot;, &quot;caught&quot;: &quot;ライアー逮捕!&quot;, &quot;pick&quot;: &quot;お題を選んでください — チャンスはたった一度!&quot;, &quot;liarWin&quot;: &quot;ライアーの勝利!&quot;, &quot;citizenWin&quot;: &quot;市民の勝利!&quot;, &quot;me&quot;: &quot;自分&quot;, &quot;bots&quot;: [&quot;つきうさぎ&quot;, &quot;夜風&quot;, &quot;天の川&quot;, &quot;三日月&quot;], &quot;words&quot;: {&quot;食べ物&quot;: [&quot;キムチチゲ&quot;, &quot;サムギョプサル&quot;, &quot;トッポッキ&quot;, &quot;フライドチキン&quot;, &quot;ピザ&quot;, &quot;寿司&quot;, &quot;ラーメン&quot;, &quot;ビビンバ&quot;, &quot;冷麺&quot;, &quot;カルビタン&quot;, &quot;パスタ&quot;, &quot;ハンバーガー&quot;, &quot;キンパ&quot;, &quot;スンデ&quot;, &quot;チョッパル&quot;, &quot;サラダ&quot;], &quot;動物&quot;: [&quot;ゾウ&quot;, &quot;キリン&quot;, &quot;ペンギン&quot;, &quot;トラ&quot;, &quot;パンダ&quot;, &quot;ハリネズミ&quot;, &quot;カンガルー&quot;, &quot;フクロウ&quot;, &quot;イルカ&quot;, &quot;タコ&quot;, &quot;リス&quot;, &quot;ワニ&quot;, &quot;ラクダ&quot;, &quot;カワウソ&quot;, &quot;オウム&quot;, &quot;モグラ&quot;], &quot;場所&quot;: [&quot;遊園地&quot;, &quot;図書館&quot;, &quot;チムジルバン&quot;, &quot;映画館&quot;, &quot;コンビニ&quot;, &quot;地下鉄の駅&quot;, &quot;美容院&quot;, &quot;病院&quot;, &quot;学校&quot;, &quot;キャンプ場&quot;, &quot;プール&quot;, &quot;空港&quot;, &quot;市場&quot;, &quot;カフェ&quot;, &quot;カラオケ&quot;, &quot;ジム&quot;], &quot;職業&quot;: [&quot;消防士&quot;, &quot;医者&quot;, &quot;料理人&quot;, &quot;プログラマー&quot;, &quot;ユーチューバー&quot;, &quot;先生&quot;, &quot;警察官&quot;, &quot;農家&quot;, &quot;パイロット&quot;, &quot;美容師&quot;, &quot;歌手&quot;, &quot;アスリート&quot;, &quot;写真家&quot;, &quot;弁護士&quot;, &quot;漁師&quot;, &quot;バリスタ&quot;], &quot;物&quot;: [&quot;傘&quot;, &quot;扇風機&quot;, &quot;冷蔵庫&quot;, &quot;歯ブラシ&quot;, &quot;枕&quot;, &quot;リモコン&quot;, &quot;タンブラー&quot;, &quot;イヤホン&quot;, &quot;はさみ&quot;, &quot;毛布&quot;, &quot;鏡&quot;, &quot;時計&quot;, &quot;充電器&quot;, &quot;スリッパ&quot;, &quot;マスク&quot;, &quot;財布&quot;], &quot;スポーツ&quot;: [&quot;サッカー&quot;, &quot;野球&quot;, &quot;バスケットボール&quot;, &quot;バドミントン&quot;, &quot;水泳&quot;, &quot;ボウリング&quot;, &quot;テコンドー&quot;, &quot;ゴルフ&quot;, &quot;卓球&quot;, &quot;スキー&quot;, &quot;クライミング&quot;, &quot;ヨガ&quot;, &quot;ボクシング&quot;, &quot;アーチェリー&quot;, &quot;フェンシング&quot;, &quot;マラソン&quot;]}}}"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">近くの部屋が表示されません。</div>
-      <div class="a">ホストと参加者が<strong>同じWi-Fi</strong>に接続しているか、お互いに近くにいるかを確認してください。
-        設定 &gt; プライバシーとセキュリティ &gt; <strong>ローカルネットワーク</strong>で月明かりアーケードがオンになっている必要があります。
-        Wi-FiとBluetoothを両方オンにしておくと、最も安定してつながります。</div>
-    </div>
+    <section class="problem reveal">
+      <h2>人は集まったのに、何して遊ぶか決まらない</h2>
+      <p>合宿、飲み会の二次会、お正月の親戚の集まり。人狼をやるなら誰かが進行役に回って抜けなければならず、紙のメモは折っても透けて見えます。Wi-Fiの弱い宿ではオンラインゲームも無理。月明かりアーケードなら、進行も役職配りも接続も、iPhoneが引き受けます。</p>
+    </section>
 
-    <div class="qa">
-      <div class="q">ゲーム中に接続が切れてしまいました。</div>
-      <div class="a">アプリを開き直すと同じ部屋に<strong>自動で再接続</strong>され、進行中だったゲームに戻ります。
-        一定時間内に再接続されない場合は、部屋の一覧からもう一度参加してください。</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>役職もお題も、自分の画面だけに</h2>
+        <p>ゲームが始まると、それぞれのiPhoneに役職やお題が別々に届きます。カードを配ったり、全員で目を閉じたりする必要はありません。<br>投票中に見えるのは誰が投票を終えたかだけ。誰に入れたかは公開まで秘密です。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/02-role.jpg" alt="役職もお題も、自分の画面だけに" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">最低何人から遊べますか？</div>
-      <div class="a">月光結社は5人から、ほかのゲームは3人から始められ、最大15人まで一緒に遊べます。</div>
-    </div>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>場の空気に合わせて4つのゲーム</h2>
+        <p>話術で勝負するライアーゲーム、遠征と投票で影を探す月光結社、一晩のうちに鬼を見つける月なき夜、ひとりが描いてみんなで当てる月光アトリエ。<br>月光結社は5人から、ほかは3人から、どれも最大15人まで遊べます。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/04-draw.jpg" alt="場の空気に合わせて4つのゲーム" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-    <div class="qa">
-      <div class="q">インターネットやアカウントは必要ですか？</div>
-      <div class="a">いいえ。会員登録・ログイン・インターネット接続なしで、オフラインで遊べます。ゲームデータがサーバーに送信されることはありません。</div>
-    </div>
-  </section>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>初めてのゲームもすぐ覚えられる</h2>
+        <p>どのゲームにも遊び方モードがあり、ボットと1ステップずつ実際に遊びながらルールを覚えられます。画面上の案内を読んで「次へ」を押すだけです。<br>アプリが落ちても接続が切れても、ホーム画面の「続きから」で同じゲームにそのまま戻れます。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/03-vote.jpg" alt="初めてのゲームもすぐ覚えられる" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-  <section class="contact">
-    <h2 style="justify-content:center"><span class="ic">✉️</span>お問い合わせ</h2>
-    <p class="muted">不具合の報告やご要望、その他のお問い合わせは、アプリの設定（歯車）&gt; サポートから直接お送りいただくか、下記のメールアドレスまでご連絡ください。できるだけ早くお返事いたします。</p>
-    <a class="mail" href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>
-  </section>
+    <section class="reveal">
+      <h2>始め方は3ステップ</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>ニックネームとゲームを選ぶ</h3><p>全員アプリを開いてニックネームを入れ、遊ぶゲームを選びます。</p></li>
+<li class="card"><span class="n">2</span><h3>部屋を作る、参加する</h3><p>ひとりが部屋を作り、ほかの人は「近くの部屋を探す」から入ります。</p></li>
+<li class="card"><span class="n">3</span><h3>ホストが開始</h3><p>全員そろったらホストが「ゲーム開始」を押します。進行はアプリにおまかせ。</p></li></ol>
+    </section>
 
+    <section class="reveal" id="commands">
+      <h2>4つのゲーム</h2>
+      <div class="card table">
+        <dl><div><dt>ライアーゲーム・3〜15人</dt><dd>全員が同じお題を受け取りますが、1人だけ知りません。順番にひと言ずつ説明して、投票でライアーを探します。捕まったライアーがお題を当てれば逆転勝ちです。</dd></div><div><dt>月光結社・5〜15人</dt><dd>結社員の中に潜む影を探す正体推理です。リーダーが遠征隊を選ぶと全員が賛否を投票し、遠征隊はこっそり成功か失敗を出します。先に遠征3回が成功するか失敗するかで決着します。</dd></div><div><dt>月なき夜・3〜15人</dt><dd>鬼が紛れ込んだ一夜です。夜のあいだにシャーマン、夜泥棒、いたずら者がこっそり動き、夜が明けたら話し合いのあと一度きりの投票で鬼を探します。</dd></div><div><dt>月光アトリエ・3〜15人</dt><dd>ひとりがお題を絵に描き、ほかの人はチャットで当てます。早く当てるほど高得点で、当てた人が多いほど描いた人にも点が入ります。</dd></div></dl>
+      </div>
+      <p class="muted">どのゲームも、遊び方モードでひとりでボットと先に試せます。</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>よくある質問</h2>
+      <div class="faq"><details><summary>近くの部屋が見つかりません。</summary><p>ホストと参加者が同じWi-Fiにいるか、近くにいるか確認してください。設定 ▸ プライバシーとセキュリティ ▸ ローカルネットワークで月明かりアーケードがオンになっている必要があります。Wi-FiとBluetoothを両方オンにしておくと、いちばん安定してつながります。</p></details>
+<details><summary>ローカルネットワークの許可は必要ですか？</summary><p>はい。近くのiPhoneを見つけてつなぐために使います。うっかり許可しなかった場合は、設定 ▸ プライバシーとセキュリティ ▸ ローカルネットワークでオンにできます。</p></details>
+<details><summary>ゲーム中に接続が切れました。</summary><p>アプリを開き直してホーム画面の「続きから」を押せば、同じ部屋の同じゲームに戻れます。役職もスコアもそのままです。しばらく戻れない場合は、部屋の一覧から参加し直してください。</p></details>
+<details><summary>反応しない人がいてゲームが止まりました。</summary><p>ホストは反応のない参加者をいつでも退出させられ、ゲームは残った人数で判定し直して続きます。GM進行役モードでは止まった段階を飛ばすこともできます。</p></details>
+<details><summary>最低何人いれば遊べますか？</summary><p>月光結社は5人、ライアーゲーム、月なき夜、月光アトリエは3人から始められ、どれも最大15人まで遊べます。人数が足りないときは、遊び方モードでボットとルールを覚えておきましょう。</p></details>
+<details><summary>ネットやアカウントは必要ですか？</summary><p>いいえ。会員登録もログインもネット接続もなしで、近くのiPhone同士が直接つながって遊びます。ゲームのデータはサーバーに送られません。</p></details>
+<details><summary>先にひとりで試せますか？</summary><p>はい。ゲームを選んで「遊び方(ボットと練習)」を選ぶと、ボットが部屋に入り、1ゲームを1ステップずつ遊べます。</p></details>
+<details><summary>不具合の報告や要望はどこに送ればいいですか？</summary><p>アプリの設定(歯車) ▸ サポートから直接送るか、下のメールアドレスまでご連絡ください。できるだけ早くお返事します。</p></details></div>
+      <p class="contact">不具合の報告、要望、そのほかのお問い合わせは <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> までどうぞ。</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>今日の集まりは<br>月明かりアーケードで</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6790137862">App Storeで無料ダウンロード</a>
+    </section>
+  </main>
 
   <footer>
-    月明かりアーケード<br>
-    <a href="privacy.html">プライバシーポリシー</a>
+    <nav id="languages" class="langs" aria-label="言語"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../ja/" hreflang="ja" lang="ja" aria-current="page">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">プライバシーポリシー</a> · <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a> · © 2026 Moonlit Arcade</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

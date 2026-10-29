@@ -1,0 +1,259 @@
+{
+  "title": "Månearkaden: selskapsspill mellom iPhoner, uten internett",
+  "description": "Koble sammen alles iPhoner uten internett, og spill opptil 15 personer Løgnerspillet, skjulte roller eller tegn og gjett. Alle spill er gratis.",
+  "hero": {
+    "headline": "Er alle her?\nFrem med iPhonen.",
+    "lead": "Én oppretter et rom, og alle i nærheten er med på sekunder. Roller og hemmelige ord vises bare på din egen skjerm: ingen kort, og ingen må stå utenfor og lede spillet.",
+    "cta": "Last ned gratis i App Store",
+    "note": "Alle spill er gratis. Ingen konto, ikke internett."
+  },
+  "demo": {
+    "title": "Spill en runde Løgnerspillet",
+    "lead": "Se for deg fem iPhoner på bordet, og trykk på dem én om gangen for å titte. Bare én spiller kan ikke ordet. Dere kan også sende skjermen rundt.",
+    "tap": "Trykk for å titte",
+    "reveal": "Avslør løgneren",
+    "again": "Ny runde",
+    "caughtNote": "Selv om avstemningen avslører løgneren, har hen én siste sjanse.",
+    "note": "I appen ser alle på sin egen iPhone, beskriver ordet etter tur, og så stemmer dere. Ordene kommer fra samme liste som i appen.",
+    "app": {
+      "game": "Løgnerspillet",
+      "sub": "Alle har det samme ordet. Bare én kjenner det ikke.",
+      "arrived": "Ordet har kommet",
+      "secret": "Se der ingen andre kan se skjermen",
+      "gotIt": "Sett",
+      "word": "Ord",
+      "cat": "Kategori: {1}",
+      "liarYou": "Du er Løgneren!",
+      "liarHint": "Du kjenner ikke ordet, men må beskrive det som om du gjør. La deg ikke avsløre!",
+      "liar": "Løgner",
+      "caught": "Løgneren er tatt!",
+      "pick": "Velg ordet — du har bare ett forsøk!",
+      "liarWin": "Løgneren vinner!",
+      "citizenWin": "Borgerne vinner!",
+      "me": "Meg",
+      "bots": [
+        "Måneharen",
+        "Nattbris",
+        "Melkeveien",
+        "Avtagende måne"
+      ],
+      "words": {
+        "Mat": [
+          "Kimchigryte",
+          "Grillet svinebryst",
+          "Tteokbokki",
+          "Stekt kylling",
+          "Pizza",
+          "Sushi",
+          "Ramen",
+          "Bibimbap",
+          "Kalde nudler",
+          "Ribbesuppe",
+          "Pasta",
+          "Hamburger",
+          "Gimbap",
+          "Koreansk blodpølse",
+          "Grisetæ",
+          "Salat"
+        ],
+        "Dyr": [
+          "Elefant",
+          "Sjiraff",
+          "Pingvin",
+          "Tiger",
+          "Panda",
+          "Pinnsvin",
+          "Kenguru",
+          "Ugle",
+          "Delfin",
+          "Blekksprut",
+          "Ekorn",
+          "Krokodille",
+          "Kamel",
+          "Oter",
+          "Papegøye",
+          "Muldvarp"
+        ],
+        "Steder": [
+          "Fornøyelsespark",
+          "Bibliotek",
+          "Koreansk spa",
+          "Kino",
+          "Nærbutikk",
+          "T-banestasjon",
+          "Frisørsalong",
+          "Sykehus",
+          "Skole",
+          "Campingplass",
+          "Svømmehall",
+          "Flyplass",
+          "Marked",
+          "Kafé",
+          "Karaoke",
+          "Treningssenter"
+        ],
+        "Yrker": [
+          "Brannmann",
+          "Lege",
+          "Kokk",
+          "Programmerer",
+          "Youtuber",
+          "Lærer",
+          "Politi",
+          "Bonde",
+          "Pilot",
+          "Frisør",
+          "Sanger",
+          "Utøver",
+          "Fotograf",
+          "Advokat",
+          "Fisker",
+          "Barista"
+        ],
+        "Ting": [
+          "Paraply",
+          "Vifte",
+          "Kjøleskap",
+          "Tannbørste",
+          "Pute",
+          "Fjernkontroll",
+          "Termokopp",
+          "Øreplugger",
+          "Saks",
+          "Teppe",
+          "Speil",
+          "Klokke",
+          "Lader",
+          "Tøfler",
+          "Munnbind",
+          "Lommebok"
+        ],
+        "Sport": [
+          "Fotball",
+          "Baseball",
+          "Basketball",
+          "Badminton",
+          "Svømming",
+          "Bowling",
+          "Taekwondo",
+          "Golf",
+          "Bordtennis",
+          "Ski",
+          "Klatring",
+          "Yoga",
+          "Boksing",
+          "Bueskyting",
+          "Fekting",
+          "Maraton"
+        ]
+      }
+    }
+  },
+  "problem": {
+    "title": "Alle er her, men hva skal vi spille?",
+    "text": "Spillkveld, hyttetur, jul med familien. I spill med skjulte roller må én stå over og lede, og brettede lapper er aldri helt hemmelige. På en hytte med dårlig wifi går ikke nettspill heller. I Månearkaden tar iPhonene seg av spilledelsen, rollefordelingen og tilkoblingen."
+  },
+  "features": [
+    {
+      "title": "Rollen din vises bare på din skjerm",
+      "text": "Når spillet starter, får hver iPhone sin egen rolle eller sitt eget ord. Ingen kortutdeling, ikke noe «alle lukker øynene».\nUnder avstemningen ser man bare hvem som har stemt. Hvem som stemte på hvem, er hemmelig til avsløringen.",
+      "shot": "02-role"
+    },
+    {
+      "title": "Fire spill for alle selskap",
+      "text": "I Løgnerspillet vinner den som prater best, i Månordenen jakter dere på Skyggene med oppdrag og avstemninger, i Natt uten måne finner dere goblinen på én natt, og i Månestudioet tegner én mens resten gjetter.\nMånordenen fra 5 spillere, de andre fra 3, alle opptil 15.",
+      "shot": "04-draw"
+    },
+    {
+      "title": "Nytt spill? Lært på noen minutter",
+      "text": "Hvert spill har modusen «Slik spiller du», der du spiller en runde med roboter steg for steg. Les tipset øverst, og trykk på Neste.\nHvis appen lukkes eller tilkoblingen faller ut, trykker du på Fortsett på startskjermen og er tilbake i samme runde.",
+      "shot": "03-vote"
+    }
+  ],
+  "steps": {
+    "title": "Kom i gang i tre steg",
+    "items": [
+      {
+        "title": "Kallenavn og spill",
+        "text": "Alle åpner appen, skriver et kallenavn og velger spill."
+      },
+      {
+        "title": "Opprett eller bli med i et rom",
+        "text": "Én oppretter et rom, de andre finner det under Finn rom i nærheten."
+      },
+      {
+        "title": "Verten starter",
+        "text": "Når alle er inne, trykker verten på Start spill. Appen tar seg av resten."
+      }
+    ]
+  },
+  "reference": {
+    "title": "De fire spillene",
+    "rows": [
+      [
+        "Løgnerspillet · 3–15 spillere",
+        "Alle får samme ord unntatt én. Etter tur beskriver man det, så stemmer man på løgneren. Gjetter den avslørte løgneren ordet, vinner hen likevel."
+      ],
+      [
+        "Månordenen · 5–15 spillere",
+        "Avslør Skyggene som gjemmer seg i Ordenen. Lederen velger et oppdragslag, alle stemmer for eller mot, og laget spiller i hemmelighet suksess eller fiasko. Siden som først vinner tre oppdrag, vinner."
+      ],
+      [
+        "Natt uten måne · 3–15 spillere",
+        "Én natt, og en goblin gjemmer seg i landsbyen. Om natten handler Sjamanen, Nattetyven og Spøkefuglen i hemmelighet. Ved daggry diskuterer man og har bare én avstemning til å finne goblinen."
+      ],
+      [
+        "Månestudioet · 3–15 spillere",
+        "Én tegner ordet, og resten gjetter i chatten. Jo raskere du gjetter riktig, jo flere poeng, og den som tegner får poeng for hvert riktige svar."
+      ]
+    ],
+    "note": "Alle spill kan først prøves alene med roboter i modusen «Slik spiller du»."
+  },
+  "faq": {
+    "title": "Vanlige spørsmål",
+    "items": [
+      {
+        "q": "Jeg ser ikke rommet.",
+        "a": "Sjekk at verten og spillerne er på samme wifi eller nær hverandre. Månearkaden må være slått på under Innstillinger ▸ Personvern og sikkerhet ▸ Lokalt nettverk for å finne enheter i nærheten. Med både wifi og Bluetooth på er tilkoblingen mest stabil."
+      },
+      {
+        "q": "Må jeg gi tilgang til lokalt nettverk?",
+        "a": "Ja, det er slik appen finner iPhoner i nærheten og kobler seg til dem. Hvis du trykket på Ikke tillat, slår du det på igjen under Innstillinger ▸ Personvern og sikkerhet ▸ Lokalt nettverk."
+      },
+      {
+        "q": "Tilkoblingen falt ut midt i spillet.",
+        "a": "Åpne appen igjen, og trykk på Fortsett på startskjermen for å komme tilbake til samme rom og runde. Rolle og poeng er der fortsatt. Tar det lang tid, bli med på nytt fra romlisten."
+      },
+      {
+        "q": "Noen svarer ikke, og spillet har stoppet opp.",
+        "a": "Verten kan når som helst fjerne en spiller som ikke svarer, og spillet regner om med de som er igjen og fortsetter. I GM-vertsmodus kan man også hoppe over et steg som har låst seg."
+      },
+      {
+        "q": "Hvor mange spillere trengs?",
+        "a": "Månordenen krever 5. Løgnerspillet, Natt uten måne og Månestudioet starter fra 3. Alle tar opptil 15. For få? Lær reglene med roboter i «Slik spiller du»."
+      },
+      {
+        "q": "Trenger vi internett eller konto?",
+        "a": "Nei. Ingen registrering, ingen innlogging, ikke internett. iPhoner i nærheten kobler seg direkte sammen, og spilldata sendes aldri til en server."
+      },
+      {
+        "q": "Kan jeg prøve et spill alene først?",
+        "a": "Ja. Velg et spill og deretter «Slik spiller du (øv med roboter)». Robotene kommer inn i rommet, og du spiller en hel runde steg for steg."
+      },
+      {
+        "q": "Hvordan melder jeg en feil eller sender en idé?",
+        "a": "Rett fra appen under Innstillinger (tannhjulet) ▸ Støtte, eller på e-post til adressen nedenfor. Vi svarer så fort vi kan."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Kveldens spillkveld\nstarter her",
+    "cta": "Last ned gratis i App Store"
+  },
+  "ui": {
+    "skip": "Hopp til innholdet",
+    "languages": "Språk",
+    "privacy": "Personvernerklæring",
+    "contact": "Feil, ideer eller noe annet: skriv til {email}."
+  }
+}
