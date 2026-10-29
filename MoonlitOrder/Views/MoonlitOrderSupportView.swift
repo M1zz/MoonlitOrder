@@ -23,6 +23,8 @@ struct MoonlitOrderSupportView: View {
                     NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
                     // 친구에게 소개하기 — App Store ID 가 없으면 그리지 않는다
                     LeeoShareAppLink<MoonlitOrderSpec>()
+                    // 개발자 응원하기(팁) — 판매 중인 팁이 없으면 그리지 않는다
+                    LeeoTipJarLink<MoonlitOrderSpec>(tipJar: MoonlitOrderSpec.tipJar)
                 } header: { Text("지원") }
 
                 Section {

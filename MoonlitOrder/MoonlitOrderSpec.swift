@@ -15,3 +15,13 @@ enum MoonlitOrderSpec: LeeoAppSpec {
     // 익명 사용 통계 → FeedbackHub. 없으면 bootstrap 이 스냅샷·app_open 을 건너뛴다.
     static let analytics: any LeeoAnalytics = LeeoUsageAnalytics(spec: MoonlitOrderSpec.self)
 }
+
+extension MoonlitOrderSpec {
+    /// 개발자 응원하기(팁). 무료 앱이라 LeeoStore 없이 혼자 돈다 — 앱을 열 때 `startStandalone()` 을 한 번 부른다.
+    /// 상품이 App Store 에 없으면 설정 줄도, 부탁 카드도 서지 않는다.
+    @MainActor static let tipJar = LeeoTipJar(config: LeeoTipJarConfig(productIDs: [
+        "com.example.MoonlitOrder.tip.small",
+        "com.example.MoonlitOrder.tip.medium",
+        "com.example.MoonlitOrder.tip.large",
+    ]))
+}

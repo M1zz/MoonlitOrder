@@ -684,6 +684,8 @@ struct SketchGameOverView: View {
                                       trailing: String(localized: "\(entry.score)점"))
                         }
                     }
+                    // 고마운 순간: 친구들과 마친 판 수가 기준을 넘으면 응원 부탁 카드가 선다
+                    GameOverTipAsk()
                 }
                 .padding(.horizontal, 20)
             }

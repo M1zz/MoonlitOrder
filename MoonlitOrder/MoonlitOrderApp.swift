@@ -29,6 +29,7 @@ struct MoonlitOrderApp: App {
                 .environmentObject(game)
                 .preferredColorScheme(.dark)
                 .leeoSatisfactionCheck(MoonlitOrderSpec.self)
+                .task { await MoonlitOrderSpec.tipJar.startStandalone() }
         }
     }
 }

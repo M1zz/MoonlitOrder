@@ -88082,6 +88082,383 @@
           }
         }
       }
+    },
+    "친구들과 %lld판을 끝까지 함께했어요" : {
+      "comment" : "Tip ask card: how many party games this person finished with friends",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "친구들과 %lld판을 끝까지 함께했어요"
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "You've finished %lld game with your friends"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "You've finished %lld games with your friends"
+                }
+              }
+            }
+          }
+        },
+        "en-GB" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "You've finished %lld game with your friends"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "You've finished %lld games with your friends"
+                }
+              }
+            }
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "友だちと%lld回、最後まで遊びました"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你已和朋友们完整玩了 %lld 局"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你已和朋友們完整玩了 %lld 局"
+          }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Вы с друзьями доиграли до конца %lld партию"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Вы с друзьями доиграли до конца %lld партии"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Вы с друзьями доиграли до конца %lld партий"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Вы с друзьями доиграли до конца %lld партии"
+                }
+              }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Has terminado %lld partida con tus amigos"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Has terminado %lld partidas con tus amigos"
+                }
+              }
+            }
+          }
+        },
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Du hast %lld Runde mit Freunden zu Ende gespielt"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Du hast %lld Runden mit Freunden zu Ende gespielt"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Vous avez joué %lld partie jusqu’au bout entre amis"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Vous avez joué %lld parties jusqu’au bout entre amis"
+                }
+              }
+            }
+          }
+        },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Hai finito %lld partita con i tuoi amici"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Hai finito %lld partite con i tuoi amici"
+                }
+              }
+            }
+          }
+        },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Você já terminou %lld partida com seus amigos"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Você já terminou %lld partidas com seus amigos"
+                }
+              }
+            }
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณเล่นกับเพื่อนจนจบไปแล้ว %lld เกม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bạn đã chơi trọn %lld ván cùng bạn bè"
+          }
+        },
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "S přáteli jste dohráli %lld hru"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "S přáteli jste dohráli %lld hry"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "S přáteli jste dohráli %lld hry"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "S přáteli jste dohráli %lld her"
+                }
+              }
+            }
+          }
+        },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Du har spillet %lld spil færdigt med dine venner"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Du har spillet %lld spil færdigt med dine venner"
+                }
+              }
+            }
+          }
+        },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Έχεις ολοκληρώσει %lld παιχνίδι με τους φίλους σου"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Έχεις ολοκληρώσει %lld παιχνίδια με τους φίλους σου"
+                }
+              }
+            }
+          }
+        },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Olet pelannut kavereiden kanssa loppuun %lld pelin"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Olet pelannut kavereiden kanssa loppuun %lld peliä"
+                }
+              }
+            }
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamu sudah menuntaskan %lld permainan bersama teman"
+          }
+        },
+        "nb" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Du har spilt %lld spill ferdig med vennene dine"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Du har spilt %lld spill ferdig med vennene dine"
+                }
+              }
+            }
+          }
+        },
+        "nl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Je hebt %lld potje uitgespeeld met je vrienden"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Je hebt %lld potjes uitgespeeld met je vrienden"
+                }
+              }
+            }
+          }
+        },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Rozegrałeś ze znajomymi do końca %lld grę"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Rozegrałeś ze znajomymi do końca %lld gry"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Rozegrałeś ze znajomymi do końca %lld gier"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Rozegrałeś ze znajomymi do końca %lld gry"
+                }
+              }
+            }
+          }
+        },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Du har spelat klart %lld spel med dina vänner"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Du har spelat klart %lld spel med dina vänner"
+                }
+              }
+            }
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arkadaşlarınla %lld oyunu sonuna kadar oynadın"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

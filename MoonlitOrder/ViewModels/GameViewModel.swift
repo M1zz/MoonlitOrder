@@ -37,18 +37,31 @@ final class GameViewModel: ObservableObject {
     @Published var playerName: String {
         didSet { UserDefaults.standard.set(playerName, forKey: "moonorder.playerName") }
     }
-    @Published var publicState: PublicGameState?
+    @Published var publicState: PublicGameState? {
+        didSet { noteGameOver(was: oldValue?.phase == .gameOver, now: publicState?.phase == .gameOver) }
+    }
     @Published var privateInfo: PrivateInfo?
-    @Published var liarState: LiarGameState?
+    @Published var liarState: LiarGameState? {
+        didSet { noteGameOver(was: oldValue?.phase == .gameOver, now: liarState?.phase == .gameOver) }
+    }
     @Published var liarPrivate: LiarPrivateInfo?
-    @Published var wolfState: WolfGameState?
+    @Published var wolfState: WolfGameState? {
+        didSet { noteGameOver(was: oldValue?.phase == .gameOver, now: wolfState?.phase == .gameOver) }
+    }
     @Published var wolfPrivate: WolfPrivateInfo?
-    @Published var sketchState: SketchGameState?
+    @Published var sketchState: SketchGameState? {
+        didSet { noteGameOver(was: oldValue?.phase == .gameOver, now: sketchState?.phase == .gameOver) }
+    }
     @Published var sketchPrivate: SketchPrivateInfo?
     @Published var hosts: [MultipeerService.DiscoveredHost] = []
     @Published var connectionLost = false      // 클라이언트: 재접속 시도 중
     @Published var errorMessage: String?
     @Published var showDemoIntro = false       // 게임방법: 목적·승리조건 안내 화면
+
+    /// 한 판이 결과 화면에 막 닿으면 센다(응원 부탁의 숫자). 연습 판은 세지 않는다.
+    private func noteGameOver(was: Bool, now: Bool) {
+        if now, !was, !isDemo { MoonlitOrderTipMoments.recordFinishedGame() }
+    }
 
     /// 시연용(-autoJoin): 방이 발견되면 자동으로 참가한다
     var autoJoinRoom = false
