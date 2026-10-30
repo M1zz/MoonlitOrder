@@ -1,4 +1,5 @@
 import SwiftUI
+import LeeoKit
 
 struct GameView: View {
     @EnvironmentObject var game: GameViewModel
@@ -6,12 +7,14 @@ struct GameView: View {
     @State private var showRoleSheet = false
     @State private var showLeaveConfirm = false
     @State private var showGMPanel = false
+    @Environment(\.foldLayout) private var fold
 
     var body: some View {
         VStack(spacing: 14) {
             header
 
-            if state.phase != .gameOver {
+            // 아이폰 듀오를 펴면 원정 트랙은 결과 쪽 판(방의 현황)에 선다 (→ FoldPanes.swift)
+            if state.phase != .gameOver, !fold.isUnfolded {
                 MissionTrackView(state: state)
                     .padding(.horizontal, 16)
             }

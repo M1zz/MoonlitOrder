@@ -1,5 +1,6 @@
 import SwiftUI
 import TipKit
+import LeeoKit
 
 extension GameViewModel.GameKind: Identifiable {
     var id: String { rawValue }
@@ -10,14 +11,22 @@ struct HomeView: View {
     @ScaledMetric(relativeTo: .largeTitle) private var titleSize: CGFloat = 36
     @FocusState private var nameFocused: Bool
     @State private var selectedGame: GameViewModel.GameKind?
+    @Environment(\.foldLayout) private var fold
+    /// 아이폰 듀오를 폈을 때 오른쪽(위) 판에 소개가 서는 게임. 펴져 있으면 시트 대신 이걸 바꾼다.
+    @Binding var foldMenuKind: GameViewModel.GameKind
 
     private func gameCard(kind: GameViewModel.GameKind, icon: String, color: Color,
                           title: String, desc: String) -> some View {
         // 원격 킬스위치로 꺼진 게임은 '점검 중'으로 보이고 열리지 않는다.
         let enabled = kind.isRemotelyEnabled
+        let isPicked = fold.isUnfolded && foldMenuKind == kind
         return Button {
             nameFocused = false
-            selectedGame = kind
+            if fold.isUnfolded {
+                foldMenuKind = kind
+            } else {
+                selectedGame = kind
+            }
         } label: {
             HStack(spacing: 12) {
                 Image(systemName: icon)
@@ -42,9 +51,15 @@ struct HomeView: View {
             .padding(.vertical, 12)
             .padding(.horizontal, 14)
             .cardStyle()
+            .overlay {
+                if isPicked {
+                    RoundedRectangle(cornerRadius: 16, style: .continuous).strokeBorder(color, lineWidth: 2)
+                }
+            }
             .opacity(enabled ? 1 : 0.5)
         }
         .disabled(!enabled)
+        .accessibilityAddTraits(isPicked ? .isSelected : [])
     }
 
     var body: some View {

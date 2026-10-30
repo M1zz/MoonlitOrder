@@ -30,6 +30,8 @@ struct MoonlitOrderApp: App {
                 .preferredColorScheme(.dark)
                 .leeoSatisfactionCheck(MoonlitOrderSpec.self)
                 .task { await MoonlitOrderSpec.tipJar.startStandalone() }
+                // 아이폰 듀오: 접힘을 재서 아래로 흘리고, 시트 · 알림창이 접힌 선을 비킨다 (LeeoKit Fold)
+                .foldAware()
         }
     }
 }
@@ -39,6 +41,8 @@ struct RootView: View {
     @Environment(\.scenePhase) private var scenePhase
     @State private var showGMPreview = false
     @State private var showSupport = false
+    /// 아이폰 듀오를 폈을 때 첫 화면 오른쪽(위)에 소개가 서는 게임 (→ FoldPanes.swift)
+    @State private var foldMenuKind: GameViewModel.GameKind = .moonlit
     @AppStorage(MoonlitOrderOnboarding.hasSeenOnboardingKey) private var hasSeenOnboarding = false
     @ObservedObject private var shortcuts = ShortcutRouter.shared
 
@@ -57,61 +61,67 @@ struct RootView: View {
     }
 
     var body: some View {
-        ZStack {
-            Theme.background.ignoresSafeArea()
-
-            switch game.mode {
-            case .idle:
-                HomeView()
-            case .browsing, .connecting:
-                BrowseView()
-            case .hosting, .playing:
-                if game.showDemoIntro {
-                    DemoIntroView()
-                } else if let liarState = game.liarState {
-                    LiarRootView(state: liarState)
-                } else if let wolfState = game.wolfState {
-                    WolfRootView(state: wolfState)
-                } else if let sketchState = game.sketchState {
-                    SketchRootView(state: sketchState)
-                } else if let state = game.publicState {
-                    if state.phase == .lobby {
-                        LobbyView(state: state)
-                    } else {
-                        GameView(state: state)
-                    }
-                } else {
-                    ProgressView("연결 중…")
-                        .tint(.white)
-                }
-            }
-
-            // 홈 화면에서만 노출되는 설정(지원) 진입점
-            if game.mode == .idle {
-                VStack {
-                    HStack {
-                        Spacer()
-                        Button {
-                            showSupport = true
-                        } label: {
-                            Image(systemName: "gearshape")
-                                .font(.title3)
-                                .foregroundColor(.white.opacity(0.7))
-                                .padding(10)
+        // 접혀 있거나 보통 아이폰이면 고르는 쪽(이 화면)만 선다. 지금 화면 그대로.
+        // 아이폰 듀오를 펴면 오른쪽(세로면 위)에 고른 게임의 소개 · 방의 현황이 선다 (→ Views/FoldPanes.swift).
+        FoldSplitView {
+            ZStack {
+                switch game.mode {
+                case .idle:
+                    HomeView(foldMenuKind: $foldMenuKind)
+                case .browsing, .connecting:
+                    BrowseView()
+                case .hosting, .playing:
+                    if game.showDemoIntro {
+                        DemoIntroView()
+                    } else if let liarState = game.liarState {
+                        LiarRootView(state: liarState)
+                    } else if let wolfState = game.wolfState {
+                        WolfRootView(state: wolfState)
+                    } else if let sketchState = game.sketchState {
+                        SketchRootView(state: sketchState)
+                    } else if let state = game.publicState {
+                        if state.phase == .lobby {
+                            LobbyView(state: state)
+                        } else {
+                            GameView(state: state)
                         }
-                        .accessibilityLabel("설정")
+                    } else {
+                        ProgressView("연결 중…")
+                            .tint(.white)
                     }
-                    Spacer()
                 }
-                .padding(.horizontal, 8)
-                .padding(.top, 4)
+
+                // 홈 화면에서만 노출되는 설정(지원) 진입점
+                if game.mode == .idle {
+                    VStack {
+                        HStack {
+                            Spacer()
+                            Button {
+                                showSupport = true
+                            } label: {
+                                Image(systemName: "gearshape")
+                                    .font(.title3)
+                                    .foregroundColor(.white.opacity(0.7))
+                                    .padding(10)
+                            }
+                            .accessibilityLabel("설정")
+                        }
+                        Spacer()
+                    }
+                    .padding(.horizontal, 8)
+                    .padding(.top, 4)
+                }
             }
+        } result: {
+            FoldResultPane(menuKind: foldMenuKind)
         }
+        .background(Theme.background.ignoresSafeArea())
         .sheet(isPresented: $showSupport) {
             MoonlitOrderSupportView()
         }
         .fullScreenCover(isPresented: showOnboarding) {
             MoonlitOrderOnboardingView { hasSeenOnboarding = true }
+                .foldConfined()
         }
         .onReceive(shortcuts.$pending) { _ in runPendingShortcut() }
         .onChange(of: hasSeenOnboarding) { _ in runPendingShortcut() }
