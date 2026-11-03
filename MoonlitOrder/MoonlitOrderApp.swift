@@ -7,6 +7,10 @@ struct MoonlitOrderApp: App {
     @StateObject private var game = GameViewModel()
 
     init() {
+        // 백업 금고 — 예약된 복원 적용 · 매일/업데이트 직전 백업. 아래가 기록을 읽고 쓰기 전에 먼저.
+        // (bootstrap 도 금고를 켜지만 그 전에 기록을 읽으므로 여기서 먼저 켠다. 두 번째 부름은 아무것도 안 한다)
+        LeeoVault.start(MoonlitOrderSpec.self)
+
         // 첫 실행 안내가 생기기 전부터 쓰던 사람에게는 안내를 띄우지 않는다 (뷰모델이 ID 를 만들기 전에 판단).
         MoonlitOrderOnboarding.skipForExistingPlayers()
 
