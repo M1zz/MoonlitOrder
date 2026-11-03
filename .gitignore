@@ -14,3 +14,5 @@ DerivedData/
 
 # Sprint Commander (로컬 태스크 관리)
 .sprintcommander/
+
+build/
