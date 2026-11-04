@@ -64,7 +64,7 @@ struct HostRoomIntent: AppIntent {
     static var description = IntentDescription("고른 게임의 방을 열어 친구들이 들어올 수 있게 해요.")
     static var openAppWhenRun = true
 
-    @Parameter(title: "게임", default: .moonlit)
+    @Parameter(title: "게임", description: "방을 열 게임이에요.", default: .moonlit)
     var game: PartyGameAppEnum
 
     static var parameterSummary: some ParameterSummary {
@@ -75,6 +75,16 @@ struct HostRoomIntent: AppIntent {
     func perform() async throws -> some IntentResult {
         ShortcutRouter.shared.pending = .host(game.kind)
         return .result()
+    }
+}
+
+extension HostRoomIntent {
+    /// 홈에서 직접 방을 열었을 때 Siri 에 알린다 — 다음엔 앱 이름 없이도 이 동작을 고르기 쉽다.
+    static func donate(_ kind: GameViewModel.GameKind) {
+        guard let game = PartyGameAppEnum(rawValue: kind.rawValue) else { return }
+        let intent = HostRoomIntent()
+        intent.game = game
+        IntentDonationManager.shared.donate(intent: intent)
     }
 }
 
@@ -95,7 +105,7 @@ struct PracticeGameIntent: AppIntent {
     static var description = IntentDescription("혼자서 봇들과 한 판을 해 보며 규칙을 익혀요.")
     static var openAppWhenRun = true
 
-    @Parameter(title: "게임", default: .moonlit)
+    @Parameter(title: "게임", description: "봇들과 연습할 게임이에요.", default: .moonlit)
     var game: PartyGameAppEnum
 
     static var parameterSummary: some ParameterSummary {

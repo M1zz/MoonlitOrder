@@ -251,6 +251,7 @@ struct GameMenuView: View {
                     Button {
                         dismiss()
                         game.hostGame(kind: kind)
+                        HostRoomIntent.donate(kind)
                     } label: {
                         Label("방 만들기 (호스트)", systemImage: "house.fill")
                     }
