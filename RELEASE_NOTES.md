@@ -1,5 +1,175 @@
 # 릴리즈 노트
 
+## 1.0.3
+
+### 앱스토어 (한국어)
+
+VoiceOver와 큰 글씨로도 편하게 즐겨요
+게임 기록이 매일 자동으로 백업돼요
+설정에서 친구에게 앱을 소개할 수 있어요
+마음에 들면 개발자를 응원할 수 있어요
+
+### 앱스토어 (English)
+
+Play easily with VoiceOver or large text
+Your game records are backed up daily
+Tell friends about the app from Settings
+Enjoying it? Now you can support the dev
+
+### 앱스토어 (en-GB)
+
+Play easily with VoiceOver or large text
+Your game records are backed up daily
+Tell friends about the app from Settings
+Enjoying it? Now you can support the dev
+
+### 앱스토어 (日本語)
+
+VoiceOverや大きな文字でも快適に遊べます
+ゲームの記録を毎日自動でバックアップします
+設定から友だちにアプリを紹介できます
+気に入ったら開発者を応援できます
+
+### 앱스토어 (简体中文)
+
+使用旁白或大字体也能轻松畅玩
+游戏记录每天自动备份
+可在设置中向朋友推荐本应用
+喜欢的话可以支持一下开发者
+
+### 앱스토어 (繁體中文)
+
+使用旁白或大字體也能輕鬆暢玩
+遊戲紀錄每天自動備份
+可在設定中向朋友推薦這款App
+喜歡的話可以支持一下開發者
+
+### 앱스토어 (Русский)
+
+Удобно с VoiceOver и крупным шрифтом
+Игровые записи сохраняются ежедневно
+Советуйте приложение друзьям из Настроек
+Нравится? Поддержите разработчика
+
+### 앱스토어 (Español)
+
+Juega fácil con VoiceOver o texto grande
+Tus partidas se guardan a diario
+Recomienda la app desde Ajustes
+¿Te gusta? Ya puedes apoyar al creador
+
+### 앱스토어 (Deutsch)
+
+Bequem mit VoiceOver und großer Schrift
+Spielstände werden täglich gesichert
+App in den Einstellungen weiterempfehlen
+Gefällt sie dir? Unterstütze uns
+
+### 앱스토어 (Français)
+
+À l'aise avec VoiceOver ou un gros texte
+Vos parties sauvegardées chaque jour
+Recommandez l'app depuis les Réglages
+Vous aimez ? Soutenez le développeur
+
+### 앱스토어 (Italiano)
+
+Gioca bene con VoiceOver o testo grande
+Le partite vengono salvate ogni giorno
+Consiglia l'app da Impostazioni
+Ti piace? Ora puoi sostenerci
+
+### 앱스토어 (pt-BR)
+
+Jogue com VoiceOver ou texto grande
+Seus registros têm backup diário
+Indique o app aos amigos pelos Ajustes
+Curtiu? Agora dá para apoiar o criador
+
+### 앱스토어 (ไทย)
+
+เล่นสะดวกด้วย VoiceOver และตัวอักษรใหญ่
+บันทึกเกมสำรองอัตโนมัติทุกวัน
+แนะนำแอปให้เพื่อนได้จากการตั้งค่า
+ถ้าชอบ ก็สนับสนุนนักพัฒนาได้แล้ว
+
+### 앱스토어 (Tiếng Việt)
+
+Chơi dễ dàng với VoiceOver và chữ lớn
+Lịch sử chơi được sao lưu mỗi ngày
+Giới thiệu app cho bạn bè trong Cài đặt
+Thích game? Hãy ủng hộ nhà phát triển
+
+### 앱스토어 (Čeština)
+
+Pohodlně s VoiceOverem i velkým písmem
+Herní záznamy se denně zálohují
+Doporučte aplikaci přátelům v Nastavení
+Líbí se vám? Podpořte vývojáře
+
+### 앱스토어 (Dansk)
+
+Spil nemt med VoiceOver eller stor tekst
+Dine spildata sikkerhedskopieres dagligt
+Anbefal appen fra Indstillinger
+Kan du lide den? Støt udvikleren
+
+### 앱스토어 (Ελληνικά)
+
+Άνετα με VoiceOver ή μεγάλο κείμενο
+Αυτόματο αντίγραφο ασφαλείας κάθε μέρα
+Προτείνετε την εφαρμογή στις Ρυθμίσεις
+Σας αρέσει; Στηρίξτε τον δημιουργό
+
+### 앱스토어 (Suomi)
+
+Pelaa VoiceOverilla tai isolla tekstillä
+Pelitiedot varmuuskopioidaan päivittäin
+Suosittele sovellusta asetuksista
+Pidätkö pelistä? Tue kehittäjää
+
+### 앱스토어 (Indonesia)
+
+Nyaman dengan VoiceOver dan teks besar
+Catatan permainan dicadangkan tiap hari
+Rekomendasikan app dari Pengaturan
+Suka? Sekarang bisa dukung pengembangnya
+
+### 앱스토어 (Norsk bokmål)
+
+Spill med VoiceOver eller stor tekst
+Spilldata sikkerhetskopieres daglig
+Anbefal appen fra Innstillinger
+Liker du den? Støtt utvikleren
+
+### 앱스토어 (Nederlands)
+
+Speel fijn met VoiceOver of grote tekst
+Dagelijks een back-up van je spellen
+Raad de app aan via Instellingen
+Vind je het leuk? Steun de maker
+
+### 앱스토어 (Polski)
+
+Wygodna gra z VoiceOver i dużym tekstem
+Zapisy gier są codziennie kopiowane
+Poleć aplikację znajomym w Ustawieniach
+Podoba się? Wesprzyj twórcę
+
+### 앱스토어 (Svenska)
+
+Spela lätt med VoiceOver eller stor text
+Dina speldata säkerhetskopieras dagligen
+Tipsa vänner om appen i Inställningar
+Gillar du den? Stöd utvecklaren
+
+### 앱스토어 (Türkçe)
+
+VoiceOver ve büyük yazıyla rahat oynayın
+Oyun kayıtları her gün yedeklenir
+Uygulamayı Ayarlar'dan önerin
+Beğendiniz mi? Geliştiriciyi destekleyin
+
 ## 1.0.2
 
 ### 앱스토어 (한국어)
