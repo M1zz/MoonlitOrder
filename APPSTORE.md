@@ -46,6 +46,11 @@
 
 라이어 게임과 달빛 화실은 무료로 방을 만들 수 있고, 다른 사람이 연 방에는 네 게임 모두 무료로 참가합니다. 달빛 결사와 달 없는 밤의 방 만들기는 달빛 오락실 Pro(주 · 월 · 연 구독 또는 평생)로 열리며, 방장 한 명만 있으면 모두가 함께합니다. 계정 없이 바로 시작합니다.
 
+구독 안내
+달빛 오락실 Pro 구독은 자동 갱신 구독입니다. 갱신일 24시간 전까지 해지하지 않으면 Apple 계정으로 자동 결제되며, 설정의 구독 관리에서 언제든 해지할 수 있습니다.
+이용약관(EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+개인정보처리방침: https://m1zz.github.io/MoonlitOrder/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/MoonlitOrder/
@@ -103,6 +108,11 @@ The host can remove an unresponsive player at any time, and the game is judged a
 Host mode lets you move a stuck phase along and manage players.
 
 Hosting Liar Game and Moonlit Studio is free, and anyone can join any of the four games in someone else's room for free. Hosting Moonlit Order and Moonless Night comes with Moonlit Arcade Pro (weekly, monthly, yearly or lifetime), and one host is all the group needs. No account required.
+
+Subscriptions
+Moonlit Arcade Pro is an auto-renewing subscription. Payment is charged to your Apple Account, and the subscription renews unless canceled at least 24 hours before the current period ends. Manage or cancel anytime in Settings.
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://m1zz.github.io/MoonlitOrder/en/privacy.html
 
 ### 지원 URL
 
@@ -162,6 +172,11 @@ Host mode lets you move a stuck phase along and manage players.
 
 Hosting Liar Game and Moonlit Studio is free, and anyone can join any of the four games in someone else's room for free. Hosting Moonlit Order and Moonless Night comes with Moonlit Arcade Pro (weekly, monthly, yearly or lifetime), and one host is all the group needs. No account required.
 
+Subscriptions
+Moonlit Arcade Pro is an auto-renewing subscription. Payment is charged to your Apple Account, and the subscription renews unless cancelled at least 24 hours before the current period ends. Manage or cancel any time in Settings.
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://m1zz.github.io/MoonlitOrder/en-GB/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/MoonlitOrder/en-GB/
@@ -219,6 +234,11 @@ https://m1zz.github.io/MoonlitOrder/en-GB/
 進行役モードでは、止まった段階を先に進めたり、参加者を管理したりできます。
 
 ライアーゲームと月光アトリエは無料で部屋を作れて、ほかの人の部屋には4つのゲームすべてに無料で参加できます。月光結社と月なき夜の部屋作りは月明かりアーケード Pro(週額・月額・年額・買い切り)で開き、ホストがひとりいればみんなで遊べます。アカウント登録なしですぐに始められます。
+
+サブスクリプションについて
+月明かりアーケード Pro は自動更新のサブスクリプションです。 期間終了の24時間前までに解約しない限り、Apple Account に自動で請求され更新されます。設定のサブスクリプション管理からいつでも解約できます。
+利用規約（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+プライバシーポリシー: https://m1zz.github.io/MoonlitOrder/ja/privacy.html
 
 ### 지원 URL
 
@@ -278,6 +298,11 @@ https://m1zz.github.io/MoonlitOrder/ja/
 
 说谎者游戏和月光画室可免费创建房间,加入别人的房间时四款游戏全部免费。创建月光结社和无月之夜的房间需要月光游戏厅 Pro(按周、按月、按年订阅或永久买断),只要一位房主,大家就能一起玩。无需账号,马上开始。
 
+订阅说明
+月光游戏厅 Pro 为自动续期订阅。 费用从你的 Apple 账户扣除，除非在当期结束前至少 24 小时取消，否则将自动续期。可随时在“设置”中管理或取消。
+使用条款（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+隐私政策: https://m1zz.github.io/MoonlitOrder/zh-Hans/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/MoonlitOrder/zh-Hans/
@@ -335,6 +360,11 @@ https://m1zz.github.io/MoonlitOrder/zh-Hans/
 在主持人模式下,可以推進卡住的階段並管理玩家。
 
 說謊者遊戲和月光畫室可免費建立房間,加入別人的房間時四款遊戲全部免費。建立月光結社和無月之夜的房間需要月光遊戲廳 Pro(按週、按月、按年訂閱或永久買斷),只要一位房主,大家就能一起玩。無需帳號,馬上開始。
+
+訂閱說明
+月光遊戲廳 Pro 為自動續訂訂閱。 費用會從你的 Apple 帳號扣款，除非在當期結束前至少 24 小時取消，否則將自動續訂。可隨時在「設定」中管理或取消。
+使用條款（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+隱私權政策: https://m1zz.github.io/MoonlitOrder/zh-Hant/privacy.html
 
 ### 지원 URL
 
@@ -394,6 +424,11 @@ https://m1zz.github.io/MoonlitOrder/zh-Hant/
 
 Создавать комнаты «Лжеца» и «Лунной студии» можно бесплатно, а в чужие комнаты можно заходить бесплатно во всех четырёх играх. Комнаты «Лунного ордена» и «Ночи без луны» открываются с «Лунной аркадой Pro» (неделя, месяц, год или навсегда), и одного хоста хватает на всю компанию. Начать можно сразу, без аккаунта.
 
+Подписки
+Лунная аркада Pro — подписка с автопродлением. Оплата списывается с вашего Аккаунта Apple, и подписка продлевается, если не отменить её минимум за 24 часа до конца периода. Управлять подпиской и отменить её можно в Настройках.
+Условия использования (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Политика конфиденциальности: https://m1zz.github.io/MoonlitOrder/ru/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/MoonlitOrder/ru/
@@ -451,6 +486,11 @@ El anfitrión puede sacar en cualquier momento a un jugador que no responde, y l
 En el modo anfitrión puedes avanzar una fase atascada y gestionar a los jugadores.
 
 Crear salas de Juego del Mentiroso y Estudio Lunar es gratis, y unirse a la sala de otra persona es gratis en los cuatro juegos. Crear salas de Orden Lunar y Noche sin Luna se desbloquea con Arcade Lunar Pro (semanal, mensual, anual o para siempre), y basta un anfitrión para todo el grupo. Empiezas sin cuenta.
+
+Suscripciones
+La suscripción a Arcade Lunar Pro es de renovación automática. El cargo se realiza en tu cuenta de Apple y la suscripción se renueva salvo que la canceles al menos 24 horas antes de que termine el periodo. Puedes gestionarla o cancelarla cuando quieras en Ajustes.
+Términos de uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Política de privacidad: https://m1zz.github.io/MoonlitOrder/es/privacy.html
 
 ### 지원 URL
 
@@ -510,6 +550,11 @@ Im Spielleiter-Modus kannst du eine hängende Phase weiterschalten und Spieler v
 
 Räume für Das Lügner-Spiel und Mondlicht-Atelier erstellst du kostenlos, und den Räumen anderer trittst du in allen vier Spielen kostenlos bei. Räume für Mondorden und Nacht ohne Mond öffnest du mit Mondlicht-Arcade Pro (wöchentlich, monatlich, jährlich oder für immer), und ein Host reicht für die ganze Runde. Los geht es ohne Konto.
 
+Abonnements
+Mondlicht-Arcade Pro ist ein sich automatisch verlängerndes Abo. Die Zahlung erfolgt über deinen Apple Account. Das Abo verlängert sich, sofern du nicht mindestens 24 Stunden vor Ablauf des Zeitraums kündigst. Verwalten oder kündigen kannst du jederzeit in den Einstellungen.
+Nutzungsbedingungen (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Datenschutzerklärung: https://m1zz.github.io/MoonlitOrder/de/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/MoonlitOrder/de/
@@ -567,6 +612,11 @@ L’hôte peut retirer à tout moment un joueur qui ne répond plus, et la parti
 Le mode hôte permet de débloquer une phase et de gérer les joueurs.
 
 Créer un salon du Jeu du Menteur ou de l’Atelier Lunaire est gratuit, et rejoindre le salon de quelqu’un d’autre est gratuit pour les quatre jeux. Créer un salon de l’Ordre Lunaire ou de la Nuit sans Lune se débloque avec Arcade Lunaire Pro (hebdomadaire, mensuel, annuel ou à vie), et un seul hôte suffit pour tout le groupe. Aucun compte requis.
+
+Abonnements
+L’abonnement Arcade Lunaire Pro est à renouvellement automatique. Le paiement est débité sur votre compte Apple, et l’abonnement est reconduit sauf résiliation au moins 24 heures avant la fin de la période en cours. Gérez-le ou résiliez-le à tout moment dans Réglages.
+Conditions d’utilisation (EULA) : https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Politique de confidentialité : https://m1zz.github.io/MoonlitOrder/fr/privacy.html
 
 ### 지원 URL
 
@@ -626,6 +676,11 @@ Con la modalità host puoi far avanzare una fase bloccata e gestire i giocatori.
 
 Creare stanze del Gioco del Bugiardo e di Studio Lunare è gratis, e nelle stanze degli altri si entra gratis in tutti e quattro i giochi. Creare stanze di Ordine Lunare e Notte senza Luna si sblocca con Sala Giochi Lunare Pro (settimanale, mensile, annuale o per sempre), e basta un host per tutto il gruppo. Si parte senza account.
 
+Abbonamenti
+L’abbonamento Sala Giochi Lunare Pro si rinnova automaticamente. Il pagamento viene addebitato sul tuo Account Apple e l’abbonamento si rinnova se non lo disdici almeno 24 ore prima della fine del periodo. Puoi gestirlo o disdirlo in qualsiasi momento in Impostazioni.
+Condizioni d’uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Informativa sulla privacy: https://m1zz.github.io/MoonlitOrder/it/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/MoonlitOrder/it/
@@ -683,6 +738,11 @@ O anfitrião pode remover a qualquer momento um jogador que não responde, e a p
 No modo anfitrião, você pode avançar uma fase travada e gerenciar os jogadores.
 
 Criar salas do Jogo do Mentiroso e do Ateliê Lunar é grátis, e entrar na sala de outra pessoa é grátis nos quatro jogos. Criar salas de Ordem Lunar e Noite sem Lua é liberado com o Fliperama Lunar Pro (semanal, mensal, anual ou vitalício), e basta um anfitrião para o grupo todo. Comece sem conta.
+
+Assinaturas
+A assinatura Fliperama Lunar Pro é renovada automaticamente. A cobrança é feita na sua Conta Apple, e a assinatura é renovada a menos que você cancele pelo menos 24 horas antes do fim do período. Gerencie ou cancele quando quiser em Ajustes.
+Termos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Política de Privacidade: https://m1zz.github.io/MoonlitOrder/pt-BR/privacy.html
 
 ### 지원 URL
 
@@ -742,6 +802,11 @@ https://m1zz.github.io/MoonlitOrder/pt-BR/
 
 สร้างห้องเกมไลเออร์และสตูดิโอแสงจันทร์ได้ฟรี และเข้าห้องของคนอื่นได้ฟรีทั้งสี่เกม ส่วนการสร้างห้องภาคีแสงจันทร์และคืนไร้จันทร์จะปลดล็อกด้วยห้องเกมแสงจันทร์ Pro (รายสัปดาห์ รายเดือน รายปี หรือตลอดชีพ) มีโฮสต์คนเดียวทุกคนก็เล่นด้วยกันได้ เริ่มเล่นได้โดยไม่ต้องมีบัญชี
 
+การสมัครสมาชิก
+ห้องเกมแสงจันทร์ Pro เป็นการสมัครสมาชิกที่ต่ออายุอัตโนมัติ ระบบจะเรียกเก็บเงินจากบัญชี Apple ของคุณและต่ออายุให้ เว้นแต่จะยกเลิกอย่างน้อย 24 ชั่วโมงก่อนสิ้นสุดรอบ จัดการหรือยกเลิกได้ทุกเมื่อในการตั้งค่า
+ข้อกำหนดการใช้งาน (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+นโยบายความเป็นส่วนตัว: https://m1zz.github.io/MoonlitOrder/th/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/MoonlitOrder/th/
@@ -799,6 +864,11 @@ Chủ phòng có thể đưa người chơi không phản hồi ra bất cứ l�
 Chế độ chủ phòng cho phép đẩy tiếp giai đoạn bị kẹt và quản lý người chơi.
 
 Tạo phòng Trò Kẻ Nói Dối và Xưởng Vẽ Ánh Trăng miễn phí, và vào phòng của người khác miễn phí với cả bốn trò. Tạo phòng Hội Ánh Trăng và Đêm Không Trăng được mở bằng Phòng Game Ánh Trăng Pro (theo tuần, tháng, năm hoặc trọn đời), chỉ cần một chủ phòng là cả nhóm cùng chơi. Bắt đầu mà không cần tài khoản.
+
+Gói đăng ký
+Phòng Game Ánh Trăng Pro là gói đăng ký tự động gia hạn. Phí được tính vào Tài khoản Apple của bạn và gói sẽ tự gia hạn trừ khi bạn hủy ít nhất 24 giờ trước khi kỳ hạn kết thúc. Bạn có thể quản lý hoặc hủy bất cứ lúc nào trong Cài đặt.
+Điều khoản sử dụng (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Chính sách quyền riêng tư: https://m1zz.github.io/MoonlitOrder/vi/privacy.html
 
 ### 지원 URL
 
@@ -858,6 +928,11 @@ V režimu hostitele můžeš posunout zaseknutou fázi a spravovat hráče.
 
 Místnosti Hry na lháře a Měsíčního ateliéru zakládáte zdarma a do cizích místností se připojíte zdarma ve všech čtyřech hrách. Zakládání místností Měsíčního řádu a Noci bez měsíce odemkne Měsíční herna Pro (týdně, měsíčně, ročně nebo navždy) a celé partě stačí jeden hostitel. Spustíte bez účtu.
 
+Předplatné
+Měsíční herna Pro je automaticky obnovované předplatné. Platba se strhává z tvého Apple účtu a předplatné se obnoví, pokud ho nezrušíš alespoň 24 hodin před koncem období. Spravovat nebo zrušit ho můžeš kdykoli v Nastavení.
+Podmínky použití (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Zásady ochrany osobních údajů: https://m1zz.github.io/MoonlitOrder/cs/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/MoonlitOrder/cs/
@@ -915,6 +990,11 @@ Værten kan når som helst fjerne en spiller, der ikke svarer, og spillet vurder
 I værtstilstand kan du skubbe en fastlåst fase videre og administrere spillere.
 
 Det er gratis at oprette rum i Løgnerspillet og Måneatelieret, og det er gratis at deltage i andres rum i alle fire spil. Rum i Måneordenen og Nat uden Måne åbnes med Månearkaden Pro (ugentligt, månedligt, årligt eller for altid), og én vært er nok til hele gruppen. Kan startes uden konto.
+
+Abonnementer
+Månearkaden Pro er et abonnement, der fornyes automatisk. Betalingen trækkes på din Apple-konto, og abonnementet fornyes, medmindre du opsiger det mindst 24 timer før perioden slutter. Administrer eller opsig når som helst i Indstillinger.
+Brugsvilkår (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privatlivspolitik: https://m1zz.github.io/MoonlitOrder/da/privacy.html
 
 ### 지원 URL
 
@@ -974,6 +1054,11 @@ Offline παιχνίδια με φίλους
 
 Η δημιουργία δωματίων για Το Παιχνίδι του Ψεύτη και το Εργαστήρι του Φεγγαριού είναι δωρεάν, και η συμμετοχή σε δωμάτια άλλων είναι δωρεάν και στα τέσσερα παιχνίδια. Η δημιουργία δωματίων για το Τάγμα της Σελήνης και τη Νύχτα χωρίς Φεγγάρι ξεκλειδώνει με το Φεγγαρένιο Παιχνιδάδικο Pro (εβδομαδιαία, μηνιαία, ετήσια ή για πάντα), και ένας οικοδεσπότης αρκεί για όλη την παρέα. Ξεκινούν χωρίς λογαριασμό.
 
+Συνδρομές
+Το Φεγγαρένιο Παιχνιδάδικο Pro είναι συνδρομή με αυτόματη ανανέωση. Η χρέωση γίνεται στον λογαριασμό Apple σου και η συνδρομή ανανεώνεται, εκτός αν την ακυρώσεις τουλάχιστον 24 ώρες πριν λήξει η περίοδος. Διαχειρίσου ή ακύρωσε τη συνδρομή οποτεδήποτε από τις Ρυθμίσεις.
+Όροι χρήσης (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Πολιτική απορρήτου: https://m1zz.github.io/MoonlitOrder/el/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/MoonlitOrder/el/
@@ -1031,6 +1116,11 @@ Isäntä voi poistaa vastaamattoman pelaajan milloin tahansa, ja peli arvioidaan
 Isäntätilassa voit viedä jumiutuneen vaiheen eteenpäin ja hallita pelaajia.
 
 Valehtelijapelin ja Kuuateljeen huoneet luot ilmaiseksi, ja muiden huoneisiin liityt ilmaiseksi kaikissa neljässä pelissä. Kuuordon ja Yö ilman kuuta -pelin huoneet avautuvat Kuupeliareena Prolla (viikko, kuukausi, vuosi tai ikuisesti), ja koko porukalle riittää yksi isäntä. Pelit alkavat ilman tiliä.
+
+Tilaukset
+Kuupeliareena Pro on automaattisesti uusiutuva tilaus. Maksu veloitetaan Apple-tililtäsi, ja tilaus uusiutuu, ellei sitä peruta vähintään 24 tuntia ennen jakson päättymistä. Hallitse tai peru tilaus milloin tahansa Asetuksissa.
+Käyttöehdot (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Tietosuojakäytäntö: https://m1zz.github.io/MoonlitOrder/fi/privacy.html
 
 ### 지원 URL
 
@@ -1090,6 +1180,11 @@ Dalam mode host, kamu bisa melanjutkan tahap yang macet dan mengelola pemain.
 
 Membuat ruangan Permainan Si Pembohong dan Studio Cahaya Bulan gratis, dan bergabung ke ruangan orang lain gratis di keempat permainan. Membuat ruangan Ordo Cahaya Bulan dan Malam Tanpa Bulan dibuka dengan Arena Game Cahaya Bulan Pro (mingguan, bulanan, tahunan, atau seumur hidup), dan cukup satu host untuk seluruh grup. Bisa dimulai tanpa akun.
 
+Langganan
+Arena Game Cahaya Bulan Pro adalah langganan yang diperpanjang otomatis. Pembayaran ditagihkan ke Akun Apple Anda dan langganan diperpanjang kecuali dibatalkan paling lambat 24 jam sebelum periode berakhir. Kelola atau batalkan kapan saja di Pengaturan.
+Ketentuan Penggunaan (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Kebijakan Privasi: https://m1zz.github.io/MoonlitOrder/id/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/MoonlitOrder/id/
@@ -1147,6 +1242,11 @@ Verten kan når som helst fjerne en spiller som ikke svarer, og spillet vurderes
 I vertsmodus kan du skyve en fastlåst fase videre og administrere spillere.
 
 Det er gratis å opprette rom i Løgnerspillet og Månestudioet, og det er gratis å bli med i andres rom i alle fire spillene. Rom i Månordenen og Natt uten måne åpnes med Månearkaden Pro (ukentlig, månedlig, årlig eller for alltid), og én vert holder for hele gjengen. Kan startes uten konto.
+
+Abonnementer
+Månearkaden Pro er et abonnement som fornyes automatisk. Betalingen belastes Apple-kontoen din, og abonnementet fornyes med mindre du sier det opp minst 24 timer før perioden er over. Administrer eller si opp når som helst i Innstillinger.
+Bruksvilkår (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Personvernerklæring: https://m1zz.github.io/MoonlitOrder/nb/privacy.html
 
 ### 지원 URL
 
@@ -1206,6 +1306,11 @@ In hostmodus kun je een vastgelopen fase doorzetten en spelers beheren.
 
 Kamers maken voor Het Leugenaarsspel en Maanatelier is gratis, en meedoen in de kamer van een ander is gratis bij alle vier de spellen. Kamers maken voor Maanorde en Nacht zonder Maan ontgrendel je met Maanarcade Pro (wekelijks, maandelijks, jaarlijks of voor altijd), en één host is genoeg voor de hele groep. Start zonder account.
 
+Abonnementen
+Maanarcade Pro is een automatisch verlengend abonnement. De betaling loopt via je Apple Account en het abonnement wordt verlengd, tenzij je minstens 24 uur voor het einde van de periode opzegt. Beheer of zeg op wanneer je wilt in Instellingen.
+Gebruiksvoorwaarden (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacybeleid: https://m1zz.github.io/MoonlitOrder/nl/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/MoonlitOrder/nl/
@@ -1263,6 +1368,11 @@ Gospodarz może w każdej chwili usunąć nieodpowiadającego gracza, a gra zost
 W trybie gospodarza możesz popchnąć zablokowaną fazę i zarządzać graczami.
 
 Pokoje Gry w Kłamcę i Księżycowej Pracowni zakładasz bezpłatnie, a do cudzych pokoi dołączasz bezpłatnie we wszystkich czterech grach. Zakładanie pokoi Zakonu Księżyca i Nocy bez Księżyca odblokowuje Księżycowa Arkada Pro (tygodniowo, miesięcznie, rocznie lub na zawsze), a całej paczce wystarczy jeden gospodarz. Gry startują bez konta.
+
+Subskrypcje
+Księżycowa Arkada Pro to subskrypcja odnawiana automatycznie. Opłata jest pobierana z Twojego konta Apple, a subskrypcja odnawia się, jeśli nie anulujesz jej co najmniej 24 godziny przed końcem okresu. Zarządzaj subskrypcją lub anuluj ją w dowolnej chwili w Ustawieniach.
+Warunki korzystania (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Polityka prywatności: https://m1zz.github.io/MoonlitOrder/pl/privacy.html
 
 ### 지원 URL
 
@@ -1322,6 +1432,11 @@ I värdläget kan du knuffa vidare en fastnad fas och hantera spelare.
 
 Det är gratis att skapa rum i Lögnarspelet och Månateljén, och det är gratis att gå med i andras rum i alla fyra spelen. Rum i Månorden och Natt utan måne öppnas med Månarkaden Pro (vecka, månad, år eller för alltid), och en värd räcker för hela gänget. Kan startas utan konto.
 
+Prenumerationer
+Månarkaden Pro är en prenumeration som förnyas automatiskt. Betalningen dras från ditt Apple-konto och prenumerationen förnyas om du inte avslutar den minst 24 timmar innan perioden slutar. Hantera eller avsluta när som helst i Inställningar.
+Användarvillkor (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Integritetspolicy: https://m1zz.github.io/MoonlitOrder/sv/privacy.html
+
 ### 지원 URL
 
 https://m1zz.github.io/MoonlitOrder/sv/
@@ -1379,6 +1494,11 @@ Ev sahibi yanıt vermeyen bir oyuncuyu istediği zaman çıkarabilir ve oyun hi�
 Yönetici modunda takılan aşamayı ilerletebilir ve oyuncuları yönetebilirsin.
 
 Yalancı Oyunu ve Ay Atölyesi odalarını ücretsiz açarsın, başkalarının odalarına dört oyunda da ücretsiz katılırsın. Ay Tarikatı ve Aysız Gece odalarını açmak Ay Oyun Salonu Pro (haftalık, aylık, yıllık ya da ömür boyu) ile mümkün olur ve tüm gruba tek bir ev sahibi yeter. Hesap olmadan başlar.
+
+Abonelikler
+Ay Oyun Salonu Pro otomatik yenilenen bir aboneliktir. Ödeme Apple Hesabınızdan alınır ve dönem bitmeden en az 24 saat önce iptal edilmezse abonelik yenilenir. Ayarlar'dan istediğiniz zaman yönetebilir veya iptal edebilirsiniz.
+Kullanım Koşulları (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Gizlilik Politikası: https://m1zz.github.io/MoonlitOrder/tr/privacy.html
 
 ### 지원 URL
 
