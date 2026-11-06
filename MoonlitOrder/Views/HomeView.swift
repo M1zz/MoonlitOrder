@@ -14,6 +14,7 @@ struct HomeView: View {
     @Environment(\.foldLayout) private var fold
     /// 아이폰 듀오를 폈을 때 오른쪽(위) 판에 소개가 서는 게임. 펴져 있으면 시트 대신 이걸 바꾼다.
     @Binding var foldMenuKind: GameViewModel.GameKind
+    @ObservedObject private var pro = MoonlitPro.shared
 
     private func gameCard(kind: GameViewModel.GameKind, icon: String, color: Color,
                           title: String, desc: String) -> some View {
@@ -35,9 +36,15 @@ struct HomeView: View {
                     .frame(width: 34)
                     .accessibilityHidden(true)
                 VStack(alignment: .leading, spacing: 2) {
-                    Text(title)
-                        .font(.headline)
-                        .foregroundColor(.white)
+                    HStack(spacing: 6) {
+                        Text(title)
+                            .font(.headline)
+                            .foregroundColor(.white)
+                        // 방장만 Pro — 카드는 그대로 눌린다(참가 · 연습은 무료).
+                        if !pro.canHost(kind) {
+                            ProLockBadge()
+                        }
+                    }
                     Text(enabled ? desc : String(localized: "잠시 점검 중이에요. 곧 다시 열게요."))
                         .font(.caption)
                         .foregroundColor(.white.opacity(0.6))
@@ -193,6 +200,8 @@ struct HomeView: View {
 struct GameMenuView: View {
     @EnvironmentObject var game: GameViewModel
     @Environment(\.dismiss) private var dismiss
+    @ObservedObject private var pro = MoonlitPro.shared
+    @State private var showsPaywall = false
     let kind: GameViewModel.GameKind
 
     private var icon: String {
@@ -249,12 +258,18 @@ struct GameMenuView: View {
 
                 VStack(spacing: 12) {
                     Button {
+                        // 잠긴 게임은 이 시트 위에 페이월을 띄운다 (닫히는 시트 뒤에서는 띄울 수 없다).
+                        guard pro.canHost(kind) else {
+                            showsPaywall = true
+                            return
+                        }
                         dismiss()
                         game.hostGame(kind: kind)
                         HostRoomIntent.donate(kind)
                     } label: {
-                        Label("방 만들기 (호스트)", systemImage: "house.fill")
+                        Label("방 만들기 (호스트)", systemImage: pro.canHost(kind) ? "house.fill" : "lock.fill")
                     }
+                    .accessibilityHint(pro.canHost(kind) ? Text(verbatim: "") : Text("Pro 방장이 열 수 있어요"))
                     // 밝은 하늘색(라이어) 위의 흰 글씨는 대비가 모자라 검은 글씨로 쓴다
                     .buttonStyle(BigButtonStyle(color: color,
                                                 textColor: kind == .wolf ? .white : .black))
@@ -282,6 +297,27 @@ struct GameMenuView: View {
                 .padding(.bottom, 24)
             }
         }
+        .sheet(isPresented: $showsPaywall) {
+            ProPaywallView(lockedKind: kind)
+        }
+    }
+}
+
+/// 방장만 Pro 인 게임의 표.
+struct ProLockBadge: View {
+    var body: some View {
+        Label {
+            Text(verbatim: "Pro")
+        } icon: {
+            Image(systemName: "lock.fill")
+        }
+        .font(.caption.weight(.bold))
+        .foregroundColor(.black)
+        .padding(.horizontal, 6)
+        .padding(.vertical, 2)
+        .background(Capsule().fill(Theme.gold))
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(Text("Pro 방장이 열 수 있어요"))
     }
 }
 

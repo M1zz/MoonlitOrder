@@ -44,7 +44,7 @@
 응답 없는 참가자는 방장이 언제든 내보낼 수 있고, 게임이 멈추지 않도록 남은 인원으로 다시 판정합니다.
 진행자 모드에서 멈춘 단계를 넘기고 참가자를 관리할 수 있습니다.
 
-모든 게임은 무료이고 계정 없이 바로 시작합니다.
+라이어 게임과 달빛 화실은 무료로 방을 만들 수 있고, 다른 사람이 연 방에는 네 게임 모두 무료로 참가합니다. 달빛 결사와 달 없는 밤의 방 만들기는 달빛 오락실 Pro(주 · 월 · 연 구독 또는 평생)로 열리며, 방장 한 명만 있으면 모두가 함께합니다. 계정 없이 바로 시작합니다.
 
 ### 지원 URL
 
@@ -102,7 +102,7 @@ Tools for the host
 The host can remove an unresponsive player at any time, and the game is judged again with the remaining players so it never stalls.
 Host mode lets you move a stuck phase along and manage players.
 
-All games are free, and you start without an account.
+Hosting Liar Game and Moonlit Studio is free, and anyone can join any of the four games in someone else's room for free. Hosting Moonlit Order and Moonless Night comes with Moonlit Arcade Pro (weekly, monthly, yearly or lifetime), and one host is all the group needs. No account required.
 
 ### 지원 URL
 
@@ -160,7 +160,7 @@ Tools for the host
 The host can remove an unresponsive player at any time, and the game is judged again with the remaining players so it never stalls.
 Host mode lets you move a stuck phase along and manage players.
 
-All games are free, and you start without an account.
+Hosting Liar Game and Moonlit Studio is free, and anyone can join any of the four games in someone else's room for free. Hosting Moonlit Order and Moonless Night comes with Moonlit Arcade Pro (weekly, monthly, yearly or lifetime), and one host is all the group needs. No account required.
 
 ### 지원 URL
 
@@ -218,7 +218,7 @@ https://m1zz.github.io/MoonlitOrder/en-GB/
 応答のない参加者はホストがいつでも退出させられ、ゲームが止まらないよう残りの人数で判定し直します。
 進行役モードでは、止まった段階を先に進めたり、参加者を管理したりできます。
 
-すべてのゲームが無料で、アカウント登録なしですぐに始められます。
+ライアーゲームと月光アトリエは無料で部屋を作れて、ほかの人の部屋には4つのゲームすべてに無料で参加できます。月光結社と月なき夜の部屋作りは月明かりアーケード Pro(週額・月額・年額・買い切り)で開き、ホストがひとりいればみんなで遊べます。アカウント登録なしですぐに始められます。
 
 ### 지원 URL
 
@@ -276,7 +276,7 @@ https://m1zz.github.io/MoonlitOrder/ja/
 房主可以随时移出没有响应的玩家,游戏会按剩余人数重新判定,不会卡住。
 在主持人模式下,可以推进卡住的阶段并管理玩家。
 
-所有游戏免费,无需账号,马上开始。
+说谎者游戏和月光画室可免费创建房间,加入别人的房间时四款游戏全部免费。创建月光结社和无月之夜的房间需要月光游戏厅 Pro(按周、按月、按年订阅或永久买断),只要一位房主,大家就能一起玩。无需账号,马上开始。
 
 ### 지원 URL
 
@@ -334,7 +334,7 @@ https://m1zz.github.io/MoonlitOrder/zh-Hans/
 房主可以隨時移出沒有響應的玩家,遊戲會按剩餘人數重新判定,不會卡住。
 在主持人模式下,可以推進卡住的階段並管理玩家。
 
-所有遊戲免費,無需賬號,馬上開始。
+說謊者遊戲和月光畫室可免費建立房間,加入別人的房間時四款遊戲全部免費。建立月光結社和無月之夜的房間需要月光遊戲廳 Pro(按週、按月、按年訂閱或永久買斷),只要一位房主,大家就能一起玩。無需帳號,馬上開始。
 
 ### 지원 URL
 
@@ -392,7 +392,7 @@ https://m1zz.github.io/MoonlitOrder/zh-Hant/
 Хост в любой момент может удалить не отвечающего игрока, а игра пересчитает итог по оставшимся, чтобы не зависнуть.
 В режиме ведущего можно продвинуть застрявший этап и управлять игроками.
 
-Все игры бесплатны, начать можно сразу, без аккаунта.
+Создавать комнаты «Лжеца» и «Лунной студии» можно бесплатно, а в чужие комнаты можно заходить бесплатно во всех четырёх играх. Комнаты «Лунного ордена» и «Ночи без луны» открываются с «Лунной аркадой Pro» (неделя, месяц, год или навсегда), и одного хоста хватает на всю компанию. Начать можно сразу, без аккаунта.
 
 ### 지원 URL
 
@@ -450,7 +450,7 @@ Herramientas para el anfitrión
 El anfitrión puede sacar en cualquier momento a un jugador que no responde, y la partida se recalcula con los restantes para que no se detenga.
 En el modo anfitrión puedes avanzar una fase atascada y gestionar a los jugadores.
 
-Todos los juegos son gratis y empiezan sin cuenta.
+Crear salas de Juego del Mentiroso y Estudio Lunar es gratis, y unirse a la sala de otra persona es gratis en los cuatro juegos. Crear salas de Orden Lunar y Noche sin Luna se desbloquea con Arcade Lunar Pro (semanal, mensual, anual o para siempre), y basta un anfitrión para todo el grupo. Empiezas sin cuenta.
 
 ### 지원 URL
 
@@ -508,7 +508,7 @@ Werkzeuge für den Host
 Der Host kann einen nicht reagierenden Spieler jederzeit entfernen, und das Spiel wird mit den übrigen Spielern neu bewertet, damit es nie stehen bleibt.
 Im Spielleiter-Modus kannst du eine hängende Phase weiterschalten und Spieler verwalten.
 
-Alle Spiele sind kostenlos und starten ohne Konto.
+Räume für Das Lügner-Spiel und Mondlicht-Atelier erstellst du kostenlos, und den Räumen anderer trittst du in allen vier Spielen kostenlos bei. Räume für Mondorden und Nacht ohne Mond öffnest du mit Mondlicht-Arcade Pro (wöchentlich, monatlich, jährlich oder für immer), und ein Host reicht für die ganze Runde. Los geht es ohne Konto.
 
 ### 지원 URL
 
@@ -566,7 +566,7 @@ Des outils pour l’hôte
 L’hôte peut retirer à tout moment un joueur qui ne répond plus, et la partie est rejugée avec les joueurs restants pour ne jamais se bloquer.
 Le mode hôte permet de débloquer une phase et de gérer les joueurs.
 
-Tous les jeux sont gratuits et se lancent sans compte.
+Créer un salon du Jeu du Menteur ou de l’Atelier Lunaire est gratuit, et rejoindre le salon de quelqu’un d’autre est gratuit pour les quatre jeux. Créer un salon de l’Ordre Lunaire ou de la Nuit sans Lune se débloque avec Arcade Lunaire Pro (hebdomadaire, mensuel, annuel ou à vie), et un seul hôte suffit pour tout le groupe. Aucun compte requis.
 
 ### 지원 URL
 
@@ -624,7 +624,7 @@ Strumenti per l’host
 L’host può rimuovere in qualsiasi momento un giocatore che non risponde, e la partita viene rivalutata con i giocatori rimasti per non bloccarsi mai.
 Con la modalità host puoi far avanzare una fase bloccata e gestire i giocatori.
 
-Tutti i giochi sono gratuiti e si avviano senza account.
+Creare stanze del Gioco del Bugiardo e di Studio Lunare è gratis, e nelle stanze degli altri si entra gratis in tutti e quattro i giochi. Creare stanze di Ordine Lunare e Notte senza Luna si sblocca con Sala Giochi Lunare Pro (settimanale, mensile, annuale o per sempre), e basta un host per tutto il gruppo. Si parte senza account.
 
 ### 지원 URL
 
@@ -682,7 +682,7 @@ Ferramentas para o anfitrião
 O anfitrião pode remover a qualquer momento um jogador que não responde, e a partida é julgada de novo com os jogadores restantes para nunca travar.
 No modo anfitrião, você pode avançar uma fase travada e gerenciar os jogadores.
 
-Todos os jogos são gratuitos e começam sem conta.
+Criar salas do Jogo do Mentiroso e do Ateliê Lunar é grátis, e entrar na sala de outra pessoa é grátis nos quatro jogos. Criar salas de Ordem Lunar e Noite sem Lua é liberado com o Fliperama Lunar Pro (semanal, mensal, anual ou vitalício), e basta um anfitrião para o grupo todo. Comece sem conta.
 
 ### 지원 URL
 
@@ -740,7 +740,7 @@ https://m1zz.github.io/MoonlitOrder/pt-BR/
 โฮสต์นำผู้เล่นที่ไม่ตอบสนองออกได้ทุกเมื่อ และเกมจะตัดสินใหม่ด้วยผู้เล่นที่เหลือเพื่อไม่ให้เกมหยุดค้าง
 โหมดโฮสต์ช่วยให้ข้ามขั้นตอนที่ค้างและจัดการผู้เล่นได้
 
-ทุกเกมฟรี และเริ่มเล่นได้โดยไม่ต้องมีบัญชี
+สร้างห้องเกมไลเออร์และสตูดิโอแสงจันทร์ได้ฟรี และเข้าห้องของคนอื่นได้ฟรีทั้งสี่เกม ส่วนการสร้างห้องภาคีแสงจันทร์และคืนไร้จันทร์จะปลดล็อกด้วยห้องเกมแสงจันทร์ Pro (รายสัปดาห์ รายเดือน รายปี หรือตลอดชีพ) มีโฮสต์คนเดียวทุกคนก็เล่นด้วยกันได้ เริ่มเล่นได้โดยไม่ต้องมีบัญชี
 
 ### 지원 URL
 
@@ -798,7 +798,7 @@ Công cụ cho chủ phòng
 Chủ phòng có thể đưa người chơi không phản hồi ra bất cứ lúc nào, và ván chơi được xét lại với những người còn lại để không bao giờ bị đứng.
 Chế độ chủ phòng cho phép đẩy tiếp giai đoạn bị kẹt và quản lý người chơi.
 
-Mọi trò chơi đều miễn phí và bắt đầu mà không cần tài khoản.
+Tạo phòng Trò Kẻ Nói Dối và Xưởng Vẽ Ánh Trăng miễn phí, và vào phòng của người khác miễn phí với cả bốn trò. Tạo phòng Hội Ánh Trăng và Đêm Không Trăng được mở bằng Phòng Game Ánh Trăng Pro (theo tuần, tháng, năm hoặc trọn đời), chỉ cần một chủ phòng là cả nhóm cùng chơi. Bắt đầu mà không cần tài khoản.
 
 ### 지원 URL
 
@@ -856,7 +856,7 @@ Nástroje pro hostitele
 Hostitel může kdykoli odebrat hráče, který nereaguje, a hra se přehodnotí s ostatními, takže se nikdy nezasekne.
 V režimu hostitele můžeš posunout zaseknutou fázi a spravovat hráče.
 
-Všechny hry jsou zdarma a spouštějí se bez účtu.
+Místnosti Hry na lháře a Měsíčního ateliéru zakládáte zdarma a do cizích místností se připojíte zdarma ve všech čtyřech hrách. Zakládání místností Měsíčního řádu a Noci bez měsíce odemkne Měsíční herna Pro (týdně, měsíčně, ročně nebo navždy) a celé partě stačí jeden hostitel. Spustíte bez účtu.
 
 ### 지원 URL
 
@@ -914,7 +914,7 @@ Værktøjer til værten
 Værten kan når som helst fjerne en spiller, der ikke svarer, og spillet vurderes igen med de resterende spillere, så det aldrig går i stå.
 I værtstilstand kan du skubbe en fastlåst fase videre og administrere spillere.
 
-Alle spil er gratis og kan startes uden konto.
+Det er gratis at oprette rum i Løgnerspillet og Måneatelieret, og det er gratis at deltage i andres rum i alle fire spil. Rum i Måneordenen og Nat uden Måne åbnes med Månearkaden Pro (ugentligt, månedligt, årligt eller for altid), og én vært er nok til hele gruppen. Kan startes uden konto.
 
 ### 지원 URL
 
@@ -972,7 +972,7 @@ Offline παιχνίδια με φίλους
 Ο οικοδεσπότης μπορεί ανά πάσα στιγμή να αφαιρέσει έναν παίκτη που δεν ανταποκρίνεται, και το παιχνίδι κρίνεται ξανά με τους υπόλοιπους ώστε να μην κολλάει ποτέ.
 Στη λειτουργία οικοδεσπότη μπορείς να προωθήσεις μια φάση που κόλλησε και να διαχειριστείς τους παίκτες.
 
-Όλα τα παιχνίδια είναι δωρεάν και ξεκινούν χωρίς λογαριασμό.
+Η δημιουργία δωματίων για Το Παιχνίδι του Ψεύτη και το Εργαστήρι του Φεγγαριού είναι δωρεάν, και η συμμετοχή σε δωμάτια άλλων είναι δωρεάν και στα τέσσερα παιχνίδια. Η δημιουργία δωματίων για το Τάγμα της Σελήνης και τη Νύχτα χωρίς Φεγγάρι ξεκλειδώνει με το Φεγγαρένιο Παιχνιδάδικο Pro (εβδομαδιαία, μηνιαία, ετήσια ή για πάντα), και ένας οικοδεσπότης αρκεί για όλη την παρέα. Ξεκινούν χωρίς λογαριασμό.
 
 ### 지원 URL
 
@@ -1030,7 +1030,7 @@ Työkaluja isännälle
 Isäntä voi poistaa vastaamattoman pelaajan milloin tahansa, ja peli arvioidaan uudelleen jäljellä olevilla pelaajilla, jotta se ei koskaan jumiudu.
 Isäntätilassa voit viedä jumiutuneen vaiheen eteenpäin ja hallita pelaajia.
 
-Kaikki pelit ovat ilmaisia ja alkavat ilman tiliä.
+Valehtelijapelin ja Kuuateljeen huoneet luot ilmaiseksi, ja muiden huoneisiin liityt ilmaiseksi kaikissa neljässä pelissä. Kuuordon ja Yö ilman kuuta -pelin huoneet avautuvat Kuupeliareena Prolla (viikko, kuukausi, vuosi tai ikuisesti), ja koko porukalle riittää yksi isäntä. Pelit alkavat ilman tiliä.
 
 ### 지원 URL
 
@@ -1088,7 +1088,7 @@ Alat untuk host
 Host bisa mengeluarkan pemain yang tidak merespons kapan saja, dan permainan dinilai ulang dengan pemain yang tersisa agar tidak pernah macet.
 Dalam mode host, kamu bisa melanjutkan tahap yang macet dan mengelola pemain.
 
-Semua permainan gratis dan bisa dimulai tanpa akun.
+Membuat ruangan Permainan Si Pembohong dan Studio Cahaya Bulan gratis, dan bergabung ke ruangan orang lain gratis di keempat permainan. Membuat ruangan Ordo Cahaya Bulan dan Malam Tanpa Bulan dibuka dengan Arena Game Cahaya Bulan Pro (mingguan, bulanan, tahunan, atau seumur hidup), dan cukup satu host untuk seluruh grup. Bisa dimulai tanpa akun.
 
 ### 지원 URL
 
@@ -1146,7 +1146,7 @@ Verktøy for verten
 Verten kan når som helst fjerne en spiller som ikke svarer, og spillet vurderes på nytt med de gjenværende spillerne, slik at det aldri stopper.
 I vertsmodus kan du skyve en fastlåst fase videre og administrere spillere.
 
-Alle spill er gratis og kan startes uten konto.
+Det er gratis å opprette rom i Løgnerspillet og Månestudioet, og det er gratis å bli med i andres rom i alle fire spillene. Rom i Månordenen og Natt uten måne åpnes med Månearkaden Pro (ukentlig, månedlig, årlig eller for alltid), og én vert holder for hele gjengen. Kan startes uten konto.
 
 ### 지원 URL
 
@@ -1204,7 +1204,7 @@ Hulpmiddelen voor de host
 De host kan op elk moment een niet-reagerende speler verwijderen en het spel wordt opnieuw beoordeeld met de overgebleven spelers, zodat het nooit vastloopt.
 In hostmodus kun je een vastgelopen fase doorzetten en spelers beheren.
 
-Alle spellen zijn gratis en starten zonder account.
+Kamers maken voor Het Leugenaarsspel en Maanatelier is gratis, en meedoen in de kamer van een ander is gratis bij alle vier de spellen. Kamers maken voor Maanorde en Nacht zonder Maan ontgrendel je met Maanarcade Pro (wekelijks, maandelijks, jaarlijks of voor altijd), en één host is genoeg voor de hele groep. Start zonder account.
 
 ### 지원 URL
 
@@ -1262,7 +1262,7 @@ Narzędzia dla gospodarza
 Gospodarz może w każdej chwili usunąć nieodpowiadającego gracza, a gra zostanie oceniona ponownie z pozostałymi osobami, by nigdy się nie zawiesiła.
 W trybie gospodarza możesz popchnąć zablokowaną fazę i zarządzać graczami.
 
-Wszystkie gry są darmowe i startują bez konta.
+Pokoje Gry w Kłamcę i Księżycowej Pracowni zakładasz bezpłatnie, a do cudzych pokoi dołączasz bezpłatnie we wszystkich czterech grach. Zakładanie pokoi Zakonu Księżyca i Nocy bez Księżyca odblokowuje Księżycowa Arkada Pro (tygodniowo, miesięcznie, rocznie lub na zawsze), a całej paczce wystarczy jeden gospodarz. Gry startują bez konta.
 
 ### 지원 URL
 
@@ -1320,7 +1320,7 @@ Verktyg för värden
 Värden kan när som helst ta bort en spelare som inte svarar, och spelet bedöms om med de kvarvarande spelarna så att det aldrig stannar.
 I värdläget kan du knuffa vidare en fastnad fas och hantera spelare.
 
-Alla spel är gratis och kan startas utan konto.
+Det är gratis att skapa rum i Lögnarspelet och Månateljén, och det är gratis att gå med i andras rum i alla fyra spelen. Rum i Månorden och Natt utan måne öppnas med Månarkaden Pro (vecka, månad, år eller för alltid), och en värd räcker för hela gänget. Kan startas utan konto.
 
 ### 지원 URL
 
@@ -1378,7 +1378,7 @@ Ev sahibi için araçlar
 Ev sahibi yanıt vermeyen bir oyuncuyu istediği zaman çıkarabilir ve oyun hiç takılmasın diye kalan oyuncularla yeniden değerlendirilir.
 Yönetici modunda takılan aşamayı ilerletebilir ve oyuncuları yönetebilirsin.
 
-Tüm oyunlar ücretsizdir ve hesap olmadan başlar.
+Yalancı Oyunu ve Ay Atölyesi odalarını ücretsiz açarsın, başkalarının odalarına dört oyunda da ücretsiz katılırsın. Ay Tarikatı ve Aysız Gece odalarını açmak Ay Oyun Salonu Pro (haftalık, aylık, yıllık ya da ömür boyu) ile mümkün olur ve tüm gruba tek bir ev sahibi yeter. Hesap olmadan başlar.
 
 ### 지원 URL
 

@@ -17,6 +17,9 @@ struct MoonlitOrderSupportView: View {
     var body: some View {
         NavigationStack {
             List {
+                // 달빛 오락실 Pro · 구독 관리 열기 · 평생으로 바꾸기 · 구매 복원 (팔기 시작한 뒤에만)
+                ProSettingsSection()
+
                 Section {
                     LeeoSupportSection<MoonlitOrderSpec>()
                     // 앞으로 만들 기능 — 원본은 MoonlitOrderRoadmap.swift

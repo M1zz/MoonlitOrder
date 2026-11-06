@@ -57,10 +57,14 @@ final class GameViewModel: ObservableObject {
     @Published var connectionLost = false      // 클라이언트: 재접속 시도 중
     @Published var errorMessage: String?
     @Published var showDemoIntro = false       // 게임방법: 목적·승리조건 안내 화면
+    /// 방을 열려다 Pro 에 막힌 게임 (단축어 · Siri 로 연 때). RootView 가 페이월을 띄운다.
+    @Published var lockedHostKind: GameKind?
 
     /// 한 판이 결과 화면에 막 닿으면 센다(응원 부탁의 숫자). 연습 판은 세지 않는다.
     private func noteGameOver(was: Bool, now: Bool) {
-        if now, !was, !isDemo { MoonlitOrderTipMoments.recordFinishedGame() }
+        guard now, !was, !isDemo else { return }
+        MoonlitOrderTipMoments.recordFinishedGame()
+        if isHost { MoonlitOrderTipMoments.recordHostedGame() }
     }
 
     /// 시연용(-autoJoin): 방이 발견되면 자동으로 참가한다
@@ -176,6 +180,11 @@ final class GameViewModel: ObservableObject {
     // MARK: - 호스트 시작
 
     func hostGame(kind: GameKind = .moonlit) {
+        // 달빛 결사 · 달 없는 밤은 Pro 방장만 연다. 참가(join) · 연습은 묻지 않는다.
+        guard MoonlitPro.shared.canHost(kind) else {
+            lockedHostKind = kind
+            return
+        }
         cleanup()
         isHost = true
         gameKind = kind

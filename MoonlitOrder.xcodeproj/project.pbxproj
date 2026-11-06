@@ -32,6 +32,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				Products.storekit,
 			);
 			target = D0B000000000000000000A71 /* MoonlitOrder */;
 		};

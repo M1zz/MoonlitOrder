@@ -33,7 +33,6 @@ struct MoonlitOrderApp: App {
                 .environmentObject(game)
                 .preferredColorScheme(.dark)
                 .leeoSatisfactionCheck(MoonlitOrderSpec.self)
-                .task { await MoonlitOrderSpec.tipJar.startStandalone() }
                 // 아이폰 듀오: 접힘을 재서 아래로 흘리고, 시트 · 알림창이 접힌 선을 비킨다 (LeeoKit Fold)
                 .foldAware()
         }
@@ -45,6 +44,7 @@ struct RootView: View {
     @Environment(\.scenePhase) private var scenePhase
     @State private var showGMPreview = false
     @State private var showSupport = false
+    @State private var showGraduation = false
     /// 아이폰 듀오를 폈을 때 첫 화면 오른쪽(위)에 소개가 서는 게임 (→ FoldPanes.swift)
     @State private var foldMenuKind: GameViewModel.GameKind = .moonlit
     @AppStorage(MoonlitOrderOnboarding.hasSeenOnboardingKey) private var hasSeenOnboarding = false
@@ -122,6 +122,22 @@ struct RootView: View {
         .background(Theme.background.ignoresSafeArea())
         .sheet(isPresented: $showSupport) {
             MoonlitOrderSupportView()
+        }
+        // 단축어 · Siri 로 잠긴 게임의 방을 열려 했을 때
+        .sheet(item: $game.lockedHostKind) { kind in
+            ProPaywallView(lockedKind: kind)
+        }
+        // 구독 6개월째 · 갱신 7일 전에 한 번씩, 홈에서만
+        .sheet(isPresented: $showGraduation) {
+            ProGraduationSheet()
+        }
+        .task {
+            // Pro 영수증 · 상품 · 구독을 읽는다. 팁도 같은 LeeoStore 가 맡는다(계약의 tipJar).
+            await MoonlitPro.shared.refresh()
+            guard MoonlitPro.shared.graduationIsDue, game.mode == .idle, hasSeenOnboarding,
+                  !Self.isScriptedLaunch, shortcuts.pending == nil else { return }
+            LeeoGraduation.markOffered()
+            showGraduation = true
         }
         .fullScreenCover(isPresented: showOnboarding) {
             MoonlitOrderOnboardingView { hasSeenOnboarding = true }
