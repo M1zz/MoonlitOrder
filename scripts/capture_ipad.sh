@@ -18,6 +18,9 @@ SCENES=(home role vote draw result)
 
 t() { perl -e 'alarm shift; exec @ARGV' "$@"; }   # 시뮬레이터가 멈추면 기다리지 않는다
 
+# 아이패드 상태 막대(시각·날짜)가 그려졌는가 — 앱을 띄운 직후엔 가끔 통째로 비어 찍힌다
+has_bar() { python3 -c "import sys;from PIL import Image;p=list(Image.open(sys.argv[1]).convert('L').crop((40,12,420,52)).getdata());sys.exit(max(p)-min(p)<40)" $1; }
+
 store_of() {   # 앱 언어 → App Store 로케일 (make_marketing_screenshots.py 의 STORE)
   case $1 in
     en) echo en-US ;; es) echo es-ES ;; de) echo de-DE ;; fr) echo fr-FR ;; nl) echo nl-NL ;; *) echo $1 ;;
@@ -42,18 +45,24 @@ t 300 xcrun simctl install $DEV $APP || { echo "설치 실패"; exit 1; }
 for lang in $LANGS; do
   echo "▸ $lang"
   out=docs/screenshots/marketing/$(store_of $lang); mkdir -p $out
+  # 아이패드 상태 막대의 날짜와 창 이름은 앱이 아니라 시스템 언어를 따른다 → 언어마다 바꾸고 홈을 다시 띄운다
+  t 30 xcrun simctl spawn $DEV defaults write .GlobalPreferences AppleLanguages -array $lang
+  t 30 xcrun simctl spawn $DEV defaults write .GlobalPreferences AppleLocale $(locale_of $lang)
+  t 30 xcrun simctl spawn $DEV launchctl stop com.apple.SpringBoard
+  # 홈이 다시 서고 상태 막대가 돌아올 때까지 — 짧으면 첫 그림에 상태 막대가 비어 나온다
+  sleep 30; t 60 xcrun simctl status_bar $DEV override --time 9:41 --dataNetwork wifi --wifiMode active --wifiBars 3 --batteryState charged --batteryLevel 100 >/dev/null 2>&1
   n=0
   for scene in $SCENES; do
     n=$((n+1))
     [[ -n ${ONLY:-} && " $ONLY " != *" $scene "* ]] && continue
     file=$out/ipad-0$n-$scene.png
-    for try in 1 2; do
+    for try in 1 2 3 4; do
       t 180 xcrun simctl launch --terminate-running-process $DEV $BUNDLE \
         -screenshotScene $scene -AppleLanguages "($lang)" -AppleLocale $(locale_of $lang) >/dev/null 2>&1 || continue
       sleep 12   # 데모 봇이 다 들어오고 판이 설 때까지
       # 시뮬레이터는 Documents 아래에 직접 못 쓸 때가 있다 → 임시 파일로 찍고 옮긴다
       tmp=${TMPDIR:-/tmp}/moonlit-shot-$$.png
-      t 90 xcrun simctl io $DEV screenshot $tmp >/dev/null 2>&1 && mv -f $tmp $file && break
+      t 90 xcrun simctl io $DEV screenshot $tmp >/dev/null 2>&1 && has_bar $tmp && mv -f $tmp $file && break
     done
     [[ -f $file ]] && echo "  $file" || echo "  ✗ $file"
   done
