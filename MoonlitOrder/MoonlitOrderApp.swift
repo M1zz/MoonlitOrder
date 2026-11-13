@@ -45,6 +45,8 @@ struct RootView: View {
     @EnvironmentObject var game: GameViewModel
     @Environment(\.scenePhase) private var scenePhase
     @State private var showGMPreview = false
+    @Environment(\.foldLayout) private var fold
+    @Environment(\.horizontalSizeClass) private var sizeClass
     @State private var showSupport = false
     @State private var showGraduation = false
     /// 아이폰 듀오를 폈을 때 첫 화면 오른쪽(위)에 소개가 서는 게임 (→ FoldPanes.swift)
@@ -64,6 +66,14 @@ struct RootView: View {
         Binding(
             get: { !hasSeenOnboarding && !Self.isScriptedLaunch },
             set: { if !$0 { hasSeenOnboarding = true } })
+    }
+
+    /// 두 쪽으로 나눌 자리. 넓은 아이패드는 접히지 않지만 가로로 편 화면과 같은 짝을 세운다.
+    /// Slide Over · 좁은 분할(compact)은 아이폰처럼 한 쪽만.
+    private var paneLayout: FoldLayout {
+        guard UIDevice.current.userInterfaceIdiom == .pad, sizeClass == .regular,
+              fold.windowSize != .zero else { return fold }
+        return FoldLayout(posture: .innerLandscape, windowSize: fold.windowSize)
     }
 
     var body: some View {
@@ -121,6 +131,8 @@ struct RootView: View {
         } result: {
             FoldResultPane(menuKind: foldMenuKind)
         }
+        // 넓은 아이패드(모임 탁자 가운데)도 펼친 화면처럼 두 쪽으로 — 왼쪽은 고르기 · 게임, 오른쪽은 소개 · 방의 현황.
+        .environment(\.foldLayout, paneLayout)
         .background(Theme.background.ignoresSafeArea())
         .sheet(isPresented: $showSupport) {
             MoonlitOrderSupportView()

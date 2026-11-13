@@ -1,5 +1,151 @@
 # 릴리즈 노트
 
+## 1.0.4
+
+### 앱스토어 (한국어)
+
+이제 iPad에서도 함께 즐길 수 있어요
+넓은 화면에 게임과 참가자를 나란히 보여요
+점수와 원정 진행도 옆에서 한눈에 봐요
+
+### 앱스토어 (English)
+
+Now you can play on iPad too
+Game and players side by side on iPad
+Scores and missions at a glance
+
+### 앱스토어 (en-GB)
+
+Now you can play on iPad too
+Game and players side by side on iPad
+Scores and missions at a glance
+
+### 앱스토어 (日本語)
+
+iPadでも一緒に遊べるようになりました
+広い画面でゲームと参加者を並べて表示
+スコアや遠征の進み具合もひと目で
+
+### 앱스토어 (简体中文)
+
+现在也能在 iPad 上一起玩
+大屏幕上游戏和玩家并排显示
+得分和任务进度一目了然
+
+### 앱스토어 (繁體中文)
+
+現在也能在 iPad 上一起玩
+大螢幕上遊戲和玩家並排顯示
+分數和任務進度一目瞭然
+
+### 앱스토어 (Русский)
+
+Теперь играть можно и на iPad
+Игра и участники рядом на iPad
+Очки и ход миссий — с первого взгляда
+
+### 앱스토어 (Español)
+
+Ahora también puedes jugar en iPad
+Juego y jugadores lado a lado en iPad
+Puntos y misiones de un vistazo
+
+### 앱스토어 (Deutsch)
+
+Jetzt auch auf dem iPad spielen
+Spiel und Mitspieler nebeneinander
+Punkte und Missionen auf einen Blick
+
+### 앱스토어 (Français)
+
+Jouez désormais aussi sur iPad
+Le jeu et les joueurs côte à côte
+Scores et missions d’un coup d’œil
+
+### 앱스토어 (Italiano)
+
+Ora puoi giocare anche su iPad
+Gioco e giocatori fianco a fianco
+Punteggi e missioni a colpo d’occhio
+
+### 앱스토어 (pt-BR)
+
+Agora dá para jogar no iPad também
+Jogo e jogadores lado a lado no iPad
+Pontos e missões num relance
+
+### 앱스토어 (ไทย)
+
+เล่นด้วยกันบน iPad ได้แล้ว
+จอใหญ่แสดงเกมและผู้เล่นเคียงกัน
+ดูคะแนนและภารกิจได้ในพริบตา
+
+### 앱스토어 (Tiếng Việt)
+
+Giờ đã chơi được trên iPad
+Trò chơi và người chơi nằm cạnh nhau
+Điểm số và nhiệm vụ trong một cái nhìn
+
+### 앱스토어 (Čeština)
+
+Teď můžete hrát i na iPadu
+Hra a hráči vedle sebe na iPadu
+Body a mise na první pohled
+
+### 앱스토어 (Dansk)
+
+Nu kan I også spille på iPad
+Spil og spillere side om side på iPad
+Point og missioner med ét blik
+
+### 앱스토어 (Ελληνικά)
+
+Τώρα παίζετε και στο iPad
+Παιχνίδι και παίκτες δίπλα δίπλα
+Πόντοι και αποστολές με μια ματιά
+
+### 앱스토어 (Suomi)
+
+Nyt voitte pelata myös iPadilla
+Peli ja pelaajat rinnakkain iPadilla
+Pisteet ja tehtävät yhdellä silmäyksellä
+
+### 앱스토어 (Indonesia)
+
+Kini bisa main bareng di iPad
+Game dan pemain berdampingan di iPad
+Skor dan misi sekali lihat
+
+### 앱스토어 (Norsk bokmål)
+
+Nå kan dere spille på iPad også
+Spill og spillere side om side på iPad
+Poeng og oppdrag med ett blikk
+
+### 앱스토어 (Nederlands)
+
+Nu ook samen spelen op iPad
+Spel en spelers naast elkaar op iPad
+Scores en missies in één oogopslag
+
+### 앱스토어 (Polski)
+
+Teraz zagrasz też na iPadzie
+Gra i gracze obok siebie na iPadzie
+Punkty i misje w jednym spojrzeniu
+
+### 앱스토어 (Svenska)
+
+Nu kan ni spela på iPad också
+Spel och spelare sida vid sida på iPad
+Poäng och uppdrag i en blick
+
+### 앱스토어 (Türkçe)
+
+Artık iPad'de de oynayabilirsiniz
+iPad'de oyun ve oyuncular yan yana
+Puanlar ve görevler tek bakışta
+
 ## 1.0.3
 
 ### 앱스토어 (한국어)
