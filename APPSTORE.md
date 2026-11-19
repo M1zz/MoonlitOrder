@@ -75,7 +75,7 @@ Offline fun for nearby friends
 
 ### 키워드
 
-bluetooth,wifi,multiplayer,deduction,werewolf,mafia,drawing,guessing,bluffing,sleepover,camp,family
+pass and play,icebreaker,liar,road trip,game night,charades,imposter,bluffing,werewolf,deduction
 
 ### 프로모션 텍스트
 
@@ -201,7 +201,7 @@ https://m1zz.github.io/MoonlitOrder/en-GB/
 
 ### 키워드
 
-ライアーゲーム,人狼,ボードゲーム,推理,お絵かき,飲み会,合宿,Bluetooth,Wi-Fi,マルチプレイ,友達,家族,通信,宴会,集まり,レクリエーション,アイスブレイク,修学旅行,二次会
+ライアーゲーム,正体隠匿,ゲーム会,騙し合い,みんなで遊べる,対面,友達と遊べる,協力ゲーム,ワードウルフ,アイスブレイク,レクリエーション,集まり,合宿,宴会,推理,二次会,Bluetooth,家族
 
 ### 프로모션 텍스트
 
@@ -264,7 +264,7 @@ https://m1zz.github.io/MoonlitOrder/ja/
 
 ### 키워드
 
-说谎者,狼人杀,桌游,推理,你画我猜,聚会,团建,聚餐,蓝牙,无网络,多人,联机,家庭,破冰,聚会游戏,身份推理,谁是卧底,近距离,线下聚会,同乐,多人游戏,朋友聚会,宿舍,室友,周末
+说谎者,身份推理,近距离,线下聚会,同乐,团建游戏,局域网,面对面,猜词,聚会小游戏,单机多人,卧底,聚餐,破冰,团建,蓝牙,周末,推理,家庭,室友,朋友聚会,宿舍,聚会,谁是卧底,多人游戏,你画我猜
 
 ### 프로모션 텍스트
 
