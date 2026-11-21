@@ -149,7 +149,7 @@ struct GameView: View {
                     Button {
                         game.advanceDemo()
                     } label: {
-                        Label("다음", systemImage: "forward.fill")
+                        Label("다음", systemImage: TextDirection.nextSymbol)
                             .font(.subheadline.bold())
                             .padding(.vertical, 10)
                             .padding(.horizontal, 18)

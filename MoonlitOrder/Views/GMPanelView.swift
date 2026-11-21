@@ -79,7 +79,7 @@ struct GMPanelView: View {
                 Button {
                     confirmAdvance = true
                 } label: {
-                    Label("단계 강제 진행", systemImage: "forward.fill")
+                    Label("단계 강제 진행", systemImage: TextDirection.nextSymbol)
                         .font(.subheadline.bold())
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 12)

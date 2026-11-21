@@ -185,7 +185,7 @@ struct SketchGameView: View {
                 Button {
                     game.advanceDemo()
                 } label: {
-                    Label("다음", systemImage: "forward.fill")
+                    Label("다음", systemImage: TextDirection.nextSymbol)
                         .font(.subheadline.bold())
                         .padding(.vertical, 10).padding(.horizontal, 18)
                         .background(Capsule().fill(Theme.gold.opacity(0.25)))

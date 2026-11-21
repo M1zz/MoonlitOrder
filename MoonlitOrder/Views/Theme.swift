@@ -307,6 +307,9 @@ enum TextDirection {
     /// 글 방향을 따르는 화살표 ("처음 → 나중"). 아랍어에서는 ←.
     static var arrow: String { isRTL ? "←" : "→" }
 
+    /// '다음' 단추의 ▶▶. 재생 기호는 저절로 뒤집히지 않아서 아랍어에서는 ◀◀ 로 (글이 나아가는 쪽).
+    static var nextSymbol: String { isRTL ? "backward.fill" : "forward.fill" }
+
     /// "+15" 처럼 기호가 붙은 숫자를 글 방향과 떼어 둔다. 아랍어에서 "15+" 로 뒤집히지 않게.
     static func isolated(_ s: String) -> String { "\u{2066}\(s)\u{2069}" }
 }
