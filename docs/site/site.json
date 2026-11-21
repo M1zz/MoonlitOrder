@@ -23,7 +23,8 @@
     "tr": "Ay Oyun Salonu",
     "vi": "Phòng Game Ánh Trăng",
     "zh-Hans": "月光游戏厅",
-    "zh-Hant": "月光遊戲廳"
+    "zh-Hant": "月光遊戲廳",
+    "ar": "صالة ألعاب القمر"
   },
   "url": "https://m1zz.github.io/MoonlitOrder/",
   "appStoreId": "6790137862",
@@ -65,6 +66,7 @@
     {"code": "nl", "path": "nl/", "name": "Nederlands"},
     {"code": "pl", "path": "pl/", "name": "Polski"},
     {"code": "sv", "path": "sv/", "name": "Svenska"},
-    {"code": "tr", "path": "tr/", "name": "Türkçe"}
+    {"code": "tr", "path": "tr/", "name": "Türkçe"},
+    {"code": "ar", "path": "ar/", "name": "العربية"}
   ]
 }

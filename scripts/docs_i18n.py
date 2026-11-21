@@ -16,7 +16,7 @@ LANGS = [("ko", "한국어"), ("en", "English"), ("en-GB", "English (UK)"), ("ja
          ("de", "Deutsch"), ("fr", "Français"), ("it", "Italiano"), ("pt-BR", "Português (Brasil)"),
          ("th", "ไทย"), ("vi", "Tiếng Việt"), ("cs", "Čeština"), ("da", "Dansk"), ("el", "Ελληνικά"),
          ("fi", "Suomi"), ("id", "Bahasa Indonesia"), ("nb", "Norsk bokmål"), ("nl", "Nederlands"),
-         ("pl", "Polski"), ("sv", "Svenska"), ("tr", "Türkçe")]
+         ("pl", "Polski"), ("sv", "Svenska"), ("tr", "Türkçe"), ("ar", "العربية")]
 CSS = (".langs{display:flex;flex-wrap:wrap;gap:4px 12px;justify-content:center;margin-top:16px;font-size:13px}"
        ".langs a{color:var(--muted);text-decoration:none}.langs a[aria-current]{color:var(--gold);font-weight:700}")
 
