@@ -15,7 +15,7 @@ RAW = ROOT / "docs" / "screenshots" / "raw"
 OUT = ROOT / "docs" / "screenshots" / "marketing"
 WORK = pathlib.Path("/tmp") / "moonlit-marketing"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl-NL", "pl": "pl", "sv": "sv", "tr": "tr"}
+STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl-NL", "pl": "pl", "sv": "sv", "tr": "tr", "ar": "ar"}
 
 # (원본 파일, 헤드라인, 서브카피) — 언어마다 따로 쓴다.
 SHOTS = {
@@ -187,6 +187,13 @@ SHOTS = {
         ("04-draw.png", "Çiz,<br>tahmin et", "Ay Atölyesi’nde biri çizer, diğerleri tahmin eder"),
         ("05-result.png", "Ne kadar hızlı,<br>o kadar çok puan", "15 kişiye kadar birlikte oyna"),
     ],
+    "ar": [
+        ("01-home.png", "اجتمعوا<br>والعبوا فورًا", "أجهزة iPhone القريبة تتصل دون إنترنت"),
+        ("02-role.png", "دورك<br>لا يعرفه غيرك", "اكشف الظلال المختبئة في رابطة ضوء القمر"),
+        ("03-vote.png", "موافقة<br>أم رفض؟", "لحظة كشف الأصوات تنقلب اللعبة"),
+        ("04-draw.png", "ارسم<br>وخمّن", "واحد يرسم والباقون يخمّنون في مرسم القمر"),
+        ("05-result.png", "خمّن أسرع<br>واجمع نقاطًا أكثر", "العبوا معًا حتى 15 صديقًا"),
+    ],
 }
 
 DEVICES = {
@@ -210,7 +217,7 @@ body { background:linear-gradient(180deg,#0F1226 0%%,#21173D 100%%); position:re
 .dev img { width:100%%; display:block; border-radius:%(IR)dpx; }
 """
 
-HTML = """<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><style>{css}</style></head>
+HTML = """<!doctype html><html lang="{lang}" dir="{dir}"><head><meta charset="utf-8"><style>{css}</style></head>
 <body><div class="glow"></div><div class="t"><div class="headline">{h}</div><div class="sub">{s}</div></div>
 <div class="dev"><img src="{img}"></div></body></html>"""
 
@@ -227,7 +234,7 @@ def render(lang, device):
     for fname, h, s in SHOTS[lang]:
         img = src / fname
         html = WORK / f"{lang}-{device}-{fname}.html"
-        html.write_text(HTML.format(lang=lang, css=css, h=h, s=s, img=img.as_uri()), encoding="utf-8")
+        html.write_text(HTML.format(lang=lang, dir="rtl" if lang == "ar" else "ltr", css=css, h=h, s=s, img=img.as_uri()), encoding="utf-8")
         target = out / f"{prefix}{fname}"
         # 다른 세션의 Chrome 과 겹치면 가끔 실패하거나 끝나지 않는다 — 새 프로필로 다시 시도한다.
         for attempt in range(4):
