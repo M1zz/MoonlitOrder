@@ -146,6 +146,12 @@
             "state" : "translated",
             "value" : "月光遊戲廳"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صالة ألعاب القمر"
+          }
         }
       }
     },
@@ -293,6 +299,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "需要訪問本地網路,才能直接連線附近朋友的iPhone,一起玩派對遊戲。"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يحتاج التطبيق إلى الوصول إلى الشبكة المحلية ليتصل مباشرة بأجهزة iPhone لدى أصدقائك القريبين فتلعبوا معًا ألعابًا جماعية."
           }
         }
       }

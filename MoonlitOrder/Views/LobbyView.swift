@@ -70,7 +70,7 @@ struct LobbyView: View {
                 Button {
                     game.startGame()
                 } label: {
-                    Text(countOK ? String(localized: "게임 시작") : String(localized: "최소 \(GameRules.playerRange.lowerBound)명이 필요합니다"))
+                    Text(countOK ? String(localized: "게임 시작") : String(localized: "최소 \(GameRules.playerRange.lowerBound)명이 필요합니다", locale: .app))
                 }
                 .buttonStyle(BigButtonStyle())
                 .disabled(!countOK)

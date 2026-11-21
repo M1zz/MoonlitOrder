@@ -12,7 +12,7 @@ enum SketchStyle {
     static func colorName(_ i: Int) -> String {
         let names = [String(localized: "검정"), String(localized: "빨강"), String(localized: "주황"), String(localized: "노랑"), String(localized: "초록"), String(localized: "파랑"), String(localized: "보라"), String(localized: "갈색")]
         if i == SketchRules.eraserIndex { return String(localized: "지우개") }
-        return names.indices.contains(i) ? names[i] : String(localized: "색 \(i + 1)")
+        return names.indices.contains(i) ? names[i] : String(localized: "색 \(i + 1)", locale: .app)
     }
 
     /// VoiceOver 가 읽는 붓 굵기 이름 (SketchRules.brushWidths 순서와 같다)
@@ -264,7 +264,7 @@ struct SketchWordSelectView: View {
                                     Text(word)
                                         .font(.title3.bold()).foregroundColor(.white)
                                     Spacer()
-                                    Image(systemName: "chevron.right")
+                                    Image(systemName: "chevron.forward")
                                         .foregroundColor(Theme.mint)
                                         .accessibilityHidden(true)
                                 }
@@ -573,6 +573,8 @@ struct SketchCanvasView: View {
             .contentShape(Rectangle())
             .gesture(isDrawer ? drag(size: size) : nil)
         }
+        // 그림은 글이 아니다 — 아랍어에서도 뒤집지 않는다. 기기마다 글 방향이 달라도 같은 그림이 같은 자리에 그려진다
+        .environment(\.layoutDirection, .leftToRight)
         .accessibilityElement()
         .accessibilityLabel("그림판")
         .accessibilityAddTraits(.isImage)
@@ -639,7 +641,7 @@ struct SketchRoundResultView: View {
                         PlayerRow(
                             player: p,
                             isMe: p.id == game.playerID,
-                            trailing: gain > 0 ? "+\(gain)" : (isDrawer ? String(localized: "화가") : (solved ? String(localized: "정답") : "―"))
+                            trailing: gain > 0 ? TextDirection.isolated("+\(gain)") : (isDrawer ? String(localized: "화가") : (solved ? String(localized: "정답") : "―"))
                         )
                     }
                 }
@@ -693,7 +695,7 @@ struct SketchGameOverView: View {
                                 .foregroundColor(idx == 0 ? Theme.gold : .white.opacity(0.7))
                             PlayerRow(player: entry.player,
                                       isMe: entry.player.id == game.playerID,
-                                      trailing: String(localized: "\(entry.score)점"))
+                                      trailing: String(localized: "\(entry.score)점", locale: .app))
                         }
                         .accessibilityElement(children: .combine)
                     }

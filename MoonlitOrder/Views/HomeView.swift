@@ -50,7 +50,7 @@ struct HomeView: View {
                         .foregroundColor(.white.opacity(0.6))
                 }
                 Spacer()
-                Image(systemName: enabled ? "chevron.right" : "wrench.and.screwdriver")
+                Image(systemName: enabled ? "chevron.forward" : "wrench.and.screwdriver")
                     .font(.caption)
                     .foregroundColor(.white.opacity(0.4))
                     .accessibilityHidden(true)
@@ -330,7 +330,7 @@ struct BrowseView: View {
                 Button {
                     game.leaveGame()
                 } label: {
-                    Label("뒤로", systemImage: "chevron.left")
+                    Label("뒤로", systemImage: "chevron.backward")
                         .foregroundColor(.white)
                 }
                 Spacer()
@@ -378,7 +378,7 @@ struct BrowseView: View {
                                         }
                                     }
                                     Spacer()
-                                    Image(systemName: "chevron.right")
+                                    Image(systemName: "chevron.forward")
                                         .foregroundColor(.white.opacity(0.4))
                                         .accessibilityHidden(true)
                                 }

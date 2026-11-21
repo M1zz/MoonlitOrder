@@ -46,6 +46,7 @@ enum MoonlitOrderTipMoments {
         games.filter { count >= $0 }.map { threshold in
             LeeoTipMoment(id: "games.\(threshold)",
                           message: String(localized: "친구들과 \(count)판을 끝까지 함께했어요",
+                                          locale: .app,
                                           comment: "Tip ask card: how many party games this person finished with friends"))
         }
     }

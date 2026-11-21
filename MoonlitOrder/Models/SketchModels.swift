@@ -182,9 +182,25 @@ enum SketchRules {
 
     /// 추측 정답 판정용 정규화 (공백 제거 · 소문자 · 트림)
     static func normalize(_ s: String) -> String {
-        s.trimmingCharacters(in: .whitespacesAndNewlines)
+        foldArabic(s.trimmingCharacters(in: .whitespacesAndNewlines)
             .replacingOccurrences(of: " ", with: "")
-            .lowercased()
+            .lowercased())
+    }
+
+    /// 아랍어는 같은 낱말을 여러 꼴로 친다 (أ · إ · آ → ا, ى → ي, ة → ه, 모음 부호 · 늘임표 생략).
+    /// 다른 언어 글자는 건드리지 않는다.
+    private static func foldArabic(_ s: String) -> String {
+        var out = String.UnicodeScalarView()
+        for u in s.unicodeScalars {
+            switch u.value {
+            case 0x064B...0x065F, 0x0670, 0x0640: continue          // 모음 부호 · 늘임표(ـ)
+            case 0x0622, 0x0623, 0x0625, 0x0671: out.append("\u{0627}") // 아래위 함자 붙은 알리프 → ا
+            case 0x0649: out.append("\u{064A}")                       // ى → ي
+            case 0x0629: out.append("\u{0647}")                       // ة → ه
+            default: out.append(u)
+            }
+        }
+        return String(out)
     }
 
     // MARK: 점수

@@ -264,16 +264,16 @@ struct MissionTrackView: View {
         let record = state.missionHistory.first { $0.round == round }
         var parts: [String] = []
         if let record {
-            parts.append(String(localized: "\(round)번째 원정"))
+            parts.append(String(localized: "\(round)번째 원정", locale: .app))
             parts.append(record.succeeded ? String(localized: "원정 성공!") : String(localized: "원정 실패…"))
         } else {
-            parts.append(state.round == round ? String(localized: "\(round)번째 원정 진행 중")
-                                              : String(localized: "\(round)번째 원정"))
+            parts.append(state.round == round ? String(localized: "\(round)번째 원정 진행 중", locale: .app)
+                                              : String(localized: "\(round)번째 원정", locale: .app))
             if state.teamSizes.indices.contains(index) {
-                parts.append(String(localized: "원정대 \(state.teamSizes[index])명"))
+                parts.append(String(localized: "원정대 \(state.teamSizes[index])명", locale: .app))
             }
             if state.failsRequired.indices.contains(index), state.failsRequired[index] > 1 {
-                parts.append(String(localized: "이번 원정은 실패 카드가 \(state.failsRequired[index])장 나와야 실패합니다"))
+                parts.append(String(localized: "이번 원정은 실패 카드가 \(state.failsRequired[index])장 나와야 실패합니다", locale: .app))
             }
         }
         return parts.joined(separator: ", ")
@@ -283,4 +283,30 @@ struct MissionTrackView: View {
         guard let record else { return Color.white.opacity(0.12) }
         return record.succeeded ? Theme.moonlit.opacity(0.85) : Theme.shadow.opacity(0.85)
     }
+}
+
+// MARK: - 글 방향 · 숫자 (아랍어)
+
+extension Locale {
+    /// 화면에 쓰는 로케일. 아랍어에서는 숫자를 0-9 로 맞춘다 — 사우디 기기는 ١٢٣ 이 기본이라
+    /// 타이머 · 점수처럼 그대로 찍는 숫자(0-9)와 "الجولة ١ من ٥" 같은 글이 한 화면에 섞였다. 다른 언어는 기기 그대로.
+    static let app: Locale = {
+        let current = Locale.current
+        guard Bundle.main.preferredLocalizations.first == "ar" else { return current }
+        var parts = Locale.Components(locale: current)
+        parts.numberingSystem = Locale.NumberingSystem("latn")
+        return Locale(components: parts)
+    }()
+}
+
+enum TextDirection {
+    /// 앱이 오른쪽에서 왼쪽으로 쓰는 언어(아랍어)로 떠 있는가
+    static let isRTL: Bool =
+        Locale.Language(identifier: Bundle.main.preferredLocalizations.first ?? "ko").characterDirection == .rightToLeft
+
+    /// 글 방향을 따르는 화살표 ("처음 → 나중"). 아랍어에서는 ←.
+    static var arrow: String { isRTL ? "←" : "→" }
+
+    /// "+15" 처럼 기호가 붙은 숫자를 글 방향과 떼어 둔다. 아랍어에서 "15+" 로 뒤집히지 않게.
+    static func isolated(_ s: String) -> String { "\u{2066}\(s)\u{2069}" }
 }

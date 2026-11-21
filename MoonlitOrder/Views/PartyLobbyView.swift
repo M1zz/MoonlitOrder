@@ -62,7 +62,7 @@ struct PartyLobbyView: View {
 
             if game.isHost {
                 Button(action: onStart) {
-                    Text(countOK ? String(localized: "게임 시작") : String(localized: "최소 \(range.lowerBound)명이 필요합니다"))
+                    Text(countOK ? String(localized: "게임 시작") : String(localized: "최소 \(range.lowerBound)명이 필요합니다", locale: .app))
                 }
                 .buttonStyle(BigButtonStyle())
                 .disabled(!countOK)

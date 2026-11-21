@@ -313,7 +313,7 @@ struct WolfNightView: View {
                     }
                     .padding(.horizontal, 20)
                     if let choice = centerChoice {
-                        confirmButton(title: String(localized: "중앙 \(choice + 1)번 카드 확인하기")) {
+                        confirmButton(title: String(localized: "중앙 \(choice + 1)번 카드 확인하기", locale: .app)) {
                             game.performWolf(.nightAction(targets: [], centers: [choice]))
                         }
                     }
@@ -634,7 +634,7 @@ struct WolfGameOverView: View {
         let roleText: String = {
             guard let final else { return "?" }
             if let original, original != final {
-                return "\(original.displayName) → \(final.displayName)"
+                return "\(original.displayName) \(TextDirection.arrow) \(final.displayName)"
             }
             return final.displayName
         }()

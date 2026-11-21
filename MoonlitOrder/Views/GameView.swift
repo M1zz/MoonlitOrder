@@ -252,7 +252,7 @@ struct PhaseTimerView: View {
                 .background(
                     Capsule().fill((urgent ? Theme.shadow : Color.white).opacity(0.15))
                 )
-                .accessibilityLabel(remaining > 0 ? String(localized: "남은 시간 \(remaining)초")
+                .accessibilityLabel(remaining > 0 ? String(localized: "남은 시간 \(remaining)초", locale: .app)
                                                   : String(localized: "시간 초과"))
         }
     }

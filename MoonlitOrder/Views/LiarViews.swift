@@ -552,7 +552,7 @@ struct LiarGameOverView: View {
                             .flatMap { state.player($0)?.name } ?? "-"
                         PlayerRow(player: p,
                                   isMe: p.id == game.playerID,
-                                  trailing: "→ \(targetName)")
+                                  trailing: "\(TextDirection.arrow) \(targetName)")
                     }
                     // 고마운 순간: 친구들과 마친 판 수가 기준을 넘으면 응원 부탁 카드가 선다
                     GameOverTipAsk()

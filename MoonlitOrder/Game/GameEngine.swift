@@ -295,7 +295,7 @@ final class GameEngine {
             phase = .mission
         } else if voteTrack >= GameRules.maxRejections {
             endGame(winner: .shadow,
-                    reason: String(localized: "원정대 구성이 \(GameRules.maxRejections)회 연속 부결되어 그림자 진영이 승리했습니다."))
+                    reason: String(localized: "원정대 구성이 \(GameRules.maxRejections)회 연속 부결되어 그림자 진영이 승리했습니다.", locale: .app))
         } else {
             advanceLeader()
             proposedTeam = []

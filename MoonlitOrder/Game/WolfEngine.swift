@@ -211,7 +211,7 @@ final class WolfEngine {
             if wolves.count == 1 {
                 // 외톨이 도깨비: 중앙 1장 확인
                 guard centers.count == 1, validCenters, let i = centers.first else { return }
-                nightResults[playerID] = String(localized: "중앙 \(i + 1)번 카드는 '\(center[i].displayName)'입니다.")
+                nightResults[playerID] = String(localized: "중앙 \(i + 1)번 카드는 '\(center[i].displayName)'입니다.", locale: .app)
             } else {
                 nightResults[playerID] = nil   // 동료 정보는 packmates로 이미 전달됨
             }
@@ -364,7 +364,7 @@ final class WolfEngine {
         return Dictionary(uniqueKeysWithValues: players.map { p in
             let secret = p.originalRole == p.currentRole
                 ? p.originalRole.displayName
-                : "\(p.originalRole.displayName) → \(p.currentRole.displayName)"
+                : "\(p.originalRole.displayName) \(TextDirection.arrow) \(p.currentRole.displayName)"
             return (p.id, secret)
         })
     }

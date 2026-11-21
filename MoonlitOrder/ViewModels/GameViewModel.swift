@@ -432,7 +432,7 @@ final class GameViewModel: ObservableObject {
                 recordRoute(playerID: pid, via: peer)
             case .rejectedFull:
                 service?.send(.toPlayer(playerID: pid,
-                                        message: .rejected(reason: String(localized: "정원이 가득 찼습니다. (최대 \(activeMaxPlayers)명)"))),
+                                        message: .rejected(reason: String(localized: "정원이 가득 찼습니다. (최대 \(activeMaxPlayers)명)", locale: .app))),
                               to: peer)
                 disconnectIfDirect(pid, peer: peer)
             case .rejectedInProgress:
