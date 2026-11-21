@@ -10,9 +10,9 @@ set -u
 cd "$(dirname "$0")/.."
 
 DEV=$1; shift
-APP=build/dd/Build/Products/Debug-iphonesimulator/MoonlitOrder.app
+APP=${APP:-build/dd/Build/Products/Debug-iphonesimulator/MoonlitOrder.app}
 BUNDLE=com.example.MoonlitOrder
-ALL=(ko en en-GB ja zh-Hans zh-Hant ru es de fr it pt-BR th vi cs da el fi id nb nl pl sv tr)
+ALL=(ko en en-GB ja zh-Hans zh-Hant ru es de fr it pt-BR th vi cs da el fi id nb nl pl sv tr ar)
 if (( $# )); then LANGS=($@); else LANGS=($ALL); fi
 SCENES=(home role vote draw result)
 
@@ -32,7 +32,7 @@ locale_of() {
     ja) echo ja_JP ;; ru) echo ru_RU ;; es) echo es_ES ;; de) echo de_DE ;; fr) echo fr_FR ;; it) echo it_IT ;;
     pt-BR) echo pt_BR ;; th) echo th_TH ;; vi) echo vi_VN ;; cs) echo cs_CZ ;; da) echo da_DK ;; el) echo el_GR ;;
     fi) echo fi_FI ;; id) echo id_ID ;; nb) echo nb_NO ;; nl) echo nl_NL ;; pl) echo pl_PL ;; sv) echo sv_SE ;;
-    tr) echo tr_TR ;; *) echo en_US ;;
+    tr) echo tr_TR ;; ar) echo "ar_SA@calendar=gregorian;numbers=latn" ;; *) echo en_US ;;
   esac
 }
 
