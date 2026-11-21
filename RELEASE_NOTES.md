@@ -146,6 +146,12 @@ Artık iPad'de de oynayabilirsiniz
 iPad'de oyun ve oyuncular yan yana
 Puanlar ve görevler tek bakışta
 
+### 앱스토어 (아랍어)
+
+الآن يمكنكم اللعب معًا على iPad أيضًا
+اللعبة واللاعبون جنبًا إلى جنب
+النقاط وتقدّم المهمات بنظرة واحدة
+
 ## 1.0.3
 
 ### 앱스토어 (한국어)
