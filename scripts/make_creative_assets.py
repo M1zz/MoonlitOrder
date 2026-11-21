@@ -24,9 +24,9 @@ OUT = ROOT / "docs" / "screenshots" / "creative"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 # 문구 언어 → App Store Connect 로케일
-STORE = {"en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl-NL", "pl": "pl", "sv": "sv", "tr": "tr"}
+STORE = {"en": "en-US", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl-NL", "pl": "pl", "sv": "sv", "tr": "tr", "ar": "ar"}
 # 문구 언어 → 기기 화면 캡처 폴더
-SCREEN = {"ko": "ko", "en": "en", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl", "pl": "pl", "sv": "sv", "tr": "tr"}   # 언어마다 docs/screenshots/raw/creative/<언어>/ 캡처
+SCREEN = {"ko": "ko", "en": "en", "en-GB": "en-GB", "ja": "ja", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl", "pl": "pl", "sv": "sv", "tr": "tr", "ar": "ar"}   # 언어마다 docs/screenshots/raw/creative/<언어>/ 캡처
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -61,6 +61,7 @@ SEARCH = {
     "pl": ("Gry imprezowe", "Spotykacie się —<br>od razu gracie", "Od Gry w Kłamcę po rysuj i zgaduj<br>bez internetu"),
     "sv": ("Festspel", "Samlas,<br>spela direkt", "Från Lögnarspelet till rita och gissa<br>helt utan internet"),
     "tr": ("Parti oyunları", "Toplanın,<br>hemen oynayın", "Yalancı Oyunu’ndan çizip tahmin etmeye<br>internetsiz"),
+    "ar": ("ألعاب جماعية", "اجتمعوا<br>وابدؤوا جولة", "من لعبة الكذاب إلى الرسم والتخمين<br>بدون إنترنت"),
 }
 
 # 헤더: 처음 온 사람에게 한 가지 약속.
@@ -89,6 +90,7 @@ HEADER = {
     "pl": ("Gry imprezowe w pobliżu", "Wyjmij telefon<br>i graj razem"),
     "sv": ("Festspel i närheten", "Ta fram telefonen<br>och spela tillsammans"),
     "tr": ("Yakındaki parti oyunları", "Telefonunu çıkar,<br>birlikte oynayın"),
+    "ar": ("ألعاب جماعية مع القريبين", "أخرجوا هواتفكم<br>والعبوا معًا"),
 }
 
 # 바탕 · 글자색은 앱의 색이다(Views/Theme.swift): 남색→보라 그라데이션 배경, 포인트 금색(Theme.gold).
@@ -167,12 +169,15 @@ def search_html(lang):
     col = int(sw * 0.56)
     ph_w = 1040
     ph_left = l + col + int(sw * 0.04)
+    text_left = l
+    if lang == "ar":   # 오른쪽에서 왼쪽으로 읽는 언어는 글이 오른쪽, 폰이 왼쪽
+        ph_left, text_left = W - ph_left - ph_w, r - col   # 좌우 거울 (안전 영역이 가운데 대칭)
     return f"""
 <div class="glow" style="left:{ph_left - 300}px;top:500px;width:1700px;height:1700px;background:rgba(115,190,255,.16)"></div>
 <div class="glow" style="left:{l - 700}px;top:{t - 500}px;width:1400px;height:1000px;background:rgba(242,199,89,.07)"></div>
 {stars(W, H, 7, 160)}
 {phone(shot(lang, "01-home.png"), ph_left, t - 360, ph_w, 0)}
-<div class="text" style="left:{l}px;top:{t}px;width:{col}px;height:{sh}px">
+<div class="text" style="left:{text_left}px;top:{t}px;width:{col}px;height:{sh}px">
   <div class="eyebrow" style="font-size:96px">{eyebrow}</div>
   <div class="headline" data-max="250" data-min="140" style="margin-top:36px">{headline}</div>
   <div class="sub" style="font-size:84px;margin-top:52px">{sub}</div>
@@ -198,7 +203,7 @@ def header_html(lang):
 def render(lang, kind):
     W, H, _ = SPEC[kind]
     body = search_html(lang) if kind == "search" else header_html(lang)
-    page = (f'<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><style>'
+    page = (f'<!doctype html><html lang="{lang}" dir="{"rtl" if lang == "ar" else "ltr"}"><head><meta charset="utf-8"><style>'
             f'{BASE_CSS % {"W": W, "H": H}}</style></head><body>{body}{FIT_JS}</body></html>')
     html_path = pathlib.Path(tempfile.gettempdir()) / f"moonlitorder-creative-{lang}-{kind}.html"
     html_path.write_text(page, encoding="utf-8")
