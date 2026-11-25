@@ -53,6 +53,7 @@ struct RootView: View {
     @Environment(\.horizontalSizeClass) private var sizeClass
     @State private var showSupport = false
     @State private var showGraduation = false
+    @State private var showSalePaywall = false
     /// 아이폰 듀오를 폈을 때 첫 화면 오른쪽(위)에 소개가 서는 게임 (→ FoldPanes.swift)
     @State private var foldMenuKind: GameViewModel.GameKind = .moonlit
     @AppStorage(MoonlitOrderOnboarding.hasSeenOnboardingKey) private var hasSeenOnboarding = false
@@ -144,6 +145,11 @@ struct RootView: View {
         // 단축어 · Siri 로 잠긴 게임의 방을 열려 했을 때
         .sheet(item: $game.lockedHostKind) { kind in
             ProPaywallView(lockedKind: kind)
+        }
+        // 할인 기간이면 앱을 연 뒤 한 번 할인 배너를 띄운다. 단추는 Pro 요금제를 연다 (LeeoKit).
+        .leeoSaleBanner { showSalePaywall = true }
+        .sheet(isPresented: $showSalePaywall) {
+            ProPaywallView()
         }
         // 구독 6개월째 · 갱신 7일 전에 한 번씩, 홈에서만
         .sheet(isPresented: $showGraduation) {
