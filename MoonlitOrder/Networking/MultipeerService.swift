@@ -231,10 +231,7 @@ final class MultipeerService: NSObject {
         // 자식들이 스스로 다른 접속 지점(호스트/다른 릴레이)에 재접속한다.
         teardownRelay()
         // 끊어진 MCSession의 재사용은 불안정하므로 초대할 때마다 새 세션을 쓴다.
-        for s in sessions {
-            s.delegate = nil
-            s.disconnect()
-        }
+        Self.retire(sessions)
         sessions.removeAll()
         peerSession.removeAll()
         let session = makeSession()
@@ -269,12 +266,10 @@ final class MultipeerService: NSObject {
 
     /// 릴레이 역할 종료 — 자식 연결과 광고를 정리한다.
     private func teardownRelay() {
-        advertiser?.stopAdvertisingPeer()
+        Self.retire([advertiser, childSession].compactMap { $0 })
         advertiser = nil
         advertiserActive = false
         relayDesired = false
-        childSession?.delegate = nil
-        childSession?.disconnect()
         childSession = nil
         childPeers.removeAll()
         childForPlayer.removeAll()
@@ -410,19 +405,46 @@ final class MultipeerService: NSObject {
         isInviting = false
         inviteGeneration += 1
         teardownRelay()
-        advertiser?.stopAdvertisingPeer()
+        Self.retire(sessions + [advertiser, browser].compactMap { $0 })
         advertiser = nil
         advertisingDesired = false
         advertiserActive = false
-        browser?.stopBrowsingForPeers()
         browser = nil
         isBrowsing = false
-        for session in sessions { session.disconnect() }
         sessions.removeAll()
         peerSession.removeAll()
         discovered.removeAll()
         hostPeer = nil
         joinedRoom = nil
+    }
+
+    /// 세션 · 광고 · 탐색 객체를 끄고 놓는다.
+    ///
+    /// MPC 는 끈 뒤에도 자기 큐와 런루프에서 콜백을 잠깐 더 보낸다. 끄자마자 마지막 참조를 놓으면
+    /// 해제되는 중인 객체가 그 콜백으로 넘어와 앱이 죽었다 — 1.0.2 진단 5건: 메인 큐 블록을 치우다
+    /// 클로저가 잡은 MCSession 을 놓는 objc_release 에서 SEGV, CFNetwork 런루프 콜백 안의 trap.
+    /// 그래서 대리자를 먼저 끊어 늦은 콜백이 우리에게 오지 않게 하고, 콜백이 다 지나갈 때까지
+    /// 잠시 붙잡아 두었다가 놓는다.
+    private static func retire(_ objects: [NSObject]) {
+        guard !objects.isEmpty else { return }
+        for object in objects {
+            switch object {
+            case let session as MCSession:
+                session.delegate = nil
+                session.disconnect()
+            case let advertiser as MCNearbyServiceAdvertiser:
+                advertiser.delegate = nil
+                advertiser.stopAdvertisingPeer()
+            case let browser as MCNearbyServiceBrowser:
+                browser.delegate = nil
+                browser.stopBrowsingForPeers()
+            default:
+                break
+            }
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            withExtendedLifetime(objects) {}
+        }
     }
 
     /// 같은 방(roomID)의 광고가 여럿(호스트 + 릴레이들)일 수 있으므로
