@@ -1,5 +1,157 @@
 # 릴리즈 노트
 
+## 1.0.6
+
+### 앱스토어 (한국어)
+
+게임을 끝내거나 다시 연결할 때 꺼지던 문제를 고쳤어요
+보낸 의견이 채택되면 감사 선물을 드려요
+더 안정적으로 움직이도록 다듬었어요
+
+### App Store (English)
+
+Fixed a crash when ending a game or reconnecting
+Get a thank-you gift when we use your idea
+Smoother and more reliable overall
+
+### App Store (en-GB)
+
+Fixed a crash when ending a game or reconnecting
+Get a thank-you gift when we use your idea
+Smoother and more reliable overall
+
+### App Store (Japanese)
+
+ゲーム終了や再接続のときに落ちる問題を修正しました
+ご意見が採用されるとお礼のギフトが届きます
+全体的に動作がより安定しました
+
+### App Store (zh-Hans)
+
+修复了结束游戏或重新连接时闪退的问题
+你的建议被采纳后，会收到一份感谢礼物
+整体运行更加稳定流畅
+
+### App Store (zh-Hant)
+
+修正了結束遊戲或重新連線時閃退的問題
+你的建議被採納後，會收到一份感謝禮物
+整體運作更加穩定流暢
+
+### App Store (Russian)
+
+Исправлен вылет при выходе из игры и переподключении
+Если мы примем ваш отзыв, вас ждёт подарок
+Приложение работает стабильнее
+
+### App Store (Spanish)
+
+Ya no se cierra al terminar o reconectar
+Si adoptamos tu idea, te enviamos un regalo
+Funciona de forma más estable y fluida
+
+### App Store (German)
+
+Absturz beim Beenden oder Neuverbinden behoben
+Danke-Geschenk für umgesetzte Vorschläge
+Läuft jetzt stabiler und flüssiger
+
+### App Store (French)
+
+Plus de plantage en fin de partie ou à la reconnexion
+Un cadeau si nous retenons votre idée
+Plus stable et plus fluide
+
+### App Store (Italian)
+
+Niente più crash a fine partita o alla riconnessione
+Un regalo se scegliamo la tua idea
+Più stabile e fluida
+
+### App Store (pt-BR)
+
+Corrigimos o fechamento ao sair ou reconectar
+Ganhe um presente se usarmos sua ideia
+Mais estável e fluido
+
+### App Store (Thai)
+
+แก้ปัญหาแอปปิดเองเมื่อจบเกมหรือเชื่อมต่อใหม่
+รับของขวัญเมื่อเรานำไอเดียของคุณไปใช้
+ทำงานได้ลื่นไหลและเสถียรขึ้น
+
+### App Store (Vietnamese)
+
+Sửa lỗi bị tắt khi kết thúc ván hoặc kết nối lại
+Nhận quà khi góp ý của bạn được chọn
+Hoạt động ổn định và mượt mà hơn
+
+### App Store (Czech)
+
+Opraven pád při konci hry a opětovném připojení
+Za přijatý návrh dostanete dárek
+Stabilnější a plynulejší chod
+
+### App Store (Danish)
+
+Rettet nedbrud ved spilslut og genforbindelse
+Få en gave, når vi bruger din idé
+Kører mere stabilt og glat
+
+### App Store (Greek)
+
+Διορθώθηκε το κλείσιμο στο τέλος παιχνιδιού ή σε επανασύνδεση
+Ένα δώρο αν υιοθετήσουμε την ιδέα σας
+Πιο σταθερή και ομαλή λειτουργία
+
+### App Store (Finnish)
+
+Korjattu kaatuminen pelin lopussa ja uudelleenyhdistäessä
+Saat lahjan, kun toteutamme ideasi
+Toimii vakaammin ja sujuvammin
+
+### App Store (Indonesian)
+
+Memperbaiki aplikasi tertutup saat game selesai atau sambung ulang
+Dapatkan hadiah saat ide Anda kami pakai
+Berjalan lebih stabil dan lancar
+
+### App Store (Norwegian)
+
+Rettet krasj ved spillslutt og ny tilkobling
+Få en gave når vi bruker ideen din
+Kjører mer stabilt og jevnt
+
+### App Store (Dutch)
+
+Crash bij einde spel of opnieuw verbinden opgelost
+Een cadeau als we jouw idee gebruiken
+Werkt stabieler en soepeler
+
+### App Store (Polish)
+
+Naprawiono zamykanie się po grze i przy ponownym łączeniu
+Prezent, gdy wykorzystamy Twój pomysł
+Działa stabilniej i płynniej
+
+### App Store (Swedish)
+
+Åtgärdat krasch vid spelslut och återanslutning
+Få en gåva när vi använder din idé
+Går stabilare och smidigare
+
+### App Store (Turkish)
+
+Oyun bitince veya yeniden bağlanınca kapanma düzeltildi
+Fikriniz kullanılırsa size bir hediye
+Daha kararlı ve akıcı çalışıyor
+
+### App Store (Arabic)
+
+إصلاح إغلاق التطبيق عند إنهاء اللعبة أو إعادة الاتصال
+هدية شكر عندما نعتمد اقتراحك
+أداء أكثر ثباتًا وسلاسة
+
 ## 1.0.5
 
 ### 앱스토어 (한국어)
