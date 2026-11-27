@@ -1,6 +1,7 @@
 import Foundation
 import MultipeerConnectivity
 import SwiftUI
+import LeeoKit
 
 /// 호스트/클라이언트 공용 뷰모델.
 /// 호스트일 때는 GameEngine을 직접 품고, 클라이언트일 때는 호스트에 메시지를 보낸다.
@@ -64,6 +65,7 @@ final class GameViewModel: ObservableObject {
     private func noteGameOver(was: Bool, now: Bool) {
         guard now, !was, !isDemo else { return }
         MoonlitOrderTipMoments.recordFinishedGame()
+        LeeoAnalyticsCenter.track(.custom(name: "game_finished", parameters: [:]))
         if isHost { MoonlitOrderTipMoments.recordHostedGame() }
     }
 
